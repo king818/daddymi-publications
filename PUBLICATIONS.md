@@ -68,7 +68,7 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 
 | Published | Series | Topic | Lang | Type | Title | Video ID | Playlist | Archive | Status |
 |---|---|---|---|---|---|---|---|---|---|
-| 2026-11-02 | Daily Verse · Neville Readings | Isaiah 41:10 | zh-Hant | Long | [每日經文 2026-10-26 · Neville 解讀｜不要害怕，祂與你同在——以賽亞書 41:10 內在解讀](https://youtu.be/KCUVl4_IFY0) | `KCUVl4_IFY0` | 每日經文 · Neville 解讀 2026（中文） | — | Public |
+| 2026-11-02 | Daily Verse · Neville Readings | Isaiah 41:10 | zh-Hant | Long | [每日經文 2026-10-26 · Neville 解讀｜不要害怕，祂與你同在——以賽亞書 41:10 內在解讀](https://youtu.be/KCUVl4_IFY0) | `KCUVl4_IFY0` | 每日經文 · Neville 解讀 2026（中文） | 1ca97d75-6bad-49aa-b6f9-338514bc4ca8 | Public |
 | 2026-11-01 | Daily Verse · Neville Readings | John 1:1 | 中文 | Long | [每日經文｜約翰福音 1:1 · 太初有道](https://youtu.be/j8QQMpXYTnQ) | `j8QQMpXYTnQ` | 每日經文 · Neville 解讀 2026（中文） | — | Live |
 | 2026-11-01 | Daily Verse · Neville Readings | John 1:1 | English | Long | [Daily Verse | John 1:1 · In the Beginning Was the Word](https://youtu.be/g9rPIhfN_Og) | `g9rPIhfN_Og` | Daily Verse · Neville Readings 2026 (English) | — | Live |
 | 2026-11-01 | Daily Verse · Neville Readings | John 1:1 | 中文 | Short (hook) | [每日經文｜約翰福音 1:1 · 太初不在遠古，就在你說「我是」的那一秒](https://www.youtube.com/shorts/7sJLw4yaPWw) | `7sJLw4yaPWw` | 每日經文 · Neville 解讀 2026（中文） | — | Live |
