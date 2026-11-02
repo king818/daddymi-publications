@@ -1418,4 +1418,76 @@ replaced_or_private:
   playlist: Daily Verse · Neville Readings 2026 (English)
   archive_note: ''
   status: Private — replaced by redo LdkiL-qLh4Q
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Hebrews 4:12
+  language: zh-Hant
+  type: Long
+  title: 每日經文 · Neville 解讀｜希伯來書 4:12 上帝的道是活的——兩刃之劍剖開魂與靈
+  published: "2026-11-02"
+  url: https://youtu.be/idi0AAWCKo0
+  native_id: idi0AAWCKo0
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: ""
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Hebrews 4:12
+  language: zh-Hant
+  type: Short (hook)
+  title: 每日經文｜希伯來書 4:12 決定你生命軌跡的，不是你想要什麼，而是你內心相信什麼 #Shorts
+  published: "2026-11-02"
+  url: https://youtu.be/Cnkfquzd4kk
+  native_id: Cnkfquzd4kk
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: ""
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Hebrews 4:12
+  language: zh-Hant
+  type: Short (funnel)
+  title: 每日經文｜希伯來書 4:12 三分鐘雙刃之劍：切開恐懼的假設，選一個新身份 #Shorts
+  published: "2026-11-02"
+  url: https://youtu.be/QLJHOFk7-aA
+  native_id: QLJHOFk7-aA
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: ""
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Hebrews 4:12
+  language: en
+  type: Long
+  title: Daily Verse · Hebrews 4:12 | The Word of God Is Alive — A Two-Edged Sword Dividing Soul and Spirit
+  published: "2026-11-02"
+  url: https://youtu.be/Xb6LjyfyW9g
+  native_id: Xb6LjyfyW9g
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: ""
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Hebrews 4:12
+  language: en
+  type: Short (hook)
+  title: Daily Verse · Hebrews 4:12 — Your Thoughts Say Confidence, Your Intent Expects Failure #Shorts
+  published: "2026-11-02"
+  url: https://youtube.com/shorts/1a1HPUkr3n4
+  native_id: 1a1HPUkr3n4
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: ""
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Hebrews 4:12
+  language: en
+  type: Short (funnel)
+  title: Daily Verse · Hebrews 4:12 — The Three-Minute Sword: Fact, or Unexamined Assumption? #Shorts
+  published: "2026-11-02"
+  url: https://youtube.com/shorts/jlQLTMGirbA
+  native_id: jlQLTMGirbA
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: ""
+  status: Public
 unverified: []
