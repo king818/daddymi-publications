@@ -2,13 +2,19 @@
 
 Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, filterable version: https://king818.github.io/daddymi-publications/
 
-**97 public videos** · 15 replaced/private versions · Come, Follow Me 2026: 48 · Daily Verse · Neville Readings: 18 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 18 · Neville Inner Reading Podcast: 7
+**103 public videos** · 15 replaced/private versions · Come, Follow Me 2026: 54 · Daily Verse · Neville Readings: 18 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 18 · Neville Inner Reading Podcast: 7
 
 
-## Come, Follow Me 2026 (48)
+## Come, Follow Me 2026 (54)
 
 | Published | Series | Topic | Lang | Type | Title | Video ID | Playlist | Archive | Status |
 |---|---|---|---|---|---|---|---|---|---|
+| 2026-11-02 | Come, Follow Me 2026 | Lesson 52 — Christmas Special | 中文 | Long | [來跟隨我 2026 第52週（12月21日–27日）｜我們素來等候祂，祂必拯救我們 · 聖誕特輯](https://youtu.be/DCqfsCQVlTA) | `DCqfsCQVlTA` | 來跟隨我 2026（中文） | — | Live — zh audio defect fixed by excision before publish; 48h spot-check due ~2026-11-04 |
+| 2026-11-02 | Come, Follow Me 2026 | Lesson 52 — Christmas Special | English | Long | [Come, Follow Me 2026 Week 52 (Dec 21–27) | We Have Waited for Him, and He Will Save Us — Christmas](https://youtu.be/gWNE-Bo1AP8) | `gWNE-Bo1AP8` | Come, Follow Me 2026 (English) | — | Live — subtitle track added in recovery pass before publish; 48h spot-check due ~2026-11-04 |
+| 2026-11-02 | Come, Follow Me 2026 | Lesson 52 — Christmas Special | 中文 | Short (hook) | [2026 第52週｜那些文字，不是寫給坐在溫暖壁爐旁的人](https://www.youtube.com/shorts/oAf9vnE-F2Q) | `oAf9vnE-F2Q` | 來跟隨我 2026（中文） | — | Live — 48h spot-check due ~2026-11-04 |
+| 2026-11-02 | Come, Follow Me 2026 | Lesson 52 — Christmas Special | 中文 | Short (funnel) | [2026 第52週｜七天聖誕操練：每天十分鐘，從讀經走向行動](https://www.youtube.com/shorts/WcjWwS72pj0) | `WcjWwS72pj0` | 來跟隨我 2026（中文） | — | Live — 48h spot-check due ~2026-11-04 |
+| 2026-11-02 | Come, Follow Me 2026 | Lesson 52 — Christmas Special | English | Short (hook) | [2026 Week 52 | Waiting on God Is Not Sitting in a Lobby](https://www.youtube.com/shorts/D5CYbjAGRlc) | `D5CYbjAGRlc` | Come, Follow Me 2026 (English) | — | Live — 48h spot-check due ~2026-11-04 |
+| 2026-11-02 | Come, Follow Me 2026 | Lesson 52 — Christmas Special | English | Short (funnel) | [2026 Week 52 | A Seven-Day Christmas Practice — Ten Minutes a Day](https://www.youtube.com/shorts/WEvxhjYZk5o) | `WEvxhjYZk5o` | Come, Follow Me 2026 (English) | — | Live — published while Studio checks were running; 48h spot-check due ~2026-11-04 |
 | 2026-11-02 | Come, Follow Me 2026 | Lesson 51 — Malachi | English | Long | [Come, Follow Me 2026 Week 51 (Dec 14–20) | I Have Loved You, Saith the Lord — Malachi](https://youtu.be/PDfCTm7ntxg) | `PDfCTm7ntxg` | Come, Follow Me 2026 (English) | Evernote Video Artifacts note 2a7ccb16-64b6-4d74-ad59-425e5cbedbb7 | Live — published 23:55 Nov 1–00:05 Nov 2; 48h spot-check due ~2026-11-04 |
 | 2026-11-02 | Come, Follow Me 2026 | Lesson 51 — Malachi | 中文 | Short (hook) | [2026 第51週｜祂說：我曾愛你們 #Shorts](https://www.youtube.com/shorts/7ZudwvQmBjs) | `7ZudwvQmBjs` | 來跟隨我 2026（中文） | Evernote Gospel note 9b261a2d-5ad4-489b-8546-c7373ae3c61f | Live — 48h spot-check due ~2026-11-04 |
 | 2026-11-02 | Come, Follow Me 2026 | Lesson 51 — Malachi | 中文 | Short (funnel) | [2026 第51週｜七天歸向主 #Shorts](https://www.youtube.com/shorts/sp07jnLxSwI) | `sp07jnLxSwI` | 來跟隨我 2026（中文） | Evernote Gospel note cb8cf701-99a2-41bd-87c2-f73914bcc46a | Live — 48h spot-check due ~2026-11-04 |
@@ -148,7 +154,3 @@ Same productions, kept for the record — not public.
 | 2026-10-30 | Neville Inner Reading Podcast | EP1 · 得失從緣，心無增減 (from 端端's WeChat tagline) | English | Short | [EP1 original Short (1:01, pre-redo)](https://youtu.be/MyWvEekwrh4) | `MyWvEekwrh4` | Neville Inner Reading Podcast 2026 (English) | — | Private — original Short (2026-10-30), replaced by redo Shorts set |
 | 2026-10-28 | Neville Inner Reading Podcast | EP1 · 得失從緣，心無增減 (from 端端's WeChat tagline) | 中文 | Long | [EP1《得失從緣，心無增減》普通話原版（重製前）](https://youtu.be/AP67ofaE8hI) | `AP67ofaE8hI` | Neville 內在解讀播客 2026（中文） | Evernote Video Artifacts note 50f63df3-bb13-4dbe-baf2-a8ac4859eac1 | Private — original version (2026-10-28), replaced by redo N6il_reJEao |
 | 2026-10-28 | Neville Inner Reading Podcast | EP1 · 得失從緣，心無增減 (from 端端's WeChat tagline) | English | Long | [EP1 English original (pre-redo)](https://youtu.be/Hmc6emlD1UQ) | `Hmc6emlD1UQ` | Neville Inner Reading Podcast 2026 (English) | Evernote Video Artifacts note 88e92add-17c4-4f7a-8c6e-f8b97622149b | Private — original version (2026-10-28), replaced by redo jmJ4g-uz7ls |
-
-## Unverified / pending
-
-- **CFM Lesson 52 (Christmas) — all 6 videos** — Produced but not yet published at build time. Next: Append rows when published.

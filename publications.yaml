@@ -578,6 +578,78 @@ publications:
   archive_note: Evernote Video Artifacts note 200239a9-0144-4ed8-bb98-339f0ceab022
   status: Live — 48h spot-check due ~2026-11-04
 - platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 52 — Christmas Special
+  language: zh
+  type: Long
+  title: 來跟隨我 2026 第52週（12月21日–27日）｜我們素來等候祂，祂必拯救我們 · 聖誕特輯
+  published: '2026-11-02'
+  url: https://youtu.be/DCqfsCQVlTA
+  native_id: DCqfsCQVlTA
+  playlist: 來跟隨我 2026（中文）
+  archive_note: ''
+  status: Live — zh audio defect fixed by excision before publish; 48h spot-check due ~2026-11-04
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 52 — Christmas Special
+  language: en
+  type: Long
+  title: Come, Follow Me 2026 Week 52 (Dec 21–27) | We Have Waited for Him, and He Will Save Us — Christmas
+  published: '2026-11-02'
+  url: https://youtu.be/gWNE-Bo1AP8
+  native_id: gWNE-Bo1AP8
+  playlist: Come, Follow Me 2026 (English)
+  archive_note: ''
+  status: Live — subtitle track added in recovery pass before publish; 48h spot-check due ~2026-11-04
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 52 — Christmas Special
+  language: zh
+  type: Short (hook)
+  title: '2026 第52週｜那些文字，不是寫給坐在溫暖壁爐旁的人'
+  published: '2026-11-02'
+  url: https://www.youtube.com/shorts/oAf9vnE-F2Q
+  native_id: oAf9vnE-F2Q
+  playlist: 來跟隨我 2026（中文）
+  archive_note: ''
+  status: Live — 48h spot-check due ~2026-11-04
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 52 — Christmas Special
+  language: zh
+  type: Short (funnel)
+  title: '2026 第52週｜七天聖誕操練：每天十分鐘，從讀經走向行動'
+  published: '2026-11-02'
+  url: https://www.youtube.com/shorts/WcjWwS72pj0
+  native_id: WcjWwS72pj0
+  playlist: 來跟隨我 2026（中文）
+  archive_note: ''
+  status: Live — 48h spot-check due ~2026-11-04
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 52 — Christmas Special
+  language: en
+  type: Short (hook)
+  title: '2026 Week 52 | Waiting on God Is Not Sitting in a Lobby'
+  published: '2026-11-02'
+  url: https://www.youtube.com/shorts/D5CYbjAGRlc
+  native_id: D5CYbjAGRlc
+  playlist: Come, Follow Me 2026 (English)
+  archive_note: ''
+  status: Live — 48h spot-check due ~2026-11-04
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 52 — Christmas Special
+  language: en
+  type: Short (funnel)
+  title: '2026 Week 52 | A Seven-Day Christmas Practice — Ten Minutes a Day'
+  published: '2026-11-02'
+  url: https://www.youtube.com/shorts/WEvxhjYZk5o
+  native_id: WEvxhjYZk5o
+  playlist: Come, Follow Me 2026 (English)
+  archive_note: ''
+  status: Live — published while Studio checks were running; 48h spot-check due ~2026-11-04
+- platform: YouTube
   series: Daily Verse · Neville Readings
   topic: Colossians 1:13
   language: zh
@@ -1346,7 +1418,4 @@ replaced_or_private:
   playlist: Daily Verse · Neville Readings 2026 (English)
   archive_note: ''
   status: Private — replaced by redo LdkiL-qLh4Q
-unverified:
-- item: CFM Lesson 52 (Christmas) — all 6 videos
-  reason: Produced but not yet published at build time.
-  action: Append rows when published.
+unverified: []
