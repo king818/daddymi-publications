@@ -2,7 +2,7 @@
 
 Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, filterable version: https://king818.github.io/daddymi-publications/
 
-**104 public videos** · 21 replaced/private versions · Come, Follow Me 2026: 54 · Daily Verse · Neville Readings: 19 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 18 · Neville Inner Reading Podcast: 7
+**106 public videos** · 21 replaced/private versions · Come, Follow Me 2026: 54 · Daily Verse · Neville Readings: 21 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 18 · Neville Inner Reading Podcast: 7
 
 
 ## Come, Follow Me 2026 (54)
@@ -64,11 +64,13 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-10-31 | Come, Follow Me 2026 | Lesson 44 — Jeremiah | English | Short (hook) | [2026 Week 44 | Buying a Field During the Siege | Jeremiah #Shorts](https://www.youtube.com/shorts/IjyHjcmV50c) | `IjyHjcmV50c` | Come, Follow Me 2026 (English) | — | Live |
 | 2026-10-31 | Come, Follow Me 2026 | Lesson 44 — Jeremiah | English | Short (funnel) | [2026 Week 44 | I Am a Covenant Keeper | Jeremiah #Shorts](https://www.youtube.com/shorts/qMRx3Sjj15k) | `qMRx3Sjj15k` | Come, Follow Me 2026 (English) | — | Live |
 
-## Daily Verse · Neville Readings (19)
+## Daily Verse · Neville Readings (21)
 
 | Published | Series | Topic | Lang | Type | Title | Video ID | Playlist | Archive | Status |
 |---|---|---|---|---|---|---|---|---|---|
 | 2026-11-02 | Daily Verse · Neville Readings | Isaiah 41:10 | zh-Hant | Long | [每日經文 2026-10-26 · Neville 解讀｜不要害怕，祂與你同在——以賽亞書 41:10 內在解讀](https://youtu.be/KCUVl4_IFY0) | `KCUVl4_IFY0` | 每日經文 · Neville 解讀 2026（中文） | 1ca97d75-6bad-49aa-b6f9-338514bc4ca8 | Public |
+| 2026-11-02 | Daily Verse · Neville Readings | Isaiah 41:10 | zh-Hant | Short (hook) | [每日經文 2026-10-26 · Neville 解讀｜恐懼不是沒有信心，是信心指錯了方向（以賽亞書 41:10）](https://youtube.com/shorts/0i2eaQr3vE4) | `0i2eaQr3vE4` | 每日經文 · Neville 解讀 2026（中文） | — | Public |
+| 2026-11-02 | Daily Verse · Neville Readings | Isaiah 41:10 | zh-Hant | Short (funnel) | [每日經文 2026-10-26 · Neville 解讀｜今晚的右手操練：恭喜你，一切都成了（以賽亞書 41:10）](https://youtube.com/shorts/OTFsNzh6zkQ) | `OTFsNzh6zkQ` | 每日經文 · Neville 解讀 2026（中文） | — | Public |
 | 2026-11-01 | Daily Verse · Neville Readings | John 1:1 | 中文 | Long | [每日經文｜約翰福音 1:1 · 太初有道](https://youtu.be/j8QQMpXYTnQ) | `j8QQMpXYTnQ` | 每日經文 · Neville 解讀 2026（中文） | — | Live |
 | 2026-11-01 | Daily Verse · Neville Readings | John 1:1 | English | Long | [Daily Verse | John 1:1 · In the Beginning Was the Word](https://youtu.be/g9rPIhfN_Og) | `g9rPIhfN_Og` | Daily Verse · Neville Readings 2026 (English) | — | Live |
 | 2026-11-01 | Daily Verse · Neville Readings | John 1:1 | 中文 | Short (hook) | [每日經文｜約翰福音 1:1 · 太初不在遠古，就在你說「我是」的那一秒](https://www.youtube.com/shorts/7sJLw4yaPWw) | `7sJLw4yaPWw` | 每日經文 · Neville 解讀 2026（中文） | — | Live |

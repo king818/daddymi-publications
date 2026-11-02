@@ -1249,6 +1249,30 @@ publications:
   archive_note: 1ca97d75-6bad-49aa-b6f9-338514bc4ca8
   playlist: 每日經文 · Neville 解讀 2026（中文）
   status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Isaiah 41:10
+  language: zh-Hant
+  type: Short (hook)
+  title: 每日經文 2026-10-26 · Neville 解讀｜恐懼不是沒有信心，是信心指錯了方向（以賽亞書 41:10）
+  published: "2026-11-02"
+  url: https://youtube.com/shorts/0i2eaQr3vE4
+  native_id: 0i2eaQr3vE4
+  archive_note: 
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Isaiah 41:10
+  language: zh-Hant
+  type: Short (funnel)
+  title: 每日經文 2026-10-26 · Neville 解讀｜今晚的右手操練：恭喜你，一切都成了（以賽亞書 41:10）
+  published: "2026-11-02"
+  url: https://youtube.com/shorts/OTFsNzh6zkQ
+  native_id: OTFsNzh6zkQ
+  archive_note: 
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  status: Public
 replaced_or_private:
 - platform: YouTube
   series: Neville Inner Reading Podcast
