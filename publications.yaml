@@ -1428,7 +1428,7 @@ replaced_or_private:
   url: https://youtu.be/idi0AAWCKo0
   native_id: idi0AAWCKo0
   playlist: 每日經文 · Neville 解讀 2026（中文）
-  archive_note: ""
+  archive_note: 8c400e41-9f29-4e72-9ed3-509c3a0d7a10
   status: Public
 - platform: YouTube
   series: Daily Verse · Neville Readings
@@ -1440,7 +1440,7 @@ replaced_or_private:
   url: https://youtu.be/Cnkfquzd4kk
   native_id: Cnkfquzd4kk
   playlist: 每日經文 · Neville 解讀 2026（中文）
-  archive_note: ""
+  archive_note: 0c1030bb-f5d3-4474-8e89-0677d8ac016c
   status: Public
 - platform: YouTube
   series: Daily Verse · Neville Readings
@@ -1452,7 +1452,7 @@ replaced_or_private:
   url: https://youtu.be/QLJHOFk7-aA
   native_id: QLJHOFk7-aA
   playlist: 每日經文 · Neville 解讀 2026（中文）
-  archive_note: ""
+  archive_note: b77499e0-6762-45c8-90ce-7418a17b5a30
   status: Public
 - platform: YouTube
   series: Daily Verse · Neville Readings
@@ -1464,7 +1464,7 @@ replaced_or_private:
   url: https://youtu.be/Xb6LjyfyW9g
   native_id: Xb6LjyfyW9g
   playlist: Daily Verse · Neville Readings 2026 (English)
-  archive_note: ""
+  archive_note: b2f0253b-ffd7-4eed-9081-dc0dc2ae1298
   status: Public
 - platform: YouTube
   series: Daily Verse · Neville Readings
@@ -1476,7 +1476,7 @@ replaced_or_private:
   url: https://youtube.com/shorts/1a1HPUkr3n4
   native_id: 1a1HPUkr3n4
   playlist: Daily Verse · Neville Readings 2026 (English)
-  archive_note: ""
+  archive_note: 448a1170-fe6a-4af3-b172-2ce010d83d04
   status: Public
 - platform: YouTube
   series: Daily Verse · Neville Readings
@@ -1488,6 +1488,6 @@ replaced_or_private:
   url: https://youtube.com/shorts/jlQLTMGirbA
   native_id: jlQLTMGirbA
   playlist: Daily Verse · Neville Readings 2026 (English)
-  archive_note: ""
+  archive_note: 756f7890-f6b2-4543-9ef4-98c03b171096
   status: Public
 unverified: []
