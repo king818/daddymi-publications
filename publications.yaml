@@ -530,6 +530,54 @@ publications:
   archive_note: ''
   status: Live — published 23:55 Nov 1–00:05 Nov 2; 48h spot-check due ~2026-11-04
 - platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 51 — Malachi
+  language: zh
+  type: Short (hook)
+  title: '2026 第51週｜祂說：我曾愛你們 #Shorts'
+  published: '2026-11-02'
+  url: https://www.youtube.com/shorts/7ZudwvQmBjs
+  native_id: 7ZudwvQmBjs
+  playlist: 來跟隨我 2026（中文）
+  archive_note: ''
+  status: Live — 48h spot-check due ~2026-11-04
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 51 — Malachi
+  language: zh
+  type: Short (funnel)
+  title: '2026 第51週｜七天歸向主 #Shorts'
+  published: '2026-11-02'
+  url: https://www.youtube.com/shorts/sp07jnLxSwI
+  native_id: sp07jnLxSwI
+  playlist: 來跟隨我 2026（中文）
+  archive_note: ''
+  status: Live — 48h spot-check due ~2026-11-04
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 51 — Malachi
+  language: en
+  type: Short (hook)
+  title: '2026 Week 51 | Return unto Me, and I Will Return unto You #Shorts'
+  published: '2026-11-02'
+  url: https://www.youtube.com/shorts/wyLoCESmDhY
+  native_id: wyLoCESmDhY
+  playlist: Come, Follow Me 2026 (English)
+  archive_note: ''
+  status: Live — 48h spot-check due ~2026-11-04
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 51 — Malachi
+  language: en
+  type: Short (funnel)
+  title: '2026 Week 51 | Seven Days of Returning #Shorts'
+  published: '2026-11-02'
+  url: https://www.youtube.com/shorts/VE29E7f_WvI
+  native_id: VE29E7f_WvI
+  playlist: Come, Follow Me 2026 (English)
+  archive_note: ''
+  status: Live — 48h spot-check due ~2026-11-04
+- platform: YouTube
   series: Daily Verse · Neville Readings
   topic: Colossians 1:13
   language: zh
@@ -1299,9 +1347,6 @@ replaced_or_private:
   archive_note: ''
   status: Private — replaced by redo LdkiL-qLh4Q
 unverified:
-- item: CFM Lesson 51 (Malachi) — Shorts x4 (zh hook/funnel, en hook/funnel)
-  reason: Publishing was in flight when this index was built (2026-11-02 ~00:15 PST); the four video IDs were not yet in the production records. The two L51 longs are verified and listed above.
-  action: Append the four rows to publications.yaml and regenerate as soon as the publish task reports the IDs.
 - item: CFM Lesson 52 (Christmas) — all 6 videos
   reason: Produced but not yet published at build time.
   action: Append rows when published.

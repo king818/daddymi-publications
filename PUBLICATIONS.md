@@ -2,14 +2,18 @@
 
 Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, filterable version: https://king818.github.io/daddymi-publications/
 
-**93 public videos** · 15 replaced/private versions · Come, Follow Me 2026: 44 · Daily Verse · Neville Readings: 18 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 18 · Neville Inner Reading Podcast: 7
+**97 public videos** · 15 replaced/private versions · Come, Follow Me 2026: 48 · Daily Verse · Neville Readings: 18 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 18 · Neville Inner Reading Podcast: 7
 
 
-## Come, Follow Me 2026 (44)
+## Come, Follow Me 2026 (48)
 
 | Published | Series | Topic | Lang | Type | Title | Video ID | Playlist | Archive | Status |
 |---|---|---|---|---|---|---|---|---|---|
 | 2026-11-02 | Come, Follow Me 2026 | Lesson 51 — Malachi | English | Long | [Come, Follow Me 2026 Week 51 (Dec 14–20) | I Have Loved You, Saith the Lord — Malachi](https://youtu.be/PDfCTm7ntxg) | `PDfCTm7ntxg` | Come, Follow Me 2026 (English) | — | Live — published 23:55 Nov 1–00:05 Nov 2; 48h spot-check due ~2026-11-04 |
+| 2026-11-02 | Come, Follow Me 2026 | Lesson 51 — Malachi | 中文 | Short (hook) | [2026 第51週｜祂說：我曾愛你們 #Shorts](https://www.youtube.com/shorts/7ZudwvQmBjs) | `7ZudwvQmBjs` | 來跟隨我 2026（中文） | — | Live — 48h spot-check due ~2026-11-04 |
+| 2026-11-02 | Come, Follow Me 2026 | Lesson 51 — Malachi | 中文 | Short (funnel) | [2026 第51週｜七天歸向主 #Shorts](https://www.youtube.com/shorts/sp07jnLxSwI) | `sp07jnLxSwI` | 來跟隨我 2026（中文） | — | Live — 48h spot-check due ~2026-11-04 |
+| 2026-11-02 | Come, Follow Me 2026 | Lesson 51 — Malachi | English | Short (hook) | [2026 Week 51 | Return unto Me, and I Will Return unto You #Shorts](https://www.youtube.com/shorts/wyLoCESmDhY) | `wyLoCESmDhY` | Come, Follow Me 2026 (English) | — | Live — 48h spot-check due ~2026-11-04 |
+| 2026-11-02 | Come, Follow Me 2026 | Lesson 51 — Malachi | English | Short (funnel) | [2026 Week 51 | Seven Days of Returning #Shorts](https://www.youtube.com/shorts/VE29E7f_WvI) | `VE29E7f_WvI` | Come, Follow Me 2026 (English) | — | Live — 48h spot-check due ~2026-11-04 |
 | 2026-11-01 | Come, Follow Me 2026 | Lesson 51 — Malachi | 中文 | Long | [來跟隨我 2026 第51週（12月14日–20日）｜我曾愛你們 · 瑪拉基書](https://youtu.be/LGGls3PSy2I) | `LGGls3PSy2I` | 來跟隨我 2026（中文） | — | Live — published 23:55 Nov 1–00:05 Nov 2; 48h spot-check due ~2026-11-04 |
 | 2026-11-01 | Come, Follow Me 2026 | Lesson 50 — Haggai & Zechariah | 中文 | Long | [來跟隨我 2026 第50週（12月7日–13日）｜歸耶和華為聖 · 哈該書；撒迦利亞書](https://youtu.be/8f1HZjGTEEc) | `8f1HZjGTEEc` | 來跟隨我 2026（中文） | Evernote Gospel note 7c039582-a214-4bae-a70e-50d6a9c89dd6 | Live — 48h spot-check due 2026-11-03 |
 | 2026-11-01 | Come, Follow Me 2026 | Lesson 50 — Haggai & Zechariah | English | Long | [Come, Follow Me 2026 Week 50 (Dec 7–13) | Holiness unto the Lord — Haggai; Zechariah](https://youtu.be/JPZVMHEM8EU) | `JPZVMHEM8EU` | Come, Follow Me 2026 (English) | Evernote Video Artifacts note 69394228-1ae9-4808-afbe-86ed825fb5c9 | Live — 48h spot-check due 2026-11-03 |
@@ -147,5 +151,4 @@ Same productions, kept for the record — not public.
 
 ## Unverified / pending
 
-- **CFM Lesson 51 (Malachi) — Shorts x4 (zh hook/funnel, en hook/funnel)** — Publishing was in flight when this index was built (2026-11-02 ~00:15 PST); the four video IDs were not yet in the production records. The two L51 longs are verified and listed above. Next: Append the four rows to publications.yaml and regenerate as soon as the publish task reports the IDs.
 - **CFM Lesson 52 (Christmas) — all 6 videos** — Produced but not yet published at build time. Next: Append rows when published.
