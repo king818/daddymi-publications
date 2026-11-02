@@ -2,7 +2,7 @@
 
 Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, filterable version: https://king818.github.io/daddymi-publications/
 
-**103 public videos** · 15 replaced/private versions · Come, Follow Me 2026: 54 · Daily Verse · Neville Readings: 18 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 18 · Neville Inner Reading Podcast: 7
+**104 public videos** · 21 replaced/private versions · Come, Follow Me 2026: 54 · Daily Verse · Neville Readings: 19 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 18 · Neville Inner Reading Podcast: 7
 
 
 ## Come, Follow Me 2026 (54)
@@ -38,13 +38,13 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-11-01 | Come, Follow Me 2026 | Lesson 48 — Amos, Obadiah & Jonah | 中文 | Short (hook) | [2026 第48週｜他不怕任務失敗，他怕任務太成功 #Shorts](https://www.youtube.com/shorts/jkc2Ua3sNgs) | `jkc2Ua3sNgs` | 來跟隨我 2026（中文） | — | Live — 48h spot-check due 2026-11-03 |
 | 2026-11-01 | Come, Follow Me 2026 | Lesson 48 — Amos, Obadiah & Jonah | 中文 | Short (funnel) | [2026 第48週｜七天尋找主，每天五分鐘 #Shorts](https://www.youtube.com/shorts/eZROS3-Ve9s) | `eZROS3-Ve9s` | 來跟隨我 2026（中文） | — | Live — 48h spot-check due 2026-11-03 |
 | 2026-11-01 | Come, Follow Me 2026 | Lesson 48 — Amos, Obadiah & Jonah | English | Short (hook) | [2026 Week 48 | He Fled Because God Might Forgive Them #Shorts](https://www.youtube.com/shorts/4rhyRBi1ZaU) | `4rhyRBi1ZaU` | Come, Follow Me 2026 (English) | — | Live — 48h spot-check due 2026-11-03 |
-| 2026-11-01 | Come, Follow Me 2026 | Lesson 48 — Amos, Obadiah & Jonah | English | Short (funnel) | [2026 Week 48 | Five Minutes a Day: Pray, Read, Act #Shorts](https://www.youtube.com/shorts/Mb3V3Da4wpo) | `Mb3V3Da4wpo` | Come, Follow Me 2026 (English) | — | Live — 48h spot-check due 2026-11-03 |
+| 2026-11-01 | Come, Follow Me 2026 | Lesson 48 — Amos, Obadiah & Jonah | English | Short (funnel) | ['2026 Week 48 | Five Minutes a Day: Pray, Read, Act #Shorts'](https://www.youtube.com/shorts/Mb3V3Da4wpo) | `Mb3V3Da4wpo` | Come, Follow Me 2026 (English) | — | Live — 48h spot-check due 2026-11-03 |
 | 2026-11-01 | Come, Follow Me 2026 | Lesson 47 — Hosea & Joel | 中文 | Long | [來跟隨我 2026 第47週（11月16日–22日）｜我必甘心愛他們 · 何西阿書 1–6; 10–14; 約珥書](https://youtu.be/3FeGztYkNl8) | `3FeGztYkNl8` | 來跟隨我 2026（中文） | — | Live — 48h spot-check due 2026-11-03 |
 | 2026-11-01 | Come, Follow Me 2026 | Lesson 47 — Hosea & Joel | English | Long | [Come, Follow Me 2026 Week 47 (Nov 16–22) | I Will Love Them Freely · Hosea; Joel](https://youtu.be/Kg8fCwIEqzM) | `Kg8fCwIEqzM` | Come, Follow Me 2026 (English) | — | Live — 48h spot-check due 2026-11-03 |
 | 2026-11-01 | Come, Follow Me 2026 | Lesson 47 — Hosea & Joel | 中文 | Short (hook) | [2026 第47週｜何西阿書 14:4｜祂甘心愛我們 #Shorts](https://www.youtube.com/shorts/5G4MvKVe-Ag) | `5G4MvKVe-Ag` | 來跟隨我 2026（中文） | — | Live — 48h spot-check due 2026-11-03 |
 | 2026-11-01 | Come, Follow Me 2026 | Lesson 47 — Hosea & Joel | 中文 | Short (funnel) | [2026 第47週｜七天歸心操練：每天十分鐘，真實歸回 #Shorts](https://www.youtube.com/shorts/Yqk5EhtdxMg) | `Yqk5EhtdxMg` | 來跟隨我 2026（中文） | — | Live — 48h spot-check due 2026-11-03 |
 | 2026-11-01 | Come, Follow Me 2026 | Lesson 47 — Hosea & Joel | English | Short (hook) | [2026 Week 47 | Hosea 14:4 | Loved Freely #Shorts](https://www.youtube.com/shorts/D5RUKkwAz3E) | `D5RUKkwAz3E` | Come, Follow Me 2026 (English) | — | Live — 48h spot-check due 2026-11-03 |
-| 2026-11-01 | Come, Follow Me 2026 | Lesson 47 — Hosea & Joel | English | Short (funnel) | [2026 Week 47 | The Seven-Day Return: 10 Minutes a Day #Shorts](https://www.youtube.com/shorts/HoTq45r_lXY) | `HoTq45r_lXY` | Come, Follow Me 2026 (English) | — | Live — 48h spot-check due 2026-11-03 |
+| 2026-11-01 | Come, Follow Me 2026 | Lesson 47 — Hosea & Joel | English | Short (funnel) | ['2026 Week 47 | The Seven-Day Return: 10 Minutes a Day #Shorts'](https://www.youtube.com/shorts/HoTq45r_lXY) | `HoTq45r_lXY` | Come, Follow Me 2026 (English) | — | Live — 48h spot-check due 2026-11-03 |
 | 2026-11-01 | Come, Follow Me 2026 | Lesson 46 — Daniel | 中文 | Long | [來跟隨我 2026 第46週（11月9日–15日）｜沒有別神能這樣施行拯救 · 但以理書 1–7](https://youtu.be/94QeUuEUwTY) | `94QeUuEUwTY` | 來跟隨我 2026（中文） | — | Live — 48h spot-check due 2026-11-03 |
 | 2026-11-01 | Come, Follow Me 2026 | Lesson 46 — Daniel | English | Long | [Come, Follow Me 2026 Week 46 (Nov 9–15) | There Is No Other God That Can Deliver · Daniel 1–7](https://youtu.be/t3RNrzd7KhY) | `t3RNrzd7KhY` | Come, Follow Me 2026 (English) | — | Live — 48h spot-check due 2026-11-03 |
 | 2026-11-01 | Come, Follow Me 2026 | Lesson 46 — Daniel | 中文 | Short (hook) | [2026 第46週｜即或不然，我們決不拜金像 #Shorts](https://www.youtube.com/shorts/FYshNSfN6Ww) | `FYshNSfN6Ww` | 來跟隨我 2026（中文） | — | Live — 48h spot-check due 2026-11-03 |
@@ -64,10 +64,11 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-10-31 | Come, Follow Me 2026 | Lesson 44 — Jeremiah | English | Short (hook) | [2026 Week 44 | Buying a Field During the Siege | Jeremiah #Shorts](https://www.youtube.com/shorts/IjyHjcmV50c) | `IjyHjcmV50c` | Come, Follow Me 2026 (English) | — | Live |
 | 2026-10-31 | Come, Follow Me 2026 | Lesson 44 — Jeremiah | English | Short (funnel) | [2026 Week 44 | I Am a Covenant Keeper | Jeremiah #Shorts](https://www.youtube.com/shorts/qMRx3Sjj15k) | `qMRx3Sjj15k` | Come, Follow Me 2026 (English) | — | Live |
 
-## Daily Verse · Neville Readings (18)
+## Daily Verse · Neville Readings (19)
 
 | Published | Series | Topic | Lang | Type | Title | Video ID | Playlist | Archive | Status |
 |---|---|---|---|---|---|---|---|---|---|
+| 2026-11-02 | Daily Verse · Neville Readings | Isaiah 41:10 | zh-Hant | Long | [每日經文 2026-10-26 · Neville 解讀｜不要害怕，祂與你同在——以賽亞書 41:10 內在解讀](https://youtu.be/KCUVl4_IFY0) | `KCUVl4_IFY0` | 每日經文 · Neville 解讀 2026（中文） | — | Public |
 | 2026-11-01 | Daily Verse · Neville Readings | John 1:1 | 中文 | Long | [每日經文｜約翰福音 1:1 · 太初有道](https://youtu.be/j8QQMpXYTnQ) | `j8QQMpXYTnQ` | 每日經文 · Neville 解讀 2026（中文） | — | Live |
 | 2026-11-01 | Daily Verse · Neville Readings | John 1:1 | English | Long | [Daily Verse | John 1:1 · In the Beginning Was the Word](https://youtu.be/g9rPIhfN_Og) | `g9rPIhfN_Og` | Daily Verse · Neville Readings 2026 (English) | — | Live |
 | 2026-11-01 | Daily Verse · Neville Readings | John 1:1 | 中文 | Short (hook) | [每日經文｜約翰福音 1:1 · 太初不在遠古，就在你說「我是」的那一秒](https://www.youtube.com/shorts/7sJLw4yaPWw) | `7sJLw4yaPWw` | 每日經文 · Neville 解讀 2026（中文） | — | Live |
@@ -92,7 +93,7 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | Published | Series | Topic | Lang | Type | Title | Video ID | Playlist | Archive | Status |
 |---|---|---|---|---|---|---|---|---|---|
 | 2026-10-31 | Finance Basics | Cash-Secured Puts 入門 (CSP basics) | 中文 | Long | [賣出現金擔保看跌期權：新手完全指南｜先收一筆小錢，換一個承諾](https://youtu.be/1qS4eRsmBUI) | `1qS4eRsmBUI` | 財經基礎 · 錢的知識 2026（中文） | — | Live |
-| 2026-10-31 | Finance Basics | Cash-Secured Puts 入門 (CSP basics) | English | Long | [Selling Cash-Secured Puts: A Beginner's Guide — Premium Up Front, a Real Promise](https://youtu.be/Ty6i1yWrH-4) | `Ty6i1yWrH-4` | Finance Basics 2026 (English) | — | Live |
+| 2026-10-31 | Finance Basics | Cash-Secured Puts 入門 (CSP basics) | English | Long | ['Selling Cash-Secured Puts: A Beginner''s Guide — Premium Up Front, a Real Promise'](https://youtu.be/Ty6i1yWrH-4) | `Ty6i1yWrH-4` | Finance Basics 2026 (English) | — | Live |
 | 2026-10-31 | Finance Basics | Cash-Secured Puts 入門 (CSP basics) | 中文 | Short (hook) | [無風險薅羊毛？最危險的錯覺｜財經基礎 #Shorts](https://www.youtube.com/shorts/VF5hlnqqV9w) | `VF5hlnqqV9w` | 財經基礎 · 錢的知識 2026（中文） | — | Live |
 | 2026-10-31 | Finance Basics | Cash-Secured Puts 入門 (CSP basics) | 中文 | Short (funnel) | [保費讓真實成本降到109.08｜財經基礎 #Shorts](https://www.youtube.com/shorts/IDQvjXKVUMU) | `IDQvjXKVUMU` | 財經基礎 · 錢的知識 2026（中文） | — | Live |
 | 2026-10-31 | Finance Basics | Cash-Secured Puts 入門 (CSP basics) | English | Short (hook) | ['Guaranteed 14% Returns'? A Dangerous Illusion | Finance Basics #Shorts](https://www.youtube.com/shorts/_z0BhZ_z1P8) | `_z0BhZ_z1P8` | Finance Basics 2026 (English) | — | Live |
@@ -133,12 +134,18 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-10-31 | Neville Inner Reading Podcast | EP1 · 得失從緣，心無增減 (from 端端's WeChat tagline) | English | Short (funnel) | [Gain & Loss Are Just Weather #Shorts](https://www.youtube.com/shorts/dfb2_DLKXng) | `dfb2_DLKXng` | Neville Inner Reading Podcast 2026 (English) | — | Live |
 | 2026-10-31 | Neville Inner Reading Podcast | EP1 · 得失從緣，心無增減 (from 端端's WeChat tagline) | 中文 | Short (sister cut) | [睡前，把遙控器拿回來｜得失從緣，心無增減 #Shorts](https://www.youtube.com/shorts/s-xP8-mrumg) | `s-xP8-mrumg` | Neville 內在解讀播客 2026（中文） | Evernote Video Artifacts note 274fe41f | Live |
 
-## Replaced / Private versions (15)
+## Replaced / Private versions (21)
 
 Same productions, kept for the record — not public.
 
 | Published | Series | Topic | Lang | Type | Title | Video ID | Playlist | Archive | Status |
 |---|---|---|---|---|---|---|---|---|---|
+| 2026-11-02 | Daily Verse · Neville Readings | Hebrews 4:12 | zh-Hant | Long | [每日經文 · Neville 解讀｜希伯來書 4:12 上帝的道是活的——兩刃之劍剖開魂與靈](https://youtu.be/idi0AAWCKo0) | `idi0AAWCKo0` | 每日經文 · Neville 解讀 2026（中文） | 8c400e41-9f29-4e72-9ed3-509c3a0d7a10 | Public |
+| 2026-11-02 | Daily Verse · Neville Readings | Hebrews 4:12 | zh-Hant | Short (hook) | [每日經文｜希伯來書 4:12 決定你生命軌跡的，不是你想要什麼，而是你內心相信什麼](https://youtu.be/Cnkfquzd4kk) | `Cnkfquzd4kk` | 每日經文 · Neville 解讀 2026（中文） | 0c1030bb-f5d3-4474-8e89-0677d8ac016c | Public |
+| 2026-11-02 | Daily Verse · Neville Readings | Hebrews 4:12 | zh-Hant | Short (funnel) | [每日經文｜希伯來書 4:12 三分鐘雙刃之劍：切開恐懼的假設，選一個新身份](https://youtu.be/QLJHOFk7-aA) | `QLJHOFk7-aA` | 每日經文 · Neville 解讀 2026（中文） | b77499e0-6762-45c8-90ce-7418a17b5a30 | Public |
+| 2026-11-02 | Daily Verse · Neville Readings | Hebrews 4:12 | English | Long | [Daily Verse · Hebrews 4:12 | The Word of God Is Alive — A Two-Edged Sword Dividing Soul and Spirit](https://youtu.be/Xb6LjyfyW9g) | `Xb6LjyfyW9g` | Daily Verse · Neville Readings 2026 (English) | b2f0253b-ffd7-4eed-9081-dc0dc2ae1298 | Public |
+| 2026-11-02 | Daily Verse · Neville Readings | Hebrews 4:12 | English | Short (hook) | [Daily Verse · Hebrews 4:12 — Your Thoughts Say Confidence, Your Intent Expects Failure](https://youtube.com/shorts/1a1HPUkr3n4) | `1a1HPUkr3n4` | Daily Verse · Neville Readings 2026 (English) | 448a1170-fe6a-4af3-b172-2ce010d83d04 | Public |
+| 2026-11-02 | Daily Verse · Neville Readings | Hebrews 4:12 | English | Short (funnel) | [Daily Verse · Hebrews 4:12 — The Three-Minute Sword: Fact, or Unexamined Assumption? #Shorts](https://youtube.com/shorts/jlQLTMGirbA) | `jlQLTMGirbA` | Daily Verse · Neville Readings 2026 (English) | 756f7890-f6b2-4543-9ef4-98c03b171096 | Public |
 | 2026-10-31 | Neville Inner Reading Podcast | EP1 · 得失從緣，心無增減 (from 端端's WeChat tagline) | 中文 | Long | [EP1 duplicate upload (Mandarin long)](https://youtu.be/L1ZRz0c-Vk0) | `L1ZRz0c-Vk0` | Neville 內在解讀播客 2026（中文） | — | Private — duplicate upload; boss ruling 2026-10-31: keep the earliest public copy |
 | 2026-10-31 | Neville Inner Reading Podcast | EP1 · 得失從緣，心無增減 (from 端端's WeChat tagline) | English | Long | [EP1 duplicate upload (English long)](https://youtu.be/om5k9Z40Grc) | `om5k9Z40Grc` | Neville Inner Reading Podcast 2026 (English) | — | Private — duplicate upload; boss ruling 2026-10-31: keep the earliest public copy |
 | 2026-10-31 | Neville Inner Reading Podcast | EP1 · 得失從緣，心無增減 (from 端端's WeChat tagline) | — | Short | [EP1 duplicate upload (Short)](https://youtu.be/hBW9YSFn5sc) | `hBW9YSFn5sc` | — | — | Private — duplicate upload; boss ruling 2026-10-31: keep the earliest public copy |

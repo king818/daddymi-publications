@@ -282,7 +282,7 @@ publications:
   topic: Lesson 47 — Hosea & Joel
   language: en
   type: Short (funnel)
-  title: '2026 Week 47 | The Seven-Day Return: 10 Minutes a Day #Shorts'
+  title: "'2026 Week 47 | The Seven-Day Return: 10 Minutes a Day #Shorts'"
   published: '2026-11-01'
   url: https://www.youtube.com/shorts/HoTq45r_lXY
   native_id: HoTq45r_lXY
@@ -354,7 +354,7 @@ publications:
   topic: Lesson 48 — Amos, Obadiah & Jonah
   language: en
   type: Short (funnel)
-  title: '2026 Week 48 | Five Minutes a Day: Pray, Read, Act #Shorts'
+  title: "'2026 Week 48 | Five Minutes a Day: Pray, Read, Act #Shorts'"
   published: '2026-11-01'
   url: https://www.youtube.com/shorts/Mb3V3Da4wpo
   native_id: Mb3V3Da4wpo
@@ -1182,7 +1182,7 @@ publications:
   topic: Cash-Secured Puts 入門 (CSP basics)
   language: en
   type: Long
-  title: 'Selling Cash-Secured Puts: A Beginner''s Guide — Premium Up Front, a Real Promise'
+  title: "'Selling Cash-Secured Puts: A Beginner''s Guide — Premium Up Front, a Real Promise'"
   published: '2026-10-31'
   url: https://youtu.be/Ty6i1yWrH-4
   native_id: Ty6i1yWrH-4
@@ -1237,6 +1237,18 @@ publications:
   playlist: Finance Basics 2026 (English)
   archive_note: ''
   status: Live
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Isaiah 41:10
+  language: zh-Hant
+  type: Long
+  title: 每日經文 2026-10-26 · Neville 解讀｜不要害怕，祂與你同在——以賽亞書 41:10 內在解讀
+  published: "2026-11-02"
+  url: https://youtu.be/KCUVl4_IFY0
+  native_id: KCUVl4_IFY0
+  archive_note: 
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  status: Public
 replaced_or_private:
 - platform: YouTube
   series: Neville Inner Reading Podcast
@@ -1483,7 +1495,7 @@ replaced_or_private:
   topic: Hebrews 4:12
   language: en
   type: Short (funnel)
-  title: Daily Verse · Hebrews 4:12 — The Three-Minute Sword: Fact, or Unexamined Assumption? #Shorts
+  title: "Daily Verse · Hebrews 4:12 — The Three-Minute Sword: Fact, or Unexamined Assumption? #Shorts"
   published: "2026-11-02"
   url: https://youtube.com/shorts/jlQLTMGirbA
   native_id: jlQLTMGirbA
