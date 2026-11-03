@@ -1751,7 +1751,7 @@ publications:
   url: https://youtu.be/fQ0_6cD_-J0
   native_id: fQ0_6cD_-J0
   playlist: 來跟隨我 2026（中文）
-  archive_note: ''
+  archive_note: '92eeccdd-18cb-4b71-96ba-255b68734eb0'
   status: Live — published via Studio (Data API token revoked), verified by ID 2026-11-03; 48h spot-check due ~2026-11-05
 - platform: YouTube
   series: Come, Follow Me 2026
@@ -1763,7 +1763,7 @@ publications:
   url: https://youtu.be/jm8k2-wFzuU
   native_id: jm8k2-wFzuU
   playlist: Come, Follow Me 2026 (English)
-  archive_note: ''
+  archive_note: '6d543f2e-183f-48a6-9324-d3fc96359221'
   status: Live — published via Studio (Data API token revoked), verified by ID 2026-11-03; 48h spot-check due ~2026-11-05
 - platform: YouTube
   series: Come, Follow Me 2026
@@ -1775,7 +1775,7 @@ publications:
   url: https://www.youtube.com/shorts/coZguP4Zk4w
   native_id: coZguP4Zk4w
   playlist: 來跟隨我 2026（中文）
-  archive_note: ''
+  archive_note: '1dca9230-6e96-48f3-9537-eab1bd4edfd8'
   status: Live — published via Studio (Data API token revoked), verified by ID 2026-11-03; 48h spot-check due ~2026-11-05
 - platform: YouTube
   series: Come, Follow Me 2026
@@ -1787,7 +1787,7 @@ publications:
   url: https://www.youtube.com/shorts/KJADySWDS58
   native_id: KJADySWDS58
   playlist: 來跟隨我 2026（中文）
-  archive_note: ''
+  archive_note: '20f5c985-1f2c-4c4b-9e71-4145f9656063'
   status: Live — published via Studio (Data API token revoked), verified by ID 2026-11-03; 48h spot-check due ~2026-11-05
 - platform: YouTube
   series: Come, Follow Me 2026
@@ -1799,7 +1799,7 @@ publications:
   url: https://www.youtube.com/shorts/Js1aM4BsRwg
   native_id: Js1aM4BsRwg
   playlist: Come, Follow Me 2026 (English)
-  archive_note: ''
+  archive_note: 'ca8e59e5-e7c3-4ffe-ba84-59cee3eef36c'
   status: Live — published via Studio (Data API token revoked), verified by ID 2026-11-03; 48h spot-check due ~2026-11-05
 - platform: YouTube
   series: Come, Follow Me 2026
@@ -1811,7 +1811,7 @@ publications:
   url: https://www.youtube.com/shorts/QlLHR32czEI
   native_id: QlLHR32czEI
   playlist: Come, Follow Me 2026 (English)
-  archive_note: ''
+  archive_note: '47dd9434-c079-4aa6-beb2-40ae2152e738'
   status: Live — published via Studio (Data API token revoked), verified by ID 2026-11-03; 48h spot-check due ~2026-11-05
 - platform: YouTube
   series: Daily Verse · Neville Readings
@@ -1823,7 +1823,7 @@ publications:
   url: https://youtu.be/cyANijnMux4
   native_id: cyANijnMux4
   playlist: 每日經文 · Neville 解讀 2026（中文）
-  archive_note: ''
+  archive_note: '2dca116b-4f26-4511-b414-3b05c04905bb'
   status: Public
 - platform: YouTube
   series: Daily Verse · Neville Readings
@@ -1835,7 +1835,7 @@ publications:
   url: https://youtube.com/shorts/GI_layzMmo4
   native_id: GI_layzMmo4
   playlist: 每日經文 · Neville 解讀 2026（中文）
-  archive_note: ''
+  archive_note: 'f4e0f0ae-0ded-4ac2-b8ae-8933d281639b'
   status: Public
 - platform: YouTube
   series: Daily Verse · Neville Readings
@@ -1847,7 +1847,7 @@ publications:
   url: https://youtube.com/shorts/ucvIYW3fGXI
   native_id: ucvIYW3fGXI
   playlist: 每日經文 · Neville 解讀 2026（中文）
-  archive_note: ''
+  archive_note: 'd88551eb-3c7b-4436-88fa-e7916f861ed4'
   status: Public
 - platform: YouTube
   series: Daily Verse · Neville Readings
@@ -1859,7 +1859,7 @@ publications:
   url: https://youtu.be/j_f6t3j5OLs
   native_id: j_f6t3j5OLs
   playlist: 每日經文 · Neville 解讀 2026（中文）
-  archive_note: ''
+  archive_note: '286cbaa9-0083-4706-809f-3a59b824c689'
   status: Public
 - platform: YouTube
   series: Daily Verse · Neville Readings
@@ -1871,7 +1871,7 @@ publications:
   url: https://youtube.com/shorts/DtFuP_Y27sk
   native_id: DtFuP_Y27sk
   playlist: 每日經文 · Neville 解讀 2026（中文）
-  archive_note: ''
+  archive_note: 'c7a81b03-284f-4a81-b9c8-5e6301b6914f'
   status: Public
 - platform: YouTube
   series: Daily Verse · Neville Readings
@@ -1883,7 +1883,7 @@ publications:
   url: https://youtube.com/shorts/JYolqKOh9rs
   native_id: JYolqKOh9rs
   playlist: 每日經文 · Neville 解讀 2026（中文）
-  archive_note: ''
+  archive_note: 'b3e87b08-0804-42e8-a326-2a1f3fcb1c52'
   status: Public
 replaced_or_private:
 - platform: YouTube
@@ -2094,6 +2094,8 @@ unverified:
 - item: CFM Lesson 3 (6 videos, published 2026-11-03) — Evernote archive notes missing
   reason: Checked 2026-11-03 — no archive notes found in Evernote by video ID or title; archive ZIPs not yet built. Finals retained on M1 mini (~/cfm-bf03-creation) and in the run dir on the VM.
   action: Build archive ZIPs and create the six archive notes (Chinese → Gospel, English → Video Artifacts, per CFM archiving standard), then backfill archive_note GUIDs here.
+  resolved: '2026-11-03 — DONE by wrap-up line: six archive ZIPs built (run dir archive/zips/), six notes created and verified landed (Chinese → Gospel, English → Video Artifacts); archive_note GUIDs backfilled above.'
 - item: Daily Verse James 1:12 + Proverbs 16:3 Chinese sets (6 videos, published 2026-11-03) — Evernote archive notes missing
   reason: Archive notes not yet created at registration time; archive_note left empty deliberately. English sets still in production, IDs to follow.
   action: Build archive ZIPs and create the six archive notes, then backfill archive_note GUIDs here.
+  resolved: '2026-11-03 — DONE by wrap-up line: six notes created in Gospel (tag Neville Goddard) in the Daily Verse format (mp4 + SRT tracks + description attached individually), verified landed; archive_note GUIDs backfilled above. Note: the archived long mp4s are the 2026-11-03 per-episode-imagery redo builds (republish swap pending boss ruling); the Shorts files are the live versions. English sets were unpublished at this time, so there was nothing further to archive.'
