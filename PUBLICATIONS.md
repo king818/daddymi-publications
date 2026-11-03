@@ -17,7 +17,7 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-11-03 | [第 3 週 · 七天操練：照著創造的次序過一周](https://www.youtube.com/shorts/KJADySWDS58)<br><sub>2026 第3週｜七天操練：照著創造的次序過一周</sub> | Short · 導入 | 來跟隨我 2026（中文） | 待存档 | 已發布 · 抽查 11-05 | `KJADySWDS58` |
 | 2026-11-02 | [第 51 週 · 祂說：我曾愛你們](https://www.youtube.com/shorts/7ZudwvQmBjs)<br><sub>2026 第51週｜祂說：我曾愛你們</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 已存档 · Gospel · 9b261a2d | 已發布 · 抽查 11-04 | `7ZudwvQmBjs` |
 | 2026-11-02 | [第 51 週 · 七天歸向主](https://www.youtube.com/shorts/sp07jnLxSwI)<br><sub>2026 第51週｜七天歸向主</sub> | Short · 導入 | 來跟隨我 2026（中文） | 已存档 · Gospel · cb8cf701 | 已發布 · 抽查 11-04 | `sp07jnLxSwI` |
-| 2026-11-02 | [第 52 週 · 我們素來等候祂，祂必拯救我們](https://youtu.be/DCqfsCQVlTA)<br><sub>來跟隨我 2026 第52週（12月21日–27日）｜我們素來等候祂，祂必拯救我們 · 聖誕特輯</sub> | 長集 | 來跟隨我 2026（中文） | 已存档 · 76a75fea | 已發布 · 抽查 11-04 | `DCqfsCQVlTA` |
+| 2026-11-02 | [第 52 週 · 我們素來等候祂，祂必拯救我們](https://youtu.be/DCqfsCQVlTA)<br><sub>來跟隨我 2026 第52週（12月21日–27日）｜我們素來等候祂，祂必拯救我們 · 聖誕特輯</sub> | 長集 | 來跟隨我 2026（中文） | 已存档 · 76a75fea | 已發布 · 已修復 · 抽查 11-04 | `DCqfsCQVlTA` |
 | 2026-11-02 | [第 52 週 · 那些文字，不是寫給坐在溫暖壁爐旁的人](https://www.youtube.com/shorts/oAf9vnE-F2Q)<br><sub>2026 第52週｜那些文字，不是寫給坐在溫暖壁爐旁的人</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 已存档 · f5c3065d | 已發布 · 抽查 11-04 | `oAf9vnE-F2Q` |
 | 2026-11-02 | [第 52 週 · 七天聖誕操練：每天十分鐘，從讀經走向行動](https://www.youtube.com/shorts/WcjWwS72pj0)<br><sub>2026 第52週｜七天聖誕操練：每天十分鐘，從讀經走向行動</sub> | Short · 導入 | 來跟隨我 2026（中文） | 已存档 · 6eb3dcb1 | 已發布 · 抽查 11-04 | `WcjWwS72pj0` |
 | 2026-11-02 | [第 1 週 · 耶穌基督的第一部約書](https://youtu.be/7rZXaZzw5jQ)<br><sub>來跟隨我 2026 第1週（12月29日–1月4日）｜耶穌基督的第一部約書 · 舊約介紹</sub> | 長集 | 來跟隨我 2026（中文） | 已存档 · ce152792 | 已發布 · 抽查 11-04 | `7rZXaZzw5jQ` |
@@ -59,7 +59,7 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-11-02 | [Week 51 · Malachi](https://youtu.be/PDfCTm7ntxg)<br><sub>Come, Follow Me 2026 Week 51 (Dec 14–20) | I Have Loved You, Saith the Lord — Malachi</sub> | Long | Come, Follow Me 2026 (English) | Archived · Video Artifacts · 2a7ccb16 | Live · check 11-04 | `PDfCTm7ntxg` |
 | 2026-11-02 | [Week 51 · Malachi](https://www.youtube.com/shorts/wyLoCESmDhY)<br><sub>2026 Week 51 | Return unto Me, and I Will Return unto You</sub> | Short (hook) | Come, Follow Me 2026 (English) | Archived · Video Artifacts · 8e55d10c | Live · check 11-04 | `wyLoCESmDhY` |
 | 2026-11-02 | [Week 51 · Malachi](https://www.youtube.com/shorts/VE29E7f_WvI)<br><sub>2026 Week 51 | Seven Days of Returning</sub> | Short (funnel) | Come, Follow Me 2026 (English) | Archived · Video Artifacts · 200239a9 | Live · check 11-04 | `VE29E7f_WvI` |
-| 2026-11-02 | [Week 52 · Christmas Special](https://youtu.be/gWNE-Bo1AP8)<br><sub>Come, Follow Me 2026 Week 52 (Dec 21–27) | We Have Waited for Him, and He Will Save Us — Christmas</sub> | Long | Come, Follow Me 2026 (English) | Archived · 57ccc9f0 | Live · check 11-04 | `gWNE-Bo1AP8` |
+| 2026-11-02 | [Week 52 · Christmas Special](https://youtu.be/gWNE-Bo1AP8)<br><sub>Come, Follow Me 2026 Week 52 (Dec 21–27) | We Have Waited for Him, and He Will Save Us — Christmas</sub> | Long | Come, Follow Me 2026 (English) | Archived · 57ccc9f0 | Live · defect fixed · check 11-04 | `gWNE-Bo1AP8` |
 | 2026-11-02 | [Week 52 · Christmas Special](https://www.youtube.com/shorts/D5CYbjAGRlc)<br><sub>2026 Week 52 | Waiting on God Is Not Sitting in a Lobby</sub> | Short (hook) | Come, Follow Me 2026 (English) | Archived · 8b3b6e14 | Live · check 11-04 | `D5CYbjAGRlc` |
 | 2026-11-02 | [Week 52 · Christmas Special](https://www.youtube.com/shorts/WEvxhjYZk5o)<br><sub>2026 Week 52 | A Seven-Day Christmas Practice — Ten Minutes a Day</sub> | Short (funnel) | Come, Follow Me 2026 (English) | Archived · ace845c8 | Live · check 11-04 | `WEvxhjYZk5o` |
 | 2026-11-02 | [Week 1 · Introduction to the Old Testament](https://youtu.be/rAfMyf-6Nqo)<br><sub>Come, Follow Me 2026 Week 1 (Dec 29–Jan 4) | The First Testament of Jesus Christ</sub> | Long | Come, Follow Me 2026 (English) | Archived · 996a62c7 | Live · check 11-04 | `rAfMyf-6Nqo` |
@@ -109,9 +109,9 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-11-01 | [2026-11-01 · 約翰福音 1:1](https://youtu.be/j8QQMpXYTnQ)<br><sub>每日經文｜約翰福音 1:1 · 太初有道</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · fbe3c0e1 | 已發布 | `j8QQMpXYTnQ` |
 | 2026-11-01 | [2026-11-01 · 約翰福音 1:1](https://www.youtube.com/shorts/7sJLw4yaPWw)<br><sub>每日經文｜約翰福音 1:1 · 太初不在遠古，就在你說「我是」的那一秒</sub> | Short · 鉤子 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 3e9949d1 | 已發布 | `7sJLw4yaPWw` |
 | 2026-11-01 | [2026-11-01 · 約翰福音 1:1](https://www.youtube.com/shorts/-Ywv9ZT_9NY)<br><sub>每日經文｜約翰福音 1:1 · 道就是上帝——想像從不分辨，只負責成形</sub> | Short · 導入 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · fe41ec6d | 已發布 | `-Ywv9ZT_9NY` |
-| 2026-10-31 | [2026-10-31 · 歌羅西書 1:13](https://youtu.be/CqrH_GpoY1E)<br><sub>每日經文｜歌羅西書 1:13 — 脫離黑暗的權勢，遷入愛子的國</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · Video Artifacts · 4a7ccd48 | 已發布 | `CqrH_GpoY1E` |
-| 2026-10-31 | [2026-10-31 · 歌羅西書 1:13](https://www.youtube.com/shorts/xdCmc3_VDrg)<br><sub>他救了我們脫離黑暗的權勢｜歌羅西書 1:13</sub> | Short · 鉤子 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · Video Artifacts · 7a1e19f1 | 已發布 | `xdCmc3_VDrg` |
-| 2026-10-31 | [2026-10-31 · 歌羅西書 1:13](https://www.youtube.com/shorts/pILkkPoFiIw)<br><sub>黑暗憑什麼統治你？全靠你籤的同意書｜歌羅西書 1:13</sub> | Short · 導入 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · Video Artifacts · 83702a98 | 已發布 | `pILkkPoFiIw` |
+| 2026-10-31 | [2026-10-31 · 歌羅西書 1:13](https://youtu.be/CqrH_GpoY1E)<br><sub>每日經文｜歌羅西書 1:13 — 脫離黑暗的權勢，遷入愛子的國</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · Video Artifacts · 4a7ccd48 | 已發布 · 重製版 | `CqrH_GpoY1E` |
+| 2026-10-31 | [2026-10-31 · 歌羅西書 1:13](https://www.youtube.com/shorts/xdCmc3_VDrg)<br><sub>他救了我們脫離黑暗的權勢｜歌羅西書 1:13</sub> | Short · 鉤子 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · Video Artifacts · 7a1e19f1 | 已發布 · 重製版 | `xdCmc3_VDrg` |
+| 2026-10-31 | [2026-10-31 · 歌羅西書 1:13](https://www.youtube.com/shorts/pILkkPoFiIw)<br><sub>黑暗憑什麼統治你？全靠你籤的同意書｜歌羅西書 1:13</sub> | Short · 導入 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · Video Artifacts · 83702a98 | 已發布 · 重製版 | `pILkkPoFiIw` |
 | 2026-10-31 | [2026-10-31 · 提摩太後書 3:16-17](https://youtu.be/y6zIFPvCCuc)<br><sub>每日經文｜提摩太後書 3:16-17 · 聖經都是神所默示的</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · a1f4dcfc | 已發布 | `y6zIFPvCCuc` |
 | 2026-10-31 | [2026-10-31 · 提摩太後書 3:16-17](https://www.youtube.com/shorts/pvP-BoX9vN0)<br><sub>提摩太後書 3:16-17｜聖經是你自己意識的自傳</sub> | Short · 鉤子 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 1f8daa60 | 已發布 | `pvP-BoX9vN0` |
 | 2026-10-31 | [2026-10-31 · 提摩太後書 3:16-17](https://www.youtube.com/shorts/zMRz5A8ZLyg)<br><sub>提摩太後書 3:16-17｜你不是等著被組裝的人</sub> | Short · 導入 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · d7f07ddb | 已發布 | `zMRz5A8ZLyg` |
@@ -138,9 +138,9 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-11-01 | [2026-11-01 · John 1:1](https://youtu.be/g9rPIhfN_Og)<br><sub>Daily Verse | John 1:1 · In the Beginning Was the Word</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · 63c82f3f | Live | `g9rPIhfN_Og` |
 | 2026-11-01 | [2026-11-01 · John 1:1](https://www.youtube.com/shorts/MllwD6zkB-g)<br><sub>Daily Verse | John 1:1 · The Beginning Is Not a Date — It Is the Second You Say I AM</sub> | Short (hook) | Daily Verse · Neville Readings 2026 (English) | Archived · 992248e1 | Live | `MllwD6zkB-g` |
 | 2026-11-01 | [2026-11-01 · John 1:1](https://www.youtube.com/shorts/2-bjuPDIEZE)<br><sub>Daily Verse | John 1:1 · Imagination Does Not Discriminate</sub> | Short (funnel) | Daily Verse · Neville Readings 2026 (English) | Archived · 6a495712 | Live | `2-bjuPDIEZE` |
-| 2026-10-31 | [2026-10-31 · Colossians 1:13](https://youtu.be/X1mU9rHDKs4)<br><sub>Daily Verse | Colossians 1:13 — Delivered from Darkness, Translated into the Kingdom</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · Video Artifacts · 9fba907e | Live | `X1mU9rHDKs4` |
-| 2026-10-31 | [2026-10-31 · Colossians 1:13](https://www.youtube.com/shorts/kk17wVkg_3Y)<br><sub>Delivered from the Power of Darkness | Colossians 1:13</sub> | Short (hook) | Daily Verse · Neville Readings 2026 (English) | Archived · Video Artifacts · 0e25e299 | Live | `kk17wVkg_3Y` |
-| 2026-10-31 | [2026-10-31 · Colossians 1:13](https://www.youtube.com/shorts/LdkiL-qLh4Q)<br><sub>Darkness Has No Native Power Over You | Colossians 1:13</sub> | Short (funnel) | Daily Verse · Neville Readings 2026 (English) | Archived · Video Artifacts · 4da7a9b8 | Live | `LdkiL-qLh4Q` |
+| 2026-10-31 | [2026-10-31 · Colossians 1:13](https://youtu.be/X1mU9rHDKs4)<br><sub>Daily Verse | Colossians 1:13 — Delivered from Darkness, Translated into the Kingdom</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · Video Artifacts · 9fba907e | Live · redo | `X1mU9rHDKs4` |
+| 2026-10-31 | [2026-10-31 · Colossians 1:13](https://www.youtube.com/shorts/kk17wVkg_3Y)<br><sub>Delivered from the Power of Darkness | Colossians 1:13</sub> | Short (hook) | Daily Verse · Neville Readings 2026 (English) | Archived · Video Artifacts · 0e25e299 | Live · redo | `kk17wVkg_3Y` |
+| 2026-10-31 | [2026-10-31 · Colossians 1:13](https://www.youtube.com/shorts/LdkiL-qLh4Q)<br><sub>Darkness Has No Native Power Over You | Colossians 1:13</sub> | Short (funnel) | Daily Verse · Neville Readings 2026 (English) | Archived · Video Artifacts · 4da7a9b8 | Live · redo | `LdkiL-qLh4Q` |
 | 2026-10-31 | [2026-10-31 · 2 Timothy 3:16-17](https://youtu.be/63aSh1Nemx8)<br><sub>Daily Verse | 2 Timothy 3:16-17 · All Scripture Is Given by Inspiration of God</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · fef65295 | Live | `63aSh1Nemx8` |
 | 2026-10-31 | [2026-10-31 · 2 Timothy 3:16-17](https://www.youtube.com/shorts/JdMBqNHm6rA)<br><sub>2 Timothy 3:16-17 | The Bible Is Your Own Autobiography</sub> | Short (hook) | Daily Verse · Neville Readings 2026 (English) | Archived · 23d36fc2 | Live | `JdMBqNHm6rA` |
 | 2026-10-31 | [2026-10-31 · 2 Timothy 3:16-17](https://www.youtube.com/shorts/T5KFITY_EvI)<br><sub>2 Timothy 3:16-17 | Not Waiting to Be Assembled — Only to Be Claimed</sub> | Short (funnel) | Daily Verse · Neville Readings 2026 (English) | Archived · 512c0577 | Live | `T5KFITY_EvI` |
@@ -177,18 +177,18 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
-| 2026-10-31 | [「得失從緣，心無增減」— 心不再隨得失起伏｜Neville 雙人播客解讀](https://youtu.be/N6il_reJEao) | 長集 | Neville 內在解讀播客 2026（中文） | 已存档 · eab96d65 | 已發布 | `N6il_reJEao` |
-| 2026-10-31 | [烏雲再密佈，天空不會被壓縮｜得失從緣，心無增減](https://www.youtube.com/shorts/atmOOJuMpwo) | Short · 鉤子 | Neville 內在解讀播客 2026（中文） | 已存档 · 4027698c | 已發布 | `atmOOJuMpwo` |
-| 2026-10-31 | [心是天空，情緒只是天氣｜得失從緣，心無增減](https://www.youtube.com/shorts/6N8MCfGnGo0) | Short · 導入 | Neville 內在解讀播客 2026（中文） | 已存档 · 137b83f5 | 已發布 | `6N8MCfGnGo0` |
-| 2026-10-31 | [睡前，把遙控器拿回來｜得失從緣，心無增減](https://www.youtube.com/shorts/s-xP8-mrumg) | Short · 姐妹版 | Neville 內在解讀播客 2026（中文） | 已存档 · Video Artifacts · 274fe41f | 已發布 | `s-xP8-mrumg` |
+| 2026-10-31 | [EP1 · 「得失從緣，心無增減」— 心不再隨得失起伏｜Neville 雙人播客解讀](https://youtu.be/N6il_reJEao)<br><sub>「得失從緣，心無增減」— 心不再隨得失起伏｜Neville 雙人播客解讀</sub> | 長集 | Neville 內在解讀播客 2026（中文） | 已存档 · eab96d65 | 已發布 | `N6il_reJEao` |
+| 2026-10-31 | [EP1 · 烏雲再密佈，天空不會被壓縮｜得失從緣，心無增減](https://www.youtube.com/shorts/atmOOJuMpwo)<br><sub>烏雲再密佈，天空不會被壓縮｜得失從緣，心無增減</sub> | Short · 鉤子 | Neville 內在解讀播客 2026（中文） | 已存档 · 4027698c | 已發布 | `atmOOJuMpwo` |
+| 2026-10-31 | [EP1 · 心是天空，情緒只是天氣｜得失從緣，心無增減](https://www.youtube.com/shorts/6N8MCfGnGo0)<br><sub>心是天空，情緒只是天氣｜得失從緣，心無增減</sub> | Short · 導入 | Neville 內在解讀播客 2026（中文） | 已存档 · 137b83f5 | 已發布 | `6N8MCfGnGo0` |
+| 2026-10-31 | [EP1 · 睡前，把遙控器拿回來｜得失從緣，心無增減](https://www.youtube.com/shorts/s-xP8-mrumg)<br><sub>睡前，把遙控器拿回來｜得失從緣，心無增減</sub> | Short · 加剪（sister cut） | Neville 內在解讀播客 2026（中文） | 已存档 · Video Artifacts · 274fe41f | 已發布 | `s-xP8-mrumg` |
 
 ## Neville Inner Reading Podcast — English (3)
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
-| 2026-10-31 | [Gain and Loss Follow Conditions; the Heart Neither Increases nor Decreases — A Neville Reading](https://youtu.be/jmJ4g-uz7ls) | Long | Neville Inner Reading Podcast 2026 (English) | Archived · c2cbf99e | Live | `jmJ4g-uz7ls` |
-| 2026-10-31 | [Gain & Loss Are Just Shadows](https://www.youtube.com/shorts/9gEkOKzQ1z4) | Short (hook) | Neville Inner Reading Podcast 2026 (English) | Archived · 8458714d | Live | `9gEkOKzQ1z4` |
-| 2026-10-31 | [Gain & Loss Are Just Weather](https://www.youtube.com/shorts/dfb2_DLKXng) | Short (funnel) | Neville Inner Reading Podcast 2026 (English) | Archived · a77de493 | Live | `dfb2_DLKXng` |
+| 2026-10-31 | [EP1 · Gain and Loss Follow Conditions; the Heart Neither Increases nor Decreases — A Neville Reading](https://youtu.be/jmJ4g-uz7ls)<br><sub>Gain and Loss Follow Conditions; the Heart Neither Increases nor Decreases — A Neville Reading</sub> | Long | Neville Inner Reading Podcast 2026 (English) | Archived · c2cbf99e | Live | `jmJ4g-uz7ls` |
+| 2026-10-31 | [EP1 · Gain & Loss Are Just Shadows](https://www.youtube.com/shorts/9gEkOKzQ1z4)<br><sub>Gain & Loss Are Just Shadows</sub> | Short (hook) | Neville Inner Reading Podcast 2026 (English) | Archived · 8458714d | Live | `9gEkOKzQ1z4` |
+| 2026-10-31 | [EP1 · Gain & Loss Are Just Weather](https://www.youtube.com/shorts/dfb2_DLKXng)<br><sub>Gain & Loss Are Just Weather</sub> | Short (funnel) | Neville Inner Reading Podcast 2026 (English) | Archived · a77de493 | Live | `dfb2_DLKXng` |
 
 ## 財經基礎 · 錢的知識 — 中文（3）
 

@@ -92,7 +92,8 @@ def human_label(r):
             return t.strip()
         return topic
     if series == "Neville Inner Reading Podcast":
-        return _strip_shorts(title)
+        t = _strip_shorts(title)
+        return t if t.startswith("EP1") else f"EP1 · {t}"
     if series == "Finance Basics":
         t = _strip_shorts(title)
         if lang == "zh":
@@ -101,8 +102,8 @@ def human_label(r):
     return _strip_shorts(title)
 
 TYPE_DISP = {
-    "zh": {"Long": "長集", "Short (hook)": "Short · 鉤子", "Short (funnel)": "Short · 導入", "Short (sister cut)": "Short · 姐妹版", "Short": "Short"},
-    "en": {"Long": "Long", "Short (hook)": "Short (hook)", "Short (funnel)": "Short (funnel)", "Short (sister cut)": "Short (sister cut)", "Short": "Short"},
+    "zh": {"Long": "長集", "Short (hook)": "Short · 鉤子", "Short (funnel)": "Short · 導入", "Short (sister cut)": "Short · 加剪（sister cut）", "Short": "Short"},
+    "en": {"Long": "Long", "Short (hook)": "Short (hook)", "Short (funnel)": "Short (funnel)", "Short (sister cut)": "Short · Extra cut (sister cut)", "Short": "Short"},
 }
 
 def type_label(r):
@@ -136,6 +137,10 @@ def status_label(r):
     zh = lang == "zh"
     if s.startswith("Live") or s == "Public":
         out = "已發布" if zh else "Live"
+        if "defect fixed" in s or "recovery pass" in s:
+            out += " · 已修復" if zh else " · defect fixed"
+        if "redo" in s:
+            out += " · 重製版" if zh else " · redo"
         m = re.search(r"spot-check due ~?(\d{4})-(\d{2})-(\d{2})", s)
         if m:
             out += f" · {'抽查' if zh else 'check'} {m.group(2)}-{m.group(3)}"
