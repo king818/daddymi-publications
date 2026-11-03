@@ -1597,6 +1597,78 @@ publications:
   playlist: Daily Verse · Neville Readings 2026 (English)
   archive_note: 9ae2c3d3-9577-43b5-a592-cb28e85cdaa5
   status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Philippians 2:3
+  language: zh-Hant
+  type: Long
+  title: '每日經文 2026-10-25 · Neville 解讀｜腓立比書 2:3 看別人比自己強——放下爭競，住進合一的意識'
+  published: '2026-11-03'
+  url: https://youtu.be/Es7G2LbMmvU
+  native_id: Es7G2LbMmvU
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: 74e451d9-16cd-4c87-863c-d6c7d8814380
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Philippians 2:3
+  language: zh-Hant
+  type: Short (hook)
+  title: '每日經文 2026-10-25 · 腓立比書 2:3｜在別人的終點裡看人 #Shorts'
+  published: '2026-11-03'
+  url: https://youtube.com/shorts/6OIMrolgQvA
+  native_id: 6OIMrolgQvA
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: 28541cdc-2eab-40b3-b43a-a73fc8dc8218
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Philippians 2:3
+  language: zh-Hant
+  type: Short (funnel)
+  title: '每日經文 2026-10-25 · 腓立比書 2:3｜今晚，為一個人想像最好的結局 #Shorts'
+  published: '2026-11-03'
+  url: https://youtube.com/shorts/1f31ZdfcC_A
+  native_id: 1f31ZdfcC_A
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: 4a3760e9-2e9b-4e3f-acb0-47ae79dc7876
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Philippians 2:3
+  language: en
+  type: Long
+  title: "Daily Verse · 2026-10-25 | Philippians 2:3 — Esteem Others Better: Laying Down Rivalry"
+  published: '2026-11-03'
+  url: https://youtu.be/vphlUHj9aIY
+  native_id: vphlUHj9aIY
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: 13b7b4f9-3758-449b-843d-ed6710707585
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Philippians 2:3
+  language: en
+  type: Short (hook)
+  title: 'Daily Verse 2026-10-25 · Philippians 2:3 | See Him in His Fulfilled End #Shorts'
+  published: '2026-11-03'
+  url: https://youtube.com/shorts/EiWBFRrdp_E
+  native_id: EiWBFRrdp_E
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: daad0257-cb2c-400c-83a1-da1a4992bf40
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Philippians 2:3
+  language: en
+  type: Short (funnel)
+  title: "Daily Verse 2026-10-25 · Philippians 2:3 | Tonight: Imagine the Best End for One Person #Shorts"
+  published: '2026-11-03'
+  url: https://youtube.com/shorts/7zc79TKoRCE
+  native_id: 7zc79TKoRCE
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: 5257ec10-756a-49f3-a617-7f04a20763e3
+  status: Public
 replaced_or_private:
 - platform: YouTube
   series: Neville Inner Reading Podcast
