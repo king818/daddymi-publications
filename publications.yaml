@@ -1525,6 +1525,78 @@ publications:
   playlist: Come, Follow Me 2026 (English)
   archive_note: 3ce58849-d6f1-4701-ad84-b1a0f508c550
   status: Live — published via Studio (Data API token revoked), verified by ID 2026-11-03; 48h spot-check due ~2026-11-05
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Psalm 139:23
+  language: zh-Hant
+  type: Long
+  title: '每日經文 2026-10-30 · Neville 解讀｜詩篇 139:23 求你鑒察我——看清自己所居住的狀態'
+  published: '2026-11-03'
+  url: https://youtu.be/e8AoCDAvGqY
+  native_id: e8AoCDAvGqY
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: b4e4b9e9-1134-4a13-9a70-4ff5459e33dd
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Psalm 139:23
+  language: zh-Hant
+  type: Short (hook)
+  title: '每日經文 2026-10-30 · 詩篇 139:23｜求你鑒察我 #Shorts'
+  published: '2026-11-03'
+  url: https://youtube.com/shorts/JCcAqREbRls
+  native_id: JCcAqREbRls
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: 85bdb1e3-5c02-44f9-980d-3c77a71e1ec2
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Psalm 139:23
+  language: zh-Hant
+  type: Short (funnel)
+  title: '每日經文 2026-10-30 · 詩篇 139:23｜今晚的鑒察與修訂 #Shorts'
+  published: '2026-11-03'
+  url: https://youtube.com/shorts/M1vn0z3mtVM
+  native_id: M1vn0z3mtVM
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: 7dee524a-9c38-4985-9cfa-47590491bc9b
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Psalm 139:23
+  language: en
+  type: Long
+  title: "Daily Verse · 2026-10-30 | Psalm 139:23 — Search Me, O God: Praying from the End"
+  published: '2026-11-03'
+  url: https://youtu.be/ehoGKSlRoNE
+  native_id: ehoGKSlRoNE
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: 98beab2c-b1ca-4d0f-875d-7158beb3c67d
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Psalm 139:23
+  language: en
+  type: Short (hook)
+  title: 'Daily Verse 2026-10-30 · Psalm 139:23 | Praying from the End #Shorts'
+  published: '2026-11-03'
+  url: https://youtube.com/shorts/kAwR4DXKAm4
+  native_id: kAwR4DXKAm4
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: 641f5863-211c-452b-a9d9-d6f270de2009
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Psalm 139:23
+  language: en
+  type: Short (funnel)
+  title: "Daily Verse 2026-10-30 · Psalm 139:23 | Tonight's Searching and Revision #Shorts"
+  published: '2026-11-03'
+  url: https://youtube.com/shorts/vpMJMdw0erA
+  native_id: vpMJMdw0erA
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: 9ae2c3d3-9577-43b5-a592-cb28e85cdaa5
+  status: Public
 replaced_or_private:
 - platform: YouTube
   series: Neville Inner Reading Podcast

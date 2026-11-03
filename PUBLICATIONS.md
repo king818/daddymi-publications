@@ -2,7 +2,7 @@
 
 Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, filterable version: https://king818.github.io/daddymi-publications/
 
-**127 public videos** · 21 replaced/private versions · Come, Follow Me 2026: 66 · Daily Verse · Neville Readings: 30 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 18 · Neville Inner Reading Podcast: 7
+**133 public videos** · 21 replaced/private versions · Come, Follow Me 2026: 66 · Daily Verse · Neville Readings: 36 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 18 · Neville Inner Reading Podcast: 7
 
 
 ## Come, Follow Me 2026 (66)
@@ -76,10 +76,16 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-10-31 | Come, Follow Me 2026 | Lesson 44 — Jeremiah | English | Short (hook) | [2026 Week 44 | Buying a Field During the Siege | Jeremiah #Shorts](https://www.youtube.com/shorts/IjyHjcmV50c) | `IjyHjcmV50c` | Come, Follow Me 2026 (English) | — | Live |
 | 2026-10-31 | Come, Follow Me 2026 | Lesson 44 — Jeremiah | English | Short (funnel) | [2026 Week 44 | I Am a Covenant Keeper | Jeremiah #Shorts](https://www.youtube.com/shorts/qMRx3Sjj15k) | `qMRx3Sjj15k` | Come, Follow Me 2026 (English) | — | Live |
 
-## Daily Verse · Neville Readings (30)
+## Daily Verse · Neville Readings (36)
 
 | Published | Series | Topic | Lang | Type | Title | Video ID | Playlist | Archive | Status |
 |---|---|---|---|---|---|---|---|---|---|
+| 2026-11-03 | Daily Verse · Neville Readings | Psalm 139:23 | zh-Hant | Long | [每日經文 2026-10-30 · Neville 解讀｜詩篇 139:23 求你鑒察我——看清自己所居住的狀態](https://youtu.be/e8AoCDAvGqY) | `e8AoCDAvGqY` | 每日經文 · Neville 解讀 2026（中文） | b4e4b9e9-1134-4a13-9a70-4ff5459e33dd | Public |
+| 2026-11-03 | Daily Verse · Neville Readings | Psalm 139:23 | zh-Hant | Short (hook) | [每日經文 2026-10-30 · 詩篇 139:23｜求你鑒察我 #Shorts](https://youtube.com/shorts/JCcAqREbRls) | `JCcAqREbRls` | 每日經文 · Neville 解讀 2026（中文） | 85bdb1e3-5c02-44f9-980d-3c77a71e1ec2 | Public |
+| 2026-11-03 | Daily Verse · Neville Readings | Psalm 139:23 | zh-Hant | Short (funnel) | [每日經文 2026-10-30 · 詩篇 139:23｜今晚的鑒察與修訂 #Shorts](https://youtube.com/shorts/M1vn0z3mtVM) | `M1vn0z3mtVM` | 每日經文 · Neville 解讀 2026（中文） | 7dee524a-9c38-4985-9cfa-47590491bc9b | Public |
+| 2026-11-03 | Daily Verse · Neville Readings | Psalm 139:23 | English | Long | [Daily Verse · 2026-10-30 | Psalm 139:23 — Search Me, O God: Praying from the End](https://youtu.be/ehoGKSlRoNE) | `ehoGKSlRoNE` | Daily Verse · Neville Readings 2026 (English) | 98beab2c-b1ca-4d0f-875d-7158beb3c67d | Public |
+| 2026-11-03 | Daily Verse · Neville Readings | Psalm 139:23 | English | Short (hook) | [Daily Verse 2026-10-30 · Psalm 139:23 | Praying from the End #Shorts](https://youtube.com/shorts/kAwR4DXKAm4) | `kAwR4DXKAm4` | Daily Verse · Neville Readings 2026 (English) | 641f5863-211c-452b-a9d9-d6f270de2009 | Public |
+| 2026-11-03 | Daily Verse · Neville Readings | Psalm 139:23 | English | Short (funnel) | [Daily Verse 2026-10-30 · Psalm 139:23 | Tonight's Searching and Revision #Shorts](https://youtube.com/shorts/vpMJMdw0erA) | `vpMJMdw0erA` | Daily Verse · Neville Readings 2026 (English) | 9ae2c3d3-9577-43b5-a592-cb28e85cdaa5 | Public |
 | 2026-11-03 | Daily Verse · Neville Readings | Psalm 119:11 | zh-Hant | Long | [每日經文 2026-11-03 · Neville 解讀｜詩篇 119:11 把話藏在心裏——先立容器，再種下應許](https://youtu.be/sdpT4xWJW8A) | `sdpT4xWJW8A` | 每日經文 · Neville 解讀 2026（中文） | d1658cf7-bd13-4e9f-a4a4-503737a0651d | Public |
 | 2026-11-03 | Daily Verse · Neville Readings | Psalm 119:11 | zh-Hant | Short (hook) | [每日經文 2026-11-03｜詩篇 119:11 藏話於心不是怕受罰，而是要對準靶心 #Shorts](https://youtube.com/shorts/FkEkZYt1O_s) | `FkEkZYt1O_s` | 每日經文 · Neville 解讀 2026（中文） | 5f8e5940-0b49-4e6b-8ed0-9ef8241e08cc | Public |
 | 2026-11-03 | Daily Verse · Neville Readings | Psalm 119:11 | zh-Hant | Short (funnel) | [每日經文 2026-11-03｜詩篇 119:11 今天，就為自己藏一句話 #Shorts](https://youtube.com/shorts/a2iAW-gNea0) | `a2iAW-gNea0` | 每日經文 · Neville 解讀 2026（中文） | c31c9cb5-20d8-4baa-8b91-51c25189baf1 | Public |
