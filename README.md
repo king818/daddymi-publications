@@ -46,3 +46,5 @@ Never hand-edit the HTML or the Markdown tables; they are regenerated from the d
 ## Verification
 
 Initial build (2026-11-02): every Public row was cross-checked from the production runsheets and daily logs, and each video's existence and exact current title were verified live via YouTube oEmbed (93/93 confirmed on the 米老爸 channel). Items that could not be verified are listed under **Unverified / pending** in the data file and on the page — never silently dropped, never guessed.
+
+**Full channel audit (2026-11-03):** a three-way reconciliation (publication records vs live canonical playlists vs local finished files) is archived at [docs/channel-audit-2026-11-03.md](docs/channel-audit-2026-11-03.md) — 148 public videos accounted for, no losses; the per-playlist Shorts gap table and index-completeness deltas are listed there.
