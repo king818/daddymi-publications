@@ -1381,6 +1381,78 @@ publications:
   playlist: Daily Verse · Neville Readings 2026 (English)
   archive_note: f9c863ba-725b-4392-b04d-4496e7046ac6
   status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Psalm 119:11
+  language: zh-Hant
+  type: Long
+  title: '每日經文 2026-11-03 · Neville 解讀｜詩篇 119:11 把話藏在心裏——先立容器，再種下應許'
+  published: '2026-11-03'
+  url: https://youtu.be/sdpT4xWJW8A
+  native_id: sdpT4xWJW8A
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: ''
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Psalm 119:11
+  language: zh-Hant
+  type: Short (hook)
+  title: '每日經文 2026-11-03｜詩篇 119:11 藏話於心不是怕受罰，而是要對準靶心 #Shorts'
+  published: '2026-11-03'
+  url: https://youtube.com/shorts/FkEkZYt1O_s
+  native_id: FkEkZYt1O_s
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: ''
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Psalm 119:11
+  language: zh-Hant
+  type: Short (funnel)
+  title: '每日經文 2026-11-03｜詩篇 119:11 今天，就為自己藏一句話 #Shorts'
+  published: '2026-11-03'
+  url: https://youtube.com/shorts/a2iAW-gNea0
+  native_id: a2iAW-gNea0
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: ''
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Psalm 119:11
+  language: en
+  type: Long
+  title: 'Daily Verse 2026-11-03 · Psalm 119:11 | Hiding the Word in the Heart'
+  published: '2026-11-03'
+  url: https://youtu.be/FEmW-caUtk0
+  native_id: FEmW-caUtk0
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: ''
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Psalm 119:11
+  language: en
+  type: Short (hook)
+  title: 'Daily Verse 2026-11-03 · Psalm 119:11 | Missing the Mark Is Not a Crime #Shorts'
+  published: '2026-11-03'
+  url: https://youtube.com/shorts/CZ3GRVz2Zng
+  native_id: CZ3GRVz2Zng
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: ''
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Psalm 119:11
+  language: en
+  type: Short (funnel)
+  title: 'Daily Verse 2026-11-03 · Psalm 119:11 | Today, Hide One Sentence in Your Heart #Shorts'
+  published: '2026-11-03'
+  url: https://youtube.com/shorts/k5Yd_cg8QDQ
+  native_id: k5Yd_cg8QDQ
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: ''
+  status: Public
 replaced_or_private:
 - platform: YouTube
   series: Neville Inner Reading Podcast

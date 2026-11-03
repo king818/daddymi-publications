@@ -2,7 +2,7 @@
 
 Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, filterable version: https://king818.github.io/daddymi-publications/
 
-**115 public videos** · 21 replaced/private versions · Come, Follow Me 2026: 60 · Daily Verse · Neville Readings: 24 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 18 · Neville Inner Reading Podcast: 7
+**121 public videos** · 21 replaced/private versions · Come, Follow Me 2026: 60 · Daily Verse · Neville Readings: 30 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 18 · Neville Inner Reading Podcast: 7
 
 
 ## Come, Follow Me 2026 (60)
@@ -70,10 +70,16 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-10-31 | Come, Follow Me 2026 | Lesson 44 — Jeremiah | English | Short (hook) | [2026 Week 44 | Buying a Field During the Siege | Jeremiah #Shorts](https://www.youtube.com/shorts/IjyHjcmV50c) | `IjyHjcmV50c` | Come, Follow Me 2026 (English) | — | Live |
 | 2026-10-31 | Come, Follow Me 2026 | Lesson 44 — Jeremiah | English | Short (funnel) | [2026 Week 44 | I Am a Covenant Keeper | Jeremiah #Shorts](https://www.youtube.com/shorts/qMRx3Sjj15k) | `qMRx3Sjj15k` | Come, Follow Me 2026 (English) | — | Live |
 
-## Daily Verse · Neville Readings (24)
+## Daily Verse · Neville Readings (30)
 
 | Published | Series | Topic | Lang | Type | Title | Video ID | Playlist | Archive | Status |
 |---|---|---|---|---|---|---|---|---|---|
+| 2026-11-03 | Daily Verse · Neville Readings | Psalm 119:11 | zh-Hant | Long | [每日經文 2026-11-03 · Neville 解讀｜詩篇 119:11 把話藏在心裏——先立容器，再種下應許](https://youtu.be/sdpT4xWJW8A) | `sdpT4xWJW8A` | 每日經文 · Neville 解讀 2026（中文） | — | Public |
+| 2026-11-03 | Daily Verse · Neville Readings | Psalm 119:11 | zh-Hant | Short (hook) | [每日經文 2026-11-03｜詩篇 119:11 藏話於心不是怕受罰，而是要對準靶心 #Shorts](https://youtube.com/shorts/FkEkZYt1O_s) | `FkEkZYt1O_s` | 每日經文 · Neville 解讀 2026（中文） | — | Public |
+| 2026-11-03 | Daily Verse · Neville Readings | Psalm 119:11 | zh-Hant | Short (funnel) | [每日經文 2026-11-03｜詩篇 119:11 今天，就為自己藏一句話 #Shorts](https://youtube.com/shorts/a2iAW-gNea0) | `a2iAW-gNea0` | 每日經文 · Neville 解讀 2026（中文） | — | Public |
+| 2026-11-03 | Daily Verse · Neville Readings | Psalm 119:11 | English | Long | [Daily Verse 2026-11-03 · Psalm 119:11 | Hiding the Word in the Heart](https://youtu.be/FEmW-caUtk0) | `FEmW-caUtk0` | Daily Verse · Neville Readings 2026 (English) | — | Public |
+| 2026-11-03 | Daily Verse · Neville Readings | Psalm 119:11 | English | Short (hook) | [Daily Verse 2026-11-03 · Psalm 119:11 | Missing the Mark Is Not a Crime #Shorts](https://youtube.com/shorts/CZ3GRVz2Zng) | `CZ3GRVz2Zng` | Daily Verse · Neville Readings 2026 (English) | — | Public |
+| 2026-11-03 | Daily Verse · Neville Readings | Psalm 119:11 | English | Short (funnel) | [Daily Verse 2026-11-03 · Psalm 119:11 | Today, Hide One Sentence in Your Heart #Shorts](https://youtube.com/shorts/k5Yd_cg8QDQ) | `k5Yd_cg8QDQ` | Daily Verse · Neville Readings 2026 (English) | — | Public |
 | 2026-11-02 | Daily Verse · Neville Readings | Isaiah 41:10 | zh-Hant | Long | [每日經文 2026-10-26 · Neville 解讀｜不要害怕，祂與你同在——以賽亞書 41:10 內在解讀](https://youtu.be/KCUVl4_IFY0) | `KCUVl4_IFY0` | 每日經文 · Neville 解讀 2026（中文） | 1ca97d75-6bad-49aa-b6f9-338514bc4ca8 | Public |
 | 2026-11-02 | Daily Verse · Neville Readings | Isaiah 41:10 | zh-Hant | Short (hook) | [每日經文 2026-10-26 · Neville 解讀｜恐懼不是沒有信心，是信心指錯了方向（以賽亞書 41:10）](https://youtube.com/shorts/0i2eaQr3vE4) | `0i2eaQr3vE4` | 每日經文 · Neville 解讀 2026（中文） | 1144a479-428b-43ab-b4a4-d7ea591e34c0 | Public |
 | 2026-11-02 | Daily Verse · Neville Readings | Isaiah 41:10 | zh-Hant | Short (funnel) | [每日經文 2026-10-26 · Neville 解讀｜今晚的右手操練：恭喜你，一切都成了（以賽亞書 41:10）](https://youtube.com/shorts/OTFsNzh6zkQ) | `OTFsNzh6zkQ` | 每日經文 · Neville 解讀 2026（中文） | 5238297b-5657-4ba7-a630-f4ea93fb03e8 | Public |
