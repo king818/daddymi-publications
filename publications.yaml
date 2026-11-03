@@ -1813,6 +1813,78 @@ publications:
   playlist: Come, Follow Me 2026 (English)
   archive_note: ''
   status: Live — published via Studio (Data API token revoked), verified by ID 2026-11-03; 48h spot-check due ~2026-11-05
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: James 1:12
+  language: zh-Hant
+  type: Long
+  title: '每日經文 2026-10-27 · Neville 解讀｜雅各書 1:12 住留不搬家——從試探的壓力，進入生命的冠冕'
+  published: '2026-11-03'
+  url: https://youtu.be/cyANijnMux4
+  native_id: cyANijnMux4
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: ''
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: James 1:12
+  language: zh-Hant
+  type: Short (hook)
+  title: '每日經文 2026-10-27 · 雅各書 1:12｜忍受試探的人是有福的 #Shorts'
+  published: '2026-11-03'
+  url: https://youtube.com/shorts/GI_layzMmo4
+  native_id: GI_layzMmo4
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: ''
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: James 1:12
+  language: zh-Hant
+  type: Short (funnel)
+  title: '每日經文 2026-10-27 · 雅各書 1:12｜帶著已成就的平靜入睡 #Shorts'
+  published: '2026-11-03'
+  url: https://youtube.com/shorts/ucvIYW3fGXI
+  native_id: ucvIYW3fGXI
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: ''
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Proverbs 16:3
+  language: zh-Hant
+  type: Long
+  title: '每日經文 2026-10-24 · Neville 解讀｜箴言 16:3 把石頭滾下去——交託所做的，所謀的就必成立'
+  published: '2026-11-03'
+  url: https://youtu.be/j_f6t3j5OLs
+  native_id: j_f6t3j5OLs
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: ''
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Proverbs 16:3
+  language: zh-Hant
+  type: Short (hook)
+  title: '每日經文 2026-10-24 · 箴言 16:3｜交託不是呈上去，是滾下來 #Shorts'
+  published: '2026-11-03'
+  url: https://youtube.com/shorts/DtFuP_Y27sk
+  native_id: DtFuP_Y27sk
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: ''
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Proverbs 16:3
+  language: zh-Hant
+  type: Short (funnel)
+  title: '每日經文 2026-10-24 · 箴言 16:3｜把名叫「如何」的石頭交託給祢 #Shorts'
+  published: '2026-11-03'
+  url: https://youtube.com/shorts/JYolqKOh9rs
+  native_id: JYolqKOh9rs
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: ''
+  status: Public
 replaced_or_private:
 - platform: YouTube
   series: Neville Inner Reading Podcast
@@ -2022,3 +2094,6 @@ unverified:
 - item: CFM Lesson 3 (6 videos, published 2026-11-03) — Evernote archive notes missing
   reason: Checked 2026-11-03 — no archive notes found in Evernote by video ID or title; archive ZIPs not yet built. Finals retained on M1 mini (~/cfm-bf03-creation) and in the run dir on the VM.
   action: Build archive ZIPs and create the six archive notes (Chinese → Gospel, English → Video Artifacts, per CFM archiving standard), then backfill archive_note GUIDs here.
+- item: Daily Verse James 1:12 + Proverbs 16:3 Chinese sets (6 videos, published 2026-11-03) — Evernote archive notes missing
+  reason: Archive notes not yet created at registration time; archive_note left empty deliberately. English sets still in production, IDs to follow.
+  action: Build archive ZIPs and create the six archive notes, then backfill archive_note GUIDs here.

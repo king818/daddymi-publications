@@ -2,7 +2,7 @@
 
 Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, filterable version: https://king818.github.io/daddymi-publications/
 
-**151 public videos** · 17 replaced/private versions · Come, Follow Me 2026: 72 · Daily Verse · Neville Readings: 48 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 18 · Neville Inner Reading Podcast: 7
+**157 public videos** · 17 replaced/private versions · Come, Follow Me 2026: 72 · Daily Verse · Neville Readings: 54 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 18 · Neville Inner Reading Podcast: 7
 
 
 ## 來跟隨我 2026 — 中文（36）
@@ -87,7 +87,7 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-10-31 | [Week 45 · Ezekiel](https://www.youtube.com/shorts/HYBj9c6Z5EU)<br><sub>2026 Week 45 | God Goes to the Exiles | Ezekiel</sub> | Short (hook) | Come, Follow Me 2026 (English) | Archived · 777370cb | Live | `HYBj9c6Z5EU` |
 | 2026-10-31 | [Week 45 · Ezekiel](https://www.youtube.com/shorts/oCqZeKxPCdE)<br><sub>2026 Week 45 | A Heart of Flesh, Not Stone | Ezekiel</sub> | Short (funnel) | Come, Follow Me 2026 (English) | Archived · f18bffbe | Live | `oCqZeKxPCdE` |
 
-## 每日經文 · Neville 解讀 — 中文（24）
+## 每日經文 · Neville 解讀 — 中文（30）
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
@@ -100,6 +100,12 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-11-03 | [2026-10-25 · 腓立比書 2:3](https://youtu.be/Es7G2LbMmvU)<br><sub>每日經文 2026-10-25 · Neville 解讀｜腓立比書 2:3 看別人比自己強——放下爭競，住進合一的意識</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 74e451d9 | 已發布 | `Es7G2LbMmvU` |
 | 2026-11-03 | [2026-10-25 · 腓立比書 2:3](https://youtube.com/shorts/6OIMrolgQvA)<br><sub>每日經文 2026-10-25 · 腓立比書 2:3｜在別人的終點裡看人</sub> | Short · 鉤子 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 28541cdc | 已發布 | `6OIMrolgQvA` |
 | 2026-11-03 | [2026-10-25 · 腓立比書 2:3](https://youtube.com/shorts/1f31ZdfcC_A)<br><sub>每日經文 2026-10-25 · 腓立比書 2:3｜今晚，為一個人想像最好的結局</sub> | Short · 導入 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 4a3760e9 | 已發布 | `1f31ZdfcC_A` |
+| 2026-11-03 | [2026-10-27 · 雅各書 1:12](https://youtu.be/cyANijnMux4)<br><sub>每日經文 2026-10-27 · Neville 解讀｜雅各書 1:12 住留不搬家——從試探的壓力，進入生命的冠冕</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 待存档 | 已發布 | `cyANijnMux4` |
+| 2026-11-03 | [2026-10-27 · 雅各書 1:12](https://youtube.com/shorts/GI_layzMmo4)<br><sub>每日經文 2026-10-27 · 雅各書 1:12｜忍受試探的人是有福的</sub> | Short · 鉤子 | 每日經文 · Neville 解讀 2026（中文） | 待存档 | 已發布 | `GI_layzMmo4` |
+| 2026-11-03 | [2026-10-27 · 雅各書 1:12](https://youtube.com/shorts/ucvIYW3fGXI)<br><sub>每日經文 2026-10-27 · 雅各書 1:12｜帶著已成就的平靜入睡</sub> | Short · 導入 | 每日經文 · Neville 解讀 2026（中文） | 待存档 | 已發布 | `ucvIYW3fGXI` |
+| 2026-11-03 | [2026-10-24 · 箴言 16:3](https://youtu.be/j_f6t3j5OLs)<br><sub>每日經文 2026-10-24 · Neville 解讀｜箴言 16:3 把石頭滾下去——交託所做的，所謀的就必成立</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 待存档 | 已發布 | `j_f6t3j5OLs` |
+| 2026-11-03 | [2026-10-24 · 箴言 16:3](https://youtube.com/shorts/DtFuP_Y27sk)<br><sub>每日經文 2026-10-24 · 箴言 16:3｜交託不是呈上去，是滾下來</sub> | Short · 鉤子 | 每日經文 · Neville 解讀 2026（中文） | 待存档 | 已發布 | `DtFuP_Y27sk` |
+| 2026-11-03 | [2026-10-24 · 箴言 16:3](https://youtube.com/shorts/JYolqKOh9rs)<br><sub>每日經文 2026-10-24 · 箴言 16:3｜把名叫「如何」的石頭交託給祢</sub> | Short · 導入 | 每日經文 · Neville 解讀 2026（中文） | 待存档 | 已發布 | `JYolqKOh9rs` |
 | 2026-11-02 | [2026-10-26 · 以賽亞書 41:10](https://youtu.be/KCUVl4_IFY0)<br><sub>每日經文 2026-10-26 · Neville 解讀｜不要害怕，祂與你同在——以賽亞書 41:10 內在解讀</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 1ca97d75 | 已發布 | `KCUVl4_IFY0` |
 | 2026-11-02 | [2026-10-26 · 以賽亞書 41:10](https://youtube.com/shorts/0i2eaQr3vE4)<br><sub>每日經文 2026-10-26 · Neville 解讀｜恐懼不是沒有信心，是信心指錯了方向（以賽亞書 41:10）</sub> | Short · 鉤子 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 1144a479 | 已發布 | `0i2eaQr3vE4` |
 | 2026-11-02 | [2026-10-26 · 以賽亞書 41:10](https://youtube.com/shorts/OTFsNzh6zkQ)<br><sub>每日經文 2026-10-26 · Neville 解讀｜今晚的右手操練：恭喜你，一切都成了（以賽亞書 41:10）</sub> | Short · 導入 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 5238297b | 已發布 | `OTFsNzh6zkQ` |
@@ -256,3 +262,4 @@ Same productions, kept for the record — not public.
 ## Unverified / pending
 
 - **CFM Lesson 3 (6 videos, published 2026-11-03) — Evernote archive notes missing** — Checked 2026-11-03 — no archive notes found in Evernote by video ID or title; archive ZIPs not yet built. Finals retained on M1 mini (~/cfm-bf03-creation) and in the run dir on the VM. Next: Build archive ZIPs and create the six archive notes (Chinese → Gospel, English → Video Artifacts, per CFM archiving standard), then backfill archive_note GUIDs here.
+- **Daily Verse James 1:12 + Proverbs 16:3 Chinese sets (6 videos, published 2026-11-03) — Evernote archive notes missing** — Archive notes not yet created at registration time; archive_note left empty deliberately. English sets still in production, IDs to follow. Next: Build archive ZIPs and create the six archive notes, then backfill archive_note GUIDs here.
