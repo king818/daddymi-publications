@@ -1532,8 +1532,8 @@ publications:
   type: Long
   title: '每日經文 2026-10-30 · Neville 解讀｜詩篇 139:23 求你鑒察我——看清自己所居住的狀態'
   published: '2026-11-03'
-  url: https://youtu.be/e8AoCDAvGqY
-  native_id: e8AoCDAvGqY
+  url: https://youtu.be/tpHOX-_U6Vw
+  native_id: tpHOX-_U6Vw
   playlist: 每日經文 · Neville 解讀 2026（中文）
   archive_note: b4e4b9e9-1134-4a13-9a70-4ff5459e33dd
   status: Public
@@ -1568,8 +1568,8 @@ publications:
   type: Long
   title: "Daily Verse · 2026-10-30 | Psalm 139:23 — Search Me, O God: Praying from the End"
   published: '2026-11-03'
-  url: https://youtu.be/ehoGKSlRoNE
-  native_id: ehoGKSlRoNE
+  url: https://youtu.be/cBEHNBDJOe8
+  native_id: cBEHNBDJOe8
   playlist: Daily Verse · Neville Readings 2026 (English)
   archive_note: 98beab2c-b1ca-4d0f-875d-7158beb3c67d
   status: Public
@@ -1604,8 +1604,8 @@ publications:
   type: Long
   title: '每日經文 2026-10-25 · Neville 解讀｜腓立比書 2:3 看別人比自己強——放下爭競，住進合一的意識'
   published: '2026-11-03'
-  url: https://youtu.be/Es7G2LbMmvU
-  native_id: Es7G2LbMmvU
+  url: https://youtu.be/XQkfhoat9TQ
+  native_id: XQkfhoat9TQ
   playlist: 每日經文 · Neville 解讀 2026（中文）
   archive_note: 74e451d9-16cd-4c87-863c-d6c7d8814380
   status: Public
@@ -1640,8 +1640,8 @@ publications:
   type: Long
   title: "Daily Verse · 2026-10-25 | Philippians 2:3 — Esteem Others Better: Laying Down Rivalry"
   published: '2026-11-03'
-  url: https://youtu.be/vphlUHj9aIY
-  native_id: vphlUHj9aIY
+  url: https://youtu.be/ybLh9DPOqiY
+  native_id: ybLh9DPOqiY
   playlist: Daily Verse · Neville Readings 2026 (English)
   archive_note: 13b7b4f9-3758-449b-843d-ed6710707585
   status: Public
@@ -1820,8 +1820,8 @@ publications:
   type: Long
   title: '每日經文 2026-10-27 · Neville 解讀｜雅各書 1:12 住留不搬家——從試探的壓力，進入生命的冠冕'
   published: '2026-11-03'
-  url: https://youtu.be/cyANijnMux4
-  native_id: cyANijnMux4
+  url: https://youtu.be/K2_BZ0w7jaw
+  native_id: K2_BZ0w7jaw
   playlist: 每日經文 · Neville 解讀 2026（中文）
   archive_note: '2dca116b-4f26-4511-b414-3b05c04905bb'
   status: Public
@@ -1856,8 +1856,8 @@ publications:
   type: Long
   title: '每日經文 2026-10-24 · Neville 解讀｜箴言 16:3 把石頭滾下去——交託所做的，所謀的就必成立'
   published: '2026-11-03'
-  url: https://youtu.be/j_f6t3j5OLs
-  native_id: j_f6t3j5OLs
+  url: https://youtu.be/yd7rh4vg4Wg
+  native_id: yd7rh4vg4Wg
   playlist: 每日經文 · Neville 解讀 2026（中文）
   archive_note: '286cbaa9-0083-4706-809f-3a59b824c689'
   status: Public
@@ -1884,6 +1884,150 @@ publications:
   native_id: JYolqKOh9rs
   playlist: 每日經文 · Neville 解讀 2026（中文）
   archive_note: 'b3e87b08-0804-42e8-a326-2a1f3fcb1c52'
+  status: Public
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 4 — The Fall of Adam and Eve
+  language: zh-Hant
+  type: Long
+  title: 來跟隨我 2026 第4週（1月19日–25日）｜亞當和夏娃的墜落 · 創世記 3–4；摩西書 4–5
+  published: '2026-11-03'
+  url: https://youtu.be/GBOcGjDwapQ
+  native_id: GBOcGjDwapQ
+  playlist: 來跟隨我 2026（中文）
+  archive_note: c862e779-038f-4056-bcdc-c1de31915520
+  status: Live — published via Studio (Data API token revoked), verified Public 2026-11-03; 48h spot-check due ~2026-11-05
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 4 — The Fall of Adam and Eve
+  language: en
+  type: Long
+  title: 'Come, Follow Me 2026 Week 4 (Jan 19–25) | The Fall of Adam and Eve — Genesis 3–4; Moses 4–5'
+  published: '2026-11-03'
+  url: https://youtu.be/PZ1KoOldSYo
+  native_id: PZ1KoOldSYo
+  playlist: Come, Follow Me 2026 (English)
+  archive_note: 4ad48979-7b9a-4a46-b4f3-f54c46a2a01f
+  status: Live — published via Studio (Data API token revoked), verified Public 2026-11-03; 48h spot-check due ~2026-11-05
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 4 — The Fall of Adam and Eve
+  language: zh-Hant
+  type: Short (hook)
+  title: 2026 第4週｜眼睛明亮了——墜落的第一個收穫 #Shorts
+  published: '2026-11-03'
+  url: https://youtube.com/shorts/J9OiQ9SEnHc
+  native_id: J9OiQ9SEnHc
+  playlist: 來跟隨我 2026（中文）
+  archive_note: d16630f6-ac92-4fd6-bb13-66a7133846bc
+  status: Live
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 4 — The Fall of Adam and Eve
+  language: zh-Hant
+  type: Short (funnel)
+  title: 2026 第4週｜七天操練：在選擇中長大 #Shorts
+  published: '2026-11-03'
+  url: https://youtube.com/shorts/ez2QOrUr91Q
+  native_id: ez2QOrUr91Q
+  playlist: 來跟隨我 2026（中文）
+  archive_note: 208a14af-dbe8-4c8f-bae3-74084a147b52
+  status: Live
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 4 — The Fall of Adam and Eve
+  language: en
+  type: Short (hook)
+  title: '2026 Week 4 | "Adam Fell That Men Might Be" #Shorts'
+  published: '2026-11-03'
+  url: https://youtube.com/shorts/pJM5oWxqEy8
+  native_id: pJM5oWxqEy8
+  playlist: Come, Follow Me 2026 (English)
+  archive_note: 0838120e-45b0-43d0-bbf7-a6c1bd4eadbc
+  status: Live
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 4 — The Fall of Adam and Eve
+  language: en
+  type: Short (funnel)
+  title: '2026 Week 4 | A Seven-Day Practice: Growing Through Choices #Shorts'
+  published: '2026-11-03'
+  url: https://youtube.com/shorts/bmWrXLbDRNY
+  native_id: bmWrXLbDRNY
+  playlist: Come, Follow Me 2026 (English)
+  archive_note: 206fa035-cced-424c-88e7-4319715d29c1
+  status: Live
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: James 1:12
+  language: en
+  type: Long
+  title: 'Daily Verse · 2026-10-27 | James 1:12 — Endure and Be Crowned: Remaining in the End'
+  published: '2026-11-03'
+  url: https://youtu.be/CsLQhN2fqjc
+  native_id: CsLQhN2fqjc
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: ad89add3-1e75-460f-b1d8-21f8e2d7237d
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: James 1:12
+  language: en
+  type: Short (hook)
+  title: 'Daily Verse 2026-10-27 · James 1:12 | Blessed Comes First, the Crown Later #Shorts'
+  published: '2026-11-03'
+  url: https://youtube.com/shorts/VtUrlhBMf3Y
+  native_id: VtUrlhBMf3Y
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: afcef883-0e4f-4100-88ec-b1d91baa5b4b
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: James 1:12
+  language: en
+  type: Short (funnel)
+  title: 'Daily Verse 2026-10-27 · James 1:12 | Sleep in the Peace of What Is Already Finished #Shorts'
+  published: '2026-11-03'
+  url: https://youtube.com/shorts/5upkjtuVKSw
+  native_id: 5upkjtuVKSw
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: 74e3071e-2569-4fa6-b704-d39cfefd20e8
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Proverbs 16:3
+  language: en
+  type: Long
+  title: 'Daily Verse · 2026-10-24 | Proverbs 16:3 — Roll It Off Your Shoulders'
+  published: '2026-11-03'
+  url: https://youtu.be/esKv9WHH9yU
+  native_id: esKv9WHH9yU
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: bf6db083-dbba-42f6-a0c6-184461c26bbd
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Proverbs 16:3
+  language: en
+  type: Short (hook)
+  title: 'Daily Verse 2026-10-24 · Proverbs 16:3 | Commit Is Not Handed Up — It Is Rolled Off #Shorts'
+  published: '2026-11-03'
+  url: https://youtube.com/shorts/gahgddgpyrQ
+  native_id: gahgddgpyrQ
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: 542e77e9-6527-4fd5-a55c-d3c0bd6cea1f
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Proverbs 16:3
+  language: en
+  type: Short (funnel)
+  title: 'Daily Verse 2026-10-24 · Proverbs 16:3 | Hand Him the Stone Named "How" #Shorts'
+  published: '2026-11-03'
+  url: https://youtube.com/shorts/EZNep7NBvfs
+  native_id: EZNep7NBvfs
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: e0916a3c-f25d-4180-8e58-3f1cc2bf389d
   status: Public
 replaced_or_private:
 - platform: YouTube
@@ -2090,6 +2234,78 @@ replaced_or_private:
   playlist: Come, Follow Me 2026 (English)
   archive_note: ''
   status: Private — duplicate upload of canonical PDfCTm7ntxg (2026-11-02 duplicate-publish incident); set Private per boss ruling 2026-11-02, not deleted, held for later decision
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Proverbs 16:3
+  language: zh-Hant
+  type: Long
+  title: '每日經文 2026-10-24 · Neville 解讀｜箴言 16:3 把石頭滾下去——交託所做的，所謀的就必成立'
+  published: '2026-11-03'
+  url: https://youtu.be/j_f6t3j5OLs
+  native_id: j_f6t3j5OLs
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: 286cbaa9-0083-4706-809f-3a59b824c689
+  status: Private — replaced by the per-episode-imagery version yd7rh4vg4Wg in the 2026-11-03 swap; original used a template background with no per-episode imagery; set Private per boss ruling, not deleted; archive note holds the current version and the swap record; the original template-background build is retained in the run directory
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Philippians 2:3
+  language: zh-Hant
+  type: Long
+  title: '每日經文 2026-10-25 · Neville 解讀｜腓立比書 2:3 看別人比自己強——放下爭競，住進合一的意識'
+  published: '2026-11-03'
+  url: https://youtu.be/Es7G2LbMmvU
+  native_id: Es7G2LbMmvU
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: 74e451d9-16cd-4c87-863c-d6c7d8814380
+  status: Private — replaced by the per-episode-imagery version XQkfhoat9TQ in the 2026-11-03 swap; original used a template background with no per-episode imagery; set Private per boss ruling, not deleted; the original build mp4 remains in the archive note alongside the new version
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Philippians 2:3
+  language: en
+  type: Long
+  title: "Daily Verse · 2026-10-25 | Philippians 2:3 — Esteem Others Better: Laying Down Rivalry"
+  published: '2026-11-03'
+  url: https://youtu.be/vphlUHj9aIY
+  native_id: vphlUHj9aIY
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: 13b7b4f9-3758-449b-843d-ed6710707585
+  status: Private — replaced by the per-episode-imagery version ybLh9DPOqiY in the 2026-11-03 swap; original used a template background with no per-episode imagery; set Private per boss ruling, not deleted; the original build mp4 remains in the archive note alongside the new version
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: James 1:12
+  language: zh-Hant
+  type: Long
+  title: '每日經文 2026-10-27 · Neville 解讀｜雅各書 1:12 住留不搬家——從試探的壓力，進入生命的冠冕'
+  published: '2026-11-03'
+  url: https://youtu.be/cyANijnMux4
+  native_id: cyANijnMux4
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: 2dca116b-4f26-4511-b414-3b05c04905bb
+  status: Private — replaced by the per-episode-imagery version K2_BZ0w7jaw in the 2026-11-03 swap; original used a template background with no per-episode imagery; set Private per boss ruling, not deleted; archive note holds the current version and the swap record; the original template-background build is retained in the run directory
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Psalm 139:23
+  language: zh-Hant
+  type: Long
+  title: '每日經文 2026-10-30 · Neville 解讀｜詩篇 139:23 求你鑒察我——看清自己所居住的狀態'
+  published: '2026-11-03'
+  url: https://youtu.be/e8AoCDAvGqY
+  native_id: e8AoCDAvGqY
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: b4e4b9e9-1134-4a13-9a70-4ff5459e33dd
+  status: Private — replaced by the per-episode-imagery version tpHOX-_U6Vw in the 2026-11-03 swap; original used a template background with no per-episode imagery; set Private per boss ruling, not deleted; the original build mp4 remains in the archive note alongside the new version
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Psalm 139:23
+  language: en
+  type: Long
+  title: "Daily Verse · 2026-10-30 | Psalm 139:23 — Search Me, O God: Praying from the End"
+  published: '2026-11-03'
+  url: https://youtu.be/ehoGKSlRoNE
+  native_id: ehoGKSlRoNE
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: 98beab2c-b1ca-4d0f-875d-7158beb3c67d
+  status: Private — replaced by the per-episode-imagery version cBEHNBDJOe8 in the 2026-11-03 swap; original used a template background with no per-episode imagery; set Private per boss ruling, not deleted; the original build mp4 remains in the archive note alongside the new version
 unverified:
 - item: CFM Lesson 3 (6 videos, published 2026-11-03) — Evernote archive notes missing
   reason: Checked 2026-11-03 — no archive notes found in Evernote by video ID or title; archive ZIPs not yet built. Finals retained on M1 mini (~/cfm-bf03-creation) and in the run dir on the VM.
