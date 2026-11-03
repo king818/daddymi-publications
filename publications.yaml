@@ -1453,6 +1453,78 @@ publications:
   playlist: Daily Verse · Neville Readings 2026 (English)
   archive_note: 772b559d-4983-40c9-83eb-838a6dcc98a4
   status: Public
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 2 — This Is My Work and My Glory
+  language: zh
+  type: Long
+  title: 來跟隨我 2026 第2週（1月5日–11日）｜這就是我的事工和我的榮耀 · 摩西書 1；亞伯拉罕書 3
+  published: '2026-11-03'
+  url: https://youtu.be/tKwg1JWiJNs
+  native_id: tKwg1JWiJNs
+  playlist: 來跟隨我 2026（中文）
+  archive_note: 2ca0617e-7f69-4c10-8da6-0e3f6d68cb2e
+  status: Live — published via Studio (Data API token revoked), verified by ID 2026-11-03; 48h spot-check due ~2026-11-05
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 2 — This Is My Work and My Glory
+  language: en
+  type: Long
+  title: Come, Follow Me 2026 Week 2 (Jan 5–11) | This Is My Work and My Glory — Moses 1; Abraham 3
+  published: '2026-11-03'
+  url: https://youtu.be/l96NV1vr5qE
+  native_id: l96NV1vr5qE
+  playlist: Come, Follow Me 2026 (English)
+  archive_note: 6c5052ba-6531-4d57-b949-662e9ea7f6ad
+  status: Live — published via Studio (Data API token revoked), verified by ID 2026-11-03; 48h spot-check due ~2026-11-05
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 2 — This Is My Work and My Glory
+  language: zh
+  type: Short (hook)
+  title: '2026 第2週｜撒但叫他「人的兒子」，神卻叫他「我的兒子」 #Shorts'
+  published: '2026-11-03'
+  url: https://www.youtube.com/shorts/55wX_XzLQpw
+  native_id: 55wX_XzLQpw
+  playlist: 來跟隨我 2026（中文）
+  archive_note: d57bcc7c-f522-4bee-8f2e-eaf14b1cd770
+  status: Live — published via Studio (Data API token revoked), verified by ID 2026-11-03; 48h spot-check due ~2026-11-05
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 2 — This Is My Work and My Glory
+  language: zh
+  type: Short (funnel)
+  title: '2026 第2週｜七天操練：先記得你是誰 #Shorts'
+  published: '2026-11-03'
+  url: https://www.youtube.com/shorts/k2jINF_D6Cw
+  native_id: k2jINF_D6Cw
+  playlist: 來跟隨我 2026（中文）
+  archive_note: ecdc9556-8154-4682-84a4-a7236319fb8b
+  status: Live — published via Studio (Data API token revoked), verified by ID 2026-11-03; 48h spot-check due ~2026-11-05
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 2 — This Is My Work and My Glory
+  language: en
+  type: Short (hook)
+  title: '2026 Week 2 | Satan Called Him "Son of Man." God Called Him "My Son." #Shorts'
+  published: '2026-11-03'
+  url: https://www.youtube.com/shorts/4ypNDpAPiQM
+  native_id: 4ypNDpAPiQM
+  playlist: Come, Follow Me 2026 (English)
+  archive_note: 25aa34be-b18d-4989-b022-e47bb5bae565
+  status: Live — published via Studio (Data API token revoked), verified by ID 2026-11-03; 48h spot-check due ~2026-11-05
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 2 — This Is My Work and My Glory
+  language: en
+  type: Short (funnel)
+  title: "2026 Week 2 | A Seven-Day Practice: Start from Who You Are #Shorts"
+  published: '2026-11-03'
+  url: https://www.youtube.com/shorts/el-RucYRnKE
+  native_id: el-RucYRnKE
+  playlist: Come, Follow Me 2026 (English)
+  archive_note: 053ecb8e-6b7a-48a6-98bb-ec397f0b8a1d
+  status: Live — published via Studio (Data API token revoked), verified by ID 2026-11-03; 48h spot-check due ~2026-11-05
 replaced_or_private:
 - platform: YouTube
   series: Neville Inner Reading Podcast
