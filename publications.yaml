@@ -1273,6 +1273,114 @@ publications:
   archive_note: 5238297b-5657-4ba7-a630-f4ea93fb03e8
   playlist: 每日經文 · Neville 解讀 2026（中文）
   status: Public
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 1 — Introduction to the Old Testament
+  language: zh
+  type: Long
+  title: 來跟隨我 2026 第1週（12月29日–1月4日）｜耶穌基督的第一部約書 · 舊約介紹
+  published: '2026-11-02'
+  url: https://youtu.be/7rZXaZzw5jQ
+  native_id: 7rZXaZzw5jQ
+  playlist: 來跟隨我 2026（中文）
+  archive_note: ce152792-149a-4e22-bdf3-846f1f913bf0
+  status: Live — published via Studio (Data API token revoked), verified by ID 2026-11-02; 48h spot-check due ~2026-11-04
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 1 — Introduction to the Old Testament
+  language: en
+  type: Long
+  title: Come, Follow Me 2026 Week 1 (Dec 29–Jan 4) | The First Testament of Jesus Christ
+  published: '2026-11-02'
+  url: https://youtu.be/rAfMyf-6Nqo
+  native_id: rAfMyf-6Nqo
+  playlist: Come, Follow Me 2026 (English)
+  archive_note: 996a62c7-4c3f-4628-a804-8044b402e4df
+  status: Live — published via Studio (Data API token revoked), verified by ID 2026-11-02; 48h spot-check due ~2026-11-04
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 1 — Introduction to the Old Testament
+  language: zh
+  type: Short (hook)
+  title: '2026 第1週｜讀舊約像外星語維修手冊？先找到主角 #Shorts'
+  published: '2026-11-02'
+  url: https://www.youtube.com/shorts/nhxDw9HtpB0
+  native_id: nhxDw9HtpB0
+  playlist: 來跟隨我 2026（中文）
+  archive_note: faf37332-50dd-40b7-b6c0-9a6e20078837
+  status: Live — published via Studio (Data API token revoked), verified by ID 2026-11-02; 48h spot-check due ~2026-11-04
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 1 — Introduction to the Old Testament
+  language: zh
+  type: Short (funnel)
+  title: '2026 第1週｜七天研讀計畫，每天十到十五分鐘 #Shorts'
+  published: '2026-11-02'
+  url: https://www.youtube.com/shorts/6mQll6yeBpA
+  native_id: 6mQll6yeBpA
+  playlist: 來跟隨我 2026（中文）
+  archive_note: c66bbd61-228a-41cf-87f8-970c2f455409
+  status: Live — published via Studio (Data API token revoked), verified by ID 2026-11-02; 48h spot-check due ~2026-11-04
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 1 — Introduction to the Old Testament
+  language: en
+  type: Short (hook)
+  title: '2026 Week 1 | The Old Testament Is a Coded Message #Shorts'
+  published: '2026-11-02'
+  url: https://www.youtube.com/shorts/1ZuscCZ-KVM
+  native_id: 1ZuscCZ-KVM
+  playlist: Come, Follow Me 2026 (English)
+  archive_note: b17f87dc-1579-4a0f-b5ba-00dc8ee99ea5
+  status: Live — published via Studio (Data API token revoked), verified by ID 2026-11-02; 48h spot-check due ~2026-11-04
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 1 — Introduction to the Old Testament
+  language: en
+  type: Short (funnel)
+  title: '2026 Week 1 | A Seven-Day Plan, Ten Minutes a Day #Shorts'
+  published: '2026-11-02'
+  url: https://www.youtube.com/shorts/_2cKAEuNnNo
+  native_id: _2cKAEuNnNo
+  playlist: Come, Follow Me 2026 (English)
+  archive_note: 5610dd44-c8a1-41b0-a760-54f4e5d4012e
+  status: Live — published via Studio (Data API token revoked), verified by ID 2026-11-02; 48h spot-check due ~2026-11-04
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Isaiah 41:10
+  language: en
+  type: Long
+  title: 'Daily Verse 2026-10-26 · Neville Goddard Reading | Fear Thou Not — I Am With Thee: Isaiah 41:10'
+  published: '2026-11-02'
+  url: https://youtu.be/CpqGsKubH_0
+  native_id: CpqGsKubH_0
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: 14dafa3a-3b21-4ca8-9c10-14c4efa1981f
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Isaiah 41:10
+  language: en
+  type: Short (hook)
+  title: 'Daily Verse 2026-10-26 | Fear Is Strong Faith Aimed the Wrong Way #Shorts'
+  published: '2026-11-02'
+  url: https://youtube.com/shorts/QRWMJSl2Pdo
+  native_id: QRWMJSl2Pdo
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: 380b021c-9f29-4a73-a080-5509de9000c1
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Isaiah 41:10
+  language: en
+  type: Short (funnel)
+  title: 'Daily Verse 2026-10-26 | Tonight’s Right-Hand Scene — “Congratulations, It Is Done” #Shorts'
+  published: '2026-11-02'
+  url: https://youtube.com/shorts/si3NWwt1MU8
+  native_id: si3NWwt1MU8
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: f9c863ba-725b-4392-b04d-4496e7046ac6
+  status: Public
 replaced_or_private:
 - platform: YouTube
   series: Neville Inner Reading Podcast

@@ -2,10 +2,10 @@
 
 Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, filterable version: https://king818.github.io/daddymi-publications/
 
-**106 public videos** · 21 replaced/private versions · Come, Follow Me 2026: 54 · Daily Verse · Neville Readings: 21 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 18 · Neville Inner Reading Podcast: 7
+**115 public videos** · 21 replaced/private versions · Come, Follow Me 2026: 60 · Daily Verse · Neville Readings: 24 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 18 · Neville Inner Reading Podcast: 7
 
 
-## Come, Follow Me 2026 (54)
+## Come, Follow Me 2026 (60)
 
 | Published | Series | Topic | Lang | Type | Title | Video ID | Playlist | Archive | Status |
 |---|---|---|---|---|---|---|---|---|---|
@@ -20,6 +20,12 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-11-02 | Come, Follow Me 2026 | Lesson 51 — Malachi | 中文 | Short (funnel) | [2026 第51週｜七天歸向主 #Shorts](https://www.youtube.com/shorts/sp07jnLxSwI) | `sp07jnLxSwI` | 來跟隨我 2026（中文） | Evernote Gospel note cb8cf701-99a2-41bd-87c2-f73914bcc46a | Live — 48h spot-check due ~2026-11-04 |
 | 2026-11-02 | Come, Follow Me 2026 | Lesson 51 — Malachi | English | Short (hook) | [2026 Week 51 | Return unto Me, and I Will Return unto You #Shorts](https://www.youtube.com/shorts/wyLoCESmDhY) | `wyLoCESmDhY` | Come, Follow Me 2026 (English) | Evernote Video Artifacts note 8e55d10c-16dc-4dbc-8e76-fa184c2a2505 | Live — 48h spot-check due ~2026-11-04 |
 | 2026-11-02 | Come, Follow Me 2026 | Lesson 51 — Malachi | English | Short (funnel) | [2026 Week 51 | Seven Days of Returning #Shorts](https://www.youtube.com/shorts/VE29E7f_WvI) | `VE29E7f_WvI` | Come, Follow Me 2026 (English) | Evernote Video Artifacts note 200239a9-0144-4ed8-bb98-339f0ceab022 | Live — 48h spot-check due ~2026-11-04 |
+| 2026-11-02 | Come, Follow Me 2026 | Lesson 1 — Introduction to the Old Testament | 中文 | Long | [來跟隨我 2026 第1週（12月29日–1月4日）｜耶穌基督的第一部約書 · 舊約介紹](https://youtu.be/7rZXaZzw5jQ) | `7rZXaZzw5jQ` | 來跟隨我 2026（中文） | ce152792-149a-4e22-bdf3-846f1f913bf0 | Live — published via Studio (Data API token revoked), verified by ID 2026-11-02; 48h spot-check due ~2026-11-04 |
+| 2026-11-02 | Come, Follow Me 2026 | Lesson 1 — Introduction to the Old Testament | English | Long | [Come, Follow Me 2026 Week 1 (Dec 29–Jan 4) | The First Testament of Jesus Christ](https://youtu.be/rAfMyf-6Nqo) | `rAfMyf-6Nqo` | Come, Follow Me 2026 (English) | 996a62c7-4c3f-4628-a804-8044b402e4df | Live — published via Studio (Data API token revoked), verified by ID 2026-11-02; 48h spot-check due ~2026-11-04 |
+| 2026-11-02 | Come, Follow Me 2026 | Lesson 1 — Introduction to the Old Testament | 中文 | Short (hook) | [2026 第1週｜讀舊約像外星語維修手冊？先找到主角 #Shorts](https://www.youtube.com/shorts/nhxDw9HtpB0) | `nhxDw9HtpB0` | 來跟隨我 2026（中文） | faf37332-50dd-40b7-b6c0-9a6e20078837 | Live — published via Studio (Data API token revoked), verified by ID 2026-11-02; 48h spot-check due ~2026-11-04 |
+| 2026-11-02 | Come, Follow Me 2026 | Lesson 1 — Introduction to the Old Testament | 中文 | Short (funnel) | [2026 第1週｜七天研讀計畫，每天十到十五分鐘 #Shorts](https://www.youtube.com/shorts/6mQll6yeBpA) | `6mQll6yeBpA` | 來跟隨我 2026（中文） | c66bbd61-228a-41cf-87f8-970c2f455409 | Live — published via Studio (Data API token revoked), verified by ID 2026-11-02; 48h spot-check due ~2026-11-04 |
+| 2026-11-02 | Come, Follow Me 2026 | Lesson 1 — Introduction to the Old Testament | English | Short (hook) | [2026 Week 1 | The Old Testament Is a Coded Message #Shorts](https://www.youtube.com/shorts/1ZuscCZ-KVM) | `1ZuscCZ-KVM` | Come, Follow Me 2026 (English) | b17f87dc-1579-4a0f-b5ba-00dc8ee99ea5 | Live — published via Studio (Data API token revoked), verified by ID 2026-11-02; 48h spot-check due ~2026-11-04 |
+| 2026-11-02 | Come, Follow Me 2026 | Lesson 1 — Introduction to the Old Testament | English | Short (funnel) | [2026 Week 1 | A Seven-Day Plan, Ten Minutes a Day #Shorts](https://www.youtube.com/shorts/_2cKAEuNnNo) | `_2cKAEuNnNo` | Come, Follow Me 2026 (English) | 5610dd44-c8a1-41b0-a760-54f4e5d4012e | Live — published via Studio (Data API token revoked), verified by ID 2026-11-02; 48h spot-check due ~2026-11-04 |
 | 2026-11-01 | Come, Follow Me 2026 | Lesson 51 — Malachi | 中文 | Long | [來跟隨我 2026 第51週（12月14日–20日）｜我曾愛你們 · 瑪拉基書](https://youtu.be/LGGls3PSy2I) | `LGGls3PSy2I` | 來跟隨我 2026（中文） | Evernote Gospel note d7ecd40a-4c60-467e-bcaf-33cc82582569 | Live — published 23:55 Nov 1–00:05 Nov 2; 48h spot-check due ~2026-11-04 |
 | 2026-11-01 | Come, Follow Me 2026 | Lesson 50 — Haggai & Zechariah | 中文 | Long | [來跟隨我 2026 第50週（12月7日–13日）｜歸耶和華為聖 · 哈該書；撒迦利亞書](https://youtu.be/8f1HZjGTEEc) | `8f1HZjGTEEc` | 來跟隨我 2026（中文） | Evernote Gospel note 7c039582-a214-4bae-a70e-50d6a9c89dd6 | Live — 48h spot-check due 2026-11-03 |
 | 2026-11-01 | Come, Follow Me 2026 | Lesson 50 — Haggai & Zechariah | English | Long | [Come, Follow Me 2026 Week 50 (Dec 7–13) | Holiness unto the Lord — Haggai; Zechariah](https://youtu.be/JPZVMHEM8EU) | `JPZVMHEM8EU` | Come, Follow Me 2026 (English) | Evernote Video Artifacts note 69394228-1ae9-4808-afbe-86ed825fb5c9 | Live — 48h spot-check due 2026-11-03 |
@@ -64,13 +70,16 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-10-31 | Come, Follow Me 2026 | Lesson 44 — Jeremiah | English | Short (hook) | [2026 Week 44 | Buying a Field During the Siege | Jeremiah #Shorts](https://www.youtube.com/shorts/IjyHjcmV50c) | `IjyHjcmV50c` | Come, Follow Me 2026 (English) | — | Live |
 | 2026-10-31 | Come, Follow Me 2026 | Lesson 44 — Jeremiah | English | Short (funnel) | [2026 Week 44 | I Am a Covenant Keeper | Jeremiah #Shorts](https://www.youtube.com/shorts/qMRx3Sjj15k) | `qMRx3Sjj15k` | Come, Follow Me 2026 (English) | — | Live |
 
-## Daily Verse · Neville Readings (21)
+## Daily Verse · Neville Readings (24)
 
 | Published | Series | Topic | Lang | Type | Title | Video ID | Playlist | Archive | Status |
 |---|---|---|---|---|---|---|---|---|---|
 | 2026-11-02 | Daily Verse · Neville Readings | Isaiah 41:10 | zh-Hant | Long | [每日經文 2026-10-26 · Neville 解讀｜不要害怕，祂與你同在——以賽亞書 41:10 內在解讀](https://youtu.be/KCUVl4_IFY0) | `KCUVl4_IFY0` | 每日經文 · Neville 解讀 2026（中文） | 1ca97d75-6bad-49aa-b6f9-338514bc4ca8 | Public |
 | 2026-11-02 | Daily Verse · Neville Readings | Isaiah 41:10 | zh-Hant | Short (hook) | [每日經文 2026-10-26 · Neville 解讀｜恐懼不是沒有信心，是信心指錯了方向（以賽亞書 41:10）](https://youtube.com/shorts/0i2eaQr3vE4) | `0i2eaQr3vE4` | 每日經文 · Neville 解讀 2026（中文） | 1144a479-428b-43ab-b4a4-d7ea591e34c0 | Public |
 | 2026-11-02 | Daily Verse · Neville Readings | Isaiah 41:10 | zh-Hant | Short (funnel) | [每日經文 2026-10-26 · Neville 解讀｜今晚的右手操練：恭喜你，一切都成了（以賽亞書 41:10）](https://youtube.com/shorts/OTFsNzh6zkQ) | `OTFsNzh6zkQ` | 每日經文 · Neville 解讀 2026（中文） | 5238297b-5657-4ba7-a630-f4ea93fb03e8 | Public |
+| 2026-11-02 | Daily Verse · Neville Readings | Isaiah 41:10 | English | Long | [Daily Verse 2026-10-26 · Neville Goddard Reading | Fear Thou Not — I Am With Thee: Isaiah 41:10](https://youtu.be/CpqGsKubH_0) | `CpqGsKubH_0` | Daily Verse · Neville Readings 2026 (English) | 14dafa3a-3b21-4ca8-9c10-14c4efa1981f | Public |
+| 2026-11-02 | Daily Verse · Neville Readings | Isaiah 41:10 | English | Short (hook) | [Daily Verse 2026-10-26 | Fear Is Strong Faith Aimed the Wrong Way #Shorts](https://youtube.com/shorts/QRWMJSl2Pdo) | `QRWMJSl2Pdo` | Daily Verse · Neville Readings 2026 (English) | 380b021c-9f29-4a73-a080-5509de9000c1 | Public |
+| 2026-11-02 | Daily Verse · Neville Readings | Isaiah 41:10 | English | Short (funnel) | [Daily Verse 2026-10-26 | Tonight’s Right-Hand Scene — “Congratulations, It Is Done” #Shorts](https://youtube.com/shorts/si3NWwt1MU8) | `si3NWwt1MU8` | Daily Verse · Neville Readings 2026 (English) | f9c863ba-725b-4392-b04d-4496e7046ac6 | Public |
 | 2026-11-01 | Daily Verse · Neville Readings | John 1:1 | 中文 | Long | [每日經文｜約翰福音 1:1 · 太初有道](https://youtu.be/j8QQMpXYTnQ) | `j8QQMpXYTnQ` | 每日經文 · Neville 解讀 2026（中文） | — | Live |
 | 2026-11-01 | Daily Verse · Neville Readings | John 1:1 | English | Long | [Daily Verse | John 1:1 · In the Beginning Was the Word](https://youtu.be/g9rPIhfN_Og) | `g9rPIhfN_Og` | Daily Verse · Neville Readings 2026 (English) | — | Live |
 | 2026-11-01 | Daily Verse · Neville Readings | John 1:1 | 中文 | Short (hook) | [每日經文｜約翰福音 1:1 · 太初不在遠古，就在你說「我是」的那一秒](https://www.youtube.com/shorts/7sJLw4yaPWw) | `7sJLw4yaPWw` | 每日經文 · Neville 解讀 2026（中文） | — | Live |
