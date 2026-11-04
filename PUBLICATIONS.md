@@ -2,7 +2,7 @@
 
 Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, filterable version: https://king818.github.io/daddymi-publications/
 
-**181 public videos** · 25 replaced/private versions · Come, Follow Me 2026: 78 · Daily Verse · Neville Readings: 72 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 18 · Neville Inner Reading Podcast: 7
+**187 public videos** · 25 replaced/private versions · Come, Follow Me 2026: 78 · Daily Verse · Neville Readings: 72 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 24 · Neville Inner Reading Podcast: 7
 
 
 ## 來跟隨我 2026 — 中文（39）
@@ -175,10 +175,13 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-10-31 | [2026-10-31 · 2 Timothy 3:16-17](https://www.youtube.com/shorts/JdMBqNHm6rA)<br><sub>2 Timothy 3:16-17 | The Bible Is Your Own Autobiography</sub> | Short (hook) | Daily Verse · Neville Readings 2026 (English) | Archived · 23d36fc2 | Live | `JdMBqNHm6rA` |
 | 2026-10-31 | [2026-10-31 · 2 Timothy 3:16-17](https://www.youtube.com/shorts/T5KFITY_EvI)<br><sub>2 Timothy 3:16-17 | Not Waiting to Be Assembled — Only to Be Claimed</sub> | Short (funnel) | Daily Verse · Neville Readings 2026 (English) | Archived · 512c0577 | Live | `T5KFITY_EvI` |
 
-## 總會大會 · 長老定額組討論 — 中文（9）
+## 總會大會 · 長老定額組討論 — 中文（12）
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
+| 2026-11-04 | [长老定额组讨论](https://youtu.be/pgR84KJi2vo)<br><sub>长老定额组讨论｜聖靈的安慰 · 馬修·艾寧長老</sub> | 長集 | 總會大會演講 2026（中文） | 已存档 · d76c7dc7 | 已發布 | `pgR84KJi2vo` |
+| 2026-11-04 | [長老定額組討論](https://www.youtube.com/shorts/ZTsSlLV5DlI)<br><sub>長老定額組討論｜當你說「我無能為力」的那一天</sub> | Short · 鉤子 | 總會大會演講 2026（中文） | 已存档 · 792df700 | 已發布 | `ZTsSlLV5DlI` |
+| 2026-11-04 | [長老定額組討論](https://www.youtube.com/shorts/sVzNHxHUtBQ)<br><sub>長老定額組討論｜本主日討論：把重擔卸給主</sub> | Short · 導入 | 總會大會演講 2026（中文） | 已存档 · 9a1f5bf4 | 已發布 | `sVzNHxHUtBQ` |
 | 2026-10-31 | [「使用和平締造者的語言」— 埋葬紛爭的話，種下平安的話](https://youtu.be/MbQCNjRATgY)<br><sub>「使用和平締造者的語言」— 埋葬紛爭的話，種下平安的話｜長老定額組討論</sub> | 長集 | 總會大會演講 2026（中文） | 已存档 · 538cb840 | 已發布 | `MbQCNjRATgY` |
 | 2026-10-31 | [幾句輕飄飄的話，能痛上整整十年](https://www.youtube.com/shorts/E5KSO9p51p4)<br><sub>幾句輕飄飄的話，能痛上整整十年｜使用和平締造者的語言</sub> | Short · 鉤子 | 總會大會演講 2026（中文） | 已存档 · 824b5301 | 已發布 | `E5KSO9p51p4` |
 | 2026-10-31 | [埋葬紛爭的語言](https://www.youtube.com/shorts/RXJ3FcM9oOc)<br><sub>埋葬紛爭的語言｜使用和平締造者的語言</sub> | Short · 導入 | 總會大會演講 2026（中文） | 已存档 · 76fc829f | 已發布 | `RXJ3FcM9oOc` |
@@ -189,10 +192,13 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-10-31 | [我們越接近祂，就越接近彼此](https://www.youtube.com/shorts/3NpnGyy6F1A)<br><sub>我們越接近祂，就越接近彼此｜以基督為中心的合一</sub> | Short · 鉤子 | 總會大會演講 2026（中文） | 已存档 · a480e34d | 已發布 | `3NpnGyy6F1A` |
 | 2026-10-31 | [出席不等於屬於](https://www.youtube.com/shorts/Hgk5GlRb3tI)<br><sub>出席不等於屬於｜以基督為中心的合一</sub> | Short · 導入 | 總會大會演講 2026（中文） | 已存档 · 7995279f | 已發布 | `Hgk5GlRb3tI` |
 
-## General Conference Talks (Elders Quorum) — English (9)
+## General Conference Talks (Elders Quorum) — English (12)
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
+| 2026-11-04 | [Eyring — Comfort from the Holy Ghost](https://youtu.be/qtSEFFhFwIE)<br><sub>Elders Quorum | Comfort from the Holy Ghost · Matthew J. Eyring</sub> | Long | General Conference Talks 2026 (English) | Archived · 1850f84c | Live | `qtSEFFhFwIE` |
+| 2026-11-04 | [Eyring — Comfort from the Holy Ghost](https://www.youtube.com/shorts/Ct4TPaZnzic)<br><sub>Elders Quorum | "I Can't Fix This" · Comfort from the Holy Ghost</sub> | Short (hook) | General Conference Talks 2026 (English) | Archived · 29fb9dfc | Live | `Ct4TPaZnzic` |
+| 2026-11-04 | [Eyring — Comfort from the Holy Ghost](https://www.youtube.com/shorts/V0RDi7o5GMY)<br><sub>Elders Quorum | This Sunday: Cast Your Burdens on Him</sub> | Short (funnel) | General Conference Talks 2026 (English) | Archived · a3b31b5d | Live | `V0RDi7o5GMY` |
 | 2026-10-31 | [Kyungu — Using the Language of Peacemakers](https://youtu.be/RrdehXYRaSw)<br><sub>Using the Language of Peacemakers · Elder Alfred Kyungu — Elders Quorum Discussion</sub> | Long | General Conference Talks 2026 (English) | Archived · ea7bdb9c | Live | `RrdehXYRaSw` |
 | 2026-10-31 | [Kyungu — Using the Language of Peacemakers](https://www.youtube.com/shorts/1dRh5I03QOY)<br><sub>A Few Careless Syllables Can Fracture a Relationship | Using the Language of Peacemakers</sub> | Short (hook) | General Conference Talks 2026 (English) | Archived · f3ade65f | Live | `1dRh5I03QOY` |
 | 2026-10-31 | [Kyungu — Using the Language of Peacemakers](https://www.youtube.com/shorts/NehNzeKZ4CY)<br><sub>Bury the Language of Contention | Using the Language of Peacemakers</sub> | Short (funnel) | General Conference Talks 2026 (English) | Archived · 085fb09d | Live | `NehNzeKZ4CY` |
