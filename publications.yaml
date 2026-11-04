@@ -1670,6 +1670,78 @@ publications:
   archive_note: f648bed0-9241-4e4c-bd76-223eb79b8001
   status: Public
 - platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Ruth 1:16
+  language: zh-Hant
+  type: Long
+  title: '每日經文 2026-11-06 · Neville 解讀｜路得記 1:16 你往哪裡去，我也往那裡去——不再回頭，安住於新身分'
+  published: '2026-11-04'
+  url: https://youtu.be/7i2SwLZdOv4
+  native_id: 7i2SwLZdOv4
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: 574790e9-c963-4333-bb0e-e19246775ee5
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Ruth 1:16
+  language: zh-Hant
+  type: Short (hook)
+  title: '每日經文 2026-11-06｜路得記 1:16 不要催我回去：舊身分沒有最後發言權 #Shorts'
+  published: '2026-11-04'
+  url: https://youtube.com/shorts/Omq9uNkr0J8
+  native_id: Omq9uNkr0J8
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: f3683977-2e2b-4c8b-83ad-4d9cd83d781c
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Ruth 1:16
+  language: zh-Hant
+  type: Short (funnel)
+  title: '每日經文 2026-11-06｜路得記 1:16 你今晚在哪裡住宿？睡前安住操練 #Shorts'
+  published: '2026-11-04'
+  url: https://youtube.com/shorts/MmWAxg3qS_4
+  native_id: MmWAxg3qS_4
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: 2a38cee4-91b5-48cc-ad69-00f2941d0abb
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Ruth 1:16
+  language: en
+  type: Long
+  title: 'Daily Verse 2026-11-06 · Ruth 1:16 | Whither Thou Goest, I Will Go — No Turning Back'
+  published: '2026-11-04'
+  url: https://youtu.be/wprDt-I0LqM
+  native_id: wprDt-I0LqM
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: 960c3955-c573-4cc8-a5a9-860bc976b15e
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Ruth 1:16
+  language: en
+  type: Short (hook)
+  title: 'Daily Verse 2026-11-06 · Ruth 1:16 | Intreat me not: no more turning back #Shorts'
+  published: '2026-11-04'
+  url: https://youtube.com/shorts/wNxuPUMzh_4
+  native_id: wNxuPUMzh_4
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: 574ccb54-95a8-4750-af59-09e696fa3d2d
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Ruth 1:16
+  language: en
+  type: Short (funnel)
+  title: 'Daily Verse 2026-11-06 · Ruth 1:16 | Where will you lodge tonight? #Shorts'
+  published: '2026-11-04'
+  url: https://youtube.com/shorts/qpdGenu8S4A
+  native_id: qpdGenu8S4A
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: 77888ae7-20bf-424f-b095-957f9bd2801d
+  status: Public
+- platform: YouTube
   series: Come, Follow Me 2026
   topic: Lesson 2 — This Is My Work and My Glory
   language: zh
