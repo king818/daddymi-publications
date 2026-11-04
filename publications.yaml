@@ -1388,10 +1388,10 @@ publications:
   type: Long
   title: '每日經文 2026-11-03 · Neville 解讀｜詩篇 119:11 把話藏在心裏——先立容器，再種下應許'
   published: '2026-11-03'
-  url: https://youtu.be/sdpT4xWJW8A
-  native_id: sdpT4xWJW8A
+  url: https://youtu.be/2-ZtDDffE4U
+  native_id: 2-ZtDDffE4U
   playlist: 每日經文 · Neville 解讀 2026（中文）
-  archive_note: d1658cf7-bd13-4e9f-a4a4-503737a0651d
+  archive_note:
   status: Public
 - platform: YouTube
   series: Daily Verse · Neville Readings
@@ -1424,10 +1424,10 @@ publications:
   type: Long
   title: 'Daily Verse 2026-11-03 · Psalm 119:11 | Hiding the Word in the Heart'
   published: '2026-11-03'
-  url: https://youtu.be/FEmW-caUtk0
-  native_id: FEmW-caUtk0
+  url: https://youtu.be/EB4svq0CPoA
+  native_id: EB4svq0CPoA
   playlist: Daily Verse · Neville Readings 2026 (English)
-  archive_note: 9f4ddc4b-d876-4e69-bfa5-32d3bf85ee6f
+  archive_note:
   status: Public
 - platform: YouTube
   series: Daily Verse · Neville Readings
@@ -2306,6 +2306,30 @@ replaced_or_private:
   playlist: Daily Verse · Neville Readings 2026 (English)
   archive_note: 98beab2c-b1ca-4d0f-875d-7158beb3c67d
   status: Private — replaced by the per-episode-imagery version cBEHNBDJOe8 in the 2026-11-03 swap; original used a template background with no per-episode imagery; set Private per boss ruling, not deleted; the original build mp4 remains in the archive note alongside the new version
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Psalm 119:11
+  language: zh-Hant
+  type: Long
+  title: '每日經文 2026-11-03 · Neville 解讀｜詩篇 119:11 把話藏在心裏——先立容器，再種下應許'
+  published: '2026-11-03'
+  url: https://youtu.be/sdpT4xWJW8A
+  native_id: sdpT4xWJW8A
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: d1658cf7-bd13-4e9f-a4a4-503737a0651d
+  status: Private — replaced by the per-episode-imagery version 2-ZtDDffE4U in the 2026-11-03 swap; original used a template background with no per-episode imagery; set Private per boss ruling, not deleted; Evernote append of the replacement version pending (see unverified)
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Psalm 119:11
+  language: en
+  type: Long
+  title: 'Daily Verse 2026-11-03 · Psalm 119:11 | Hiding the Word in the Heart'
+  published: '2026-11-03'
+  url: https://youtu.be/FEmW-caUtk0
+  native_id: FEmW-caUtk0
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: 9f4ddc4b-d876-4e69-bfa5-32d3bf85ee6f
+  status: Private — replaced by the per-episode-imagery version EB4svq0CPoA in the 2026-11-03 swap; original used a template background with no per-episode imagery; set Private per boss ruling, not deleted; Evernote append of the replacement version pending (see unverified)
 unverified:
 - item: CFM Lesson 3 (6 videos, published 2026-11-03) — Evernote archive notes missing
   reason: Checked 2026-11-03 — no archive notes found in Evernote by video ID or title; archive ZIPs not yet built. Finals retained on M1 mini (~/cfm-bf03-creation) and in the run dir on the VM.
@@ -2315,3 +2339,6 @@ unverified:
   reason: Archive notes not yet created at registration time; archive_note left empty deliberately. English sets still in production, IDs to follow.
   action: Build archive ZIPs and create the six archive notes, then backfill archive_note GUIDs here.
   resolved: '2026-11-03 — DONE by wrap-up line: six notes created in Gospel (tag Neville Goddard) in the Daily Verse format (mp4 + SRT tracks + description attached individually), verified landed; archive_note GUIDs backfilled above. Note: the archived long mp4s are the 2026-11-03 per-episode-imagery redo builds (republish swap pending boss ruling); the Shorts files are the live versions. English sets were unpublished at this time, so there was nothing further to archive.'
+- item: Daily Verse Psalm 119:11 replacement pair (2 longs, published 2026-11-03) — Evernote append pending
+  reason: Per-episode-imagery replacement versions 2-ZtDDffE4U (zh) and EB4svq0CPoA (en) published via Studio 2026-11-03 15:25–15:40 PST and verified Public; checked 2026-11-03 18:3x — no Evernote note contains the new video IDs, so the Video Artifacts append into the existing Psalm 119:11 notes has not landed yet; archive_note left empty deliberately. Originals sdpT4xWJW8A / FEmW-caUtk0 moved to replaced_or_private.
+  action: Append the replacement Video Artifacts to the existing Psalm 119:11 archive notes (zh d1658cf7-bd13-4e9f-a4a4-503737a0651d, en 9f4ddc4b-d876-4e69-bfa5-32d3bf85ee6f) per the replacement doctrine (append, never regenerate; double-hr separators, newest marked latest), then backfill archive_note GUIDs here.
