@@ -2546,6 +2546,54 @@ replaced_or_private:
   playlist: Daily Verse · Neville Readings 2026 (English)
   archive_note: 9f4ddc4b-d876-4e69-bfa5-32d3bf85ee6f
   status: Private — replaced by the per-episode-imagery version EB4svq0CPoA in the 2026-11-03 swap; original used a template background with no per-episode imagery; set Private per boss ruling, not deleted; Evernote append of the replacement version pending (see unverified)
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 3 — In the Beginning God Created the Heaven and the Earth
+  language: zh
+  type: Short (hook)
+  title: '2026 第3週｜地是空虛混沌，祂說：要有光 #Shorts'
+  published: '2026-11-03'
+  url: https://youtu.be/G0UH51vPj9s
+  native_id: G0UH51vPj9s
+  playlist: 來跟隨我 2026（中文）
+  archive_note:
+  status: Private — duplicate of the CFM Lesson 3 Shorts collision (two production lines uploaded the same lesson on 2026-11-03); boss ruled 2026-11-04 to keep the first-uploaded set Public and move this later-uploaded set to Private, not deleted; never registered while Public, added here for a complete record
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 3 — In the Beginning God Created the Heaven and the Earth
+  language: zh
+  type: Short (funnel)
+  title: '2026 第3週｜七天操練：照著創造的次序過一周 #Shorts'
+  published: '2026-11-03'
+  url: https://youtu.be/g9nguOQgU4o
+  native_id: g9nguOQgU4o
+  playlist: 來跟隨我 2026（中文）
+  archive_note:
+  status: Private — duplicate of the CFM Lesson 3 Shorts collision (two production lines uploaded the same lesson on 2026-11-03); boss ruled 2026-11-04 to keep the first-uploaded set Public and move this later-uploaded set to Private, not deleted; never registered while Public, added here for a complete record
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 3 — In the Beginning God Created the Heaven and the Earth
+  language: en
+  type: Short (hook)
+  title: "2026 Week 3 | \"Let There Be Light\" — God's First Word to Chaos #Shorts"
+  published: '2026-11-03'
+  url: https://youtu.be/dYm8oUBPmrw
+  native_id: dYm8oUBPmrw
+  playlist: Come, Follow Me 2026 (English)
+  archive_note:
+  status: Private — duplicate of the CFM Lesson 3 Shorts collision (two production lines uploaded the same lesson on 2026-11-03); boss ruled 2026-11-04 to keep the first-uploaded set Public and move this later-uploaded set to Private, not deleted; never registered while Public, added here for a complete record
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 3 — In the Beginning God Created the Heaven and the Earth
+  language: en
+  type: Short (funnel)
+  title: "2026 Week 3 | A Seven-Day Practice: Live the Week in Creation's Order #Shorts"
+  published: '2026-11-03'
+  url: https://youtu.be/jPQQ-sY7tIM
+  native_id: jPQQ-sY7tIM
+  playlist: Come, Follow Me 2026 (English)
+  archive_note:
+  status: Private — duplicate of the CFM Lesson 3 Shorts collision (two production lines uploaded the same lesson on 2026-11-03); boss ruled 2026-11-04 to keep the first-uploaded set Public and move this later-uploaded set to Private, not deleted; never registered while Public, added here for a complete record
 unverified:
 - item: CFM Lesson 3 (6 videos, published 2026-11-03) — Evernote archive notes missing
   reason: Checked 2026-11-03 — no archive notes found in Evernote by video ID or title; archive ZIPs not yet built. Finals retained on M1 mini (~/cfm-bf03-creation) and in the run dir on the VM.
