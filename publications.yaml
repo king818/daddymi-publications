@@ -2174,6 +2174,78 @@ publications:
   archive_note: 206fa035-cced-424c-88e7-4319715d29c1
   status: Live
 - platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 5 — Teach These Things Freely unto Your Children
+  language: zh-Hant
+  type: Long
+  title: 來跟隨我 2026 第5週（1月26日–2月1日）｜要毫不保留地教你的兒女這些事情 · 創世記 5；摩西書 6
+  published: '2026-11-04'
+  url: https://youtu.be/aICCQl3lZ_A
+  native_id: aICCQl3lZ_A
+  playlist: 來跟隨我 2026（中文）
+  archive_note: 27b3e6a2-55ad-407b-83d3-ba3dda395e40
+  status: Live — published via Studio, verified Public 2026-11-04; ZH voice swap published as-is per boss ruling 2026-11-04; 48h spot-check due ~2026-11-06
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 5 — Teach These Things Freely unto Your Children
+  language: en
+  type: Long
+  title: 'Come, Follow Me 2026 Week 5 (Jan 26–Feb 1) | Teach These Things Freely unto Your Children'
+  published: '2026-11-04'
+  url: https://youtu.be/-X2WbgHFmjo
+  native_id: -X2WbgHFmjo
+  playlist: Come, Follow Me 2026 (English)
+  archive_note: 40232354-0a42-45da-b771-653dd7923ce9
+  status: Live — published via Studio, verified Public 2026-11-04; 48h spot-check due ~2026-11-06
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 5 — Teach These Things Freely unto Your Children
+  language: zh-Hant
+  type: Short (hook)
+  title: 2026 第5週｜主為祂的人民興起一位先見 #Shorts
+  published: '2026-11-04'
+  url: https://youtube.com/shorts/YskEDPu4yqg
+  native_id: YskEDPu4yqg
+  playlist: 來跟隨我 2026（中文）
+  archive_note: 955cd4ae-a1d3-4e44-bf68-1b410a476ef2
+  status: Live
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 5 — Teach These Things Freely unto Your Children
+  language: zh-Hant
+  type: Short (funnel)
+  title: 2026 第5週｜七天操練：與祂同行的一週 #Shorts
+  published: '2026-11-04'
+  url: https://youtube.com/shorts/if8sZa6cHrs
+  native_id: if8sZa6cHrs
+  playlist: 來跟隨我 2026（中文）
+  archive_note: d3487e01-772e-4786-8e68-4b61a0a10302
+  status: Live
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 5 — Teach These Things Freely unto Your Children
+  language: en
+  type: Short (hook)
+  title: '2026 Week 5 | "A Seer Hath the Lord Raised Up" #Shorts'
+  published: '2026-11-04'
+  url: https://youtube.com/shorts/_TxbSrkgXPE
+  native_id: _TxbSrkgXPE
+  playlist: Come, Follow Me 2026 (English)
+  archive_note: bbcf4b08-2562-4705-abf8-5c569845ba31
+  status: Live
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 5 — Teach These Things Freely unto Your Children
+  language: en
+  type: Short (funnel)
+  title: '2026 Week 5 | A Seven-Day Practice: Walking with Him #Shorts'
+  published: '2026-11-04'
+  url: https://youtube.com/shorts/9DeS0lUC0zY
+  native_id: 9DeS0lUC0zY
+  playlist: Come, Follow Me 2026 (English)
+  archive_note: 80960759-07c5-4523-bedf-8356df9056a0
+  status: Live
+- platform: YouTube
   series: Daily Verse · Neville Readings
   topic: James 1:12
   language: en

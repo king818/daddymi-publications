@@ -2,13 +2,16 @@
 
 Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, filterable version: https://king818.github.io/daddymi-publications/
 
-**187 public videos** · 29 replaced/private versions · Come, Follow Me 2026: 78 · Daily Verse · Neville Readings: 72 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 24 · Neville Inner Reading Podcast: 7
+**193 public videos** · 29 replaced/private versions · Come, Follow Me 2026: 84 · Daily Verse · Neville Readings: 72 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 24 · Neville Inner Reading Podcast: 7
 
 
-## 來跟隨我 2026 — 中文（39）
+## 來跟隨我 2026 — 中文（42）
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
+| 2026-11-04 | [第 5 週 · 要毫不保留地教你的兒女這些事情](https://youtu.be/aICCQl3lZ_A)<br><sub>來跟隨我 2026 第5週（1月26日–2月1日）｜要毫不保留地教你的兒女這些事情 · 創世記 5；摩西書 6</sub> | 長集 | 來跟隨我 2026（中文） | 已存档 · 27b3e6a2 | 已發布 · 抽查 11-06 | `aICCQl3lZ_A` |
+| 2026-11-04 | [第 5 週 · 主為祂的人民興起一位先見](https://youtube.com/shorts/YskEDPu4yqg)<br><sub>2026 第5週｜主為祂的人民興起一位先見</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 已存档 · 955cd4ae | 已發布 | `YskEDPu4yqg` |
+| 2026-11-04 | [第 5 週 · 七天操練：與祂同行的一週](https://youtube.com/shorts/if8sZa6cHrs)<br><sub>2026 第5週｜七天操練：與祂同行的一週</sub> | Short · 導入 | 來跟隨我 2026（中文） | 已存档 · d3487e01 | 已發布 | `if8sZa6cHrs` |
 | 2026-11-03 | [第 2 週 · 這就是我的事工和我的榮耀](https://youtu.be/tKwg1JWiJNs)<br><sub>來跟隨我 2026 第2週（1月5日–11日）｜這就是我的事工和我的榮耀 · 摩西書 1；亞伯拉罕書 3</sub> | 長集 | 來跟隨我 2026（中文） | 已存档 · 5e4f8584 | 已發布 · 抽查 11-05 | `tKwg1JWiJNs` |
 | 2026-11-03 | [第 2 週 · 撒但叫他「人的兒子」，神卻叫他「我的兒子」](https://www.youtube.com/shorts/55wX_XzLQpw)<br><sub>2026 第2週｜撒但叫他「人的兒子」，神卻叫他「我的兒子」</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 已存档 · 98d6839f | 已發布 · 抽查 11-05 | `55wX_XzLQpw` |
 | 2026-11-03 | [第 2 週 · 七天操練：先記得你是誰](https://www.youtube.com/shorts/k2jINF_D6Cw)<br><sub>2026 第2週｜七天操練：先記得你是誰</sub> | Short · 導入 | 來跟隨我 2026（中文） | 已存档 · 57b917dc | 已發布 · 抽查 11-05 | `k2jINF_D6Cw` |
@@ -49,10 +52,13 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-10-31 | [第 45 週 · 神到流亡之地找你｜以西結書](https://www.youtube.com/shorts/Tk8jNm_BPrc)<br><sub>2026 第45週｜神到流亡之地找你｜以西結書</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 已存档 · dbaae7fa | 已發布 | `Tk8jNm_BPrc` |
 | 2026-10-31 | [第 45 週 · 除掉石心，賜給你們肉心｜以西結書](https://www.youtube.com/shorts/Rspv2DcNX_s)<br><sub>2026 第45週｜除掉石心，賜給你們肉心｜以西結書</sub> | Short · 導入 | 來跟隨我 2026（中文） | 已存档 · f9a717b1 | 已發布 | `Rspv2DcNX_s` |
 
-## Come, Follow Me 2026 — English (39)
+## Come, Follow Me 2026 — English (42)
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
+| 2026-11-04 | [Week 5 · Teach These Things Freely unto Your Children](https://youtu.be/-X2WbgHFmjo)<br><sub>Come, Follow Me 2026 Week 5 (Jan 26–Feb 1) | Teach These Things Freely unto Your Children</sub> | Long | Come, Follow Me 2026 (English) | Archived · 40232354 | Live · check 11-06 | `-X2WbgHFmjo` |
+| 2026-11-04 | [Week 5 · Teach These Things Freely unto Your Children](https://youtube.com/shorts/_TxbSrkgXPE)<br><sub>2026 Week 5 | "A Seer Hath the Lord Raised Up"</sub> | Short (hook) | Come, Follow Me 2026 (English) | Archived · bbcf4b08 | Live | `_TxbSrkgXPE` |
+| 2026-11-04 | [Week 5 · Teach These Things Freely unto Your Children](https://youtube.com/shorts/9DeS0lUC0zY)<br><sub>2026 Week 5 | A Seven-Day Practice: Walking with Him</sub> | Short (funnel) | Come, Follow Me 2026 (English) | Archived · 80960759 | Live | `9DeS0lUC0zY` |
 | 2026-11-03 | [Week 2 · This Is My Work and My Glory](https://youtu.be/l96NV1vr5qE)<br><sub>Come, Follow Me 2026 Week 2 (Jan 5–11) | This Is My Work and My Glory — Moses 1; Abraham 3</sub> | Long | Come, Follow Me 2026 (English) | Archived · 4915b8d5 | Live · check 11-05 | `l96NV1vr5qE` |
 | 2026-11-03 | [Week 2 · This Is My Work and My Glory](https://www.youtube.com/shorts/4ypNDpAPiQM)<br><sub>2026 Week 2 | Satan Called Him "Son of Man." God Called Him "My Son."</sub> | Short (hook) | Come, Follow Me 2026 (English) | Archived · 737cfd6e | Live · check 11-05 | `4ypNDpAPiQM` |
 | 2026-11-03 | [Week 2 · This Is My Work and My Glory](https://www.youtube.com/shorts/el-RucYRnKE)<br><sub>2026 Week 2 | A Seven-Day Practice: Start from Who You Are</sub> | Short (funnel) | Come, Follow Me 2026 (English) | Archived · 3ce58849 | Live · check 11-05 | `el-RucYRnKE` |
