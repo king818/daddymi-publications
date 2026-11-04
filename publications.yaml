@@ -1526,6 +1526,78 @@ publications:
   archive_note: dce6618a-3cb8-4eaa-ab79-eda260770f88
   status: Public
 - platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Psalm 24:1
+  language: zh-Hant
+  type: Long
+  title: '每日經文 2026-11-05 · Neville 解讀｜詩篇 24:1 地和其中所充滿的，都屬耶和華——從追趕缺乏，到入住豐盛'
+  published: '2026-11-04'
+  url: https://youtu.be/h2hcdRkCQmA
+  native_id: h2hcdRkCQmA
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: 9e68b296-cbdd-4dbc-8b20-c7a2d482d822
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Psalm 24:1
+  language: zh-Hant
+  type: Short (hook)
+  title: '每日經文 2026-11-05｜詩篇 24:1 追趕是乞求者的姿態；入住，是繼承人的姿態 #Shorts'
+  published: '2026-11-04'
+  url: https://youtube.com/shorts/N3h-0fqqAcw
+  native_id: N3h-0fqqAcw
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: f1736012-00a4-44f1-8535-a78070e2ea69
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Psalm 24:1
+  language: zh-Hant
+  type: Short (funnel)
+  title: '每日經文 2026-11-05｜詩篇 24:1 清點「已經屬於我」的兩步操練 #Shorts'
+  published: '2026-11-04'
+  url: https://youtube.com/shorts/00mTlaIyAzI
+  native_id: 00mTlaIyAzI
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: 30d484b4-b1e1-483e-9dba-0dd39be2ab71
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Psalm 24:1
+  language: en
+  type: Long
+  title: 'Daily Verse 2026-11-05 · Psalm 24:1 | The Earth Is the LORD''s — From Chasing Lack to Fullness'
+  published: '2026-11-04'
+  url: https://youtu.be/EBPkdgfzEt0
+  native_id: EBPkdgfzEt0
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: 88356cff-d730-4c80-93de-bda22fb2ca15
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Psalm 24:1
+  language: en
+  type: Short (hook)
+  title: 'Daily Verse 2026-11-05 · Psalm 24:1 | Chasing is a beggar''s posture; occupying is an heir''s #Shorts'
+  published: '2026-11-04'
+  url: https://youtube.com/shorts/NeNgQoT9fzY
+  native_id: NeNgQoT9fzY
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: eaceac08-8178-4eba-ae10-b27acfd17af2
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Psalm 24:1
+  language: en
+  type: Short (funnel)
+  title: 'Daily Verse 2026-11-05 · Psalm 24:1 | The "Already Mine" inventory — two steps for today #Shorts'
+  published: '2026-11-04'
+  url: https://youtube.com/shorts/t75gwnrcW-k
+  native_id: t75gwnrcW-k
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: f648bed0-9241-4e4c-bd76-223eb79b8001
+  status: Public
+- platform: YouTube
   series: Come, Follow Me 2026
   topic: Lesson 2 — This Is My Work and My Glory
   language: zh
