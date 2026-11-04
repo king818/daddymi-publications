@@ -2,7 +2,7 @@
 
 Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, filterable version: https://king818.github.io/daddymi-publications/
 
-**169 public videos** · 25 replaced/private versions · Come, Follow Me 2026: 78 · Daily Verse · Neville Readings: 60 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 18 · Neville Inner Reading Podcast: 7
+**175 public videos** · 25 replaced/private versions · Come, Follow Me 2026: 78 · Daily Verse · Neville Readings: 66 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 18 · Neville Inner Reading Podcast: 7
 
 
 ## 來跟隨我 2026 — 中文（39）
@@ -93,10 +93,13 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-10-31 | [Week 45 · Ezekiel](https://www.youtube.com/shorts/HYBj9c6Z5EU)<br><sub>2026 Week 45 | God Goes to the Exiles | Ezekiel</sub> | Short (hook) | Come, Follow Me 2026 (English) | Archived · 777370cb | Live | `HYBj9c6Z5EU` |
 | 2026-10-31 | [Week 45 · Ezekiel](https://www.youtube.com/shorts/oCqZeKxPCdE)<br><sub>2026 Week 45 | A Heart of Flesh, Not Stone | Ezekiel</sub> | Short (funnel) | Come, Follow Me 2026 (English) | Archived · f18bffbe | Live | `oCqZeKxPCdE` |
 
-## 每日經文 · Neville 解讀 — 中文（30）
+## 每日經文 · Neville 解讀 — 中文（33）
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
+| 2026-11-04 | [2026-11-04 · 馬太福音 7:24](https://youtu.be/3Ejy5WvVFR4)<br><sub>每日經文 2026-11-04 · Neville 解讀｜馬太福音 7:24 把房子蓋在磐石上——聽見，就去行</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · ff4f8d45 | 已發布 | `3Ejy5WvVFR4` |
+| 2026-11-04 | [2026-11-04 · 馬太福音 7:24](https://youtube.com/shorts/hmXfNX_Ykrg)<br><sub>每日經文 2026-11-04｜馬太福音 7:24 風雨只檢驗根基，不創造根基</sub> | Short · 鉤子 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 68c3824a | 已發布 | `hmXfNX_Ykrg` |
+| 2026-11-04 | [2026-11-04 · 馬太福音 7:24](https://youtube.com/shorts/roMAyV0blU0)<br><sub>每日經文 2026-11-04｜馬太福音 7:24 今晚開始的五步操練</sub> | Short · 導入 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · e58056b6 | 已發布 | `roMAyV0blU0` |
 | 2026-11-03 | [2026-11-03 · 詩篇 119:11](https://youtu.be/2-ZtDDffE4U)<br><sub>每日經文 2026-11-03 · Neville 解讀｜詩篇 119:11 把話藏在心裏——先立容器，再種下應許</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 待存档 | 已發布 | `2-ZtDDffE4U` |
 | 2026-11-03 | [2026-11-03 · 詩篇 119:11](https://youtube.com/shorts/FkEkZYt1O_s)<br><sub>每日經文 2026-11-03｜詩篇 119:11 藏話於心不是怕受罰，而是要對準靶心</sub> | Short · 鉤子 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 5f8e5940 | 已發布 | `FkEkZYt1O_s` |
 | 2026-11-03 | [2026-11-03 · 詩篇 119:11](https://youtube.com/shorts/a2iAW-gNea0)<br><sub>每日經文 2026-11-03｜詩篇 119:11 今天，就為自己藏一句話</sub> | Short · 導入 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · c31c9cb5 | 已發布 | `a2iAW-gNea0` |
@@ -128,10 +131,13 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-10-31 | [2026-10-31 · 提摩太後書 3:16-17](https://www.youtube.com/shorts/pvP-BoX9vN0)<br><sub>提摩太後書 3:16-17｜聖經是你自己意識的自傳</sub> | Short · 鉤子 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 1f8daa60 | 已發布 | `pvP-BoX9vN0` |
 | 2026-10-31 | [2026-10-31 · 提摩太後書 3:16-17](https://www.youtube.com/shorts/zMRz5A8ZLyg)<br><sub>提摩太後書 3:16-17｜你不是等著被組裝的人</sub> | Short · 導入 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · d7f07ddb | 已發布 | `zMRz5A8ZLyg` |
 
-## Daily Verse · Neville Readings — English (30)
+## Daily Verse · Neville Readings — English (33)
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
+| 2026-11-04 | [2026-11-04 · Matthew 7:24](https://youtu.be/EjI6sZYzm2g)<br><sub>Daily Verse 2026-11-04 · Matthew 7:24 | Build Your House Upon the Rock</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · 439cfeb6 | Live | `EjI6sZYzm2g` |
+| 2026-11-04 | [2026-11-04 · Matthew 7:24](https://youtube.com/shorts/oac3tZaVuME)<br><sub>Daily Verse 2026-11-04 · Matthew 7:24 | A Storm Reveals Your Foundation</sub> | Short (hook) | Daily Verse · Neville Readings 2026 (English) | Archived · 7e64c647 | Live | `oac3tZaVuME` |
+| 2026-11-04 | [2026-11-04 · Matthew 7:24](https://youtube.com/shorts/MXGenKwU4oA)<br><sub>Daily Verse 2026-11-04 · Matthew 7:24 | Five Steps Back to the Rock</sub> | Short (funnel) | Daily Verse · Neville Readings 2026 (English) | Archived · dce6618a | Live | `MXGenKwU4oA` |
 | 2026-11-03 | [2026-11-03 · Psalm 119:11](https://youtu.be/EB4svq0CPoA)<br><sub>Daily Verse 2026-11-03 · Psalm 119:11 | Hiding the Word in the Heart</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Not archived yet | Live | `EB4svq0CPoA` |
 | 2026-11-03 | [2026-11-03 · Psalm 119:11](https://youtube.com/shorts/CZ3GRVz2Zng)<br><sub>Daily Verse 2026-11-03 · Psalm 119:11 | Missing the Mark Is Not a Crime</sub> | Short (hook) | Daily Verse · Neville Readings 2026 (English) | Archived · 48b7debd | Live | `CZ3GRVz2Zng` |
 | 2026-11-03 | [2026-11-03 · Psalm 119:11](https://youtube.com/shorts/k5Yd_cg8QDQ)<br><sub>Daily Verse 2026-11-03 · Psalm 119:11 | Today, Hide One Sentence in Your Heart</sub> | Short (funnel) | Daily Verse · Neville Readings 2026 (English) | Archived · 772b559d | Live | `k5Yd_cg8QDQ` |

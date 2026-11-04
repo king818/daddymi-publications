@@ -1454,6 +1454,78 @@ publications:
   archive_note: 772b559d-4983-40c9-83eb-838a6dcc98a4
   status: Public
 - platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Matthew 7:24
+  language: zh-Hant
+  type: Long
+  title: '每日經文 2026-11-04 · Neville 解讀｜馬太福音 7:24 把房子蓋在磐石上——聽見，就去行'
+  published: '2026-11-04'
+  url: https://youtu.be/3Ejy5WvVFR4
+  native_id: 3Ejy5WvVFR4
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: ff4f8d45-a7b2-499a-8b8a-357872c1e6d6
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Matthew 7:24
+  language: zh-Hant
+  type: Short (hook)
+  title: '每日經文 2026-11-04｜馬太福音 7:24 風雨只檢驗根基，不創造根基 #Shorts'
+  published: '2026-11-04'
+  url: https://youtube.com/shorts/hmXfNX_Ykrg
+  native_id: hmXfNX_Ykrg
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: 68c3824a-83e2-4491-b9dc-7184a42889f8
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Matthew 7:24
+  language: zh-Hant
+  type: Short (funnel)
+  title: '每日經文 2026-11-04｜馬太福音 7:24 今晚開始的五步操練 #Shorts'
+  published: '2026-11-04'
+  url: https://youtube.com/shorts/roMAyV0blU0
+  native_id: roMAyV0blU0
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: e58056b6-60f9-4b4a-83bb-b81537550746
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Matthew 7:24
+  language: en
+  type: Long
+  title: 'Daily Verse 2026-11-04 · Matthew 7:24 | Build Your House Upon the Rock'
+  published: '2026-11-04'
+  url: https://youtu.be/EjI6sZYzm2g
+  native_id: EjI6sZYzm2g
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: 439cfeb6-1889-4689-9d33-03130e9964e8
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Matthew 7:24
+  language: en
+  type: Short (hook)
+  title: 'Daily Verse 2026-11-04 · Matthew 7:24 | A Storm Reveals Your Foundation #Shorts'
+  published: '2026-11-04'
+  url: https://youtube.com/shorts/oac3tZaVuME
+  native_id: oac3tZaVuME
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: 7e64c647-5bdb-40d2-9cfc-6310476460d5
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Matthew 7:24
+  language: en
+  type: Short (funnel)
+  title: 'Daily Verse 2026-11-04 · Matthew 7:24 | Five Steps Back to the Rock #Shorts'
+  published: '2026-11-04'
+  url: https://youtube.com/shorts/MXGenKwU4oA
+  native_id: MXGenKwU4oA
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: dce6618a-3cb8-4eaa-ab79-eda260770f88
+  status: Public
+- platform: YouTube
   series: Come, Follow Me 2026
   topic: Lesson 2 — This Is My Work and My Glory
   language: zh
