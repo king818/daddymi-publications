@@ -303,24 +303,24 @@ Same productions, kept for the record — not public.
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
-| 2026-11-03 | [2026-10-24 · 箴言 16:3](https://youtu.be/j_f6t3j5OLs)<br><sub>每日經文 2026-10-24 · Neville 解讀｜箴言 16:3 把石頭滾下去——交託所做的，所謀的就必成立</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 286cbaa9 | Private · 已被取代 | `j_f6t3j5OLs` |
-| 2026-11-03 | [2026-10-25 · 腓立比書 2:3](https://youtu.be/Es7G2LbMmvU)<br><sub>每日經文 2026-10-25 · Neville 解讀｜腓立比書 2:3 看別人比自己強——放下爭競，住進合一的意識</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 74e451d9 | Private · 已被取代 | `Es7G2LbMmvU` |
-| 2026-11-03 | [2026-10-27 · 雅各書 1:12](https://youtu.be/cyANijnMux4)<br><sub>每日經文 2026-10-27 · Neville 解讀｜雅各書 1:12 住留不搬家——從試探的壓力，進入生命的冠冕</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 2dca116b | Private · 已被取代 | `cyANijnMux4` |
-| 2026-11-03 | [2026-10-30 · 詩篇 139:23](https://youtu.be/e8AoCDAvGqY)<br><sub>每日經文 2026-10-30 · Neville 解讀｜詩篇 139:23 求你鑒察我——看清自己所居住的狀態</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · b4e4b9e9 | Private · 已被取代 | `e8AoCDAvGqY` |
-| 2026-11-03 | [2026-11-03 · 詩篇 119:11](https://youtu.be/sdpT4xWJW8A)<br><sub>每日經文 2026-11-03 · Neville 解讀｜詩篇 119:11 把話藏在心裏——先立容器，再種下應許</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · d1658cf7 | Private · 已被取代 | `sdpT4xWJW8A` |
-| 2026-10-31 | [2026-10-31 · 提摩太後書 3:16-17](https://youtu.be/y6zIFPvCCuc)<br><sub>每日經文｜提摩太後書 3:16-17 · 聖經都是神所默示的</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · a1f4dcfc | Private · 已被取代 | `y6zIFPvCCuc` |
+| 2026-11-03 | [2026-10-24 · 箴言 16:3](https://youtu.be/j_f6t3j5OLs)<br><sub>每日經文 2026-10-24｜箴言 16:3 · 你所做的，要交託耶和華</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 286cbaa9 | Private · 已被取代 | `j_f6t3j5OLs` |
+| 2026-11-03 | [2026-10-25 · 腓立比書 2:3](https://youtu.be/Es7G2LbMmvU)<br><sub>每日經文 2026-10-25｜腓立比書 2:3 · 以謙卑的心看別人比自己強</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 74e451d9 | Private · 已被取代 | `Es7G2LbMmvU` |
+| 2026-11-03 | [2026-10-27 · 雅各書 1:12](https://youtu.be/cyANijnMux4)<br><sub>每日經文 2026-10-27｜雅各書 1:12 · 忍受試探的人是有福的</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 2dca116b | Private · 已被取代 | `cyANijnMux4` |
+| 2026-11-03 | [2026-10-30 · 詩篇 139:23](https://youtu.be/e8AoCDAvGqY)<br><sub>每日經文 2026-10-30｜詩篇 139:23 · 神啊，求你鑒察我</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · b4e4b9e9 | Private · 已被取代 | `e8AoCDAvGqY` |
+| 2026-11-03 | [2026-11-03 · Psalm 119:11](https://youtu.be/sdpT4xWJW8A)<br><sub>Daily Verse 2026-11-03 · Psalm 119:11 — God's Word Hidden in Your Heart</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · d1658cf7 | Private · 已被取代 | `sdpT4xWJW8A` |
+| 2026-10-31 | [2026-10-31 · 提摩太後書 3:16-17](https://youtu.be/y6zIFPvCCuc)<br><sub>每日經文 2026-10-31｜提摩太後書 3:16-17 · 聖經都是神所默示的</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · a1f4dcfc | Private · 已被取代 | `y6zIFPvCCuc` |
 
 ### 已取代 / Private · Daily Verse · Neville Readings — English (7)
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
 | 2026-11-03 | [2026-10-25 · Philippians 2:3](https://youtu.be/vphlUHj9aIY)<br><sub>Daily Verse · 2026-10-25 | Philippians 2:3 — Esteem Others Better: Laying Down Rivalry</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · 13b7b4f9 | Private · replaced | `vphlUHj9aIY` |
-| 2026-11-03 | [2026-10-30 · Psalm 139:23](https://youtu.be/ehoGKSlRoNE)<br><sub>Daily Verse · 2026-10-30 | Psalm 139:23 — Search Me, O God: Praying from the End</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · 98beab2c | Private · replaced | `ehoGKSlRoNE` |
-| 2026-11-03 | [2026-11-03 · Psalm 119:11](https://youtu.be/FEmW-caUtk0)<br><sub>Daily Verse 2026-11-03 · Psalm 119:11 | Hiding the Word in the Heart</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · 9f4ddc4b | Private · replaced | `FEmW-caUtk0` |
+| 2026-11-03 | [2026-10-30 · Psalm 139:23](https://youtu.be/ehoGKSlRoNE)<br><sub>Daily Verse 2026-10-30 · Psalm 139:23 — Search Me, O God, and Know My Heart</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · 98beab2c | Private · replaced | `ehoGKSlRoNE` |
+| 2026-11-03 | [2026-11-03 · Psalm 119:11](https://youtu.be/FEmW-caUtk0)<br><sub>Daily Verse 2026-11-03 · Psalm 119:11 — God's Word Hidden in Your Heart</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · 9f4ddc4b | Private · replaced | `FEmW-caUtk0` |
 | 2026-10-31 | [2026-10-31 · Colossians 1:13](https://youtu.be/MBgPe0IEuRg)<br><sub>Colossians 1:13 — English original (pre-redo)</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Not archived yet | Private · replaced by redo | `MBgPe0IEuRg` |
 | 2026-10-31 | [2026-10-31 · Colossians 1:13](https://youtu.be/Xze2Euk4eeY)<br><sub>Colossians 1:13 — English hook, original (pre-redo)</sub> | Short (hook) | Daily Verse · Neville Readings 2026 (English) | Not archived yet | Private · replaced by redo | `Xze2Euk4eeY` |
 | 2026-10-31 | [2026-10-31 · Colossians 1:13](https://youtu.be/jvQ19inwtSw)<br><sub>Colossians 1:13 — English funnel, original (pre-redo)</sub> | Short (funnel) | Daily Verse · Neville Readings 2026 (English) | Not archived yet | Private · replaced by redo | `jvQ19inwtSw` |
-| 2026-10-31 | [2026-10-31 · 2 Timothy 3:16-17](https://youtu.be/63aSh1Nemx8)<br><sub>Daily Verse | 2 Timothy 3:16-17 · All Scripture Is Given by Inspiration of God</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · fef65295 | Private · replaced | `63aSh1Nemx8` |
+| 2026-10-31 | [2026-10-31 · 2 Timothy 3:16-17](https://youtu.be/63aSh1Nemx8)<br><sub>Daily Verse 2026-10-31 | 2 Timothy 3:16-17 · All Scripture Is Given by Inspiration of God</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · fef65295 | Private · replaced | `63aSh1Nemx8` |
 
 ### 已取代 / Private · 來跟隨我 2026 — 中文（3）
 
