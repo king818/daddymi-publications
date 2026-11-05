@@ -2,7 +2,7 @@
 
 Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, filterable version: https://king818.github.io/daddymi-publications/
 
-**217 public videos** · 31 replaced/private versions · Come, Follow Me 2026: 90 · Daily Verse · Neville Readings: 90 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 24 · Neville Inner Reading Podcast: 7
+**217 public videos** · 33 replaced/private versions · Come, Follow Me 2026: 90 · Daily Verse · Neville Readings: 90 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 24 · Neville Inner Reading Podcast: 7
 
 
 ## 來跟隨我 2026 — 中文（45）
@@ -109,6 +109,7 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
+| 2026-11-05 | [2026-10-29 · 歌羅西書 1:13](https://youtu.be/J1DVwqgo-Rk)<br><sub>每日經文 2026-10-29｜歌羅西書 1:13 — 脫離黑暗的權勢，遷入愛子的國</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 4a7ccd48 | 已發布 | `J1DVwqgo-Rk` |
 | 2026-11-04 | [2026-10-31 · 提摩太後書 3:16-17](https://youtu.be/IxVCeAkOFy8)<br><sub>每日經文 2026-10-31｜提摩太後書 3:16-17 · 聖經都是神所默示的</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · a1f4dcfc | 已發布 | `IxVCeAkOFy8` |
 | 2026-11-04 | [2026-11-04 · 馬太福音 7:24](https://youtu.be/3Ejy5WvVFR4)<br><sub>每日經文 2026-11-04 · Neville 解讀｜馬太福音 7:24 把房子蓋在磐石上——聽見，就去行</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · ff4f8d45 | 已發布 | `3Ejy5WvVFR4` |
 | 2026-11-04 | [2026-11-04 · 馬太福音 7:24](https://youtube.com/shorts/hmXfNX_Ykrg)<br><sub>每日經文 2026-11-04｜馬太福音 7:24 風雨只檢驗根基，不創造根基</sub> | Short · 鉤子 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 68c3824a | 已發布 | `hmXfNX_Ykrg` |
@@ -149,7 +150,6 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-11-01 | [2026-11-01 · 約翰福音 1:1](https://youtu.be/j8QQMpXYTnQ)<br><sub>每日經文 2026-11-01｜約翰福音 1:1 · 太初有道</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · fbe3c0e1 | 已發布 | `j8QQMpXYTnQ` |
 | 2026-11-01 | [2026-11-01 · 約翰福音 1:1](https://www.youtube.com/shorts/7sJLw4yaPWw)<br><sub>每日經文 2026-11-01｜約翰福音 1:1 · 太初不在遠古，就在你說「我是」的那一秒</sub> | Short · 鉤子 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 3e9949d1 | 已發布 | `7sJLw4yaPWw` |
 | 2026-11-01 | [2026-11-01 · 約翰福音 1:1](https://www.youtube.com/shorts/-Ywv9ZT_9NY)<br><sub>每日經文 2026-11-01｜約翰福音 1:1 · 道就是上帝——想像從不分辨，只負責成形</sub> | Short · 導入 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · fe41ec6d | 已發布 | `-Ywv9ZT_9NY` |
-| 2026-10-31 | [2026-10-29 · 歌羅西書 1:13](https://youtu.be/CqrH_GpoY1E)<br><sub>每日經文 2026-10-29｜歌羅西書 1:13 — 脫離黑暗的權勢，遷入愛子的國</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · Video Artifacts · 4a7ccd48 | 已發布 · 重製版 | `CqrH_GpoY1E` |
 | 2026-10-31 | [2026-10-29 · 歌羅西書 1:13](https://www.youtube.com/shorts/xdCmc3_VDrg)<br><sub>每日經文 2026-10-29｜他救了我們脫離黑暗的權勢｜歌羅西書 1:13</sub> | Short · 鉤子 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · Video Artifacts · 7a1e19f1 | 已發布 · 重製版 | `xdCmc3_VDrg` |
 | 2026-10-31 | [2026-10-29 · 歌羅西書 1:13](https://www.youtube.com/shorts/pILkkPoFiIw)<br><sub>每日經文 2026-10-29｜黑暗憑什麼統治你？全靠你籤的同意書｜歌羅西書 1:13</sub> | Short · 導入 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · Video Artifacts · 83702a98 | 已發布 · 重製版 | `pILkkPoFiIw` |
 | 2026-10-31 | [2026-10-31 · 提摩太後書 3:16-17](https://www.youtube.com/shorts/pvP-BoX9vN0)<br><sub>每日經文 2026-10-31｜提摩太後書 3:16-17｜聖經是你自己意識的自傳</sub> | Short · 鉤子 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 1f8daa60 | 已發布 | `pvP-BoX9vN0` |
@@ -159,6 +159,7 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
+| 2026-11-05 | [2026-10-29 · Colossians 1:13](https://youtu.be/p5_Wn87-q-o)<br><sub>Daily Verse 2026-10-29 | Colossians 1:13 — Delivered from Darkness, Translated into the Kingdom</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · 9fba907e | Live | `p5_Wn87-q-o` |
 | 2026-11-04 | [2026-10-31 · 2 Timothy 3:16-17](https://youtu.be/_hJOBbo6Uo4)<br><sub>Daily Verse 2026-10-31 | 2 Timothy 3:16-17 · All Scripture Is Given by Inspiration of God</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · fef65295 | Live | `_hJOBbo6Uo4` |
 | 2026-11-04 | [2026-11-04 · Matthew 7:24](https://youtu.be/EjI6sZYzm2g)<br><sub>Daily Verse 2026-11-04 · Matthew 7:24 | Build Your House Upon the Rock</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · 439cfeb6 | Live | `EjI6sZYzm2g` |
 | 2026-11-04 | [2026-11-04 · Matthew 7:24](https://youtube.com/shorts/oac3tZaVuME)<br><sub>Daily Verse 2026-11-04 · Matthew 7:24 | A Storm Reveals Your Foundation</sub> | Short (hook) | Daily Verse · Neville Readings 2026 (English) | Archived · 7e64c647 | Live | `oac3tZaVuME` |
@@ -199,7 +200,6 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-11-01 | [2026-11-01 · John 1:1](https://youtu.be/g9rPIhfN_Og)<br><sub>Daily Verse 2026-11-01 | John 1:1 · In the Beginning Was the Word</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · 63c82f3f | Live | `g9rPIhfN_Og` |
 | 2026-11-01 | [2026-11-01 · John 1:1](https://www.youtube.com/shorts/MllwD6zkB-g)<br><sub>Daily Verse 2026-11-01 | John 1:1 · The Beginning Is Not a Date — It Is the Second You Say I AM</sub> | Short (hook) | Daily Verse · Neville Readings 2026 (English) | Archived · 992248e1 | Live | `MllwD6zkB-g` |
 | 2026-11-01 | [2026-11-01 · John 1:1](https://www.youtube.com/shorts/2-bjuPDIEZE)<br><sub>Daily Verse 2026-11-01 | John 1:1 · Imagination Does Not Discriminate</sub> | Short (funnel) | Daily Verse · Neville Readings 2026 (English) | Archived · 6a495712 | Live | `2-bjuPDIEZE` |
-| 2026-10-31 | [2026-10-29 · Colossians 1:13](https://youtu.be/X1mU9rHDKs4)<br><sub>Daily Verse 2026-10-29 | Colossians 1:13 — Delivered from Darkness, Translated into the Kingdom</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · Video Artifacts · 9fba907e | Live · redo | `X1mU9rHDKs4` |
 | 2026-10-31 | [2026-10-29 · Colossians 1:13](https://www.youtube.com/shorts/kk17wVkg_3Y)<br><sub>Daily Verse 2026-10-29 | Delivered from the Power of Darkness | Colossians 1:13</sub> | Short (hook) | Daily Verse · Neville Readings 2026 (English) | Archived · Video Artifacts · 0e25e299 | Live · redo | `kk17wVkg_3Y` |
 | 2026-10-31 | [2026-10-29 · Colossians 1:13](https://www.youtube.com/shorts/LdkiL-qLh4Q)<br><sub>Daily Verse 2026-10-29 | Darkness Has No Native Power Over You | Colossians 1:13</sub> | Short (funnel) | Daily Verse · Neville Readings 2026 (English) | Archived · Video Artifacts · 4da7a9b8 | Live · redo | `LdkiL-qLh4Q` |
 | 2026-10-31 | [2026-10-31 · 2 Timothy 3:16-17](https://www.youtube.com/shorts/JdMBqNHm6rA)<br><sub>Daily Verse 2026-10-31 | 2 Timothy 3:16-17 | The Bible Is Your Own Autobiography</sub> | Short (hook) | Daily Verse · Neville Readings 2026 (English) | Archived · 23d36fc2 | Live | `JdMBqNHm6rA` |
@@ -272,7 +272,7 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-10-31 | ['Guaranteed 14% Returns'? A Dangerous Illusion | Finance Basics](https://www.youtube.com/shorts/_z0BhZ_z1P8) | Short (hook) | Finance Basics 2026 (English) | Archived · d6c05cce | Live | `_z0BhZ_z1P8` |
 | 2026-10-31 | [The Premium Lowers Your Real Cost to $109.08 | Finance Basics](https://www.youtube.com/shorts/meGAW-UginY) | Short (funnel) | Finance Basics 2026 (English) | Archived · ce324423 | Live | `meGAW-UginY` |
 
-## Replaced / Private versions (31)
+## Replaced / Private versions (33)
 
 Same productions, kept for the record — not public.
 
@@ -299,7 +299,7 @@ Same productions, kept for the record — not public.
 | 2026-10-30 | [EP1 original Short (1:01, pre-redo)](https://youtu.be/MyWvEekwrh4) | Short | Neville Inner Reading Podcast 2026 (English) | Not archived yet | Private · replaced by redo | `MyWvEekwrh4` |
 | 2026-10-28 | [EP1 English original (pre-redo)](https://youtu.be/Hmc6emlD1UQ) | Long | Neville Inner Reading Podcast 2026 (English) | Archived · Video Artifacts · 88e92add | Private · original | `Hmc6emlD1UQ` |
 
-### 已取代 / Private · 每日經文 · Neville 解讀 — 中文（6）
+### 已取代 / Private · 每日經文 · Neville 解讀 — 中文（7）
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
@@ -309,8 +309,9 @@ Same productions, kept for the record — not public.
 | 2026-11-03 | [2026-10-30 · 詩篇 139:23](https://youtu.be/e8AoCDAvGqY)<br><sub>每日經文 2026-10-30｜詩篇 139:23 · 神啊，求你鑒察我</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · b4e4b9e9 | Private · 已被取代 | `e8AoCDAvGqY` |
 | 2026-11-03 | [2026-11-03 · Psalm 119:11](https://youtu.be/sdpT4xWJW8A)<br><sub>Daily Verse 2026-11-03 · Psalm 119:11 — God's Word Hidden in Your Heart</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · d1658cf7 | Private · 已被取代 | `sdpT4xWJW8A` |
 | 2026-10-31 | [2026-10-31 · 提摩太後書 3:16-17](https://youtu.be/y6zIFPvCCuc)<br><sub>每日經文 2026-10-31｜提摩太後書 3:16-17 · 聖經都是神所默示的</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · a1f4dcfc | Private · 已被取代 | `y6zIFPvCCuc` |
+| 2026-10-31 | [2026-10-29 · 歌羅西書 1:13](https://youtu.be/CqrH_GpoY1E)<br><sub>每日經文 2026-10-29｜歌羅西書 1:13 — 脫離黑暗的權勢，遷入愛子的國</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 4a7ccd48 | Private · 已被取代 | `CqrH_GpoY1E` |
 
-### 已取代 / Private · Daily Verse · Neville Readings — English (7)
+### 已取代 / Private · Daily Verse · Neville Readings — English (8)
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
@@ -321,6 +322,7 @@ Same productions, kept for the record — not public.
 | 2026-10-31 | [2026-10-31 · Colossians 1:13](https://youtu.be/Xze2Euk4eeY)<br><sub>Colossians 1:13 — English hook, original (pre-redo)</sub> | Short (hook) | Daily Verse · Neville Readings 2026 (English) | Not archived yet | Private · replaced by redo | `Xze2Euk4eeY` |
 | 2026-10-31 | [2026-10-31 · Colossians 1:13](https://youtu.be/jvQ19inwtSw)<br><sub>Colossians 1:13 — English funnel, original (pre-redo)</sub> | Short (funnel) | Daily Verse · Neville Readings 2026 (English) | Not archived yet | Private · replaced by redo | `jvQ19inwtSw` |
 | 2026-10-31 | [2026-10-31 · 2 Timothy 3:16-17](https://youtu.be/63aSh1Nemx8)<br><sub>Daily Verse 2026-10-31 | 2 Timothy 3:16-17 · All Scripture Is Given by Inspiration of God</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · fef65295 | Private · replaced | `63aSh1Nemx8` |
+| 2026-10-31 | [2026-10-29 · Colossians 1:13](https://youtu.be/X1mU9rHDKs4)<br><sub>Daily Verse 2026-10-29 | Colossians 1:13 — Delivered from Darkness, Translated into the Kingdom</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · 9fba907e | Private · replaced | `X1mU9rHDKs4` |
 
 ### 已取代 / Private · 來跟隨我 2026 — 中文（3）
 

@@ -655,24 +655,24 @@ publications:
   language: zh
   type: Long
   title: 每日經文 2026-10-29｜歌羅西書 1:13 — 脫離黑暗的權勢，遷入愛子的國
-  published: '2026-10-31'
-  url: https://youtu.be/CqrH_GpoY1E
-  native_id: CqrH_GpoY1E
+  published: '2026-11-05'
+  url: https://youtu.be/J1DVwqgo-Rk
+  native_id: J1DVwqgo-Rk
   playlist: 每日經文 · Neville 解讀 2026（中文）
-  archive_note: Evernote Video Artifacts note 4a7ccd48
-  status: Live — English set is the 2026-10-31 redo (text-fit fix); originals are Private, listed below
+  archive_note: 4a7ccd48-92fe-483c-b1fb-17e77209b2ec
+  status: Public
 - platform: YouTube
   series: Daily Verse · Neville Readings
   topic: Colossians 1:13
   language: en
   type: Long
   title: Daily Verse 2026-10-29 | Colossians 1:13 — Delivered from Darkness, Translated into the Kingdom
-  published: '2026-10-31'
-  url: https://youtu.be/X1mU9rHDKs4
-  native_id: X1mU9rHDKs4
+  published: '2026-11-05'
+  url: https://youtu.be/p5_Wn87-q-o
+  native_id: p5_Wn87-q-o
   playlist: Daily Verse · Neville Readings 2026 (English)
-  archive_note: Evernote Video Artifacts note 9fba907e
-  status: Live — English set is the 2026-10-31 redo (text-fit fix); originals are Private, listed below
+  archive_note: 9fba907e-933e-40ae-b26b-0aaac73d5845
+  status: Public
 - platform: YouTube
   series: Daily Verse · Neville Readings
   topic: Colossians 1:13
@@ -2978,6 +2978,30 @@ replaced_or_private:
   playlist: Daily Verse · Neville Readings 2026 (English)
   archive_note: fef65295-7c4f-4967-a146-b43f05f14476
   status: Private — replaced by the per-episode-imagery version _hJOBbo6Uo4 in the 2026-11-04 swap; original used a template background with no per-episode imagery; set Private per boss ruling, not deleted; the original build mp4 remains in the archive note alongside the new version
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Colossians 1:13
+  language: zh
+  type: Long
+  title: 每日經文 2026-10-29｜歌羅西書 1:13 — 脫離黑暗的權勢，遷入愛子的國
+  published: '2026-10-31'
+  url: https://youtu.be/CqrH_GpoY1E
+  native_id: CqrH_GpoY1E
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: 4a7ccd48-92fe-483c-b1fb-17e77209b2ec
+  status: Private — replaced by the per-episode-imagery version J1DVwqgo-Rk in the 2026-11-05 swap; original used a template background with no per-episode imagery; set Private per boss ruling, not deleted; the original build mp4 remains in the archive note alongside the new version
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Colossians 1:13
+  language: en
+  type: Long
+  title: Daily Verse 2026-10-29 | Colossians 1:13 — Delivered from Darkness, Translated into the Kingdom
+  published: '2026-10-31'
+  url: https://youtu.be/X1mU9rHDKs4
+  native_id: X1mU9rHDKs4
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: 9fba907e-933e-40ae-b26b-0aaac73d5845
+  status: Private — replaced by the per-episode-imagery version p5_Wn87-q-o in the 2026-11-05 swap; original used a template background with no per-episode imagery; set Private per boss ruling, not deleted; the original build mp4 remains in the archive note alongside the new version
 unverified:
 - item: CFM Lesson 3 (6 videos, published 2026-11-03) — Evernote archive notes missing
   reason: Checked 2026-11-03 — no archive notes found in Evernote by video ID or title; archive ZIPs not yet built. Finals retained on M1 mini (~/cfm-bf03-creation) and in the run dir on the VM.
