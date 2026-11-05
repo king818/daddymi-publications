@@ -1742,6 +1742,78 @@ publications:
   archive_note: 77888ae7-20bf-424f-b095-957f9bd2801d
   status: Public
 - platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Psalm 19:1
+  language: zh-Hant
+  type: Long
+  title: '每日經文 2026-11-07 · Neville 解讀｜詩篇 19:1 諸天述說上帝的榮耀——你的世界，正在報告你的「我是」'
+  published: '2026-11-04'
+  url: https://youtu.be/JxLX-1vQkys
+  native_id: JxLX-1vQkys
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: d061a6d4-86bd-4076-9a0a-d77158ca513d
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Psalm 19:1
+  language: zh-Hant
+  type: Short (hook)
+  title: '每日經文 2026-11-07｜詩篇 19:1 你的世界，正在報告你的「我是」 #Shorts'
+  published: '2026-11-04'
+  url: https://youtube.com/shorts/IF_JlNwJikY
+  native_id: IF_JlNwJikY
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: 017e218b-4e72-4d6c-85ca-3c21cd4d284d
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Psalm 19:1
+  language: zh-Hant
+  type: Short (funnel)
+  title: '每日經文 2026-11-07｜詩篇 19:1 今夜入睡前，讓你的天先說話：睡前換天操練 #Shorts'
+  published: '2026-11-04'
+  url: https://youtube.com/shorts/VUUaOoGEChw
+  native_id: VUUaOoGEChw
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: 97067885-9372-45c5-be47-3b7bd4d6b024
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Psalm 19:1
+  language: en
+  type: Long
+  title: 'Daily Verse 2026-11-07 · Psalm 19:1 | The Heavens Declare — Reporting Your I AM'
+  published: '2026-11-04'
+  url: https://youtu.be/mrr0gTgcYic
+  native_id: mrr0gTgcYic
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: cc5ef489-4566-48b0-ad63-93f290865980
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Psalm 19:1
+  language: en
+  type: Short (hook)
+  title: 'Daily Verse 2026-11-07 · Psalm 19:1 | Your world is reporting your I AM #Shorts'
+  published: '2026-11-04'
+  url: https://youtube.com/shorts/XKjhYGcN-U0
+  native_id: XKjhYGcN-U0
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: 3cb50a1d-7ec0-4389-bcb5-ad492e0e7921
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Psalm 19:1
+  language: en
+  type: Short (funnel)
+  title: 'Daily Verse 2026-11-07 · Psalm 19:1 | Tonight, change the sky you sleep under #Shorts'
+  published: '2026-11-04'
+  url: https://youtube.com/shorts/RgP21W382JY
+  native_id: RgP21W382JY
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: 3c42b999-3055-4475-820f-ccc94303cad3
+  status: Public
+- platform: YouTube
   series: Come, Follow Me 2026
   topic: Lesson 2 — This Is My Work and My Glory
   language: zh

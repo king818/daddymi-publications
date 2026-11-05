@@ -2,7 +2,7 @@
 
 Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, filterable version: https://king818.github.io/daddymi-publications/
 
-**205 public videos** · 29 replaced/private versions · Come, Follow Me 2026: 90 · Daily Verse · Neville Readings: 78 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 24 · Neville Inner Reading Podcast: 7
+**211 public videos** · 29 replaced/private versions · Come, Follow Me 2026: 90 · Daily Verse · Neville Readings: 84 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 24 · Neville Inner Reading Podcast: 7
 
 
 ## 來跟隨我 2026 — 中文（45）
@@ -105,7 +105,7 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-10-31 | [Week 45 · Ezekiel](https://www.youtube.com/shorts/HYBj9c6Z5EU)<br><sub>2026 Week 45 | God Goes to the Exiles | Ezekiel</sub> | Short (hook) | Come, Follow Me 2026 (English) | Archived · 777370cb | Live | `HYBj9c6Z5EU` |
 | 2026-10-31 | [Week 45 · Ezekiel](https://www.youtube.com/shorts/oCqZeKxPCdE)<br><sub>2026 Week 45 | A Heart of Flesh, Not Stone | Ezekiel</sub> | Short (funnel) | Come, Follow Me 2026 (English) | Archived · f18bffbe | Live | `oCqZeKxPCdE` |
 
-## 每日經文 · Neville 解讀 — 中文（39）
+## 每日經文 · Neville 解讀 — 中文（42）
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
@@ -118,6 +118,9 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-11-04 | [2026-11-06 · 路得記 1:16](https://youtu.be/7i2SwLZdOv4)<br><sub>每日經文 2026-11-06 · Neville 解讀｜路得記 1:16 你往哪裡去，我也往那裡去——不再回頭，安住於新身分</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 574790e9 | 已發布 | `7i2SwLZdOv4` |
 | 2026-11-04 | [2026-11-06 · 路得記 1:16](https://youtube.com/shorts/Omq9uNkr0J8)<br><sub>每日經文 2026-11-06｜路得記 1:16 不要催我回去：舊身分沒有最後發言權</sub> | Short · 鉤子 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · f3683977 | 已發布 | `Omq9uNkr0J8` |
 | 2026-11-04 | [2026-11-06 · 路得記 1:16](https://youtube.com/shorts/MmWAxg3qS_4)<br><sub>每日經文 2026-11-06｜路得記 1:16 你今晚在哪裡住宿？睡前安住操練</sub> | Short · 導入 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 2a38cee4 | 已發布 | `MmWAxg3qS_4` |
+| 2026-11-04 | [2026-11-07 · 詩篇 19:1](https://youtu.be/JxLX-1vQkys)<br><sub>每日經文 2026-11-07 · Neville 解讀｜詩篇 19:1 諸天述說上帝的榮耀——你的世界，正在報告你的「我是」</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · d061a6d4 | 已發布 | `JxLX-1vQkys` |
+| 2026-11-04 | [2026-11-07 · 詩篇 19:1](https://youtube.com/shorts/IF_JlNwJikY)<br><sub>每日經文 2026-11-07｜詩篇 19:1 你的世界，正在報告你的「我是」</sub> | Short · 鉤子 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 017e218b | 已發布 | `IF_JlNwJikY` |
+| 2026-11-04 | [2026-11-07 · 詩篇 19:1](https://youtube.com/shorts/VUUaOoGEChw)<br><sub>每日經文 2026-11-07｜詩篇 19:1 今夜入睡前，讓你的天先說話：睡前換天操練</sub> | Short · 導入 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 97067885 | 已發布 | `VUUaOoGEChw` |
 | 2026-11-03 | [2026-11-03 · 詩篇 119:11](https://youtu.be/2-ZtDDffE4U)<br><sub>每日經文 2026-11-03 · Neville 解讀｜詩篇 119:11 把話藏在心裏——先立容器，再種下應許</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 待存档 | 已發布 | `2-ZtDDffE4U` |
 | 2026-11-03 | [2026-11-03 · 詩篇 119:11](https://youtube.com/shorts/FkEkZYt1O_s)<br><sub>每日經文 2026-11-03｜詩篇 119:11 藏話於心不是怕受罰，而是要對準靶心</sub> | Short · 鉤子 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 5f8e5940 | 已發布 | `FkEkZYt1O_s` |
 | 2026-11-03 | [2026-11-03 · 詩篇 119:11](https://youtube.com/shorts/a2iAW-gNea0)<br><sub>每日經文 2026-11-03｜詩篇 119:11 今天，就為自己藏一句話</sub> | Short · 導入 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · c31c9cb5 | 已發布 | `a2iAW-gNea0` |
@@ -149,7 +152,7 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-10-31 | [2026-10-31 · 提摩太後書 3:16-17](https://www.youtube.com/shorts/pvP-BoX9vN0)<br><sub>提摩太後書 3:16-17｜聖經是你自己意識的自傳</sub> | Short · 鉤子 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 1f8daa60 | 已發布 | `pvP-BoX9vN0` |
 | 2026-10-31 | [2026-10-31 · 提摩太後書 3:16-17](https://www.youtube.com/shorts/zMRz5A8ZLyg)<br><sub>提摩太後書 3:16-17｜你不是等著被組裝的人</sub> | Short · 導入 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · d7f07ddb | 已發布 | `zMRz5A8ZLyg` |
 
-## Daily Verse · Neville Readings — English (39)
+## Daily Verse · Neville Readings — English (42)
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
@@ -162,6 +165,9 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-11-04 | [2026-11-06 · Ruth 1:16](https://youtu.be/wprDt-I0LqM)<br><sub>Daily Verse 2026-11-06 · Ruth 1:16 | Whither Thou Goest, I Will Go — No Turning Back</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · 960c3955 | Live | `wprDt-I0LqM` |
 | 2026-11-04 | [2026-11-06 · Ruth 1:16](https://youtube.com/shorts/wNxuPUMzh_4)<br><sub>Daily Verse 2026-11-06 · Ruth 1:16 | Intreat me not: no more turning back</sub> | Short (hook) | Daily Verse · Neville Readings 2026 (English) | Archived · 574ccb54 | Live | `wNxuPUMzh_4` |
 | 2026-11-04 | [2026-11-06 · Ruth 1:16](https://youtube.com/shorts/qpdGenu8S4A)<br><sub>Daily Verse 2026-11-06 · Ruth 1:16 | Where will you lodge tonight?</sub> | Short (funnel) | Daily Verse · Neville Readings 2026 (English) | Archived · 77888ae7 | Live | `qpdGenu8S4A` |
+| 2026-11-04 | [2026-11-07 · Psalm 19:1](https://youtu.be/mrr0gTgcYic)<br><sub>Daily Verse 2026-11-07 · Psalm 19:1 | The Heavens Declare — Reporting Your I AM</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · cc5ef489 | Live | `mrr0gTgcYic` |
+| 2026-11-04 | [2026-11-07 · Psalm 19:1](https://youtube.com/shorts/XKjhYGcN-U0)<br><sub>Daily Verse 2026-11-07 · Psalm 19:1 | Your world is reporting your I AM</sub> | Short (hook) | Daily Verse · Neville Readings 2026 (English) | Archived · 3cb50a1d | Live | `XKjhYGcN-U0` |
+| 2026-11-04 | [2026-11-07 · Psalm 19:1](https://youtube.com/shorts/RgP21W382JY)<br><sub>Daily Verse 2026-11-07 · Psalm 19:1 | Tonight, change the sky you sleep under</sub> | Short (funnel) | Daily Verse · Neville Readings 2026 (English) | Archived · 3c42b999 | Live | `RgP21W382JY` |
 | 2026-11-03 | [2026-11-03 · Psalm 119:11](https://youtu.be/EB4svq0CPoA)<br><sub>Daily Verse 2026-11-03 · Psalm 119:11 | Hiding the Word in the Heart</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Not archived yet | Live | `EB4svq0CPoA` |
 | 2026-11-03 | [2026-11-03 · Psalm 119:11](https://youtube.com/shorts/CZ3GRVz2Zng)<br><sub>Daily Verse 2026-11-03 · Psalm 119:11 | Missing the Mark Is Not a Crime</sub> | Short (hook) | Daily Verse · Neville Readings 2026 (English) | Archived · 48b7debd | Live | `CZ3GRVz2Zng` |
 | 2026-11-03 | [2026-11-03 · Psalm 119:11](https://youtube.com/shorts/k5Yd_cg8QDQ)<br><sub>Daily Verse 2026-11-03 · Psalm 119:11 | Today, Hide One Sentence in Your Heart</sub> | Short (funnel) | Daily Verse · Neville Readings 2026 (English) | Archived · 772b559d | Live | `k5Yd_cg8QDQ` |
