@@ -1819,9 +1819,9 @@ publications:
   language: zh-Hant
   type: Long
   title: '每日經文 2026-11-08 · Neville 解讀｜馬太福音 17:21 這一類，若不禱告、禁食，就不出來——住進新狀態，餓死舊狀態'
-  published: '2026-11-04'
-  url: https://youtu.be/Bkdw3DytHVE
-  native_id: Bkdw3DytHVE
+  published: '2026-11-05'
+  url: https://youtu.be/Zq64fCmsEP4
+  native_id: Zq64fCmsEP4
   playlist: 每日經文 · Neville 解讀 2026（中文）
   archive_note: 10c2c5ca-845b-41ca-a825-7bd19c13f6fa
   status: Public
@@ -1855,9 +1855,9 @@ publications:
   language: en
   type: Long
   title: 'Daily Verse 2026-11-08 · Matthew 17:21 | This Kind Goeth Not Out but by Prayer and Fasting'
-  published: '2026-11-04'
-  url: https://youtu.be/CKJ-lblnPJw
-  native_id: CKJ-lblnPJw
+  published: '2026-11-05'
+  url: https://youtu.be/35LUdJtF-Bc
+  native_id: 35LUdJtF-Bc
   playlist: Daily Verse · Neville Readings 2026 (English)
   archive_note: b403d75f-0091-496a-b6df-47da9bfbaf1b
   status: Public
@@ -3050,6 +3050,30 @@ replaced_or_private:
   playlist: Daily Verse · Neville Readings 2026 (English)
   archive_note: cc5ef489-4566-48b0-ad63-93f290865980
   status: Private — replaced by the imagery-fix version p63lIru5l10 in the 2026-11-05 swap; original's closing prayer-slide image rendered near-black; set Private per boss ruling, not deleted; the original build mp4 remains in the archive note alongside the new version
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Matthew 17:21
+  language: zh-Hant
+  type: Long
+  title: '每日經文 2026-11-08 · Neville 解讀｜馬太福音 17:21 這一類，若不禱告、禁食，就不出來——住進新狀態，餓死舊狀態'
+  published: '2026-11-04'
+  url: https://youtu.be/Bkdw3DytHVE
+  native_id: Bkdw3DytHVE
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: 10c2c5ca-845b-41ca-a825-7bd19c13f6fa
+  status: Private — replaced by the imagery-fix version Zq64fCmsEP4 in the 2026-11-05 swap; original's §4 slide image was crushed to near-black by the card renderer's contrast-driven panel (alpha 215 — the campfire halo sat inside the caption zone); set Private per boss ruling, not deleted; the original build mp4 remains in the archive note alongside the new version
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Matthew 17:21
+  language: en
+  type: Long
+  title: 'Daily Verse 2026-11-08 · Matthew 17:21 | This Kind Goeth Not Out but by Prayer and Fasting'
+  published: '2026-11-04'
+  url: https://youtu.be/CKJ-lblnPJw
+  native_id: CKJ-lblnPJw
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: b403d75f-0091-496a-b6df-47da9bfbaf1b
+  status: Private — replaced by the imagery-fix version 35LUdJtF-Bc in the 2026-11-05 swap; original's §4 slide image was crushed to near-black by the card renderer's contrast-driven panel (alpha 215 — the campfire halo sat inside the caption zone); set Private per boss ruling, not deleted; the original build mp4 remains in the archive note alongside the new version
 unverified:
 - item: CFM Lesson 3 (6 videos, published 2026-11-03) — Evernote archive notes missing
   reason: Checked 2026-11-03 — no archive notes found in Evernote by video ID or title; archive ZIPs not yet built. Finals retained on M1 mini (~/cfm-bf03-creation) and in the run dir on the VM.
