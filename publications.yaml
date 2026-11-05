@@ -1603,9 +1603,9 @@ publications:
   language: zh-Hant
   type: Long
   title: '每日經文 2026-11-05 · Neville 解讀｜詩篇 24:1 地和其中所充滿的，都屬耶和華——從追趕缺乏，到入住豐盛'
-  published: '2026-11-04'
-  url: https://youtu.be/h2hcdRkCQmA
-  native_id: h2hcdRkCQmA
+  published: '2026-11-05'
+  url: https://youtu.be/9Vsp8LhRMbQ
+  native_id: 9Vsp8LhRMbQ
   playlist: 每日經文 · Neville 解讀 2026（中文）
   archive_note: 9e68b296-cbdd-4dbc-8b20-c7a2d482d822
   status: Public
@@ -1639,9 +1639,9 @@ publications:
   language: en
   type: Long
   title: 'Daily Verse 2026-11-05 · Psalm 24:1 | The Earth Is the LORD''s — From Chasing Lack to Fullness'
-  published: '2026-11-04'
-  url: https://youtu.be/EBPkdgfzEt0
-  native_id: EBPkdgfzEt0
+  published: '2026-11-05'
+  url: https://youtu.be/x_dwA1zNGLQ
+  native_id: x_dwA1zNGLQ
   playlist: Daily Verse · Neville Readings 2026 (English)
   archive_note: 88356cff-d730-4c80-93de-bda22fb2ca15
   status: Public
@@ -3002,6 +3002,30 @@ replaced_or_private:
   playlist: Daily Verse · Neville Readings 2026 (English)
   archive_note: 9fba907e-933e-40ae-b26b-0aaac73d5845
   status: Private — replaced by the per-episode-imagery version p5_Wn87-q-o in the 2026-11-05 swap; original used a template background with no per-episode imagery; set Private per boss ruling, not deleted; the original build mp4 remains in the archive note alongside the new version
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Psalm 24:1
+  language: zh-Hant
+  type: Long
+  title: '每日經文 2026-11-05 · Neville 解讀｜詩篇 24:1 地和其中所充滿的，都屬耶和華——從追趕缺乏，到入住豐盛'
+  published: '2026-11-04'
+  url: https://youtu.be/h2hcdRkCQmA
+  native_id: h2hcdRkCQmA
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: 9e68b296-cbdd-4dbc-8b20-c7a2d482d822
+  status: Private — replaced by the imagery-fix version 9Vsp8LhRMbQ in the 2026-11-05 swap; original's closing prayer-slide image was crushed invisible by the card renderer's contrast-driven panel; set Private per boss ruling, not deleted; the original build mp4 remains in the archive note alongside the new version
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Psalm 24:1
+  language: en
+  type: Long
+  title: 'Daily Verse 2026-11-05 · Psalm 24:1 | The Earth Is the LORD''s — From Chasing Lack to Fullness'
+  published: '2026-11-04'
+  url: https://youtu.be/EBPkdgfzEt0
+  native_id: EBPkdgfzEt0
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: 88356cff-d730-4c80-93de-bda22fb2ca15
+  status: Private — replaced by the imagery-fix version x_dwA1zNGLQ in the 2026-11-05 swap; original's closing prayer-slide image was crushed invisible by the card renderer's contrast-driven panel; set Private per boss ruling, not deleted; the original build mp4 remains in the archive note alongside the new version
 unverified:
 - item: CFM Lesson 3 (6 videos, published 2026-11-03) — Evernote archive notes missing
   reason: Checked 2026-11-03 — no archive notes found in Evernote by video ID or title; archive ZIPs not yet built. Finals retained on M1 mini (~/cfm-bf03-creation) and in the run dir on the VM.
