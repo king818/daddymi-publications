@@ -1747,9 +1747,9 @@ publications:
   language: zh-Hant
   type: Long
   title: '每日經文 2026-11-07 · Neville 解讀｜詩篇 19:1 諸天述說上帝的榮耀——你的世界，正在報告你的「我是」'
-  published: '2026-11-04'
-  url: https://youtu.be/JxLX-1vQkys
-  native_id: JxLX-1vQkys
+  published: '2026-11-05'
+  url: https://youtu.be/QDOj8yso6Lk
+  native_id: QDOj8yso6Lk
   playlist: 每日經文 · Neville 解讀 2026（中文）
   archive_note: d061a6d4-86bd-4076-9a0a-d77158ca513d
   status: Public
@@ -1783,9 +1783,9 @@ publications:
   language: en
   type: Long
   title: 'Daily Verse 2026-11-07 · Psalm 19:1 | The Heavens Declare — Reporting Your I AM'
-  published: '2026-11-04'
-  url: https://youtu.be/mrr0gTgcYic
-  native_id: mrr0gTgcYic
+  published: '2026-11-05'
+  url: https://youtu.be/p63lIru5l10
+  native_id: p63lIru5l10
   playlist: Daily Verse · Neville Readings 2026 (English)
   archive_note: cc5ef489-4566-48b0-ad63-93f290865980
   status: Public
@@ -3026,6 +3026,30 @@ replaced_or_private:
   playlist: Daily Verse · Neville Readings 2026 (English)
   archive_note: 88356cff-d730-4c80-93de-bda22fb2ca15
   status: Private — replaced by the imagery-fix version x_dwA1zNGLQ in the 2026-11-05 swap; original's closing prayer-slide image was crushed invisible by the card renderer's contrast-driven panel; set Private per boss ruling, not deleted; the original build mp4 remains in the archive note alongside the new version
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Psalm 19:1
+  language: zh-Hant
+  type: Long
+  title: '每日經文 2026-11-07 · Neville 解讀｜詩篇 19:1 諸天述說上帝的榮耀——你的世界，正在報告你的「我是」'
+  published: '2026-11-04'
+  url: https://youtu.be/JxLX-1vQkys
+  native_id: JxLX-1vQkys
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: d061a6d4-86bd-4076-9a0a-d77158ca513d
+  status: Private — replaced by the imagery-fix version QDOj8yso6Lk in the 2026-11-05 swap; original's §1 slide image was crushed to edge slivers by the card renderer's contrast-driven panel and the closing prayer-slide image rendered near-black; set Private per boss ruling, not deleted; the original build mp4 remains in the archive note alongside the new version
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Psalm 19:1
+  language: en
+  type: Long
+  title: 'Daily Verse 2026-11-07 · Psalm 19:1 | The Heavens Declare — Reporting Your I AM'
+  published: '2026-11-04'
+  url: https://youtu.be/mrr0gTgcYic
+  native_id: mrr0gTgcYic
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: cc5ef489-4566-48b0-ad63-93f290865980
+  status: Private — replaced by the imagery-fix version p63lIru5l10 in the 2026-11-05 swap; original's closing prayer-slide image rendered near-black; set Private per boss ruling, not deleted; the original build mp4 remains in the archive note alongside the new version
 unverified:
 - item: CFM Lesson 3 (6 videos, published 2026-11-03) — Evernote archive notes missing
   reason: Checked 2026-11-03 — no archive notes found in Evernote by video ID or title; archive ZIPs not yet built. Finals retained on M1 mini (~/cfm-bf03-creation) and in the run dir on the VM.
