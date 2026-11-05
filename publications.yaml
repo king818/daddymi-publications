@@ -2318,6 +2318,78 @@ publications:
   archive_note: 80960759-07c5-4523-bedf-8356df9056a0
   status: Live
 - platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 6 — The Lord Called His People Zion
+  language: zh-Hant
+  type: Long
+  title: 來跟隨我 2026 第6週（2月2日–8日）｜主稱祂的人民為錫安 · 摩西書 7
+  published: '2026-11-04'
+  url: https://youtu.be/JAV8kNDo5Wg
+  native_id: JAV8kNDo5Wg
+  playlist: 來跟隨我 2026（中文）
+  archive_note: 4908ca77-af05-4b66-ae0b-a8c0a7aea487
+  status: Live — published via Studio, verified Public 2026-11-04; F0 voice↔name gate PASS both languages (no swap); 48h spot-check due ~2026-11-06
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 6 — The Lord Called His People Zion
+  language: en
+  type: Long
+  title: 'Come, Follow Me 2026 Week 6 (Feb 2–8) | The Lord Called His People Zion — Moses 7'
+  published: '2026-11-04'
+  url: https://youtu.be/2HU8kIaES-k
+  native_id: 2HU8kIaES-k
+  playlist: Come, Follow Me 2026 (English)
+  archive_note: 6e0e5679-ef91-4c63-ac25-e2261cf3e63e
+  status: Live — published via Studio, verified Public 2026-11-04; F0 voice↔name gate PASS both languages (no swap); 48h spot-check due ~2026-11-06
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 6 — The Lord Called His People Zion
+  language: zh-Hant
+  type: Short (hook)
+  title: 2026 第6週｜一心一意，沒有窮人 #Shorts
+  published: '2026-11-04'
+  url: https://youtube.com/shorts/Mn1Zsa7o8qU
+  native_id: Mn1Zsa7o8qU
+  playlist: 來跟隨我 2026（中文）
+  archive_note: 6a6b8a3c-1471-4469-8cb5-af51c7694a19
+  status: Live
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 6 — The Lord Called His People Zion
+  language: zh-Hant
+  type: Short (funnel)
+  title: 2026 第6週｜七天操練：在家裡建立錫安 #Shorts
+  published: '2026-11-04'
+  url: https://youtube.com/shorts/EB1Xq5S-jOI
+  native_id: EB1Xq5S-jOI
+  playlist: 來跟隨我 2026（中文）
+  archive_note: 68fb23fc-32e7-4801-8aba-6c3ecb367170
+  status: Live
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 6 — The Lord Called His People Zion
+  language: en
+  type: Short (hook)
+  title: '2026 Week 6 | "Of One Heart and One Mind" #Shorts'
+  published: '2026-11-04'
+  url: https://youtube.com/shorts/GGE-z5_59y0
+  native_id: GGE-z5_59y0
+  playlist: Come, Follow Me 2026 (English)
+  archive_note: 745bca35-bd86-4496-9adf-28a73d0a3523
+  status: Live
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 6 — The Lord Called His People Zion
+  language: en
+  type: Short (funnel)
+  title: '2026 Week 6 | A Seven-Day Practice: Building Zion at Home #Shorts'
+  published: '2026-11-04'
+  url: https://youtube.com/shorts/EcBem153Kbo
+  native_id: EcBem153Kbo
+  playlist: Come, Follow Me 2026 (English)
+  archive_note: a4810690-2ef1-48ad-a706-ab8e6380e4b5
+  status: Live
+- platform: YouTube
   series: Daily Verse · Neville Readings
   topic: James 1:12
   language: en
