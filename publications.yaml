@@ -727,24 +727,24 @@ publications:
   language: zh
   type: Long
   title: 每日經文｜提摩太後書 3:16-17 · 聖經都是神所默示的
-  published: '2026-10-31'
-  url: https://youtu.be/y6zIFPvCCuc
-  native_id: y6zIFPvCCuc
+  published: '2026-11-04'
+  url: https://youtu.be/IxVCeAkOFy8
+  native_id: IxVCeAkOFy8
   playlist: 每日經文 · Neville 解讀 2026（中文）
   archive_note: a1f4dcfc-4393-48f4-b27e-97ee6d0c56bf
-  status: Live
+  status: Public
 - platform: YouTube
   series: Daily Verse · Neville Readings
   topic: 2 Timothy 3:16-17
   language: en
   type: Long
   title: Daily Verse | 2 Timothy 3:16-17 · All Scripture Is Given by Inspiration of God
-  published: '2026-10-31'
-  url: https://youtu.be/63aSh1Nemx8
-  native_id: 63aSh1Nemx8
+  published: '2026-11-04'
+  url: https://youtu.be/_hJOBbo6Uo4
+  native_id: _hJOBbo6Uo4
   playlist: Daily Verse · Neville Readings 2026 (English)
   archive_note: fef65295-7c4f-4967-a146-b43f05f14476
-  status: Live
+  status: Public
 - platform: YouTube
   series: Daily Verse · Neville Readings
   topic: 2 Timothy 3:16-17
@@ -2954,6 +2954,30 @@ replaced_or_private:
   playlist: Come, Follow Me 2026 (English)
   archive_note:
   status: Private — duplicate of the CFM Lesson 3 Shorts collision (two production lines uploaded the same lesson on 2026-11-03); boss ruled 2026-11-04 to keep the first-uploaded set Public and move this later-uploaded set to Private, not deleted; never registered while Public, added here for a complete record
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: 2 Timothy 3:16-17
+  language: zh
+  type: Long
+  title: 每日經文｜提摩太後書 3:16-17 · 聖經都是神所默示的
+  published: '2026-10-31'
+  url: https://youtu.be/y6zIFPvCCuc
+  native_id: y6zIFPvCCuc
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: a1f4dcfc-4393-48f4-b27e-97ee6d0c56bf
+  status: Private — replaced by the per-episode-imagery version IxVCeAkOFy8 in the 2026-11-04 swap; original used a template background with no per-episode imagery; set Private per boss ruling, not deleted; the original build mp4 remains in the archive note alongside the new version
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: 2 Timothy 3:16-17
+  language: en
+  type: Long
+  title: Daily Verse | 2 Timothy 3:16-17 · All Scripture Is Given by Inspiration of God
+  published: '2026-10-31'
+  url: https://youtu.be/63aSh1Nemx8
+  native_id: 63aSh1Nemx8
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: fef65295-7c4f-4967-a146-b43f05f14476
+  status: Private — replaced by the per-episode-imagery version _hJOBbo6Uo4 in the 2026-11-04 swap; original used a template background with no per-episode imagery; set Private per boss ruling, not deleted; the original build mp4 remains in the archive note alongside the new version
 unverified:
 - item: CFM Lesson 3 (6 videos, published 2026-11-03) — Evernote archive notes missing
   reason: Checked 2026-11-03 — no archive notes found in Evernote by video ID or title; archive ZIPs not yet built. Finals retained on M1 mini (~/cfm-bf03-creation) and in the run dir on the VM.
