@@ -1814,6 +1814,78 @@ publications:
   archive_note: 3c42b999-3055-4475-820f-ccc94303cad3
   status: Public
 - platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Matthew 17:21
+  language: zh-Hant
+  type: Long
+  title: '每日經文 2026-11-08 · Neville 解讀｜馬太福音 17:21 這一類，若不禱告、禁食，就不出來——住進新狀態，餓死舊狀態'
+  published: '2026-11-04'
+  url: https://youtu.be/Bkdw3DytHVE
+  native_id: Bkdw3DytHVE
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: 10c2c5ca-845b-41ca-a825-7bd19c13f6fa
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Matthew 17:21
+  language: zh-Hant
+  type: Short (hook)
+  title: '每日經文 #Shorts｜馬太福音 17:21 這一類，為何趕不出去？'
+  published: '2026-11-04'
+  url: https://youtube.com/shorts/Ks_J4OXFcaU
+  native_id: Ks_J4OXFcaU
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: cc78b842-a882-4dab-a72e-4d9921d2cdaf
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Matthew 17:21
+  language: zh-Hant
+  type: Short (funnel)
+  title: '每日經文 #Shorts｜馬太福音 17:21 住進新狀態，餓死舊狀態'
+  published: '2026-11-04'
+  url: https://youtube.com/shorts/UXXmqRifeRY
+  native_id: UXXmqRifeRY
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: 759c4824-363e-45a9-9a1b-f68406d72f19
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Matthew 17:21
+  language: en
+  type: Long
+  title: 'Daily Verse 2026-11-08 · Matthew 17:21 | This Kind Goeth Not Out but by Prayer and Fasting'
+  published: '2026-11-04'
+  url: https://youtu.be/CKJ-lblnPJw
+  native_id: CKJ-lblnPJw
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: b403d75f-0091-496a-b6df-47da9bfbaf1b
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Matthew 17:21
+  language: en
+  type: Short (hook)
+  title: 'Daily Verse #Shorts — Matthew 17:21 | Why This Kind Won''t Leave'
+  published: '2026-11-04'
+  url: https://youtube.com/shorts/IsDzJ7rBE4Y
+  native_id: IsDzJ7rBE4Y
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: 8b26658b-c9ed-4b40-8961-99ae7ca526c2
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Matthew 17:21
+  language: en
+  type: Short (funnel)
+  title: 'Daily Verse #Shorts — Matthew 17:21 | Dwell in the New, Starve the Old'
+  published: '2026-11-04'
+  url: https://youtube.com/shorts/QTgPunZXUD4
+  native_id: QTgPunZXUD4
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: 41901e8e-6983-4393-a295-4d0fb82a34de
+  status: Public
+- platform: YouTube
   series: Come, Follow Me 2026
   topic: Lesson 2 — This Is My Work and My Glory
   language: zh
