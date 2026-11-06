@@ -1315,9 +1315,9 @@ publications:
   language: zh-Hant
   type: Long
   title: 每日經文 2026-10-26 · Neville 解讀｜不要害怕，祂與你同在——以賽亞書 41:10 內在解讀
-  published: "2026-11-02"
-  url: https://youtu.be/KCUVl4_IFY0
-  native_id: KCUVl4_IFY0
+  published: "2026-11-06"
+  url: https://youtu.be/71Sj79iPtPQ
+  native_id: 71Sj79iPtPQ
   archive_note: 1ca97d75-6bad-49aa-b6f9-338514bc4ca8
   playlist: 每日經文 · Neville 解讀 2026（中文）
   status: Public
@@ -1423,9 +1423,9 @@ publications:
   language: en
   type: Long
   title: 'Daily Verse 2026-10-26 · Neville Goddard Reading | Fear Thou Not — I Am With Thee: Isaiah 41:10'
-  published: '2026-11-02'
-  url: https://youtu.be/CpqGsKubH_0
-  native_id: CpqGsKubH_0
+  published: '2026-11-06'
+  url: https://youtu.be/5xC433sFSrE
+  native_id: 5xC433sFSrE
   playlist: Daily Verse · Neville Readings 2026 (English)
   archive_note: 14dafa3a-3b21-4ca8-9c10-14c4efa1981f
   status: Public
@@ -3074,6 +3074,30 @@ replaced_or_private:
   playlist: Daily Verse · Neville Readings 2026 (English)
   archive_note: b403d75f-0091-496a-b6df-47da9bfbaf1b
   status: Private — replaced by the imagery-fix version 35LUdJtF-Bc in the 2026-11-05 swap; original's §4 slide image was crushed to near-black by the card renderer's contrast-driven panel (alpha 215 — the campfire halo sat inside the caption zone); set Private per boss ruling, not deleted; the original build mp4 remains in the archive note alongside the new version
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Isaiah 41:10
+  language: zh-Hant
+  type: Long
+  title: 每日經文 2026-10-26 · Neville 解讀｜不要害怕，祂與你同在——以賽亞書 41:10 內在解讀
+  published: "2026-11-02"
+  url: https://youtu.be/KCUVl4_IFY0
+  native_id: KCUVl4_IFY0
+  archive_note: 1ca97d75-6bad-49aa-b6f9-338514bc4ca8
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  status: Private — replaced by the transparency-fix version 71Sj79iPtPQ in the 2026-11-06 swap; original's slide imagery was dimmed throughout by the old template's full-frame dark panel (opacity defect — boss viewed the pair and ordered the rebuild under the 2026-11-05 viewer standard); set Private per boss ruling, not deleted, and removed from the playlist; the original build mp4 remains in the archive note
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Isaiah 41:10
+  language: en
+  type: Long
+  title: 'Daily Verse 2026-10-26 · Neville Goddard Reading | Fear Thou Not — I Am With Thee: Isaiah 41:10'
+  published: '2026-11-02'
+  url: https://youtu.be/CpqGsKubH_0
+  native_id: CpqGsKubH_0
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: 14dafa3a-3b21-4ca8-9c10-14c4efa1981f
+  status: Private — replaced by the transparency-fix version 5xC433sFSrE in the 2026-11-06 swap; original's slide imagery was dimmed throughout by the old template's full-frame dark panel (opacity defect — boss viewed the pair and ordered the rebuild under the 2026-11-05 viewer standard); set Private per boss ruling, not deleted, and removed from the playlist; the original build mp4 remains in the archive note
 unverified:
 - item: CFM Lesson 3 (6 videos, published 2026-11-03) — Evernote archive notes missing
   reason: Checked 2026-11-03 — no archive notes found in Evernote by video ID or title; archive ZIPs not yet built. Finals retained on M1 mini (~/cfm-bf03-creation) and in the run dir on the VM.

@@ -2,7 +2,7 @@
 
 Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, filterable version: https://king818.github.io/daddymi-publications/
 
-**217 public videos** · 39 replaced/private versions · Come, Follow Me 2026: 90 · Daily Verse · Neville Readings: 90 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 24 · Neville Inner Reading Podcast: 7
+**217 public videos** · 41 replaced/private versions · Come, Follow Me 2026: 90 · Daily Verse · Neville Readings: 90 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 24 · Neville Inner Reading Podcast: 7
 
 
 ## 來跟隨我 2026 — 中文（45）
@@ -109,6 +109,7 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
+| 2026-11-06 | [2026-10-26 · 以賽亞書 41:10](https://youtu.be/71Sj79iPtPQ)<br><sub>每日經文 2026-10-26 · Neville 解讀｜不要害怕，祂與你同在——以賽亞書 41:10 內在解讀</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 1ca97d75 | 已發布 | `71Sj79iPtPQ` |
 | 2026-11-05 | [2026-10-29 · 歌羅西書 1:13](https://youtu.be/J1DVwqgo-Rk)<br><sub>每日經文 2026-10-29｜歌羅西書 1:13 — 脫離黑暗的權勢，遷入愛子的國</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 4a7ccd48 | 已發布 | `J1DVwqgo-Rk` |
 | 2026-11-05 | [2026-11-05 · 詩篇 24:1](https://youtu.be/9Vsp8LhRMbQ)<br><sub>每日經文 2026-11-05 · Neville 解讀｜詩篇 24:1 地和其中所充滿的，都屬耶和華——從追趕缺乏，到入住豐盛</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 9e68b296 | 已發布 | `9Vsp8LhRMbQ` |
 | 2026-11-05 | [2026-11-07 · 詩篇 19:1](https://youtu.be/QDOj8yso6Lk)<br><sub>每日經文 2026-11-07 · Neville 解讀｜詩篇 19:1 諸天述說上帝的榮耀——你的世界，正在報告你的「我是」</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · d061a6d4 | 已發布 | `QDOj8yso6Lk` |
@@ -141,7 +142,6 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-11-03 | [2026-10-24 · 箴言 16:3](https://youtu.be/yd7rh4vg4Wg)<br><sub>每日經文 2026-10-24 · Neville 解讀｜箴言 16:3 把石頭滾下去——交託所做的，所謀的就必成立</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 286cbaa9 | 已發布 | `yd7rh4vg4Wg` |
 | 2026-11-03 | [2026-10-24 · 箴言 16:3](https://youtube.com/shorts/DtFuP_Y27sk)<br><sub>每日經文 2026-10-24 · 箴言 16:3｜交託不是呈上去，是滾下來</sub> | Short · 鉤子 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · c7a81b03 | 已發布 | `DtFuP_Y27sk` |
 | 2026-11-03 | [2026-10-24 · 箴言 16:3](https://youtube.com/shorts/JYolqKOh9rs)<br><sub>每日經文 2026-10-24 · 箴言 16:3｜把名叫「如何」的石頭交託給祢</sub> | Short · 導入 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · b3e87b08 | 已發布 | `JYolqKOh9rs` |
-| 2026-11-02 | [2026-10-26 · 以賽亞書 41:10](https://youtu.be/KCUVl4_IFY0)<br><sub>每日經文 2026-10-26 · Neville 解讀｜不要害怕，祂與你同在——以賽亞書 41:10 內在解讀</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 1ca97d75 | 已發布 | `KCUVl4_IFY0` |
 | 2026-11-02 | [2026-10-26 · 以賽亞書 41:10](https://youtube.com/shorts/0i2eaQr3vE4)<br><sub>每日經文 2026-10-26 · Neville 解讀｜恐懼不是沒有信心，是信心指錯了方向（以賽亞書 41:10）</sub> | Short · 鉤子 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 1144a479 | 已發布 | `0i2eaQr3vE4` |
 | 2026-11-02 | [2026-10-26 · 以賽亞書 41:10](https://youtube.com/shorts/OTFsNzh6zkQ)<br><sub>每日經文 2026-10-26 · Neville 解讀｜今晚的右手操練：恭喜你，一切都成了（以賽亞書 41:10）</sub> | Short · 導入 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 5238297b | 已發布 | `OTFsNzh6zkQ` |
 | 2026-11-02 | [2026-11-02 · 希伯來書 4:12](https://youtu.be/idi0AAWCKo0)<br><sub>每日經文 2026-11-02 · Neville 解讀｜希伯來書 4:12 上帝的道是活的——兩刃之劍剖開魂與靈</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 8c400e41 | 已發布 | `idi0AAWCKo0` |
@@ -159,6 +159,7 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
+| 2026-11-06 | [2026-10-26 · Isaiah 41:10](https://youtu.be/5xC433sFSrE)<br><sub>Daily Verse 2026-10-26 · Neville Goddard Reading | Fear Thou Not — I Am With Thee: Isaiah 41:10</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · 14dafa3a | Live | `5xC433sFSrE` |
 | 2026-11-05 | [2026-10-29 · Colossians 1:13](https://youtu.be/p5_Wn87-q-o)<br><sub>Daily Verse 2026-10-29 | Colossians 1:13 — Delivered from Darkness, Translated into the Kingdom</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · 9fba907e | Live | `p5_Wn87-q-o` |
 | 2026-11-05 | [2026-11-05 · Psalm 24:1](https://youtu.be/x_dwA1zNGLQ)<br><sub>Daily Verse 2026-11-05 · Psalm 24:1 | The Earth Is the LORD's — From Chasing Lack to Fullness</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · 88356cff | Live | `x_dwA1zNGLQ` |
 | 2026-11-05 | [2026-11-07 · Psalm 19:1](https://youtu.be/p63lIru5l10)<br><sub>Daily Verse 2026-11-07 · Psalm 19:1 | The Heavens Declare — Reporting Your I AM</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · cc5ef489 | Live | `p63lIru5l10` |
@@ -191,7 +192,6 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-11-03 | [2026-10-24 · Proverbs 16:3](https://youtu.be/esKv9WHH9yU)<br><sub>Daily Verse · 2026-10-24 | Proverbs 16:3 — Roll It Off Your Shoulders</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · bf6db083 | Live | `esKv9WHH9yU` |
 | 2026-11-03 | [2026-10-24 · Proverbs 16:3](https://youtube.com/shorts/gahgddgpyrQ)<br><sub>Daily Verse 2026-10-24 · Proverbs 16:3 | Commit Is Not Handed Up — It Is Rolled Off</sub> | Short (hook) | Daily Verse · Neville Readings 2026 (English) | Archived · 542e77e9 | Live | `gahgddgpyrQ` |
 | 2026-11-03 | [2026-10-24 · Proverbs 16:3](https://youtube.com/shorts/EZNep7NBvfs)<br><sub>Daily Verse 2026-10-24 · Proverbs 16:3 | Hand Him the Stone Named "How"</sub> | Short (funnel) | Daily Verse · Neville Readings 2026 (English) | Archived · e0916a3c | Live | `EZNep7NBvfs` |
-| 2026-11-02 | [2026-10-26 · Isaiah 41:10](https://youtu.be/CpqGsKubH_0)<br><sub>Daily Verse 2026-10-26 · Neville Goddard Reading | Fear Thou Not — I Am With Thee: Isaiah 41:10</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · 14dafa3a | Live | `CpqGsKubH_0` |
 | 2026-11-02 | [2026-10-26 · Isaiah 41:10](https://youtube.com/shorts/QRWMJSl2Pdo)<br><sub>Daily Verse 2026-10-26 | Fear Is Strong Faith Aimed the Wrong Way</sub> | Short (hook) | Daily Verse · Neville Readings 2026 (English) | Archived · 380b021c | Live | `QRWMJSl2Pdo` |
 | 2026-11-02 | [2026-10-26 · Isaiah 41:10](https://youtube.com/shorts/si3NWwt1MU8)<br><sub>Daily Verse 2026-10-26 | Tonight’s Right-Hand Scene — “Congratulations, It Is Done”</sub> | Short (funnel) | Daily Verse · Neville Readings 2026 (English) | Archived · f9c863ba | Live | `si3NWwt1MU8` |
 | 2026-11-02 | [2026-11-02 · Hebrews 4:12](https://youtu.be/Xb6LjyfyW9g)<br><sub>Daily Verse 2026-11-02 · Hebrews 4:12 | The Word of God Is Alive — A Two-Edged Sword</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · b2f0253b | Live | `Xb6LjyfyW9g` |
@@ -272,7 +272,7 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-10-31 | ['Guaranteed 14% Returns'? A Dangerous Illusion | Finance Basics](https://www.youtube.com/shorts/_z0BhZ_z1P8) | Short (hook) | Finance Basics 2026 (English) | Archived · d6c05cce | Live | `_z0BhZ_z1P8` |
 | 2026-10-31 | [The Premium Lowers Your Real Cost to $109.08 | Finance Basics](https://www.youtube.com/shorts/meGAW-UginY) | Short (funnel) | Finance Basics 2026 (English) | Archived · ce324423 | Live | `meGAW-UginY` |
 
-## Replaced / Private versions (39)
+## Replaced / Private versions (41)
 
 Same productions, kept for the record — not public.
 
@@ -299,7 +299,7 @@ Same productions, kept for the record — not public.
 | 2026-10-30 | [EP1 original Short (1:01, pre-redo)](https://youtu.be/MyWvEekwrh4) | Short | Neville Inner Reading Podcast 2026 (English) | Not archived yet | Private · replaced by redo | `MyWvEekwrh4` |
 | 2026-10-28 | [EP1 English original (pre-redo)](https://youtu.be/Hmc6emlD1UQ) | Long | Neville Inner Reading Podcast 2026 (English) | Archived · Video Artifacts · 88e92add | Private · original | `Hmc6emlD1UQ` |
 
-### 已取代 / Private · 每日經文 · Neville 解讀 — 中文（10）
+### 已取代 / Private · 每日經文 · Neville 解讀 — 中文（11）
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
@@ -311,10 +311,11 @@ Same productions, kept for the record — not public.
 | 2026-11-03 | [2026-10-27 · 雅各書 1:12](https://youtu.be/cyANijnMux4)<br><sub>每日經文 2026-10-27｜雅各書 1:12 · 忍受試探的人是有福的</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 2dca116b | Private · 已被取代 | `cyANijnMux4` |
 | 2026-11-03 | [2026-10-30 · 詩篇 139:23](https://youtu.be/e8AoCDAvGqY)<br><sub>每日經文 2026-10-30｜詩篇 139:23 · 神啊，求你鑒察我</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · b4e4b9e9 | Private · 已被取代 | `e8AoCDAvGqY` |
 | 2026-11-03 | [2026-11-03 · Psalm 119:11](https://youtu.be/sdpT4xWJW8A)<br><sub>Daily Verse 2026-11-03 · Psalm 119:11 — God's Word Hidden in Your Heart</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · d1658cf7 | Private · 已被取代 | `sdpT4xWJW8A` |
+| 2026-11-02 | [2026-10-26 · 以賽亞書 41:10](https://youtu.be/KCUVl4_IFY0)<br><sub>每日經文 2026-10-26 · Neville 解讀｜不要害怕，祂與你同在——以賽亞書 41:10 內在解讀</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 1ca97d75 | Private · 已被取代 | `KCUVl4_IFY0` |
 | 2026-10-31 | [2026-10-31 · 提摩太後書 3:16-17](https://youtu.be/y6zIFPvCCuc)<br><sub>每日經文 2026-10-31｜提摩太後書 3:16-17 · 聖經都是神所默示的</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · a1f4dcfc | Private · 已被取代 | `y6zIFPvCCuc` |
 | 2026-10-31 | [2026-10-29 · 歌羅西書 1:13](https://youtu.be/CqrH_GpoY1E)<br><sub>每日經文 2026-10-29｜歌羅西書 1:13 — 脫離黑暗的權勢，遷入愛子的國</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 4a7ccd48 | Private · 已被取代 | `CqrH_GpoY1E` |
 
-### 已取代 / Private · Daily Verse · Neville Readings — English (11)
+### 已取代 / Private · Daily Verse · Neville Readings — English (12)
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
@@ -324,6 +325,7 @@ Same productions, kept for the record — not public.
 | 2026-11-03 | [2026-10-25 · Philippians 2:3](https://youtu.be/vphlUHj9aIY)<br><sub>Daily Verse · 2026-10-25 | Philippians 2:3 — Esteem Others Better: Laying Down Rivalry</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · 13b7b4f9 | Private · replaced | `vphlUHj9aIY` |
 | 2026-11-03 | [2026-10-30 · Psalm 139:23](https://youtu.be/ehoGKSlRoNE)<br><sub>Daily Verse 2026-10-30 · Psalm 139:23 — Search Me, O God, and Know My Heart</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · 98beab2c | Private · replaced | `ehoGKSlRoNE` |
 | 2026-11-03 | [2026-11-03 · Psalm 119:11](https://youtu.be/FEmW-caUtk0)<br><sub>Daily Verse 2026-11-03 · Psalm 119:11 — God's Word Hidden in Your Heart</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · 9f4ddc4b | Private · replaced | `FEmW-caUtk0` |
+| 2026-11-02 | [2026-10-26 · Isaiah 41:10](https://youtu.be/CpqGsKubH_0)<br><sub>Daily Verse 2026-10-26 · Neville Goddard Reading | Fear Thou Not — I Am With Thee: Isaiah 41:10</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · 14dafa3a | Private · replaced | `CpqGsKubH_0` |
 | 2026-10-31 | [2026-10-31 · Colossians 1:13](https://youtu.be/MBgPe0IEuRg)<br><sub>Colossians 1:13 — English original (pre-redo)</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Not archived yet | Private · replaced by redo | `MBgPe0IEuRg` |
 | 2026-10-31 | [2026-10-31 · Colossians 1:13](https://youtu.be/Xze2Euk4eeY)<br><sub>Colossians 1:13 — English hook, original (pre-redo)</sub> | Short (hook) | Daily Verse · Neville Readings 2026 (English) | Not archived yet | Private · replaced by redo | `Xze2Euk4eeY` |
 | 2026-10-31 | [2026-10-31 · Colossians 1:13](https://youtu.be/jvQ19inwtSw)<br><sub>Colossians 1:13 — English funnel, original (pre-redo)</sub> | Short (funnel) | Daily Verse · Neville Readings 2026 (English) | Not archived yet | Private · replaced by redo | `jvQ19inwtSw` |
