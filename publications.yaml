@@ -3224,8 +3224,8 @@ publications:
   type: Long
   title: 每日經文 2026-11-06 · Neville 解讀｜腓立比書 4:8 思念真實可敬的事——住進你所思念的狀態
   published: "2026-11-06"
-  url: https://youtu.be/ENb7wDBbYxM
-  native_id: ENb7wDBbYxM
+  url: https://youtu.be/PxzoVHyfkCU
+  native_id: PxzoVHyfkCU
   archive_note: 16cd078f-b383-42f3-84c1-621b7ef67461
   playlist: 每日經文 · Neville 解讀 2026（中文）
   status: Public
@@ -3794,6 +3794,18 @@ replaced_or_private:
   playlist: Daily Verse · Neville Readings 2026 (English)
   archive_note: ad89add3-1e75-460f-b1d8-21f8e2d7237d
   status: Private — replaced by the four-item-repair version 8BSGkPuci-M in the 2026-11-06 swap (transparency fix + per-episode imagery + background music + new motion Shorts, per the boss's 2026-11-06 four-item repair standard); this version's slide imagery was dimmed throughout by the old template's full-frame dark panel (opacity defect) and it carried no background music; set Private per boss ruling, not deleted, and removed from the playlist; the repaired build is recorded in the archive note and retained in the run directory; Evernote append of the replacement landed and verified 2026-11-06
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Philippians 4:8
+  language: zh-Hant
+  type: Long
+  title: 每日經文 2026-11-06 · Neville 解讀｜腓立比書 4:8 思念真實可敬的事——住進你所思念的狀態
+  published: "2026-11-06"
+  url: https://youtu.be/ENb7wDBbYxM
+  native_id: ENb7wDBbYxM
+  archive_note: 16cd078f-b383-42f3-84c1-621b7ef67461
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  status: Private — withdrawn 2026-11-06 after the boss rejected the v1 digital-twin opening (the figure did not resemble him, and the voice and lip motion were out of sync); replaced the same day by the no-intro rebuild PxzoVHyfkCU; set Private per boss ruling, not deleted, and remains a member of the playlist; the withdrawn with-intro master remains in the archive note
 unverified:
 - item: CFM Lesson 3 (6 videos, published 2026-11-03) — Evernote archive notes missing
   reason: Checked 2026-11-03 — no archive notes found in Evernote by video ID or title; archive ZIPs not yet built. Finals retained on M1 mini (~/cfm-bf03-creation) and in the run dir on the VM.
