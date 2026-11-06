@@ -2,13 +2,34 @@
 
 Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, filterable version: https://king818.github.io/daddymi-publications/
 
-**217 public videos** · 45 replaced/private versions · Come, Follow Me 2026: 90 · Daily Verse · Neville Readings: 90 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 24 · Neville Inner Reading Podcast: 7
+**260 public videos** · 45 replaced/private versions · Come, Follow Me 2026: 132 · Daily Verse · Neville Readings: 91 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 24 · Neville Inner Reading Podcast: 7
 
 
-## 來跟隨我 2026 — 中文（45）
+## 來跟隨我 2026 — 中文（66）
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
+| 2026-11-06 | [第 7 週 · 挪亞在耶和華眼前蒙恩](https://youtu.be/BIEDfPA9orY)<br><sub>來跟隨我 2026 第7週（2月9日–15日）｜挪亞在耶和華眼前蒙恩 · 創世記 6–11；摩西書 8</sub> | 長集 | 來跟隨我 2026（中文） | 已存档 · 3469a5b7 | 已發布 | `BIEDfPA9orY` |
+| 2026-11-06 | [第 7 週 · 耶和華把他關在方舟裡頭](https://youtube.com/shorts/e0n1SdnavrA)<br><sub>2026 第7週｜耶和華把他關在方舟裡頭</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 已存档 · 21ff8a3f | 已發布 | `e0n1SdnavrA` |
+| 2026-11-06 | [第 7 週 · 七天操練：進入方舟的一周](https://youtube.com/shorts/lYunCHReiJY)<br><sub>2026 第7週｜七天操練：進入方舟的一周</sub> | Short · 導入 | 來跟隨我 2026（中文） | 已存档 · a34534fb | 已發布 | `lYunCHReiJY` |
+| 2026-11-06 | [第 8 週 · 作個更偉大的正義的追隨者](https://youtu.be/LOMgY4HUya8)<br><sub>來跟隨我 2026 第8週（2月16日–22日）｜作個更偉大的正義的追隨者 · 創世記 12–17；亞伯拉罕書 1–2</sub> | 長集 | 來跟隨我 2026（中文） | 已存档 · 7156022e | 已發布 | `LOMgY4HUya8` |
+| 2026-11-06 | [第 8 週 · 他信耶和華，這就算為他的義](https://youtube.com/shorts/uKf3EyQzhzo)<br><sub>2026 第8週｜他信耶和華，這就算為他的義</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 已存档 · 146608bd | 已發布 | `uKf3EyQzhzo` |
+| 2026-11-06 | [第 8 週 · 七天操練：走亞伯拉罕的路](https://youtube.com/shorts/JfOzSmNl1F8)<br><sub>2026 第8週｜七天操練：走亞伯拉罕的路</sub> | Short · 導入 | 來跟隨我 2026（中文） | 已存档 · ae66b302 | 已發布 | `JfOzSmNl1F8` |
+| 2026-11-06 | [第 10 週 · 讓神得勝](https://youtu.be/QdF56oy1bRk)<br><sub>來跟隨我 2026 第10週（3月2日–8日）｜讓神得勝 · 創世記 24–33</sub> | 長集 | 來跟隨我 2026（中文） | 已存档 · 4d7a7e14 | 已發布 | `QdF56oy1bRk` |
+| 2026-11-06 | [第 10 週 · 我不放你走，除非你給我祝福](https://youtube.com/shorts/vSEADq1YsF8)<br><sub>2026 第10週｜我不放你走，除非你給我祝福</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 已存档 · 84ed97ac | 已發布 | `vSEADq1YsF8` |
+| 2026-11-06 | [第 10 週 · 七天操練：讓神得勝的一週](https://youtube.com/shorts/ZkJ_nrcvvsM)<br><sub>2026 第10週｜七天操練：讓神得勝的一週</sub> | Short · 導入 | 來跟隨我 2026（中文） | 已存档 · b6ca5fac | 已發布 | `ZkJ_nrcvvsM` |
+| 2026-11-06 | [第 11 週 · 耶和華與約瑟同在](https://youtu.be/rQ-X3qPBDcM)<br><sub>來跟隨我 2026 第11週（3月9日–15日）｜耶和華與約瑟同在 · 創世記 37–41</sub> | 長集 | 來跟隨我 2026（中文） | 已存档 · bb39745c | 已發布 | `rQ-X3qPBDcM` |
+| 2026-11-06 | [第 11 週 · 來跟隨我 2026 第11週](https://youtube.com/shorts/I6pehGHgfDY)<br><sub>夢是真的，坑也是真的｜來跟隨我 2026 第11週 · 創世記 37–41</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 已存档 · 9eb9f0af | 已發布 | `I6pehGHgfDY` |
+| 2026-11-06 | [第 11 週 · 來跟隨我 2026 第11週](https://youtube.com/shorts/oAJZpTcyLPc)<br><sub>先別急著下結論｜來跟隨我 2026 第11週 · 約瑟的坑與夢</sub> | Short · 導入 | 來跟隨我 2026（中文） | 已存档 · 3e78bd1b | 已發布 | `oAJZpTcyLPc` |
+| 2026-11-06 | [第 12 週 · 神的意思原是好的](https://youtu.be/LLYMIP0PDlA)<br><sub>來跟隨我 2026 第12週（3月16日–22日）｜神的意思原是好的 · 創世記 42–50；約譯創世記 50</sub> | 長集 | 來跟隨我 2026（中文） | 已存档 · c52a49eb | 已發布 | `LLYMIP0PDlA` |
+| 2026-11-06 | [第 12 週 · 我是約瑟——神差我在你們以先來](https://youtube.com/shorts/MJCkVD9eago)<br><sub>2026 第12週｜我是約瑟——神差我在你們以先來</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 已存档 · c488306d | 已發布 | `MJCkVD9eago` |
+| 2026-11-06 | [第 12 週 · 七天操練：把審判交還給神](https://youtube.com/shorts/IG3VbRP5G50)<br><sub>2026 第12週｜七天操練：把審判交還給神</sub> | Short · 導入 | 來跟隨我 2026（中文） | 已存档 · 8634fc37 | 已發布 | `IG3VbRP5G50` |
+| 2026-11-06 | [第 13 週 · 我也記念我的約](https://youtu.be/5a2xFdFsmrs)<br><sub>來跟隨我 2026 第13週（3月23日–29日）｜我也記念我的約 · 出埃及記 1–6</sub> | 長集 | 來跟隨我 2026（中文） | 已存档 · 75cbff08 | 已發布 | `5a2xFdFsmrs` |
+| 2026-11-06 | [第 13 週 · 出埃及記 2:24｜來跟隨我 2026 第13週](https://youtube.com/shorts/sNFS14Ij818)<br><sub>祂一直都記得｜出埃及記 2:24｜來跟隨我 2026 第13週</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 已存档 · af8d638d | 已發布 | `sNFS14Ij818` |
+| 2026-11-06 | [第 13 週 · 出埃及記七天操練｜來跟隨我 2026 第13週](https://youtube.com/shorts/dBWfsCBFc2s)<br><sub>被記念的一週｜出埃及記七天操練｜來跟隨我 2026 第13週</sub> | Short · 導入 | 來跟隨我 2026（中文） | 已存档 · 8ed69a39 | 已發布 | `dBWfsCBFc2s` |
+| 2026-11-06 | [第 14 週 · 他已經吞滅死亡直到永遠](https://youtu.be/KYUMPfkwzpo)<br><sub>來跟隨我 2026 第14週（3月30日–4月5日）｜他已經吞滅死亡直到永遠 · 復活節專題（Easter)</sub> | 長集 | 來跟隨我 2026（中文） | 已存档 · 481c4692 | 已發布 | `KYUMPfkwzpo` |
+| 2026-11-06 | [第 14 週 · 復活節](https://youtube.com/shorts/y9kSR_UgCrg)<br><sub>死被得勝吞滅｜復活節 · 哥林多前書 15:54｜來跟隨我 2026 第14週</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 已存档 · 01271fae | 已發布 | `y9kSR_UgCrg` |
+| 2026-11-06 | [第 14 週 · 復活節七天操練｜來跟隨我 2026 第14週](https://youtube.com/shorts/-QYS4PvIS4w)<br><sub>把平安送出去的一週｜復活節七天操練｜來跟隨我 2026 第14週</sub> | Short · 導入 | 來跟隨我 2026（中文） | 已存档 · 5d6c106c | 已發布 | `-QYS4PvIS4w` |
 | 2026-11-04 | [第 5 週 · 要毫不保留地教你的兒女這些事情](https://youtu.be/aICCQl3lZ_A)<br><sub>來跟隨我 2026 第5週（1月26日–2月1日）｜要毫不保留地教你的兒女這些事情 · 創世記 5；摩西書 6</sub> | 長集 | 來跟隨我 2026（中文） | 已存档 · 27b3e6a2 | 已發布 · 抽查 11-06 | `aICCQl3lZ_A` |
 | 2026-11-04 | [第 5 週 · 主為祂的人民興起一位先見](https://youtube.com/shorts/YskEDPu4yqg)<br><sub>2026 第5週｜主為祂的人民興起一位先見</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 已存档 · 955cd4ae | 已發布 | `YskEDPu4yqg` |
 | 2026-11-04 | [第 5 週 · 七天操練：與祂同行的一週](https://youtube.com/shorts/if8sZa6cHrs)<br><sub>2026 第5週｜七天操練：與祂同行的一週</sub> | Short · 導入 | 來跟隨我 2026（中文） | 已存档 · d3487e01 | 已發布 | `if8sZa6cHrs` |
@@ -55,10 +76,31 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-10-31 | [第 45 週 · 神到流亡之地找你｜以西結書](https://www.youtube.com/shorts/Tk8jNm_BPrc)<br><sub>2026 第45週｜神到流亡之地找你｜以西結書</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 已存档 · dbaae7fa | 已發布 | `Tk8jNm_BPrc` |
 | 2026-10-31 | [第 45 週 · 除掉石心，賜給你們肉心｜以西結書](https://www.youtube.com/shorts/Rspv2DcNX_s)<br><sub>2026 第45週｜除掉石心，賜給你們肉心｜以西結書</sub> | Short · 導入 | 來跟隨我 2026（中文） | 已存档 · f9a717b1 | 已發布 | `Rspv2DcNX_s` |
 
-## Come, Follow Me 2026 — English (45)
+## Come, Follow Me 2026 — English (66)
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
+| 2026-11-06 | [Week 7 · Noah Found Grace in the Eyes of the Lord](https://youtu.be/AxuOxwJaquI)<br><sub>CFM 2026 Week 7 (Feb 9–15) | Noah Found Grace in the Eyes of the Lord · Genesis 6–11; Moses 8</sub> | Long | Come, Follow Me 2026 (English) | Archived · ed0140c7 | Live | `AxuOxwJaquI` |
+| 2026-11-06 | [Week 7 · Noah Found Grace in the Eyes of the Lord](https://youtube.com/shorts/sKNgkpe7wcc)<br><sub>2026 Week 7 | "And the Lord Shut Him In"</sub> | Short (hook) | Come, Follow Me 2026 (English) | Archived · af677ce8 | Live | `sKNgkpe7wcc` |
+| 2026-11-06 | [Week 7 · Noah Found Grace in the Eyes of the Lord](https://youtube.com/shorts/RowW9FZY0Zc)<br><sub>2026 Week 7 | A Seven-Day Practice: A Week of Entering the Ark</sub> | Short (funnel) | Come, Follow Me 2026 (English) | Archived · d6474096 | Live | `RowW9FZY0Zc` |
+| 2026-11-06 | [Week 8 · To Be a Greater Follower of Righteousness](https://youtu.be/kIe4RMF30N0)<br><sub>CFM 2026 Week 8 (Feb 16–22) | To Be a Greater Follower of Righteousness · Gen. 12–17; Abr. 1–2</sub> | Long | Come, Follow Me 2026 (English) | Archived · 1b856df1 | Live | `kIe4RMF30N0` |
+| 2026-11-06 | [Week 8 · To Be a Greater Follower of Righteousness](https://youtube.com/shorts/m6SkqhuWRVg)<br><sub>2026 Week 8 | "He Believed in the LORD"</sub> | Short (hook) | Come, Follow Me 2026 (English) | Archived · a04e7b21 | Live | `m6SkqhuWRVg` |
+| 2026-11-06 | [Week 8 · To Be a Greater Follower of Righteousness](https://youtube.com/shorts/hQeS3gvCW4U)<br><sub>2026 Week 8 | A Seven-Day Practice: Walking Abraham's Road</sub> | Short (funnel) | Come, Follow Me 2026 (English) | Archived · 04da235f | Live | `hQeS3gvCW4U` |
+| 2026-11-06 | [Week 10 · Let God Prevail](https://youtu.be/QJFbtwK5yV8)<br><sub>Come, Follow Me 2026 Week 10 (Mar 2–8) | Let God Prevail · Genesis 24–33</sub> | Long | Come, Follow Me 2026 (English) | Archived · 6c206afd | Live | `QJFbtwK5yV8` |
+| 2026-11-06 | [Week 10 · Let God Prevail](https://youtube.com/shorts/yztshjyAL8M)<br><sub>2026 Week 10 | "I Will Not Let Thee Go, Except Thou Bless Me"</sub> | Short (hook) | Come, Follow Me 2026 (English) | Archived · 6261f5f8 | Live | `yztshjyAL8M` |
+| 2026-11-06 | [Week 10 · Let God Prevail](https://youtube.com/shorts/mO2lLEP2tdk)<br><sub>2026 Week 10 | A Seven-Day Practice: Letting God Prevail</sub> | Short (funnel) | Come, Follow Me 2026 (English) | Archived · 9431e805 | Live | `mO2lLEP2tdk` |
+| 2026-11-06 | [Week 11 · The Lord Was with Joseph](https://youtu.be/-lEWJecGeYo)<br><sub>Come, Follow Me 2026 Week 11 (Mar 9–15) | The Lord Was with Joseph · Genesis 37–41</sub> | Long | Come, Follow Me 2026 (English) | Archived · bc84a723 | Live | `-lEWJecGeYo` |
+| 2026-11-06 | [Week 11 · The Lord Was with Joseph](https://youtube.com/shorts/BYKMA04XFA0)<br><sub>A Promise, Then a Pit | Genesis 37 | CFM 2026 Week 11</sub> | Short (hook) | Come, Follow Me 2026 (English) | Archived · cb304094 | Live | `BYKMA04XFA0` |
+| 2026-11-06 | [Week 11 · The Lord Was with Joseph](https://youtube.com/shorts/fVUZv8X3O5M)<br><sub>The Pit Couldn't Cancel the Dream | CFM 2026 Week 11</sub> | Short (funnel) | Come, Follow Me 2026 (English) | Archived · 772c7442 | Live | `fVUZv8X3O5M` |
+| 2026-11-06 | [Week 12 · God Meant It unto Good](https://youtu.be/mAPgF2tffj0)<br><sub>Come, Follow Me 2026 Week 12 (Mar 16–22) | God Meant It unto Good · Genesis 42–50; JST Genesis 50</sub> | Long | Come, Follow Me 2026 (English) | Archived · 971e8ac6 | Live | `mAPgF2tffj0` |
+| 2026-11-06 | [Week 12 · God Meant It unto Good](https://youtube.com/shorts/R6GnJ4EYiW4)<br><sub>2026 Week 12 | "It Was Not You That Sent Me, but God"</sub> | Short (hook) | Come, Follow Me 2026 (English) | Archived · afd6079b | Live | `R6GnJ4EYiW4` |
+| 2026-11-06 | [Week 12 · God Meant It unto Good](https://youtube.com/shorts/gHwnWguB6rE)<br><sub>2026 Week 12 | A Week of Letting God Mean It unto Good</sub> | Short (funnel) | Come, Follow Me 2026 (English) | Archived · a3ad218d | Live | `gHwnWguB6rE` |
+| 2026-11-06 | [Week 13 · I Have Remembered My Covenant](https://youtu.be/u2ItnuIxDmQ)<br><sub>Come, Follow Me 2026 Week 13 (Mar 23–29) | I Have Remembered My Covenant · Exodus 1–6</sub> | Long | Come, Follow Me 2026 (English) | Archived · 5296375c | Live | `u2ItnuIxDmQ` |
+| 2026-11-06 | [Week 13 · I Have Remembered My Covenant](https://youtube.com/shorts/9IU4hVNTj2E)<br><sub>He Never Forgot | Exodus 2:24 | CFM 2026 Week 13</sub> | Short (hook) | Come, Follow Me 2026 (English) | Archived · 81f461e0 | Live | `9IU4hVNTj2E` |
+| 2026-11-06 | [Week 13 · I Have Remembered My Covenant](https://youtube.com/shorts/oZPjfzVriUU)<br><sub>A Week of Being Remembered | Exodus Practice | CFM 2026 Week 13</sub> | Short (funnel) | Come, Follow Me 2026 (English) | Archived · 9cb2e965 | Live | `oZPjfzVriUU` |
+| 2026-11-06 | [Week 14 · He Will Swallow Up Death in Victory](https://youtu.be/2ZPBA7_Sq6U)<br><sub>Come, Follow Me 2026 Week 14 (Mar 30–Apr 5) | He Will Swallow Up Death in Victory · Easter</sub> | Long | Come, Follow Me 2026 (English) | Archived · 8cfec141 | Live | `2ZPBA7_Sq6U` |
+| 2026-11-06 | [Week 14 · He Will Swallow Up Death in Victory](https://youtube.com/shorts/oeOnl93NbDU)<br><sub>Death Is Swallowed Up in Victory | Easter · 1 Cor 15:54 | CFM 2026 Week 14</sub> | Short (hook) | Come, Follow Me 2026 (English) | Archived · 36e9c21d | Live | `oeOnl93NbDU` |
+| 2026-11-06 | [Week 14 · He Will Swallow Up Death in Victory](https://youtube.com/shorts/NeT0d1J6Vj0)<br><sub>A Week of Carrying the Peace | Easter Practice | CFM 2026 Week 14</sub> | Short (funnel) | Come, Follow Me 2026 (English) | Archived · 0b0fd36a | Live | `NeT0d1J6Vj0` |
 | 2026-11-04 | [Week 5 · Teach These Things Freely unto Your Children](https://youtu.be/-X2WbgHFmjo)<br><sub>Come, Follow Me 2026 Week 5 (Jan 26–Feb 1) | Teach These Things Freely unto Your Children</sub> | Long | Come, Follow Me 2026 (English) | Archived · 40232354 | Live · check 11-06 | `-X2WbgHFmjo` |
 | 2026-11-04 | [Week 5 · Teach These Things Freely unto Your Children](https://youtube.com/shorts/_TxbSrkgXPE)<br><sub>2026 Week 5 | "A Seer Hath the Lord Raised Up"</sub> | Short (hook) | Come, Follow Me 2026 (English) | Archived · bbcf4b08 | Live | `_TxbSrkgXPE` |
 | 2026-11-04 | [Week 5 · Teach These Things Freely unto Your Children](https://youtube.com/shorts/9DeS0lUC0zY)<br><sub>2026 Week 5 | A Seven-Day Practice: Walking with Him</sub> | Short (funnel) | Come, Follow Me 2026 (English) | Archived · 80960759 | Live | `9DeS0lUC0zY` |
@@ -105,13 +147,14 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-10-31 | [Week 45 · Ezekiel](https://www.youtube.com/shorts/HYBj9c6Z5EU)<br><sub>2026 Week 45 | God Goes to the Exiles | Ezekiel</sub> | Short (hook) | Come, Follow Me 2026 (English) | Archived · 777370cb | Live | `HYBj9c6Z5EU` |
 | 2026-10-31 | [Week 45 · Ezekiel](https://www.youtube.com/shorts/oCqZeKxPCdE)<br><sub>2026 Week 45 | A Heart of Flesh, Not Stone | Ezekiel</sub> | Short (funnel) | Come, Follow Me 2026 (English) | Archived · f18bffbe | Live | `oCqZeKxPCdE` |
 
-## 每日經文 · Neville 解讀 — 中文（45）
+## 每日經文 · Neville 解讀 — 中文（46）
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
 | 2026-11-06 | [2026-10-26 · 以賽亞書 41:10](https://youtu.be/71Sj79iPtPQ)<br><sub>每日經文 2026-10-26 · Neville 解讀｜不要害怕，祂與你同在——以賽亞書 41:10 內在解讀</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 1ca97d75 | 已發布 | `71Sj79iPtPQ` |
 | 2026-11-06 | [2026-11-03 · 詩篇 119:11](https://youtu.be/uDl-ul3x5PM)<br><sub>每日經文 2026-11-03 · Neville 解讀｜詩篇 119:11 把話藏在心裏——先立容器，再種下應許</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · d1658cf7 | 已發布 | `uDl-ul3x5PM` |
 | 2026-11-06 | [2026-10-30 · 詩篇 139:23](https://youtu.be/biBDkdukJ7Q)<br><sub>每日經文 2026-10-30 · Neville 解讀｜詩篇 139:23 求你鑒察我——看清自己所居住的狀態</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · b4e4b9e9 | 已發布 | `biBDkdukJ7Q` |
+| 2026-11-06 | [2026-10-26 · 以賽亞書 41:10](https://youtube.com/shorts/4jSsWH2L2oE)<br><sub>每日經文 2026-10-26 · Neville 解讀｜恐懼不是沒有信心，是信心指錯了方向（以賽亞書 41:10）· AI 動態版</sub> | Short · 鉤子 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 1ca97d75 | 已發布 | `4jSsWH2L2oE` |
 | 2026-11-05 | [2026-10-29 · 歌羅西書 1:13](https://youtu.be/J1DVwqgo-Rk)<br><sub>每日經文 2026-10-29｜歌羅西書 1:13 — 脫離黑暗的權勢，遷入愛子的國</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 4a7ccd48 | 已發布 | `J1DVwqgo-Rk` |
 | 2026-11-05 | [2026-11-05 · 詩篇 24:1](https://youtu.be/9Vsp8LhRMbQ)<br><sub>每日經文 2026-11-05 · Neville 解讀｜詩篇 24:1 地和其中所充滿的，都屬耶和華——從追趕缺乏，到入住豐盛</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 9e68b296 | 已發布 | `9Vsp8LhRMbQ` |
 | 2026-11-05 | [2026-11-07 · 詩篇 19:1](https://youtu.be/QDOj8yso6Lk)<br><sub>每日經文 2026-11-07 · Neville 解讀｜詩篇 19:1 諸天述說上帝的榮耀——你的世界，正在報告你的「我是」</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · d061a6d4 | 已發布 | `QDOj8yso6Lk` |
