@@ -2,7 +2,7 @@
 
 Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, filterable version: https://king818.github.io/daddymi-publications/
 
-**269 public videos** · 48 replaced/private versions · Come, Follow Me 2026: 138 · Daily Verse · Neville Readings: 94 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 24 · Neville Inner Reading Podcast: 7
+**271 public videos** · 48 replaced/private versions · Come, Follow Me 2026: 138 · Daily Verse · Neville Readings: 96 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 24 · Neville Inner Reading Podcast: 7
 
 
 ## 來跟隨我 2026 — 中文（69）
@@ -153,13 +153,14 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-10-31 | [Week 45 · Ezekiel](https://www.youtube.com/shorts/HYBj9c6Z5EU)<br><sub>2026 Week 45 | God Goes to the Exiles | Ezekiel</sub> | Short (hook) | Come, Follow Me 2026 (English) | Archived · 777370cb | Live | `HYBj9c6Z5EU` |
 | 2026-10-31 | [Week 45 · Ezekiel](https://www.youtube.com/shorts/oCqZeKxPCdE)<br><sub>2026 Week 45 | A Heart of Flesh, Not Stone | Ezekiel</sub> | Short (funnel) | Come, Follow Me 2026 (English) | Archived · f18bffbe | Live | `oCqZeKxPCdE` |
 
-## 每日經文 · Neville 解讀 — 中文（48）
+## 每日經文 · Neville 解讀 — 中文（49）
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
 | 2026-11-06 | [2026-10-26 · 以賽亞書 41:10](https://youtu.be/71Sj79iPtPQ)<br><sub>每日經文 2026-10-26 · Neville 解讀｜不要害怕，祂與你同在——以賽亞書 41:10 內在解讀</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 1ca97d75 | 已發布 | `71Sj79iPtPQ` |
 | 2026-11-06 | [2026-11-02 · 雅各書 1:12](https://youtu.be/jdnuAxVI9Zo)<br><sub>每日經文 2026-11-02 · Neville 解讀｜雅各書 1:12 試煉中站立的人——先有福，再有冠冕｜站穩在已經得福的地上</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 2dca116b | 已發布 | `jdnuAxVI9Zo` |
 | 2026-11-06 | [2026-11-06 · 雅各書 1:12](https://youtube.com/shorts/z11I-u7aj9Y)<br><sub>每日經文｜雅各書 1:12 試煉中站立的人</sub> | Short · 鉤子 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 2dca116b | 已發布 | `z11I-u7aj9Y` |
+| 2026-11-06 | [2026-10-27 · 雅各書 1:12](https://youtube.com/shorts/FKODaL6edlQ)<br><sub>每日經文 2026-10-27 · 雅各書 1:12｜帶著已成就的平靜入睡</sub> | Short · 導入 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 2dca116b | 已發布 | `FKODaL6edlQ` |
 | 2026-11-06 | [2026-11-03 · 詩篇 119:11](https://youtu.be/uDl-ul3x5PM)<br><sub>每日經文 2026-11-03 · Neville 解讀｜詩篇 119:11 把話藏在心裏——先立容器，再種下應許</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · d1658cf7 | 已發布 | `uDl-ul3x5PM` |
 | 2026-11-06 | [2026-10-30 · 詩篇 139:23](https://youtu.be/biBDkdukJ7Q)<br><sub>每日經文 2026-10-30 · Neville 解讀｜詩篇 139:23 求你鑒察我——看清自己所居住的狀態</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · b4e4b9e9 | 已發布 | `biBDkdukJ7Q` |
 | 2026-11-06 | [2026-10-26 · 以賽亞書 41:10](https://youtube.com/shorts/4jSsWH2L2oE)<br><sub>每日經文 2026-10-26 · Neville 解讀｜恐懼不是沒有信心，是信心指錯了方向（以賽亞書 41:10）· AI 動態版</sub> | Short · 鉤子 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 1ca97d75 | 已發布 | `4jSsWH2L2oE` |
@@ -206,13 +207,14 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-10-31 | [2026-10-31 · 提摩太後書 3:16-17](https://www.youtube.com/shorts/pvP-BoX9vN0)<br><sub>每日經文 2026-10-31｜提摩太後書 3:16-17｜聖經是你自己意識的自傳</sub> | Short · 鉤子 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 1f8daa60 | 已發布 | `pvP-BoX9vN0` |
 | 2026-10-31 | [2026-10-31 · 提摩太後書 3:16-17](https://www.youtube.com/shorts/zMRz5A8ZLyg)<br><sub>每日經文 2026-10-31｜提摩太後書 3:16-17｜你不是等著被組裝的人</sub> | Short · 導入 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · d7f07ddb | 已發布 | `zMRz5A8ZLyg` |
 
-## Daily Verse · Neville Readings — English (46)
+## Daily Verse · Neville Readings — English (47)
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
 | 2026-11-06 | [2026-10-26 · Isaiah 41:10](https://youtu.be/5xC433sFSrE)<br><sub>Daily Verse 2026-10-26 · Neville Goddard Reading | Fear Thou Not — I Am With Thee: Isaiah 41:10</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · 14dafa3a | Live | `5xC433sFSrE` |
 | 2026-11-06 | [2026-11-02 · James 1:12](https://youtu.be/8BSGkPuci-M)<br><sub>Daily Verse 2026-11-02 · Neville Reading | James 1:12 Blessed First, the Crown Later</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · ad89add3 | Live | `8BSGkPuci-M` |
 | 2026-11-06 | [2026-11-06 · James 1:12](https://youtube.com/shorts/L4NEx6n73BM)<br><sub>Daily Verse | James 1:12 The One Who Stands in Trial</sub> | Short (hook) | Daily Verse · Neville Readings 2026 (English) | Archived · ad89add3 | Live | `L4NEx6n73BM` |
+| 2026-11-06 | [2026-10-27 · James 1:12](https://youtube.com/shorts/PiEU24MWWjY)<br><sub>Daily Verse 2026-10-27 · James 1:12 | Sleep in the Peace of What Is Already Finished</sub> | Short (funnel) | Daily Verse · Neville Readings 2026 (English) | Archived · ad89add3 | Live | `PiEU24MWWjY` |
 | 2026-11-06 | [2026-11-03 · Psalm 119:11](https://youtu.be/ZxDDrz5VfU0)<br><sub>Daily Verse 2026-11-03 · Psalm 119:11 | Hiding the Word in the Heart</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · 9f4ddc4b | Live | `ZxDDrz5VfU0` |
 | 2026-11-06 | [2026-10-30 · Psalm 139:23](https://youtu.be/NuBxnp5J2qk)<br><sub>Daily Verse · 2026-10-30 | Psalm 139:23 — Search Me, O God: Praying from the End</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · 98beab2c | Live | `NuBxnp5J2qk` |
 | 2026-11-05 | [2026-10-29 · Colossians 1:13](https://youtu.be/p5_Wn87-q-o)<br><sub>Daily Verse 2026-10-29 | Colossians 1:13 — Delivered from Darkness, Translated into the Kingdom</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · 9fba907e | Live | `p5_Wn87-q-o` |
