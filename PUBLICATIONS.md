@@ -2,7 +2,7 @@
 
 Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, filterable version: https://king818.github.io/daddymi-publications/
 
-**271 public videos** · 48 replaced/private versions · Come, Follow Me 2026: 138 · Daily Verse · Neville Readings: 96 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 24 · Neville Inner Reading Podcast: 7
+**272 public videos** · 48 replaced/private versions · Come, Follow Me 2026: 138 · Daily Verse · Neville Readings: 97 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 24 · Neville Inner Reading Podcast: 7
 
 
 ## 來跟隨我 2026 — 中文（69）
@@ -207,7 +207,7 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-10-31 | [2026-10-31 · 提摩太後書 3:16-17](https://www.youtube.com/shorts/pvP-BoX9vN0)<br><sub>每日經文 2026-10-31｜提摩太後書 3:16-17｜聖經是你自己意識的自傳</sub> | Short · 鉤子 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 1f8daa60 | 已發布 | `pvP-BoX9vN0` |
 | 2026-10-31 | [2026-10-31 · 提摩太後書 3:16-17](https://www.youtube.com/shorts/zMRz5A8ZLyg)<br><sub>每日經文 2026-10-31｜提摩太後書 3:16-17｜你不是等著被組裝的人</sub> | Short · 導入 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · d7f07ddb | 已發布 | `zMRz5A8ZLyg` |
 
-## Daily Verse · Neville Readings — English (47)
+## Daily Verse · Neville Readings — English (48)
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
@@ -217,6 +217,7 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-11-06 | [2026-10-27 · James 1:12](https://youtube.com/shorts/PiEU24MWWjY)<br><sub>Daily Verse 2026-10-27 · James 1:12 | Sleep in the Peace of What Is Already Finished</sub> | Short (funnel) | Daily Verse · Neville Readings 2026 (English) | Archived · ad89add3 | Live | `PiEU24MWWjY` |
 | 2026-11-06 | [2026-11-03 · Psalm 119:11](https://youtu.be/ZxDDrz5VfU0)<br><sub>Daily Verse 2026-11-03 · Psalm 119:11 | Hiding the Word in the Heart</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · 9f4ddc4b | Live | `ZxDDrz5VfU0` |
 | 2026-11-06 | [2026-10-30 · Psalm 139:23](https://youtu.be/NuBxnp5J2qk)<br><sub>Daily Verse · 2026-10-30 | Psalm 139:23 — Search Me, O God: Praying from the End</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · 98beab2c | Live | `NuBxnp5J2qk` |
+| 2026-11-06 | [2026-11-06 · Philippians 4:8](https://youtu.be/0eosxUn83pY)<br><sub>Daily Verse 2026-11-06 · Neville Reading | Philippians 4:8 — Think on These Things</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · 8497c986 | Live | `0eosxUn83pY` |
 | 2026-11-05 | [2026-10-29 · Colossians 1:13](https://youtu.be/p5_Wn87-q-o)<br><sub>Daily Verse 2026-10-29 | Colossians 1:13 — Delivered from Darkness, Translated into the Kingdom</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · 9fba907e | Live | `p5_Wn87-q-o` |
 | 2026-11-05 | [2026-11-05 · Psalm 24:1](https://youtu.be/x_dwA1zNGLQ)<br><sub>Daily Verse 2026-11-05 · Psalm 24:1 | The Earth Is the LORD's — From Chasing Lack to Fullness</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · 88356cff | Live | `x_dwA1zNGLQ` |
 | 2026-11-05 | [2026-11-07 · Psalm 19:1](https://youtu.be/p63lIru5l10)<br><sub>Daily Verse 2026-11-07 · Psalm 19:1 | The Heavens Declare — Reporting Your I AM</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · cc5ef489 | Live | `p63lIru5l10` |

@@ -3253,6 +3253,18 @@ publications:
   archive_note: 16cd078f-b383-42f3-84c1-621b7ef67461
   playlist: 每日經文 · Neville 解讀 2026（中文）
   status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Philippians 4:8
+  language: en
+  type: Long
+  title: Daily Verse 2026-11-06 · Neville Reading | Philippians 4:8 — Think on These Things
+  published: "2026-11-06"
+  url: https://youtu.be/0eosxUn83pY
+  native_id: 0eosxUn83pY
+  archive_note: 8497c986-6281-4b03-ba9c-ba024bea5159
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  status: Public
 replaced_or_private:
 - platform: YouTube
   series: Neville Inner Reading Podcast
