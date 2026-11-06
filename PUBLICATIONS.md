@@ -2,10 +2,10 @@
 
 Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, filterable version: https://king818.github.io/daddymi-publications/
 
-**260 public videos** · 45 replaced/private versions · Come, Follow Me 2026: 132 · Daily Verse · Neville Readings: 91 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 24 · Neville Inner Reading Podcast: 7
+**266 public videos** · 45 replaced/private versions · Come, Follow Me 2026: 138 · Daily Verse · Neville Readings: 91 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 24 · Neville Inner Reading Podcast: 7
 
 
-## 來跟隨我 2026 — 中文（66）
+## 來跟隨我 2026 — 中文（69）
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
@@ -30,6 +30,9 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-11-06 | [第 14 週 · 他已經吞滅死亡直到永遠](https://youtu.be/KYUMPfkwzpo)<br><sub>來跟隨我 2026 第14週（3月30日–4月5日）｜他已經吞滅死亡直到永遠 · 復活節專題（Easter)</sub> | 長集 | 來跟隨我 2026（中文） | 已存档 · 481c4692 | 已發布 | `KYUMPfkwzpo` |
 | 2026-11-06 | [第 14 週 · 復活節](https://youtube.com/shorts/y9kSR_UgCrg)<br><sub>死被得勝吞滅｜復活節 · 哥林多前書 15:54｜來跟隨我 2026 第14週</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 已存档 · 01271fae | 已發布 | `y9kSR_UgCrg` |
 | 2026-11-06 | [第 14 週 · 復活節七天操練｜來跟隨我 2026 第14週](https://youtube.com/shorts/-QYS4PvIS4w)<br><sub>把平安送出去的一週｜復活節七天操練｜來跟隨我 2026 第14週</sub> | Short · 導入 | 來跟隨我 2026（中文） | 已存档 · 5d6c106c | 已發布 | `-QYS4PvIS4w` |
+| 2026-11-06 | [第 15 週 · 你們要記念從埃及……出來的這日](https://youtu.be/z0ZV7hWn1HQ)<br><sub>來跟隨我 2026 第15週（4月6日–12日）｜你們要記念從埃及……出來的這日 · 出埃及記 7–13</sub> | 長集 | 來跟隨我 2026（中文） | 已存档 · 1816a28a | 已發布 | `z0ZV7hWn1HQ` |
+| 2026-11-06 | [第 15 週 · 「明天吧」——再跟青蛙睡一晚](https://youtube.com/shorts/YL387S6nADk)<br><sub>2026 第15週｜「明天吧」——再跟青蛙睡一晚</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 已存档 · 850ca930 | 已發布 | `YL387S6nADk` |
+| 2026-11-06 | [第 15 週 · 七天操練：軟化心，記念拯救](https://youtube.com/shorts/1d2NcxL0SD8)<br><sub>2026 第15週｜七天操練：軟化心，記念拯救</sub> | Short · 導入 | 來跟隨我 2026（中文） | 已存档 · e9106055 | 已發布 | `1d2NcxL0SD8` |
 | 2026-11-04 | [第 5 週 · 要毫不保留地教你的兒女這些事情](https://youtu.be/aICCQl3lZ_A)<br><sub>來跟隨我 2026 第5週（1月26日–2月1日）｜要毫不保留地教你的兒女這些事情 · 創世記 5；摩西書 6</sub> | 長集 | 來跟隨我 2026（中文） | 已存档 · 27b3e6a2 | 已發布 · 抽查 11-06 | `aICCQl3lZ_A` |
 | 2026-11-04 | [第 5 週 · 主為祂的人民興起一位先見](https://youtube.com/shorts/YskEDPu4yqg)<br><sub>2026 第5週｜主為祂的人民興起一位先見</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 已存档 · 955cd4ae | 已發布 | `YskEDPu4yqg` |
 | 2026-11-04 | [第 5 週 · 七天操練：與祂同行的一週](https://youtube.com/shorts/if8sZa6cHrs)<br><sub>2026 第5週｜七天操練：與祂同行的一週</sub> | Short · 導入 | 來跟隨我 2026（中文） | 已存档 · d3487e01 | 已發布 | `if8sZa6cHrs` |
@@ -76,7 +79,7 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-10-31 | [第 45 週 · 神到流亡之地找你｜以西結書](https://www.youtube.com/shorts/Tk8jNm_BPrc)<br><sub>2026 第45週｜神到流亡之地找你｜以西結書</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 已存档 · dbaae7fa | 已發布 | `Tk8jNm_BPrc` |
 | 2026-10-31 | [第 45 週 · 除掉石心，賜給你們肉心｜以西結書](https://www.youtube.com/shorts/Rspv2DcNX_s)<br><sub>2026 第45週｜除掉石心，賜給你們肉心｜以西結書</sub> | Short · 導入 | 來跟隨我 2026（中文） | 已存档 · f9a717b1 | 已發布 | `Rspv2DcNX_s` |
 
-## Come, Follow Me 2026 — English (66)
+## Come, Follow Me 2026 — English (69)
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
@@ -101,6 +104,9 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-11-06 | [Week 14 · He Will Swallow Up Death in Victory](https://youtu.be/2ZPBA7_Sq6U)<br><sub>Come, Follow Me 2026 Week 14 (Mar 30–Apr 5) | He Will Swallow Up Death in Victory · Easter</sub> | Long | Come, Follow Me 2026 (English) | Archived · 8cfec141 | Live | `2ZPBA7_Sq6U` |
 | 2026-11-06 | [Week 14 · He Will Swallow Up Death in Victory](https://youtube.com/shorts/oeOnl93NbDU)<br><sub>Death Is Swallowed Up in Victory | Easter · 1 Cor 15:54 | CFM 2026 Week 14</sub> | Short (hook) | Come, Follow Me 2026 (English) | Archived · 36e9c21d | Live | `oeOnl93NbDU` |
 | 2026-11-06 | [Week 14 · He Will Swallow Up Death in Victory](https://youtube.com/shorts/NeT0d1J6Vj0)<br><sub>A Week of Carrying the Peace | Easter Practice | CFM 2026 Week 14</sub> | Short (funnel) | Come, Follow Me 2026 (English) | Archived · 0b0fd36a | Live | `NeT0d1J6Vj0` |
+| 2026-11-06 | [Week 15 · Remember This Day (Passover)](https://youtu.be/meHhbQHIhnU)<br><sub>CFM 2026 Week 15 (Apr 6–12) | Remember This Day, in Which Ye Came Out from Egypt · Exodus 7–13</sub> | Long | Come, Follow Me 2026 (English) | Archived · 21262497 | Live | `meHhbQHIhnU` |
+| 2026-11-06 | [Week 15 · Remember This Day (Passover)](https://youtube.com/shorts/lILPyo1evvE)<br><sub>2026 Week 15 | "Can You Fix It — Tomorrow?"</sub> | Short (hook) | Come, Follow Me 2026 (English) | Archived · 44d62d83 | Live | `lILPyo1evvE` |
+| 2026-11-06 | [Week 15 · Remember This Day (Passover)](https://youtube.com/shorts/6dHxiYBjxa4)<br><sub>2026 Week 15 | Soften the Heart, Remember the Deliverance</sub> | Short (funnel) | Come, Follow Me 2026 (English) | Archived · 2df947e6 | Live | `6dHxiYBjxa4` |
 | 2026-11-04 | [Week 5 · Teach These Things Freely unto Your Children](https://youtu.be/-X2WbgHFmjo)<br><sub>Come, Follow Me 2026 Week 5 (Jan 26–Feb 1) | Teach These Things Freely unto Your Children</sub> | Long | Come, Follow Me 2026 (English) | Archived · 40232354 | Live · check 11-06 | `-X2WbgHFmjo` |
 | 2026-11-04 | [Week 5 · Teach These Things Freely unto Your Children](https://youtube.com/shorts/_TxbSrkgXPE)<br><sub>2026 Week 5 | "A Seer Hath the Lord Raised Up"</sub> | Short (hook) | Come, Follow Me 2026 (English) | Archived · bbcf4b08 | Live | `_TxbSrkgXPE` |
 | 2026-11-04 | [Week 5 · Teach These Things Freely unto Your Children](https://youtube.com/shorts/9DeS0lUC0zY)<br><sub>2026 Week 5 | A Seven-Day Practice: Walking with Him</sub> | Short (funnel) | Come, Follow Me 2026 (English) | Archived · 80960759 | Live | `9DeS0lUC0zY` |

@@ -3121,6 +3121,78 @@ publications:
   playlist: Come, Follow Me 2026 (English)
   archive_note: 0b0fd36a-411e-4d38-a7da-340a1055b126
   status: Live
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 15 — Remember This Day (Passover)
+  language: zh-Hant
+  type: Long
+  title: 來跟隨我 2026 第15週（4月6日–12日）｜你們要記念從埃及……出來的這日 · 出埃及記 7–13
+  published: '2026-11-06'
+  url: https://youtu.be/z0ZV7hWn1HQ
+  native_id: z0ZV7hWn1HQ
+  playlist: 來跟隨我 2026（中文）
+  archive_note: 1816a28a-e8fc-41c1-9e9e-ac0fae2e284c
+  status: Live
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 15 — Remember This Day (Passover)
+  language: en
+  type: Long
+  title: CFM 2026 Week 15 (Apr 6–12) | Remember This Day, in Which Ye Came Out from Egypt · Exodus 7–13
+  published: '2026-11-06'
+  url: https://youtu.be/meHhbQHIhnU
+  native_id: meHhbQHIhnU
+  playlist: Come, Follow Me 2026 (English)
+  archive_note: 21262497-8ecc-47aa-a1f2-e0d28d7e68ea
+  status: Live
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 15 — Remember This Day (Passover)
+  language: zh-Hant
+  type: Short (hook)
+  title: '2026 第15週｜「明天吧」——再跟青蛙睡一晚 #Shorts'
+  published: '2026-11-06'
+  url: https://youtube.com/shorts/YL387S6nADk
+  native_id: YL387S6nADk
+  playlist: 來跟隨我 2026（中文）
+  archive_note: 850ca930-9fb4-4626-a44c-385287570988
+  status: Live
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 15 — Remember This Day (Passover)
+  language: zh-Hant
+  type: Short (funnel)
+  title: '2026 第15週｜七天操練：軟化心，記念拯救 #Shorts'
+  published: '2026-11-06'
+  url: https://youtube.com/shorts/1d2NcxL0SD8
+  native_id: 1d2NcxL0SD8
+  playlist: 來跟隨我 2026（中文）
+  archive_note: e9106055-7f05-49e1-9a11-5ab70f0be26a
+  status: Live
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 15 — Remember This Day (Passover)
+  language: en
+  type: Short (hook)
+  title: '2026 Week 15 | "Can You Fix It — Tomorrow?" #Shorts'
+  published: '2026-11-06'
+  url: https://youtube.com/shorts/lILPyo1evvE
+  native_id: lILPyo1evvE
+  playlist: Come, Follow Me 2026 (English)
+  archive_note: 44d62d83-fa47-4b26-b1ce-913b1d5a977e
+  status: Live
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 15 — Remember This Day (Passover)
+  language: en
+  type: Short (funnel)
+  title: '2026 Week 15 | Soften the Heart, Remember the Deliverance #Shorts'
+  published: '2026-11-06'
+  url: https://youtube.com/shorts/6dHxiYBjxa4
+  native_id: 6dHxiYBjxa4
+  playlist: Come, Follow Me 2026 (English)
+  archive_note: 2df947e6-2d29-4ba2-9b33-a8f95d823892
+  status: Live
 replaced_or_private:
 - platform: YouTube
   series: Neville Inner Reading Podcast
