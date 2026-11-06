@@ -3193,6 +3193,18 @@ publications:
   playlist: Come, Follow Me 2026 (English)
   archive_note: 2df947e6-2d29-4ba2-9b33-a8f95d823892
   status: Live
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Philippians 4:8
+  language: zh-Hant
+  type: Long
+  title: 每日經文 2026-11-06 · Neville 解讀｜腓立比書 4:8 思念真實可敬的事——住進你所思念的狀態
+  published: "2026-11-06"
+  url: https://youtu.be/ENb7wDBbYxM
+  native_id: ENb7wDBbYxM
+  archive_note: 16cd078f-b383-42f3-84c1-621b7ef67461
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  status: Public
 replaced_or_private:
 - platform: YouTube
   series: Neville Inner Reading Podcast

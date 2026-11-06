@@ -2,7 +2,7 @@
 
 Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, filterable version: https://king818.github.io/daddymi-publications/
 
-**266 public videos** · 45 replaced/private versions · Come, Follow Me 2026: 138 · Daily Verse · Neville Readings: 91 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 24 · Neville Inner Reading Podcast: 7
+**267 public videos** · 45 replaced/private versions · Come, Follow Me 2026: 138 · Daily Verse · Neville Readings: 92 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 24 · Neville Inner Reading Podcast: 7
 
 
 ## 來跟隨我 2026 — 中文（69）
@@ -153,7 +153,7 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-10-31 | [Week 45 · Ezekiel](https://www.youtube.com/shorts/HYBj9c6Z5EU)<br><sub>2026 Week 45 | God Goes to the Exiles | Ezekiel</sub> | Short (hook) | Come, Follow Me 2026 (English) | Archived · 777370cb | Live | `HYBj9c6Z5EU` |
 | 2026-10-31 | [Week 45 · Ezekiel](https://www.youtube.com/shorts/oCqZeKxPCdE)<br><sub>2026 Week 45 | A Heart of Flesh, Not Stone | Ezekiel</sub> | Short (funnel) | Come, Follow Me 2026 (English) | Archived · f18bffbe | Live | `oCqZeKxPCdE` |
 
-## 每日經文 · Neville 解讀 — 中文（46）
+## 每日經文 · Neville 解讀 — 中文（47）
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
@@ -161,6 +161,7 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-11-06 | [2026-11-03 · 詩篇 119:11](https://youtu.be/uDl-ul3x5PM)<br><sub>每日經文 2026-11-03 · Neville 解讀｜詩篇 119:11 把話藏在心裏——先立容器，再種下應許</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · d1658cf7 | 已發布 | `uDl-ul3x5PM` |
 | 2026-11-06 | [2026-10-30 · 詩篇 139:23](https://youtu.be/biBDkdukJ7Q)<br><sub>每日經文 2026-10-30 · Neville 解讀｜詩篇 139:23 求你鑒察我——看清自己所居住的狀態</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · b4e4b9e9 | 已發布 | `biBDkdukJ7Q` |
 | 2026-11-06 | [2026-10-26 · 以賽亞書 41:10](https://youtube.com/shorts/4jSsWH2L2oE)<br><sub>每日經文 2026-10-26 · Neville 解讀｜恐懼不是沒有信心，是信心指錯了方向（以賽亞書 41:10）· AI 動態版</sub> | Short · 鉤子 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 1ca97d75 | 已發布 | `4jSsWH2L2oE` |
+| 2026-11-06 | [2026-11-06 · 腓立比書 4:8](https://youtu.be/ENb7wDBbYxM)<br><sub>每日經文 2026-11-06 · Neville 解讀｜腓立比書 4:8 思念真實可敬的事——住進你所思念的狀態</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 16cd078f | 已發布 | `ENb7wDBbYxM` |
 | 2026-11-05 | [2026-10-29 · 歌羅西書 1:13](https://youtu.be/J1DVwqgo-Rk)<br><sub>每日經文 2026-10-29｜歌羅西書 1:13 — 脫離黑暗的權勢，遷入愛子的國</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 4a7ccd48 | 已發布 | `J1DVwqgo-Rk` |
 | 2026-11-05 | [2026-11-05 · 詩篇 24:1](https://youtu.be/9Vsp8LhRMbQ)<br><sub>每日經文 2026-11-05 · Neville 解讀｜詩篇 24:1 地和其中所充滿的，都屬耶和華——從追趕缺乏，到入住豐盛</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 9e68b296 | 已發布 | `9Vsp8LhRMbQ` |
 | 2026-11-05 | [2026-11-07 · 詩篇 19:1](https://youtu.be/QDOj8yso6Lk)<br><sub>每日經文 2026-11-07 · Neville 解讀｜詩篇 19:1 諸天述說上帝的榮耀——你的世界，正在報告你的「我是」</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · d061a6d4 | 已發布 | `QDOj8yso6Lk` |
