@@ -2285,18 +2285,6 @@ publications:
   series: Daily Verse · Neville Readings
   topic: Hebrews 4:12
   language: zh-Hant
-  type: Long
-  title: 每日經文 2026-11-02 · Neville 解讀｜希伯來書 4:12 上帝的道是活的——兩刃之劍剖開魂與靈
-  published: '2026-11-02'
-  url: https://youtu.be/idi0AAWCKo0
-  native_id: idi0AAWCKo0
-  playlist: 每日經文 · Neville 解讀 2026（中文）
-  archive_note: 8c400e41-9f29-4e72-9ed3-509c3a0d7a10
-  status: Public
-- platform: YouTube
-  series: Daily Verse · Neville Readings
-  topic: Hebrews 4:12
-  language: zh-Hant
   type: Short (hook)
   title: '每日經文 2026-11-02｜決定你生命軌跡的，是你內心相信什麼——希伯來書 4:12 #Shorts'
   published: '2026-11-02'
@@ -2316,18 +2304,6 @@ publications:
   native_id: QLJHOFk7-aA
   playlist: 每日經文 · Neville 解讀 2026（中文）
   archive_note: b77499e0-6762-45c8-90ce-7418a17b5a30
-  status: Public
-- platform: YouTube
-  series: Daily Verse · Neville Readings
-  topic: Hebrews 4:12
-  language: en
-  type: Long
-  title: Daily Verse 2026-11-02 · Hebrews 4:12 | The Word of God Is Alive — A Two-Edged Sword
-  published: '2026-11-02'
-  url: https://youtu.be/Xb6LjyfyW9g
-  native_id: Xb6LjyfyW9g
-  playlist: Daily Verse · Neville Readings 2026 (English)
-  archive_note: b2f0253b-ffd7-4eed-9081-dc0dc2ae1298
   status: Public
 - platform: YouTube
   series: Daily Verse · Neville Readings
@@ -2928,6 +2904,30 @@ publications:
   native_id: l5DF3k8ZAB8
   playlist: Daily Verse · Neville Readings 2026 (English)
   archive_note: 98beab2c-b1ca-4d0f-875d-7158beb3c67d
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Hebrews 4:12
+  language: zh-Hant
+  type: Long
+  title: 每日經文 2026-11-02 · Neville 解讀｜希伯來書 4:12 上帝的道是活的——兩刃之劍剖開魂與靈
+  published: '2026-11-02'
+  url: https://youtu.be/vmV6ykuqPN0
+  native_id: vmV6ykuqPN0
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: 8c400e41-9f29-4e72-9ed3-509c3a0d7a10
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Hebrews 4:12
+  language: en
+  type: Long
+  title: Daily Verse 2026-11-02 · Hebrews 4:12 | The Word of God Is Alive — A Two-Edged Sword
+  published: '2026-11-02'
+  url: https://youtu.be/Wx6EnFS2vu8
+  native_id: Wx6EnFS2vu8
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: b2f0253b-ffd7-4eed-9081-dc0dc2ae1298
   status: Public
 - platform: YouTube
   series: Daily Verse · Neville Readings
@@ -4430,6 +4430,30 @@ replaced_or_private:
   playlist: General Conference Talks 2026 (English)
   archive_note: 1850f84c-7f5c-4f8b-8679-21550db0f2a4
   status: Private — replaced by the CLEAR-standard four-piece repair version wnRykgNXu7w in the 2026-11-07 swap (transparency fix — text layer fully transparent, zero overlay, 7 dedicated dark image swaps DMI-BG-0584–0590 + text repositions — + per-episode imagery + BGM “Gymnopedie No 1”, 10 placements at −8.0 dB under voice + new motion Shorts, per the boss's four-piece repair standard; this pair is the first closed under the boss's 2026-11-07 CLEAR text-layer ruling); this version's title, Promised Comforter and closing segments were near-blank dark panels (opacity defect) and it carried no background music; set Private per boss ruling, not deleted, and removed from the playlist; Evernote archive note updated 2026-11-07 with the BGM master + both new motion Shorts attached and read-back verified byte-exact
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Hebrews 4:12
+  language: zh-Hant
+  type: Long
+  title: 每日經文 2026-11-02 · Neville 解讀｜希伯來書 4:12 上帝的道是活的——兩刃之劍剖開魂與靈
+  published: '2026-11-02'
+  url: https://youtu.be/idi0AAWCKo0
+  native_id: idi0AAWCKo0
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: 8c400e41-9f29-4e72-9ed3-509c3a0d7a10
+  status: Private — replaced by the CLEAR-standard four-piece repair version vmV6ykuqPN0 in the 2026-11-07 swap (transparency fix — text layer fully transparent, zero overlay — + per-episode bespoke imagery, 19 images registered as DMI-BG-0602–0620, + BGM "Gymnopedie No 1", 12 placements at −8.0 dB under voice, per the boss's four-piece repair standard; 2 new motion Shorts built but held unpublished pending the boss's caption-plate ruling); this original version carried the opacity veil (content cards α ≈70–110), cycled only 2 images and had no background music; set Private, not deleted, and removed from the playlist; the repair master is recorded in the archive note
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Hebrews 4:12
+  language: en
+  type: Long
+  title: Daily Verse 2026-11-02 · Hebrews 4:12 | The Word of God Is Alive — A Two-Edged Sword
+  published: '2026-11-02'
+  url: https://youtu.be/Xb6LjyfyW9g
+  native_id: Xb6LjyfyW9g
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: b2f0253b-ffd7-4eed-9081-dc0dc2ae1298
+  status: Private — replaced by the CLEAR-standard four-piece repair version Wx6EnFS2vu8 in the 2026-11-07 swap (transparency fix — text layer fully transparent, zero overlay — + per-episode bespoke imagery, 19 images registered as DMI-BG-0602–0620, + BGM "Gymnopedie No 1", 12 placements at −8.0 dB under voice, per the boss's four-piece repair standard; 2 new motion Shorts built but held unpublished pending the boss's caption-plate ruling); this original version carried the heaviest remaining opacity veil in the repair queue (cover card α ≈215, cards to ≈185), cycled only 2 images and had no background music; set Private, not deleted, and removed from the playlist; the repair master is recorded in the archive note
 unverified:
 - item: CFM Lesson 3 (6 videos, published 2026-11-03) — Evernote archive notes missing
   reason: Checked 2026-11-03 — no archive notes found in Evernote by video ID or title; archive ZIPs not yet built. Finals retained on M1 mini (~/cfm-bf03-creation) and in the run dir on the VM.
