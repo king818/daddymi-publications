@@ -775,9 +775,9 @@ publications:
   language: zh
   type: Long
   title: 每日經文 2026-10-31｜提摩太後書 3:16-17 · 聖經都是神所默示的
-  published: '2026-11-04'
-  url: https://youtu.be/IxVCeAkOFy8
-  native_id: IxVCeAkOFy8
+  published: '2026-11-06'
+  url: https://youtu.be/XqFibGiqbX4
+  native_id: XqFibGiqbX4
   playlist: 每日經文 · Neville 解讀 2026（中文）
   archive_note: a1f4dcfc-4393-48f4-b27e-97ee6d0c56bf
   status: Public
@@ -787,9 +787,57 @@ publications:
   language: en
   type: Long
   title: Daily Verse 2026-10-31 | 2 Timothy 3:16-17 · All Scripture Is Given by Inspiration of God
-  published: '2026-11-04'
-  url: https://youtu.be/_hJOBbo6Uo4
-  native_id: _hJOBbo6Uo4
+  published: '2026-11-07'
+  url: https://youtu.be/2QjTSmAaWas
+  native_id: 2QjTSmAaWas
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: fef65295-7c4f-4967-a146-b43f05f14476
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: 2 Timothy 3:16-17
+  language: zh
+  type: Short (hook)
+  title: '每日經文 2026-10-31｜提摩太後書 3:16-17｜聖經是你自己意識的自傳'
+  published: '2026-11-07'
+  url: https://www.youtube.com/shorts/1dh5a8Nk8AE
+  native_id: 1dh5a8Nk8AE
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: a1f4dcfc-4393-48f4-b27e-97ee6d0c56bf
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: 2 Timothy 3:16-17
+  language: zh
+  type: Short (funnel)
+  title: '每日經文 2026-10-31｜提摩太後書 3:16-17｜你不是等著被組裝的人'
+  published: '2026-11-07'
+  url: https://www.youtube.com/shorts/oegKOGXaSTI
+  native_id: oegKOGXaSTI
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: a1f4dcfc-4393-48f4-b27e-97ee6d0c56bf
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: 2 Timothy 3:16-17
+  language: en
+  type: Short (hook)
+  title: 'Daily Verse 2026-10-31 | 2 Timothy 3:16-17 | The Bible Is Your Own Autobiography'
+  published: '2026-11-07'
+  url: https://www.youtube.com/shorts/Q_xjDKZnlDw
+  native_id: Q_xjDKZnlDw
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: fef65295-7c4f-4967-a146-b43f05f14476
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: 2 Timothy 3:16-17
+  language: en
+  type: Short (funnel)
+  title: 'Daily Verse 2026-10-31 | 2 Timothy 3:16-17 | Not Waiting to Be Assembled — Only to Be Claimed'
+  published: '2026-11-07'
+  url: https://www.youtube.com/shorts/AJ1LkKiXWYQ
+  native_id: AJ1LkKiXWYQ
   playlist: Daily Verse · Neville Readings 2026 (English)
   archive_note: fef65295-7c4f-4967-a146-b43f05f14476
   status: Public
@@ -3722,6 +3770,30 @@ replaced_or_private:
   playlist: Daily Verse · Neville Readings 2026 (English)
   archive_note: 9fba907e-933e-40ae-b26b-0aaac73d5845
   status: Private — replaced by the four-item-repair version R07l9mc42m8 in the 2026-11-06 swap (transparency fix + per-episode imagery + background music + new motion Shorts, per the boss's 2026-11-06 four-item repair standard); this version (the 2026-11-05 per-episode-imagery build, itself the replacement for the template-background original X1mU9rHDKs4) kept the dedicated imagery but its slides were still dimmed by the old template's residual full-frame dark panel (measured panel alpha 112–215) and it carried no background music; set Private per boss ruling, not deleted, and removed from the playlist; the repaired build is recorded in the archive note and retained in the run directory; Evernote append of the replacement landed and verified 2026-11-06
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: 2 Timothy 3:16-17
+  language: zh
+  type: Long
+  title: 每日經文 2026-10-31｜提摩太後書 3:16-17 · 聖經都是神所默示的
+  published: '2026-11-04'
+  url: https://youtu.be/IxVCeAkOFy8
+  native_id: IxVCeAkOFy8
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: a1f4dcfc-4393-48f4-b27e-97ee6d0c56bf
+  status: Private — replaced by the four-item-repair version XqFibGiqbX4 in the 2026-11-07 swap (transparency fix + per-episode imagery + background music + new motion Shorts, per the boss's 2026-11-06 four-item repair standard); this version (the 2026-11-04 per-episode-imagery build, itself the replacement for the template-background original y6zIFPvCCuc) kept the dedicated imagery but its slides were still dimmed by the old template's residual full-frame dark panel (measured panel alpha 151–186 on all 9 cards) with the §2 scroll slide crushed near-black, and it carried no background music; closed under the pre-2026-11-07 standard (local darkening behind text permitted) — the boss's 2026-11-07 ruling (text layer fully transparent, no darkening at all) is pending his decision on whether this pair gets re-rendered; set Private per boss ruling, not deleted, and removed from the playlist; the repaired build is recorded in the archive note and retained in the run directory; Evernote append of the replacement landed and verified 2026-11-07
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: 2 Timothy 3:16-17
+  language: en
+  type: Long
+  title: Daily Verse 2026-10-31 | 2 Timothy 3:16-17 · All Scripture Is Given by Inspiration of God
+  published: '2026-11-04'
+  url: https://youtu.be/_hJOBbo6Uo4
+  native_id: _hJOBbo6Uo4
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: fef65295-7c4f-4967-a146-b43f05f14476
+  status: Private — replaced by the four-item-repair version 2QjTSmAaWas in the 2026-11-07 swap (transparency fix + per-episode imagery + background music + new motion Shorts, per the boss's 2026-11-06 four-item repair standard); this version (the 2026-11-04 per-episode-imagery build, itself the replacement for the template-background original 63aSh1Nemx8) kept the dedicated imagery but its slides were still dimmed by the old template's residual full-frame dark panel (measured panel alpha 151–215 on all 9 cards, the §4 card at alpha 215 effectively black) with the §2 scroll slide crushed near-black, and it carried no background music; closed under the pre-2026-11-07 standard (local darkening behind text permitted) — the boss's 2026-11-07 ruling (text layer fully transparent, no darkening at all) is pending his decision on whether this pair gets re-rendered; set Private per boss ruling, not deleted, and removed from the playlist; the repaired build is recorded in the archive note and retained in the run directory; Evernote append of the replacement landed and verified 2026-11-07
 - platform: YouTube
   series: Daily Verse · Neville Readings
   topic: James 1:12
