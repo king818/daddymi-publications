@@ -2,7 +2,7 @@
 
 Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, filterable version: https://king818.github.io/daddymi-publications/
 
-**272 public videos** · 48 replaced/private versions · Come, Follow Me 2026: 138 · Daily Verse · Neville Readings: 97 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 24 · Neville Inner Reading Podcast: 7
+**276 public videos** · 50 replaced/private versions · Come, Follow Me 2026: 138 · Daily Verse · Neville Readings: 101 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 24 · Neville Inner Reading Podcast: 7
 
 
 ## 來跟隨我 2026 — 中文（69）
@@ -153,11 +153,14 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-10-31 | [Week 45 · Ezekiel](https://www.youtube.com/shorts/HYBj9c6Z5EU)<br><sub>2026 Week 45 | God Goes to the Exiles | Ezekiel</sub> | Short (hook) | Come, Follow Me 2026 (English) | Archived · 777370cb | Live | `HYBj9c6Z5EU` |
 | 2026-10-31 | [Week 45 · Ezekiel](https://www.youtube.com/shorts/oCqZeKxPCdE)<br><sub>2026 Week 45 | A Heart of Flesh, Not Stone | Ezekiel</sub> | Short (funnel) | Come, Follow Me 2026 (English) | Archived · f18bffbe | Live | `oCqZeKxPCdE` |
 
-## 每日經文 · Neville 解讀 — 中文（49）
+## 每日經文 · Neville 解讀 — 中文（51）
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
 | 2026-11-06 | [2026-10-26 · 以賽亞書 41:10](https://youtu.be/71Sj79iPtPQ)<br><sub>每日經文 2026-10-26 · Neville 解讀｜不要害怕，祂與你同在——以賽亞書 41:10 內在解讀</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 1ca97d75 | 已發布 | `71Sj79iPtPQ` |
+| 2026-11-06 | [2026-10-25 · 腓立比書 2:3](https://youtu.be/iYkY59qdcAc)<br><sub>每日經文 2026-10-25 · Neville 解讀｜腓立比書 2:3 看別人比自己強——放下爭競，住進合一的意識</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 74e451d9 | 已發布 | `iYkY59qdcAc` |
+| 2026-11-06 | [2026-10-25 · 腓立比書 2:3](https://youtube.com/shorts/fqvJPKWspO8)<br><sub>每日經文 2026-10-25 · 腓立比書 2:3｜在別人的終點裡看人</sub> | Short · 鉤子 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 74e451d9 | 已發布 | `fqvJPKWspO8` |
+| 2026-11-06 | [2026-10-25 · 腓立比書 2:3](https://youtube.com/shorts/EtDDWYdzb8s)<br><sub>每日經文 2026-10-25 · 腓立比書 2:3｜今晚，為一個人想像最好的結局</sub> | Short · 導入 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 74e451d9 | 已發布 | `EtDDWYdzb8s` |
 | 2026-11-06 | [2026-11-02 · 雅各書 1:12](https://youtu.be/jdnuAxVI9Zo)<br><sub>每日經文 2026-11-02 · Neville 解讀｜雅各書 1:12 試煉中站立的人——先有福，再有冠冕｜站穩在已經得福的地上</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 2dca116b | 已發布 | `jdnuAxVI9Zo` |
 | 2026-11-06 | [2026-11-06 · 雅各書 1:12](https://youtube.com/shorts/z11I-u7aj9Y)<br><sub>每日經文｜雅各書 1:12 試煉中站立的人</sub> | Short · 鉤子 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 2dca116b | 已發布 | `z11I-u7aj9Y` |
 | 2026-11-06 | [2026-10-27 · 雅各書 1:12](https://youtube.com/shorts/FKODaL6edlQ)<br><sub>每日經文 2026-10-27 · 雅各書 1:12｜帶著已成就的平靜入睡</sub> | Short · 導入 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 2dca116b | 已發布 | `FKODaL6edlQ` |
@@ -186,7 +189,6 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-11-03 | [2026-11-03 · 詩篇 119:11](https://youtube.com/shorts/a2iAW-gNea0)<br><sub>每日經文 2026-11-03｜詩篇 119:11 今天，就為自己藏一句話</sub> | Short · 導入 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · c31c9cb5 | 已發布 | `a2iAW-gNea0` |
 | 2026-11-03 | [2026-10-30 · 詩篇 139:23](https://youtube.com/shorts/JCcAqREbRls)<br><sub>每日經文 2026-10-30 · 詩篇 139:23｜求你鑒察我</sub> | Short · 鉤子 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 85bdb1e3 | 已發布 | `JCcAqREbRls` |
 | 2026-11-03 | [2026-10-30 · 詩篇 139:23](https://youtube.com/shorts/M1vn0z3mtVM)<br><sub>每日經文 2026-10-30 · 詩篇 139:23｜今晚的鑒察與修訂</sub> | Short · 導入 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 7dee524a | 已發布 | `M1vn0z3mtVM` |
-| 2026-11-03 | [2026-10-25 · 腓立比書 2:3](https://youtu.be/XQkfhoat9TQ)<br><sub>每日經文 2026-10-25 · Neville 解讀｜腓立比書 2:3 看別人比自己強——放下爭競，住進合一的意識</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 74e451d9 | 已發布 | `XQkfhoat9TQ` |
 | 2026-11-03 | [2026-10-25 · 腓立比書 2:3](https://youtube.com/shorts/6OIMrolgQvA)<br><sub>每日經文 2026-10-25 · 腓立比書 2:3｜在別人的終點裡看人</sub> | Short · 鉤子 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 28541cdc | 已發布 | `6OIMrolgQvA` |
 | 2026-11-03 | [2026-10-25 · 腓立比書 2:3](https://youtube.com/shorts/1f31ZdfcC_A)<br><sub>每日經文 2026-10-25 · 腓立比書 2:3｜今晚，為一個人想像最好的結局</sub> | Short · 導入 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 4a3760e9 | 已發布 | `1f31ZdfcC_A` |
 | 2026-11-03 | [2026-10-27 · 雅各書 1:12](https://youtube.com/shorts/GI_layzMmo4)<br><sub>每日經文 2026-10-27 · 雅各書 1:12｜忍受試探的人是有福的</sub> | Short · 鉤子 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · f4e0f0ae | 已發布 | `GI_layzMmo4` |
@@ -207,11 +209,14 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-10-31 | [2026-10-31 · 提摩太後書 3:16-17](https://www.youtube.com/shorts/pvP-BoX9vN0)<br><sub>每日經文 2026-10-31｜提摩太後書 3:16-17｜聖經是你自己意識的自傳</sub> | Short · 鉤子 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 1f8daa60 | 已發布 | `pvP-BoX9vN0` |
 | 2026-10-31 | [2026-10-31 · 提摩太後書 3:16-17](https://www.youtube.com/shorts/zMRz5A8ZLyg)<br><sub>每日經文 2026-10-31｜提摩太後書 3:16-17｜你不是等著被組裝的人</sub> | Short · 導入 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · d7f07ddb | 已發布 | `zMRz5A8ZLyg` |
 
-## Daily Verse · Neville Readings — English (48)
+## Daily Verse · Neville Readings — English (50)
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
 | 2026-11-06 | [2026-10-26 · Isaiah 41:10](https://youtu.be/5xC433sFSrE)<br><sub>Daily Verse 2026-10-26 · Neville Goddard Reading | Fear Thou Not — I Am With Thee: Isaiah 41:10</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · 14dafa3a | Live | `5xC433sFSrE` |
+| 2026-11-06 | [2026-10-25 · Philippians 2:3](https://youtu.be/-o77OTSkqaM)<br><sub>Daily Verse · 2026-10-25 | Philippians 2:3 — Esteem Others Better: Laying Down Rivalry</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · 13b7b4f9 | Live | `-o77OTSkqaM` |
+| 2026-11-06 | [2026-10-25 · Philippians 2:3](https://youtube.com/shorts/So5IK8I9dyk)<br><sub>Daily Verse 2026-10-25 · Philippians 2:3 | See Him in His Fulfilled End</sub> | Short (hook) | Daily Verse · Neville Readings 2026 (English) | Archived · 13b7b4f9 | Live | `So5IK8I9dyk` |
+| 2026-11-06 | [2026-10-25 · Philippians 2:3](https://youtube.com/shorts/wEF6XjQd-Kc)<br><sub>Daily Verse 2026-10-25 · Philippians 2:3 | Tonight: Imagine the Best End for One Person</sub> | Short (funnel) | Daily Verse · Neville Readings 2026 (English) | Archived · 13b7b4f9 | Live | `wEF6XjQd-Kc` |
 | 2026-11-06 | [2026-11-02 · James 1:12](https://youtu.be/8BSGkPuci-M)<br><sub>Daily Verse 2026-11-02 · Neville Reading | James 1:12 Blessed First, the Crown Later</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · ad89add3 | Live | `8BSGkPuci-M` |
 | 2026-11-06 | [2026-11-06 · James 1:12](https://youtube.com/shorts/L4NEx6n73BM)<br><sub>Daily Verse | James 1:12 The One Who Stands in Trial</sub> | Short (hook) | Daily Verse · Neville Readings 2026 (English) | Archived · ad89add3 | Live | `L4NEx6n73BM` |
 | 2026-11-06 | [2026-10-27 · James 1:12](https://youtube.com/shorts/PiEU24MWWjY)<br><sub>Daily Verse 2026-10-27 · James 1:12 | Sleep in the Peace of What Is Already Finished</sub> | Short (funnel) | Daily Verse · Neville Readings 2026 (English) | Archived · ad89add3 | Live | `PiEU24MWWjY` |
@@ -239,7 +244,6 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-11-03 | [2026-11-03 · Psalm 119:11](https://youtube.com/shorts/k5Yd_cg8QDQ)<br><sub>Daily Verse 2026-11-03 · Psalm 119:11 | Today, Hide One Sentence in Your Heart</sub> | Short (funnel) | Daily Verse · Neville Readings 2026 (English) | Archived · 772b559d | Live | `k5Yd_cg8QDQ` |
 | 2026-11-03 | [2026-10-30 · Psalm 139:23](https://youtube.com/shorts/kAwR4DXKAm4)<br><sub>Daily Verse 2026-10-30 · Psalm 139:23 | Praying from the End</sub> | Short (hook) | Daily Verse · Neville Readings 2026 (English) | Archived · 641f5863 | Live | `kAwR4DXKAm4` |
 | 2026-11-03 | [2026-10-30 · Psalm 139:23](https://youtube.com/shorts/vpMJMdw0erA)<br><sub>Daily Verse 2026-10-30 · Psalm 139:23 | Tonight's Searching and Revision</sub> | Short (funnel) | Daily Verse · Neville Readings 2026 (English) | Archived · 9ae2c3d3 | Live | `vpMJMdw0erA` |
-| 2026-11-03 | [2026-10-25 · Philippians 2:3](https://youtu.be/ybLh9DPOqiY)<br><sub>Daily Verse · 2026-10-25 | Philippians 2:3 — Esteem Others Better: Laying Down Rivalry</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · 13b7b4f9 | Live | `ybLh9DPOqiY` |
 | 2026-11-03 | [2026-10-25 · Philippians 2:3](https://youtube.com/shorts/EiWBFRrdp_E)<br><sub>Daily Verse 2026-10-25 · Philippians 2:3 | See Him in His Fulfilled End</sub> | Short (hook) | Daily Verse · Neville Readings 2026 (English) | Archived · daad0257 | Live | `EiWBFRrdp_E` |
 | 2026-11-03 | [2026-10-25 · Philippians 2:3](https://youtube.com/shorts/7zc79TKoRCE)<br><sub>Daily Verse 2026-10-25 · Philippians 2:3 | Tonight: Imagine the Best End for One Person</sub> | Short (funnel) | Daily Verse · Neville Readings 2026 (English) | Archived · 5257ec10 | Live | `7zc79TKoRCE` |
 | 2026-11-03 | [2026-10-27 · James 1:12](https://youtube.com/shorts/VtUrlhBMf3Y)<br><sub>Daily Verse 2026-10-27 · James 1:12 | Blessed Comes First, the Crown Later</sub> | Short (hook) | Daily Verse · Neville Readings 2026 (English) | Archived · afcef883 | Live | `VtUrlhBMf3Y` |
@@ -327,7 +331,7 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-10-31 | ['Guaranteed 14% Returns'? A Dangerous Illusion | Finance Basics](https://www.youtube.com/shorts/_z0BhZ_z1P8) | Short (hook) | Finance Basics 2026 (English) | Archived · d6c05cce | Live | `_z0BhZ_z1P8` |
 | 2026-10-31 | [The Premium Lowers Your Real Cost to $109.08 | Finance Basics](https://www.youtube.com/shorts/meGAW-UginY) | Short (funnel) | Finance Basics 2026 (English) | Archived · ce324423 | Live | `meGAW-UginY` |
 
-## Replaced / Private versions (48)
+## Replaced / Private versions (50)
 
 Same productions, kept for the record — not public.
 
@@ -354,7 +358,7 @@ Same productions, kept for the record — not public.
 | 2026-10-30 | [EP1 original Short (1:01, pre-redo)](https://youtu.be/MyWvEekwrh4) | Short | Neville Inner Reading Podcast 2026 (English) | Not archived yet | Private · replaced by redo | `MyWvEekwrh4` |
 | 2026-10-28 | [EP1 English original (pre-redo)](https://youtu.be/Hmc6emlD1UQ) | Long | Neville Inner Reading Podcast 2026 (English) | Archived · Video Artifacts · 88e92add | Private · original | `Hmc6emlD1UQ` |
 
-### 已取代 / Private · 每日經文 · Neville 解讀 — 中文（15）
+### 已取代 / Private · 每日經文 · Neville 解讀 — 中文（16）
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
@@ -364,6 +368,7 @@ Same productions, kept for the record — not public.
 | 2026-11-04 | [2026-11-08 · 馬太福音 17:21](https://youtu.be/Bkdw3DytHVE)<br><sub>每日經文 2026-11-08 · Neville 解讀｜馬太福音 17:21 這一類，若不禱告、禁食，就不出來——住進新狀態，餓死舊狀態</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 10c2c5ca | Private · 已被取代 | `Bkdw3DytHVE` |
 | 2026-11-03 | [2026-10-24 · 箴言 16:3](https://youtu.be/j_f6t3j5OLs)<br><sub>每日經文 2026-10-24｜箴言 16:3 · 你所做的，要交託耶和華</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 286cbaa9 | Private · 已被取代 | `j_f6t3j5OLs` |
 | 2026-11-03 | [2026-10-25 · 腓立比書 2:3](https://youtu.be/Es7G2LbMmvU)<br><sub>每日經文 2026-10-25｜腓立比書 2:3 · 以謙卑的心看別人比自己強</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 74e451d9 | Private · 已被取代 | `Es7G2LbMmvU` |
+| 2026-11-03 | [2026-10-25 · 腓立比書 2:3](https://youtu.be/XQkfhoat9TQ)<br><sub>每日經文 2026-10-25 · Neville 解讀｜腓立比書 2:3 看別人比自己強——放下爭競，住進合一的意識</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 74e451d9 | Private · 已被取代 | `XQkfhoat9TQ` |
 | 2026-11-03 | [2026-10-27 · 雅各書 1:12](https://youtu.be/cyANijnMux4)<br><sub>每日經文 2026-10-27｜雅各書 1:12 · 忍受試探的人是有福的</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 2dca116b | Private · 已被取代 | `cyANijnMux4` |
 | 2026-11-03 | [2026-10-30 · 詩篇 139:23](https://youtu.be/e8AoCDAvGqY)<br><sub>每日經文 2026-10-30｜詩篇 139:23 · 神啊，求你鑒察我</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · b4e4b9e9 | Private · 已被取代 | `e8AoCDAvGqY` |
 | 2026-11-03 | [2026-11-03 · Psalm 119:11](https://youtu.be/sdpT4xWJW8A)<br><sub>Daily Verse 2026-11-03 · Psalm 119:11 — God's Word Hidden in Your Heart</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · d1658cf7 | Private · 已被取代 | `sdpT4xWJW8A` |
@@ -374,7 +379,7 @@ Same productions, kept for the record — not public.
 | 2026-10-31 | [2026-10-31 · 提摩太後書 3:16-17](https://youtu.be/y6zIFPvCCuc)<br><sub>每日經文 2026-10-31｜提摩太後書 3:16-17 · 聖經都是神所默示的</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · a1f4dcfc | Private · 已被取代 | `y6zIFPvCCuc` |
 | 2026-10-31 | [2026-10-29 · 歌羅西書 1:13](https://youtu.be/CqrH_GpoY1E)<br><sub>每日經文 2026-10-29｜歌羅西書 1:13 — 脫離黑暗的權勢，遷入愛子的國</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 4a7ccd48 | Private · 已被取代 | `CqrH_GpoY1E` |
 
-### 已取代 / Private · Daily Verse · Neville Readings — English (15)
+### 已取代 / Private · Daily Verse · Neville Readings — English (16)
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
@@ -382,6 +387,7 @@ Same productions, kept for the record — not public.
 | 2026-11-04 | [2026-11-07 · Psalm 19:1](https://youtu.be/mrr0gTgcYic)<br><sub>Daily Verse 2026-11-07 · Psalm 19:1 | The Heavens Declare — Reporting Your I AM</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · cc5ef489 | Private · replaced | `mrr0gTgcYic` |
 | 2026-11-04 | [2026-11-08 · Matthew 17:21](https://youtu.be/CKJ-lblnPJw)<br><sub>Daily Verse 2026-11-08 · Matthew 17:21 | This Kind Goeth Not Out but by Prayer and Fasting</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · b403d75f | Private · replaced | `CKJ-lblnPJw` |
 | 2026-11-03 | [2026-10-25 · Philippians 2:3](https://youtu.be/vphlUHj9aIY)<br><sub>Daily Verse · 2026-10-25 | Philippians 2:3 — Esteem Others Better: Laying Down Rivalry</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · 13b7b4f9 | Private · replaced | `vphlUHj9aIY` |
+| 2026-11-03 | [2026-10-25 · Philippians 2:3](https://youtu.be/ybLh9DPOqiY)<br><sub>Daily Verse · 2026-10-25 | Philippians 2:3 — Esteem Others Better: Laying Down Rivalry</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · 13b7b4f9 | Private · replaced | `ybLh9DPOqiY` |
 | 2026-11-03 | [2026-10-30 · Psalm 139:23](https://youtu.be/ehoGKSlRoNE)<br><sub>Daily Verse 2026-10-30 · Psalm 139:23 — Search Me, O God, and Know My Heart</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · 98beab2c | Private · replaced | `ehoGKSlRoNE` |
 | 2026-11-03 | [2026-11-03 · Psalm 119:11](https://youtu.be/FEmW-caUtk0)<br><sub>Daily Verse 2026-11-03 · Psalm 119:11 — God's Word Hidden in Your Heart</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · 9f4ddc4b | Private · replaced | `FEmW-caUtk0` |
 | 2026-11-03 | [2026-11-03 · Psalm 119:11](https://youtu.be/EB4svq0CPoA)<br><sub>Daily Verse 2026-11-03 · Psalm 119:11 | Hiding the Word in the Heart</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · 9f4ddc4b | Private · replaced | `EB4svq0CPoA` |

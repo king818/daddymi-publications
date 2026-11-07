@@ -1987,9 +1987,33 @@ publications:
   language: zh-Hant
   type: Long
   title: '每日經文 2026-10-25 · Neville 解讀｜腓立比書 2:3 看別人比自己強——放下爭競，住進合一的意識'
-  published: '2026-11-03'
-  url: https://youtu.be/XQkfhoat9TQ
-  native_id: XQkfhoat9TQ
+  published: '2026-11-06'
+  url: https://youtu.be/iYkY59qdcAc
+  native_id: iYkY59qdcAc
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: 74e451d9-16cd-4c87-863c-d6c7d8814380
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Philippians 2:3
+  language: zh-Hant
+  type: Short (hook)
+  title: '每日經文 2026-10-25 · 腓立比書 2:3｜在別人的終點裡看人 #Shorts'
+  published: '2026-11-06'
+  url: https://youtube.com/shorts/fqvJPKWspO8
+  native_id: fqvJPKWspO8
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: 74e451d9-16cd-4c87-863c-d6c7d8814380
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Philippians 2:3
+  language: zh-Hant
+  type: Short (funnel)
+  title: '每日經文 2026-10-25 · 腓立比書 2:3｜今晚，為一個人想像最好的結局 #Shorts'
+  published: '2026-11-06'
+  url: https://youtube.com/shorts/EtDDWYdzb8s
+  native_id: EtDDWYdzb8s
   playlist: 每日經文 · Neville 解讀 2026（中文）
   archive_note: 74e451d9-16cd-4c87-863c-d6c7d8814380
   status: Public
@@ -2023,9 +2047,33 @@ publications:
   language: en
   type: Long
   title: "Daily Verse · 2026-10-25 | Philippians 2:3 — Esteem Others Better: Laying Down Rivalry"
-  published: '2026-11-03'
-  url: https://youtu.be/ybLh9DPOqiY
-  native_id: ybLh9DPOqiY
+  published: '2026-11-06'
+  url: https://youtu.be/-o77OTSkqaM
+  native_id: -o77OTSkqaM
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: 13b7b4f9-3758-449b-843d-ed6710707585
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Philippians 2:3
+  language: en
+  type: Short (hook)
+  title: 'Daily Verse 2026-10-25 · Philippians 2:3 | See Him in His Fulfilled End #Shorts'
+  published: '2026-11-06'
+  url: https://youtube.com/shorts/So5IK8I9dyk
+  native_id: So5IK8I9dyk
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: 13b7b4f9-3758-449b-843d-ed6710707585
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Philippians 2:3
+  language: en
+  type: Short (funnel)
+  title: "Daily Verse 2026-10-25 · Philippians 2:3 | Tonight: Imagine the Best End for One Person #Shorts"
+  published: '2026-11-06'
+  url: https://youtube.com/shorts/wEF6XjQd-Kc
+  native_id: wEF6XjQd-Kc
   playlist: Daily Verse · Neville Readings 2026 (English)
   archive_note: 13b7b4f9-3758-449b-843d-ed6710707585
   status: Public
@@ -3506,6 +3554,30 @@ replaced_or_private:
   playlist: Daily Verse · Neville Readings 2026 (English)
   archive_note: 13b7b4f9-3758-449b-843d-ed6710707585
   status: Private — replaced by the per-episode-imagery version ybLh9DPOqiY in the 2026-11-03 swap; original used a template background with no per-episode imagery; set Private per boss ruling, not deleted; the original build mp4 remains in the archive note alongside the new version
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Philippians 2:3
+  language: zh-Hant
+  type: Long
+  title: '每日經文 2026-10-25 · Neville 解讀｜腓立比書 2:3 看別人比自己強——放下爭競，住進合一的意識'
+  published: '2026-11-03'
+  url: https://youtu.be/XQkfhoat9TQ
+  native_id: XQkfhoat9TQ
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: 74e451d9-16cd-4c87-863c-d6c7d8814380
+  status: Private — replaced by the four-item-repair version iYkY59qdcAc in the 2026-11-06 swap (transparency fix + per-episode imagery + background music + new motion Shorts, per the boss's 2026-11-06 four-item repair standard); this version's slide imagery was dimmed throughout by the old template's full-frame dark panel (opacity defect) and it carried no background music; set Private per boss ruling, not deleted, and removed from the playlist; the repaired build is recorded in the archive note and retained in the run directory; Evernote append of the replacement landed and verified 2026-11-06
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Philippians 2:3
+  language: en
+  type: Long
+  title: "Daily Verse · 2026-10-25 | Philippians 2:3 — Esteem Others Better: Laying Down Rivalry"
+  published: '2026-11-03'
+  url: https://youtu.be/ybLh9DPOqiY
+  native_id: ybLh9DPOqiY
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: 13b7b4f9-3758-449b-843d-ed6710707585
+  status: Private — replaced by the four-item-repair version -o77OTSkqaM in the 2026-11-06 swap (transparency fix + per-episode imagery + background music + new motion Shorts, per the boss's 2026-11-06 four-item repair standard); this version's slide imagery was dimmed throughout by the old template's full-frame dark panel (opacity defect) and it carried no background music; set Private per boss ruling, not deleted, and removed from the playlist; the repaired build is recorded in the archive note and retained in the run directory; Evernote append of the replacement landed and verified 2026-11-06
 - platform: YouTube
   series: Daily Verse · Neville Readings
   topic: James 1:12
