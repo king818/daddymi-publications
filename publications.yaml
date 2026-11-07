@@ -1459,10 +1459,22 @@ publications:
   language: zh-Hant
   type: Long
   title: 每日經文 2026-10-26 · Neville 解讀｜不要害怕，祂與你同在——以賽亞書 41:10 內在解讀
-  published: '2026-11-06'
-  url: https://youtu.be/71Sj79iPtPQ
-  native_id: 71Sj79iPtPQ
+  published: '2026-11-07'
+  url: https://youtu.be/Qi6oX12Qjhk
+  native_id: Qi6oX12Qjhk
   archive_note: 1ca97d75-6bad-49aa-b6f9-338514bc4ca8
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Isaiah 41:10
+  language: zh-Hant
+  type: Short (funnel)
+  title: 每日經文 2026-10-26 · Neville 解讀｜今晚的右手操練：恭喜你，一切都成了（以賽亞書 41:10）· AI 動態版 #Shorts
+  published: '2026-11-07'
+  url: https://youtube.com/shorts/GtOKlZDPeds
+  native_id: GtOKlZDPeds
+  archive_note: 5238297b-5657-4ba7-a630-f4ea93fb03e8
   playlist: 每日經文 · Neville 解讀 2026（中文）
   status: Public
 - platform: YouTube
@@ -1567,11 +1579,35 @@ publications:
   language: en
   type: Long
   title: 'Daily Verse 2026-10-26 · Neville Goddard Reading | Fear Thou Not — I Am With Thee: Isaiah 41:10'
-  published: '2026-11-06'
-  url: https://youtu.be/5xC433sFSrE
-  native_id: 5xC433sFSrE
+  published: '2026-11-07'
+  url: https://youtu.be/tJV_TYtzeec
+  native_id: tJV_TYtzeec
   playlist: Daily Verse · Neville Readings 2026 (English)
   archive_note: 14dafa3a-3b21-4ca8-9c10-14c4efa1981f
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Isaiah 41:10
+  language: en
+  type: Short (hook)
+  title: 'Daily Verse 2026-10-26 | Fear Is Strong Faith Aimed the Wrong Way · AI Motion Edition #Shorts'
+  published: '2026-11-07'
+  url: https://youtube.com/shorts/SG5jdg8T_O8
+  native_id: SG5jdg8T_O8
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: 380b021c-9f29-4a73-a080-5509de9000c1
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Isaiah 41:10
+  language: en
+  type: Short (funnel)
+  title: "Daily Verse 2026-10-26 | Tonight's Right-Hand Scene — “Congratulations, It Is Done” #Shorts"
+  published: '2026-11-07'
+  url: https://youtube.com/shorts/PywlJmL6TGc
+  native_id: PywlJmL6TGc
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: f9c863ba-725b-4392-b04d-4496e7046ac6
   status: Public
 - platform: YouTube
   series: Daily Verse · Neville Readings
@@ -3626,6 +3662,30 @@ publications:
   playlist: Daily Verse · Neville Readings 2026 (English)
   status: Public
 replaced_or_private:
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Isaiah 41:10
+  language: zh-Hant
+  type: Long
+  title: 每日經文 2026-10-26 · Neville 解讀｜不要害怕，祂與你同在——以賽亞書 41:10 內在解讀
+  published: '2026-11-06'
+  url: https://youtu.be/71Sj79iPtPQ
+  native_id: 71Sj79iPtPQ
+  archive_note: 1ca97d75-6bad-49aa-b6f9-338514bc4ca8
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  status: Private — this transparency-fix version (published 2026-11-06 in the swap that retired KCUVl4_IFY0) was superseded 2026-11-07 by the BGM completion version Qi6oX12Qjhk (background music added per the repair four-piece set; video stream identical, Gymnopedie No 1 at -8 dB) — set Private and removed from the playlist in the 2026-11-07 completion swap; the BGM master is recorded in the archive note
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Isaiah 41:10
+  language: en
+  type: Long
+  title: 'Daily Verse 2026-10-26 · Neville Goddard Reading | Fear Thou Not — I Am With Thee: Isaiah 41:10'
+  published: '2026-11-06'
+  url: https://youtu.be/5xC433sFSrE
+  native_id: 5xC433sFSrE
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: 14dafa3a-3b21-4ca8-9c10-14c4efa1981f
+  status: Private — this transparency-fix version (published 2026-11-06 in the swap that retired CpqGsKubH_0) was superseded 2026-11-07 by the BGM completion version tJV_TYtzeec (background music added per the repair four-piece set; video stream identical, Gymnopedie No 1 at -8 dB) — set Private and removed from the playlist in the 2026-11-07 completion swap; the BGM master is recorded in the archive note
 - platform: YouTube
   series: Neville Inner Reading Podcast
   topic: EP1 · 得失從緣，心無增減（微信个人签名）
