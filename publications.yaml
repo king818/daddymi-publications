@@ -3496,12 +3496,60 @@ publications:
 - platform: YouTube
   series: Daily Verse · Neville Readings
   topic: Philippians 4:8
+  language: zh-Hant
+  type: Short (hook)
+  title: '每日經文｜腓立比書 4:8 凡是真實的、可敬的，都要思念 #Shorts'
+  published: '2026-11-07'
+  url: https://youtube.com/shorts/iGSeHR4xw3Y
+  native_id: iGSeHR4xw3Y
+  archive_note: 16cd078f-b383-42f3-84c1-621b7ef67461
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Philippians 4:8
+  language: zh-Hant
+  type: Short (funnel)
+  title: '你的思想，就是在創造現實 · 腓立比書 4:8 #Shorts'
+  published: '2026-11-07'
+  url: https://youtube.com/shorts/uNB4-u4xsI0
+  native_id: uNB4-u4xsI0
+  archive_note: 16cd078f-b383-42f3-84c1-621b7ef67461
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Philippians 4:8
   language: en
   type: Long
   title: Daily Verse 2026-11-06 · Neville Reading | Philippians 4:8 — Think on These Things
   published: '2026-11-06'
   url: https://youtu.be/0eosxUn83pY
   native_id: 0eosxUn83pY
+  archive_note: 8497c986-6281-4b03-ba9c-ba024bea5159
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Philippians 4:8
+  language: en
+  type: Short (hook)
+  title: 'Daily Verse | Philippians 4:8 — Whatsoever Things Are True #Shorts'
+  published: '2026-11-07'
+  url: https://youtube.com/shorts/Dow9mqgNmFo
+  native_id: Dow9mqgNmFo
+  archive_note: 8497c986-6281-4b03-ba9c-ba024bea5159
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Philippians 4:8
+  language: en
+  type: Short (funnel)
+  title: 'Thought Creates Reality | Philippians 4:8 #Shorts'
+  published: '2026-11-07'
+  url: https://youtube.com/shorts/NCgcUNtAtd0
+  native_id: NCgcUNtAtd0
   archive_note: 8497c986-6281-4b03-ba9c-ba024bea5159
   playlist: Daily Verse · Neville Readings 2026 (English)
   status: Public
