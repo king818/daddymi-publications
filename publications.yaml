@@ -2887,9 +2887,9 @@ publications:
   language: zh-Hant
   type: Long
   title: 每日經文 2026-11-03 · Neville 解讀｜詩篇 119:11 把話藏在心裏——先立容器，再種下應許
-  published: '2026-11-06'
-  url: https://youtu.be/uDl-ul3x5PM
-  native_id: uDl-ul3x5PM
+  published: '2026-11-07'
+  url: https://youtu.be/xGi0Ao2WAq4
+  native_id: xGi0Ao2WAq4
   playlist: 每日經文 · Neville 解讀 2026（中文）
   archive_note: d1658cf7-bd13-4e9f-a4a4-503737a0651d
   status: Public
@@ -2899,9 +2899,9 @@ publications:
   language: en
   type: Long
   title: Daily Verse 2026-11-03 · Psalm 119:11 | Hiding the Word in the Heart
-  published: '2026-11-06'
-  url: https://youtu.be/ZxDDrz5VfU0
-  native_id: ZxDDrz5VfU0
+  published: '2026-11-07'
+  url: https://youtu.be/C9F4lTtSBD4
+  native_id: C9F4lTtSBD4
   playlist: Daily Verse · Neville Readings 2026 (English)
   archive_note: 9f4ddc4b-d876-4e69-bfa5-32d3bf85ee6f
   status: Public
@@ -3686,6 +3686,30 @@ replaced_or_private:
   playlist: Daily Verse · Neville Readings 2026 (English)
   archive_note: 14dafa3a-3b21-4ca8-9c10-14c4efa1981f
   status: Private — this transparency-fix version (published 2026-11-06 in the swap that retired CpqGsKubH_0) was superseded 2026-11-07 by the BGM completion version tJV_TYtzeec (background music added per the repair four-piece set; video stream identical, Gymnopedie No 1 at -8 dB) — set Private and removed from the playlist in the 2026-11-07 completion swap; the BGM master is recorded in the archive note
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Psalm 119:11
+  language: zh-Hant
+  type: Long
+  title: 每日經文 2026-11-03 · Neville 解讀｜詩篇 119:11 把話藏在心裏——先立容器，再種下應許
+  published: '2026-11-06'
+  url: https://youtu.be/uDl-ul3x5PM
+  native_id: uDl-ul3x5PM
+  archive_note: d1658cf7-bd13-4e9f-a4a4-503737a0651d
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  status: Private — this transparency-fix version (published 2026-11-06 in the swap that retired 2-ZtDDffE4U) was superseded 2026-11-07 by the BGM completion version xGi0Ao2WAq4 (background music added per the repair four-piece set; video stream identical, Gymnopedie No 1 at -8 dB) — set Private and removed from the playlist in the 2026-11-07 completion swap; the BGM master is recorded in the archive note
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Psalm 119:11
+  language: en
+  type: Long
+  title: Daily Verse 2026-11-03 · Psalm 119:11 | Hiding the Word in the Heart
+  published: '2026-11-06'
+  url: https://youtu.be/ZxDDrz5VfU0
+  native_id: ZxDDrz5VfU0
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: 9f4ddc4b-d876-4e69-bfa5-32d3bf85ee6f
+  status: Private — this transparency-fix version (published 2026-11-06 in the swap that retired EB4svq0CPoA) was superseded 2026-11-07 by the BGM completion version C9F4lTtSBD4 (background music added per the repair four-piece set; video stream identical, Gymnopedie No 1 at -8 dB) — set Private and removed from the playlist in the 2026-11-07 completion swap; the BGM master is recorded in the archive note
 - platform: YouTube
   series: Neville Inner Reading Podcast
   topic: EP1 · 得失從緣，心無增減（微信个人签名）
