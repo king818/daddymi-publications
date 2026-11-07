@@ -2311,9 +2311,33 @@ publications:
   language: zh-Hant
   type: Long
   title: '每日經文 2026-10-24 · Neville 解讀｜箴言 16:3 把石頭滾下去——交託所做的，所謀的就必成立'
-  published: '2026-11-03'
-  url: https://youtu.be/yd7rh4vg4Wg
-  native_id: yd7rh4vg4Wg
+  published: '2026-11-06'
+  url: https://youtu.be/gnOHCKsdtpY
+  native_id: gnOHCKsdtpY
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: '286cbaa9-0083-4706-809f-3a59b824c689'
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Proverbs 16:3
+  language: zh-Hant
+  type: Short (hook)
+  title: '每日經文 2026-10-24 · 箴言 16:3｜交託不是呈上去，是滾下來 #Shorts'
+  published: '2026-11-06'
+  url: https://youtube.com/shorts/80w2cEVpMRk
+  native_id: 80w2cEVpMRk
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: '286cbaa9-0083-4706-809f-3a59b824c689'
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Proverbs 16:3
+  language: zh-Hant
+  type: Short (funnel)
+  title: '每日經文 2026-10-24 · 箴言 16:3｜把名叫「如何」的石頭交託給祢 #Shorts'
+  published: '2026-11-06'
+  url: https://youtube.com/shorts/yAwqs-aC9Uo
+  native_id: yAwqs-aC9Uo
   playlist: 每日經文 · Neville 解讀 2026（中文）
   archive_note: '286cbaa9-0083-4706-809f-3a59b824c689'
   status: Public
@@ -2623,9 +2647,33 @@ publications:
   language: en
   type: Long
   title: 'Daily Verse · 2026-10-24 | Proverbs 16:3 — Roll It Off Your Shoulders'
-  published: '2026-11-03'
-  url: https://youtu.be/esKv9WHH9yU
-  native_id: esKv9WHH9yU
+  published: '2026-11-06'
+  url: https://youtu.be/Sf-zYtC1q40
+  native_id: Sf-zYtC1q40
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: bf6db083-dbba-42f6-a0c6-184461c26bbd
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Proverbs 16:3
+  language: en
+  type: Short (hook)
+  title: 'Daily Verse 2026-10-24 · Proverbs 16:3 | Commit Is Not Handed Up — It Is Rolled Off #Shorts'
+  published: '2026-11-06'
+  url: https://youtube.com/shorts/dnQ6ThG4Tps
+  native_id: dnQ6ThG4Tps
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: bf6db083-dbba-42f6-a0c6-184461c26bbd
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Proverbs 16:3
+  language: en
+  type: Short (funnel)
+  title: 'Daily Verse 2026-10-24 · Proverbs 16:3 | Hand Him the Stone Named \"How\" #Shorts'
+  published: '2026-11-06'
+  url: https://youtube.com/shorts/tOKoSooq1Lc
+  native_id: tOKoSooq1Lc
   playlist: Daily Verse · Neville Readings 2026 (English)
   archive_note: bf6db083-dbba-42f6-a0c6-184461c26bbd
   status: Public
@@ -3578,6 +3626,30 @@ replaced_or_private:
   playlist: Daily Verse · Neville Readings 2026 (English)
   archive_note: 13b7b4f9-3758-449b-843d-ed6710707585
   status: Private — replaced by the four-item-repair version -o77OTSkqaM in the 2026-11-06 swap (transparency fix + per-episode imagery + background music + new motion Shorts, per the boss's 2026-11-06 four-item repair standard); this version's slide imagery was dimmed throughout by the old template's full-frame dark panel (opacity defect) and it carried no background music; set Private per boss ruling, not deleted, and removed from the playlist; the repaired build is recorded in the archive note and retained in the run directory; Evernote append of the replacement landed and verified 2026-11-06
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Proverbs 16:3
+  language: zh-Hant
+  type: Long
+  title: '每日經文 2026-10-24 · Neville 解讀｜箴言 16:3 把石頭滾下去——交託所做的，所謀的就必成立'
+  published: '2026-11-03'
+  url: https://youtu.be/yd7rh4vg4Wg
+  native_id: yd7rh4vg4Wg
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: '286cbaa9-0083-4706-809f-3a59b824c689'
+  status: Private — replaced by the four-item-repair version gnOHCKsdtpY in the 2026-11-06 swap (transparency fix + per-episode imagery + background music + new motion Shorts, per the boss's 2026-11-06 four-item repair standard); this version's slide imagery was dimmed throughout by the old template's full-frame dark panel (opacity defect) and it carried no background music; set Private per boss ruling, not deleted, and removed from the playlist; the repaired build is recorded in the archive note and retained in the run directory; Evernote append of the replacement landed and verified 2026-11-06
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Proverbs 16:3
+  language: en
+  type: Long
+  title: 'Daily Verse · 2026-10-24 | Proverbs 16:3 — Roll It Off Your Shoulders'
+  published: '2026-11-03'
+  url: https://youtu.be/esKv9WHH9yU
+  native_id: esKv9WHH9yU
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: bf6db083-dbba-42f6-a0c6-184461c26bbd
+  status: Private — replaced by the four-item-repair version Sf-zYtC1q40 in the 2026-11-06 swap (transparency fix + per-episode imagery + background music + new motion Shorts, per the boss's 2026-11-06 four-item repair standard); this version's slide imagery was dimmed throughout by the old template's full-frame dark panel (opacity defect) and it carried no background music; set Private per boss ruling, not deleted, and removed from the playlist; the repaired build is recorded in the archive note and retained in the run directory; Evernote append of the replacement landed and verified 2026-11-06
 - platform: YouTube
   series: Daily Verse · Neville Readings
   topic: James 1:12
