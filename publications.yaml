@@ -2911,9 +2911,9 @@ publications:
   language: zh-Hant
   type: Long
   title: 每日經文 2026-10-30 · Neville 解讀｜詩篇 139:23 求你鑒察我——看清自己所居住的狀態
-  published: '2026-11-06'
-  url: https://youtu.be/biBDkdukJ7Q
-  native_id: biBDkdukJ7Q
+  published: '2026-11-07'
+  url: https://youtu.be/ekwhG2ewoF8
+  native_id: ekwhG2ewoF8
   playlist: 每日經文 · Neville 解讀 2026（中文）
   archive_note: b4e4b9e9-1134-4a13-9a70-4ff5459e33dd
   status: Public
@@ -2923,9 +2923,9 @@ publications:
   language: en
   type: Long
   title: 'Daily Verse · 2026-10-30 | Psalm 139:23 — Search Me, O God: Praying from the End'
-  published: '2026-11-06'
-  url: https://youtu.be/NuBxnp5J2qk
-  native_id: NuBxnp5J2qk
+  published: '2026-11-07'
+  url: https://youtu.be/l5DF3k8ZAB8
+  native_id: l5DF3k8ZAB8
   playlist: Daily Verse · Neville Readings 2026 (English)
   archive_note: 98beab2c-b1ca-4d0f-875d-7158beb3c67d
   status: Public
@@ -3710,6 +3710,30 @@ replaced_or_private:
   playlist: Daily Verse · Neville Readings 2026 (English)
   archive_note: 9f4ddc4b-d876-4e69-bfa5-32d3bf85ee6f
   status: Private — this transparency-fix version (published 2026-11-06 in the swap that retired EB4svq0CPoA) was superseded 2026-11-07 by the BGM completion version C9F4lTtSBD4 (background music added per the repair four-piece set; video stream identical, Gymnopedie No 1 at -8 dB) — set Private and removed from the playlist in the 2026-11-07 completion swap; the BGM master is recorded in the archive note
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Psalm 139:23
+  language: zh-Hant
+  type: Long
+  title: 每日經文 2026-10-30 · Neville 解讀｜詩篇 139:23 求你鑒察我——看清自己所居住的狀態
+  published: '2026-11-06'
+  url: https://youtu.be/biBDkdukJ7Q
+  native_id: biBDkdukJ7Q
+  archive_note: b4e4b9e9-1134-4a13-9a70-4ff5459e33dd
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  status: Private — this transparency-fix version (published 2026-11-06 in the swap that retired tpHOX-_U6Vw) was superseded 2026-11-07 by the BGM completion version ekwhG2ewoF8 (background music added per the repair four-piece set; video stream identical, Gymnopedie No 1 at -8 dB) — set Private and removed from the playlist in the 2026-11-07 completion swap; the BGM master is recorded in the archive note
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Psalm 139:23
+  language: en
+  type: Long
+  title: 'Daily Verse · 2026-10-30 | Psalm 139:23 — Search Me, O God: Praying from the End'
+  published: '2026-11-06'
+  url: https://youtu.be/NuBxnp5J2qk
+  native_id: NuBxnp5J2qk
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: 98beab2c-b1ca-4d0f-875d-7158beb3c67d
+  status: Private — this transparency-fix version (published 2026-11-06 in the swap that retired cBEHNBDJOe8) was superseded 2026-11-07 by the BGM completion version l5DF3k8ZAB8 (background music added per the repair four-piece set; video stream identical, Gymnopedie No 1 at -8 dB) — set Private and removed from the playlist in the 2026-11-07 completion swap; the BGM master is recorded in the archive note
 - platform: YouTube
   series: Neville Inner Reading Podcast
   topic: EP1 · 得失從緣，心無增減（微信个人签名）
