@@ -3505,6 +3505,78 @@ publications:
   archive_note: 8497c986-6281-4b03-ba9c-ba024bea5159
   playlist: Daily Verse · Neville Readings 2026 (English)
   status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Luke 1:37
+  language: zh-Hant
+  type: Long
+  title: 每日經文 2026-11-07 · Neville 解讀｜路加福音 1:37 出於上帝的話，沒有一句不帶能力
+  published: '2026-11-07'
+  url: https://youtu.be/Nm0KjzG-CHA
+  native_id: Nm0KjzG-CHA
+  archive_note: ab78002d-f143-4b07-8c4d-e9ea076c4b1b
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Luke 1:37
+  language: zh-Hant
+  type: Short (hook)
+  title: '每日經文｜路加福音 1:37 出於上帝的話，沒有一句不帶能力 #Shorts'
+  published: '2026-11-07'
+  url: https://youtube.com/shorts/2sP1r9G6m6g
+  native_id: 2sP1r9G6m6g
+  archive_note: ab78002d-f143-4b07-8c4d-e9ea076c4b1b
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Luke 1:37
+  language: zh-Hant
+  type: Short (funnel)
+  title: '過去不是你的身份｜以利沙伯的證據 · 路加福音 1:37 #Shorts'
+  published: '2026-11-07'
+  url: https://youtube.com/shorts/UJFywWGR-7s
+  native_id: UJFywWGR-7s
+  archive_note: ab78002d-f143-4b07-8c4d-e9ea076c4b1b
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Luke 1:37
+  language: en
+  type: Long
+  title: Daily Verse 2026-11-07 · A Neville Reading | Luke 1:37 — No Word from God Is Without Power
+  published: '2026-11-07'
+  url: https://youtu.be/HRt0SyZyWTo
+  native_id: HRt0SyZyWTo
+  archive_note: 17ea996b-c31e-4f56-af2d-2b627deb132f
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Luke 1:37
+  language: en
+  type: Short (hook)
+  title: 'Daily Verse | Luke 1:37 — For with God Nothing Shall Be Impossible #Shorts'
+  published: '2026-11-07'
+  url: https://youtube.com/shorts/5D7JGv3sTEA
+  native_id: 5D7JGv3sTEA
+  archive_note: 17ea996b-c31e-4f56-af2d-2b627deb132f
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Luke 1:37
+  language: en
+  type: Short (funnel)
+  title: 'What Was Called Impossible Has Already Become Fact | Luke 1:37 #Shorts'
+  published: '2026-11-07'
+  url: https://youtube.com/shorts/H9KsyFR1MLI
+  native_id: H9KsyFR1MLI
+  archive_note: 17ea996b-c31e-4f56-af2d-2b627deb132f
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  status: Public
 replaced_or_private:
 - platform: YouTube
   series: Neville Inner Reading Podcast

@@ -2,7 +2,7 @@
 
 Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, filterable version: https://king818.github.io/daddymi-publications/
 
-**292 public videos** · 58 replaced/private versions · Come, Follow Me 2026: 138 · Daily Verse · Neville Readings: 113 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 28 · Neville Inner Reading Podcast: 7
+**298 public videos** · 58 replaced/private versions · Come, Follow Me 2026: 138 · Daily Verse · Neville Readings: 119 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 28 · Neville Inner Reading Podcast: 7
 
 
 ## 來跟隨我 2026 — 中文（69）
@@ -153,12 +153,15 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-10-31 | [Week 45 · Ezekiel](https://www.youtube.com/shorts/HYBj9c6Z5EU)<br><sub>2026 Week 45 | God Goes to the Exiles | Ezekiel</sub> | Short (hook) | Come, Follow Me 2026 (English) | Archived · 777370cb | Live | `HYBj9c6Z5EU` |
 | 2026-10-31 | [Week 45 · Ezekiel](https://www.youtube.com/shorts/oCqZeKxPCdE)<br><sub>2026 Week 45 | A Heart of Flesh, Not Stone | Ezekiel</sub> | Short (funnel) | Come, Follow Me 2026 (English) | Archived · f18bffbe | Live | `oCqZeKxPCdE` |
 
-## 每日經文 · Neville 解讀 — 中文（57）
+## 每日經文 · Neville 解讀 — 中文（60）
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
 | 2026-11-07 | [2026-10-31 · 提摩太後書 3:16-17](https://www.youtube.com/shorts/1dh5a8Nk8AE)<br><sub>每日經文 2026-10-31｜提摩太後書 3:16-17｜聖經是你自己意識的自傳</sub> | Short · 鉤子 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · a1f4dcfc | 已發布 | `1dh5a8Nk8AE` |
 | 2026-11-07 | [2026-10-31 · 提摩太後書 3:16-17](https://www.youtube.com/shorts/oegKOGXaSTI)<br><sub>每日經文 2026-10-31｜提摩太後書 3:16-17｜你不是等著被組裝的人</sub> | Short · 導入 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · a1f4dcfc | 已發布 | `oegKOGXaSTI` |
+| 2026-11-07 | [2026-11-07 · 路加福音 1:37](https://youtu.be/Nm0KjzG-CHA)<br><sub>每日經文 2026-11-07 · Neville 解讀｜路加福音 1:37 出於上帝的話，沒有一句不帶能力</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · ab78002d | 已發布 | `Nm0KjzG-CHA` |
+| 2026-11-07 | [2026-11-07 · 路加福音 1:37](https://youtube.com/shorts/2sP1r9G6m6g)<br><sub>每日經文｜路加福音 1:37 出於上帝的話，沒有一句不帶能力</sub> | Short · 鉤子 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · ab78002d | 已發布 | `2sP1r9G6m6g` |
+| 2026-11-07 | [2026-11-07 · 路加福音 1:37](https://youtube.com/shorts/UJFywWGR-7s)<br><sub>過去不是你的身份｜以利沙伯的證據 · 路加福音 1:37</sub> | Short · 導入 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · ab78002d | 已發布 | `UJFywWGR-7s` |
 | 2026-11-06 | [2026-10-29 · 歌羅西書 1:13](https://youtu.be/Zfvupou956w)<br><sub>每日經文 2026-10-29｜歌羅西書 1:13 — 脫離黑暗的權勢，遷入愛子的國</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 4a7ccd48 | 已發布 | `Zfvupou956w` |
 | 2026-11-06 | [2026-10-29 · 歌羅西書 1:13](https://www.youtube.com/shorts/Afn-A-FAT-k)<br><sub>每日經文 2026-10-29｜他救了我們脫離黑暗的權勢｜歌羅西書 1:13</sub> | Short · 鉤子 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 4a7ccd48 | 已發布 | `Afn-A-FAT-k` |
 | 2026-11-06 | [2026-10-29 · 歌羅西書 1:13](https://www.youtube.com/shorts/jjaYYh5Byko)<br><sub>每日經文 2026-10-29｜黑暗憑什麼統治你？全靠你籤的同意書｜歌羅西書 1:13</sub> | Short · 導入 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 4a7ccd48 | 已發布 | `jjaYYh5Byko` |
@@ -215,13 +218,16 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-10-31 | [2026-10-31 · 提摩太後書 3:16-17](https://www.youtube.com/shorts/pvP-BoX9vN0)<br><sub>每日經文 2026-10-31｜提摩太後書 3:16-17｜聖經是你自己意識的自傳</sub> | Short · 鉤子 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 1f8daa60 | 已發布 | `pvP-BoX9vN0` |
 | 2026-10-31 | [2026-10-31 · 提摩太後書 3:16-17](https://www.youtube.com/shorts/zMRz5A8ZLyg)<br><sub>每日經文 2026-10-31｜提摩太後書 3:16-17｜你不是等著被組裝的人</sub> | Short · 導入 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · d7f07ddb | 已發布 | `zMRz5A8ZLyg` |
 
-## Daily Verse · Neville Readings — English (56)
+## Daily Verse · Neville Readings — English (59)
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
 | 2026-11-07 | [2026-10-31 · 2 Timothy 3:16-17](https://youtu.be/2QjTSmAaWas)<br><sub>Daily Verse 2026-10-31 | 2 Timothy 3:16-17 · All Scripture Is Given by Inspiration of God</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · fef65295 | Live | `2QjTSmAaWas` |
 | 2026-11-07 | [2026-10-31 · 2 Timothy 3:16-17](https://www.youtube.com/shorts/Q_xjDKZnlDw)<br><sub>Daily Verse 2026-10-31 | 2 Timothy 3:16-17 | The Bible Is Your Own Autobiography</sub> | Short (hook) | Daily Verse · Neville Readings 2026 (English) | Archived · fef65295 | Live | `Q_xjDKZnlDw` |
 | 2026-11-07 | [2026-10-31 · 2 Timothy 3:16-17](https://www.youtube.com/shorts/AJ1LkKiXWYQ)<br><sub>Daily Verse 2026-10-31 | 2 Timothy 3:16-17 | Not Waiting to Be Assembled — Only to Be Claimed</sub> | Short (funnel) | Daily Verse · Neville Readings 2026 (English) | Archived · fef65295 | Live | `AJ1LkKiXWYQ` |
+| 2026-11-07 | [2026-11-07 · Luke 1:37](https://youtu.be/HRt0SyZyWTo)<br><sub>Daily Verse 2026-11-07 · A Neville Reading | Luke 1:37 — No Word from God Is Without Power</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · 17ea996b | Live | `HRt0SyZyWTo` |
+| 2026-11-07 | [2026-11-07 · Luke 1:37](https://youtube.com/shorts/5D7JGv3sTEA)<br><sub>Daily Verse | Luke 1:37 — For with God Nothing Shall Be Impossible</sub> | Short (hook) | Daily Verse · Neville Readings 2026 (English) | Archived · 17ea996b | Live | `5D7JGv3sTEA` |
+| 2026-11-07 | [2026-11-07 · Luke 1:37](https://youtube.com/shorts/H9KsyFR1MLI)<br><sub>What Was Called Impossible Has Already Become Fact | Luke 1:37</sub> | Short (funnel) | Daily Verse · Neville Readings 2026 (English) | Archived · 17ea996b | Live | `H9KsyFR1MLI` |
 | 2026-11-06 | [2026-10-29 · Colossians 1:13](https://youtu.be/R07l9mc42m8)<br><sub>Daily Verse 2026-10-29 | Colossians 1:13 — Delivered from Darkness, Translated into the Kingdom</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · 9fba907e | Live | `R07l9mc42m8` |
 | 2026-11-06 | [2026-10-29 · Colossians 1:13](https://www.youtube.com/shorts/IUHcygmdPxI)<br><sub>Daily Verse 2026-10-29 | Delivered from the Power of Darkness | Colossians 1:13</sub> | Short (hook) | Daily Verse · Neville Readings 2026 (English) | Archived · 9fba907e | Live | `IUHcygmdPxI` |
 | 2026-11-06 | [2026-10-29 · Colossians 1:13](https://www.youtube.com/shorts/VVrs8PJ9ihs)<br><sub>Daily Verse 2026-10-29 | Darkness Has No Native Power Over You | Colossians 1:13</sub> | Short (funnel) | Daily Verse · Neville Readings 2026 (English) | Archived · 9fba907e | Live | `VVrs8PJ9ihs` |
