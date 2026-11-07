@@ -2,7 +2,7 @@
 
 Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, filterable version: https://king818.github.io/daddymi-publications/
 
-**288 public videos** · 56 replaced/private versions · Come, Follow Me 2026: 138 · Daily Verse · Neville Readings: 113 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 24 · Neville Inner Reading Podcast: 7
+**292 public videos** · 58 replaced/private versions · Come, Follow Me 2026: 138 · Daily Verse · Neville Readings: 113 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 28 · Neville Inner Reading Podcast: 7
 
 
 ## 來跟隨我 2026 — 中文（69）
@@ -276,11 +276,13 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-10-31 | [2026-10-31 · 2 Timothy 3:16-17](https://www.youtube.com/shorts/JdMBqNHm6rA)<br><sub>Daily Verse 2026-10-31 | 2 Timothy 3:16-17 | The Bible Is Your Own Autobiography</sub> | Short (hook) | Daily Verse · Neville Readings 2026 (English) | Archived · 23d36fc2 | Live | `JdMBqNHm6rA` |
 | 2026-10-31 | [2026-10-31 · 2 Timothy 3:16-17](https://www.youtube.com/shorts/T5KFITY_EvI)<br><sub>Daily Verse 2026-10-31 | 2 Timothy 3:16-17 | Not Waiting to Be Assembled — Only to Be Claimed</sub> | Short (funnel) | Daily Verse · Neville Readings 2026 (English) | Archived · 512c0577 | Live | `T5KFITY_EvI` |
 
-## 總會大會 · 長老定額組討論 — 中文（12）
+## 總會大會 · 長老定額組討論 — 中文（14）
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
-| 2026-11-04 | [长老定额组讨论](https://youtu.be/pgR84KJi2vo)<br><sub>长老定额组讨论｜聖靈的安慰 · 馬修·艾寧長老</sub> | 長集 | 總會大會演講 2026（中文） | 已存档 · d76c7dc7 | 已發布 | `pgR84KJi2vo` |
+| 2026-11-07 | [长老定额组讨论](https://youtu.be/7wG2hhH1uZA)<br><sub>长老定额组讨论｜聖靈的安慰 · 馬修·艾寧長老</sub> | 長集 | 總會大會演講 2026（中文） | 已存档 · d76c7dc7 | 已發布 | `7wG2hhH1uZA` |
+| 2026-11-07 | [長老定額組討論](https://youtube.com/shorts/AFN_vYV2iCs)<br><sub>長老定額組討論｜當你說「我無能為力」的那一天</sub> | Short · 鉤子 | 總會大會演講 2026（中文） | 已存档 · 792df700 | 已發布 | `AFN_vYV2iCs` |
+| 2026-11-07 | [長老定額組討論](https://youtube.com/shorts/oyHW238jr6E)<br><sub>長老定額組討論｜本主日討論：把重擔卸給主</sub> | Short · 導入 | 總會大會演講 2026（中文） | 已存档 · 9a1f5bf4 | 已發布 | `oyHW238jr6E` |
 | 2026-11-04 | [長老定額組討論](https://www.youtube.com/shorts/ZTsSlLV5DlI)<br><sub>長老定額組討論｜當你說「我無能為力」的那一天</sub> | Short · 鉤子 | 總會大會演講 2026（中文） | 已存档 · 792df700 | 已發布 | `ZTsSlLV5DlI` |
 | 2026-11-04 | [長老定額組討論](https://www.youtube.com/shorts/sVzNHxHUtBQ)<br><sub>長老定額組討論｜本主日討論：把重擔卸給主</sub> | Short · 導入 | 總會大會演講 2026（中文） | 已存档 · 9a1f5bf4 | 已發布 | `sVzNHxHUtBQ` |
 | 2026-10-31 | [「使用和平締造者的語言」— 埋葬紛爭的話，種下平安的話](https://youtu.be/MbQCNjRATgY)<br><sub>「使用和平締造者的語言」— 埋葬紛爭的話，種下平安的話｜長老定額組討論</sub> | 長集 | 總會大會演講 2026（中文） | 已存档 · 538cb840 | 已發布 | `MbQCNjRATgY` |
@@ -293,11 +295,13 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-10-31 | [我們越接近祂，就越接近彼此](https://www.youtube.com/shorts/3NpnGyy6F1A)<br><sub>我們越接近祂，就越接近彼此｜以基督為中心的合一</sub> | Short · 鉤子 | 總會大會演講 2026（中文） | 已存档 · a480e34d | 已發布 | `3NpnGyy6F1A` |
 | 2026-10-31 | [出席不等於屬於](https://www.youtube.com/shorts/Hgk5GlRb3tI)<br><sub>出席不等於屬於｜以基督為中心的合一</sub> | Short · 導入 | 總會大會演講 2026（中文） | 已存档 · 7995279f | 已發布 | `Hgk5GlRb3tI` |
 
-## General Conference Talks (Elders Quorum) — English (12)
+## General Conference Talks (Elders Quorum) — English (14)
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
-| 2026-11-04 | [Eyring — Comfort from the Holy Ghost](https://youtu.be/qtSEFFhFwIE)<br><sub>Elders Quorum | Comfort from the Holy Ghost · Matthew J. Eyring</sub> | Long | General Conference Talks 2026 (English) | Archived · 1850f84c | Live | `qtSEFFhFwIE` |
+| 2026-11-07 | [Eyring — Comfort from the Holy Ghost](https://youtu.be/jZWTQx9D9WI)<br><sub>Elders Quorum | Comfort from the Holy Ghost · Matthew J. Eyring</sub> | Long | General Conference Talks 2026 (English) | Archived · 1850f84c | Live | `jZWTQx9D9WI` |
+| 2026-11-07 | [Eyring — Comfort from the Holy Ghost](https://youtube.com/shorts/cUJyhs0Dkew)<br><sub>Elders Quorum | "I Can't Fix This" · Comfort from the Holy Ghost</sub> | Short (hook) | General Conference Talks 2026 (English) | Archived · 29fb9dfc | Live | `cUJyhs0Dkew` |
+| 2026-11-07 | [Eyring — Comfort from the Holy Ghost](https://youtube.com/shorts/rBhxFxTuNuU)<br><sub>Elders Quorum | This Sunday: Cast Your Burdens on Him</sub> | Short (funnel) | General Conference Talks 2026 (English) | Archived · a3b31b5d | Live | `rBhxFxTuNuU` |
 | 2026-11-04 | [Eyring — Comfort from the Holy Ghost](https://www.youtube.com/shorts/Ct4TPaZnzic)<br><sub>Elders Quorum | "I Can't Fix This" · Comfort from the Holy Ghost</sub> | Short (hook) | General Conference Talks 2026 (English) | Archived · 29fb9dfc | Live | `Ct4TPaZnzic` |
 | 2026-11-04 | [Eyring — Comfort from the Holy Ghost](https://www.youtube.com/shorts/V0RDi7o5GMY)<br><sub>Elders Quorum | This Sunday: Cast Your Burdens on Him</sub> | Short (funnel) | General Conference Talks 2026 (English) | Archived · a3b31b5d | Live | `V0RDi7o5GMY` |
 | 2026-10-31 | [Kyungu — Using the Language of Peacemakers](https://youtu.be/RrdehXYRaSw)<br><sub>Using the Language of Peacemakers · Elder Alfred Kyungu — Elders Quorum Discussion</sub> | Long | General Conference Talks 2026 (English) | Archived · ea7bdb9c | Live | `RrdehXYRaSw` |
@@ -343,7 +347,7 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-10-31 | ['Guaranteed 14% Returns'? A Dangerous Illusion | Finance Basics](https://www.youtube.com/shorts/_z0BhZ_z1P8) | Short (hook) | Finance Basics 2026 (English) | Archived · d6c05cce | Live | `_z0BhZ_z1P8` |
 | 2026-10-31 | [The Premium Lowers Your Real Cost to $109.08 | Finance Basics](https://www.youtube.com/shorts/meGAW-UginY) | Short (funnel) | Finance Basics 2026 (English) | Archived · ce324423 | Live | `meGAW-UginY` |
 
-## Replaced / Private versions (56)
+## Replaced / Private versions (58)
 
 Same productions, kept for the record — not public.
 
@@ -433,6 +437,18 @@ Same productions, kept for the record — not public.
 | 2026-11-03 | [Week 3 · In the Beginning God Created the Heaven and the Earth](https://youtu.be/dYm8oUBPmrw)<br><sub>2026 Week 3 | "Let There Be Light" — God's First Word to Chaos</sub> | Short (hook) | Come, Follow Me 2026 (English) | Not archived yet | Private · duplicate | `dYm8oUBPmrw` |
 | 2026-11-03 | [Week 3 · In the Beginning God Created the Heaven and the Earth](https://youtu.be/jPQQ-sY7tIM)<br><sub>2026 Week 3 | A Seven-Day Practice: Live the Week in Creation's Order</sub> | Short (funnel) | Come, Follow Me 2026 (English) | Not archived yet | Private · duplicate | `jPQQ-sY7tIM` |
 | 2026-11-02 | [Week 51 · Malachi](https://youtu.be/fU4h24jiZVY)<br><sub>Come, Follow Me 2026 Week 51 (Dec 14–20) | I Have Loved You, Saith the Lord — Malachi</sub> | Long | Come, Follow Me 2026 (English) | Not archived yet | Private · duplicate | `fU4h24jiZVY` |
+
+### 已取代 / Private · 總會大會 · 長老定額組討論 — 中文（1）
+
+| 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
+|---|---|---|---|---|---|---|
+| 2026-11-04 | [长老定额组讨论](https://youtu.be/pgR84KJi2vo)<br><sub>长老定额组讨论｜聖靈的安慰 · 馬修·艾寧長老</sub> | 長集 | 總會大會演講 2026（中文） | 已存档 · d76c7dc7 | Private · 已被取代 | `pgR84KJi2vo` |
+
+### 已取代 / Private · General Conference Talks (Elders Quorum) — English (1)
+
+| 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
+|---|---|---|---|---|---|---|
+| 2026-11-04 | [Eyring — Comfort from the Holy Ghost](https://youtu.be/qtSEFFhFwIE)<br><sub>Elders Quorum | Comfort from the Holy Ghost · Matthew J. Eyring</sub> | Long | General Conference Talks 2026 (English) | Archived · 1850f84c | Private · replaced | `qtSEFFhFwIE` |
 
 ## Unverified / pending
 
