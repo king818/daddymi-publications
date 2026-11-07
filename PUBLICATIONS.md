@@ -280,9 +280,9 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
-| 2026-11-07 | [长老定额组讨论](https://youtu.be/7wG2hhH1uZA)<br><sub>长老定额组讨论｜聖靈的安慰 · 馬修·艾寧長老</sub> | 長集 | 總會大會演講 2026（中文） | 已存档 · d76c7dc7 | 已發布 | `7wG2hhH1uZA` |
-| 2026-11-07 | [長老定額組討論](https://youtube.com/shorts/AFN_vYV2iCs)<br><sub>長老定額組討論｜當你說「我無能為力」的那一天</sub> | Short · 鉤子 | 總會大會演講 2026（中文） | 已存档 · 792df700 | 已發布 | `AFN_vYV2iCs` |
-| 2026-11-07 | [長老定額組討論](https://youtube.com/shorts/oyHW238jr6E)<br><sub>長老定額組討論｜本主日討論：把重擔卸給主</sub> | Short · 導入 | 總會大會演講 2026（中文） | 已存档 · 9a1f5bf4 | 已發布 | `oyHW238jr6E` |
+| 2026-11-07 | [长老定额组讨论](https://youtu.be/fGcZ76XH3BI)<br><sub>长老定额组讨论｜聖靈的安慰 · 馬修·艾寧長老</sub> | 長集 | 總會大會演講 2026（中文） | 已存档 · d76c7dc7 | 已發布 | `fGcZ76XH3BI` |
+| 2026-11-07 | [長老定額組討論](https://youtube.com/shorts/3AcJS6OdvQw)<br><sub>長老定額組討論｜當你說「我無能為力」的那一天</sub> | Short · 鉤子 | 總會大會演講 2026（中文） | 已存档 · 792df700 | 已發布 | `3AcJS6OdvQw` |
+| 2026-11-07 | [長老定額組討論](https://youtube.com/shorts/4B5taYgn8e4)<br><sub>長老定額組討論｜本主日討論：把重擔卸給主</sub> | Short · 導入 | 總會大會演講 2026（中文） | 已存档 · 9a1f5bf4 | 已發布 | `4B5taYgn8e4` |
 | 2026-11-04 | [長老定額組討論](https://www.youtube.com/shorts/ZTsSlLV5DlI)<br><sub>長老定額組討論｜當你說「我無能為力」的那一天</sub> | Short · 鉤子 | 總會大會演講 2026（中文） | 已存档 · 792df700 | 已發布 | `ZTsSlLV5DlI` |
 | 2026-11-04 | [長老定額組討論](https://www.youtube.com/shorts/sVzNHxHUtBQ)<br><sub>長老定額組討論｜本主日討論：把重擔卸給主</sub> | Short · 導入 | 總會大會演講 2026（中文） | 已存档 · 9a1f5bf4 | 已發布 | `sVzNHxHUtBQ` |
 | 2026-10-31 | [「使用和平締造者的語言」— 埋葬紛爭的話，種下平安的話](https://youtu.be/MbQCNjRATgY)<br><sub>「使用和平締造者的語言」— 埋葬紛爭的話，種下平安的話｜長老定額組討論</sub> | 長集 | 總會大會演講 2026（中文） | 已存档 · 538cb840 | 已發布 | `MbQCNjRATgY` |
@@ -299,9 +299,9 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
-| 2026-11-07 | [Eyring — Comfort from the Holy Ghost](https://youtu.be/jZWTQx9D9WI)<br><sub>Elders Quorum | Comfort from the Holy Ghost · Matthew J. Eyring</sub> | Long | General Conference Talks 2026 (English) | Archived · 1850f84c | Live | `jZWTQx9D9WI` |
-| 2026-11-07 | [Eyring — Comfort from the Holy Ghost](https://youtube.com/shorts/cUJyhs0Dkew)<br><sub>Elders Quorum | "I Can't Fix This" · Comfort from the Holy Ghost</sub> | Short (hook) | General Conference Talks 2026 (English) | Archived · 29fb9dfc | Live | `cUJyhs0Dkew` |
-| 2026-11-07 | [Eyring — Comfort from the Holy Ghost](https://youtube.com/shorts/rBhxFxTuNuU)<br><sub>Elders Quorum | This Sunday: Cast Your Burdens on Him</sub> | Short (funnel) | General Conference Talks 2026 (English) | Archived · a3b31b5d | Live | `rBhxFxTuNuU` |
+| 2026-11-07 | [Eyring — Comfort from the Holy Ghost](https://youtu.be/wnRykgNXu7w)<br><sub>Elders Quorum | Comfort from the Holy Ghost · Matthew J. Eyring</sub> | Long | General Conference Talks 2026 (English) | Archived · 1850f84c | Live | `wnRykgNXu7w` |
+| 2026-11-07 | [Eyring — Comfort from the Holy Ghost](https://youtube.com/shorts/RKvbTIZCQ_A)<br><sub>Elders Quorum | "I Can't Fix This" · Comfort from the Holy Ghost</sub> | Short (hook) | General Conference Talks 2026 (English) | Archived · 29fb9dfc | Live | `RKvbTIZCQ_A` |
+| 2026-11-07 | [Eyring — Comfort from the Holy Ghost](https://youtube.com/shorts/TnCcK69ETpA)<br><sub>Elders Quorum | This Sunday: Cast Your Burdens on Him</sub> | Short (funnel) | General Conference Talks 2026 (English) | Archived · a3b31b5d | Live | `TnCcK69ETpA` |
 | 2026-11-04 | [Eyring — Comfort from the Holy Ghost](https://www.youtube.com/shorts/Ct4TPaZnzic)<br><sub>Elders Quorum | "I Can't Fix This" · Comfort from the Holy Ghost</sub> | Short (hook) | General Conference Talks 2026 (English) | Archived · 29fb9dfc | Live | `Ct4TPaZnzic` |
 | 2026-11-04 | [Eyring — Comfort from the Holy Ghost](https://www.youtube.com/shorts/V0RDi7o5GMY)<br><sub>Elders Quorum | This Sunday: Cast Your Burdens on Him</sub> | Short (funnel) | General Conference Talks 2026 (English) | Archived · a3b31b5d | Live | `V0RDi7o5GMY` |
 | 2026-10-31 | [Kyungu — Using the Language of Peacemakers](https://youtu.be/RrdehXYRaSw)<br><sub>Using the Language of Peacemakers · Elder Alfred Kyungu — Elders Quorum Discussion</sub> | Long | General Conference Talks 2026 (English) | Archived · ea7bdb9c | Live | `RrdehXYRaSw` |
