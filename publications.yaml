@@ -655,9 +655,9 @@ publications:
   language: zh
   type: Long
   title: 每日經文 2026-10-29｜歌羅西書 1:13 — 脫離黑暗的權勢，遷入愛子的國
-  published: '2026-11-05'
-  url: https://youtu.be/J1DVwqgo-Rk
-  native_id: J1DVwqgo-Rk
+  published: '2026-11-06'
+  url: https://youtu.be/Zfvupou956w
+  native_id: Zfvupou956w
   playlist: 每日經文 · Neville 解讀 2026（中文）
   archive_note: 4a7ccd48-92fe-483c-b1fb-17e77209b2ec
   status: Public
@@ -667,9 +667,57 @@ publications:
   language: en
   type: Long
   title: Daily Verse 2026-10-29 | Colossians 1:13 — Delivered from Darkness, Translated into the Kingdom
-  published: '2026-11-05'
-  url: https://youtu.be/p5_Wn87-q-o
-  native_id: p5_Wn87-q-o
+  published: '2026-11-06'
+  url: https://youtu.be/R07l9mc42m8
+  native_id: R07l9mc42m8
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: 9fba907e-933e-40ae-b26b-0aaac73d5845
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Colossians 1:13
+  language: zh
+  type: Short (hook)
+  title: '每日經文 2026-10-29｜他救了我們脫離黑暗的權勢｜歌羅西書 1:13 #Shorts'
+  published: '2026-11-06'
+  url: https://www.youtube.com/shorts/Afn-A-FAT-k
+  native_id: Afn-A-FAT-k
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: 4a7ccd48-92fe-483c-b1fb-17e77209b2ec
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Colossians 1:13
+  language: zh
+  type: Short (funnel)
+  title: '每日經文 2026-10-29｜黑暗憑什麼統治你？全靠你籤的同意書｜歌羅西書 1:13 #Shorts'
+  published: '2026-11-06'
+  url: https://www.youtube.com/shorts/jjaYYh5Byko
+  native_id: jjaYYh5Byko
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: 4a7ccd48-92fe-483c-b1fb-17e77209b2ec
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Colossians 1:13
+  language: en
+  type: Short (hook)
+  title: 'Daily Verse 2026-10-29 | Delivered from the Power of Darkness | Colossians 1:13 #Shorts'
+  published: '2026-11-06'
+  url: https://www.youtube.com/shorts/IUHcygmdPxI
+  native_id: IUHcygmdPxI
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: 9fba907e-933e-40ae-b26b-0aaac73d5845
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Colossians 1:13
+  language: en
+  type: Short (funnel)
+  title: 'Daily Verse 2026-10-29 | Darkness Has No Native Power Over You | Colossians 1:13 #Shorts'
+  published: '2026-11-06'
+  url: https://www.youtube.com/shorts/VVrs8PJ9ihs
+  native_id: VVrs8PJ9ihs
   playlist: Daily Verse · Neville Readings 2026 (English)
   archive_note: 9fba907e-933e-40ae-b26b-0aaac73d5845
   status: Public
@@ -3650,6 +3698,30 @@ replaced_or_private:
   playlist: Daily Verse · Neville Readings 2026 (English)
   archive_note: bf6db083-dbba-42f6-a0c6-184461c26bbd
   status: Private — replaced by the four-item-repair version Sf-zYtC1q40 in the 2026-11-06 swap (transparency fix + per-episode imagery + background music + new motion Shorts, per the boss's 2026-11-06 four-item repair standard); this version's slide imagery was dimmed throughout by the old template's full-frame dark panel (opacity defect) and it carried no background music; set Private per boss ruling, not deleted, and removed from the playlist; the repaired build is recorded in the archive note and retained in the run directory; Evernote append of the replacement landed and verified 2026-11-06
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Colossians 1:13
+  language: zh
+  type: Long
+  title: 每日經文 2026-10-29｜歌羅西書 1:13 — 脫離黑暗的權勢，遷入愛子的國
+  published: '2026-11-05'
+  url: https://youtu.be/J1DVwqgo-Rk
+  native_id: J1DVwqgo-Rk
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: 4a7ccd48-92fe-483c-b1fb-17e77209b2ec
+  status: Private — replaced by the four-item-repair version Zfvupou956w in the 2026-11-06 swap (transparency fix + per-episode imagery + background music + new motion Shorts, per the boss's 2026-11-06 four-item repair standard); this version (the 2026-11-05 per-episode-imagery build, itself the replacement for the template-background original CqrH_GpoY1E) kept the dedicated imagery but its slides were still dimmed by the old template's residual full-frame dark panel (measured panel alpha 111–215) and it carried no background music; set Private per boss ruling, not deleted, and removed from the playlist; the repaired build is recorded in the archive note and retained in the run directory; Evernote append of the replacement landed and verified 2026-11-06
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Colossians 1:13
+  language: en
+  type: Long
+  title: Daily Verse 2026-10-29 | Colossians 1:13 — Delivered from Darkness, Translated into the Kingdom
+  published: '2026-11-05'
+  url: https://youtu.be/p5_Wn87-q-o
+  native_id: p5_Wn87-q-o
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: 9fba907e-933e-40ae-b26b-0aaac73d5845
+  status: Private — replaced by the four-item-repair version R07l9mc42m8 in the 2026-11-06 swap (transparency fix + per-episode imagery + background music + new motion Shorts, per the boss's 2026-11-06 four-item repair standard); this version (the 2026-11-05 per-episode-imagery build, itself the replacement for the template-background original X1mU9rHDKs4) kept the dedicated imagery but its slides were still dimmed by the old template's residual full-frame dark panel (measured panel alpha 112–215) and it carried no background music; set Private per boss ruling, not deleted, and removed from the playlist; the repaired build is recorded in the archive note and retained in the run directory; Evernote append of the replacement landed and verified 2026-11-06
 - platform: YouTube
   series: Daily Verse · Neville Readings
   topic: James 1:12
