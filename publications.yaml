@@ -3673,6 +3673,18 @@ publications:
   archive_note: 7c12cab9-3c3b-40e5-a341-fd3207b43a9a
   playlist: 每日經文 · Neville 解讀 2026（中文）
   status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Romans 8:28
+  language: zh-Hant
+  type: Short
+  title: 羅馬書 8:28｜「萬事互相效力」不是宿命的安慰——破碎的痛苦，怎麼可能是為我好？
+  published: '2026-11-07'
+  url: https://www.youtube.com/shorts/WwEI-ZeKlr0
+  native_id: WwEI-ZeKlr0
+  archive_note: 7c12cab9-3c3b-40e5-a341-fd3207b43a9a
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  status: Public
 replaced_or_private:
 - platform: YouTube
   series: Daily Verse · Neville Readings
