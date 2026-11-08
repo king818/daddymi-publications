@@ -3661,6 +3661,18 @@ publications:
   archive_note: 17ea996b-c31e-4f56-af2d-2b627deb132f
   playlist: Daily Verse · Neville Readings 2026 (English)
   status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Romans 8:28
+  language: zh-Hant
+  type: Long
+  title: 每日經文｜羅馬書 8:28 萬事互相效力，叫愛神的人得益處｜內維爾解讀
+  published: '2026-11-07'
+  url: https://youtu.be/KW0IIK_razI
+  native_id: KW0IIK_razI
+  archive_note: 7c12cab9-3c3b-40e5-a341-fd3207b43a9a
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  status: Public
 replaced_or_private:
 - platform: YouTube
   series: Daily Verse · Neville Readings
