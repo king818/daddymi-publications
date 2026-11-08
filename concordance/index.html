@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="zh-Hans" data-lang="zh-hans">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Neville's Bible Concordance · 内维尔圣经索引 · 內維爾聖經索引 — Which Verses Did Neville Cite, and Where</title>
+<meta name="description" content="A free bilingual index of the verses Neville Goddard cites in his books and lectures, and where he cites them — every record verified against the primary text. 免费双语索引：内维尔引用过哪些经文、在哪本书/哪场讲座引用，逐条对原典核实。免費雙語索引：內維爾引用過哪些經文、在哪本書／哪場講座引用，逐條對原典核實。">
+<script>
+(function () {
+  var HTML_LANG = { 'zh-hans': 'zh-Hans', 'zh-hant': 'zh-Hant', 'en': 'en' };
+  function detect() {
+    var saved = null;
+    try { saved = localStorage.getItem('gw-lang'); } catch (e) {}
+    if (saved === 'zh') { return 'zh-hans'; } /* legacy value migrates to Simplified */
+    if (saved === 'zh-hans' || saved === 'zh-hant' || saved === 'en') { return saved; }
+    var langs = (navigator.languages && navigator.languages.length)
+      ? navigator.languages
+      : [navigator.language || 'en'];
+    for (var i = 0; i < langs.length; i++) {
+      var L = String(langs[i]).toLowerCase();
+      if (/^zh-hant/.test(L) || /^zh-tw/.test(L) || /^zh-hk/.test(L) || /^zh-mo/.test(L)) { return 'zh-hant'; }
+      if (/^zh/.test(L)) { return 'zh-hans'; }
+    }
+    return 'en';
+  }
+  var lang = detect();
+  document.documentElement.setAttribute('data-lang', lang);
+  document.documentElement.setAttribute('lang', HTML_LANG[lang]);
+
+  window.gwSyncButtons = function () {
+    var cur = document.documentElement.getAttribute('data-lang');
+    var map = { 'btn-zh-hans': 'zh-hans', 'btn-zh-hant': 'zh-hant', 'btn-en': 'en' };
+    for (var id in map) {
+      var b = document.getElementById(id);
+      if (b) {
+        var on = cur === map[id];
+        b.classList.toggle('active', on);
+        b.setAttribute('aria-pressed', on ? 'true' : 'false');
+      }
+    }
+  };
+  window.gwSetLang = function (l) {
+    if (l === 'zh') { l = 'zh-hans'; } /* legacy alias */
+    if (!HTML_LANG.hasOwnProperty(l)) { return; }
+    document.documentElement.setAttribute('data-lang', l);
+    document.documentElement.setAttribute('lang', HTML_LANG[l]);
+    try { localStorage.setItem('gw-lang', l); } catch (e) {}
+    window.gwSyncButtons();
+  };
+  document.addEventListener('DOMContentLoaded', window.gwSyncButtons);
+})();
+</script>
+<style>
+  :root{
+    --ink:#2b2620; --muted:#6f6659; --paper:#fbf7ef; --card:#ffffff;
+    --accent:#8a5a2b; --accent-dark:#6d4520; --line:#e7dcc8;
+    --badge-bg:#f3e7cf; --radius:14px;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    font-family:"Noto Serif SC","Songti SC","STSong",Georgia,"Times New Roman",serif;
+    background:var(--paper); color:var(--ink); line-height:1.75;
+    -webkit-font-smoothing:antialiased;
+  }
+  html[data-lang="en"] body{font-family:Georgia,"Times New Roman","Noto Serif SC",serif;}
+  html[data-lang="zh-hant"] body{font-family:"Noto Serif TC","Songti TC","PMingLiU","Noto Serif SC",Georgia,serif;}
+  html[data-lang="zh-hans"] .view-zh-hant, html[data-lang="zh-hans"] .view-en{display:none;}
+  html[data-lang="zh-hant"] .view-zh, html[data-lang="zh-hant"] .view-en{display:none;}
+  html[data-lang="en"] .view-zh, html[data-lang="en"] .view-zh-hant{display:none;}
+  .wrap{max-width:760px; margin:0 auto; padding:0 20px 64px;}
+  .langbar{display:flex; justify-content:flex-end; align-items:center; gap:8px; padding-top:18px;}
+  .langbar button{
+    font:inherit; font-size:14.5px; padding:5px 14px; border-radius:999px; cursor:pointer;
+    background:transparent; color:var(--muted); border:1px solid var(--line);
+  }
+  .langbar button.active{background:var(--accent); color:#fff; border-color:var(--accent); font-weight:700;}
+  .langsep{color:var(--muted); font-size:14px;}
+  header{padding:28px 0 8px; text-align:center;}
+  .kicker{letter-spacing:.35em; font-size:13px; color:var(--accent); text-transform:uppercase;}
+  h1{font-size:34px; line-height:1.35; margin:14px 0 6px; font-weight:700;}
+  h1 .sub{display:block; font-size:19px; font-weight:400; color:var(--muted); letter-spacing:.06em; margin-top:6px;}
+  .tagline{color:var(--muted); font-size:16px; margin-top:10px;}
+  .status{
+    display:inline-block; margin:22px auto 0; padding:8px 18px; border-radius:999px;
+    background:var(--badge-bg); color:var(--accent-dark); font-size:15px; font-weight:600;
+    border:1px solid var(--line);
+  }
+  section{
+    background:var(--card); border:1px solid var(--line); border-radius:var(--radius);
+    padding:28px 28px 24px; margin-top:26px;
+  }
+  h2{font-size:22px; margin-bottom:10px; color:var(--accent-dark);}
+  p{margin:8px 0;}
+  .muted{color:var(--muted); font-size:15px;}
+  .fineprint{font-size:14px; color:var(--muted);}
+  .cta{display:block; text-align:center; margin:20px 0 6px;}
+  .btn{
+    display:inline-block; padding:14px 30px; border-radius:999px; text-decoration:none;
+    font-size:17px; font-weight:700; background:var(--accent); color:#fff;
+    box-shadow:0 2px 8px rgba(109,69,32,.25);
+  }
+  .btn:hover{background:var(--accent-dark);}
+  footer{text-align:center; color:var(--muted); font-size:13.5px; margin-top:36px;}
+  .rec{border-top:1px dashed var(--line); padding:16px 0 8px;}
+  .rec:first-of-type{border-top:none; padding-top:4px;}
+  .rec h3{font-size:18.5px; color:var(--accent-dark); margin-bottom:2px;}
+  .rec blockquote{border-left:3px solid var(--line); padding:2px 0 2px 16px; margin:8px 0; font-style:italic;}
+  .rec .meta{font-size:15px;}
+  .rec .meta strong{color:var(--accent-dark);}
+  .rec .req{font-size:15px; margin-top:2px;}
+  @media (max-width:560px){
+    h1{font-size:27px;}
+    section{padding:22px 18px 18px;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="langbar" role="group" aria-label="Language">
+    <button type="button" id="btn-zh-hans" onclick="gwSetLang('zh-hans')">简体</button>
+    <span class="langsep">|</span>
+    <button type="button" id="btn-zh-hant" onclick="gwSetLang('zh-hant')">繁體</button>
+    <span class="langsep">|</span>
+    <button type="button" id="btn-en" onclick="gwSetLang('en')">English</button>
+  </div>
+
+  <!-- ================= 简体中文视图 ================= -->
+  <div class="view-zh" lang="zh-Hans">
+
+    <header>
+      <div class="kicker">免费索引 · Free Citation Index</div>
+      <h1>内维尔圣经索引
+        <span class="sub">Neville's Bible Concordance — 内维尔引用过哪些经文，在哪里引用</span>
+      </h1>
+      <p class="tagline">只记事实：经文出处、引用位置、本义一句话。每条都对 Neville 原著与讲座全文逐字核实。</p>
+      <div class="status">首版 6 条 · 2026-11-08 核实 · 持续增补中</div>
+    </header>
+
+    <section>
+      <h2>这份索引是什么</h2>
+      <p>Neville Goddard 的书和讲座里引用了大量经文，却很少有人把「哪节经文、在哪本书、哪一章」系统地记下来。这份免费索引就是做这件事：每条记录包含经文、他引用它的作品与位置、引用形式，以及这节经文在原有语境中的本义一句话。</p>
+      <p><strong>核实标准：</strong>每条都对着他作品与讲座的全文核对过，引文用他印出的经文原文（他印出的 Psalm 46:10「I AM」为大写、无逗号）。还没核实的，不收。标「尚未成篇」的条目，是我们接下来写《福音智慧》每日灵修的选题路线图——你点哪条，我们就先考虑哪条。</p>
+    </section>
+
+    <section>
+      <h2>索引（首版）</h2>
+
+      <div class="rec">
+        <h3>出埃及记 3:14 · Exodus 3:14</h3>
+        <blockquote>"I AM hath sent me unto you."</blockquote>
+        <p class="meta"><strong>出处：</strong>《At Your Command》（1939）正文——被引为全书根基。</p>
+        <p class="meta"><strong>本义：</strong>燃烧的荆棘前，神把祂的名字告诉摩西——自有永有本身，先于任何称号与支派。</p>
+        <p class="req">《福音智慧》尚未成篇 —— <a href="https://docs.google.com/forms/d/e/1FAIpQLSfwqTcZwqPH-WPPqm6Pa_ZXQui9nSpIOPoYSq72XCWl3XsUKQ/viewform" target="_blank" rel="noopener">在登记表第一题选「建议写哪一篇经文」告诉我们</a></p>
+      </div>
+
+      <div class="rec">
+        <h3>诗篇 46:10 · Psalm 46:10</h3>
+        <blockquote>"Be still and know that I AM God."</blockquote>
+        <p class="meta"><strong>出处：</strong>《At Your Command》（1939）正文——与上一条在同一段根基文字中被引。</p>
+        <p class="meta"><strong>本义：</strong>战乱诗篇中的静止点——列国喧嚷，神的子民被吩咐停下挣扎，认识祂是谁。</p>
+        <p class="req">《福音智慧》尚未成篇 —— <a href="https://docs.google.com/forms/d/e/1FAIpQLSfwqTcZwqPH-WPPqm6Pa_ZXQui9nSpIOPoYSq72XCWl3XsUKQ/viewform" target="_blank" rel="noopener">在登记表第一题选「建议写哪一篇经文」告诉我们</a></p>
+      </div>
+
+      <div class="rec">
+        <h3>马可福音 11:24 · Mark 11:24</h3>
+        <blockquote>"Whatsoever things ye desire, when ye pray believe that you have received them, and ye shall have them."</blockquote>
+        <p class="meta"><strong>出处：</strong>《Feeling Is the Secret》（1944）第 3 章「Prayer」——原文印出经文出处。</p>
+        <p class="meta"><strong>本义：</strong>耶稣论祷告——以「已经得着」的信心领受，并与饶恕人相连（第 25 节）。</p>
+        <p class="req">《福音智慧》尚未成篇 —— <a href="https://docs.google.com/forms/d/e/1FAIpQLSfwqTcZwqPH-WPPqm6Pa_ZXQui9nSpIOPoYSq72XCWl3XsUKQ/viewform" target="_blank" rel="noopener">在登记表第一题选「建议写哪一篇经文」告诉我们</a></p>
+      </div>
+
+      <div class="rec">
+        <h3>约翰福音 1:1 · John 1:1</h3>
+        <blockquote>"In the beginning was the Word, and the Word was with God, and the Word was God."</blockquote>
+        <p class="meta"><strong>出处：</strong>《Your Faith Is Your Fortune》（1941）第 1 章「Before Abraham Was」——本章两则题词之一。</p>
+        <p class="meta"><strong>本义：</strong>约翰福音序言——创造以先，道已经存在：与神同在，而且就是神。</p>
+        <p class="req">《福音智慧》已有全文：<strong>第 4 篇 · 约翰福音 1:1</strong> —— <a href="../gospel-wisdom/">去读这一篇（免费试读内）</a></p>
+      </div>
+
+      <div class="rec">
+        <h3>约翰福音 8:58 · John 8:58</h3>
+        <blockquote>"Verily, verily, I say unto you, before Abraham was, I AM."</blockquote>
+        <p class="meta"><strong>出处：</strong>《Your Faith Is Your Fortune》（1941）第 1 章「Before Abraham Was」——本章标题经文、第一则题词。</p>
+        <p class="meta"><strong>本义：</strong>在圣殿的争论中，耶稣宣告亚伯拉罕之前已存在的「我是」——清楚呼应出埃及记 3:14。</p>
+        <p class="req">《福音智慧》尚未成篇 —— <a href="https://docs.google.com/forms/d/e/1FAIpQLSfwqTcZwqPH-WPPqm6Pa_ZXQui9nSpIOPoYSq72XCWl3XsUKQ/viewform" target="_blank" rel="noopener">在登记表第一题选「建议写哪一篇经文」告诉我们</a></p>
+      </div>
+
+      <div class="rec">
+        <h3>约翰福音 3:8 · John 3:8</h3>
+        <blockquote>"As the wind blows where it will and you hear the sound of it but cannot tell whence it comes or whither it goes, so it is with everyone who is born of the spirit."（Neville 本人的转述，讲座录文）</blockquote>
+        <p class="meta"><strong>出处：</strong>讲座「Signs from Above」（旧金山，1968 年 6 月 24 日）——整场讲解约翰福音第 3 章。</p>
+        <p class="meta"><strong>本义：</strong>耶稣对尼哥底母论「从上头生」——圣灵如风运行，来源不可见。</p>
+        <p class="req">《福音智慧》尚未成篇 —— <a href="https://docs.google.com/forms/d/e/1FAIpQLSfwqTcZwqPH-WPPqm6Pa_ZXQui9nSpIOPoYSq72XCWl3XsUKQ/viewform" target="_blank" rel="noopener">在登记表第一题选「建议写哪一篇经文」告诉我们</a></p>
+      </div>
+
+      <p class="fineprint">核实来源（2026-11-08 对全文核对）：《At Your Command》（1939）、《Your Faith Is Your Fortune》（1941）、《Feeling Is the Secret》（1944）全文版，以及讲座「Signs from Above」（1968-06-24）录文。本页只登事实性引文资料与经文短引，不登 Neville 的著作正文。</p>
+    </section>
+
+    <section>
+      <h2>再深入一步：《福音智慧》每日灵修</h2>
+      <p>索引告诉你经文在哪里；《福音智慧》把经文一篇一篇读完——先交代语境原意，再用 Neville 的内在解读方法读，并如实标注为诠释。第 1–7 篇全文免费，先读再决定。</p>
+      <div class="cta">
+        <a class="btn" href="../gospel-wisdom/">读《福音智慧》（第 1–7 篇免费）</a>
+      </div>
+    </section>
+
+    <footer>
+      内维尔圣经索引 · Neville's Bible Concordance — 米老爸 Daddy Mi 团队编制<br>
+      客服邮箱：<a href="mailto:edgegaming@gmail.com">edgegaming@gmail.com</a> · © 2026 米老爸 Daddy Mi，版权所有。
+    </footer>
+
+  </div>
+
+  <!-- ================= 繁體中文視圖 ================= -->
+  <div class="view-zh-hant" lang="zh-Hant">
+
+    <header>
+      <div class="kicker">免費索引 · Free Citation Index</div>
+      <h1>內維爾聖經索引
+        <span class="sub">Neville's Bible Concordance — 內維爾引用過哪些經文，在哪裡引用</span>
+      </h1>
+      <p class="tagline">只記事實：經文出處、引用位置、本義一句話。每條都對 Neville 原著與講座全文逐字核實。</p>
+      <div class="status">首版 6 條 · 2026-11-08 核實 · 持續增補中</div>
+    </header>
+
+    <section>
+      <h2>這份索引是什麼</h2>
+      <p>Neville Goddard 的書和講座裡引用了大量經文，卻很少有人把「哪節經文、在哪本書、哪一章」系統地記下來。這份免費索引就是做這件事：每條記錄包含經文、他引用它的作品與位置、引用形式，以及這節經文在原有語境中的本義一句話。</p>
+      <p><strong>核實標準：</strong>每條都對著他作品與講座的全文核對過，引文用他印出的經文原文（他印出的 Psalm 46:10「I AM」為大寫、無逗號）。還沒核實的，不收。標「尚未成篇」的條目，是我們接下來寫《福音智慧》每日靈修的選題路線圖——你點哪條，我們就先考慮哪條。</p>
+    </section>
+
+    <section>
+      <h2>索引（首版）</h2>
+
+      <div class="rec">
+        <h3>出埃及記 3:14 · Exodus 3:14</h3>
+        <blockquote>"I AM hath sent me unto you."</blockquote>
+        <p class="meta"><strong>出處：</strong>《At Your Command》（1939）正文——被引為全書根基。</p>
+        <p class="meta"><strong>本義：</strong>燃燒的荊棘前，神把祂的名字告訴摩西——自有永有本身，先於任何稱號與支派。</p>
+        <p class="req">《福音智慧》尚未成篇 —— <a href="https://docs.google.com/forms/d/e/1FAIpQLSfwqTcZwqPH-WPPqm6Pa_ZXQui9nSpIOPoYSq72XCWl3XsUKQ/viewform" target="_blank" rel="noopener">在登記表第一題選「建議寫哪一篇經文」告訴我們</a></p>
+      </div>
+
+      <div class="rec">
+        <h3>詩篇 46:10 · Psalm 46:10</h3>
+        <blockquote>"Be still and know that I AM God."</blockquote>
+        <p class="meta"><strong>出處：</strong>《At Your Command》（1939）正文——與上一條在同一段根基文字中被引。</p>
+        <p class="meta"><strong>本義：</strong>戰亂詩篇中的靜止點——列國喧嚷，神的子民被吩咐停下掙扎，認識祂是誰。</p>
+        <p class="req">《福音智慧》尚未成篇 —— <a href="https://docs.google.com/forms/d/e/1FAIpQLSfwqTcZwqPH-WPPqm6Pa_ZXQui9nSpIOPoYSq72XCWl3XsUKQ/viewform" target="_blank" rel="noopener">在登記表第一題選「建議寫哪一篇經文」告訴我們</a></p>
+      </div>
+
+      <div class="rec">
+        <h3>馬可福音 11:24 · Mark 11:24</h3>
+        <blockquote>"Whatsoever things ye desire, when ye pray believe that you have received them, and ye shall have them."</blockquote>
+        <p class="meta"><strong>出處：</strong>《Feeling Is the Secret》（1944）第 3 章「Prayer」——原文印出經文出處。</p>
+        <p class="meta"><strong>本義：</strong>耶穌論禱告——以「已經得著」的信心領受，並與饒恕人相連（第 25 節）。</p>
+        <p class="req">《福音智慧》尚未成篇 —— <a href="https://docs.google.com/forms/d/e/1FAIpQLSfwqTcZwqPH-WPPqm6Pa_ZXQui9nSpIOPoYSq72XCWl3XsUKQ/viewform" target="_blank" rel="noopener">在登記表第一題選「建議寫哪一篇經文」告訴我們</a></p>
+      </div>
+
+      <div class="rec">
+        <h3>約翰福音 1:1 · John 1:1</h3>
+        <blockquote>"In the beginning was the Word, and the Word was with God, and the Word was God."</blockquote>
+        <p class="meta"><strong>出處：</strong>《Your Faith Is Your Fortune》（1941）第 1 章「Before Abraham Was」——本章兩則題詞之一。</p>
+        <p class="meta"><strong>本義：</strong>約翰福音序言——創造以先，道已經存在：與神同在，而且就是神。</p>
+        <p class="req">《福音智慧》已有全文：<strong>第 4 篇 · 約翰福音 1:1</strong> —— <a href="../gospel-wisdom/">去讀這一篇（免費試讀內）</a></p>
+      </div>
+
+      <div class="rec">
+        <h3>約翰福音 8:58 · John 8:58</h3>
+        <blockquote>"Verily, verily, I say unto you, before Abraham was, I AM."</blockquote>
+        <p class="meta"><strong>出處：</strong>《Your Faith Is Your Fortune》（1941）第 1 章「Before Abraham Was」——本章標題經文、第一則題詞。</p>
+        <p class="meta"><strong>本義：</strong>在聖殿的爭論中，耶穌宣告亞伯拉罕之前已存在的「我是」——清楚呼應出埃及記 3:14。</p>
+        <p class="req">《福音智慧》尚未成篇 —— <a href="https://docs.google.com/forms/d/e/1FAIpQLSfwqTcZwqPH-WPPqm6Pa_ZXQui9nSpIOPoYSq72XCWl3XsUKQ/viewform" target="_blank" rel="noopener">在登記表第一題選「建議寫哪一篇經文」告訴我們</a></p>
+      </div>
+
+      <div class="rec">
+        <h3>約翰福音 3:8 · John 3:8</h3>
+        <blockquote>"As the wind blows where it will and you hear the sound of it but cannot tell whence it comes or whither it goes, so it is with everyone who is born of the spirit."（Neville 本人的轉述，講座錄文）</blockquote>
+        <p class="meta"><strong>出處：</strong>講座「Signs from Above」（舊金山，1968 年 6 月 24 日）——整場講解約翰福音第 3 章。</p>
+        <p class="meta"><strong>本義：</strong>耶穌對尼哥底母論「從上頭生」——聖靈如風運行，來源不可見。</p>
+        <p class="req">《福音智慧》尚未成篇 —— <a href="https://docs.google.com/forms/d/e/1FAIpQLSfwqTcZwqPH-WPPqm6Pa_ZXQui9nSpIOPoYSq72XCWl3XsUKQ/viewform" target="_blank" rel="noopener">在登記表第一題選「建議寫哪一篇經文」告訴我們</a></p>
+      </div>
+
+      <p class="fineprint">核實來源（2026-11-08 對全文核對）：《At Your Command》（1939）、《Your Faith Is Your Fortune》（1941）、《Feeling Is the Secret》（1944）全文版，以及講座「Signs from Above」（1968-06-24）錄文。本頁只登事實性引文資料與經文短引，不登 Neville 的著作正文。</p>
+    </section>
+
+    <section>
+      <h2>再深入一步：《福音智慧》每日靈修</h2>
+      <p>索引告訴你經文在哪裡；《福音智慧》把經文一篇一篇讀完——先交代語境原意，再用 Neville 的內在解讀方法讀，並如實標註為詮釋。第 1–7 篇全文免費，先讀再決定。</p>
+      <div class="cta">
+        <a class="btn" href="../gospel-wisdom/">讀《福音智慧》（第 1–7 篇免費）</a>
+      </div>
+    </section>
+
+    <footer>
+      內維爾聖經索引 · Neville's Bible Concordance — 米老爸 Daddy Mi 團隊編製<br>
+      客服信箱：<a href="mailto:edgegaming@gmail.com">edgegaming@gmail.com</a> · © 2026 米老爸 Daddy Mi，版權所有。
+    </footer>
+
+  </div>
+
+  <!-- ================= English view ================= -->
+  <div class="view-en" lang="en">
+
+    <header>
+      <div class="kicker">Free Citation Index · 免费索引</div>
+      <h1>Neville's Bible Concordance
+        <span class="sub">Which verses did Neville Goddard cite — and where did he cite them?</span>
+      </h1>
+      <p class="tagline">Facts only: the verse, where he cites it, and its plain sense in one line. Every record verified word-by-word against the full text of his works and lecture transcripts.</p>
+      <div class="status">Version 0 · 6 records · Verified 2026-11-08 · Growing</div>
+    </header>
+
+    <section>
+      <h2>What this index is</h2>
+      <p>Neville Goddard's books and lectures quote scripture constantly, but almost nobody has systematically recorded <em>which</em> verse appears <em>where</em>. This free index does exactly that: each record gives the verse, the work and place where he cites it, the form of the citation, and one line on what the verse means in its own original context.</p>
+      <p><strong>Verification standard:</strong> every record was checked against the full text of his works and lectures, and quotations follow the scripture wording as printed there (his printed Psalm 46:10 has "I AM" in capitals and no comma). Unverified citations are not listed. Records marked "not yet written" are the roadmap for what our <em>Gospel Wisdom</em> daily devotional writes next — request one, and it moves up the list.</p>
+    </section>
+
+    <section>
+      <h2>The index (v0)</h2>
+
+      <div class="rec">
+        <h3>Exodus 3:14</h3>
+        <blockquote>"I AM hath sent me unto you."</blockquote>
+        <p class="meta"><strong>Cited in:</strong> <em>At Your Command</em> (1939), main text — quoted and made the book's foundation.</p>
+        <p class="meta"><strong>Plain sense:</strong> at the burning bush, God gives Moses His name — self-existent being itself, before any title or tribe.</p>
+        <p class="req">Gospel Wisdom entry: not yet written — <a href="https://docs.google.com/forms/d/e/1FAIpQLSfwqTcZwqPH-WPPqm6Pa_ZXQui9nSpIOPoYSq72XCWl3XsUKQ/viewform" target="_blank" rel="noopener">tell us via question 1 of the registration form (“suggest an entry”)</a></p>
+      </div>
+
+      <div class="rec">
+        <h3>Psalm 46:10</h3>
+        <blockquote>"Be still and know that I AM God."</blockquote>
+        <p class="meta"><strong>Cited in:</strong> <em>At Your Command</em> (1939), main text — quoted in the same foundational passage.</p>
+        <p class="meta"><strong>Plain sense:</strong> a war-time psalm's still point — nations raging, God's people told to stop striving and know who God is.</p>
+        <p class="req">Gospel Wisdom entry: not yet written — <a href="https://docs.google.com/forms/d/e/1FAIpQLSfwqTcZwqPH-WPPqm6Pa_ZXQui9nSpIOPoYSq72XCWl3XsUKQ/viewform" target="_blank" rel="noopener">tell us via question 1 of the registration form (“suggest an entry”)</a></p>
+      </div>
+
+      <div class="rec">
+        <h3>Mark 11:24</h3>
+        <blockquote>"Whatsoever things ye desire, when ye pray believe that you have received them, and ye shall have them."</blockquote>
+        <p class="meta"><strong>Cited in:</strong> <em>Feeling Is the Secret</em> (1944), Chapter 3, "Prayer" — quoted with the reference printed in the text.</p>
+        <p class="meta"><strong>Plain sense:</strong> Jesus teaches prayer — faith that receives as already given, joined to forgiving others (v. 25).</p>
+        <p class="req">Gospel Wisdom entry: not yet written — <a href="https://docs.google.com/forms/d/e/1FAIpQLSfwqTcZwqPH-WPPqm6Pa_ZXQui9nSpIOPoYSq72XCWl3XsUKQ/viewform" target="_blank" rel="noopener">tell us via question 1 of the registration form (“suggest an entry”)</a></p>
+      </div>
+
+      <div class="rec">
+        <h3>John 1:1</h3>
+        <blockquote>"In the beginning was the Word, and the Word was with God, and the Word was God."</blockquote>
+        <p class="meta"><strong>Cited in:</strong> <em>Your Faith Is Your Fortune</em> (1941), Chapter 1, "Before Abraham Was" — one of the chapter's two epigraphs.</p>
+        <p class="meta"><strong>Plain sense:</strong> John's prologue — before creation, the Word already was: with God, and God.</p>
+        <p class="req">Gospel Wisdom entry: <strong>Entry 4 · John 1:1</strong>, in full — <a href="../gospel-wisdom/">read it on the Gospel Wisdom page (in the free taste)</a></p>
+      </div>
+
+      <div class="rec">
+        <h3>John 8:58</h3>
+        <blockquote>"Verily, verily, I say unto you, before Abraham was, I AM."</blockquote>
+        <p class="meta"><strong>Cited in:</strong> <em>Your Faith Is Your Fortune</em> (1941), Chapter 1, "Before Abraham Was" — the chapter's title verse and first epigraph.</p>
+        <p class="meta"><strong>Plain sense:</strong> in a dispute in the Temple, Jesus claims a pre-Abrahamic "I AM" — an unmistakable echo of Exodus 3:14.</p>
+        <p class="req">Gospel Wisdom entry: not yet written — <a href="https://docs.google.com/forms/d/e/1FAIpQLSfwqTcZwqPH-WPPqm6Pa_ZXQui9nSpIOPoYSq72XCWl3XsUKQ/viewform" target="_blank" rel="noopener">tell us via question 1 of the registration form (“suggest an entry”)</a></p>
+      </div>
+
+      <div class="rec">
+        <h3>John 3:8</h3>
+        <blockquote>"As the wind blows where it will and you hear the sound of it but cannot tell whence it comes or whither it goes, so it is with everyone who is born of the spirit." (Neville's own paraphrase, lecture transcript)</blockquote>
+        <p class="meta"><strong>Cited in:</strong> lecture "Signs from Above" (San Francisco, June 24, 1968) — a full exposition of John 3.</p>
+        <p class="meta"><strong>Plain sense:</strong> Jesus to Nicodemus on being born from above — the Spirit moves like the wind, unseen in origin.</p>
+        <p class="req">Gospel Wisdom entry: not yet written — <a href="https://docs.google.com/forms/d/e/1FAIpQLSfwqTcZwqPH-WPPqm6Pa_ZXQui9nSpIOPoYSq72XCWl3XsUKQ/viewform" target="_blank" rel="noopener">tell us via question 1 of the registration form (“suggest an entry”)</a></p>
+      </div>
+
+      <p class="fineprint">Sources (full texts consulted, 2026-11-08): <em>At Your Command</em> (1939), <em>Your Faith Is Your Fortune</em> (1941), <em>Feeling Is the Secret</em> (1944), and the lecture transcript "Signs from Above" (1968-06-24). This page lists factual citation data and short scripture quotations only — none of Neville's prose is reproduced.</p>
+    </section>
+
+    <section>
+      <h2>Go deeper: the Gospel Wisdom daily devotional</h2>
+      <p>The index tells you where a verse lives in Neville's work. <em>Gospel Wisdom</em> reads the passages themselves, one entry a day — its original context first, then Neville's inner reading, labeled as interpretation. Entries 1–7 are free in full; read first, then decide.</p>
+      <div class="cta">
+        <a class="btn" href="../gospel-wisdom/">Read Gospel Wisdom (Entries 1–7 free)</a>
+      </div>
+    </section>
+
+    <footer>
+      Neville's Bible Concordance · 内维尔圣经索引 — compiled by Team Daddy Mi<br>
+      Customer service: <a href="mailto:edgegaming@gmail.com">edgegaming@gmail.com</a> · © 2026 Daddy Mi. All rights reserved.
+    </footer>
+
+  </div>
+
+</div>
+</body>
+</html>
