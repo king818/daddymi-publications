@@ -446,7 +446,7 @@ def main():
   <div id="list"></div>
   __UNV_HTML__
 </main>
-<footer class="sitefoot"><span data-ui="csLabel">Customer service:</span> <a href="mailto:edgegaming@gmail.com">edgegaming@gmail.com</a> · <span data-ui="copyright">© 2026 Daddy Mi. All rights reserved.</span></footer>
+<footer class="sitefoot"><span data-ui="csLabel">Customer service: </span><a href="mailto:edgegaming@gmail.com">edgegaming@gmail.com</a> · <span data-ui="copyright">© 2026 Daddy Mi. All rights reserved.</span></footer>
 <script>
 const PUBS = __PUBS_JSON__;
 const PRIV = __PRIV_JSON__;
@@ -472,7 +472,7 @@ const UI = {
     thTitle: "Title", thPublished: "Published", thType: "Type", thPlaylist: "Playlist", thArchive: "Archive", thStatus: "Status",
     noMatch: "No matches.", unv: "Unverified / pending", privHead: "Replaced / Private versions",
     publicVideos: "public videos", replacedPrivate: "replaced/private",
-    csLabel: "Customer service:", copyright: "© 2026 Daddy Mi. All rights reserved.",
+    csLabel: "Customer service: ", copyright: "© 2026 Daddy Mi. All rights reserved.",
     langName: { zh: "Chinese", en: "English" } }
 };
 function curUI(){ return UI[window.GW_LANG] || UI.en; }
