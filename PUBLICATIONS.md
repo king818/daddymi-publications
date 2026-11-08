@@ -2,7 +2,7 @@
 
 Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, filterable version: https://king818.github.io/daddymi-publications/
 
-**308 public videos** · 68 replaced/private versions · Come, Follow Me 2026: 138 · Daily Verse · Neville Readings: 129 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 28 · Neville Inner Reading Podcast: 7
+**320 public videos** · 68 replaced/private versions · Come, Follow Me 2026: 138 · Daily Verse · Neville Readings: 141 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 28 · Neville Inner Reading Podcast: 7
 
 
 ## 來跟隨我 2026 — 中文（69）
@@ -153,10 +153,16 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-10-31 | [Week 45 · Ezekiel](https://www.youtube.com/shorts/HYBj9c6Z5EU)<br><sub>2026 Week 45 | God Goes to the Exiles | Ezekiel</sub> | Short (hook) | Come, Follow Me 2026 (English) | Archived · 777370cb | Live | `HYBj9c6Z5EU` |
 | 2026-10-31 | [Week 45 · Ezekiel](https://www.youtube.com/shorts/oCqZeKxPCdE)<br><sub>2026 Week 45 | A Heart of Flesh, Not Stone | Ezekiel</sub> | Short (funnel) | Come, Follow Me 2026 (English) | Archived · f18bffbe | Live | `oCqZeKxPCdE` |
 
-## 每日經文 · Neville 解讀 — 中文（66）
+## 每日經文 · Neville 解讀 — 中文（72）
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
+| 2026-11-08 | [2026-11-03 · 詩篇 119:11](https://youtube.com/shorts/K2MBAikVIx4)<br><sub>每日經文 2026-11-03 · Neville 解讀｜犯錯不是道德敗壞，只是一種瞄準誤差（詩篇 119:11）· AI 動態版</sub> | Short · 鉤子 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · d1658cf7 | 已發布 | `K2MBAikVIx4` |
+| 2026-11-08 | [2026-11-03 · 詩篇 119:11](https://youtube.com/shorts/XwZvMfOyUm0)<br><sub>每日經文 2026-11-03 · Neville 解讀｜今天，把一句話藏在心裏（詩篇 119:11）· AI 動態版</sub> | Short · 導入 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · d1658cf7 | 已發布 | `XwZvMfOyUm0` |
+| 2026-11-08 | [2026-10-30 · 詩篇 139:23](https://youtube.com/shorts/Un_uuugSr6U)<br><sub>每日經文 2026-10-30 · Neville 解讀｜一場向自身深處發出的勇敢邀請（詩篇 139:23）· AI 動態版</sub> | Short · 鉤子 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · b4e4b9e9 | 已發布 | `Un_uuugSr6U` |
+| 2026-11-08 | [2026-10-30 · 詩篇 139:23](https://youtube.com/shorts/t-3yQPfVfLY)<br><sub>每日經文 2026-10-30 · Neville 解讀｜睡前的重塑，是為了隔天的重生（詩篇 139:23）· AI 動態版</sub> | Short · 導入 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · b4e4b9e9 | 已發布 | `t-3yQPfVfLY` |
+| 2026-11-08 | [2026-11-02 · 希伯來書 4:12](https://youtube.com/shorts/gsXM9UQZ7E8)<br><sub>每日經文 2026-11-02 · Neville 解讀｜思念說自信，主意卻預期失敗（希伯來書 4:12）· AI 動態版</sub> | Short · 鉤子 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 8c400e41 | 已發布 | `gsXM9UQZ7E8` |
+| 2026-11-08 | [2026-11-02 · 希伯來書 4:12](https://youtube.com/shorts/BWX5gR9lZYc)<br><sub>每日經文 2026-11-02 · Neville 解讀｜焦慮時的三分鐘，用雙刃之劍剖開恐懼假設（希伯來書 4:12）· AI 動態版</sub> | Short · 導入 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 8c400e41 | 已發布 | `BWX5gR9lZYc` |
 | 2026-11-07 | [2026-10-31 · 提摩太後書 3:16-17](https://www.youtube.com/shorts/1dh5a8Nk8AE)<br><sub>每日經文 2026-10-31｜提摩太後書 3:16-17｜聖經是你自己意識的自傳</sub> | Short · 鉤子 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · a1f4dcfc | 已發布 | `1dh5a8Nk8AE` |
 | 2026-11-07 | [2026-10-31 · 提摩太後書 3:16-17](https://www.youtube.com/shorts/oegKOGXaSTI)<br><sub>每日經文 2026-10-31｜提摩太後書 3:16-17｜你不是等著被組裝的人</sub> | Short · 導入 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · a1f4dcfc | 已發布 | `oegKOGXaSTI` |
 | 2026-11-07 | [2026-10-26 · 以賽亞書 41:10](https://youtu.be/Qi6oX12Qjhk)<br><sub>每日經文 2026-10-26 · Neville 解讀｜不要害怕，祂與你同在——以賽亞書 41:10 內在解讀</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 1ca97d75 | 已發布 | `Qi6oX12Qjhk` |
@@ -224,10 +230,16 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-10-31 | [2026-10-31 · 提摩太後書 3:16-17](https://www.youtube.com/shorts/pvP-BoX9vN0)<br><sub>每日經文 2026-10-31｜提摩太後書 3:16-17｜聖經是你自己意識的自傳</sub> | Short · 鉤子 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 1f8daa60 | 已發布 | `pvP-BoX9vN0` |
 | 2026-10-31 | [2026-10-31 · 提摩太後書 3:16-17](https://www.youtube.com/shorts/zMRz5A8ZLyg)<br><sub>每日經文 2026-10-31｜提摩太後書 3:16-17｜你不是等著被組裝的人</sub> | Short · 導入 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · d7f07ddb | 已發布 | `zMRz5A8ZLyg` |
 
-## Daily Verse · Neville Readings — English (63)
+## Daily Verse · Neville Readings — English (69)
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
+| 2026-11-08 | [2026-11-03 · Psalm 119:11](https://youtube.com/shorts/n5-EZWUrIo4)<br><sub>Daily Verse 2026-11-03 | Whatever Word You Hide in Your Heart, You Slowly Become</sub> | Short (hook) | Daily Verse · Neville Readings 2026 (English) | Archived · 9f4ddc4b | Live | `n5-EZWUrIo4` |
+| 2026-11-08 | [2026-11-03 · Psalm 119:11](https://youtube.com/shorts/D3ASur8wqcI)<br><sub>Daily Verse 2026-11-03 | Today, Hide One Sentence in Your Heart · AI Motion Edition</sub> | Short (funnel) | Daily Verse · Neville Readings 2026 (English) | Archived · 9f4ddc4b | Live | `D3ASur8wqcI` |
+| 2026-11-08 | [2026-10-30 · Psalm 139:23](https://youtube.com/shorts/iLVmBU31fCc)<br><sub>Daily Verse 2026-10-30 | Search Me, O God, and Know My Heart · AI Motion Edition</sub> | Short (hook) | Daily Verse · Neville Readings 2026 (English) | Archived · 98beab2c | Live | `iLVmBU31fCc` |
+| 2026-11-08 | [2026-10-30 · Psalm 139:23](https://youtube.com/shorts/2VecpbvtBLc)<br><sub>Daily Verse 2026-10-30 | I Have Been Searched. I Am Known. · AI Motion Edition</sub> | Short (funnel) | Daily Verse · Neville Readings 2026 (English) | Archived · 98beab2c | Live | `2VecpbvtBLc` |
+| 2026-11-08 | [2026-11-02 · Hebrews 4:12](https://youtube.com/shorts/0n9byedii8I)<br><sub>Daily Verse 2026-11-02 | Thoughts Say Confidence, Intent Says Failure · AI Motion Edition</sub> | Short (hook) | Daily Verse · Neville Readings 2026 (English) | Archived · b2f0253b | Live | `0n9byedii8I` |
+| 2026-11-08 | [2026-11-02 · Hebrews 4:12](https://youtube.com/shorts/AnbktFJdx8Y)<br><sub>Daily Verse 2026-11-02 | The Three-Minute Sword: Fact or Assumption? · AI Motion Edition</sub> | Short (funnel) | Daily Verse · Neville Readings 2026 (English) | Archived · b2f0253b | Live | `AnbktFJdx8Y` |
 | 2026-11-07 | [2026-10-31 · 2 Timothy 3:16-17](https://youtu.be/2QjTSmAaWas)<br><sub>Daily Verse 2026-10-31 | 2 Timothy 3:16-17 · All Scripture Is Given by Inspiration of God</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · fef65295 | Live | `2QjTSmAaWas` |
 | 2026-11-07 | [2026-10-31 · 2 Timothy 3:16-17](https://www.youtube.com/shorts/Q_xjDKZnlDw)<br><sub>Daily Verse 2026-10-31 | 2 Timothy 3:16-17 | The Bible Is Your Own Autobiography</sub> | Short (hook) | Daily Verse · Neville Readings 2026 (English) | Archived · fef65295 | Live | `Q_xjDKZnlDw` |
 | 2026-11-07 | [2026-10-31 · 2 Timothy 3:16-17](https://www.youtube.com/shorts/AJ1LkKiXWYQ)<br><sub>Daily Verse 2026-10-31 | 2 Timothy 3:16-17 | Not Waiting to Be Assembled — Only to Be Claimed</sub> | Short (funnel) | Daily Verse · Neville Readings 2026 (English) | Archived · fef65295 | Live | `AJ1LkKiXWYQ` |
