@@ -3877,6 +3877,21 @@ publications:
   archive_note: 7c12cab9-3c3b-40e5-a341-fd3207b43a9a
   playlist: 每日經文 · Neville 解讀 2026（中文）
   status: Public
+- platform: YouTube
+  series: Music Videos
+  topic: 換我們為妳點燈 — 三姑致敬 MTV（米曦 Mi Xi 演唱）
+  language: zh-Hant
+  type: MTV
+  title: 「換我們為妳點燈」原創歌曲 MTV｜五位手足 獻給三姑
+  published: '2026-11-08'
+  url: https://www.youtube.com/watch?v=w3UkV2G7Tl8
+  native_id: w3UkV2G7Tl8
+  playlist: 音樂錄影帶 MV
+  playlist_id: PLSxnHgZ_KCSI
+  playlist_url: https://www.youtube.com/playlist?list=PLSxnHgZ_KCSI
+  dedicated_page: https://sangu.daddymi777.com/
+  status: Public
+  note: Uploaded via YouTube Studio web (browser lane) 2026-11-08; verified Public on fresh Studio + public loads 15:31 PST — copyright and community-guidelines checks both clear, AI-content disclosure set to Yes, description verbatim from the upload pack with https://sangu.daddymi777.com/ as its first link; item 1 of the 音樂錄影帶 MV playlist (PLSxnHgZ_KCSI, Public, created 2026-11-08 under the boss's all-MTVs-to-YouTube rule).
 replaced_or_private:
 - platform: YouTube
   series: Daily Verse · Neville Readings

@@ -24,6 +24,7 @@ SERIES_DISP = {
     "General Conference Talks (Elders Quorum)": {"zh": "總會大會 · 長老定額組討論", "hans": "总会大会 · 长老定额组讨论", "hant": "總會大會 · 長老定額組討論", "en": "General Conference Talks (Elders Quorum)"},
     "Neville Inner Reading Podcast": {"zh": "Neville 內在解讀播客", "hans": "Neville 内在解读播客", "hant": "Neville 內在解讀播客", "en": "Neville Inner Reading Podcast"},
     "Finance Basics": {"zh": "財經基礎 · 錢的知識", "hans": "财经基础 · 钱的知识", "hant": "財經基礎 · 錢的知識", "en": "Finance Basics"},
+    "Music Videos": {"zh": "音樂錄影帶 MV", "hans": "音乐录影带 MV", "hant": "音樂錄影帶 MV", "en": "Music Videos"},
 }
 
 def lang_group(lang):
@@ -434,6 +435,11 @@ def main():
     <button type="button" id="btn-en" onclick="gwSetLang('en')">English</button>
   </div>
   <div class="counts">__CHIPS__</div>
+  <div class="counts" style="margin-top:8px;"><span data-ui="musicLine">🎵 Mi Xi · Gospel Wisdom theme songs:</span>
+    <a href="gospel-wisdom/theme-zh/" data-ui="musicZh">《在你话语里，天亮了》 (Mandarin)</a> ·
+    <a href="gospel-wisdom/theme-en/" data-ui="musicEn">A Little More Like Light (English)</a> ·
+    <a href="gospel-wisdom/mixi/" data-ui="musicHub">Meet Mi Xi</a>
+  </div>
 </header>
 <div class="controls">
   <input id="q" type="search" placeholder="Search title / topic / video ID…">
@@ -446,7 +452,7 @@ def main():
   <div id="list"></div>
   __UNV_HTML__
 </main>
-<footer class="sitefoot"><span data-ui="csLabel">Customer service: </span><a href="mailto:edgegaming@gmail.com">edgegaming@gmail.com</a> · <span data-ui="copyright">© 2026 Daddy Mi. All rights reserved.</span></footer>
+<footer class="sitefoot"><span data-ui="csLabel">Customer service: </span><a href="mailto:support@daddymi777.com">support@daddymi777.com</a> · <span data-ui="copyright">© 2026 Daddy Mi. All rights reserved.</span></footer>
 <script>
 const PUBS = __PUBS_JSON__;
 const PRIV = __PRIV_JSON__;
@@ -459,14 +465,14 @@ const UI = {
     noMatch: "没有符合的结果。", unv: "未核实 / 待处理", privHead: "已取代 / Private 版本",
     publicVideos: "支公开发布视频", replacedPrivate: "支已取代/Private 版本",
     csLabel: "客服邮箱：", copyright: "© 2026 米老爸 Daddy Mi，版权所有。",
-    langName: { zh: "中文", en: "English" } },
+    langName: { zh: "中文", en: "English" }, musicLine: "🎵 米曦 Mi Xi · Gospel Wisdom 主题歌：", musicZh: "《在你话语里，天亮了》（中文）", musicEn: "A Little More Like Light（英文）", musicHub: "认识米曦" },
   "zh-hant": { tagline: "我們製作並發布的每一部影片，都在這裡。", search: "搜尋標題 / 主題 / 影片 ID…",
     allPlatforms: "全部平台", allSeries: "全部系列", allLanguages: "全部語言", allTypes: "全部類型",
     thTitle: "標題", thPublished: "發布", thType: "類型", thPlaylist: "播放清單", thArchive: "存檔", thStatus: "狀態",
     noMatch: "沒有符合的結果。", unv: "未核實 / 待處理", privHead: "已取代 / Private 版本",
     publicVideos: "部公開發布影片", replacedPrivate: "部已取代/Private 版本",
     csLabel: "客服信箱：", copyright: "© 2026 米老爸 Daddy Mi，版權所有。",
-    langName: { zh: "中文", en: "English" } },
+    langName: { zh: "中文", en: "English" }, musicLine: "🎵 米曦 Mi Xi · Gospel Wisdom 主題歌：", musicZh: "《在你話語裡，天亮了》（中文）", musicEn: "A Little More Like Light（英文）", musicHub: "認識米曦" },
   "en": { tagline: "Every video our production has published, in one place.", search: "Search title / topic / video ID…",
     allPlatforms: "All platforms", allSeries: "All series", allLanguages: "All languages", allTypes: "All types",
     thTitle: "Title", thPublished: "Published", thType: "Type", thPlaylist: "Playlist", thArchive: "Archive", thStatus: "Status",
