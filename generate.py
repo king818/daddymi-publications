@@ -408,6 +408,9 @@ def main():
   .pend { color:#b07d2b; }
   .status { font-size:12.5px; }
   .priv { background:var(--bg); }
+  footer.sitefoot { text-align:center; color:var(--mut); font-size:12.5px; padding:16px 12px 26px; border-top:1px solid var(--line); }
+  footer.sitefoot a { color:#1757a8; text-decoration:none; }
+  footer.sitefoot a:hover { text-decoration:underline; }
   .unv { background:#fdf6e3; border:1px solid #eadfc0; border-radius:10px; padding:10px 14px; margin-top:10px; font-size:13.5px; }
   col.c-title { width:auto; } col.c-date { width:96px; } col.c-type { width:104px; }
   col.c-pl { width:168px; } col.c-arch { width:150px; } col.c-status { width:170px; }
@@ -443,6 +446,7 @@ def main():
   <div id="list"></div>
   __UNV_HTML__
 </main>
+<footer class="sitefoot"><span data-ui="csLabel">Customer service:</span> <a href="mailto:edgegaming@gmail.com">edgegaming@gmail.com</a> · <span data-ui="copyright">© 2026 Daddy Mi. All rights reserved.</span></footer>
 <script>
 const PUBS = __PUBS_JSON__;
 const PRIV = __PRIV_JSON__;
@@ -454,18 +458,21 @@ const UI = {
     thTitle: "标题", thPublished: "发布", thType: "类型", thPlaylist: "播放清单", thArchive: "存档", thStatus: "状态",
     noMatch: "没有符合的结果。", unv: "未核实 / 待处理", privHead: "已取代 / Private 版本",
     publicVideos: "支公开发布视频", replacedPrivate: "支已取代/Private 版本",
+    csLabel: "客服邮箱：", copyright: "© 2026 米老爸 Daddy Mi，版权所有。",
     langName: { zh: "中文", en: "English" } },
   "zh-hant": { tagline: "我們製作並發布的每一部影片，都在這裡。", search: "搜尋標題 / 主題 / 影片 ID…",
     allPlatforms: "全部平台", allSeries: "全部系列", allLanguages: "全部語言", allTypes: "全部類型",
     thTitle: "標題", thPublished: "發布", thType: "類型", thPlaylist: "播放清單", thArchive: "存檔", thStatus: "狀態",
     noMatch: "沒有符合的結果。", unv: "未核實 / 待處理", privHead: "已取代 / Private 版本",
     publicVideos: "部公開發布影片", replacedPrivate: "部已取代/Private 版本",
+    csLabel: "客服信箱：", copyright: "© 2026 米老爸 Daddy Mi，版權所有。",
     langName: { zh: "中文", en: "English" } },
   "en": { tagline: "Every video our production has published, in one place.", search: "Search title / topic / video ID…",
     allPlatforms: "All platforms", allSeries: "All series", allLanguages: "All languages", allTypes: "All types",
     thTitle: "Title", thPublished: "Published", thType: "Type", thPlaylist: "Playlist", thArchive: "Archive", thStatus: "Status",
     noMatch: "No matches.", unv: "Unverified / pending", privHead: "Replaced / Private versions",
     publicVideos: "public videos", replacedPrivate: "replaced/private",
+    csLabel: "Customer service:", copyright: "© 2026 Daddy Mi. All rights reserved.",
     langName: { zh: "Chinese", en: "English" } }
 };
 function curUI(){ return UI[window.GW_LANG] || UI.en; }
