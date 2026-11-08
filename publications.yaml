@@ -896,11 +896,11 @@ publications:
   type: Long
   title: 每日經文 2026-11-01｜約翰福音 1:1 · 太初有道
   published: '2026-11-01'
-  url: https://youtu.be/j8QQMpXYTnQ
-  native_id: j8QQMpXYTnQ
+  url: https://youtu.be/rr3rSb1fPN4
+  native_id: rr3rSb1fPN4
   playlist: 每日經文 · Neville 解讀 2026（中文）
   archive_note: fbe3c0e1-a0ae-40fa-8f9f-364f8edeb943
-  status: Live
+  status: Public
 - platform: YouTube
   series: Daily Verse · Neville Readings
   topic: John 1:1
@@ -908,11 +908,11 @@ publications:
   type: Long
   title: Daily Verse 2026-11-01 | John 1:1 · In the Beginning Was the Word
   published: '2026-11-01'
-  url: https://youtu.be/g9rPIhfN_Og
-  native_id: g9rPIhfN_Og
+  url: https://youtu.be/TnXbLSifkXI
+  native_id: TnXbLSifkXI
   playlist: Daily Verse · Neville Readings 2026 (English)
   archive_note: 63c82f3f-aa2e-4793-9b91-8301b02a33e5
-  status: Live
+  status: Public
 - platform: YouTube
   series: Daily Verse · Neville Readings
   topic: John 1:1
@@ -4478,6 +4478,30 @@ replaced_or_private:
   playlist: Daily Verse · Neville Readings 2026 (English)
   archive_note: b2f0253b-ffd7-4eed-9081-dc0dc2ae1298
   status: Private — replaced by the CLEAR-standard four-piece repair version Wx6EnFS2vu8 in the 2026-11-07 swap (transparency fix — text layer fully transparent, zero overlay — + per-episode bespoke imagery, 19 images registered as DMI-BG-0602–0620, + BGM "Gymnopedie No 1", 12 placements at −8.0 dB under voice, per the boss's four-piece repair standard; 2 new motion Shorts built but held unpublished pending the boss's caption-plate ruling); this original version carried the heaviest remaining opacity veil in the repair queue (cover card α ≈215, cards to ≈185), cycled only 2 images and had no background music; set Private, not deleted, and removed from the playlist; the repair master is recorded in the archive note
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: John 1:1
+  language: zh
+  type: Long
+  title: 每日經文 2026-11-01｜約翰福音 1:1 · 太初有道
+  published: '2026-11-01'
+  url: https://youtu.be/j8QQMpXYTnQ
+  native_id: j8QQMpXYTnQ
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: fbe3c0e1-a0ae-40fa-8f9f-364f8edeb943
+  status: Private — replaced by the CLEAR-standard four-piece repair version rr3rSb1fPN4 in the 2026-11-07 swap (Remotion full rebuild — transparency fix, text layer fully transparent with zero overlay, + per-episode bespoke imagery, 17 images registered as DMI-BACKGROUND-0012–0028, + channel intro, + BGM "Gymnopedie No 1" at −8.0 dB under voice, per the boss's four-piece repair standard); this original 2026-11-01 build's slides were dimmed by a full-frame dark veil (panel alpha ≈150–185), cycled only 3 backgrounds over 9 slides, and it carried no channel intro and no background music; set Private per boss ruling, not deleted, and left in the playlist as a Private item; the rebuilt master is recorded in the archive note and retained in the run directory; Evernote append of the replacement landed and verified 2026-11-07
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: John 1:1
+  language: en
+  type: Long
+  title: Daily Verse 2026-11-01 | John 1:1 · In the Beginning Was the Word
+  published: '2026-11-01'
+  url: https://youtu.be/g9rPIhfN_Og
+  native_id: g9rPIhfN_Og
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: 63c82f3f-aa2e-4793-9b91-8301b02a33e5
+  status: Private — replaced by the CLEAR-standard four-piece repair version TnXbLSifkXI in the 2026-11-07 swap (Remotion full rebuild — transparency fix, text layer fully transparent with zero overlay, + per-episode bespoke imagery, 17 images registered as DMI-BACKGROUND-0012–0028, + channel intro, + BGM "Gymnopedie No 1" at −8.0 dB under voice, per the boss's four-piece repair standard); this original 2026-11-01 build's slides were dimmed by a full-frame dark veil (panel alpha ≈110–185), cycled only about 4 backgrounds over 9 slides, and it carried no channel intro and no background music; set Private per boss ruling, not deleted, and left in the playlist as a Private item; the rebuilt master is recorded in the archive note and retained in the run directory; Evernote append of the replacement landed and verified 2026-11-07
 unverified:
 - item: CFM Lesson 3 (6 videos, published 2026-11-03) — Evernote archive notes missing
   reason: Checked 2026-11-03 — no archive notes found in Evernote by video ID or title; archive ZIPs not yet built. Finals retained on M1 mini (~/cfm-bf03-creation) and in the run dir on the VM.

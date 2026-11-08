@@ -2,7 +2,7 @@
 
 Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, filterable version: https://king818.github.io/daddymi-publications/
 
-**307 public videos** · 66 replaced/private versions · Come, Follow Me 2026: 138 · Daily Verse · Neville Readings: 128 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 28 · Neville Inner Reading Podcast: 7
+**307 public videos** · 68 replaced/private versions · Come, Follow Me 2026: 138 · Daily Verse · Neville Readings: 128 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 28 · Neville Inner Reading Podcast: 7
 
 
 ## 來跟隨我 2026 — 中文（69）
@@ -215,7 +215,7 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-11-02 | [2026-11-02 · 希伯來書 4:12](https://youtu.be/Cnkfquzd4kk)<br><sub>每日經文 2026-11-02｜決定你生命軌跡的，是你內心相信什麼——希伯來書 4:12</sub> | Short · 鉤子 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 0c1030bb | 已發布 | `Cnkfquzd4kk` |
 | 2026-11-02 | [2026-11-02 · 希伯來書 4:12](https://youtu.be/QLJHOFk7-aA)<br><sub>每日經文 2026-11-02｜三分鐘雙刃之劍：焦慮時切開恐懼的假設——希伯來書 4:12</sub> | Short · 導入 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · b77499e0 | 已發布 | `QLJHOFk7-aA` |
 | 2026-11-02 | [2026-11-02 · 希伯來書 4:12](https://youtu.be/vmV6ykuqPN0)<br><sub>每日經文 2026-11-02 · Neville 解讀｜希伯來書 4:12 上帝的道是活的——兩刃之劍剖開魂與靈</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 8c400e41 | 已發布 | `vmV6ykuqPN0` |
-| 2026-11-01 | [2026-11-01 · 約翰福音 1:1](https://youtu.be/j8QQMpXYTnQ)<br><sub>每日經文 2026-11-01｜約翰福音 1:1 · 太初有道</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · fbe3c0e1 | 已發布 | `j8QQMpXYTnQ` |
+| 2026-11-01 | [2026-11-01 · 約翰福音 1:1](https://youtu.be/rr3rSb1fPN4)<br><sub>每日經文 2026-11-01｜約翰福音 1:1 · 太初有道</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · fbe3c0e1 | 已發布 | `rr3rSb1fPN4` |
 | 2026-11-01 | [2026-11-01 · 約翰福音 1:1](https://www.youtube.com/shorts/7sJLw4yaPWw)<br><sub>每日經文 2026-11-01｜約翰福音 1:1 · 太初不在遠古，就在你說「我是」的那一秒</sub> | Short · 鉤子 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 3e9949d1 | 已發布 | `7sJLw4yaPWw` |
 | 2026-11-01 | [2026-11-01 · 約翰福音 1:1](https://www.youtube.com/shorts/-Ywv9ZT_9NY)<br><sub>每日經文 2026-11-01｜約翰福音 1:1 · 道就是上帝——想像從不分辨，只負責成形</sub> | Short · 導入 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · fe41ec6d | 已發布 | `-Ywv9ZT_9NY` |
 | 2026-10-31 | [2026-10-29 · 歌羅西書 1:13](https://www.youtube.com/shorts/xdCmc3_VDrg)<br><sub>每日經文 2026-10-29｜他救了我們脫離黑暗的權勢｜歌羅西書 1:13</sub> | Short · 鉤子 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · Video Artifacts · 7a1e19f1 | 已發布 · 重製版 | `xdCmc3_VDrg` |
@@ -283,7 +283,7 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-11-02 | [2026-11-02 · Hebrews 4:12](https://youtube.com/shorts/1a1HPUkr3n4)<br><sub>Daily Verse 2026-11-02 · Hebrews 4:12 — Your Thoughts Say Confidence, Intent Expects Failure</sub> | Short (hook) | Daily Verse · Neville Readings 2026 (English) | Archived · 448a1170 | Live | `1a1HPUkr3n4` |
 | 2026-11-02 | [2026-11-02 · Hebrews 4:12](https://youtube.com/shorts/jlQLTMGirbA)<br><sub>Daily Verse 2026-11-02 · Hebrews 4:12 — The 3-Minute Sword: Fact, or Unexamined Assumption?</sub> | Short (funnel) | Daily Verse · Neville Readings 2026 (English) | Archived · 756f7890 | Live | `jlQLTMGirbA` |
 | 2026-11-02 | [2026-11-02 · Hebrews 4:12](https://youtu.be/Wx6EnFS2vu8)<br><sub>Daily Verse 2026-11-02 · Hebrews 4:12 | The Word of God Is Alive — A Two-Edged Sword</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · b2f0253b | Live | `Wx6EnFS2vu8` |
-| 2026-11-01 | [2026-11-01 · John 1:1](https://youtu.be/g9rPIhfN_Og)<br><sub>Daily Verse 2026-11-01 | John 1:1 · In the Beginning Was the Word</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · 63c82f3f | Live | `g9rPIhfN_Og` |
+| 2026-11-01 | [2026-11-01 · John 1:1](https://youtu.be/TnXbLSifkXI)<br><sub>Daily Verse 2026-11-01 | John 1:1 · In the Beginning Was the Word</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · 63c82f3f | Live | `TnXbLSifkXI` |
 | 2026-11-01 | [2026-11-01 · John 1:1](https://www.youtube.com/shorts/MllwD6zkB-g)<br><sub>Daily Verse 2026-11-01 | John 1:1 · The Beginning Is Not a Date — It Is the Second You Say I AM</sub> | Short (hook) | Daily Verse · Neville Readings 2026 (English) | Archived · 992248e1 | Live | `MllwD6zkB-g` |
 | 2026-11-01 | [2026-11-01 · John 1:1](https://www.youtube.com/shorts/2-bjuPDIEZE)<br><sub>Daily Verse 2026-11-01 | John 1:1 · Imagination Does Not Discriminate</sub> | Short (funnel) | Daily Verse · Neville Readings 2026 (English) | Archived · 6a495712 | Live | `2-bjuPDIEZE` |
 | 2026-10-31 | [2026-10-29 · Colossians 1:13](https://www.youtube.com/shorts/kk17wVkg_3Y)<br><sub>Daily Verse 2026-10-29 | Delivered from the Power of Darkness | Colossians 1:13</sub> | Short (hook) | Daily Verse · Neville Readings 2026 (English) | Archived · Video Artifacts · 0e25e299 | Live · redo | `kk17wVkg_3Y` |
@@ -362,12 +362,12 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-10-31 | ['Guaranteed 14% Returns'? A Dangerous Illusion | Finance Basics](https://www.youtube.com/shorts/_z0BhZ_z1P8) | Short (hook) | Finance Basics 2026 (English) | Archived · d6c05cce | Live | `_z0BhZ_z1P8` |
 | 2026-10-31 | [The Premium Lowers Your Real Cost to $109.08 | Finance Basics](https://www.youtube.com/shorts/meGAW-UginY) | Short (funnel) | Finance Basics 2026 (English) | Archived · ce324423 | Live | `meGAW-UginY` |
 
-## Replaced / Private versions (66)
+## Replaced / Private versions (68)
 
 Same productions, kept for the record — not public.
 
 
-### 已取代 / Private · 每日經文 · Neville 解讀 — 中文（23）
+### 已取代 / Private · 每日經文 · Neville 解讀 — 中文（24）
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
@@ -392,10 +392,11 @@ Same productions, kept for the record — not public.
 | 2026-11-03 | [2026-10-27 · 雅各書 1:12](https://youtu.be/K2_BZ0w7jaw)<br><sub>每日經文 2026-10-27 · Neville 解讀｜雅各書 1:12 住留不搬家——從試探的壓力，進入生命的冠冕</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 2dca116b | Private · 已被取代 | `K2_BZ0w7jaw` |
 | 2026-11-02 | [2026-10-26 · 以賽亞書 41:10](https://youtu.be/KCUVl4_IFY0)<br><sub>每日經文 2026-10-26 · Neville 解讀｜不要害怕，祂與你同在——以賽亞書 41:10 內在解讀</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 1ca97d75 | Private · 已被取代 | `KCUVl4_IFY0` |
 | 2026-11-02 | [2026-11-02 · 希伯來書 4:12](https://youtu.be/idi0AAWCKo0)<br><sub>每日經文 2026-11-02 · Neville 解讀｜希伯來書 4:12 上帝的道是活的——兩刃之劍剖開魂與靈</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 8c400e41 | Private · 舊版 | `idi0AAWCKo0` |
+| 2026-11-01 | [2026-11-01 · 約翰福音 1:1](https://youtu.be/j8QQMpXYTnQ)<br><sub>每日經文 2026-11-01｜約翰福音 1:1 · 太初有道</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · fbe3c0e1 | Private · 已被取代 | `j8QQMpXYTnQ` |
 | 2026-10-31 | [2026-10-31 · 提摩太後書 3:16-17](https://youtu.be/y6zIFPvCCuc)<br><sub>每日經文 2026-10-31｜提摩太後書 3:16-17 · 聖經都是神所默示的</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · a1f4dcfc | Private · 已被取代 | `y6zIFPvCCuc` |
 | 2026-10-31 | [2026-10-29 · 歌羅西書 1:13](https://youtu.be/CqrH_GpoY1E)<br><sub>每日經文 2026-10-29｜歌羅西書 1:13 — 脫離黑暗的權勢，遷入愛子的國</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 4a7ccd48 | Private · 已被取代 | `CqrH_GpoY1E` |
 
-### 已取代 / Private · Daily Verse · Neville Readings — English (23)
+### 已取代 / Private · Daily Verse · Neville Readings — English (24)
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
@@ -417,6 +418,7 @@ Same productions, kept for the record — not public.
 | 2026-11-03 | [2026-10-27 · James 1:12](https://youtu.be/CsLQhN2fqjc)<br><sub>Daily Verse · 2026-10-27 | James 1:12 — Endure and Be Crowned: Remaining in the End</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · ad89add3 | Private · replaced | `CsLQhN2fqjc` |
 | 2026-11-02 | [2026-10-26 · Isaiah 41:10](https://youtu.be/CpqGsKubH_0)<br><sub>Daily Verse 2026-10-26 · Neville Goddard Reading | Fear Thou Not — I Am With Thee: Isaiah 41:10</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · 14dafa3a | Private · replaced | `CpqGsKubH_0` |
 | 2026-11-02 | [2026-11-02 · Hebrews 4:12](https://youtu.be/Xb6LjyfyW9g)<br><sub>Daily Verse 2026-11-02 · Hebrews 4:12 | The Word of God Is Alive — A Two-Edged Sword</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · b2f0253b | Private · original | `Xb6LjyfyW9g` |
+| 2026-11-01 | [2026-11-01 · John 1:1](https://youtu.be/g9rPIhfN_Og)<br><sub>Daily Verse 2026-11-01 | John 1:1 · In the Beginning Was the Word</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · 63c82f3f | Private · replaced | `g9rPIhfN_Og` |
 | 2026-10-31 | [2026-10-31 · Colossians 1:13](https://youtu.be/MBgPe0IEuRg)<br><sub>Colossians 1:13 — English original (pre-redo)</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Not archived yet | Private · replaced by redo | `MBgPe0IEuRg` |
 | 2026-10-31 | [2026-10-31 · Colossians 1:13](https://youtu.be/Xze2Euk4eeY)<br><sub>Colossians 1:13 — English hook, original (pre-redo)</sub> | Short (hook) | Daily Verse · Neville Readings 2026 (English) | Not archived yet | Private · replaced by redo | `Xze2Euk4eeY` |
 | 2026-10-31 | [2026-10-31 · Colossians 1:13](https://youtu.be/jvQ19inwtSw)<br><sub>Colossians 1:13 — English funnel, original (pre-redo)</sub> | Short (funnel) | Daily Verse · Neville Readings 2026 (English) | Not archived yet | Private · replaced by redo | `jvQ19inwtSw` |
