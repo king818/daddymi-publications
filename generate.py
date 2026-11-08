@@ -31,15 +31,20 @@ def lang_group(lang):
 
 # ---- trilingual UI views for index.html: "hans" | "hant" | "en" ----
 # Data-derived Chinese labels are computed from published titles (Traditional
-# house style). Per-view variants convert script only — never wording — via
-# OpenCC when available; without OpenCC every Chinese view falls back to the
-# base label (the page still works, just single-script labels).
+# house style). Per-view variants adjust script (and, via s2twp, Taiwan phrase
+# forms) only — never the underlying wording or facts — via OpenCC when
+# available; without OpenCC every Chinese view falls back to the base label
+# (the page still works, just single-script labels).
 try:
     from opencc import OpenCC as _OpenCC
     _T2S = _OpenCC("t2s")
     _S2TWP = _OpenCC("s2twp")
 except Exception:
     _T2S = _S2TWP = None
+    import sys as _sys
+    print("WARNING: OpenCC not available — Chinese label variants in index.html "
+          "will be single-script (no hans/hant conversion). Install opencc in "
+          "this Python env to restore trilingual labels.", file=_sys.stderr)
 
 def _conv(text, cc):
     return cc.convert(text) if (cc and text) else text
@@ -151,7 +156,7 @@ def archive_disp(r, view=None):
     lang = lang_group(r.get("language"))
     v = (r.get("archive_note") or "").strip()
     if not v:
-        if lang != "zh":
+        if lang != "zh" or view == "en":
             return ("Not archived yet", "")
         return ("待存檔", "") if view == "hant" else ("待存档", "")
     m = GUID_RE.search(v)
@@ -164,7 +169,7 @@ def archive_disp(r, view=None):
         nb = "Gospel"
     elif "Video Artifacts" in v:
         nb = "Video Artifacts"
-    if lang != "zh":
+    if lang != "zh" or view == "en":
         main = "Archived"
     else:
         main = "已存檔" if view == "hant" else "已存档"
@@ -450,11 +455,11 @@ const UI = {
     noMatch: "没有符合的结果。", unv: "未核实 / 待处理", privHead: "已取代 / Private 版本",
     publicVideos: "支公开发布视频", replacedPrivate: "支已取代/Private 版本",
     langName: { zh: "中文", en: "English" } },
-  "zh-hant": { tagline: "我們製作並發布的每一支視頻，都在這裡。", search: "搜尋標題 / 主題 / 視頻 ID…",
+  "zh-hant": { tagline: "我們製作並發布的每一部影片，都在這裡。", search: "搜尋標題 / 主題 / 影片 ID…",
     allPlatforms: "全部平台", allSeries: "全部系列", allLanguages: "全部語言", allTypes: "全部類型",
     thTitle: "標題", thPublished: "發布", thType: "類型", thPlaylist: "播放清單", thArchive: "存檔", thStatus: "狀態",
     noMatch: "沒有符合的結果。", unv: "未核實 / 待處理", privHead: "已取代 / Private 版本",
-    publicVideos: "支公開發布視頻", replacedPrivate: "支已取代/Private 版本",
+    publicVideos: "部公開發布影片", replacedPrivate: "支已取代/Private 版本",
     langName: { zh: "中文", en: "English" } },
   "en": { tagline: "Every video our production has published, in one place.", search: "Search title / topic / video ID…",
     allPlatforms: "All platforms", allSeries: "All series", allLanguages: "All languages", allTypes: "All types",
@@ -464,18 +469,19 @@ const UI = {
     langName: { zh: "Chinese", en: "English" } }
 };
 function curUI(){ return UI[window.GW_LANG] || UI.en; }
+function dispKey(){ return window.GW_LANG === 'en' ? 'en' : window.GW_LANG.replace('zh-', ''); }
 function escapeHtml(s){return String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}
 function langGroup(l){ return (l||"").startsWith("zh") ? "zh" : "en"; }
 function blockTitle(series, lg, n, priv) {
   const view = window.GW_LANG;
-  const dispKey = lg === "en" ? "en" : (view === "en" ? "hant" : view);
-  const name = (SERIES_DISP[series]||{})[dispKey] || series;
+  const nameKey = lg === "en" ? "en" : (view === "en" ? "hant" : dispKey());
+  const name = (SERIES_DISP[series]||{})[nameKey] || series;
   const lang = curUI().langName[lg];
   const cnt = view === "en" ? " ("+n+")" : "（"+n+"）";
   return priv ? (curUI().privHead+" · "+name+" — "+lang+cnt) : (name+" — "+lang+cnt);
 }
 function row(r, priv) {
-  const d = r.disp[window.GW_LANG] || r.disp.en;
+  const d = r.disp[dispKey()] || r.disp.en;
   const labelHtml = r.url ? '<a href="'+r.url+'" target="_blank" rel="noopener">'+escapeHtml(d.label)+'</a>' : escapeHtml(d.label);
   const subHtml = (d.sub && d.sub !== d.label) ? '<div class="sub">'+escapeHtml(d.sub)+'</div>' : '';
   const pendCls = (/待存|Not archived/.test(d.archive_main)) ? ' class="pend"' : '';
@@ -500,7 +506,7 @@ function groupsOf(rows) {
 function render() {
   const q = $('q').value.trim().toLowerCase(), fp=$('fPlatform').value, fs=$('fSeries').value, fl=$('fLang').value, ft=$('fType').value;
   const match = r => (!fp||r.platform===fp)&&(!fs||r.series===fs)&&(!fl||r.language===fl)&&(!ft||r.type===ft)
-    &&(!q||(r.disp.label+' '+r.disp.sub+' '+r.native_id+' '+r.series).toLowerCase().includes(q));
+    &&(!q||(['hans','hant','en'].map(k=>r.disp[k].label+' '+r.disp[k].sub).join(' ')+' '+r.native_id+' '+r.series).toLowerCase().includes(q));
   let h = '';
   groupsOf(PUBS.filter(match)).forEach(g=>{
     ["zh","en"].forEach(lg=>{ const rows = g[lg]; if(rows.length){ h += '<h2>'+escapeHtml(blockTitle(g.series, lg, rows.length, false))+'</h2>' + tableHtml(rows, false); } });
