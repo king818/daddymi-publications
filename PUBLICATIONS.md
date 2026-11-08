@@ -382,7 +382,7 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
-| 2026-11-08 | [「換我們為妳點燈」原創歌曲 MTV｜五位手足 獻給三姑](https://www.youtube.com/watch?v=w3UkV2G7Tl8) | MTV | 音樂錄影帶 MV | 待存档 | 已發布 | `w3UkV2G7Tl8` |
+| 2026-11-08 | [「換我們為妳點燈」米曦 Mi Xi 原創單曲 MTV](https://www.youtube.com/watch?v=w3UkV2G7Tl8) | MTV | 音樂錄影帶 MV | 待存档 | 已發布 | `w3UkV2G7Tl8` |
 
 ## Replaced / Private versions (74)
 
