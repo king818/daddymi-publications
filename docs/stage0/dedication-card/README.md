@@ -1,43 +1,49 @@
-# Dedication Card — 敬献卡（claim-a-day 回礼）
+# Dedication Card — 献词卡 (claim-a-day)
 
-Generator + sample cards for the Stage-0 dedication card (approval packet §10, approved 2026-11-08).
+Generator + sample for the Stage-0 dedication card. The card face follows the
+approval packet **§10 final copy exactly** (approved 2026-11-08).
 
-## What this is
+## Discipline (packet §10)
 
-When a reader submits the claim-a-day form, the team produces a personalized
-thank-you card (name **exactly as submitted — never "correct" it**), one card
-per submission, sent by email as a PNG attachment within 24 h (packet §10 /
-§12 holiday coverage: during 2026-12-20 → 2027-01-04, sent the same day they
-are checked, with a note that the team is on holiday schedule).
+- Made **only on request** — for claim-a-day registrants, one card per request.
+- The recipient name is used **exactly as submitted — never "corrected"**.
+- Total card-production time budget for the whole campaign: **30 minutes**.
+- A claim counts as engagement only — never toward E1–E3.
+- There are **no claimants yet (0 submissions as of 2026-11-08)**, so no real
+  personalized cards exist. The sample below is a bracketed-placeholder
+  template render — never fabricate a "real" card.
+
+## Card face (§10 verbatim layout)
+
+```
+Day [N] · [scripture reference]
+「[one line of that entry's scripture]」
+Dedicated to [name] — [dedication line]
+献给 [name] —— [dedication line]
+
+A personal reading dedication for [name], inspired by Gospel Wisdom.
+This card does not reserve a day or promise inclusion in the book.
+这是一张因《福音智慧》而作的个人阅读献词卡。本卡不保留任何一天，也不承诺刊入书中。
+
+Footer: Gospel Wisdom · 福音智慧每日灵修 — https://king818.github.io/daddymi-publications/gospel-wisdom/
+```
 
 ## Files
 
-- `make_dedication_card.py` — the generator (PIL + Noto Serif CJK, no cost, no network).
-- `sample-card-zh.png` / `sample-card-en.png` — TEMPLATE SAMPLES ONLY.
-  Placeholders are bracketed. **There are no real claimants yet (0 submissions
-  as of 2026-11-08), so no real personalized cards exist. Never fabricate one.**
-
-## Card copy (packet §10, verbatim fields)
-
-- Title: 為你獻上一天 / A Day Dedicated to You
-- Recipient: the name as submitted
-- Date: the M月D日 as chosen (an effort signal, not a calendar lock)
-- One daily verse (scripture text + reference)
-- Signature: 米老爸 Daddy Mi 团队 / Team Daddy Mi — 《福音智慧》每日灵修 365 篇，正在汇编
-- **Fine print, REQUIRED on every card, both languages:**
-  - "This card does not reserve a day or promise inclusion in the book."
-  - 「本卡不保留任何一天，也不承诺刊入书中。」
+- `make_dedication_card.py` — generator (PIL + Noto Serif CJK; no cost, no network; 1600×1000 PNG).
+- `sample-card-bilingual.png` — template sample with bracketed placeholders.
 
 ## Usage
 
 ```bash
 python3 make_dedication_card.py \
+  --day 128 --ref "Joshua 1:9" \
+  --verse-line "[one line of that entry's scripture]" \
   --name "[name exactly as submitted]" \
-  --date-line "[M月D日 as chosen]" \
-  --verse "[chosen verse text]" \
-  --ref "[Book chapter:verse]" \
-  --lang zh \
-  --out card-<date>-<seq>.png
+  --dedication "[dedication line exactly as submitted]" \
+  --out card-day128.png
 ```
 
-Output is 1600×1000 PNG. Attach to the reply email (do not link to an external host).
+Deliver the PNG as an email attachment to the claimant (the packet's §10
+thank-you flow rides with the claim-a-day reply; §12 holiday coverage applies
+2026-12-20 → 2027-01-04).
