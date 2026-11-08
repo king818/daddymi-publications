@@ -2,7 +2,7 @@
 
 Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, filterable version: https://king818.github.io/daddymi-publications/
 
-**320 public videos** · 70 replaced/private versions · Come, Follow Me 2026: 138 · Daily Verse · Neville Readings: 141 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 28 · Neville Inner Reading Podcast: 7
+**321 public videos** · 70 replaced/private versions · Come, Follow Me 2026: 138 · Daily Verse · Neville Readings: 142 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 28 · Neville Inner Reading Podcast: 7
 
 
 ## 來跟隨我 2026 — 中文（69）
@@ -153,11 +153,12 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-10-31 | [Week 45 · Ezekiel](https://www.youtube.com/shorts/HYBj9c6Z5EU)<br><sub>2026 Week 45 | God Goes to the Exiles | Ezekiel</sub> | Short (hook) | Come, Follow Me 2026 (English) | Archived · 777370cb | Live | `HYBj9c6Z5EU` |
 | 2026-10-31 | [Week 45 · Ezekiel](https://www.youtube.com/shorts/oCqZeKxPCdE)<br><sub>2026 Week 45 | A Heart of Flesh, Not Stone | Ezekiel</sub> | Short (funnel) | Come, Follow Me 2026 (English) | Archived · f18bffbe | Live | `oCqZeKxPCdE` |
 
-## 每日經文 · Neville 解讀 — 中文（72）
+## 每日經文 · Neville 解讀 — 中文（73）
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
 | 2026-11-08 | [2026-11-08 · 馬太福音 17:21](https://youtu.be/BmNNLWigjLI)<br><sub>每日經文 2026-11-08 · Neville 解讀｜馬太福音 17:21 這一類，若不禱告、禁食，就不出來——住進新狀態，餓死舊狀態</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 10c2c5ca | 已發布 | `BmNNLWigjLI` |
+| 2026-11-08 | [2026-11-08 · 歷代志上 16:24](https://youtu.be/pxyaNgW7mws)<br><sub>每日經文 2026-11-08 · Neville 解讀｜歷代志上 16:24 在列邦中述說他的榮耀——你的世界，正在述說哪一位「我是」</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · f84c4e0c | 已發布 | `pxyaNgW7mws` |
 | 2026-11-08 | [2026-11-03 · 詩篇 119:11](https://youtube.com/shorts/K2MBAikVIx4)<br><sub>每日經文 2026-11-03 · Neville 解讀｜犯錯不是道德敗壞，只是一種瞄準誤差（詩篇 119:11）· AI 動態版</sub> | Short · 鉤子 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · d1658cf7 | 已發布 | `K2MBAikVIx4` |
 | 2026-11-08 | [2026-11-03 · 詩篇 119:11](https://youtube.com/shorts/XwZvMfOyUm0)<br><sub>每日經文 2026-11-03 · Neville 解讀｜今天，把一句話藏在心裏（詩篇 119:11）· AI 動態版</sub> | Short · 導入 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · d1658cf7 | 已發布 | `XwZvMfOyUm0` |
 | 2026-11-08 | [2026-10-30 · 詩篇 139:23](https://youtube.com/shorts/Un_uuugSr6U)<br><sub>每日經文 2026-10-30 · Neville 解讀｜一場向自身深處發出的勇敢邀請（詩篇 139:23）· AI 動態版</sub> | Short · 鉤子 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · b4e4b9e9 | 已發布 | `Un_uuugSr6U` |
