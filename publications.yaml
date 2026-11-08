@@ -1688,8 +1688,8 @@ publications:
   type: Long
   title: 每日經文 2026-11-04 · Neville 解讀｜馬太福音 7:24 把房子蓋在磐石上——聽見，就去行
   published: '2026-11-04'
-  url: https://youtu.be/3Ejy5WvVFR4
-  native_id: 3Ejy5WvVFR4
+  url: https://youtu.be/PTeZH1Ep88M
+  native_id: PTeZH1Ep88M
   playlist: 每日經文 · Neville 解讀 2026（中文）
   archive_note: ff4f8d45-a7b2-499a-8b8a-357872c1e6d6
   status: Public
@@ -1724,8 +1724,8 @@ publications:
   type: Long
   title: Daily Verse 2026-11-04 · Matthew 7:24 | Build Your House Upon the Rock
   published: '2026-11-04'
-  url: https://youtu.be/EjI6sZYzm2g
-  native_id: EjI6sZYzm2g
+  url: https://youtu.be/nbsnvOt6WGs
+  native_id: nbsnvOt6WGs
   playlist: Daily Verse · Neville Readings 2026 (English)
   archive_note: 439cfeb6-1889-4689-9d33-03130e9964e8
   status: Public
@@ -4742,6 +4742,30 @@ replaced_or_private:
   playlist: Come, Follow Me 2026 (English)
   archive_note: 77aeaa26-9ab1-4452-aec0-71de520ce3a8
   status: Private — replaced by the Remotion repair version TCyMDamf0g0 in the 2026-11-08 swap; this build was a slide build with an opaque panel over imagery (transparency defect), no channel intro and no background music; set Private per boss ruling, not deleted
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Matthew 7:24
+  language: zh-Hant
+  type: Long
+  title: 每日經文 2026-11-04 · Neville 解讀｜馬太福音 7:24 把房子蓋在磐石上——聽見，就去行
+  published: '2026-11-04'
+  url: https://youtu.be/3Ejy5WvVFR4
+  native_id: 3Ejy5WvVFR4
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: ff4f8d45-a7b2-499a-8b8a-357872c1e6d6
+  status: Private — replaced by the Remotion repair version PTeZH1Ep88M in the 2026-11-08 swap; this build carried an opaque dark panel over content cards (transparency defect — §4 tree-roots slide crushed near-black, α ≈187) and no background music; set Private per boss ruling, not deleted
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Matthew 7:24
+  language: en
+  type: Long
+  title: Daily Verse 2026-11-04 · Matthew 7:24 | Build Your House Upon the Rock
+  published: '2026-11-04'
+  url: https://youtu.be/EjI6sZYzm2g
+  native_id: EjI6sZYzm2g
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: 439cfeb6-1889-4689-9d33-03130e9964e8
+  status: Private — replaced by the Remotion repair version nbsnvOt6WGs in the 2026-11-08 swap; this build carried an opaque dark panel over content cards (transparency defect — §4 tree-roots slide crushed near-black, α ≈187) and no background music; set Private per boss ruling, not deleted
 unverified:
 - item: CFM Lesson 3 (6 videos, published 2026-11-03) — Evernote archive notes missing
   reason: Checked 2026-11-03 — no archive notes found in Evernote by video ID or title; archive ZIPs not yet built. Finals retained on M1 mini (~/cfm-bf03-creation) and in the run dir on the VM.

@@ -2,7 +2,7 @@
 
 Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, filterable version: https://king818.github.io/daddymi-publications/
 
-**323 public videos** · 72 replaced/private versions · Come, Follow Me 2026: 138 · Daily Verse · Neville Readings: 144 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 28 · Neville Inner Reading Podcast: 7
+**323 public videos** · 74 replaced/private versions · Come, Follow Me 2026: 138 · Daily Verse · Neville Readings: 144 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 28 · Neville Inner Reading Podcast: 7
 
 
 ## 來跟隨我 2026 — 中文（69）
@@ -198,7 +198,7 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-11-06 | [2026-11-06 · 腓立比書 4:8](https://youtu.be/PxzoVHyfkCU)<br><sub>每日經文 2026-11-06 · Neville 解讀｜腓立比書 4:8 思念真實可敬的事——住進你所思念的狀態</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 16cd078f | 已發布 | `PxzoVHyfkCU` |
 | 2026-11-05 | [2026-11-05 · 詩篇 24:1](https://youtu.be/9Vsp8LhRMbQ)<br><sub>每日經文 2026-11-05 · Neville 解讀｜詩篇 24:1 地和其中所充滿的，都屬耶和華——從追趕缺乏，到入住豐盛</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 9e68b296 | 已發布 | `9Vsp8LhRMbQ` |
 | 2026-11-05 | [2026-11-07 · 詩篇 19:1](https://youtu.be/QDOj8yso6Lk)<br><sub>每日經文 2026-11-07 · Neville 解讀｜詩篇 19:1 諸天述說上帝的榮耀——你的世界，正在報告你的「我是」</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · d061a6d4 | 已發布 | `QDOj8yso6Lk` |
-| 2026-11-04 | [2026-11-04 · 馬太福音 7:24](https://youtu.be/3Ejy5WvVFR4)<br><sub>每日經文 2026-11-04 · Neville 解讀｜馬太福音 7:24 把房子蓋在磐石上——聽見，就去行</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · ff4f8d45 | 已發布 | `3Ejy5WvVFR4` |
+| 2026-11-04 | [2026-11-04 · 馬太福音 7:24](https://youtu.be/PTeZH1Ep88M)<br><sub>每日經文 2026-11-04 · Neville 解讀｜馬太福音 7:24 把房子蓋在磐石上——聽見，就去行</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · ff4f8d45 | 已發布 | `PTeZH1Ep88M` |
 | 2026-11-04 | [2026-11-04 · 馬太福音 7:24](https://youtube.com/shorts/hmXfNX_Ykrg)<br><sub>每日經文 2026-11-04｜馬太福音 7:24 風雨只檢驗根基，不創造根基</sub> | Short · 鉤子 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 68c3824a | 已發布 | `hmXfNX_Ykrg` |
 | 2026-11-04 | [2026-11-04 · 馬太福音 7:24](https://youtube.com/shorts/roMAyV0blU0)<br><sub>每日經文 2026-11-04｜馬太福音 7:24 今晚開始的五步操練</sub> | Short · 導入 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · e58056b6 | 已發布 | `roMAyV0blU0` |
 | 2026-11-04 | [2026-11-05 · 詩篇 24:1](https://youtube.com/shorts/N3h-0fqqAcw)<br><sub>每日經文 2026-11-05｜詩篇 24:1 追趕是乞求者的姿態；入住，是繼承人的姿態</sub> | Short · 鉤子 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · f1736012 | 已發布 | `N3h-0fqqAcw` |
@@ -272,7 +272,7 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-11-06 | [2026-11-06 · Philippians 4:8](https://youtu.be/0eosxUn83pY)<br><sub>Daily Verse 2026-11-06 · Neville Reading | Philippians 4:8 — Think on These Things</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · 8497c986 | Live | `0eosxUn83pY` |
 | 2026-11-05 | [2026-11-05 · Psalm 24:1](https://youtu.be/x_dwA1zNGLQ)<br><sub>Daily Verse 2026-11-05 · Psalm 24:1 | The Earth Is the LORD's — From Chasing Lack to Fullness</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · 88356cff | Live | `x_dwA1zNGLQ` |
 | 2026-11-05 | [2026-11-07 · Psalm 19:1](https://youtu.be/p63lIru5l10)<br><sub>Daily Verse 2026-11-07 · Psalm 19:1 | The Heavens Declare — Reporting Your I AM</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · cc5ef489 | Live | `p63lIru5l10` |
-| 2026-11-04 | [2026-11-04 · Matthew 7:24](https://youtu.be/EjI6sZYzm2g)<br><sub>Daily Verse 2026-11-04 · Matthew 7:24 | Build Your House Upon the Rock</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · 439cfeb6 | Live | `EjI6sZYzm2g` |
+| 2026-11-04 | [2026-11-04 · Matthew 7:24](https://youtu.be/nbsnvOt6WGs)<br><sub>Daily Verse 2026-11-04 · Matthew 7:24 | Build Your House Upon the Rock</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · 439cfeb6 | Live | `nbsnvOt6WGs` |
 | 2026-11-04 | [2026-11-04 · Matthew 7:24](https://youtube.com/shorts/oac3tZaVuME)<br><sub>Daily Verse 2026-11-04 · Matthew 7:24 | A Storm Reveals Your Foundation</sub> | Short (hook) | Daily Verse · Neville Readings 2026 (English) | Archived · 7e64c647 | Live | `oac3tZaVuME` |
 | 2026-11-04 | [2026-11-04 · Matthew 7:24](https://youtube.com/shorts/MXGenKwU4oA)<br><sub>Daily Verse 2026-11-04 · Matthew 7:24 | Five Steps Back to the Rock</sub> | Short (funnel) | Daily Verse · Neville Readings 2026 (English) | Archived · dce6618a | Live | `MXGenKwU4oA` |
 | 2026-11-04 | [2026-11-05 · Psalm 24:1](https://youtube.com/shorts/NeNgQoT9fzY)<br><sub>Daily Verse 2026-11-05 · Psalm 24:1 | Chasing is a beggar's posture; occupying is an heir's</sub> | Short (hook) | Daily Verse · Neville Readings 2026 (English) | Archived · eaceac08 | Live | `NeNgQoT9fzY` |
@@ -378,12 +378,12 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-10-31 | ['Guaranteed 14% Returns'? A Dangerous Illusion | Finance Basics](https://www.youtube.com/shorts/_z0BhZ_z1P8) | Short (hook) | Finance Basics 2026 (English) | Archived · d6c05cce | Live | `_z0BhZ_z1P8` |
 | 2026-10-31 | [The Premium Lowers Your Real Cost to $109.08 | Finance Basics](https://www.youtube.com/shorts/meGAW-UginY) | Short (funnel) | Finance Basics 2026 (English) | Archived · ce324423 | Live | `meGAW-UginY` |
 
-## Replaced / Private versions (72)
+## Replaced / Private versions (74)
 
 Same productions, kept for the record — not public.
 
 
-### 已取代 / Private · 每日經文 · Neville 解讀 — 中文（25）
+### 已取代 / Private · 每日經文 · Neville 解讀 — 中文（26）
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
@@ -397,6 +397,7 @@ Same productions, kept for the record — not public.
 | 2026-11-04 | [2026-11-05 · 詩篇 24:1](https://youtu.be/h2hcdRkCQmA)<br><sub>每日經文 2026-11-05 · Neville 解讀｜詩篇 24:1 地和其中所充滿的，都屬耶和華——從追趕缺乏，到入住豐盛</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 9e68b296 | Private · 已被取代 | `h2hcdRkCQmA` |
 | 2026-11-04 | [2026-11-07 · 詩篇 19:1](https://youtu.be/JxLX-1vQkys)<br><sub>每日經文 2026-11-07 · Neville 解讀｜詩篇 19:1 諸天述說上帝的榮耀——你的世界，正在報告你的「我是」</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · d061a6d4 | Private · 已被取代 | `JxLX-1vQkys` |
 | 2026-11-04 | [2026-11-08 · 馬太福音 17:21](https://youtu.be/Bkdw3DytHVE)<br><sub>每日經文 2026-11-08 · Neville 解讀｜馬太福音 17:21 這一類，若不禱告、禁食，就不出來——住進新狀態，餓死舊狀態</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 10c2c5ca | Private · 已被取代 | `Bkdw3DytHVE` |
+| 2026-11-04 | [2026-11-04 · 馬太福音 7:24](https://youtu.be/3Ejy5WvVFR4)<br><sub>每日經文 2026-11-04 · Neville 解讀｜馬太福音 7:24 把房子蓋在磐石上——聽見，就去行</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · ff4f8d45 | Private · 已被取代 | `3Ejy5WvVFR4` |
 | 2026-11-03 | [2026-10-24 · 箴言 16:3](https://youtu.be/j_f6t3j5OLs)<br><sub>每日經文 2026-10-24｜箴言 16:3 · 你所做的，要交託耶和華</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 286cbaa9 | Private · 已被取代 | `j_f6t3j5OLs` |
 | 2026-11-03 | [2026-10-25 · 腓立比書 2:3](https://youtu.be/Es7G2LbMmvU)<br><sub>每日經文 2026-10-25｜腓立比書 2:3 · 以謙卑的心看別人比自己強</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 74e451d9 | Private · 已被取代 | `Es7G2LbMmvU` |
 | 2026-11-03 | [2026-10-25 · 腓立比書 2:3](https://youtu.be/XQkfhoat9TQ)<br><sub>每日經文 2026-10-25 · Neville 解讀｜腓立比書 2:3 看別人比自己強——放下爭競，住進合一的意識</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 74e451d9 | Private · 已被取代 | `XQkfhoat9TQ` |
@@ -413,7 +414,7 @@ Same productions, kept for the record — not public.
 | 2026-10-31 | [2026-10-31 · 提摩太後書 3:16-17](https://youtu.be/y6zIFPvCCuc)<br><sub>每日經文 2026-10-31｜提摩太後書 3:16-17 · 聖經都是神所默示的</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · a1f4dcfc | Private · 已被取代 | `y6zIFPvCCuc` |
 | 2026-10-31 | [2026-10-29 · 歌羅西書 1:13](https://youtu.be/CqrH_GpoY1E)<br><sub>每日經文 2026-10-29｜歌羅西書 1:13 — 脫離黑暗的權勢，遷入愛子的國</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 4a7ccd48 | Private · 已被取代 | `CqrH_GpoY1E` |
 
-### 已取代 / Private · Daily Verse · Neville Readings — English (25)
+### 已取代 / Private · Daily Verse · Neville Readings — English (26)
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
@@ -426,6 +427,7 @@ Same productions, kept for the record — not public.
 | 2026-11-04 | [2026-11-05 · Psalm 24:1](https://youtu.be/EBPkdgfzEt0)<br><sub>Daily Verse 2026-11-05 · Psalm 24:1 | The Earth Is the LORD's — From Chasing Lack to Fullness</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · 88356cff | Private · replaced | `EBPkdgfzEt0` |
 | 2026-11-04 | [2026-11-07 · Psalm 19:1](https://youtu.be/mrr0gTgcYic)<br><sub>Daily Verse 2026-11-07 · Psalm 19:1 | The Heavens Declare — Reporting Your I AM</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · cc5ef489 | Private · replaced | `mrr0gTgcYic` |
 | 2026-11-04 | [2026-11-08 · Matthew 17:21](https://youtu.be/CKJ-lblnPJw)<br><sub>Daily Verse 2026-11-08 · Matthew 17:21 | This Kind Goeth Not Out but by Prayer and Fasting</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · b403d75f | Private · replaced | `CKJ-lblnPJw` |
+| 2026-11-04 | [2026-11-04 · Matthew 7:24](https://youtu.be/EjI6sZYzm2g)<br><sub>Daily Verse 2026-11-04 · Matthew 7:24 | Build Your House Upon the Rock</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · 439cfeb6 | Private · replaced | `EjI6sZYzm2g` |
 | 2026-11-03 | [2026-10-25 · Philippians 2:3](https://youtu.be/vphlUHj9aIY)<br><sub>Daily Verse · 2026-10-25 | Philippians 2:3 — Esteem Others Better: Laying Down Rivalry</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · 13b7b4f9 | Private · replaced | `vphlUHj9aIY` |
 | 2026-11-03 | [2026-10-25 · Philippians 2:3](https://youtu.be/ybLh9DPOqiY)<br><sub>Daily Verse · 2026-10-25 | Philippians 2:3 — Esteem Others Better: Laying Down Rivalry</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · 13b7b4f9 | Private · replaced | `ybLh9DPOqiY` |
 | 2026-11-03 | [2026-10-24 · Proverbs 16:3](https://youtu.be/esKv9WHH9yU)<br><sub>Daily Verse · 2026-10-24 | Proverbs 16:3 — Roll It Off Your Shoulders</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · bf6db083 | Private · replaced | `esKv9WHH9yU` |
