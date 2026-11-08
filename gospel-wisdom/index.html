@@ -1,40 +1,49 @@
 <!DOCTYPE html>
-<html lang="zh-Hans" data-lang="zh">
+<html lang="zh-Hans" data-lang="zh-hans">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Gospel Wisdom · 福音智慧每日灵修 — Founding Membership 创始会员登记</title>
-<meta name="description" content="Gospel Wisdom 福音智慧每日灵修 — founding membership registration ($7.99/month), payments not yet open. Free taste: Entries 1–7 in full. 创始会员登记（$7.99/月），付款尚未开放；免费试读本第 1–7 篇全文。">
+<title>Gospel Wisdom · 福音智慧每日灵修 · 福音智慧每日靈修 — Founding Membership 创始会员登记</title>
+<meta name="description" content="Gospel Wisdom 福音智慧每日灵修 — founding membership registration ($7.99/month), payments not yet open. Free taste: Entries 1–7 in full. 创始会员登记（$7.99/月），付款尚未开放；免费试读本第 1–7 篇全文。創始會員登記（$7.99/月），付款尚未開放；免費試讀本第 1–7 篇全文。">
 <script>
 (function () {
-  var saved = null;
-  try { saved = localStorage.getItem('gw-lang'); } catch (e) {}
-  var lang;
-  if (saved === 'zh' || saved === 'en') {
-    lang = saved;
-  } else {
+  var HTML_LANG = { 'zh-hans': 'zh-Hans', 'zh-hant': 'zh-Hant', 'en': 'en' };
+  function detect() {
+    var saved = null;
+    try { saved = localStorage.getItem('gw-lang'); } catch (e) {}
+    if (saved === 'zh') { return 'zh-hans'; } /* legacy value migrates to Simplified */
+    if (saved === 'zh-hans' || saved === 'zh-hant' || saved === 'en') { return saved; }
     var langs = (navigator.languages && navigator.languages.length)
       ? navigator.languages
       : [navigator.language || 'en'];
-    lang = 'en';
     for (var i = 0; i < langs.length; i++) {
-      if (/^zh/i.test(langs[i])) { lang = 'zh'; break; }
+      var L = String(langs[i]).toLowerCase();
+      if (/^zh-hant/.test(L) || /^zh-tw/.test(L) || /^zh-hk/.test(L) || /^zh-mo/.test(L)) { return 'zh-hant'; }
+      if (/^zh/.test(L)) { return 'zh-hans'; }
     }
+    return 'en';
   }
+  var lang = detect();
   document.documentElement.setAttribute('data-lang', lang);
-  document.documentElement.setAttribute('lang', lang === 'zh' ? 'zh-Hans' : 'en');
+  document.documentElement.setAttribute('lang', HTML_LANG[lang]);
 
   window.gwSyncButtons = function () {
     var cur = document.documentElement.getAttribute('data-lang');
-    var bz = document.getElementById('btn-zh');
-    var be = document.getElementById('btn-en');
-    if (bz) { bz.classList.toggle('active', cur === 'zh'); bz.setAttribute('aria-pressed', cur === 'zh' ? 'true' : 'false'); }
-    if (be) { be.classList.toggle('active', cur === 'en'); be.setAttribute('aria-pressed', cur === 'en' ? 'true' : 'false'); }
+    var map = { 'btn-zh-hans': 'zh-hans', 'btn-zh-hant': 'zh-hant', 'btn-en': 'en' };
+    for (var id in map) {
+      var b = document.getElementById(id);
+      if (b) {
+        var on = cur === map[id];
+        b.classList.toggle('active', on);
+        b.setAttribute('aria-pressed', on ? 'true' : 'false');
+      }
+    }
   };
   window.gwSetLang = function (l) {
-    if (l !== 'zh' && l !== 'en') { return; }
+    if (l === 'zh') { l = 'zh-hans'; } /* legacy alias */
+    if (!HTML_LANG.hasOwnProperty(l)) { return; }
     document.documentElement.setAttribute('data-lang', l);
-    document.documentElement.setAttribute('lang', l === 'zh' ? 'zh-Hans' : 'en');
+    document.documentElement.setAttribute('lang', HTML_LANG[l]);
     try { localStorage.setItem('gw-lang', l); } catch (e) {}
     window.gwSyncButtons();
   };
@@ -54,8 +63,10 @@
     -webkit-font-smoothing:antialiased;
   }
   html[data-lang="en"] body{font-family:Georgia,"Times New Roman","Noto Serif SC",serif;}
-  html[data-lang="zh"] .view-en{display:none;}
-  html[data-lang="en"] .view-zh{display:none;}
+  html[data-lang="zh-hant"] body{font-family:"Noto Serif TC","Songti TC","PMingLiU","Noto Serif SC",Georgia,serif;}
+  html[data-lang="zh-hans"] .view-zh-hant, html[data-lang="zh-hans"] .view-en{display:none;}
+  html[data-lang="zh-hant"] .view-zh, html[data-lang="zh-hant"] .view-en{display:none;}
+  html[data-lang="en"] .view-zh, html[data-lang="en"] .view-zh-hant{display:none;}
   .wrap{max-width:760px; margin:0 auto; padding:0 20px 64px;}
   .langbar{display:flex; justify-content:flex-end; align-items:center; gap:8px; padding-top:18px;}
   .langbar button{
@@ -111,12 +122,14 @@
 <div class="wrap">
 
   <div class="langbar" role="group" aria-label="Language">
-    <button type="button" id="btn-zh" onclick="gwSetLang('zh')">中文</button>
+    <button type="button" id="btn-zh-hans" onclick="gwSetLang('zh-hans')">简体</button>
+    <span class="langsep">|</span>
+    <button type="button" id="btn-zh-hant" onclick="gwSetLang('zh-hant')">繁體</button>
     <span class="langsep">|</span>
     <button type="button" id="btn-en" onclick="gwSetLang('en')">English</button>
   </div>
 
-  <!-- ================= 中文视图 ================= -->
+  <!-- ================= 简体中文视图 ================= -->
   <div class="view-zh" lang="zh-Hans">
 
     <header>
@@ -182,6 +195,76 @@
 
     <footer>
       《心意更新：福音智慧每日灵修》Gospel Wisdom · 创始登记中，付款尚未开放
+    </footer>
+
+  </div>
+
+  <!-- ================= 繁體中文視圖 ================= -->
+  <div class="view-zh-hant" lang="zh-Hant">
+
+    <header>
+      <div class="kicker">每日靈修 · Daily Devotional</div>
+      <h1>心意更新：福音智慧每日靈修
+        <span class="sub">Gospel Wisdom — Daily Scripture Reflections Through the Lens of Neville Goddard</span>
+      </h1>
+      <p class="tagline">一天一篇：經文（中英對照）＋ 經文語境 ＋ Neville 內在解讀 ＋ 今日應用 ＋ 禱告</p>
+      <div class="status">創始登記中 · 付款尚未開放
+        <small>留下電子郵件只是登記意向，不是購買，不會收取任何費用。</small>
+      </div>
+    </header>
+
+    <!-- 這是什麼 -->
+    <section>
+      <h2>這是什麼</h2>
+      <p>《福音智慧》是一部正在逐日彙編的每日靈修：從聖經中取一篇經文，先交代它的語境原意，再用 Neville Goddard 的內在解讀方法讀出它與你今天生活的關聯，最後落在一句可執行的應用和一段禱告上。解讀方法如實標註，<strong>不承諾任何效果</strong>。</p>
+      <p>截至 2026 年 11 月 8 日，已彙編完成 <strong>17 篇</strong>（中英雙稿齊備）；全書目標 365 篇，按每 30 篇一卷推進。近期彙編實績約為每日一篇。</p>
+    </section>
+
+    <!-- 免費試讀 -->
+    <section>
+      <h2>先讀再決定：免費試讀本（第 1–7 篇）</h2>
+      <p>試讀本收錄第一卷前 7 篇<strong>全文</strong>，與會員卷同篇文字一致，不刪節。讀完再決定要不要加入，不必先付任何費用。</p>
+      <ul class="entries">
+        <li>第 1 篇 · 歌羅西書 1:13</li>
+        <li>第 2 篇 · 提摩太後書 3:16–17</li>
+        <li>第 3 篇 · 以賽亞書 41:10</li>
+        <li>第 4 篇 · 約翰福音 1:1</li>
+        <li>第 5 篇 · 希伯來書 4:12</li>
+        <li>第 6 篇 · 詩篇 119:11</li>
+        <li>第 7 篇 · 詩篇 139:23</li>
+      </ul>
+      <p class="muted">領取方式：點下方登記按鈕，在表單裡選擇「免費試讀」，我們會把試讀本 PDF 以電子郵件寄給你。</p>
+    </section>
+
+    <!-- 會員報價 -->
+    <section>
+      <h2>創始會員 <span class="price">$7.99<small> / 月</small></span></h2>
+      <p>付款尚未開放。現在登記購買意向的人，會在正式開通時<strong>第一時間</strong>收到通知。開通之後，你付的 $7.99/月買到的就是下面這些，逐項寫明：</p>
+      <table>
+        <tr><th>交付項</th><th>內容</th><th>時點</th></tr>
+        <tr><td>會員卷一（現有存量）</td><td>第 1–17 篇全文 PDF（A5，38 頁）</td><td>付款確認後 24 小時內以電子郵件送達</td></tr>
+        <tr><td>每月新增篇目合集</td><td>上一個月內新彙編完成的篇目，合集 PDF</td><td>每月第一週內以電子郵件送達</td></tr>
+        <tr><td>整卷定版</td><td>每滿 30 篇編成一卷，整卷 PDF</td><td>滿卷當月內以電子郵件送達</td></tr>
+      </table>
+      <p class="fineprint">交付格式只有 PDF（手機可讀、可列印），不承諾 App 或 ePub。每月合集的篇數隨實際彙編進度浮動，不預先承諾固定篇數；按目前進度推算，卷一滿 30 篇約在 2026 年 11 月下旬——這是推算，<strong>不是保證日期</strong>。絕不預支未寫出的篇目。</p>
+      <p class="fineprint"><strong>取消與退款：</strong>隨時取消，取消後次月起不再扣款，已送達的內容永久保留、不回收；首次付款 7 天內可無條件全額退款；取消發生在當月合集傳送之前的，當月費用全額退還，合集已傳送的當月不退、次月起停扣。</p>
+      <div class="cta">
+        <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSfwqTcZwqPH-WPPqm6Pa_ZXQui9nSpIOPoYSq72XCWl3XsUKQ/viewform" target="_blank" rel="noopener">登記購買意向 / 領取免費試讀</a>
+      </div>
+      <p class="fineprint" style="text-align:center;">登記不構成購買 · 不收費 · 開通時優先通知</p>
+    </section>
+
+    <!-- 獻詞 -->
+    <section>
+      <h2>認領一天 · 獻詞位</h2>
+      <p>全書 365 天，你可以免費認領其中一天，把那一天獻給一個人——附上一句獻詞短句。這是<strong>意向登記</strong>：獻詞是否刊出，取決於那一天的篇目是否編成、專案是否推進，<strong>本登記不構成出版承諾</strong>，也不收費。</p>
+      <div class="cta">
+        <a class="btn secondary" href="https://docs.google.com/forms/d/e/1FAIpQLScFT9EpDscbmchwAK7KfE5aZNq5EXdl3floAWtiGYpVPyz__w/viewform" target="_blank" rel="noopener">認領一天・獻詞</a>
+      </div>
+    </section>
+
+    <footer>
+      《心意更新：福音智慧每日靈修》Gospel Wisdom · 創始登記中，付款尚未開放
     </footer>
 
   </div>

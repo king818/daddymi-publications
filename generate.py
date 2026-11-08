@@ -19,15 +19,42 @@ BASE = "https://king818.github.io/daddymi-publications/"
 # ---------------- display derivation (no yaml structure change) ----------------
 
 SERIES_DISP = {
-    "Come, Follow Me 2026": {"zh": "來跟隨我 2026", "en": "Come, Follow Me 2026"},
-    "Daily Verse · Neville Readings": {"zh": "每日經文 · Neville 解讀", "en": "Daily Verse · Neville Readings"},
-    "General Conference Talks (Elders Quorum)": {"zh": "總會大會 · 長老定額組討論", "en": "General Conference Talks (Elders Quorum)"},
-    "Neville Inner Reading Podcast": {"zh": "Neville 內在解讀播客", "en": "Neville Inner Reading Podcast"},
-    "Finance Basics": {"zh": "財經基礎 · 錢的知識", "en": "Finance Basics"},
+    "Come, Follow Me 2026": {"zh": "來跟隨我 2026", "hans": "来跟随我 2026", "hant": "來跟隨我 2026", "en": "Come, Follow Me 2026"},
+    "Daily Verse · Neville Readings": {"zh": "每日經文 · Neville 解讀", "hans": "每日经文 · Neville 解读", "hant": "每日經文 · Neville 解讀", "en": "Daily Verse · Neville Readings"},
+    "General Conference Talks (Elders Quorum)": {"zh": "總會大會 · 長老定額組討論", "hans": "总会大会 · 长老定额组讨论", "hant": "總會大會 · 長老定額組討論", "en": "General Conference Talks (Elders Quorum)"},
+    "Neville Inner Reading Podcast": {"zh": "Neville 內在解讀播客", "hans": "Neville 内在解读播客", "hant": "Neville 內在解讀播客", "en": "Neville Inner Reading Podcast"},
+    "Finance Basics": {"zh": "財經基礎 · 錢的知識", "hans": "财经基础 · 钱的知识", "hant": "財經基礎 · 錢的知識", "en": "Finance Basics"},
 }
 
 def lang_group(lang):
     return "zh" if (lang or "").startswith("zh") else "en"
+
+# ---- trilingual UI views for index.html: "hans" | "hant" | "en" ----
+# Data-derived Chinese labels are computed from published titles (Traditional
+# house style). Per-view variants convert script only — never wording — via
+# OpenCC when available; without OpenCC every Chinese view falls back to the
+# base label (the page still works, just single-script labels).
+try:
+    from opencc import OpenCC as _OpenCC
+    _T2S = _OpenCC("t2s")
+    _S2TWP = _OpenCC("s2twp")
+except Exception:
+    _T2S = _S2TWP = None
+
+def _conv(text, cc):
+    return cc.convert(text) if (cc and text) else text
+
+def label_for_view(base_label, row_lang, view):
+    """Script-convert a derived label for the UI view. English rows and the
+    English view keep the base label; published titles (disp 'sub') are never
+    passed through here — they stay verbatim."""
+    if lang_group(row_lang) != "zh" or view == "en":
+        return base_label
+    if view == "hans":
+        return _conv(base_label, _T2S)
+    if view == "hant":
+        return _conv(base_label, _S2TWP)
+    return base_label
 
 def _clean_title(t):
     """Unwrap YAML-artifact quoting stored literally in a few title values
@@ -103,20 +130,30 @@ def human_label(r):
 
 TYPE_DISP = {
     "zh": {"Long": "長集", "Short (hook)": "Short · 鉤子", "Short (funnel)": "Short · 導入", "Short (sister cut)": "Short · 加剪（sister cut）", "Short": "Short"},
+    "hans": {"Long": "长集", "Short (hook)": "Short · 钩子", "Short (funnel)": "Short · 导入", "Short (sister cut)": "Short · 加剪（sister cut）", "Short": "Short"},
+    "hant": {"Long": "長集", "Short (hook)": "Short · 鉤子", "Short (funnel)": "Short · 導入", "Short (sister cut)": "Short · 加剪（sister cut）", "Short": "Short"},
     "en": {"Long": "Long", "Short (hook)": "Short (hook)", "Short (funnel)": "Short (funnel)", "Short (sister cut)": "Short · Extra cut (sister cut)", "Short": "Short"},
 }
 
-def type_label(r):
-    return TYPE_DISP[lang_group(r.get("language"))].get(r.get("type") or "", r.get("type") or "")
+def type_label(r, view=None):
+    if view is None:
+        key = lang_group(r.get("language"))
+    elif lang_group(r.get("language")) == "en":
+        key = "en"
+    else:
+        key = view
+    return TYPE_DISP[key].get(r.get("type") or "", r.get("type") or "")
 
 GUID_RE = re.compile(r"[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}")
 
-def archive_disp(r):
+def archive_disp(r, view=None):
     """-> (main, sub) human archive label; never a full GUID."""
     lang = lang_group(r.get("language"))
     v = (r.get("archive_note") or "").strip()
     if not v:
-        return ("待存档", "") if lang == "zh" else ("Not archived yet", "")
+        if lang != "zh":
+            return ("Not archived yet", "")
+        return ("待存檔", "") if view == "hant" else ("待存档", "")
     m = GUID_RE.search(v)
     short = m.group(0)[:8] if m else None
     if short is None:
@@ -127,33 +164,51 @@ def archive_disp(r):
         nb = "Gospel"
     elif "Video Artifacts" in v:
         nb = "Video Artifacts"
-    main = "已存档" if lang == "zh" else "Archived"
+    if lang != "zh":
+        main = "Archived"
+    else:
+        main = "已存檔" if view == "hant" else "已存档"
     sub = " · ".join(x for x in [nb, short] if x)
     return (main, sub)
 
-def status_label(r):
+def status_label(r, view=None):
     lang = lang_group(r.get("language"))
     s = (r.get("status") or "").strip()
     zh = lang == "zh"
+    if not zh:
+        view = "en"
+    elif view not in ("hans", "hant"):
+        view = "hant"  # legacy default = the pre-trilingual wording
+    W = {
+        "hans": {"pub": "已发布", "fix": "已修复", "redo": "重制版", "check": "抽查",
+                 "dup": "Private · 重复上传", "orig": "Private · 旧版",
+                 "by_redo": "Private · 已被重制版取代", "by": "Private · 已被取代"},
+        "hant": {"pub": "已發布", "fix": "已修復", "redo": "重製版", "check": "抽查",
+                 "dup": "Private · 重複上傳", "orig": "Private · 舊版",
+                 "by_redo": "Private · 已被重製版取代", "by": "Private · 已被取代"},
+        "en": {"pub": "Live", "fix": "defect fixed", "redo": "redo", "check": "check",
+               "dup": "Private · duplicate", "orig": "Private · original",
+               "by_redo": "Private · replaced by redo", "by": "Private · replaced"},
+    }[view]
     if s.startswith("Live") or s == "Public":
-        out = "已發布" if zh else "Live"
+        out = W["pub"]
         if "defect fixed" in s or "recovery pass" in s:
-            out += " · 已修復" if zh else " · defect fixed"
+            out += " · " + W["fix"]
         if "redo" in s:
-            out += " · 重製版" if zh else " · redo"
+            out += " · " + W["redo"]
         m = re.search(r"spot-check due ~?(\d{4})-(\d{2})-(\d{2})", s)
         if m:
-            out += f" · {'抽查' if zh else 'check'} {m.group(2)}-{m.group(3)}"
+            out += f" · {W['check']} {m.group(2)}-{m.group(3)}"
         return out
     if s.startswith("Private"):
         if "duplicate" in s:
-            return "Private · 重複上傳" if zh else "Private · duplicate"
+            return W["dup"]
         if "original version" in s:
-            return "Private · 舊版" if zh else "Private · original"
+            return W["orig"]
         if "replaced by redo" in s:
-            return "Private · 已被重製版取代" if zh else "Private · replaced by redo"
+            return W["by_redo"]
         if "replaced" in s:
-            return "Private · 已被取代" if zh else "Private · replaced"
+            return W["by"]
         return "Private"
     return s.split("—")[0].strip()[:30]
 
@@ -167,6 +222,21 @@ def disp(r):
         "archive_sub": asub,
         "status_label": status_label(r),
     }
+
+def disp_view(r, view):
+    am, asub = archive_disp(r, view)
+    base = human_label(r)
+    return {
+        "label": label_for_view(base, r.get("language"), view),
+        "sub": _strip_shorts(r.get("title") or ""),
+        "type_label": type_label(r, view),
+        "archive_main": am,
+        "archive_sub": asub,
+        "status_label": status_label(r, view),
+    }
+
+def disp3(r):
+    return {v: disp_view(r, v) for v in ("hans", "hant", "en")}
 
 # ---------------- load ----------------
 
@@ -259,7 +329,7 @@ def main():
                 "platform": r["platform"], "series": r["series"], "language": r["language"],
                 "type": r["type"], "published": r["published"], "url": r.get("url"),
                 "native_id": r["native_id"], "playlist": r.get("playlist") or "",
-                "disp": disp(r),
+                "disp": disp3(r),
             })
         return json.dumps(slim, ensure_ascii=False).replace("</", "<\\/")
 
@@ -269,6 +339,38 @@ def main():
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Daddy Mi — Publications Index</title>
+<script>
+(function () {
+  var HTML_LANG = { 'zh-hans': 'zh-Hans', 'zh-hant': 'zh-Hant', 'en': 'en' };
+  function detect() {
+    var saved = null;
+    try { saved = localStorage.getItem('gw-lang'); } catch (e) {}
+    if (saved === 'zh') { return 'zh-hans'; }
+    if (saved === 'zh-hans' || saved === 'zh-hant' || saved === 'en') { return saved; }
+    var langs = (navigator.languages && navigator.languages.length)
+      ? navigator.languages
+      : [navigator.language || 'en'];
+    for (var i = 0; i < langs.length; i++) {
+      var L = String(langs[i]).toLowerCase();
+      if (/^zh-hant/.test(L) || /^zh-tw/.test(L) || /^zh-hk/.test(L) || /^zh-mo/.test(L)) { return 'zh-hant'; }
+      if (/^zh/.test(L)) { return 'zh-hans'; }
+    }
+    return 'en';
+  }
+  window.GW_LANG = detect();
+  document.documentElement.setAttribute('data-lang', window.GW_LANG);
+  document.documentElement.setAttribute('lang', HTML_LANG[window.GW_LANG]);
+  window.gwSetLang = function (l) {
+    if (l === 'zh') { l = 'zh-hans'; }
+    if (!HTML_LANG.hasOwnProperty(l)) { return; }
+    window.GW_LANG = l;
+    document.documentElement.setAttribute('data-lang', l);
+    document.documentElement.setAttribute('lang', HTML_LANG[l]);
+    try { localStorage.setItem('gw-lang', l); } catch (e) {}
+    if (window.gwApplyLang) { window.gwApplyLang(); }
+  };
+})();
+</script>
 <style>
   :root { --ink:#1c2430; --mut:#5b6675; --line:#dfe3ea; --gold:#C9A764; --bg:#f7f4ec; }
   * { box-sizing: border-box; }
@@ -276,6 +378,10 @@ def main():
   header { background:#0B1220; color:#F7F4EC; padding:20px 16px 16px; }
   header h1 { margin:0 0 4px; font-size:22px; }
   header p { margin:0; color:#cdbf9f; font-size:13px; }
+  .langbar { display:flex; gap:8px; align-items:center; margin-top:12px; }
+  .langbar button { font:inherit; font-size:13px; padding:4px 13px; border-radius:999px; cursor:pointer; background:transparent; color:#cdbf9f; border:1px solid #2c3c5f; }
+  .langbar button.active { background:#C9A764; color:#0B1220; border-color:#C9A764; font-weight:700; }
+  .langsep { color:#5b6675; font-size:13px; }
   .counts { display:flex; flex-wrap:wrap; gap:8px; margin-top:12px; }
   .chip { background:#16213a; border:1px solid #2c3c5f; border-radius:999px; padding:4px 10px; font-size:12.5px; }
   .chip b { color:var(--gold); }
@@ -311,15 +417,22 @@ def main():
 <body>
 <header>
   <h1>米老爸 Daddy Mi — Publications Index</h1>
-  <p>Every video our production has published, in one place. Data: publications.yaml · Updated __TODAY__</p>
+  <p><span data-ui="tagline">Every video our production has published, in one place.</span> Data: publications.yaml · Updated __TODAY__</p>
+  <div class="langbar" role="group" aria-label="Language">
+    <button type="button" id="btn-zh-hans" onclick="gwSetLang('zh-hans')">简体</button>
+    <span class="langsep">|</span>
+    <button type="button" id="btn-zh-hant" onclick="gwSetLang('zh-hant')">繁體</button>
+    <span class="langsep">|</span>
+    <button type="button" id="btn-en" onclick="gwSetLang('en')">English</button>
+  </div>
   <div class="counts">__CHIPS__</div>
 </header>
 <div class="controls">
   <input id="q" type="search" placeholder="Search title / topic / video ID…">
-  <select id="fPlatform"><option value="">All platforms</option>__PLAT_OPTS__</select>
-  <select id="fSeries"><option value="">All series</option>__SERIES_OPTS__</select>
-  <select id="fLang"><option value="">All languages</option>__LANG_OPTS__</select>
-  <select id="fType"><option value="">All types</option>__TYPE_OPTS__</select>
+  <select id="fPlatform"><option value="" data-ui="allPlatforms">All platforms</option>__PLAT_OPTS__</select>
+  <select id="fSeries"><option value="" data-ui="allSeries">All series</option>__SERIES_OPTS__</select>
+  <select id="fLang"><option value="" data-ui="allLanguages">All languages</option>__LANG_OPTS__</select>
+  <select id="fType"><option value="" data-ui="allTypes">All types</option>__TYPE_OPTS__</select>
 </div>
 <main>
   <div id="list"></div>
@@ -330,19 +443,42 @@ const PUBS = __PUBS_JSON__;
 const PRIV = __PRIV_JSON__;
 const SERIES_DISP = __SERIES_DISP__;
 const $ = id => document.getElementById(id);
+const UI = {
+  "zh-hans": { tagline: "我们制作并发布的每一支视频，都在这里。", search: "搜索标题 / 主题 / 视频 ID…",
+    allPlatforms: "全部平台", allSeries: "全部系列", allLanguages: "全部语言", allTypes: "全部类型",
+    thTitle: "标题", thPublished: "发布", thType: "类型", thPlaylist: "播放清单", thArchive: "存档", thStatus: "状态",
+    noMatch: "没有符合的结果。", unv: "未核实 / 待处理", privHead: "已取代 / Private 版本",
+    publicVideos: "支公开发布视频", replacedPrivate: "支已取代/Private 版本",
+    langName: { zh: "中文", en: "English" } },
+  "zh-hant": { tagline: "我們製作並發布的每一支視頻，都在這裡。", search: "搜尋標題 / 主題 / 視頻 ID…",
+    allPlatforms: "全部平台", allSeries: "全部系列", allLanguages: "全部語言", allTypes: "全部類型",
+    thTitle: "標題", thPublished: "發布", thType: "類型", thPlaylist: "播放清單", thArchive: "存檔", thStatus: "狀態",
+    noMatch: "沒有符合的結果。", unv: "未核實 / 待處理", privHead: "已取代 / Private 版本",
+    publicVideos: "支公開發布視頻", replacedPrivate: "支已取代/Private 版本",
+    langName: { zh: "中文", en: "English" } },
+  "en": { tagline: "Every video our production has published, in one place.", search: "Search title / topic / video ID…",
+    allPlatforms: "All platforms", allSeries: "All series", allLanguages: "All languages", allTypes: "All types",
+    thTitle: "Title", thPublished: "Published", thType: "Type", thPlaylist: "Playlist", thArchive: "Archive", thStatus: "Status",
+    noMatch: "No matches.", unv: "Unverified / pending", privHead: "Replaced / Private versions",
+    publicVideos: "public videos", replacedPrivate: "replaced/private",
+    langName: { zh: "Chinese", en: "English" } }
+};
+function curUI(){ return UI[window.GW_LANG] || UI.en; }
 function escapeHtml(s){return String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}
 function langGroup(l){ return (l||"").startsWith("zh") ? "zh" : "en"; }
 function blockTitle(series, lg, n, priv) {
-  const name = (SERIES_DISP[series]||{})[lg] || series;
-  const lang = lg === "zh" ? "中文" : "English";
-  const cnt = lg === "zh" ? "（"+n+"）" : " ("+n+")";
-  return priv ? ("已取代 / Private · "+name+" — "+lang+cnt) : (name+" — "+lang+cnt);
+  const view = window.GW_LANG;
+  const dispKey = lg === "en" ? "en" : (view === "en" ? "hant" : view);
+  const name = (SERIES_DISP[series]||{})[dispKey] || series;
+  const lang = curUI().langName[lg];
+  const cnt = view === "en" ? " ("+n+")" : "（"+n+"）";
+  return priv ? (curUI().privHead+" · "+name+" — "+lang+cnt) : (name+" — "+lang+cnt);
 }
 function row(r, priv) {
-  const d = r.disp;
+  const d = r.disp[window.GW_LANG] || r.disp.en;
   const labelHtml = r.url ? '<a href="'+r.url+'" target="_blank" rel="noopener">'+escapeHtml(d.label)+'</a>' : escapeHtml(d.label);
   const subHtml = (d.sub && d.sub !== d.label) ? '<div class="sub">'+escapeHtml(d.sub)+'</div>' : '';
-  const pendCls = (/待存档|Not archived/.test(d.archive_main)) ? ' class="pend"' : '';
+  const pendCls = (/待存|Not archived/.test(d.archive_main)) ? ' class="pend"' : '';
   return '<tr'+(priv?' class="priv"':'')+'>'
     + '<td><div class="lbl">'+labelHtml+'</div>'+subHtml+'<div class="vid">ID '+escapeHtml(r.native_id)+'</div></td>'
     + '<td>'+r.published+'</td>'
@@ -353,7 +489,7 @@ function row(r, priv) {
 }
 function tableHtml(rows, priv) {
   return '<table><colgroup><col class="c-title"><col class="c-date"><col class="c-type"><col class="c-pl"><col class="c-arch"><col class="c-status"></colgroup>'
-    + '<thead><tr><th>標題 Title</th><th>發布 Published</th><th>類型 Type</th><th>播放清單 Playlist</th><th>存檔 Archive</th><th>狀態 Status</th></tr></thead><tbody>'
+    + '<thead><tr><th>'+curUI().thTitle+'</th><th>'+curUI().thPublished+'</th><th>'+curUI().thType+'</th><th>'+curUI().thPlaylist+'</th><th>'+curUI().thArchive+'</th><th>'+curUI().thStatus+'</th></tr></thead><tbody>'
     + rows.map(r=>row(r,priv)).join('') + '</tbody></table>';
 }
 function groupsOf(rows) {
@@ -371,31 +507,47 @@ function render() {
   });
   const priv = PRIV.filter(match);
   if (priv.length) {
-    h += '<h2>Replaced / Private versions ('+priv.length+')</h2>';
+    h += '<h2>'+escapeHtml(curUI().privHead)+' ('+priv.length+')</h2>';
     groupsOf(priv).forEach(g=>{
       ["zh","en"].forEach(lg=>{ const rows = g[lg]; if(rows.length){ h += '<h2>'+escapeHtml(blockTitle(g.series, lg, rows.length, true))+'</h2>' + tableHtml(rows, true); } });
     });
   }
-  if (!h) h = '<p class="meta">No matches.</p>';
+  if (!h) h = '<p class="meta">'+escapeHtml(curUI().noMatch)+'</p>';
   $('list').innerHTML = h;
 }
 ['q','fPlatform','fSeries','fLang','fType'].forEach(id=>{ $(id).addEventListener('input', render); $(id).addEventListener('change', render); });
-render();
+window.gwApplyLang = function () {
+  const u = curUI();
+  document.querySelectorAll('[data-ui]').forEach(el => {
+    const k = el.getAttribute('data-ui');
+    if (u[k]) { el.textContent = u[k]; }
+  });
+  $('q').setAttribute('placeholder', u.search);
+  const unvH = document.getElementById('unvTitle');
+  if (unvH) { unvH.textContent = u.unv; }
+  const map = { 'btn-zh-hans': 'zh-hans', 'btn-zh-hant': 'zh-hant', 'btn-en': 'en' };
+  for (const id in map) {
+    const b = $(id);
+    if (b) { const on = window.GW_LANG === map[id]; b.classList.toggle('active', on); b.setAttribute('aria-pressed', on ? 'true' : 'false'); }
+  }
+  render();
+};
+window.gwApplyLang();
 </script>
 </body>
 </html>
 """
 
     LANG_LABEL = {"zh": "中文", "en": "English", "": "—"}
-    chips = [f"<span class='chip'><b>{len(PUBS)}</b> public videos</span>"]
+    chips = [f"<span class='chip'><b>{len(PUBS)}</b> <span data-ui='publicVideos'>public videos</span></span>"]
     chips += [f"<span class='chip'>{html.escape(p)}: <b>{plat_counts[p]}</b></span>" for p in platforms]
     chips += [f"<span class='chip'>{html.escape(s)}: <b>{series_counts[s]}</b></span>" for s in series_list]
-    chips.append(f"<span class='chip'><b>{len(PRIV)}</b> replaced/private</span>")
+    chips.append(f"<span class='chip'><b>{len(PRIV)}</b> <span data-ui='replacedPrivate'>replaced/private</span></span>")
 
     unv_html = ""
     if UNV:
         items = "".join(f"<p><b>{html.escape(u['item'])}</b> — {html.escape(u['reason'])} Next: {html.escape(u['action'])}</p>" for u in UNV)
-        unv_html = f"<h2>Unverified / pending</h2><div class='unv'>{items}</div>"
+        unv_html = f"<h2 id='unvTitle'>Unverified / pending</h2><div class='unv'>{items}</div>"
 
     html_doc = (html_doc
         .replace("__TODAY__", today)
