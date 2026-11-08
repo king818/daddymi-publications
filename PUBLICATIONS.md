@@ -2,13 +2,14 @@
 
 Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, filterable version: https://king818.github.io/daddymi-publications/
 
-**321 public videos** · 70 replaced/private versions · Come, Follow Me 2026: 138 · Daily Verse · Neville Readings: 142 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 28 · Neville Inner Reading Podcast: 7
+**321 public videos** · 71 replaced/private versions · Come, Follow Me 2026: 138 · Daily Verse · Neville Readings: 142 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 28 · Neville Inner Reading Podcast: 7
 
 
 ## 來跟隨我 2026 — 中文（69）
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
+| 2026-11-08 | [第 44 週 · 我必使哀哭變為歡樂](https://youtu.be/-YkdQZ-Qm_Q)<br><sub>來跟隨我 2026 第44週（10月26日–11月1日）｜我必使哀哭變為歡樂 · 耶利米書</sub> | 長集 | 來跟隨我 2026（中文） | 已存档 · 4327f78b | 已發布 | `-YkdQZ-Qm_Q` |
 | 2026-11-06 | [第 7 週 · 挪亞在耶和華眼前蒙恩](https://youtu.be/BIEDfPA9orY)<br><sub>來跟隨我 2026 第7週（2月9日–15日）｜挪亞在耶和華眼前蒙恩 · 創世記 6–11；摩西書 8</sub> | 長集 | 來跟隨我 2026（中文） | 已存档 · 3469a5b7 | 已發布 | `BIEDfPA9orY` |
 | 2026-11-06 | [第 7 週 · 耶和華把他關在方舟裡頭](https://youtube.com/shorts/e0n1SdnavrA)<br><sub>2026 第7週｜耶和華把他關在方舟裡頭</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 已存档 · 21ff8a3f | 已發布 | `e0n1SdnavrA` |
 | 2026-11-06 | [第 7 週 · 七天操練：進入方舟的一周](https://youtube.com/shorts/lYunCHReiJY)<br><sub>2026 第7週｜七天操練：進入方舟的一周</sub> | Short · 導入 | 來跟隨我 2026（中文） | 已存档 · a34534fb | 已發布 | `lYunCHReiJY` |
@@ -72,7 +73,6 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-11-01 | [第 50 週 · 你的王來到你這裡](https://www.youtube.com/shorts/XO4Jw6CapxA)<br><sub>2026 第50週｜你的王來到你這裡</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 已存档 · Gospel · 3e905d7b | 已發布 · 抽查 11-03 | `XO4Jw6CapxA` |
 | 2026-11-01 | [第 50 週 · 每天的第一件事：五分鐘](https://www.youtube.com/shorts/mCw-LDtp1Oo)<br><sub>2026 第50週｜每天的第一件事：五分鐘</sub> | Short · 導入 | 來跟隨我 2026（中文） | 已存档 · Gospel · 31716b26 | 已發布 · 抽查 11-03 | `mCw-LDtp1Oo` |
 | 2026-11-01 | [第 51 週 · 我曾愛你們](https://youtu.be/LGGls3PSy2I)<br><sub>來跟隨我 2026 第51週（12月14日–20日）｜我曾愛你們 · 瑪拉基書</sub> | 長集 | 來跟隨我 2026（中文） | 已存档 · Gospel · d7ecd40a | 已發布 · 抽查 11-04 | `LGGls3PSy2I` |
-| 2026-10-31 | [第 44 週 · 我必使哀哭變為歡樂](https://youtu.be/qB2wYXHaaPg)<br><sub>來跟隨我 2026 第44週（10月26日–11月1日）｜我必使哀哭變為歡樂 · 耶利米書</sub> | 長集 | 來跟隨我 2026（中文） | 已存档 · 4327f78b | 已發布 | `qB2wYXHaaPg` |
 | 2026-10-31 | [第 44 週 · 在廢墟里買下一塊地](https://www.youtube.com/shorts/LypsstfbCr0)<br><sub>2026 第44週 | 在廢墟里買下一塊地 | 耶利米書</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 已存档 · 8fb333b5 | 已發布 | `LypsstfbCr0` |
 | 2026-10-31 | [第 44 週 · 律法寫在心上，成為你的身份認定｜耶利米書](https://www.youtube.com/shorts/yaZ74v5u3sQ)<br><sub>2026 第44週｜律法寫在心上，成為你的身份認定｜耶利米書</sub> | Short · 導入 | 來跟隨我 2026（中文） | 已存档 · 3ab94401 | 已發布 | `yaZ74v5u3sQ` |
 | 2026-10-31 | [第 45 週 · 我必將新靈放在你們裡面·以西結書](https://youtu.be/M6DCRkuU8SU)<br><sub>來跟隨我 2026 第45週（11月2日–8日）｜我必將新靈放在你們裡面·以西結書</sub> | 長集 | 來跟隨我 2026（中文） | 已存档 · 383b7ee1 | 已發布 | `M6DCRkuU8SU` |
@@ -376,7 +376,7 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-10-31 | ['Guaranteed 14% Returns'? A Dangerous Illusion | Finance Basics](https://www.youtube.com/shorts/_z0BhZ_z1P8) | Short (hook) | Finance Basics 2026 (English) | Archived · d6c05cce | Live | `_z0BhZ_z1P8` |
 | 2026-10-31 | [The Premium Lowers Your Real Cost to $109.08 | Finance Basics](https://www.youtube.com/shorts/meGAW-UginY) | Short (funnel) | Finance Basics 2026 (English) | Archived · ce324423 | Live | `meGAW-UginY` |
 
-## Replaced / Private versions (70)
+## Replaced / Private versions (71)
 
 Same productions, kept for the record — not public.
 
@@ -463,13 +463,14 @@ Same productions, kept for the record — not public.
 | 2026-10-30 | [EP1 original Short (1:01, pre-redo)](https://youtu.be/MyWvEekwrh4) | Short | Neville Inner Reading Podcast 2026 (English) | Not archived yet | Private · replaced by redo | `MyWvEekwrh4` |
 | 2026-10-28 | [EP1 English original (pre-redo)](https://youtu.be/Hmc6emlD1UQ) | Long | Neville Inner Reading Podcast 2026 (English) | Archived · Video Artifacts · 88e92add | Private · original | `Hmc6emlD1UQ` |
 
-### 已取代 / Private · 來跟隨我 2026 — 中文（3）
+### 已取代 / Private · 來跟隨我 2026 — 中文（4）
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
 | 2026-11-03 | [第 3 週 · 地是空虛混沌，祂說：要有光](https://youtu.be/G0UH51vPj9s)<br><sub>2026 第3週｜地是空虛混沌，祂說：要有光</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 待存档 | Private · 重複上傳 | `G0UH51vPj9s` |
 | 2026-11-03 | [第 3 週 · 七天操練：照著創造的次序過一周](https://youtu.be/g9nguOQgU4o)<br><sub>2026 第3週｜七天操練：照著創造的次序過一周</sub> | Short · 導入 | 來跟隨我 2026（中文） | 待存档 | Private · 重複上傳 | `g9nguOQgU4o` |
 | 2026-11-02 | [第 51 週 · 我曾愛你們](https://youtu.be/3l6lpOWsSk0)<br><sub>來跟隨我 2026 第51週（12月14日–20日）｜我曾愛你們 · 瑪拉基書</sub> | 長集 | 來跟隨我 2026（中文） | 待存档 | Private · 重複上傳 | `3l6lpOWsSk0` |
+| 2026-10-31 | [第 44 週 · 我必使哀哭變為歡樂](https://youtu.be/qB2wYXHaaPg)<br><sub>來跟隨我 2026 第44週（10月26日–11月1日）｜我必使哀哭變為歡樂 · 耶利米書</sub> | 長集 | 來跟隨我 2026（中文） | 已存档 · 4327f78b | Private · 已被取代 | `qB2wYXHaaPg` |
 
 ### 已取代 / Private · Come, Follow Me 2026 — English (3)
 
