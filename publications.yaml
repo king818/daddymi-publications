@@ -3685,6 +3685,18 @@ publications:
   archive_note: 7c12cab9-3c3b-40e5-a341-fd3207b43a9a
   playlist: 每日經文 · Neville 解讀 2026（中文）
   status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Romans 8:28
+  language: zh-Hant
+  type: Short
+  title: 羅馬書 8:28｜阻礙不是中斷，是橋梁：Neville 的「事件的橋梁」與白天操練
+  published: '2026-11-07'
+  url: https://www.youtube.com/shorts/YnasJHKUGFI
+  native_id: YnasJHKUGFI
+  archive_note: 7c12cab9-3c3b-40e5-a341-fd3207b43a9a
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  status: Public
 replaced_or_private:
 - platform: YouTube
   series: Daily Verse · Neville Readings
