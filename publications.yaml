@@ -19,9 +19,9 @@ publications:
   language: en
   type: Long
   title: Come, Follow Me 2026 Week 44 (Oct 26–Nov 1) | I Will Turn Their Mourning into Joy · Jeremiah
-  published: '2026-10-31'
-  url: https://youtu.be/yxyH7p0gs0Y
-  native_id: yxyH7p0gs0Y
+  published: '2026-11-08'
+  url: https://youtu.be/TCyMDamf0g0
+  native_id: TCyMDamf0g0
   playlist: Come, Follow Me 2026 (English)
   archive_note: 77aeaa26-9ab1-4452-aec0-71de520ce3a8
   status: Live
@@ -4706,6 +4706,18 @@ replaced_or_private:
   playlist: 來跟隨我 2026（中文）
   archive_note: 4327f78b-28d0-403e-9786-a2b13fd1458b
   status: Private — replaced by the Remotion repair version -YkdQZ-Qm_Q in the 2026-11-08 swap; this build was a slide build with an opaque panel over imagery (transparency defect), no channel intro and no background music; set Private per boss ruling, not deleted
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 44 — Jeremiah
+  language: en
+  type: Long
+  title: Come, Follow Me 2026 Week 44 (Oct 26–Nov 1) | I Will Turn Their Mourning into Joy · Jeremiah
+  published: '2026-10-31'
+  url: https://youtu.be/yxyH7p0gs0Y
+  native_id: yxyH7p0gs0Y
+  playlist: Come, Follow Me 2026 (English)
+  archive_note: 77aeaa26-9ab1-4452-aec0-71de520ce3a8
+  status: Private — replaced by the Remotion repair version TCyMDamf0g0 in the 2026-11-08 swap; this build was a slide build with an opaque panel over imagery (transparency defect), no channel intro and no background music; set Private per boss ruling, not deleted
 unverified:
 - item: CFM Lesson 3 (6 videos, published 2026-11-03) — Evernote archive notes missing
   reason: Checked 2026-11-03 — no archive notes found in Evernote by video ID or title; archive ZIPs not yet built. Finals retained on M1 mini (~/cfm-bf03-creation) and in the run dir on the VM.

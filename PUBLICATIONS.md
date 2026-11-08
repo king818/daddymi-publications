@@ -2,7 +2,7 @@
 
 Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, filterable version: https://king818.github.io/daddymi-publications/
 
-**321 public videos** · 71 replaced/private versions · Come, Follow Me 2026: 138 · Daily Verse · Neville Readings: 142 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 28 · Neville Inner Reading Podcast: 7
+**321 public videos** · 72 replaced/private versions · Come, Follow Me 2026: 138 · Daily Verse · Neville Readings: 142 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 28 · Neville Inner Reading Podcast: 7
 
 
 ## 來跟隨我 2026 — 中文（69）
@@ -83,6 +83,7 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
+| 2026-11-08 | [Week 44 · Jeremiah](https://youtu.be/TCyMDamf0g0)<br><sub>Come, Follow Me 2026 Week 44 (Oct 26–Nov 1) | I Will Turn Their Mourning into Joy · Jeremiah</sub> | Long | Come, Follow Me 2026 (English) | Archived · 77aeaa26 | Live | `TCyMDamf0g0` |
 | 2026-11-06 | [Week 7 · Noah Found Grace in the Eyes of the Lord](https://youtu.be/AxuOxwJaquI)<br><sub>CFM 2026 Week 7 (Feb 9–15) | Noah Found Grace in the Eyes of the Lord · Genesis 6–11; Moses 8</sub> | Long | Come, Follow Me 2026 (English) | Archived · ed0140c7 | Live | `AxuOxwJaquI` |
 | 2026-11-06 | [Week 7 · Noah Found Grace in the Eyes of the Lord](https://youtube.com/shorts/sKNgkpe7wcc)<br><sub>2026 Week 7 | "And the Lord Shut Him In"</sub> | Short (hook) | Come, Follow Me 2026 (English) | Archived · af677ce8 | Live | `sKNgkpe7wcc` |
 | 2026-11-06 | [Week 7 · Noah Found Grace in the Eyes of the Lord](https://youtube.com/shorts/RowW9FZY0Zc)<br><sub>2026 Week 7 | A Seven-Day Practice: A Week of Entering the Ark</sub> | Short (funnel) | Come, Follow Me 2026 (English) | Archived · d6474096 | Live | `RowW9FZY0Zc` |
@@ -146,7 +147,6 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-11-01 | [Week 50 · Haggai & Zechariah](https://youtu.be/JPZVMHEM8EU)<br><sub>Come, Follow Me 2026 Week 50 (Dec 7–13) | Holiness unto the Lord — Haggai; Zechariah</sub> | Long | Come, Follow Me 2026 (English) | Archived · Video Artifacts · 69394228 | Live · check 11-03 | `JPZVMHEM8EU` |
 | 2026-11-01 | [Week 50 · Haggai & Zechariah](https://www.youtube.com/shorts/Fzg3KjvL1GY)<br><sub>2026 Week 50 | Behold, Thy King Cometh unto Thee</sub> | Short (hook) | Come, Follow Me 2026 (English) | Archived · Video Artifacts · 9c39cebb | Live · check 11-03 | `Fzg3KjvL1GY` |
 | 2026-11-01 | [Week 50 · Haggai & Zechariah](https://www.youtube.com/shorts/2DWQvYBodSI)<br><sub>2026 Week 50 | The First Five Minutes</sub> | Short (funnel) | Come, Follow Me 2026 (English) | Archived · Video Artifacts · 01f9e6f6 | Live · check 11-03 | `2DWQvYBodSI` |
-| 2026-10-31 | [Week 44 · Jeremiah](https://youtu.be/yxyH7p0gs0Y)<br><sub>Come, Follow Me 2026 Week 44 (Oct 26–Nov 1) | I Will Turn Their Mourning into Joy · Jeremiah</sub> | Long | Come, Follow Me 2026 (English) | Archived · 77aeaa26 | Live | `yxyH7p0gs0Y` |
 | 2026-10-31 | [Week 44 · Jeremiah](https://www.youtube.com/shorts/IjyHjcmV50c)<br><sub>2026 Week 44 | Buying a Field During the Siege | Jeremiah</sub> | Short (hook) | Come, Follow Me 2026 (English) | Archived · ce1685d0 | Live | `IjyHjcmV50c` |
 | 2026-10-31 | [Week 44 · Jeremiah](https://www.youtube.com/shorts/qMRx3Sjj15k)<br><sub>2026 Week 44 | I Am a Covenant Keeper | Jeremiah</sub> | Short (funnel) | Come, Follow Me 2026 (English) | Archived · 5274f827 | Live | `qMRx3Sjj15k` |
 | 2026-10-31 | [Week 45 · Ezekiel](https://youtu.be/JzzgF_aBsJI)<br><sub>Come, Follow Me 2026 Week 45 (Nov 2–8) | A New Spirit Will I Put within You · Ezekiel</sub> | Long | Come, Follow Me 2026 (English) | Archived · ad4308cb | Live | `JzzgF_aBsJI` |
@@ -376,7 +376,7 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-10-31 | ['Guaranteed 14% Returns'? A Dangerous Illusion | Finance Basics](https://www.youtube.com/shorts/_z0BhZ_z1P8) | Short (hook) | Finance Basics 2026 (English) | Archived · d6c05cce | Live | `_z0BhZ_z1P8` |
 | 2026-10-31 | [The Premium Lowers Your Real Cost to $109.08 | Finance Basics](https://www.youtube.com/shorts/meGAW-UginY) | Short (funnel) | Finance Basics 2026 (English) | Archived · ce324423 | Live | `meGAW-UginY` |
 
-## Replaced / Private versions (71)
+## Replaced / Private versions (72)
 
 Same productions, kept for the record — not public.
 
@@ -472,13 +472,14 @@ Same productions, kept for the record — not public.
 | 2026-11-02 | [第 51 週 · 我曾愛你們](https://youtu.be/3l6lpOWsSk0)<br><sub>來跟隨我 2026 第51週（12月14日–20日）｜我曾愛你們 · 瑪拉基書</sub> | 長集 | 來跟隨我 2026（中文） | 待存档 | Private · 重複上傳 | `3l6lpOWsSk0` |
 | 2026-10-31 | [第 44 週 · 我必使哀哭變為歡樂](https://youtu.be/qB2wYXHaaPg)<br><sub>來跟隨我 2026 第44週（10月26日–11月1日）｜我必使哀哭變為歡樂 · 耶利米書</sub> | 長集 | 來跟隨我 2026（中文） | 已存档 · 4327f78b | Private · 已被取代 | `qB2wYXHaaPg` |
 
-### 已取代 / Private · Come, Follow Me 2026 — English (3)
+### 已取代 / Private · Come, Follow Me 2026 — English (4)
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
 | 2026-11-03 | [Week 3 · In the Beginning God Created the Heaven and the Earth](https://youtu.be/dYm8oUBPmrw)<br><sub>2026 Week 3 | "Let There Be Light" — God's First Word to Chaos</sub> | Short (hook) | Come, Follow Me 2026 (English) | Not archived yet | Private · duplicate | `dYm8oUBPmrw` |
 | 2026-11-03 | [Week 3 · In the Beginning God Created the Heaven and the Earth](https://youtu.be/jPQQ-sY7tIM)<br><sub>2026 Week 3 | A Seven-Day Practice: Live the Week in Creation's Order</sub> | Short (funnel) | Come, Follow Me 2026 (English) | Not archived yet | Private · duplicate | `jPQQ-sY7tIM` |
 | 2026-11-02 | [Week 51 · Malachi](https://youtu.be/fU4h24jiZVY)<br><sub>Come, Follow Me 2026 Week 51 (Dec 14–20) | I Have Loved You, Saith the Lord — Malachi</sub> | Long | Come, Follow Me 2026 (English) | Not archived yet | Private · duplicate | `fU4h24jiZVY` |
+| 2026-10-31 | [Week 44 · Jeremiah](https://youtu.be/yxyH7p0gs0Y)<br><sub>Come, Follow Me 2026 Week 44 (Oct 26–Nov 1) | I Will Turn Their Mourning into Joy · Jeremiah</sub> | Long | Come, Follow Me 2026 (English) | Archived · 77aeaa26 | Private · replaced | `yxyH7p0gs0Y` |
 
 ### 已取代 / Private · 總會大會 · 長老定額組討論 — 中文（1）
 
