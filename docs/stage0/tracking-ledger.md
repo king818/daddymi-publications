@@ -29,6 +29,7 @@
 | 2026-11-07 | — | 落地页（认领献词位） | 基线 | $0 | 認領獻詞 = 0（第三类登记，独立计） |
 | 2026-11-07 | — | 公开页＋Google Form（捕获通道） | 管道注记 | $0 | 捕获通道已接通：公开页 https://king818.github.io/daddymi-publications/gospel-wisdom/ 上线，CTA 直链两张 iching6 表单（创始登记／认领献词，答复自动汇入绑定 Sheet，见 PLUMBING.md「选项 A — 已完成」）。接通时点各类计数仍为 0，本行只记管道状态、不计任何登记 |
 | 2026-11-08 | — | 公开页（页面变更） | 管道注记 | $0 | 公开页改版上线：语种自动侦测（localStorage 记忆＞浏览器语言，zh→中文、其余→英文）＋页首「中文 \| English」即时切换、不再中英上下堆叠；篇数 16→17（罗马书 8:28 已入双稿）、会员卷一 PDF 同步重建收 17 篇（A5，38 页）；「免費試讀」繁简混写已修正 |
+| 2026-11-08 | — | 推广战役（批准包 §2/§13 Day 0） | 管道注记 | $0 | **推广战役启动**：boss 于 2026-11-08 01:10 PST 批准批准包并下令执行（"Go!"），经营准则：「Be honest, creative and follow LDS doctrine to operate our business and to serve people.」；「诚实测试」影片未答，按包预设 = No、不制作。战役：14 天（2026-11-08 起）、团队工时上限 16 小时、零花费；复盘点 R1 11-22 / R2 12-06 / R3 12-20 / R4 2027-01-03 / 终读 2027-01-31；团队复盘每 4 小时一轮（cron `team-sprint-review-4h`）＋按需召集，「4h→6h」待 boss 裁示。主推 top-2 长视频：Isaiah 41:10 ZH `Qi6oX12Qjhk`（码 `yt-isa4110-zh`）/ EN `tJV_TYtzeec`（`yt-isa4110-en`）；Psalm 119:11 ZH `xGi0Ao2WAq4`（`yt-ps11911-zh`）/ EN `C9F4lTtSBD4`（`yt-ps11911-en`）。E0–E4 基线全数 = 0（两表回应经核实为 0）。本日上线：配读样篇（第 3 篇 · Isaiah 41:10）嵌入公开页会员区之前（三语视图）；《内维尔圣经索引》v0 独立页（6 条已核实记录，Day 3 起才播种，本日不上链接推广）。身份：team |
 
 ---
 
@@ -48,4 +49,4 @@
 - 试读下载总数：0
 - 陌生人付款笔数：**0**
 - 已确认入账总额：**$0**
-- Stage 1 状态：未裁示（收款未开通）
+- Stage 1 状态：**有条件预先批准（2026-11-08，批准包 §7 混合版）— 结账仍未开通（INACTIVE）**。触发口径：≥1 名经核实 `身份：apparent stranger` 的 E3 → 团队可于收款后 48 小时内、五项保障＋第 6 项（E4 的 stranger 分类须 boss 本人确认）全数满足时开启，并在同日报告 boss；任一保障未达自动退回 Option B。冻结配置：Stripe Payment Link「Gospel Wisdom — Founding Membership」US$7.99/月单一档位（§7.3）。无触发事件前不得建链接、不得放页面。
