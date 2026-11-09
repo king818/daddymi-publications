@@ -1,6 +1,7 @@
 {
  "pages": {
   "en": {
+   "about_faith": "Beneath all of this is our faith in Heavenly Father and Jesus Christ; may the beauty and light we offer bring glory to Him.",
    "about_h": "About Daddy Mi",
    "about_p": "Daddy Mi is a bilingual creative brand. We make devotionals, original music and videos with AI assistance — the voices and singing are AI-generated; the topics, scripts and review are our human team's work, and we label it plainly. One principle guides everything: be honest, be creative, and serve people.",
    "ai_disclosure": "AI disclosure: this song's music and vocals were generated with AI assistance; lyrics, production and review are by the Daddy Mi team.",
@@ -21,6 +22,7 @@
    "footer_privacy": "Privacy: this site does not track your browsing; subscription emails are used only to send updates, and you may unsubscribe anytime.",
    "footer_support": "Support",
    "form_pending": "Or write to us directly:",
+   "hero_img_alt": "A lamp-lit path — Mi Xi, from “Lighting a Lamp for You”",
    "html_lang": "en",
    "lang_switch": {
     "en": null,
@@ -53,6 +55,7 @@
    "yt_mv": "Music Videos playlist ↗ (requires network access outside mainland China)"
   },
   "zh-hans": {
+   "about_faith": "这一切的根基，是我们对天父和耶稣基督的信仰；愿我们所呈现的美与光，都归荣耀给祂。",
    "about_h": "关于米老爸",
    "about_p": "米老爸 Daddy Mi 是一个双语创作品牌。我们用 AI 辅助创作灵修内容、原创音乐与视频：主持与演唱由 AI 完成，选题、文稿与审定出自真人团队，并如实标注。我们做事的原则只有一条：诚实、有创意地服务人。",
    "ai_disclosure": "AI 披露：这首歌的音乐与演唱由 AI 辅助生成；词曲、制作与审定由米老爸团队完成。",
@@ -73,6 +76,7 @@
    "footer_privacy": "隐私：本站不追踪你的浏览；订阅邮箱只用于发送更新，可随时退订。",
    "footer_support": "客服邮箱",
    "form_pending": "或直接来信：",
+   "hero_img_alt": "灯光下的小径——米曦《換我們為妳點燈》画面",
    "html_lang": "zh-Hans",
    "lang_switch": {
     "en": "en/",
@@ -105,6 +109,7 @@
    "yt_mv": "音乐录影带 MV 清单 ↗（需境外网络）"
   },
   "zh-hant": {
+   "about_faith": "這一切的根基，是我們對天父和耶穌基督的信仰；願我們所呈現的美與光，都歸榮耀給祂。",
    "about_h": "關於米老爸",
    "about_p": "米老爸 Daddy Mi 是一個雙語創作品牌。我們用 AI 輔助創作靈修內容、原創音樂與視頻：主持與演唱由 AI 完成，選題、文稿與審定出自真人團隊，並如實標註。我們做事的原則只有一條：誠實、有創意地服務人。",
    "ai_disclosure": "AI 披露：這首歌的音樂與演唱由 AI 輔助生成；詞曲、製作與審定由米老爸團隊完成。",
@@ -125,6 +130,7 @@
    "footer_privacy": "隱私：本站不追蹤你的瀏覽；訂閱電郵只用於發送更新，可隨時退訂。",
    "footer_support": "客服電郵",
    "form_pending": "或直接來信：",
+   "hero_img_alt": "燈光下的小徑——米曦《換我們為妳點燈》畫面",
    "html_lang": "zh-Hant",
    "lang_switch": {
     "en": "../en/",
@@ -163,6 +169,7 @@
   "brand": "米老爸 Daddy Mi",
   "buttondown_username": "daddymi",
   "cover_path": "gospel-wisdom/dian-deng/mixi-cover-diandeng.jpg",
+  "hero_image": "gospel-wisdom/album-thumbs/song3.webp",
   "og_image": "https://daddymi777.com/gospel-wisdom/dian-deng/hero-lamp-window.jpg",
   "og_image_h": 1152,
   "og_image_w": 2048,

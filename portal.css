@@ -1,0 +1,99 @@
+/* Daddy Mi portal — visual layer (single stylesheet for /, /zh-hant/, /en/).
+   Source: portal-src/portal.css — portal-src/build.py copies it to the
+   site root as portal.css on every build. Restyle the portal by editing
+   the variables (or this file); the page structure never needs to change.
+   Design brief (boss, 2026-11-09): the page represents who we are —
+   serene, luminous, graceful; beauty as testimony; nothing salesy. */
+
+:root {
+  --ink: #3b3125;
+  --ink-soft: #55482f;
+  --muted: #6b5b3e;
+  --gold: #8a6d1f;
+  --gold-deep: #a8842c;
+  --gold-hover: #8a6d1f;
+  --line: #e7dcc3;
+  --input-line: #d8cba6;
+  --card-bg: rgba(255, 255, 255, .78);
+  --band-bg: #fffdf6;
+  --field-bg: #fff;
+  --glow: rgba(255, 214, 140, .55);
+  --page-top: #fdf9ef;
+  --page-mid: #faf3e2;
+  --page-bottom: #f6eeda;
+  --font-body: -apple-system, BlinkMacSystemFont, "PingFang SC", "PingFang TC",
+    "Microsoft YaHei", "Noto Sans CJK SC", "Noto Sans CJK TC", system-ui, sans-serif;
+  --font-display: Georgia, "Songti SC", "STSong", "Noto Serif CJK SC", serif;
+  --radius: 14px;
+  --radius-lg: 16px;
+  --wrap-max: 960px;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; color: var(--ink);
+  font-family: var(--font-body);
+  background:
+    radial-gradient(900px 480px at 50% -120px, var(--glow), rgba(255, 214, 140, 0) 70%),
+    linear-gradient(180deg, var(--page-top) 0%, var(--page-mid) 55%, var(--page-bottom) 100%);
+  min-height: 100vh; }
+a { color: var(--gold); }
+.wrap { max-width: var(--wrap-max); margin: 0 auto; padding: 0 20px 48px; }
+.topbar { display: flex; justify-content: space-between; align-items: baseline;
+  gap: 12px; flex-wrap: wrap; padding: 18px 0 4px; }
+.brand { font-weight: 700; font-size: 19px; letter-spacing: .02em; }
+.langswitch { font-size: 14px; }
+.langswitch a, .langswitch .cur { margin-left: 12px; text-decoration: none; }
+.langswitch .cur { font-weight: 700; color: var(--ink); }
+.nav { padding: 6px 0 2px; font-size: 15px; }
+.nav a { margin-right: 16px; text-decoration: none; }
+.heromark { display: block; height: 92px; width: auto; margin: 38px auto 4px; }
+h1 { font-family: var(--font-display);
+  font-size: clamp(28px, 5.2vw, 44px); line-height: 1.3; text-align: center;
+  letter-spacing: .01em; margin: 18px 0 12px; font-weight: 700; }
+.tagline { text-align: center; color: var(--muted); font-size: 17px; line-height: 1.7;
+  margin: 0 auto 24px; max-width: 660px; }
+.heroimg { display: block; width: 100%; height: clamp(180px, 32vw, 300px);
+  object-fit: cover; object-position: 50% 18%; border-radius: var(--radius-lg);
+  border: 1px solid var(--line); margin: 4px 0 6px; }
+h2 { font-size: 21px; margin: 0 0 10px; }
+.card { background: var(--card-bg); border: 1px solid var(--line);
+  border-radius: var(--radius); padding: 20px; }
+.listen { display: flex; gap: 18px; align-items: flex-start; }
+.listen img { width: 108px; height: 144px; object-fit: cover; border-radius: 10px; flex: none; }
+.listen .song { font-size: 19px; font-weight: 700; margin: 2px 0 4px; }
+.listen .by { color: var(--muted); font-size: 14px; margin: 0 0 6px; }
+.listen audio { width: 100%; margin: 8px 0; }
+.disclosure { font-size: 13px; color: var(--muted); line-height: 1.55; margin: 6px 0; }
+.likeprompt { font-size: 15px; margin: 8px 0 0; }
+.songpage { font-size: 14px; }
+.explore { display: block; text-align: center; margin: 20px 0 2px; font-size: 16px;
+  text-decoration: none; }
+.band { background: var(--band-bg); border: 1px solid var(--line);
+  border-radius: var(--radius); padding: 22px; margin-top: 28px; }
+.band p { line-height: 1.65; margin: 6px 0; }
+.subform { display: flex; gap: 10px; flex-wrap: wrap; margin: 14px 0 4px; }
+.subform label { flex: 0 0 100%; font-size: 14px; color: var(--muted); }
+.subform input { flex: 1 1 240px; padding: 11px 14px; font-size: 16px;
+  border: 1px solid var(--input-line); border-radius: 10px; background: var(--field-bg);
+  color: var(--ink); }
+.subform button { padding: 11px 26px; font-size: 16px; font-weight: 700;
+  color: #fff; background: var(--gold-deep); border: 1px solid var(--gold-deep);
+  border-radius: 10px; cursor: pointer; }
+.subform button:hover { background: var(--gold-hover); }
+.formnote { font-size: 14px; color: var(--muted); }
+.footmark { display: block; height: 28px; width: auto; margin: 0 0 6px; }
+.cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 14px; }
+.cards .card p { line-height: 1.6; color: var(--ink-soft); margin: 6px 0 12px; }
+.cards h3 { margin: 0 0 6px; font-size: 18px; }
+section { margin-top: 40px; }
+.about p { line-height: 1.75; color: var(--ink-soft); max-width: 720px; }
+.about .faith { font-family: var(--font-display);
+  font-size: 16.5px; color: var(--gold); margin-top: 14px; }
+footer { margin-top: 44px; border-top: 1px solid var(--line); padding-top: 18px;
+  font-size: 14px; color: var(--muted); line-height: 1.9; }
+footer a { text-decoration: none; }
+@media (max-width: 720px) {
+  .cards { grid-template-columns: 1fr; }
+  .listen { flex-direction: column; }
+  .listen img { width: 96px; height: 128px; }
+}

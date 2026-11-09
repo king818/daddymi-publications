@@ -5,6 +5,9 @@ Source : portal-src/content.json   (all trilingual strings live there)
 Outputs: index.html          (zh-Hans — the site root page)
          zh-hant/index.html
          en/index.html
+         portal.css          (the single visual layer, from
+                              portal-src/portal.css — restyle there;
+                              the page structure never changes)
 
 The three versions are rendered from a single template + the single
 content file, so they cannot drift apart. Re-run after editing
@@ -63,71 +66,7 @@ TEMPLATE = """<!DOCTYPE html>
   if (!own[h]) { window.location.replace('%%PUBS_RESCUE%%' + h); }
 })();
 </script>
-<style>
-  * { box-sizing: border-box; }
-  body { margin: 0; color: #3b3125;
-    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "PingFang TC",
-      "Microsoft YaHei", "Noto Sans CJK SC", "Noto Sans CJK TC", system-ui, sans-serif;
-    background:
-      radial-gradient(900px 480px at 50% -120px, rgba(255, 214, 140, .55), rgba(255, 214, 140, 0) 70%),
-      linear-gradient(180deg, #fdf9ef 0%, #faf3e2 55%, #f6eeda 100%);
-    min-height: 100vh; }
-  a { color: #8a6d1f; }
-  .wrap { max-width: 960px; margin: 0 auto; padding: 0 20px 48px; }
-  .topbar { display: flex; justify-content: space-between; align-items: baseline;
-    gap: 12px; flex-wrap: wrap; padding: 18px 0 4px; }
-  .brand { font-weight: 700; font-size: 19px; letter-spacing: .02em; }
-  .langswitch { font-size: 14px; }
-  .langswitch a, .langswitch .cur { margin-left: 12px; text-decoration: none; }
-  .langswitch .cur { font-weight: 700; color: #3b3125; }
-  .nav { padding: 6px 0 2px; font-size: 15px; }
-  .nav a { margin-right: 16px; text-decoration: none; }
-  .heromark { display: block; height: 92px; width: auto; margin: 30px auto 4px; }
-  h1 { font-family: Georgia, "Songti SC", "STSong", "Noto Serif CJK SC", serif;
-    font-size: clamp(28px, 5.2vw, 44px); line-height: 1.25; text-align: center;
-    margin: 14px 0 12px; font-weight: 700; }
-  .tagline { text-align: center; color: #6b5b3e; font-size: 17px; line-height: 1.6;
-    margin: 0 auto 28px; max-width: 660px; }
-  h2 { font-size: 21px; margin: 0 0 10px; }
-  .card { background: rgba(255, 255, 255, .78); border: 1px solid #e7dcc3;
-    border-radius: 14px; padding: 20px; }
-  .listen { display: flex; gap: 18px; align-items: flex-start; }
-  .listen img { width: 108px; height: 144px; object-fit: cover; border-radius: 10px; flex: none; }
-  .listen .song { font-size: 19px; font-weight: 700; margin: 2px 0 4px; }
-  .listen .by { color: #6b5b3e; font-size: 14px; margin: 0 0 6px; }
-  .listen audio { width: 100%; margin: 8px 0; }
-  .disclosure { font-size: 13px; color: #6b5b3e; line-height: 1.55; margin: 6px 0; }
-  .likeprompt { font-size: 15px; margin: 8px 0 0; }
-  .songpage { font-size: 14px; }
-  .explore { display: block; text-align: center; margin: 20px 0 2px; font-size: 16px;
-    text-decoration: none; }
-  .band { background: #fffdf6; border: 1px solid #e7dcc3; border-radius: 14px;
-    padding: 22px; margin-top: 28px; }
-  .band p { line-height: 1.65; margin: 6px 0; }
-  .subform { display: flex; gap: 10px; flex-wrap: wrap; margin: 14px 0 4px; }
-  .subform label { flex: 0 0 100%; font-size: 14px; color: #6b5b3e; }
-  .subform input { flex: 1 1 240px; padding: 11px 14px; font-size: 16px;
-    border: 1px solid #d8cba6; border-radius: 10px; background: #fff; color: #3b3125; }
-  .subform button { padding: 11px 26px; font-size: 16px; font-weight: 700;
-    color: #fff; background: #a8842c; border: 1px solid #a8842c; border-radius: 10px;
-    cursor: pointer; }
-  .subform button:hover { background: #8a6d1f; }
-  .formnote { font-size: 14px; color: #6b5b3e; }
-  .footmark { display: block; height: 28px; width: auto; margin: 0 0 6px; }
-  .cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 14px; }
-  .cards .card p { line-height: 1.6; color: #55482f; margin: 6px 0 12px; }
-  .cards h3 { margin: 0 0 6px; font-size: 18px; }
-  section { margin-top: 34px; }
-  .about p { line-height: 1.7; color: #55482f; max-width: 720px; }
-  footer { margin-top: 44px; border-top: 1px solid #e7dcc3; padding-top: 18px;
-    font-size: 14px; color: #6b5b3e; line-height: 1.9; }
-  footer a { text-decoration: none; }
-  @media (max-width: 720px) {
-    .cards { grid-template-columns: 1fr; }
-    .listen { flex-direction: column; }
-    .listen img { width: 96px; height: 128px; }
-  }
-</style>
+<link rel="stylesheet" href="%%PREFIX%%portal.css">
 </head>
 <body>
 <div class="wrap">
@@ -145,6 +84,7 @@ TEMPLATE = """<!DOCTYPE html>
     <img class="heromark" src="%%PREFIX%%brand/mark-transparent.png" alt="米老爸 Daddy Mi">
     <h1>%%BRANDLINE%%</h1>
     <p class="tagline">%%TAGLINE%%</p>
+    <img class="heroimg" src="%%HERO_IMG%%" alt="%%HERO_IMG_ALT%%">
   </header>
 
   <section class="card listen" id="listen" style="margin-top:0">
@@ -210,6 +150,7 @@ TEMPLATE = """<!DOCTYPE html>
   <section class="about" id="about">
     <h2>%%ABOUT_H%%</h2>
     <p>%%ABOUT_P%%</p>
+    <p class="faith">%%ABOUT_FAITH%%</p>
   </section>
 
   <footer>
@@ -261,6 +202,9 @@ def render(code, page, site, pages):
         "CARD2_T": page["card2_t"], "CARD2_D": page["card2_d"], "CARD2_LINK": page["card2_link"],
         "CARD3_T": page["card3_t"], "CARD3_D": page["card3_d"], "CARD3_LINK": page["card3_link"],
         "ABOUT_H": page["about_h"], "ABOUT_P": page["about_p"],
+        "ABOUT_FAITH": page["about_faith"],
+        "HERO_IMG": prefix + site["hero_image"],
+        "HERO_IMG_ALT": page["hero_img_alt"],
         "FOOTER_SUPPORT": page["footer_support"],
         "FOOTER_PRIVACY": page["footer_privacy"],
         "YT_CHANNEL": site["youtube_channel"],
@@ -306,6 +250,11 @@ def main():
         with open(out, "w", encoding="utf-8") as f:
             f.write(html)
         print("wrote %-28s %6d bytes" % (page["out"], len(html.encode("utf-8"))))
+    # single visual layer: portal-src/portal.css -> site-root portal.css
+    css = open(os.path.join(HERE, "portal.css"), encoding="utf-8").read()
+    with open(os.path.join(ROOT, "portal.css"), "w", encoding="utf-8") as f:
+        f.write(css)
+    print("wrote %-28s %6d bytes" % ("portal.css", len(css.encode("utf-8"))))
 
 if __name__ == "__main__":
     main()
