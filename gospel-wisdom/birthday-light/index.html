@@ -509,7 +509,9 @@ Music Production: Daddy Mi Music</div>
         st.lines[j].classList.toggle('next', j === i + 1);
       }
       if (i >= 0 && st.lines[i] && Date.now() > st.holdUntil) {
-        var target = st.lines[i].offsetTop - (st.box.clientHeight - st.lines[i].offsetHeight) / 2;
+        var boxRect = st.box.getBoundingClientRect();
+        var lineRect = st.lines[i].getBoundingClientRect();
+        var target = st.box.scrollTop + (lineRect.top - boxRect.top) - (st.box.clientHeight - lineRect.height) / 2;
         st.box.scrollTo({ top: Math.max(0, target), behavior: 'smooth' });
       }
     });
