@@ -219,3 +219,12 @@ faith line, footer support@ + © 2026 米老爸 Daddy Mi. Calligraphy provenance
 + per-glyph QC: `~/workspace/portal-stylesheet-2026-11-09/candidate-c-fix2/README.md`
 (candidate a; QC count 18 字次 / 16 个不同字， all verified; 啟's left
 component is a gyōsho-simplified form, disclosed to and accepted by the boss).
+
+## 2026-11-09 — Portal UX pass (boss order 12:14 PST)
+
+- Subscribe form rebuilt: label on its own line + ONE joined pill shell (subfield, 56px fixed, never stacks) — fixes the iOS giant-oval bug (missing appearance reset + old mobile column rule turned the input flex-basis into its height); global guard: form controls capped at 56px by construction.
+- Type rhythm: hero title clamp(34px,6vw,52px); section spacing 72px desktop / 56px mobile; band title 32px.
+- Hero glow softened (.5→.38 peak, 560px cap); listen card mobile stack with centered 168px cover; media corners 10px; work cards left-aligned on mobile with press feedback; nav + language switch 44px tap targets; footer spacing loosened.
+- Reveal-on-scroll: inline IntersectionObserver script; the hiding class is added by JS only — no-JS and prefers-reduced-motion visitors see everything.
+- Palette, fonts, Track A calligraphy, brand mark, copy, link targets and the Buttondown form (action + field names) unchanged.
+- Verified by Amani (parent): build outputs keep the form action/name/subfield in all three views; headless render at 390px measures input 54px / shell 56px / button 46px — the giant oval is gone.
