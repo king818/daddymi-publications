@@ -1,0 +1,6 @@
+# daddymi777.com — takes effect only at the gated root switch
+# (joint recommendation §8); inert while on this branch.
+User-agent: *
+Allow: /
+
+Sitemap: https://daddymi777.com/sitemap.xml

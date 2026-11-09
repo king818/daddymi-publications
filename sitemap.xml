@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  DRAFT — takes effect only at the gated root switch (joint recommendation §8).
+  Lists the post-switch URL layout: portal at /, /zh-hant/, /en/;
+  the publications index at /publications/.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://daddymi777.com/</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://daddymi777.com/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://daddymi777.com/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://daddymi777.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://daddymi777.com/"/>
+  </url>
+  <url>
+    <loc>https://daddymi777.com/zh-hant/</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://daddymi777.com/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://daddymi777.com/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://daddymi777.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://daddymi777.com/"/>
+  </url>
+  <url>
+    <loc>https://daddymi777.com/en/</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://daddymi777.com/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://daddymi777.com/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://daddymi777.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://daddymi777.com/"/>
+  </url>
+  <url><loc>https://daddymi777.com/publications/</loc></url>
+  <url><loc>https://daddymi777.com/gospel-wisdom/</loc></url>
+  <url><loc>https://daddymi777.com/gospel-wisdom/mixi/</loc></url>
+  <url><loc>https://daddymi777.com/gospel-wisdom/theme-zh/</loc></url>
+  <url><loc>https://daddymi777.com/gospel-wisdom/theme-en/</loc></url>
+  <url><loc>https://daddymi777.com/gospel-wisdom/dian-deng/</loc></url>
+  <url><loc>https://daddymi777.com/gospel-wisdom/birthday-light/</loc></url>
+  <url><loc>https://daddymi777.com/concordance/</loc></url>
+</urlset>
