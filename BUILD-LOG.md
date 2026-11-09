@@ -185,3 +185,37 @@ this shipped — until it lands, Buttondown's public newsletter page 404s
 and subscriber confirmations may not flow. The mainland three-test
 (§6) also remains owed. The wiring itself is final; nothing about the
 form needs to change when verification lands.
+
+---
+
+**Addendum — 2026-11-09: stylesheet C 「水墨之光」 (Ink & Light) + Track A
+calligraphy artwork deployed (boss ruling 2026-11-09 04:40 PST: Track A).**
+`portal-src/portal.css` is candidate C's final sheet (rice paper `#F8F4EA`,
+indigo ink `#1E2A38`, gold as light `#C9A227`/`#E9D48A`) plus a clearly-marked
+production-integration block at the end (sr-only, fallback, strip rules);
+single `portal.css` visual layer retained. Hero structure is unchanged
+except the brand line: on the zh-Hans and zh-Hant views it is now the
+QC-passed AI-generated calligraphy artwork —
+`brand/calligraphy/brand-line1.png` + `brand-line2.png` (indigo `#1E2A38`).
+Semantics/fallback per team review: the images carry `alt=""`, the real
+sentence sits in an sr-only span in each view's own script
+（以智慧启发人生，以科技传递温暖。 / 以智慧啟發人生，以科技傳遞溫暖。), and a hidden
+serif layer (Noto Serif 600, indigo) replaces the images if one fails to
+load (`onerror` → `.callig-failed`). The song card carries the vertical
+inscription strip `brand/calligraphy/inscr-0..3.png` (`role="img"`, per-view
+aria-label 点灯的人 / 點燈的人， glyph images `alt=""`; opacity .34, right
+edge; CSS hides it on small screens). Images are served from 2736×714 /
+2714×667 masters at ≤430 CSS px (≈6.4× — retina-safe); alpha edges checked
+against `#F8F4EA` at 200%: zero bright semi-transparent fringe pixels
+(16,704 semi-transparent px, all dark ink texture, mean luminance 42.7).
+The stylesheet has no dark-mode rules — the design is light-locked, so the
+indigo ink cannot land on a dark background. The English view keeps its
+brand line as elegant serif text (`h1.brand-en`, EB Garamond italic) under
+the same C palette — no Chinese calligraphy there. `build.py` renders both
+blocks from two placeholders (`%%BRANDLINE_BLOCK%%`, `%%INSCR_STRIP%%`);
+content and function are untouched: Buttondown form
+(`embed-subscribe/daddymi`) on all three views, audio player, cards, About
+faith line, footer support@ + © 2026 米老爸 Daddy Mi. Calligraphy provenance
++ per-glyph QC: `~/workspace/portal-stylesheet-2026-11-09/candidate-c-fix2/README.md`
+(candidate a; QC count 18 字次 / 16 个不同字， all verified; 啟's left
+component is a gyōsho-simplified form, disclosed to and accepted by the boss).

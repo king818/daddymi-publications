@@ -82,12 +82,13 @@ TEMPLATE = """<!DOCTYPE html>
 
   <header>
     <img class="heromark" src="%%PREFIX%%brand/mark-transparent.png" alt="米老爸 Daddy Mi">
-    <h1>%%BRANDLINE%%</h1>
+    %%BRANDLINE_BLOCK%%
     <p class="tagline">%%TAGLINE%%</p>
     <img class="heroimg" src="%%HERO_IMG%%" alt="%%HERO_IMG_ALT%%">
   </header>
 
   <section class="card listen" id="listen" style="margin-top:0">
+    %%INSCR_STRIP%%
     <img src="%%COVER%%" alt="%%LISTEN_IMG_ALT%%">
     <div style="flex:1; min-width:0">
       <h2>%%LISTEN_H%%</h2>
@@ -168,11 +169,50 @@ TEMPLATE = """<!DOCTYPE html>
 
 ORDER = ["zh-hans", "zh-hant", "en"]
 
+# Stylesheet C "Ink & Light" + Track A calligraphy (boss ruling
+# 2026-11-09): on the Chinese views the hero brand line is the
+# QC-passed calligraphy artwork (brand/calligraphy/brand-line{1,2}.png,
+# indigo #1E2A38). Semantics/fallback (team review must-fix): the
+# images carry alt="" and the real sentence lives in an sr-only span;
+# a hidden serif text layer (.callig-text, Noto Serif 600 indigo)
+# appears instead if an image fails to load (onerror -> .callig-failed).
+# The English view keeps its brand line as elegant serif text. The
+# song card carries the vertical inscription strip on the Chinese
+# views only: role="img" + per-language aria-label on the container,
+# alt="" on each glyph image.
+BRANDLINE_ALT = {
+    "zh-hans": ("以智慧启发人生", "以科技传递温暖"),
+    "zh-hant": ("以智慧啟發人生", "以科技傳遞溫暖"),
+}
+INSCR_LABEL = {"zh-hans": "点灯的人", "zh-hant": "點燈的人"}
+_ONERROR = "onerror=\"this.closest('.brand-art').classList.add('callig-failed')\""
+
+def _brandline_block(page, prefix):
+    code = page["html_lang"].lower()
+    if code in BRANDLINE_ALT:
+        alt1, alt2 = BRANDLINE_ALT[code]
+        return ('<h1 class="brand-art">'
+                '<span class="callig-text" aria-hidden="true"><span class="ct-line">%s</span><span class="ct-line">%s</span></span>'
+                '<img class="callig-line1" src="%sbrand/calligraphy/brand-line1.png" alt="" %s>'
+                '<img class="callig-line2" src="%sbrand/calligraphy/brand-line2.png" alt="" %s>'
+                '<span class="sr-only">%s</span></h1>'
+                % (alt1, alt2, prefix, _ONERROR, prefix, _ONERROR, page["brandline"]))
+    return '<h1 class="brand-en">%s</h1>' % page["brandline"]
+
+def _inscr_strip(page, prefix):
+    code = page["html_lang"].lower()
+    if code in INSCR_LABEL:
+        imgs = "".join('<img src="%sbrand/calligraphy/inscr-%d.png" alt="">' % (prefix, i) for i in range(4))
+        return '<div class="inscr-strip" role="img" aria-label="%s">%s</div>' % (INSCR_LABEL[code], imgs)
+    return ""
+
 def render(code, page, site, pages):
     prefix = page["prefix"]
     values = {
         "HTML_LANG": page["html_lang"],
         "TITLE": page["title"],
+        "BRANDLINE_BLOCK": _brandline_block(page, prefix),
+        "INSCR_STRIP": _inscr_strip(page, prefix),
         "TAGLINE": page["tagline"],
         "CANONICAL": page["canonical"],
         "OG_IMAGE": site["og_image"],
