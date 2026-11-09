@@ -98,10 +98,13 @@
   .bioportrait{width:min(280px,78%); margin:14px auto 4px; display:block; border-radius:12px; border:1px solid var(--line);}
   .optlabel{font-size:15.5px; font-weight:700; color:var(--accent-dark); text-align:center; margin:14px 0 6px;}
   video.mtv{width:100%; display:block; border-radius:12px; border:1px solid var(--line); background:#14100b;}
-  .lyricfull{padding:6px 2px;}
-  .lyricfull p{margin:0; padding:4px 10px; font-size:17.5px; color:var(--ink); text-align:center;}
-  .lyricfull .stanza{margin-top:16px;}
-  .lyricfull .seg{font-size:13px; letter-spacing:.3em; color:var(--accent); text-align:center; padding:0 10px 2px;}
+  .lyrics{max-height:46vh; overflow-y:auto; padding:6px 2px; scroll-behavior:smooth;}
+  .lyrics p{margin:0; padding:5px 10px; font-size:17.5px; line-height:1.55; color:var(--muted); text-align:center; border-radius:8px; transition:color .35s ease, background .35s ease, font-size .35s ease, opacity .35s ease; cursor:pointer;}
+  .lyrics p.past{opacity:.48;}
+  .lyrics p.next{color:var(--ink); font-weight:600; opacity:.82;}
+  .lyrics p.on{color:var(--accent-dark); font-weight:700; background:var(--line); font-size:21px; opacity:1;}
+  .lyrics .stanza{margin-top:16px;}
+  .lyrics p.seg{font-size:13px; letter-spacing:.3em; color:var(--accent); text-align:center; padding:0 10px 2px; cursor:default;}
   .gallery{display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:12px;}
   .gallery figure{margin:0;}
   .gallery img{width:100%; border-radius:12px; display:block; border:1px solid var(--line);}
@@ -117,7 +120,8 @@
   @media (max-width:560px){
     h1{font-size:27px;}
     section{padding:22px 18px 18px;}
-    .lyricfull p{font-size:16.5px;}
+    .lyrics p{font-size:16.5px;}
+    .lyrics p.on{font-size:19.5px;}
   }
 
 </style>
@@ -180,7 +184,7 @@
       <p class="playerline"><strong>米曦 Mi Xi 演唱 🎶</strong> ／ AI 虚拟歌手 · 音乐及演唱由 AI 辅助生成</p>
       <div class="sharedplayer"></div>
       <p class="muted">完整歌词（原文）· 播放时可对照聆听。</p>
-      <div class="lyricfull">
+      <div class="lyrics">
         <p>小时候的路，有妳牵着走</p>
         <p>春风吹过门前，岁月慢慢流</p>
         <p>妳把温暖藏在平凡的日子里</p>
@@ -237,7 +241,7 @@
         <li><strong>第 1 首</strong> · <a href="../theme-zh/">《在你话语里，天亮了》</a><span class="badge">中文主题歌 · 晨光窗边</span></li>
         <li><strong>第 2 首</strong> · <a href="../theme-en/">A Little More Like Light</a><span class="badge">英文主题歌 · 海边</span></li>
         <li><strong>第 3 首</strong> · 《换我们为妳点灯》（本页）<span class="badge">感恩单曲 · 灯</span></li>
-        <li><strong>第 4 首</strong> · <a href="https://light.daddymi777.com/">《愿你心里有光》</a><span class="badge">生日祝福歌</span></li>
+        <li><strong>第 4 首</strong> · <a href="../birthday-light/">《愿你心里有光》</a><span class="badge">生日祝福歌</span></li>
       </ul>
     </section>
     <section>
@@ -246,7 +250,7 @@
         <a class="btn" href="../mixi/">认识米曦 · 歌手主页</a>
         <a class="btn secondary" href="../theme-zh/">第 1 首 · 《在你话语里，天亮了》</a>
         <a class="btn secondary" href="../theme-en/">第 2 首 · A Little More Like Light</a>
-        <a class="btn secondary" href="https://light.daddymi777.com/">第 4 首 · 《愿你心里有光》</a>
+        <a class="btn secondary" href="../birthday-light/">第 4 首 · 《愿你心里有光》</a>
         <a class="btn secondary" href="../">Gospel Wisdom 每日灵修</a>
       </div>
     </section>
@@ -301,7 +305,7 @@
       <p class="playerline"><strong>米曦 Mi Xi 演唱 🎶</strong> ／ AI 虛擬歌手 · 音樂及演唱由 AI 輔助生成</p>
       <div class="sharedplayer"></div>
       <p class="muted">完整歌詞（原文）· 播放時可對照聆聽。</p>
-      <div class="lyricfull">
+      <div class="lyrics">
         <p>小時候的路，有妳牽著走</p>
         <p>春風吹過門前，歲月慢慢流</p>
         <p>妳把溫暖藏在平凡的日子裡</p>
@@ -358,7 +362,7 @@
         <li><strong>第 1 首</strong> · <a href="../theme-zh/">《在你話語裡，天亮了》</a><span class="badge">中文主題歌 · 晨光窗邊</span></li>
         <li><strong>第 2 首</strong> · <a href="../theme-en/">A Little More Like Light</a><span class="badge">英文主題歌 · 海邊</span></li>
         <li><strong>第 3 首</strong> · 《換我們為妳點燈》（本頁）<span class="badge">感恩單曲 · 燈</span></li>
-        <li><strong>第 4 首</strong> · <a href="https://light.daddymi777.com/">《願你心裡有光》</a><span class="badge">生日祝福歌</span></li>
+        <li><strong>第 4 首</strong> · <a href="../birthday-light/">《願你心裡有光》</a><span class="badge">生日祝福歌</span></li>
       </ul>
     </section>
     <section>
@@ -367,7 +371,7 @@
         <a class="btn" href="../mixi/">認識米曦 · 歌手主頁</a>
         <a class="btn secondary" href="../theme-zh/">第 1 首 · 《在你話語裡，天亮了》</a>
         <a class="btn secondary" href="../theme-en/">第 2 首 · A Little More Like Light</a>
-        <a class="btn secondary" href="https://light.daddymi777.com/">第 4 首 · 《願你心裡有光》</a>
+        <a class="btn secondary" href="../birthday-light/">第 4 首 · 《願你心裡有光》</a>
         <a class="btn secondary" href="../">Gospel Wisdom 每日靈修</a>
       </div>
     </section>
@@ -422,7 +426,7 @@
       <p class="playerline"><strong>Performed by Mi Xi 🎶</strong> / Virtual AI vocalist · AI-generated music and vocals</p>
       <div class="sharedplayer"></div>
       <p class="muted">The full original Mandarin lyrics — follow along as you listen.</p>
-      <div class="lyricfull">
+      <div class="lyrics">
         <p>小時候的路，有妳牽著走</p>
         <p>春風吹過門前，歲月慢慢流</p>
         <p>妳把溫暖藏在平凡的日子裡</p>
@@ -479,7 +483,7 @@ Produced by: Daddy Mi Music</div>
         <li><strong>Song 1</strong> · <a href="../theme-zh/">《在你话语里，天亮了》</a><span class="badge">Mandarin Theme · Morning Window</span></li>
         <li><strong>Song 2</strong> · <a href="../theme-en/">A Little More Like Light</a><span class="badge">English Theme · By the Sea</span></li>
         <li><strong>Song 3</strong> · 《換我們為妳點燈》 (this page)<span class="badge">A Song of Gratitude · Lamplight</span></li>
-        <li><strong>Song 4</strong> · <a href="https://light.daddymi777.com/">《愿你心里有光》</a><span class="badge">A Birthday Blessing</span></li>
+        <li><strong>Song 4</strong> · <a href="../birthday-light/">《愿你心里有光》</a><span class="badge">A Birthday Blessing</span></li>
       </ul>
     </section>
     <section>
@@ -488,7 +492,7 @@ Produced by: Daddy Mi Music</div>
         <a class="btn" href="../mixi/">Meet Mi Xi · Artist Home</a>
         <a class="btn secondary" href="../theme-zh/">Song 1 · 《在你话语里，天亮了》</a>
         <a class="btn secondary" href="../theme-en/">Song 2 · A Little More Like Light</a>
-        <a class="btn secondary" href="https://light.daddymi777.com/">Song 4 · 《愿你心里有光》</a>
+        <a class="btn secondary" href="../birthday-light/">Song 4 · 《愿你心里有光》</a>
         <a class="btn secondary" href="../">Gospel Wisdom Devotional</a>
       </div>
     </section>
@@ -500,6 +504,54 @@ Produced by: Daddy Mi Music</div>
   </div>
 
 </div>
+<script>window.LYRIC_CUES = [25.9, 32.68, 40.2, 47.14, 54.4, 60.84, 68.16, 74.18, 84.88, 90.38, 96.72, 103.4, 111.4, 117.06, 124.86, 131.28, 142.2, 148.84, 157.42, 163.24, 168.88, 177.58];</script>
+<script>
+(function () {
+  var audio = document.getElementById('songAudio');
+  if (!audio) { return; }
+  var cues = window.LYRIC_CUES || [];
+  var states = [];
+  document.querySelectorAll('.viewpane').forEach(function (pane) {
+    var box = pane.querySelector('.lyrics');
+    if (box) { states.push({ box: box, lines: box.querySelectorAll('p:not(.seg)'), cur: -2, holdUntil: 0 }); }
+  });
+  states.forEach(function (st) {
+    ['wheel', 'touchstart', 'pointerdown'].forEach(function (ev) {
+      st.box.addEventListener(ev, function () { st.holdUntil = Date.now() + 4000; }, { passive: true });
+    });
+    st.lines.forEach(function (p, n) {
+      p.addEventListener('click', function () {
+        if (cues[n] != null) { audio.currentTime = cues[n]; if (audio.paused) { audio.play(); } }
+      });
+    });
+  });
+  function idxAt(t) {
+    var lo = 0, hi = cues.length - 1, ans = -1;
+    while (lo <= hi) { var mid = (lo + hi) >> 1; if (cues[mid] <= t) { ans = mid; lo = mid + 1; } else { hi = mid - 1; } }
+    return ans;
+  }
+  function sync() {
+    var i = idxAt(audio.currentTime);
+    states.forEach(function (st) {
+      if (i === st.cur) { return; }
+      st.cur = i;
+      for (var j = 0; j < st.lines.length; j++) {
+        st.lines[j].classList.toggle('past', j < i);
+        st.lines[j].classList.toggle('on', j === i);
+        st.lines[j].classList.toggle('next', j === i + 1);
+      }
+      if (i >= 0 && st.lines[i] && Date.now() > st.holdUntil) {
+        var target = st.lines[i].offsetTop - (st.box.clientHeight - st.lines[i].offsetHeight) / 2;
+        st.box.scrollTo({ top: Math.max(0, target), behavior: 'smooth' });
+      }
+    });
+  }
+  audio.addEventListener('timeupdate', sync);
+  (function tick() { if (!audio.paused && !audio.ended) { sync(); } requestAnimationFrame(tick); })();
+  audio.addEventListener('seeked', sync);
+  audio.addEventListener('ended', function () { audio.currentTime = 0; sync(); });
+})();
+</script>
 <script>
 document.addEventListener('DOMContentLoaded', function () {
   var a = document.getElementById('songAudio');
