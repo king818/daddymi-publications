@@ -126,6 +126,27 @@
     .lyrics p{font-size:16.5px;}
   }
 
+
+  .aj-rule{height:2px; background:linear-gradient(90deg,transparent,var(--accent),transparent); opacity:.55; margin:4px 0 18px;}
+  .aj-next{text-align:center; font-style:italic; font-size:17px; margin:0 0 16px;}
+  .aj-next a{color:var(--accent-dark); text-decoration:none; border-bottom:1px solid var(--line); padding-bottom:1px;}
+  .aj-next a:hover{border-bottom-color:var(--accent);}
+  .aj-progress{color:var(--muted); font-size:14.5px; margin:-2px 0 14px;}
+  .aj-grid{display:grid; grid-template-columns:repeat(4,1fr); gap:24px;}
+  .aj-card{display:block; text-decoration:none; color:var(--ink); border-radius:10px; padding:8px 8px 10px;}
+  .aj-card img{width:100%; height:auto; aspect-ratio:1/1; object-fit:cover; display:block; border-radius:6px; border:1px solid var(--line); transition:transform .25s ease, filter .25s ease;}
+  a.aj-card:hover img{filter:brightness(1.07); transform:translateY(-2px);}
+  a.aj-card:hover .aj-title{text-decoration:underline; text-decoration-color:var(--accent); text-underline-offset:3px;}
+  .aj-card:focus-visible{outline:2px solid var(--accent); outline-offset:2px;}
+  .aj-num{display:block; margin-top:10px; font-size:12px; letter-spacing:.14em; text-transform:uppercase; color:var(--accent); font-weight:700;}
+  .aj-title{display:block; font-size:16.5px; line-height:1.45; margin-top:2px; overflow:hidden; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical;}
+  .aj-kind{display:block; color:var(--muted); font-size:13.5px; margin-top:2px;}
+  .aj-current{background:var(--badge-bg); border:1px solid var(--accent);}
+  .aj-current img{border-color:var(--accent);}
+  .aj-here{display:inline-block; margin-top:6px; font-size:12.5px; letter-spacing:.08em; color:var(--accent-dark); font-weight:700;}
+  .aj-utility{display:flex; flex-wrap:wrap; gap:10px; justify-content:center; margin-top:26px;}
+  @media (max-width:719px){ .aj-grid{grid-template-columns:repeat(2,1fr); gap:16px;} }
+  @media (prefers-reduced-motion:reduce){ .aj-card img{transition:none;} a.aj-card:hover img{transform:none;} }
 </style>
 </head>
 <body>
@@ -175,24 +196,38 @@
     <section>
       <h2></h2>
       <h2>系列曲目 · 连载中</h2>
-      <p>四首歌，一个声音。每首歌都有自己的页面——自己的光、自己的地方、自己的故事。</p>      <h2>专辑之旅 · 进行中</h2>
-      <p>米曦的歌曲系列正在连载：每一首歌是故事的一章。集满 <strong>12 首</strong>，将收成一张完整专辑。</p>
-      <div class="prog"><div class="progbar"><i></i></div><p class="muted">目前进度：第 1–4 首 ／ 共 12 首</p></div>
-      <ul class="tracks">
-        <li><strong>第 1 首</strong> · <a href="../theme-zh/">《在你话语里，天亮了》</a><span class="badge">中文主题歌 · 晨光窗边</span></li>
-        <li><strong>第 2 首</strong> · <a href="../theme-en/">A Little More Like Light</a><span class="badge">英文主题歌 · 海边</span></li>
-        <li><strong>第 3 首</strong> · <a href="../dian-deng/">《换我们为妳点灯》</a><span class="badge">感恩单曲 · 灯</span> <a href="../dian-deng/#mtv">▶ 本页观看 MTV</a> · <a href="https://www.youtube.com/watch?v=w3UkV2G7Tl8">▶ YouTube MTV</a></li>
-        <li><strong>第 4 首</strong> · <a href="../birthday-light/">《愿你心里有光》</a><span class="badge">生日祝福歌</span></li>
-      </ul>
+      <p>四首歌，一个声音。每首歌都有自己的页面——自己的光、自己的地方、自己的故事。</p>            <div class="aj-rule" aria-hidden="true"></div>
+      <h2>专辑之旅 · The Album Journey</h2>
+      <p class="aj-progress">已发布 第 1–4 首，共 12 首 · Songs 1–4 of 12 released</p>
+      <div class="aj-grid">
+      <a class="aj-card" href="../theme-zh/">
+<img src="../album-thumbs/song1.webp" alt="窗边透进的暖光" width="480" height="480" loading="lazy">
+        <span class="aj-num">SONG 01</span>
+        <span class="aj-title">《在你话语里，天亮了》</span>
+        <span class="aj-kind">中文主题歌</span>
+      </a>
+      <a class="aj-card" href="../theme-en/">
+<img src="../album-thumbs/song2.webp" alt="暮色天际与远处灯火" width="480" height="480" loading="lazy">
+        <span class="aj-num">SONG 02</span>
+        <span class="aj-title">A Little More Like Light</span>
+        <span class="aj-kind">英文主题歌</span>
+      </a>
+      <a class="aj-card" href="../dian-deng/">
+<img src="../album-thumbs/song3.webp" alt="窗台上的油灯" width="480" height="480" loading="lazy">
+        <span class="aj-num">SONG 03</span>
+        <span class="aj-title">《换我们为妳点灯》</span>
+        <span class="aj-kind">感恩单曲</span>
+      </a>
+      <a class="aj-card" href="../birthday-light/">
+<img src="../album-thumbs/song4.webp" alt="晨光里的生日蛋糕与蜡烛" width="480" height="480" loading="lazy">
+        <span class="aj-num">SONG 04</span>
+        <span class="aj-title">《愿你心里有光》</span>
+        <span class="aj-kind">生日祝福歌</span>
+      </a>
+      </div>
     </section>
     <section>
-      <h2></h2>
-      <h2>继续探索</h2>
-      <div class="navrow">
-        <a class="btn" href="../theme-zh/">第 1 首 · 《在你话语里，天亮了》</a>
-        <a class="btn secondary" href="../theme-en/">第 2 首 · A Little More Like Light</a>
-        <a class="btn secondary" href="../dian-deng/">第 3 首 · 《换我们为妳点灯》</a>
-        <a class="btn secondary" href="../birthday-light/">第 4 首 · 《愿你心里有光》</a>
+      <div class="aj-utility" style="margin-top:2px">
         <a class="btn secondary" href="../">Gospel Wisdom 每日灵修</a>
       </div>
     </section>
@@ -241,24 +276,38 @@
     <section>
       <h2></h2>
       <h2>系列曲目 · 連載中</h2>
-      <p>四首歌，一個聲音。每首歌都有自己的頁面——自己的光、自己的地方、自己的故事。</p>      <h2>專輯之旅 · 進行中</h2>
-      <p>米曦的歌曲系列正在連載：每一首歌是故事的一章。集滿 <strong>12 首</strong>，將收成一張完整專輯。</p>
-      <div class="prog"><div class="progbar"><i></i></div><p class="muted">目前進度：第 1–4 首 ／ 共 12 首</p></div>
-      <ul class="tracks">
-        <li><strong>第 1 首</strong> · <a href="../theme-zh/">《在你話語裡，天亮了》</a><span class="badge">中文主題歌 · 晨光窗邊</span></li>
-        <li><strong>第 2 首</strong> · <a href="../theme-en/">A Little More Like Light</a><span class="badge">英文主題歌 · 海邊</span></li>
-        <li><strong>第 3 首</strong> · <a href="../dian-deng/">《換我們為妳點燈》</a><span class="badge">感恩單曲 · 燈</span> <a href="../dian-deng/#mtv">▶ 本页观看 MTV</a> · <a href="https://www.youtube.com/watch?v=w3UkV2G7Tl8">▶ YouTube MTV</a></li>
-        <li><strong>第 4 首</strong> · <a href="../birthday-light/">《願你心裡有光》</a><span class="badge">生日祝福歌</span></li>
-      </ul>
+      <p>四首歌，一個聲音。每首歌都有自己的頁面——自己的光、自己的地方、自己的故事。</p>            <div class="aj-rule" aria-hidden="true"></div>
+      <h2>專輯之旅 · The Album Journey</h2>
+      <p class="aj-progress">已發布 第 1–4 首，共 12 首 · Songs 1–4 of 12 released</p>
+      <div class="aj-grid">
+      <a class="aj-card" href="../theme-zh/">
+<img src="../album-thumbs/song1.webp" alt="窗邊透進的暖光" width="480" height="480" loading="lazy">
+        <span class="aj-num">SONG 01</span>
+        <span class="aj-title">《在你話語裡，天亮了》</span>
+        <span class="aj-kind">中文主題歌</span>
+      </a>
+      <a class="aj-card" href="../theme-en/">
+<img src="../album-thumbs/song2.webp" alt="暮色天際與遠處燈火" width="480" height="480" loading="lazy">
+        <span class="aj-num">SONG 02</span>
+        <span class="aj-title">A Little More Like Light</span>
+        <span class="aj-kind">英文主題歌</span>
+      </a>
+      <a class="aj-card" href="../dian-deng/">
+<img src="../album-thumbs/song3.webp" alt="窗台上的油燈" width="480" height="480" loading="lazy">
+        <span class="aj-num">SONG 03</span>
+        <span class="aj-title">《換我們為妳點燈》</span>
+        <span class="aj-kind">感恩單曲</span>
+      </a>
+      <a class="aj-card" href="../birthday-light/">
+<img src="../album-thumbs/song4.webp" alt="晨光裡的生日蛋糕與蠟燭" width="480" height="480" loading="lazy">
+        <span class="aj-num">SONG 04</span>
+        <span class="aj-title">《願你心裡有光》</span>
+        <span class="aj-kind">生日祝福歌</span>
+      </a>
+      </div>
     </section>
     <section>
-      <h2></h2>
-      <h2>繼續探索</h2>
-      <div class="navrow">
-        <a class="btn" href="../theme-zh/">第 1 首 · 《在你話語裡，天亮了》</a>
-        <a class="btn secondary" href="../theme-en/">第 2 首 · A Little More Like Light</a>
-        <a class="btn secondary" href="../dian-deng/">第 3 首 · 《換我們為妳點燈》</a>
-        <a class="btn secondary" href="../birthday-light/">第 4 首 · 《願你心裡有光》</a>
+      <div class="aj-utility" style="margin-top:2px">
         <a class="btn secondary" href="../">Gospel Wisdom 每日靈脩</a>
       </div>
     </section>
@@ -307,24 +356,38 @@
     <section>
       <h2></h2>
       <h2>The Series So Far</h2>
-      <p>Four songs, one voice. Each song has its own page — its own light, its own place, its own story.</p>      <h2>The Album Journey · In Progress</h2>
-      <p>Mi Xi's song series is unfolding chapter by chapter. At <strong>12 songs</strong>, the series will be collected into a complete album.</p>
-      <div class="prog"><div class="progbar"><i></i></div><p class="muted">Progress: Songs 1–4 of 12</p></div>
-      <ul class="tracks">
-        <li><strong>Song 1</strong> · <a href="../theme-zh/">《在你话语里，天亮了》</a><span class="badge">Mandarin Theme · Morning Window</span></li>
-        <li><strong>Song 2</strong> · <a href="../theme-en/">A Little More Like Light</a><span class="badge">English Theme · By the Sea</span></li>
-        <li><strong>Song 3</strong> · <a href="../dian-deng/">《換我們為妳點燈》</a><span class="badge">A Song of Gratitude · Lamplight</span> <a href="../dian-deng/#mtv">▶ Watch MTV on its page</a> · <a href="https://www.youtube.com/watch?v=w3UkV2G7Tl8">▶ MTV on YouTube</a></li>
-        <li><strong>Song 4</strong> · <a href="../birthday-light/">《愿你心里有光》</a><span class="badge">A Birthday Blessing</span></li>
-      </ul>
+      <p>Four songs, one voice. Each song has its own page — its own light, its own place, its own story.</p>            <div class="aj-rule" aria-hidden="true"></div>
+      <h2>The Album Journey</h2>
+      <p class="aj-progress">Songs 1–4 of 12 released</p>
+      <div class="aj-grid">
+      <a class="aj-card" href="../theme-zh/">
+<img src="../album-thumbs/song1.webp" alt="Warm light through a window at dusk" width="480" height="480" loading="lazy">
+        <span class="aj-num">SONG 01</span>
+        <span class="aj-title">《在你话语里，天亮了》</span>
+        <span class="aj-kind">Mandarin Theme</span>
+      </a>
+      <a class="aj-card" href="../theme-en/">
+<img src="../album-thumbs/song2.webp" alt="Twilight sky over tiled rooftops" width="480" height="480" loading="lazy">
+        <span class="aj-num">SONG 02</span>
+        <span class="aj-title">A Little More Like Light</span>
+        <span class="aj-kind">English Theme</span>
+      </a>
+      <a class="aj-card" href="../dian-deng/">
+<img src="../album-thumbs/song3.webp" alt="An oil lamp on a windowsill at dusk" width="480" height="480" loading="lazy">
+        <span class="aj-num">SONG 03</span>
+        <span class="aj-title">《換我們為妳點燈》</span>
+        <span class="aj-kind">A Song of Gratitude</span>
+      </a>
+      <a class="aj-card" href="../birthday-light/">
+<img src="../album-thumbs/song4.webp" alt="A birthday cake with candles in morning light" width="480" height="480" loading="lazy">
+        <span class="aj-num">SONG 04</span>
+        <span class="aj-title">《愿你心里有光》</span>
+        <span class="aj-kind">A Birthday Blessing</span>
+      </a>
+      </div>
     </section>
     <section>
-      <h2></h2>
-      <h2>Keep Exploring</h2>
-      <div class="navrow">
-        <a class="btn" href="../theme-zh/">Song 1 · 《在你话语里，天亮了》</a>
-        <a class="btn secondary" href="../theme-en/">Song 2 · A Little More Like Light</a>
-        <a class="btn secondary" href="../dian-deng/">Song 3 · 《換我們為妳點燈》</a>
-        <a class="btn secondary" href="../birthday-light/">Song 4 · 《愿你心里有光》</a>
+      <div class="aj-utility" style="margin-top:2px">
         <a class="btn secondary" href="../">Gospel Wisdom Devotional</a>
       </div>
     </section>
