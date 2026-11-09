@@ -3892,6 +3892,72 @@ publications:
   dedicated_page: https://daddymi777.com/gospel-wisdom/dian-deng/
   status: Public
   note: Uploaded via YouTube Studio web (browser lane) 2026-11-08; verified Public on fresh Studio + public loads 15:31 PST — copyright and community-guidelines checks both clear, AI-content disclosure set to Yes; item 1 of the 音樂錄影帶 MV playlist (PLSxnHgZ_KCSI, Public, created 2026-11-08 under the boss's all-MTVs-to-YouTube rule). REFRAMED 2026-11-08 under the boss's ruling that YouTube promotes Mi Xi and the family stays private — the v1 title/description (family dedication framing, first link https://sangu.daddymi777.com/) are replaced by the v2 pack (youtube-upload-pack-v2-mixi.md) — Mi Xi single title, Mi Xi-focused description whose first link is the song's new dedicated page https://daddymi777.com/gospel-wisdom/dian-deng/. Index title + dedicated_page updated in step with the v2 pack; the Studio-side edit is executed by the browser lane from that pack. The family tribute page https://sangu.daddymi777.com/ is untouched and remains the family's private gift surface.
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Psalm 119:105
+  language: zh-Hant
+  type: Long
+  title: 每日經文 2026-11-09 · Neville 解讀｜詩篇 119:105 你的話是我腳前的燈——只照下一步，也夠走了
+  published: '2026-11-09'
+  url: https://youtu.be/HijUT9ZJets
+  native_id: HijUT9ZJets
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Psalm 119:105
+  language: zh-Hant
+  type: Short (hook)
+  title: '每日經文 2026-11-09｜詩篇 119:105 燈不必照全程，只照下一步 #Shorts'
+  published: '2026-11-09'
+  url: https://www.youtube.com/shorts/RbyDSdy_0Q0
+  native_id: RbyDSdy_0Q0
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Psalm 119:105
+  language: zh-Hant
+  type: Short (funnel)
+  title: '每日經文 2026-11-09｜詩篇 119:105 清晨點燈：選定今天的一句話 #Shorts'
+  published: '2026-11-09'
+  url: https://www.youtube.com/shorts/zoNXHAtt_no
+  native_id: zoNXHAtt_no
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Psalm 119:105
+  language: en
+  type: Long
+  title: Daily Verse 2026-11-09 · Psalm 119:105 | A Lamp Unto My Feet — Enough Light for the Next Step
+  published: '2026-11-09'
+  url: https://youtu.be/raxXpqGinG8
+  native_id: raxXpqGinG8
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Psalm 119:105
+  language: en
+  type: Short (hook)
+  title: 'Daily Verse 2026-11-09 | Psalm 119:105 A Lamp Lights One Step #Shorts'
+  published: '2026-11-09'
+  url: https://www.youtube.com/shorts/Pa_-aqjS0Tg
+  native_id: Pa_-aqjS0Tg
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Psalm 119:105
+  language: en
+  type: Short (funnel)
+  title: 'Daily Verse 2026-11-09 | Psalm 119:105 Light the Morning Lamp #Shorts'
+  published: '2026-11-09'
+  url: https://www.youtube.com/shorts/ygUw9mnqoSI
+  native_id: ygUw9mnqoSI
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  status: Public
 replaced_or_private:
 - platform: YouTube
   series: Daily Verse · Neville Readings
@@ -4794,3 +4860,6 @@ unverified:
   reason: Per-episode-imagery replacement versions 2-ZtDDffE4U (zh) and EB4svq0CPoA (en) published via Studio 2026-11-03 15:25–15:40 PST and verified Public; checked 2026-11-03 18:3x — no Evernote note contains the new video IDs, so the Video Artifacts append into the existing Psalm 119:11 notes has not landed yet; archive_note left empty deliberately. Originals sdpT4xWJW8A / FEmW-caUtk0 moved to replaced_or_private.
   action: Append the replacement Video Artifacts to the existing Psalm 119:11 archive notes (zh d1658cf7-bd13-4e9f-a4a4-503737a0651d, en 9f4ddc4b-d876-4e69-bfa5-32d3bf85ee6f) per the replacement doctrine (append, never regenerate; double-hr separators, newest marked latest), then backfill archive_note GUIDs here.
   resolved: '2026-11-06 — DONE: appends landed and verified in both episode archive notes (zh d1658cf7-bd13-4e9f-a4a4-503737a0651d, en 9f4ddc4b-d876-4e69-bfa5-32d3bf85ee6f), which now record the full chain — the originals, the 2026-11-03 imagery versions 2-ZtDDffE4U / EB4svq0CPoA (themselves replaced and set Private in the 2026-11-06 transparency-fix swap), and the current Public transparency-fix versions uDl-ul3x5PM / ZxDDrz5VfU0; archive_note GUIDs backfilled on all Psalm 119:11 rows.'
+- item: Daily Verse Psalm 119:105 full set (6 videos, published 2026-11-09) — Evernote archive notes not yet created
+  reason: Registered 2026-11-09 at close-out; the Video Artifacts archive (ZH + EN) runs as a separate step and has not landed yet, so archive_note is absent on the six rows above, deliberately.
+  action: Build the Video Artifacts archive notes for the six videos, verify landed, then backfill archive_note GUIDs on the six Psalm 119:105 rows.

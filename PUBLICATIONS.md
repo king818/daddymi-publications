@@ -2,7 +2,7 @@
 
 Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, filterable version: https://king818.github.io/daddymi-publications/
 
-**324 public videos** · 74 replaced/private versions · Come, Follow Me 2026: 138 · Daily Verse · Neville Readings: 144 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 28 · Music Videos: 1 · Neville Inner Reading Podcast: 7
+**330 public videos** · 74 replaced/private versions · Come, Follow Me 2026: 138 · Daily Verse · Neville Readings: 150 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 28 · Music Videos: 1 · Neville Inner Reading Podcast: 7
 
 
 ## 來跟隨我 2026 — 中文（69）
@@ -153,10 +153,13 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-10-31 | [Week 45 · Ezekiel](https://www.youtube.com/shorts/HYBj9c6Z5EU)<br><sub>2026 Week 45 | God Goes to the Exiles | Ezekiel</sub> | Short (hook) | Come, Follow Me 2026 (English) | Archived · 777370cb | Live | `HYBj9c6Z5EU` |
 | 2026-10-31 | [Week 45 · Ezekiel](https://www.youtube.com/shorts/oCqZeKxPCdE)<br><sub>2026 Week 45 | A Heart of Flesh, Not Stone | Ezekiel</sub> | Short (funnel) | Come, Follow Me 2026 (English) | Archived · f18bffbe | Live | `oCqZeKxPCdE` |
 
-## 每日經文 · Neville 解讀 — 中文（75）
+## 每日經文 · Neville 解讀 — 中文（78）
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
+| 2026-11-09 | [2026-11-09 · 詩篇 119:105](https://youtu.be/HijUT9ZJets)<br><sub>每日經文 2026-11-09 · Neville 解讀｜詩篇 119:105 你的話是我腳前的燈——只照下一步，也夠走了</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 待存档 | 已發布 | `HijUT9ZJets` |
+| 2026-11-09 | [2026-11-09 · 詩篇 119:105](https://www.youtube.com/shorts/RbyDSdy_0Q0)<br><sub>每日經文 2026-11-09｜詩篇 119:105 燈不必照全程，只照下一步</sub> | Short · 鉤子 | 每日經文 · Neville 解讀 2026（中文） | 待存档 | 已發布 | `RbyDSdy_0Q0` |
+| 2026-11-09 | [2026-11-09 · 詩篇 119:105](https://www.youtube.com/shorts/zoNXHAtt_no)<br><sub>每日經文 2026-11-09｜詩篇 119:105 清晨點燈：選定今天的一句話</sub> | Short · 導入 | 每日經文 · Neville 解讀 2026（中文） | 待存档 | 已發布 | `zoNXHAtt_no` |
 | 2026-11-08 | [2026-11-08 · 馬太福音 17:21](https://youtu.be/BmNNLWigjLI)<br><sub>每日經文 2026-11-08 · Neville 解讀｜馬太福音 17:21 這一類，若不禱告、禁食，就不出來——住進新狀態，餓死舊狀態</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 10c2c5ca | 已發布 | `BmNNLWigjLI` |
 | 2026-11-08 | [2026-11-08 · 歷代志上 16:24](https://youtu.be/pxyaNgW7mws)<br><sub>每日經文 2026-11-08 · Neville 解讀｜歷代志上 16:24 在列邦中述說他的榮耀——你的世界，正在述說哪一位「我是」</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · f84c4e0c | 已發布 | `pxyaNgW7mws` |
 | 2026-11-08 | [2026-11-08 · 历代志上 16:24](https://www.youtube.com/shorts/9Ylqc35x2u4)<br><sub>每日经文｜历代志上 16:24 在列邦中述说他的荣耀</sub> | Short · 鉤子 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · f84c4e0c | 已發布 | `9Ylqc35x2u4` |
@@ -233,10 +236,13 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-10-31 | [2026-10-31 · 提摩太後書 3:16-17](https://www.youtube.com/shorts/pvP-BoX9vN0)<br><sub>每日經文 2026-10-31｜提摩太後書 3:16-17｜聖經是你自己意識的自傳</sub> | Short · 鉤子 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 1f8daa60 | 已發布 | `pvP-BoX9vN0` |
 | 2026-10-31 | [2026-10-31 · 提摩太後書 3:16-17](https://www.youtube.com/shorts/zMRz5A8ZLyg)<br><sub>每日經文 2026-10-31｜提摩太後書 3:16-17｜你不是等著被組裝的人</sub> | Short · 導入 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · d7f07ddb | 已發布 | `zMRz5A8ZLyg` |
 
-## Daily Verse · Neville Readings — English (69)
+## Daily Verse · Neville Readings — English (72)
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
+| 2026-11-09 | [2026-11-09 · Psalm 119:105](https://youtu.be/raxXpqGinG8)<br><sub>Daily Verse 2026-11-09 · Psalm 119:105 | A Lamp Unto My Feet — Enough Light for the Next Step</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Not archived yet | Live | `raxXpqGinG8` |
+| 2026-11-09 | [2026-11-09 · Psalm 119:105](https://www.youtube.com/shorts/Pa_-aqjS0Tg)<br><sub>Daily Verse 2026-11-09 | Psalm 119:105 A Lamp Lights One Step</sub> | Short (hook) | Daily Verse · Neville Readings 2026 (English) | Not archived yet | Live | `Pa_-aqjS0Tg` |
+| 2026-11-09 | [2026-11-09 · Psalm 119:105](https://www.youtube.com/shorts/ygUw9mnqoSI)<br><sub>Daily Verse 2026-11-09 | Psalm 119:105 Light the Morning Lamp</sub> | Short (funnel) | Daily Verse · Neville Readings 2026 (English) | Not archived yet | Live | `ygUw9mnqoSI` |
 | 2026-11-08 | [2026-11-08 · Matthew 17:21](https://youtu.be/UCF7YydbJxU)<br><sub>Daily Verse 2026-11-08 · Matthew 17:21 | This Kind Goeth Not Out but by Prayer and Fasting</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · b403d75f | Live | `UCF7YydbJxU` |
 | 2026-11-08 | [2026-11-03 · Psalm 119:11](https://youtube.com/shorts/n5-EZWUrIo4)<br><sub>Daily Verse 2026-11-03 | Whatever Word You Hide in Your Heart, You Slowly Become</sub> | Short (hook) | Daily Verse · Neville Readings 2026 (English) | Archived · 9f4ddc4b | Live | `n5-EZWUrIo4` |
 | 2026-11-08 | [2026-11-03 · Psalm 119:11](https://youtube.com/shorts/D3ASur8wqcI)<br><sub>Daily Verse 2026-11-03 | Today, Hide One Sentence in Your Heart · AI Motion Edition</sub> | Short (funnel) | Daily Verse · Neville Readings 2026 (English) | Archived · 9f4ddc4b | Live | `D3ASur8wqcI` |
@@ -508,3 +514,4 @@ Same productions, kept for the record — not public.
 - **CFM Lesson 3 (6 videos, published 2026-11-03) — Evernote archive notes missing** — Checked 2026-11-03 — no archive notes found in Evernote by video ID or title; archive ZIPs not yet built. Finals retained on M1 mini (~/cfm-bf03-creation) and in the run dir on the VM. Next: Build archive ZIPs and create the six archive notes (Chinese → Gospel, English → Video Artifacts, per CFM archiving standard), then backfill archive_note GUIDs here.
 - **Daily Verse James 1:12 + Proverbs 16:3 Chinese sets (6 videos, published 2026-11-03) — Evernote archive notes missing** — Archive notes not yet created at registration time; archive_note left empty deliberately. English sets still in production, IDs to follow. Next: Build archive ZIPs and create the six archive notes, then backfill archive_note GUIDs here.
 - **Daily Verse Psalm 119:11 replacement pair (2 longs, published 2026-11-03) — Evernote append pending** — Per-episode-imagery replacement versions 2-ZtDDffE4U (zh) and EB4svq0CPoA (en) published via Studio 2026-11-03 15:25–15:40 PST and verified Public; checked 2026-11-03 18:3x — no Evernote note contains the new video IDs, so the Video Artifacts append into the existing Psalm 119:11 notes has not landed yet; archive_note left empty deliberately. Originals sdpT4xWJW8A / FEmW-caUtk0 moved to replaced_or_private. Next: Append the replacement Video Artifacts to the existing Psalm 119:11 archive notes (zh d1658cf7-bd13-4e9f-a4a4-503737a0651d, en 9f4ddc4b-d876-4e69-bfa5-32d3bf85ee6f) per the replacement doctrine (append, never regenerate; double-hr separators, newest marked latest), then backfill archive_note GUIDs here.
+- **Daily Verse Psalm 119:105 full set (6 videos, published 2026-11-09) — Evernote archive notes not yet created** — Registered 2026-11-09 at close-out; the Video Artifacts archive (ZH + EN) runs as a separate step and has not landed yet, so archive_note is absent on the six rows above, deliberately. Next: Build the Video Artifacts archive notes for the six videos, verify landed, then backfill archive_note GUIDs on the six Psalm 119:105 rows.
