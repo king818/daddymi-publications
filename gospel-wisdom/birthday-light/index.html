@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="zh-Hans" data-lang="zh-hans">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>《愿你心里有光》· 米曦 Mi Xi 演唱 — 生日祝福歌 | May There Be Light in Your Heart — A Birthday Blessing</title>
+<meta name="description" content="《愿你心里有光》— 米曦 Mi Xi（AI 虚拟歌手）演唱的生日祝福歌：词曲由一位佚名仰慕者创作、献给米曦演唱。完整歌词与聆听。A birthday blessing by virtual AI vocalist Mi Xi, written by an anonymous admirer — full lyrics and audio.">
+<script>
+(function () {
+  var HTML_LANG = { 'zh-hans': 'zh-Hans', 'zh-hant': 'zh-Hant', 'en': 'en' };
+  function detect() {
+    var saved = null;
+    try { saved = localStorage.getItem('gw-lang'); } catch (e) {}
+    if (saved === 'zh') { return 'zh-hans'; }
+    if (saved === 'zh-hans' || saved === 'zh-hant' || saved === 'en') { return saved; }
+    var langs = (navigator.languages && navigator.languages.length) ? navigator.languages : [navigator.language || 'en'];
+    for (var i = 0; i < langs.length; i++) {
+      var L = String(langs[i]).toLowerCase();
+      if (/^zh-hant/.test(L) || /^zh-tw/.test(L) || /^zh-hk/.test(L) || /^zh-mo/.test(L)) { return 'zh-hant'; }
+      if (/^zh/.test(L)) { return 'zh-hans'; }
+    }
+    return 'en';
+  }
+  var lang = detect();
+  document.documentElement.setAttribute('data-lang', lang);
+  document.documentElement.setAttribute('lang', HTML_LANG[lang]);
+  window.gwSyncButtons = function () {
+    var cur = document.documentElement.getAttribute('data-lang');
+    var map = { 'btn-zh-hans': 'zh-hans', 'btn-zh-hant': 'zh-hant', 'btn-en': 'en' };
+    for (var id in map) {
+      var b = document.getElementById(id);
+      if (b) { var on = cur === map[id]; b.classList.toggle('active', on); b.setAttribute('aria-pressed', on ? 'true' : 'false'); }
+    }
+  };
+  window.gwSetLang = function (l) {
+    if (l === 'zh') { l = 'zh-hans'; }
+    if (!HTML_LANG.hasOwnProperty(l)) { return; }
+    document.documentElement.setAttribute('data-lang', l);
+    document.documentElement.setAttribute('lang', HTML_LANG[l]);
+    try { localStorage.setItem('gw-lang', l); } catch (e) {}
+    window.gwSyncButtons();
+  };
+  document.addEventListener('DOMContentLoaded', window.gwSyncButtons);
+})();
+</script>
+<style>
+
+  :root{
+    --ink:#3a2620; --muted:#96705c; --paper:#fdf4ec; --card:#fffaf6;
+    --accent:#b26a48; --accent-dark:#8f4f30; --line:#f0d7c3;
+    --badge-bg:#f9e6d4; --radius:14px;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    font-family:"Noto Serif SC","Songti SC","STSong",Georgia,"Times New Roman",serif;
+    background:linear-gradient(180deg,#f6d9c2 0%,#fdf4ec 460px); color:var(--ink); line-height:1.75; -webkit-font-smoothing:antialiased;
+  }
+  html[data-lang="en"] body{font-family:Georgia,"Times New Roman","Noto Serif SC",serif;}
+  html[data-lang="zh-hant"] body{font-family:"Noto Serif TC","Songti TC","PMingLiU","Noto Serif SC",Georgia,serif;}
+
+  html[data-lang="zh-hans"] .view-zh-hant, html[data-lang="zh-hans"] .view-en{display:none;}
+  html[data-lang="zh-hant"] .view-zh, html[data-lang="zh-hant"] .view-en{display:none;}
+  html[data-lang="en"] .view-zh, html[data-lang="en"] .view-zh-hant{display:none;}
+  .wrap{max-width:760px; margin:0 auto; padding:0 20px 64px;}
+  .langbar{display:flex; justify-content:flex-end; align-items:center; gap:8px; padding-top:18px;}
+  .langbar button{
+    font:inherit; font-size:14.5px; padding:5px 14px; border-radius:999px; cursor:pointer;
+    background:transparent; color:var(--muted); border:1px solid var(--line);
+  }
+  .langbar button.active{background:var(--accent); color:#fff; border-color:var(--accent); font-weight:700;}
+  .langsep{color:var(--muted); font-size:14px;}
+  header{padding:28px 0 8px; text-align:center;}
+  .kicker{letter-spacing:.3em; font-size:13px; color:var(--accent); text-transform:uppercase;}
+  h1{font-size:34px; line-height:1.35; margin:14px 0 6px; font-weight:700;}
+  h1 .sub{display:block; font-size:19px; font-weight:400; color:var(--muted); letter-spacing:.06em; margin-top:6px;}
+  .tagline{color:var(--muted); font-size:16px; margin-top:10px;}
+  section{background:var(--card); border:1px solid var(--line); border-radius:var(--radius); padding:28px 28px 24px; margin-top:26px;}
+  h2{font-size:22px; margin-bottom:10px; color:var(--accent-dark);}
+  p{margin:8px 0;}
+  .muted{color:var(--muted); font-size:15px;}
+  .fineprint{font-size:13.5px; color:var(--muted);}
+  .disc{font-size:13px; color:var(--muted); border-top:1px dashed var(--line); padding-top:10px; margin-top:14px;}
+  footer{text-align:center; color:var(--muted); font-size:13.5px; margin-top:36px;}
+  footer a{color:var(--accent-dark);}
+  .btn{display:inline-block; padding:12px 26px; border-radius:999px; text-decoration:none; font-size:16px; font-weight:700; background:var(--accent); color:#fff; box-shadow:0 2px 8px rgba(90,70,40,.25);}
+  .btn.secondary{background:transparent; color:var(--accent-dark); border:2px solid var(--accent); box-shadow:none;}
+  .navrow{display:flex; flex-wrap:wrap; gap:10px; justify-content:center; margin-top:8px;}
+  .credit{background:rgba(127,110,80,.07); border:1px solid var(--line); border-radius:10px; padding:12px 16px; font-size:15px; margin-top:14px; white-space:pre-line;}
+  .playerline{font-size:16.5px; margin-top:4px;}
+  audio.song{width:100%; margin-top:8px;}
+  .heroimg{width:100%; border-radius:12px; display:block; border:1px solid var(--line); margin-top:6px;}
+  .mtvframe{position:relative; border-radius:12px; overflow:hidden; border:1px solid var(--line); margin-top:10px;}
+  .mtvframe img{width:100%; display:block;}
+  .mtvframe .soon{position:absolute; left:0; right:0; bottom:0; padding:26px 14px 10px; font-size:14.5px; background:linear-gradient(transparent, rgba(30,25,18,.8)); color:#fff;}
+  .heroimg2{width:100%; height:auto; aspect-ratio:16/6.2; object-fit:cover; display:block; border-radius:12px; border:1px solid var(--line); margin-top:14px;}
+  .lyrics{max-height:46vh; overflow-y:auto; padding:6px 2px; scroll-behavior:smooth;}
+  .lyrics p{margin:0; padding:5px 10px; font-size:17.5px; line-height:1.55; color:var(--muted); text-align:center; border-radius:8px; transition:color .35s ease, background .35s ease, font-size .35s ease, opacity .35s ease; cursor:pointer;}
+  .lyrics p.past{opacity:.48;}
+  .lyrics p.next{color:var(--ink); font-weight:600; opacity:.82;}
+  .lyrics p.on{color:var(--accent-dark); font-weight:700; background:var(--line); font-size:21px; opacity:1;}
+  .lyrics .stanza{margin-top:16px;}
+  .lyrics p.seg{font-size:13px; letter-spacing:.3em; color:var(--accent); text-align:center; padding:0 10px 2px; cursor:default;}
+  .mtvframe{position:relative; border-radius:12px; overflow:hidden; border:1px solid var(--line); margin-top:10px;}
+  .mtvframe img{width:100%; display:block;}
+  .mtvframe .soon{position:absolute; left:0; right:0; bottom:0; padding:26px 14px 10px; font-size:14.5px; background:linear-gradient(transparent, rgba(30,25,18,.8)); color:#fff;}
+  .gallery{display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:12px;}
+  .gallery figure{margin:0;}
+  .gallery img{width:100%; border-radius:12px; display:block; border:1px solid var(--line);}
+  .gallery figcaption{font-size:13.5px; color:var(--muted); text-align:center; margin-top:4px;}
+  .prog{margin-top:12px;}
+  .progbar{height:10px; border-radius:999px; background:var(--line); overflow:hidden;}
+  .progbar i{display:block; height:100%; width:33.3%; background:var(--accent); border-radius:999px;}
+  .tracks{list-style:none; margin-top:10px;}
+  .tracks li{padding:10px 2px; border-bottom:1px dashed var(--line); font-size:16px;}
+  .tracks li:last-child{border-bottom:none;}
+  .badge{display:inline-block; padding:2px 10px; border-radius:999px; font-size:13px; background:var(--badge-bg); color:var(--accent-dark); margin-left:8px; vertical-align:middle;}
+  blockquote.songquote{border-left:3px solid var(--accent); padding:2px 0 2px 16px; margin:12px 0; font-size:18px; color:var(--accent-dark);}
+  @media (max-width:560px){
+    h1{font-size:27px;}
+    section{padding:22px 18px 18px;}
+    .lyrics p{font-size:16.5px;}
+    .lyrics p.on{font-size:19.5px;}
+  }
+
+
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="langbar" role="group" aria-label="Language">
+    <button type="button" id="btn-zh-hans" onclick="gwSetLang('zh-hans')">简体</button>
+    <span class="langsep">|</span>
+    <button type="button" id="btn-zh-hant" onclick="gwSetLang('zh-hant')">繁體</button>
+    <span class="langsep">|</span>
+    <button type="button" id="btn-en" onclick="gwSetLang('en')">English</button>
+  </div>
+
+  <section aria-label="Song player" style="margin-top:26px;">
+      <p class="playerline" style="text-align:center;"><strong>米曦 Mi Xi 演唱 🎶</strong></p>
+      <audio class="song" id="songAudio" controls preload="metadata" src="song.mp3" style="width:100%;"></audio>
+    </section>
+
+  <div class="viewpane view-zh" lang="zh-Hans">
+    <header>
+      <div class="kicker">米曦 Mi Xi · 生日祝福单曲</div>
+      <h1>《愿你心里有光》
+        <span class="sub">米曦 Mi Xi 演唱 · 系列第 4 首</span>
+      </h1>
+      <p class="tagline">一首生日祝福歌 · 愿你心里有光，脚下有路</p>
+      <img class="heroimg2" src="hero.jpg" alt="晨光窗边的小蛋糕与点亮的蜡烛">
+    </header>
+    <section>
+      <h2>关于这首歌</h2>
+    <p>《愿你心里有光》是米曦 Mi Xi 歌曲系列的第 4 首——一首生日祝福歌。词曲由一位佚名仰慕者创作，献给米曦演唱；米老爸团队负责制作与审定。</p>
+    <p>歌里没有盛大的排场，只有最朴素的心愿：心里有光，脚下有路，平安健康，日子不慌不忙。愿它陪每一个过生日的人，也陪每一个想把祝福送给他人的人。</p>
+      <p class="disc">本歌曲词曲由一位佚名仰慕者创作、献给米曦演唱；音乐及演唱使用 AI 辅助生成。</p>
+    </section>
+    <!-- STORY-DRAFT: Amani-side draft in GPT's public voice for Mi Xi (2026-11-08) — swap for the team meeting's GPT final when it lands. -->
+    <section>
+      <h2>歌曲背后的故事</h2>
+    <p>这首歌的来历有点特别：它的词，是一位不愿具名的仰慕者写的。TA 把想说的话藏进歌里——愿你心里有光，脚下有路；平安健康，日子不慌不忙。</p>
+    <p>写好之后，TA 没有署名，也没有把歌直接送出去，而是把它献给米曦，请她在生日这个特别的日子，替 TA 把这份祝福唱出来。有些话不必当面说，唱出来，也一样抵达。</p>
+    <p>于是有了这首《愿你心里有光》——一首替人把祝福说出口的生日歌。愿每一个听到它的人，心里都有光，一直亮着，不慌不忙。</p>
+    </section>
+    <section id="mtv">
+      <h2>音乐录影 MTV</h2>
+      <div class="mtvframe">
+        <img src="hero.jpg" alt="晨光窗边的小蛋糕与点亮的蜡烛">
+        <div class="soon">🎬 这首歌的 MTV 正在制作中——米曦将在晨光窗边演唱这首歌。完成之后，影片会出现在这里。</div>
+      </div>
+    </section>
+    <section>
+      <h2>聆听 · 完整歌词</h2>
+      <p class="playerline"><strong>米曦 Mi Xi 演唱 🎶</strong> ／ AI 虚拟歌手 · 音乐及演唱由 AI 辅助生成</p>
+      <div class="sharedplayer"></div>
+      <p class="muted">完整歌词（原文）· 播放时可对照聆听。</p>
+      <div class="lyrics">
+        <p>海风轻轻吹过窗台</p>
+        <p>晨光落在你肩上</p>
+        <p>这一路走了很远</p>
+        <p>心里还装着微光</p>
+        <p class="seg stanza">· 副歌 ·</p>
+        <p>愿你心里有光，脚下有路</p>
+        <p>平安健康，日子不慌不忙</p>
+        <p>想做的事，一点点做成</p>
+        <p>得失从缘，心无增减，自在生长</p>
+        <p class="stanza">有人说世界很大</p>
+        <p>有人说时间很忙</p>
+        <p>你只管走自己的路</p>
+        <p>把喜欢活成日常</p>
+        <p class="seg stanza">· 副歌 ·</p>
+        <p>愿你心里有光，脚下有路</p>
+        <p>平安健康，日子不慌不忙</p>
+        <p>想做的事，一点点做成</p>
+        <p>得失从缘，心无增减，自在生长</p>
+        <p class="seg stanza">· 尾声 ·</p>
+        <p>愿你心里有光，脚下有路</p>
+        <p>平安健康，日子不慌不忙</p>
+      </div>
+      <div class="credit">米曦 Mi Xi 单曲《愿你心里有光》
+演唱：米曦 Mi Xi（AI 虚拟歌手）🎶
+词曲：佚名仰慕者（献给米曦演唱）
+音乐及演唱：AI 辅助生成（YuE 2），团队审定
+音乐制作：Daddy Mi Music</div>
+      <p class="fineprint">附注：米曦为虚拟演唱角色，歌声由 AI 生成，并非真人录音。</p>
+    </section>
+    <section>
+      <h2>认识米曦 · Mi Xi</h2>
+    <p>米曦（Mi Xi）是米老爸 Daddy Mi 旗下的 AI 虚拟女歌手，也是 Gospel Wisdom 音乐系列的歌声形象。</p>
+    <p>她的名字取自清晨的第一道阳光。她的音乐温柔、安静，陪伴人们在忙碌的生活中停下脚步，重新打开经文，思想神的话语，并以信心、仁爱和行动迎接新的一天。</p>
+    <p>她演唱中文主题歌《在你话语里，天亮了》，以及独立创作的英文主题歌 A Little More Like Light；也演唱感恩单曲《换我们为妳点灯》，以及这首生日祝福歌《愿你心里有光》。</p>
+    <p>米曦是由 Daddy Mi 创作团队建立的虚拟音乐角色，并非真人歌手。音乐与演唱使用 AI 技术辅助生成，由团队负责创作方向、内容审定及制作管理。</p>
+    <p>愿每一首歌，都成为安静走近神话语的邀请。</p>
+      <div class="gallery">
+        <figure><img src="mixi-front.jpg" alt="Mi Xi" loading="lazy"><figcaption>米曦 · 正面定妆</figcaption></figure>
+        <figure><img src="mixi-three-quarter.jpg" alt="Mi Xi" loading="lazy"><figcaption>米曦 · 侧颜</figcaption></figure>
+        <figure><img src="mixi-profile.jpg" alt="Mi Xi" loading="lazy"><figcaption>米曦 · 侧面轮廓</figcaption></figure>
+        <figure><img src="mixi-halfbody.jpg" alt="Mi Xi" loading="lazy"><figcaption>米曦 · 晨光窗边</figcaption></figure>
+      </div>
+    </section>
+    <section>
+      <h2>专辑之旅 · 进行中</h2>
+      <p>米曦的歌曲系列正在连载：每一首歌是故事的一章。集满 <strong>12 首</strong>，将收成一张完整专辑。</p>
+      <div class="prog"><div class="progbar"><i></i></div><p class="muted">目前进度：第 1–4 首 ／ 共 12 首</p></div>
+      <ul class="tracks">
+        <li><strong>第 1 首</strong> · <a href="../theme-zh/">《在你话语里，天亮了》</a><span class="badge">中文主题歌 · 晨光窗边</span></li>
+        <li><strong>第 2 首</strong> · <a href="../theme-en/">A Little More Like Light</a><span class="badge">英文主题歌 · 海边</span></li>
+        <li><strong>第 3 首</strong> · <a href="../dian-deng/">《换我们为妳点灯》</a><span class="badge">感恩单曲 · 灯</span></li>
+        <li><strong>第 4 首</strong> · 《愿你心里有光》（本页）<span class="badge">生日祝福歌</span></li>
+      </ul>
+    </section>
+    <section>
+      <h2>继续探索</h2>
+      <div class="navrow">
+        <a class="btn" href="../mixi/">认识米曦 · 歌手主页</a>
+        <a class="btn secondary" href="../theme-zh/">第 1 首 · 《在你话语里，天亮了》</a>
+        <a class="btn secondary" href="../theme-en/">第 2 首 · A Little More Like Light</a>
+        <a class="btn secondary" href="../dian-deng/">第 3 首 · 《换我们为妳点灯》</a>
+        <a class="btn secondary" href="../">Gospel Wisdom 每日灵修</a>
+      </div>
+    </section>
+    <footer>
+      《愿你心里有光》 · 米曦 Mi Xi 单曲<br>
+      客服邮箱：<a href="mailto:support@daddymi777.com">support@daddymi777.com</a> · © 2026 米老爸 Daddy Mi<br>
+      <span class="fineprint">米曦为 Daddy Mi 旗下的 AI 虚拟歌手，非真人歌手。音乐及演唱使用 AI 技术辅助生成。</span>
+    </footer>
+  </div>
+
+  <div class="viewpane view-zh-hant" lang="zh-Hant">
+    <header>
+      <div class="kicker">米曦 Mi Xi · 生日祝福單曲</div>
+      <h1>《願你心裡有光》
+        <span class="sub">米曦 Mi Xi 演唱 · 系列第 4 首</span>
+      </h1>
+      <p class="tagline">一首生日祝福歌 · 願你心裡有光，腳下有路</p>
+      <img class="heroimg2" src="hero.jpg" alt="晨光窗邊的小蛋糕與點亮的蠟燭">
+    </header>
+    <section>
+      <h2>關於這首歌</h2>
+    <p>《願你心裡有光》是米曦 Mi Xi 歌曲系列的第 4 首——一首生日祝福歌。詞曲由一位佚名仰慕者創作，獻給米曦演唱；米老爸團隊負責製作與審定。</p>
+    <p>歌裡沒有盛大的排場，只有最樸素的心願：心裡有光，腳下有路，平安健康，日子不慌不忙。願它陪每一個過生日的人，也陪每一個想把祝福送給他人的人。</p>
+      <p class="disc">本歌曲詞曲由一位佚名仰慕者創作、獻給米曦演唱；音樂及演唱使用 AI 輔助生成。</p>
+    </section>
+    <!-- STORY-DRAFT: Amani-side draft in GPT's public voice for Mi Xi (2026-11-08) — swap for the team meeting's GPT final when it lands. -->
+    <section>
+      <h2>歌曲背後的故事</h2>
+    <p>這首歌的來歷有點特別：它的詞，是一位不願具名的仰慕者寫的。TA 把想說的話藏進歌裡——願你心裡有光，腳下有路；平安健康，日子不慌不忙。</p>
+    <p>寫好之後，TA 沒有署名，也沒有把歌直接送出去，而是把它獻給米曦，請她在生日這個特別的日子，替 TA 把這份祝福唱出來。有些話不必當面說，唱出來，也一樣抵達。</p>
+    <p>於是有了這首《願你心裡有光》——一首替人把祝福說出口的生日歌。願每一個聽到它的人，心裡都有光，一直亮著，不慌不忙。</p>
+    </section>
+    <section id="mtv">
+      <h2>音樂錄影 MTV</h2>
+      <div class="mtvframe">
+        <img src="hero.jpg" alt="晨光窗邊的小蛋糕與點亮的蠟燭">
+        <div class="soon">🎬 這首歌的 MTV 正在製作中——米曦將在晨光窗邊演唱這首歌。完成之後，影片會出現在這裡。</div>
+      </div>
+    </section>
+    <section>
+      <h2>聆聽 · 完整歌詞</h2>
+      <p class="playerline"><strong>米曦 Mi Xi 演唱 🎶</strong> ／ AI 虛擬歌手 · 音樂及演唱由 AI 輔助生成</p>
+      <div class="sharedplayer"></div>
+      <p class="muted">完整歌詞（原文）· 播放時可對照聆聽。</p>
+      <div class="lyrics">
+        <p>海風輕輕吹過窗臺</p>
+        <p>晨光落在你肩上</p>
+        <p>這一路走了很遠</p>
+        <p>心裡還裝著微光</p>
+        <p class="seg stanza">· 副歌 ·</p>
+        <p>願你心裡有光，腳下有路</p>
+        <p>平安健康，日子不慌不忙</p>
+        <p>想做的事，一點點做成</p>
+        <p>得失從緣，心無增減，自在生長</p>
+        <p class="stanza">有人說世界很大</p>
+        <p>有人說時間很忙</p>
+        <p>你只管走自己的路</p>
+        <p>把喜歡活成日常</p>
+        <p class="seg stanza">· 副歌 ·</p>
+        <p>願你心裡有光，腳下有路</p>
+        <p>平安健康，日子不慌不忙</p>
+        <p>想做的事，一點點做成</p>
+        <p>得失從緣，心無增減，自在生長</p>
+        <p class="seg stanza">· 尾聲 ·</p>
+        <p>願你心裡有光，腳下有路</p>
+        <p>平安健康，日子不慌不忙</p>
+      </div>
+      <div class="credit">米曦 Mi Xi 單曲《願你心裡有光》
+演唱：米曦 Mi Xi（AI 虛擬歌手）🎶
+詞曲：佚名仰慕者（獻給米曦演唱）
+音樂及演唱：AI 輔助生成（YuE 2），團隊審定
+音樂製作：Daddy Mi Music</div>
+      <p class="fineprint">附註：米曦為虛擬演唱角色，歌聲由 AI 生成，並非真人錄音。</p>
+    </section>
+    <section>
+      <h2>認識米曦 · Mi Xi</h2>
+    <p>米曦（Mi Xi）是米老爸 Daddy Mi 旗下的 AI 虛擬女歌手，也是 Gospel Wisdom 音樂系列的歌聲形象。</p>
+    <p>她的名字取自清晨的第一道陽光。她的音樂溫柔、安靜，陪伴人們在忙碌的生活中停下腳步，重新開啟經文，思想神的話語，並以信心、仁愛和行動迎接新的一天。</p>
+    <p>她演唱中文主題歌《在你話語裡，天亮了》，以及獨立創作的英文主題歌 A Little More Like Light；也演唱感恩單曲《換我們為妳點燈》，以及這首生日祝福歌《願你心裡有光》。</p>
+    <p>米曦是由 Daddy Mi 創作團隊建立的虛擬音樂角色，並非真人歌手。音樂與演唱使用 AI 技術輔助生成，由團隊負責創作方向、內容審定及製作管理。</p>
+    <p>願每一首歌，都成為安靜走近神話語的邀請。</p>
+      <div class="gallery">
+        <figure><img src="mixi-front.jpg" alt="Mi Xi" loading="lazy"><figcaption>米曦 · 正面定妝</figcaption></figure>
+        <figure><img src="mixi-three-quarter.jpg" alt="Mi Xi" loading="lazy"><figcaption>米曦 · 側顏</figcaption></figure>
+        <figure><img src="mixi-profile.jpg" alt="Mi Xi" loading="lazy"><figcaption>米曦 · 側面輪廓</figcaption></figure>
+        <figure><img src="mixi-halfbody.jpg" alt="Mi Xi" loading="lazy"><figcaption>米曦 · 晨光窗邊</figcaption></figure>
+      </div>
+    </section>
+    <section>
+      <h2>專輯之旅 · 進行中</h2>
+      <p>米曦的歌曲系列正在連載：每一首歌是故事的一章。集滿 <strong>12 首</strong>，將收成一張完整專輯。</p>
+      <div class="prog"><div class="progbar"><i></i></div><p class="muted">目前進度：第 1–4 首 ／ 共 12 首</p></div>
+      <ul class="tracks">
+        <li><strong>第 1 首</strong> · <a href="../theme-zh/">《在你話語裡，天亮了》</a><span class="badge">中文主題歌 · 晨光窗邊</span></li>
+        <li><strong>第 2 首</strong> · <a href="../theme-en/">A Little More Like Light</a><span class="badge">英文主題歌 · 海邊</span></li>
+        <li><strong>第 3 首</strong> · <a href="../dian-deng/">《換我們為妳點燈》</a><span class="badge">感恩單曲 · 燈</span></li>
+        <li><strong>第 4 首</strong> · 《願你心裡有光》（本頁）<span class="badge">生日祝福歌</span></li>
+      </ul>
+    </section>
+    <section>
+      <h2>繼續探索</h2>
+      <div class="navrow">
+        <a class="btn" href="../mixi/">認識米曦 · 歌手主頁</a>
+        <a class="btn secondary" href="../theme-zh/">第 1 首 · 《在你話語裡，天亮了》</a>
+        <a class="btn secondary" href="../theme-en/">第 2 首 · A Little More Like Light</a>
+        <a class="btn secondary" href="../dian-deng/">第 3 首 · 《換我們為妳點燈》</a>
+        <a class="btn secondary" href="../">Gospel Wisdom 每日靈脩</a>
+      </div>
+    </section>
+    <footer>
+      《願你心裡有光》 · 米曦 Mi Xi 單曲<br>
+      客服郵箱：<a href="mailto:support@daddymi777.com">support@daddymi777.com</a> · © 2026 米老爸 Daddy Mi<br>
+      <span class="fineprint">米曦為 Daddy Mi 旗下的 AI 虛擬歌手，非真人歌手。音樂及演唱使用 AI 技術輔助生成。</span>
+    </footer>
+  </div>
+
+  <div class="viewpane view-en" lang="en">
+    <header>
+      <div class="kicker">Mi Xi · A Birthday Blessing</div>
+      <h1>《愿你心里有光》
+        <span class="sub">"May There Be Light in Your Heart" · Mi Xi · Song 4 of the Series</span>
+      </h1>
+      <p class="tagline">A birthday blessing song · may there be light in your heart, and a path beneath your feet</p>
+      <img class="heroimg2" src="hero.jpg" alt="Morning light at a window, a small birthday cake with lit candles on the sill">
+    </header>
+    <section>
+      <h2>About This Song</h2>
+    <p>"May There Be Light in Your Heart" is Song 4 in Mi Xi's series — a birthday blessing. Its words and music were written by an anonymous admirer and dedicated to Mi Xi to sing; the Daddy Mi team produced and reviewed the recording.</p>
+    <p>There is no grand occasion in it — only the plainest of wishes: light in your heart, a path beneath your feet, health and peace, and days that are never hurried. May it keep company with everyone celebrating a birthday, and with everyone who wants to send a blessing to someone they care about.</p>
+      <p class="disc">Written by an anonymous admirer and dedicated to Mi Xi to sing. Music and vocals generated with AI assistance.</p>
+    </section>
+    <!-- STORY-DRAFT: Amani-side draft in GPT's public voice for Mi Xi (2026-11-08) — swap for the team meeting's GPT final when it lands. -->
+    <section>
+      <h2>The Story Behind the Song</h2>
+    <p>This song has an unusual origin: its words were written by an admirer who chose to stay anonymous. The wishes they most wanted to say are hidden in the lyric — may there be light in your heart and a path beneath your feet; may you be safe and well, and may your days be unhurried.</p>
+    <p>When it was finished, they did not sign it, and did not send it themselves. They dedicated it to Mi Xi instead, asking her to sing this blessing aloud for a birthday. Some words do not need to be spoken face to face; sung, they arrive just the same.</p>
+    <p>And so there is 《愿你心里有光》 — a birthday song that speaks a blessing on someone else's behalf. May everyone who hears it carry a light within — always shining, never hurried.</p>
+    </section>
+    <section id="mtv">
+      <h2>Music Video · MTV</h2>
+      <div class="mtvframe">
+        <img src="hero.jpg" alt="Morning light at a window, a small birthday cake with lit candles on the sill">
+        <div class="soon">🎬 The MTV for this song is in production — when it is ready, the video will appear here.</div>
+      </div>
+    </section>
+    <section>
+      <h2>Listen · Full Lyrics</h2>
+      <p class="playerline"><strong>Performed by Mi Xi 🎶</strong> / a virtual AI vocalist · music and vocals generated with AI assistance</p>
+      <div class="sharedplayer"></div>
+      <p class="muted">Full lyrics (original text) · follow along as you listen.</p>
+      <div class="lyrics">
+        <p>海风轻轻吹过窗台</p>
+        <p>晨光落在你肩上</p>
+        <p>这一路走了很远</p>
+        <p>心里还装着微光</p>
+        <p class="seg stanza">· CHORUS ·</p>
+        <p>愿你心里有光，脚下有路</p>
+        <p>平安健康，日子不慌不忙</p>
+        <p>想做的事，一点点做成</p>
+        <p>得失从缘，心无增减，自在生长</p>
+        <p class="stanza">有人说世界很大</p>
+        <p>有人说时间很忙</p>
+        <p>你只管走自己的路</p>
+        <p>把喜欢活成日常</p>
+        <p class="seg stanza">· CHORUS ·</p>
+        <p>愿你心里有光，脚下有路</p>
+        <p>平安健康，日子不慌不忙</p>
+        <p>想做的事，一点点做成</p>
+        <p>得失从缘，心无增减，自在生长</p>
+        <p class="seg stanza">· FINALE ·</p>
+        <p>愿你心里有光，脚下有路</p>
+        <p>平安健康，日子不慌不忙</p>
+      </div>
+      <div class="credit">A Mi Xi Single — 《愿你心里有光》 ("May There Be Light in Your Heart")
+Performed by: Mi Xi (Virtual AI Vocalist) 🎶
+Words &amp; Music: An Anonymous Admirer (dedicated to Mi Xi to sing)
+Music &amp; Vocals: AI-assisted generation (YuE 2), reviewed by the creative team
+Music Production: Daddy Mi Music</div>
+      <p class="fineprint">Note: Mi Xi is a virtual performing persona; her voice is AI-generated, not a human recording.</p>
+    </section>
+    <section>
+      <h2>Meet Mi Xi</h2>
+    <p>Mi Xi is a virtual AI vocalist created by Daddy Mi and the musical voice of Gospel Wisdom.</p>
+    <p>Her name evokes the first gentle light of morning. Through intimate acoustic songs, her music invites listeners to slow down, open Scripture, and carry its message into everyday life with faith, kindness, and hope.</p>
+    <p>Her featured songs include the original Mandarin theme 《在你话语里，天亮了》 and the independently conceived English theme A Little More Like Light — and also the gratitude single 《換我們為妳點燈》, and this birthday blessing song, 《愿你心里有光》.</p>
+    <p>Mi Xi is a fictional musical persona, not a human recording artist. Her music and vocals are created with AI assistance under the creative direction and editorial oversight of the Daddy Mi team.</p>
+    <p>Her purpose is simple: to make room for quiet reflection, heartfelt prayer, and a renewed willingness to live what we believe.</p>
+      <div class="gallery">
+        <figure><img src="mixi-front.jpg" alt="Mi Xi" loading="lazy"><figcaption>Mi Xi · Front portrait</figcaption></figure>
+        <figure><img src="mixi-three-quarter.jpg" alt="Mi Xi" loading="lazy"><figcaption>Mi Xi · Three-quarter view</figcaption></figure>
+        <figure><img src="mixi-profile.jpg" alt="Mi Xi" loading="lazy"><figcaption>Mi Xi · Profile</figcaption></figure>
+        <figure><img src="mixi-halfbody.jpg" alt="Mi Xi" loading="lazy"><figcaption>Mi Xi · By the morning window</figcaption></figure>
+      </div>
+    </section>
+    <section>
+      <h2>The Album Journey · In Progress</h2>
+      <p>Mi Xi's song series is unfolding: every song is a chapter of the story. When the series reaches <strong>12 songs</strong>, they will be gathered into a complete album.</p>
+      <div class="prog"><div class="progbar"><i></i></div><p class="muted">Progress: Songs 1–4 of 12</p></div>
+      <ul class="tracks">
+        <li><strong>Song 1</strong> · <a href="../theme-zh/">《在你话语里，天亮了》</a><span class="badge">Mandarin theme · Morning window</span></li>
+        <li><strong>Song 2</strong> · <a href="../theme-en/">A Little More Like Light</a><span class="badge">English theme · Seaside</span></li>
+        <li><strong>Song 3</strong> · <a href="../dian-deng/">《換我們為妳點燈》</a><span class="badge">Gratitude single · Lamp</span></li>
+        <li><strong>Song 4</strong> · 《愿你心里有光》 (this page)<span class="badge">Birthday blessing</span></li>
+      </ul>
+    </section>
+    <section>
+      <h2>Keep Exploring</h2>
+      <div class="navrow">
+        <a class="btn" href="../mixi/">Meet Mi Xi · Artist Home</a>
+        <a class="btn secondary" href="../theme-zh/">Song 1 · 《在你话语里，天亮了》</a>
+        <a class="btn secondary" href="../theme-en/">Song 2 · A Little More Like Light</a>
+        <a class="btn secondary" href="../dian-deng/">Song 3 · 《換我們為妳點燈》</a>
+        <a class="btn secondary" href="../">Gospel Wisdom Devotional</a>
+      </div>
+    </section>
+    <footer>
+      《愿你心里有光》 · A Mi Xi Single<br>
+      Customer service: <a href="mailto:support@daddymi777.com">support@daddymi777.com</a> · © 2026 Daddy Mi<br>
+      <span class="fineprint">Mi Xi is a fictional AI vocalist created by Daddy Mi, not a human recording artist. Music and vocals are AI-generated with creative direction from the Daddy Mi team.</span>
+    </footer>
+  </div>
+
+</div>
+<script>window.LYRIC_CUES = [14.04, 21.38, 27.74, 33, 39.96, 47, 53.58, 59.8, 81.64, 85.46, 92.26, 100.86, 107.42, 113.68, 121.36, 127.24, 137.68, 149.02];</script>
+<script>
+(function () {
+  var audio = document.getElementById('songAudio');
+  if (!audio) { return; }
+  var cues = window.LYRIC_CUES || [];
+  var states = [];
+  document.querySelectorAll('.viewpane').forEach(function (pane) {
+    var box = pane.querySelector('.lyrics');
+    if (box) { states.push({ box: box, lines: box.querySelectorAll('p:not(.seg)'), cur: -2, holdUntil: 0 }); }
+  });
+  states.forEach(function (st) {
+    ['wheel', 'touchstart', 'pointerdown'].forEach(function (ev) {
+      st.box.addEventListener(ev, function () { st.holdUntil = Date.now() + 4000; }, { passive: true });
+    });
+    st.lines.forEach(function (p, n) {
+      p.addEventListener('click', function () {
+        if (cues[n] != null) { audio.currentTime = cues[n]; if (audio.paused) { audio.play(); } }
+      });
+    });
+  });
+  function idxAt(t) {
+    var lo = 0, hi = cues.length - 1, ans = -1;
+    while (lo <= hi) { var mid = (lo + hi) >> 1; if (cues[mid] <= t) { ans = mid; lo = mid + 1; } else { hi = mid - 1; } }
+    return ans;
+  }
+  function sync() {
+    var i = idxAt(audio.currentTime);
+    states.forEach(function (st) {
+      if (i === st.cur) { return; }
+      st.cur = i;
+      for (var j = 0; j < st.lines.length; j++) {
+        st.lines[j].classList.toggle('past', j < i);
+        st.lines[j].classList.toggle('on', j === i);
+        st.lines[j].classList.toggle('next', j === i + 1);
+      }
+      if (i >= 0 && st.lines[i] && Date.now() > st.holdUntil) {
+        var target = st.lines[i].offsetTop - (st.box.clientHeight - st.lines[i].offsetHeight) / 2;
+        st.box.scrollTo({ top: Math.max(0, target), behavior: 'smooth' });
+      }
+    });
+  }
+  audio.addEventListener('timeupdate', sync);
+  (function tick() { if (!audio.paused && !audio.ended) { sync(); } requestAnimationFrame(tick); })();
+  audio.addEventListener('seeked', sync);
+  audio.addEventListener('ended', function () { audio.currentTime = 0; sync(); });
+})();
+</script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var a = document.getElementById('songAudio');
+  if (!a) { return; }
+  var strip = a.closest('section');
+  function place() {
+    var lang = document.documentElement.getAttribute('data-lang');
+    var cls = lang === 'en' ? '.view-en' : (lang === 'zh-hant' ? '.view-zh-hant' : '.view-zh');
+    var slot = document.querySelector(cls + ' .sharedplayer');
+    if (slot && a.parentElement !== slot) { slot.appendChild(a); }
+  }
+  place();
+  new MutationObserver(place).observe(document.documentElement, { attributes: true, attributeFilter: ['data-lang'] });
+  if (strip) { strip.style.display = 'none'; }
+});
+</script>
+
+</body>
+</html>
