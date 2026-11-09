@@ -94,8 +94,10 @@
   .mtvframe img{width:100%; display:block;}
   .mtvframe .soon{position:absolute; left:0; right:0; bottom:0; padding:26px 14px 10px; font-size:14.5px; background:linear-gradient(transparent, rgba(30,25,18,.8)); color:#fff;}
   .lyrics{max-height:46vh; overflow-y:auto; padding:6px 2px; scroll-behavior:smooth;}
-  .lyrics p{margin:0; padding:5px 10px; font-size:17.5px; color:var(--muted); border-radius:8px; transition:color .3s, background .3s; cursor:pointer;}
-  .lyrics p.on{color:var(--accent-dark); font-weight:700; background:var(--line);}
+  .lyrics p{margin:0; padding:5px 10px; font-size:17.5px; line-height:1.55; color:var(--muted); border-radius:8px; transition:color .35s ease, background .35s ease, font-size .35s ease, opacity .35s ease; cursor:pointer;}
+  .lyrics p.past{opacity:.48;}
+  .lyrics p.next{color:var(--ink); font-weight:600; opacity:.82;}
+  .lyrics p.on{color:var(--accent-dark); font-weight:700; background:var(--line); font-size:21px; opacity:1;}
   .gallery{display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:12px;}
   .gallery figure{margin:0;}
   .gallery img{width:100%; border-radius:12px; display:block; border:1px solid var(--line);}
@@ -112,6 +114,7 @@
     h1{font-size:27px;}
     section{padding:22px 18px 18px;}
     .lyrics p{font-size:16.5px;}
+    .lyrics p.on{font-size:19.5px;}
   }
 
 </style>
@@ -584,14 +587,15 @@ Produced by: Daddy Mi Music</div>
     var i = idxAt(audio.currentTime);
     states.forEach(function (st) {
       if (i === st.cur) { return; }
-      if (st.cur >= 0 && st.lines[st.cur]) { st.lines[st.cur].classList.remove('on'); }
       st.cur = i;
-      if (i >= 0 && st.lines[i]) {
-        st.lines[i].classList.add('on');
-        if (Date.now() > st.holdUntil) {
-          var target = st.lines[i].offsetTop - st.box.clientHeight * 0.42;
-          st.box.scrollTo({ top: Math.max(0, target), behavior: 'smooth' });
-        }
+      for (var j = 0; j < st.lines.length; j++) {
+        st.lines[j].classList.toggle('past', j < i);
+        st.lines[j].classList.toggle('on', j === i);
+        st.lines[j].classList.toggle('next', j === i + 1);
+      }
+      if (i >= 0 && st.lines[i] && Date.now() > st.holdUntil) {
+        var target = st.lines[i].offsetTop - (st.box.clientHeight - st.lines[i].offsetHeight) / 2;
+        st.box.scrollTo({ top: Math.max(0, target), behavior: 'smooth' });
       }
     });
   }
