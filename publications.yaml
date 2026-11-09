@@ -3901,6 +3901,7 @@ publications:
   published: '2026-11-09'
   url: https://youtu.be/HijUT9ZJets
   native_id: HijUT9ZJets
+  archive_note: f46d167c-add0-4fa6-ad8a-a7b44367dd11
   playlist: 每日經文 · Neville 解讀 2026（中文）
   status: Public
 - platform: YouTube
@@ -3912,6 +3913,7 @@ publications:
   published: '2026-11-09'
   url: https://www.youtube.com/shorts/RbyDSdy_0Q0
   native_id: RbyDSdy_0Q0
+  archive_note: f46d167c-add0-4fa6-ad8a-a7b44367dd11
   playlist: 每日經文 · Neville 解讀 2026（中文）
   status: Public
 - platform: YouTube
@@ -3923,6 +3925,7 @@ publications:
   published: '2026-11-09'
   url: https://www.youtube.com/shorts/zoNXHAtt_no
   native_id: zoNXHAtt_no
+  archive_note: f46d167c-add0-4fa6-ad8a-a7b44367dd11
   playlist: 每日經文 · Neville 解讀 2026（中文）
   status: Public
 - platform: YouTube
@@ -3934,6 +3937,7 @@ publications:
   published: '2026-11-09'
   url: https://youtu.be/raxXpqGinG8
   native_id: raxXpqGinG8
+  archive_note: ef4e94a6-226a-4451-8d06-8bf9dce2c8fe
   playlist: Daily Verse · Neville Readings 2026 (English)
   status: Public
 - platform: YouTube
@@ -3945,6 +3949,7 @@ publications:
   published: '2026-11-09'
   url: https://www.youtube.com/shorts/Pa_-aqjS0Tg
   native_id: Pa_-aqjS0Tg
+  archive_note: fc38ec7a-62b7-4cb0-9f5c-623fc28544d8
   playlist: Daily Verse · Neville Readings 2026 (English)
   status: Public
 - platform: YouTube
@@ -3956,6 +3961,7 @@ publications:
   published: '2026-11-09'
   url: https://www.youtube.com/shorts/ygUw9mnqoSI
   native_id: ygUw9mnqoSI
+  archive_note: fc38ec7a-62b7-4cb0-9f5c-623fc28544d8
   playlist: Daily Verse · Neville Readings 2026 (English)
   status: Public
 replaced_or_private:
@@ -4863,3 +4869,5 @@ unverified:
 - item: Daily Verse Psalm 119:105 full set (6 videos, published 2026-11-09) — Evernote archive notes not yet created
   reason: Registered 2026-11-09 at close-out; the Video Artifacts archive (ZH + EN) runs as a separate step and has not landed yet, so archive_note is absent on the six rows above, deliberately.
   action: Build the Video Artifacts archive notes for the six videos, verify landed, then backfill archive_note GUIDs on the six Psalm 119:105 rows.
+
+  resolved: '2026-11-09 — DONE: Video Artifacts archive landed and get_note-verified — three notes in notebook e3612165-36fe-69bc-5933-a6c8d7501a44 (tag video-archive): ZH note f46d167c-add0-4fa6-ad8a-a7b44367dd11 (long + both ZH Shorts, 12 resources), EN main note ef4e94a6-226a-4451-8d06-8bf9dce2c8fe (long master + upload SRT, 9 resources), EN companion note fc38ec7a-62b7-4cb0-9f5c-623fc28544d8 (both EN Shorts, 4 resources); all resource MD5s/sizes verified against local files; archive_note GUIDs backfilled on the six rows (Shorts rows carry their own notes GUIDs; EN main ef4e94a6-226a-4451-8d06-8bf9dce2c8fe stands as the episode archive_note).'

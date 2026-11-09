@@ -157,9 +157,9 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
-| 2026-11-09 | [2026-11-09 · 詩篇 119:105](https://youtu.be/HijUT9ZJets)<br><sub>每日經文 2026-11-09 · Neville 解讀｜詩篇 119:105 你的話是我腳前的燈——只照下一步，也夠走了</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 待存档 | 已發布 | `HijUT9ZJets` |
-| 2026-11-09 | [2026-11-09 · 詩篇 119:105](https://www.youtube.com/shorts/RbyDSdy_0Q0)<br><sub>每日經文 2026-11-09｜詩篇 119:105 燈不必照全程，只照下一步</sub> | Short · 鉤子 | 每日經文 · Neville 解讀 2026（中文） | 待存档 | 已發布 | `RbyDSdy_0Q0` |
-| 2026-11-09 | [2026-11-09 · 詩篇 119:105](https://www.youtube.com/shorts/zoNXHAtt_no)<br><sub>每日經文 2026-11-09｜詩篇 119:105 清晨點燈：選定今天的一句話</sub> | Short · 導入 | 每日經文 · Neville 解讀 2026（中文） | 待存档 | 已發布 | `zoNXHAtt_no` |
+| 2026-11-09 | [2026-11-09 · 詩篇 119:105](https://youtu.be/HijUT9ZJets)<br><sub>每日經文 2026-11-09 · Neville 解讀｜詩篇 119:105 你的話是我腳前的燈——只照下一步，也夠走了</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · f46d167c | 已發布 | `HijUT9ZJets` |
+| 2026-11-09 | [2026-11-09 · 詩篇 119:105](https://www.youtube.com/shorts/RbyDSdy_0Q0)<br><sub>每日經文 2026-11-09｜詩篇 119:105 燈不必照全程，只照下一步</sub> | Short · 鉤子 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · f46d167c | 已發布 | `RbyDSdy_0Q0` |
+| 2026-11-09 | [2026-11-09 · 詩篇 119:105](https://www.youtube.com/shorts/zoNXHAtt_no)<br><sub>每日經文 2026-11-09｜詩篇 119:105 清晨點燈：選定今天的一句話</sub> | Short · 導入 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · f46d167c | 已發布 | `zoNXHAtt_no` |
 | 2026-11-08 | [2026-11-08 · 馬太福音 17:21](https://youtu.be/BmNNLWigjLI)<br><sub>每日經文 2026-11-08 · Neville 解讀｜馬太福音 17:21 這一類，若不禱告、禁食，就不出來——住進新狀態，餓死舊狀態</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 10c2c5ca | 已發布 | `BmNNLWigjLI` |
 | 2026-11-08 | [2026-11-08 · 歷代志上 16:24](https://youtu.be/pxyaNgW7mws)<br><sub>每日經文 2026-11-08 · Neville 解讀｜歷代志上 16:24 在列邦中述說他的榮耀——你的世界，正在述說哪一位「我是」</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · f84c4e0c | 已發布 | `pxyaNgW7mws` |
 | 2026-11-08 | [2026-11-08 · 历代志上 16:24](https://www.youtube.com/shorts/9Ylqc35x2u4)<br><sub>每日经文｜历代志上 16:24 在列邦中述说他的荣耀</sub> | Short · 鉤子 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · f84c4e0c | 已發布 | `9Ylqc35x2u4` |
@@ -240,9 +240,9 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
-| 2026-11-09 | [2026-11-09 · Psalm 119:105](https://youtu.be/raxXpqGinG8)<br><sub>Daily Verse 2026-11-09 · Psalm 119:105 | A Lamp Unto My Feet — Enough Light for the Next Step</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Not archived yet | Live | `raxXpqGinG8` |
-| 2026-11-09 | [2026-11-09 · Psalm 119:105](https://www.youtube.com/shorts/Pa_-aqjS0Tg)<br><sub>Daily Verse 2026-11-09 | Psalm 119:105 A Lamp Lights One Step</sub> | Short (hook) | Daily Verse · Neville Readings 2026 (English) | Not archived yet | Live | `Pa_-aqjS0Tg` |
-| 2026-11-09 | [2026-11-09 · Psalm 119:105](https://www.youtube.com/shorts/ygUw9mnqoSI)<br><sub>Daily Verse 2026-11-09 | Psalm 119:105 Light the Morning Lamp</sub> | Short (funnel) | Daily Verse · Neville Readings 2026 (English) | Not archived yet | Live | `ygUw9mnqoSI` |
+| 2026-11-09 | [2026-11-09 · Psalm 119:105](https://youtu.be/raxXpqGinG8)<br><sub>Daily Verse 2026-11-09 · Psalm 119:105 | A Lamp Unto My Feet — Enough Light for the Next Step</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · ef4e94a6 | Live | `raxXpqGinG8` |
+| 2026-11-09 | [2026-11-09 · Psalm 119:105](https://www.youtube.com/shorts/Pa_-aqjS0Tg)<br><sub>Daily Verse 2026-11-09 | Psalm 119:105 A Lamp Lights One Step</sub> | Short (hook) | Daily Verse · Neville Readings 2026 (English) | Archived · fc38ec7a | Live | `Pa_-aqjS0Tg` |
+| 2026-11-09 | [2026-11-09 · Psalm 119:105](https://www.youtube.com/shorts/ygUw9mnqoSI)<br><sub>Daily Verse 2026-11-09 | Psalm 119:105 Light the Morning Lamp</sub> | Short (funnel) | Daily Verse · Neville Readings 2026 (English) | Archived · fc38ec7a | Live | `ygUw9mnqoSI` |
 | 2026-11-08 | [2026-11-08 · Matthew 17:21](https://youtu.be/UCF7YydbJxU)<br><sub>Daily Verse 2026-11-08 · Matthew 17:21 | This Kind Goeth Not Out but by Prayer and Fasting</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · b403d75f | Live | `UCF7YydbJxU` |
 | 2026-11-08 | [2026-11-03 · Psalm 119:11](https://youtube.com/shorts/n5-EZWUrIo4)<br><sub>Daily Verse 2026-11-03 | Whatever Word You Hide in Your Heart, You Slowly Become</sub> | Short (hook) | Daily Verse · Neville Readings 2026 (English) | Archived · 9f4ddc4b | Live | `n5-EZWUrIo4` |
 | 2026-11-08 | [2026-11-03 · Psalm 119:11](https://youtube.com/shorts/D3ASur8wqcI)<br><sub>Daily Verse 2026-11-03 | Today, Hide One Sentence in Your Heart · AI Motion Edition</sub> | Short (funnel) | Daily Verse · Neville Readings 2026 (English) | Archived · 9f4ddc4b | Live | `D3ASur8wqcI` |
