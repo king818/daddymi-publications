@@ -121,8 +121,10 @@ TEMPLATE = """<!DOCTYPE html>
       ============================================================ -->
     <form class="subform" action="https://buttondown.com/api/emails/embed-subscribe/%%BUTTONDOWN_USERNAME%%" method="post">
       <label for="bd-email">%%EMAIL_LABEL%%</label>
-      <input id="bd-email" type="email" name="email" required placeholder="%%EMAIL_PLACEHOLDER%%" autocomplete="email">
-      <button type="submit">%%SUBSCRIBE_BUTTON%%</button>
+      <div class="subfield">
+        <input id="bd-email" type="email" name="email" required placeholder="%%EMAIL_PLACEHOLDER%%" autocomplete="email">
+        <button type="submit">%%SUBSCRIBE_BUTTON%%</button>
+      </div>
     </form>
     <p class="formnote">%%FORM_PENDING%% <a href="mailto:%%SUPPORT_EMAIL%%">%%SUPPORT_EMAIL%%</a></p>
   </section>
@@ -163,6 +165,38 @@ TEMPLATE = """<!DOCTYPE html>
     <div>© 2026 米老爸 Daddy Mi</div>
   </footer>
 </div>
+<script>
+/* Reveal-on-scroll (portal UX pass 2026-11-09). Progressive
+   enhancement only: the "js" class that hides content is added HERE,
+   so with JavaScript off (or no IntersectionObserver, or reduced
+   motion) every section stays fully visible. Each element reveals
+   once; card delays are cleared afterwards so hover stays snappy. */
+(function () {
+  if (!('IntersectionObserver' in window)) return;
+  if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  var els = document.querySelectorAll('.wrap > section, .cards .card');
+  document.documentElement.classList.add('js');
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) {
+      if (!e.isIntersecting) return;
+      var el = e.target;
+      io.unobserve(el);
+      el.classList.add('in');
+      setTimeout(function () {
+        el.classList.remove('reveal', 'in');
+        el.style.transitionDelay = '';
+      }, 1200);
+    });
+  }, { rootMargin: '0px 0px -8% 0px' });
+  var cards = 0;
+  for (var i = 0; i < els.length; i++) {
+    var el = els[i];
+    el.classList.add('reveal');
+    if (el.parentNode.className === 'cards') el.style.transitionDelay = (cards++ * 80) + 'ms';
+    io.observe(el);
+  }
+})();
+</script>
 </body>
 </html>
 """
