@@ -25,6 +25,9 @@
 <meta name="twitter:title" content="米老爸 Daddy Mi — 以智慧啟發人生，以科技傳遞溫暖">
 <meta name="twitter:description" content="米老爸 Daddy Mi 的官方門戶——每日靈修、原創音樂與視頻作品，都從這裡開始。">
 <meta name="twitter:image" content="https://daddymi777.com/gospel-wisdom/dian-deng/hero-lamp-window.jpg">
+<link rel="icon" type="image/png" sizes="32x32" href="../brand/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../brand/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="../brand/apple-touch-icon.png">
 <script>
 /* Legacy-anchor rescue (joint recommendation §4): the old root index
    rendered series blocks without stable fragment ids, so any shared
@@ -34,7 +37,7 @@
 (function () {
   var own = { '#listen': 1, '#subscribe': 1, '#works': 1, '#about': 1, '': 1 };
   var h = window.location.hash || '';
-  if (!own[h]) { window.location.replace('/publications/' + h); }
+  if (!own[h]) { window.location.replace('../publications/' + h); }
 })();
 </script>
 <style>
@@ -56,9 +59,10 @@
   .langswitch .cur { font-weight: 700; color: #3b3125; }
   .nav { padding: 6px 0 2px; font-size: 15px; }
   .nav a { margin-right: 16px; text-decoration: none; }
+  .heromark { display: block; height: 92px; width: auto; margin: 30px auto 4px; }
   h1 { font-family: Georgia, "Songti SC", "STSong", "Noto Serif CJK SC", serif;
     font-size: clamp(28px, 5.2vw, 44px); line-height: 1.25; text-align: center;
-    margin: 36px 0 12px; font-weight: 700; }
+    margin: 14px 0 12px; font-weight: 700; }
   .tagline { text-align: center; color: #6b5b3e; font-size: 17px; line-height: 1.6;
     margin: 0 auto 28px; max-width: 660px; }
   h2 { font-size: 21px; margin: 0 0 10px; }
@@ -77,6 +81,16 @@
   .band { background: #fffdf6; border: 1px solid #e7dcc3; border-radius: 14px;
     padding: 22px; margin-top: 28px; }
   .band p { line-height: 1.65; margin: 6px 0; }
+  .subform { display: flex; gap: 10px; flex-wrap: wrap; margin: 14px 0 4px; }
+  .subform label { flex: 0 0 100%; font-size: 14px; color: #6b5b3e; }
+  .subform input { flex: 1 1 240px; padding: 11px 14px; font-size: 16px;
+    border: 1px solid #d8cba6; border-radius: 10px; background: #fff; color: #3b3125; }
+  .subform button { padding: 11px 26px; font-size: 16px; font-weight: 700;
+    color: #fff; background: #a8842c; border: 1px solid #a8842c; border-radius: 10px;
+    cursor: pointer; }
+  .subform button:hover { background: #8a6d1f; }
+  .formnote { font-size: 14px; color: #6b5b3e; }
+  .footmark { display: block; height: 28px; width: auto; margin: 0 0 6px; }
   .cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 14px; }
   .cards .card p { line-height: 1.6; color: #55482f; margin: 6px 0 12px; }
   .cards h3 { margin: 0 0 6px; font-size: 18px; }
@@ -99,25 +113,26 @@
     <div class="langswitch"><a href="../">简体</a><span class="cur" aria-current="true">繁體</span><a href="../en/">English</a></div>
   </div>
   <nav class="nav">
-    <a href="../../gospel-wisdom/?lang=zh-hant">靈修</a>
-    <a href="../../gospel-wisdom/mixi/?lang=zh-hant">米曦</a>
-    <a href="../../publications/">影片庫</a>
+    <a href="../gospel-wisdom/?lang=zh-hant">靈修</a>
+    <a href="../gospel-wisdom/mixi/?lang=zh-hant">米曦</a>
+    <a href="../publications/">影片庫</a>
   </nav>
 
   <header>
+    <img class="heromark" src="../brand/mark-transparent.png" alt="米老爸 Daddy Mi">
     <h1>以智慧啟發人生，以科技傳遞溫暖。</h1>
     <p class="tagline">米老爸 Daddy Mi 的官方門戶——每日靈修、原創音樂與視頻作品，都從這裡開始。</p>
   </header>
 
   <section class="card listen" id="listen" style="margin-top:0">
-    <img src="../../gospel-wisdom/dian-deng/mixi-cover-diandeng.jpg" alt="《換我們為妳點燈》單曲封面——米曦">
+    <img src="../gospel-wisdom/dian-deng/mixi-cover-diandeng.jpg" alt="《換我們為妳點燈》單曲封面——米曦">
     <div style="flex:1; min-width:0">
       <h2>先聽一首</h2>
       <p class="song">《換我們為妳點燈》</p>
       <p class="by">米曦 Mi Xi 演唱 · 原創單曲</p>
-      <audio controls preload="none" src="../../gospel-wisdom/dian-deng/song.mp3"></audio>
+      <audio controls preload="none" src="../gospel-wisdom/dian-deng/song.mp3"></audio>
       <p class="disclosure">AI 披露：這首歌的音樂與演唱由 AI 輔助生成；詞曲、製作與審定由米老爸團隊完成。</p>
-      <p class="songpage"><a href="../../gospel-wisdom/dian-deng/?lang=zh-hant">這首歌的專屬頁 →</a></p>
+      <p class="songpage"><a href="../gospel-wisdom/dian-deng/?lang=zh-hant">這首歌的專屬頁 →</a></p>
       <p class="likeprompt"><a href="#subscribe">喜歡這首？下一首新歌，第一時間寄給你 ↓</a></p>
     </div>
   </section>
@@ -128,16 +143,24 @@
     <h2>訂閱更新</h2>
     <p>留下電郵，第一時間收到米曦的新歌與 Gospel Wisdom 的更新。自願訂閱，不會自動扣款，隨時可以退訂。</p>
     <!-- ============================================================
-      EMAIL FORM PLACEHOLDER — INERT BY DESIGN.
-      No provider has been chosen yet. After the mainland form test
-      (joint recommendation §6 — test order: Buttondown, then Kit
-      free tier, then MailerLite) picks a provider, replace this
-      comment with that provider's pure-HTML form:
-        <form action="PROVIDER_FORM_ACTION_URL" method="post"> ... </form>
-      Until then this block intentionally contains NO form element,
-      so nothing on the page pretends to subscribe anyone.
+      EMAIL FORM — Buttondown embed-subscribe (joint recommendation
+      §6): a pure-HTML form POST to a single host, no JavaScript.
+      WIRED LIVE 2026-11-09 to the real Buttondown account
+      (username "daddymi", newsletter "Daddy Mi"): the action is
+      https://buttondown.com/api/emails/embed-subscribe/daddymi
+      (portal-src/content.json -> site.buttondown_username; re-run
+      portal-src/build.py after any change). Buttondown requires
+      double opt-in by default, so a subscriber is only added after
+      clicking the confirmation email. Mainland three-test
+      (submission / confirmation delivery to QQ + 163 / unsubscribe
+      reachability, joint rec. §6) is tracked in BUILD-LOG.
       ============================================================ -->
-    <p>訂閱表單正在開通中。在此之前，歡迎來信： <a href="mailto:support@daddymi777.com">support@daddymi777.com</a></p>
+    <form class="subform" action="https://buttondown.com/api/emails/embed-subscribe/daddymi" method="post">
+      <label for="bd-email">電郵地址</label>
+      <input id="bd-email" type="email" name="email" required placeholder="you@example.com" autocomplete="email">
+      <button type="submit">訂閱</button>
+    </form>
+    <p class="formnote">或直接來信： <a href="mailto:support@daddymi777.com">support@daddymi777.com</a></p>
   </section>
 
   <section id="works">
@@ -146,17 +169,17 @@
       <div class="card">
         <h3>Gospel Wisdom · 每日靈修</h3>
         <p>每日一段值得安靜思考的經文與解讀，陪你開始新的一天。</p>
-        <a href="../../gospel-wisdom/?lang=zh-hant">進入靈修 →</a>
+        <a href="../gospel-wisdom/?lang=zh-hant">進入靈修 →</a>
       </div>
       <div class="card">
         <h3>米曦 Mi Xi</h3>
         <p>認識米老爸旗下的 AI 虛擬歌手米曦——聽她的原創歌曲，與歌曲背後的故事。</p>
-        <a href="../../gospel-wisdom/mixi/?lang=zh-hant">認識米曦 →</a>
+        <a href="../gospel-wisdom/mixi/?lang=zh-hant">認識米曦 →</a>
       </div>
       <div class="card">
         <h3>影片庫</h3>
         <p>324 支公開發布影片的完整索引，按系列與語言整理，隨時查找。</p>
-        <a href="../../publications/">瀏覽索引 →</a>
+        <a href="../publications/">瀏覽索引 →</a>
       </div>
     </div>
   </section>
@@ -167,6 +190,7 @@
   </section>
 
   <footer>
+    <img class="footmark" src="../brand/mark-transparent.png" alt="">
     <div>客服電郵：<a href="mailto:support@daddymi777.com">support@daddymi777.com</a></div>
     <div><a href="https://www.youtube.com/@DaddyMi777" target="_blank" rel="noopener">米老爸 YouTube 頻道 ↗（需境外網絡）</a></div>
     <div><a href="https://www.youtube.com/playlist?list=PLSxnHgZ_KCSI" target="_blank" rel="noopener">音樂錄影帶 MV 清單 ↗（需境外網絡）</a></div>

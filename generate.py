@@ -1,10 +1,21 @@
 #!/usr/bin/env python3
-"""Generate index.html (GitHub Pages front-end) and PUBLICATIONS.md (no-JS fallback)
-from publications.yaml — the single source of truth.
+"""Generate publications/index.html (the Publications index page) and
+PUBLICATIONS.md (no-JS fallback) from publications.yaml — the single
+source of truth.
 
 Usage:  python3 generate.py
-Rule:   NEVER hand-edit index.html or PUBLICATIONS.md. Edit publications.yaml, re-run this.
+Rule:   NEVER hand-edit publications/index.html or PUBLICATIONS.md.
+        Edit publications.yaml, re-run this.
 Requires: Python 3 + PyYAML. The generated HTML itself has zero dependencies.
+
+ROOT SWITCH (2026-11-09): the site root (index.html) is the brand portal,
+owned by portal-src/build.py — this script no longer writes it. The index
+lives at /publications/, one directory deeper, so the emitted document
+carries a back-link bar and ../ prefixes on its root-relative references
+(brand assets, gospel-wisdom links). The brand favicon links and the
+footer brand mark are part of the template below (they were hand-added
+to the old root index in the 2026-11-09 logo rollout, commit 0235a3a;
+they live here now so regeneration keeps them).
 
 Presentation standard (boss, 2026-11-03): every row's main label must be human
 positioning — what it is, which number, what it covers — readable without any ID.
@@ -422,6 +433,9 @@ def main():
     td { border:none; padding:3px 8px; }
   }
 </style>
+<link rel="icon" type="image/png" sizes="32x32" href="brand/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="brand/favicon-16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="brand/apple-touch-icon.png">
 </head>
 <body>
 <header>
@@ -452,7 +466,7 @@ def main():
   <div id="list"></div>
   __UNV_HTML__
 </main>
-<footer class="sitefoot"><span data-ui="csLabel">Customer service: </span><a href="mailto:support@daddymi777.com">support@daddymi777.com</a> · <span data-ui="copyright">© 2026 Daddy Mi. All rights reserved.</span></footer>
+<footer class="sitefoot"><div class="brandmark" style="text-align:center;margin:0 0 8px;"><img src="brand/mark-transparent.png" alt="Daddy Mi" style="height:28px;width:auto;"></div><span data-ui="csLabel">Customer service: </span><a href="mailto:support@daddymi777.com">support@daddymi777.com</a> · <span data-ui="copyright">© 2026 Daddy Mi. All rights reserved.</span></footer>
 <script>
 const PUBS = __PUBS_JSON__;
 const PRIV = __PRIV_JSON__;
@@ -579,8 +593,22 @@ window.gwApplyLang();
         .replace("__SERIES_DISP__", json.dumps(SERIES_DISP, ensure_ascii=False))
         .replace("__PUBS_JSON__", embed(PUBS))
         .replace("__PRIV_JSON__", embed(PRIV)))
-    open("index.html", "w", encoding="utf-8").write(html_doc)
-    print(f"generated index.html + PUBLICATIONS.md — {len(PUBS)} public, {len(PRIV)} private, {len(UNV)} unverified")
+    # /publications/ variant: the same document served one directory
+    # deeper — back-link bar after <body>, and ../ on every root-relative
+    # reference (brand assets, gospel-wisdom song links).
+    pubs_doc = html_doc.replace(
+        "<body>",
+        "<body>\n"
+        '<div style="max-width:1100px;margin:0 auto;padding:12px 16px 0;">'
+        '<a href="../" style="color:#8a6d1f;text-decoration:none;font-size:14px;">'
+        "← 返回米老爸首页</a></div>",
+        1)
+    for _pat in ('href="brand/', 'src="brand/', 'href="gospel-wisdom/'):
+        pubs_doc = pubs_doc.replace(_pat, _pat.replace('="', '="../', 1))
+    import os
+    os.makedirs("publications", exist_ok=True)
+    open("publications/index.html", "w", encoding="utf-8").write(pubs_doc)
+    print(f"generated publications/index.html + PUBLICATIONS.md — {len(PUBS)} public, {len(PRIV)} private, {len(UNV)} unverified")
 
 if __name__ == "__main__":
     main()

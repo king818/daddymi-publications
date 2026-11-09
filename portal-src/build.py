@@ -2,19 +2,20 @@
 """Build the daddymi777.com portal pages from ONE content source.
 
 Source : portal-src/content.json   (all trilingual strings live there)
-Outputs: portal/index.html         (zh-Hans — the future root page)
-         portal/zh-hant/index.html
-         portal/en/index.html
+Outputs: index.html          (zh-Hans — the site root page)
+         zh-hant/index.html
+         en/index.html
 
 The three versions are rendered from a single template + the single
 content file, so they cannot drift apart. Re-run after editing
 content.json:  python3 portal-src/build.py
 
-Link layout note: relative links are written so they resolve BOTH in
-this preview layout (portal page one level below the repo root) and
-after the gated root switch (portal root page at /, language pages at
-/zh-hant/ and /en/): "../" from the Hans page and "../../" from the
-language pages both normalize to the site root in each layout.
+ROOT SWITCH DONE 2026-11-09: the portal IS the root now; the old
+publications index lives at /publications/ (owned by generate.py).
+Link layout: per-page relative prefixes from content.json ("" for the
+root page, "../" for the two language pages) resolve every asset and
+section link from each page's own depth, on both the custom domain
+and the github.io mirror.
 """
 import json, os
 
@@ -47,6 +48,9 @@ TEMPLATE = """<!DOCTYPE html>
 <meta name="twitter:title" content="%%TITLE%%">
 <meta name="twitter:description" content="%%TAGLINE%%">
 <meta name="twitter:image" content="%%OG_IMAGE%%">
+<link rel="icon" type="image/png" sizes="32x32" href="%%PREFIX%%brand/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="%%PREFIX%%brand/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="%%PREFIX%%brand/apple-touch-icon.png">
 <script>
 /* Legacy-anchor rescue (joint recommendation §4): the old root index
    rendered series blocks without stable fragment ids, so any shared
@@ -56,7 +60,7 @@ TEMPLATE = """<!DOCTYPE html>
 (function () {
   var own = { '#listen': 1, '#subscribe': 1, '#works': 1, '#about': 1, '': 1 };
   var h = window.location.hash || '';
-  if (!own[h]) { window.location.replace('/publications/' + h); }
+  if (!own[h]) { window.location.replace('%%PUBS_RESCUE%%' + h); }
 })();
 </script>
 <style>
@@ -78,9 +82,10 @@ TEMPLATE = """<!DOCTYPE html>
   .langswitch .cur { font-weight: 700; color: #3b3125; }
   .nav { padding: 6px 0 2px; font-size: 15px; }
   .nav a { margin-right: 16px; text-decoration: none; }
+  .heromark { display: block; height: 92px; width: auto; margin: 30px auto 4px; }
   h1 { font-family: Georgia, "Songti SC", "STSong", "Noto Serif CJK SC", serif;
     font-size: clamp(28px, 5.2vw, 44px); line-height: 1.25; text-align: center;
-    margin: 36px 0 12px; font-weight: 700; }
+    margin: 14px 0 12px; font-weight: 700; }
   .tagline { text-align: center; color: #6b5b3e; font-size: 17px; line-height: 1.6;
     margin: 0 auto 28px; max-width: 660px; }
   h2 { font-size: 21px; margin: 0 0 10px; }
@@ -99,6 +104,16 @@ TEMPLATE = """<!DOCTYPE html>
   .band { background: #fffdf6; border: 1px solid #e7dcc3; border-radius: 14px;
     padding: 22px; margin-top: 28px; }
   .band p { line-height: 1.65; margin: 6px 0; }
+  .subform { display: flex; gap: 10px; flex-wrap: wrap; margin: 14px 0 4px; }
+  .subform label { flex: 0 0 100%; font-size: 14px; color: #6b5b3e; }
+  .subform input { flex: 1 1 240px; padding: 11px 14px; font-size: 16px;
+    border: 1px solid #d8cba6; border-radius: 10px; background: #fff; color: #3b3125; }
+  .subform button { padding: 11px 26px; font-size: 16px; font-weight: 700;
+    color: #fff; background: #a8842c; border: 1px solid #a8842c; border-radius: 10px;
+    cursor: pointer; }
+  .subform button:hover { background: #8a6d1f; }
+  .formnote { font-size: 14px; color: #6b5b3e; }
+  .footmark { display: block; height: 28px; width: auto; margin: 0 0 6px; }
   .cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 14px; }
   .cards .card p { line-height: 1.6; color: #55482f; margin: 6px 0 12px; }
   .cards h3 { margin: 0 0 6px; font-size: 18px; }
@@ -127,6 +142,7 @@ TEMPLATE = """<!DOCTYPE html>
   </nav>
 
   <header>
+    <img class="heromark" src="%%PREFIX%%brand/mark-transparent.png" alt="米老爸 Daddy Mi">
     <h1>%%BRANDLINE%%</h1>
     <p class="tagline">%%TAGLINE%%</p>
   </header>
@@ -150,16 +166,24 @@ TEMPLATE = """<!DOCTYPE html>
     <h2>%%SUBSCRIBE_H%%</h2>
     <p>%%SUBSCRIBE_COPY%%</p>
     <!-- ============================================================
-      EMAIL FORM PLACEHOLDER — INERT BY DESIGN.
-      No provider has been chosen yet. After the mainland form test
-      (joint recommendation §6 — test order: Buttondown, then Kit
-      free tier, then MailerLite) picks a provider, replace this
-      comment with that provider's pure-HTML form:
-        <form action="PROVIDER_FORM_ACTION_URL" method="post"> ... </form>
-      Until then this block intentionally contains NO form element,
-      so nothing on the page pretends to subscribe anyone.
+      EMAIL FORM — Buttondown embed-subscribe (joint recommendation
+      §6): a pure-HTML form POST to a single host, no JavaScript.
+      WIRED LIVE 2026-11-09 to the real Buttondown account
+      (username "daddymi", newsletter "Daddy Mi"): the action is
+      https://buttondown.com/api/emails/embed-subscribe/daddymi
+      (portal-src/content.json -> site.buttondown_username; re-run
+      portal-src/build.py after any change). Buttondown requires
+      double opt-in by default, so a subscriber is only added after
+      clicking the confirmation email. Mainland three-test
+      (submission / confirmation delivery to QQ + 163 / unsubscribe
+      reachability, joint rec. §6) is tracked in BUILD-LOG.
       ============================================================ -->
-    <p>%%FORM_PENDING%% <a href="mailto:%%SUPPORT_EMAIL%%">%%SUPPORT_EMAIL%%</a></p>
+    <form class="subform" action="https://buttondown.com/api/emails/embed-subscribe/%%BUTTONDOWN_USERNAME%%" method="post">
+      <label for="bd-email">%%EMAIL_LABEL%%</label>
+      <input id="bd-email" type="email" name="email" required placeholder="%%EMAIL_PLACEHOLDER%%" autocomplete="email">
+      <button type="submit">%%SUBSCRIBE_BUTTON%%</button>
+    </form>
+    <p class="formnote">%%FORM_PENDING%% <a href="mailto:%%SUPPORT_EMAIL%%">%%SUPPORT_EMAIL%%</a></p>
   </section>
 
   <section id="works">
@@ -189,6 +213,7 @@ TEMPLATE = """<!DOCTYPE html>
   </section>
 
   <footer>
+    <img class="footmark" src="%%PREFIX%%brand/mark-transparent.png" alt="">
     <div>%%FOOTER_SUPPORT%%：<a href="mailto:%%SUPPORT_EMAIL%%">%%SUPPORT_EMAIL%%</a></div>
     <div><a href="%%YT_CHANNEL%%" target="_blank" rel="noopener">%%YT_CHANNEL_LABEL%%</a></div>
     <div><a href="%%YT_MV%%" target="_blank" rel="noopener">%%YT_MV_LABEL%%</a></div>
@@ -224,6 +249,12 @@ def render(code, page, site, pages):
         "SUBSCRIBE_H": page["subscribe_h"],
         "SUBSCRIBE_COPY": page["subscribe_copy"],
         "FORM_PENDING": page["form_pending"],
+        "PREFIX": prefix,
+        "PUBS_RESCUE": prefix + "publications/",
+        "BUTTONDOWN_USERNAME": site["buttondown_username"],
+        "EMAIL_LABEL": page["email_label"],
+        "EMAIL_PLACEHOLDER": page["email_placeholder"],
+        "SUBSCRIBE_BUTTON": page["subscribe_button"],
         "SUPPORT_EMAIL": site["support_email"],
         "WORKS_H": page["works_h"],
         "CARD1_T": page["card1_t"], "CARD1_D": page["card1_d"], "CARD1_LINK": page["card1_link"],

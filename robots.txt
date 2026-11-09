@@ -1,5 +1,5 @@
-# daddymi777.com — takes effect only at the gated root switch
-# (joint recommendation §8); inert while on this branch.
+# daddymi777.com — live since the 2026-11-09 root switch
+# (joint recommendation §8).
 User-agent: *
 Allow: /
 
