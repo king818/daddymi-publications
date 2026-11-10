@@ -7,12 +7,12 @@
 <meta name="description" content="Gospel Wisdom 福音智慧每日灵修 — founding membership registration ($7.99/month), payments not yet open. Free taste: Entries 1–7 in full. 创始会员登记（$7.99/月），付款尚未开放；免费试读本第 1–7 篇全文。創始會員登記（$7.99/月），付款尚未開放；免費試讀本第 1–7 篇全文。">
 <script>
 (function () {
-  var HTML_LANG = { 'zh-hans': 'zh-Hans', 'zh-hant': 'zh-Hant', 'en': 'en' };
+  var HTML_LANG = { 'zh-hans': 'zh-Hans', 'zh-hant': 'zh-Hant', 'en': 'en', 'ja': 'ja', 'ko': 'ko' };
   function detect() {
     var saved = null;
     try { saved = localStorage.getItem('gw-lang'); } catch (e) {}
     if (saved === 'zh') { return 'zh-hans'; } /* legacy value migrates to Simplified */
-    if (saved === 'zh-hans' || saved === 'zh-hant' || saved === 'en') { return saved; }
+    if (saved === 'zh-hans' || saved === 'zh-hant' || saved === 'en' || saved === 'ja' || saved === 'ko') { return saved; }
     var langs = (navigator.languages && navigator.languages.length)
       ? navigator.languages
       : [navigator.language || 'en'];
@@ -20,6 +20,8 @@
       var L = String(langs[i]).toLowerCase();
       if (/^zh-hant/.test(L) || /^zh-tw/.test(L) || /^zh-hk/.test(L) || /^zh-mo/.test(L)) { return 'zh-hant'; }
       if (/^zh/.test(L)) { return 'zh-hans'; }
+      if (/^ja/.test(L)) { return 'ja'; }
+      if (/^ko/.test(L)) { return 'ko'; }
     }
     return 'en';
   }
@@ -29,7 +31,7 @@
 
   window.gwSyncButtons = function () {
     var cur = document.documentElement.getAttribute('data-lang');
-    var map = { 'btn-zh-hans': 'zh-hans', 'btn-zh-hant': 'zh-hant', 'btn-en': 'en' };
+    var map = { 'btn-zh-hans': 'zh-hans', 'btn-zh-hant': 'zh-hant', 'btn-en': 'en', 'btn-ja': 'ja', 'btn-ko': 'ko' };
     for (var id in map) {
       var b = document.getElementById(id);
       if (b) {
@@ -64,9 +66,13 @@
   }
   html[data-lang="en"] body{font-family:Georgia,"Times New Roman","Noto Serif SC",serif;}
   html[data-lang="zh-hant"] body{font-family:"Noto Serif TC","Songti TC","PMingLiU","Noto Serif SC",Georgia,serif;}
-  html[data-lang="zh-hans"] .view-zh-hant, html[data-lang="zh-hans"] .view-en{display:none;}
-  html[data-lang="zh-hant"] .view-zh, html[data-lang="zh-hant"] .view-en{display:none;}
-  html[data-lang="en"] .view-zh, html[data-lang="en"] .view-zh-hant{display:none;}
+  html[data-lang="ja"] body{font-family:"Hiragino Mincho ProN","Hiragino Mincho Pro","Yu Mincho","YuMincho","Noto Serif JP",Georgia,serif;}
+  html[data-lang="ko"] body{font-family:"Noto Serif KR","Nanum Myeongjo","Batang",Georgia,serif;}
+  html[data-lang="zh-hans"] .view-zh-hant, html[data-lang="zh-hans"] .view-en, html[data-lang="zh-hans"] .view-ja, html[data-lang="zh-hans"] .view-ko{display:none;}
+  html[data-lang="zh-hant"] .view-zh, html[data-lang="zh-hant"] .view-en, html[data-lang="zh-hant"] .view-ja, html[data-lang="zh-hant"] .view-ko{display:none;}
+  html[data-lang="en"] .view-zh, html[data-lang="en"] .view-zh-hant, html[data-lang="en"] .view-ja, html[data-lang="en"] .view-ko{display:none;}
+  html[data-lang="ja"] .view-zh, html[data-lang="ja"] .view-zh-hant, html[data-lang="ja"] .view-en, html[data-lang="ja"] .view-ko{display:none;}
+  html[data-lang="ko"] .view-zh, html[data-lang="ko"] .view-zh-hant, html[data-lang="ko"] .view-en, html[data-lang="ko"] .view-ja{display:none;}
   .wrap{max-width:760px; margin:0 auto; padding:0 20px 64px;}
   .langbar{display:flex; justify-content:flex-end; align-items:center; gap:8px; padding-top:18px;}
   .langbar button{
@@ -135,6 +141,10 @@
     <button type="button" id="btn-zh-hant" onclick="gwSetLang('zh-hant')">繁體</button>
     <span class="langsep">|</span>
     <button type="button" id="btn-en" onclick="gwSetLang('en')">English</button>
+    <span class="langsep">|</span>
+    <button type="button" id="btn-ja" onclick="gwSetLang('ja')">日本語</button>
+    <span class="langsep">|</span>
+    <button type="button" id="btn-ko" onclick="gwSetLang('ko')">한국어</button>
   </div>
 
   <!-- ================= 简体中文视图 ================= -->
@@ -537,6 +547,270 @@
       Gospel Wisdom · Founding registration open — payments not yet open.<br>
       Customer service: <a href="mailto:support@daddymi777.com">support@daddymi777.com</a> · © 2026 Daddy Mi. All rights reserved.
     <div style="margin-top:10px;"><a class="homelink" href="https://daddymi777.com/" style="font-size:12.5px;color:inherit;opacity:.72;">Home</a></div></footer>
+
+  </div>
+
+  <!-- i18n: JA/KO draft by Amani team, pending GPT cross-check -->
+  <!-- ================= 日本語ビュー ================= -->
+  <div class="view-ja" lang="ja">
+
+    <header>
+      <div class="kicker">毎日のデボーション</div>
+      <h1>福音の知恵 Gospel Wisdom
+        <span class="sub">ネヴィル・ゴダードの視点で読む、毎日の聖書黙想</span>
+      </h1>
+      <p class="tagline">一日に一篇：聖書（日本語＋英語）＋ その背景 ＋ ネヴィルの内なる解釈 ＋ 今日への適用 ＋ 祈り</p>
+      <div class="status">創設メンバー登録 受付中 · お支払いはまだ始まっていません
+        <small>メールを残すことは購入意向の登録のみです。購入ではなく、請求は一切発生しません。</small>
+      </div>
+    </header>
+
+    <section>
+      <h2>これは何ですか</h2>
+      <p>『福音の知恵』は、日々少しずつ編まれている毎日のデボーションです。各篇は聖書の一節を取り上げ、まず本来の文脈と意味を示し、次にネヴィル・ゴダードの内なる解釈の方法で読み直し、最後に今日への具体的な適用と、一つの祈りへと着地します。解釈の方法については、その旨を明記しています。<strong>いかなる効果も約束するものではありません。</strong></p>
+      <p>2026年11月8日現在、<strong>18篇</strong>が完成しています（中国語と英語の原稿を備えています）。全体では365篇を目標とし、30篇ごとに一巻としてまとめています。最近の編纂ペースは、おおよそ一日に一篇です。</p>
+    </section>
+
+    <section>
+      <h2>まず読んでから決めてください：無料試読本（第1–7篇）</h2>
+      <p>試読本には第一巻の最初の7篇が<strong>全文</strong>収められています——会員巻と同一のテキストで、省略は一切ありません。読んでから、参加するかどうかを決めてください。先に費用を払う必要はありません。</p>
+      <ul class="entries">
+        <li>第 1 篇 · コロサイの信徒への手紙 1:13</li>
+        <li>第 2 篇 · テモテへの手紙二 3:16–17</li>
+        <li>第 3 篇 · イザヤ書 41:10</li>
+        <li>第 4 篇 · ヨハネによる福音書 1:1</li>
+        <li>第 5 篇 · ヘブライ人への手紙 4:12</li>
+        <li>第 6 篇 · 詩編 119:11</li>
+        <li>第 7 篇 · 詩編 139:23</li>
+      </ul>
+      <p class="muted">受け取り方：下の登録ボタンを押し、フォームで「無料試読」を選んでください。試読本のPDFをメールでお送りします。</p>
+    </section>
+
+    <section class="sample">
+      <h2>登録の前に：一篇の全文をお読みください</h2>
+      <p>以下は第3篇（イザヤ書 41:10）の<strong>全文</strong>です。会員にお届けするものと同一のテキストです——まず読んでから、登録するかどうかを決めてください。これは「二人で読む共読シート」でもあります。パートナーと一緒に、一人は日本語で、一人は英語で読み（上の言語ボタンで切り替えます）、読み終えたら文末の三つの問いで、お互いに気づいたことを比べ合ってください。どの篇も読み方は同じです——<strong>まず文脈、それから内なる解釈。</strong></p>
+
+      <h3>聖書</h3>
+      <blockquote>
+        <p>「恐れてはならない、わたしはあなたと共にいる。驚いてはならない、わたしはあなたの神である。わたしはあなたを強くし、あなたを助け、わが勝利の右の手をもって、あなたをささえる。」（イザヤ書 41:10、口語訳）</p>
+        <p>"Fear thou not; for I am with thee: be not dismayed; for I am thy God: I will strengthen thee; yea, I will help thee; yea, I will uphold thee with the right hand of my righteousness." (Isaiah 41:10, KJV)</p>
+      </blockquote>
+
+      <h3>背景</h3>
+      <p>イザヤ書41章は、捕囚の地で、強大な国々に囲まれて小さく震えていたイスラエルに語りかけています。神は彼らをご自身の選ばれた僕と呼び、ご自身の臨在と助けを約束されました。この言葉は、第一に、震える民への慰めです——スローガンではなく、契約の保証です。</p>
+
+      <h3>内なる解釈</h3>
+      <p>この一節には、目を引く文法があります。人間に向けては、ただ二つのこと——「恐れるな」「驚くな」——だけが言われます。一方、神はご自身について三つの約束を語りますが、ヘブライ語ではその三つはすべて完了形です。「わたしはすでにあなたを強くした。すでに助けた。すでに支えた」。神は未来から手招きしているのではありません。神は、終わりの地点から語っておられるのです。</p>
+      <p>なぜ最初に「恐れるな」なのでしょうか。ヘブライ語で「恐れ」と「畏れ」は同じ語根を持ちます。恐れとは、方向を誤った畏れのことです——神に帰すべき畏敬を、請求書や診断結果、悪い知らせに渡してしまった状態です。そして「驚くな」という言葉は、文字どおりには「不安げに辺りを見回すな」という意味です。目は外側に証拠を探し続け、その不安な確認のたびに、古い状態にもう一票を投じてしまいます。二つの命令は、一つのことを言っています。立ち止まり、視線を内へ戻しなさい、と。</p>
+      <p>ネヴィル・ゴダードの内なる解釈では、語る「わたし」と、震える「あなた」は、遠く離れた存在ではありません。「わたしはあなたと共にいる」の「わたし」は、私たち自身の気づきの深みにある「わたしはある（I AM）」です。それは決して離れたことがありません。変わる必要があるのは、私たちが名乗るアイデンティティだけです。恐れと信仰は、実は同じ力です。恐れは「なりたくない自分」を想像し、信仰は「すでに成就した終わり」に忠実であり続けます。</p>
+      <p>最後の光景が、もっとも優しいものです。この章の前半では、偶像を作る者たちが、偶像が倒れないように釘で打ち付けています。しかし神の民は、神を支える必要がありません——神の義の右の手が、彼らを支えているのです。ここでの「義」とは、正しく真実であること。願いがすでに叶ったという感覚の中に安らぐことこそ、その正しさの中に立つことです。つまり、持ちこたえるとは、歯を食いしばってしがみつくことではありませんでした。支えられていることだったのです。</p>
+
+      <h3>今日への適用</h3>
+      <p>今日、恐れが湧き上がったら、さまよう目線を呼び戻し、心の中でこう言ってください。「わたしは、すでに支えられている」。そして、目の前の一歩だけを踏み出してください。</p>
+
+      <h3>祈り</h3>
+      <p>天の父よ、あなたがすでに私を強くし、助け、義の右の手で支えていてくださることを感謝します。今日、私のさまよう目線を集めてください。感情によってではなく、あなたの臨在によって歩み、平安のうちに、目の前の一歩を進めますように。イエス・キリストの御名によって。アーメン。</p>
+
+      <h3>共読の三つの問い</h3>
+      <ol>
+        <li>この篇の中で、もとの文脈に属する部分はどこですか。</li>
+        <li>内なる解釈は、どこに異なる角度を加えていますか。そして、それが解釈であると明記されていますか。</li>
+        <li>どの部分を取り入れたいですか。疑問に思いますか。受け入れませんか。（同意しないことも立派な読みの結果です——それこそが、一緒に読む意味なのです。）</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>創設メンバー <span class="price">$7.99<small> / 月</small></span></h2>
+      <p><strong>創設メンバーの登録は受付中ですが、お支払いはまだ始まっていません。</strong>メールを残すことは購入意向の登録のみで、購入ではなく、請求は発生しません。お支払いの受付が始まる際には、登録された方へ真っ先にお知らせします。月額 $7.99 で得られるものは、正確に次のとおりです。</p>
+      <table>
+        <tr><th>お届けするもの</th><th>内容</th><th>時期</th></tr>
+        <tr><td>会員巻一（現在の在庫分）</td><td>第1–17篇の全文、PDF（A5、38ページ）</td><td>お支払い確認後24時間以内にメールでお届け</td></tr>
+        <tr><td>毎月の新作まとめ</td><td>前月に完成した全篇を、一つのPDFに</td><td>毎月第一週にメールでお届け</td></tr>
+        <tr><td>完成した巻</td><td>30篇が完成するごとに、その巻の完全版PDFを</td><td>完成した月にメールでお届け</td></tr>
+      </table>
+      <p class="fineprint">お届けはPDFのみです（スマートフォンで読め、印刷もできます）。アプリやePubはお約束していません。まとめの分量は実際の編纂ペースに従います——固定の篇数はお約束しません。現在のペースでは、第一巻は2026年11月下旬頃に30篇に到達する見込みです——これは見積もりであり、<strong>保証された日付ではありません</strong>。まだ書かれていないものを先に売ることは、決してありません。</p>
+      <p class="fineprint"><strong>解約と返金：</strong>いつでも解約できます——翌月から請求は止まり、お届け済みの内容はそのままお手元に残ります。初回のお支払いは、7日以内であれば無条件で全額返金します。その月のまとめが送られる前に解約された場合は、その月分を全額返金します。送られた後の解約では、その月分は返金されず、翌月から請求が止まります。</p>
+      <div class="cta">
+        <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSfwqTcZwqPH-WPPqm6Pa_ZXQui9nSpIOPoYSq72XCWl3XsUKQ/viewform" target="_blank" rel="noopener">購入意向を登録 / 無料試読を受け取る</a>
+      </div>
+      <p class="fineprint" style="text-align:center;">登録は購入ではありません · 請求なし · 受付開始時、登録者へ真っ先にお知らせします</p>
+    </section>
+
+    <section>
+      <h2>一日を選んで捧げる · 献辞</h2>
+      <p>365日の中から一日を無料で選び、その日を誰かに捧げることができます。短い献辞の言葉を添えて。これは<strong>意向の登録のみ</strong>です。献辞が実際に掲載されるかどうかは、その日の篇が編まれることと、プロジェクトの進み具合によります——<strong>この登録は掲載の約束ではありません</strong>し、費用もかかりません。</p>
+      <div class="cta">
+        <a class="btn secondary" href="https://docs.google.com/forms/d/e/1FAIpQLScFT9EpDscbmchwAK7KfE5aZNq5EXdl3floAWtiGYpVPyz__w/viewform" target="_blank" rel="noopener">一日を選ぶ・捧げる</a>
+      </div>
+    </section>
+
+
+    <!-- テーマソング · 歌：Mi Xi -->
+    <section>
+      <h2>テーマソング · 歌：Mi Xi 🎶</h2>
+      <p>『福音の知恵』には、自身の歌声があります——バーチャルAIシンガーの<strong>Mi Xi</strong>です。二つのテーマソングは、それぞれ独立した作品です。中国語の歌は朝の光を、英語の歌は海の上の光を歌います。</p>
+      <p><strong>英語テーマソング「A Little More Like Light」</strong></p>
+      <p>A Little More Like Light</p>
+      <p>Every day offers a quiet invitation to return to God's word.</p>
+      <p>A Little More Like Light is an original song created for Gospel Wisdom. It reflects a simple hope: that Scripture will do more than comfort us for a moment. May it gradually shape how we think, speak, love, and live.</p>
+      <p>You are welcome to listen before reading today's passage, or afterward, as a gentle moment of reflection.</p>
+      <p>May one small truth become one faithful step today.</p>
+      <p><strong>Performed by Mi Xi 🎶</strong> / Virtual AI vocalist · AI-generated music and vocals</p>
+      <audio controls preload="metadata" src="theme-en/song.mp3" style="width:100%;"></audio>
+      <p class="fineprint">Original concept and lyrics by the Gospel Wisdom team. Music and vocals generated with AI assistance.</p>
+      <p><strong>中国語テーマソング『在你话语里，天亮了』</strong></p>
+      <p>在你话语里，天亮了</p>
+      <p>每天，我们都可以留一点安静的时间，重新打开神的话语。</p>
+      <p>这首《在你话语里，天亮了》为 Gospel Wisdom 创作，唱的是一个简单的心愿：在忙碌与不确定中，来到主面前，让经文照亮内心，让信心在平凡生活里慢慢生长。</p>
+      <p>你可以在阅读今日经文之前，先听一遍；也可以读完之后，让音乐陪你安静片刻。</p>
+      <p>愿今天的一句话，成为你生命里真实的一步。</p>
+      <p><strong>米曦 Mi Xi 演唱 🎶</strong> ／ AI 虚拟歌手 · 音乐及演唱由 AI 辅助生成</p>
+      <audio controls preload="metadata" src="theme-zh/song.mp3" style="width:100%;"></audio>
+      <p class="fineprint">本歌曲由 Gospel Wisdom 团队原创策划与撰词，音乐及演唱使用 AI 辅助生成。</p>
+      <div class="cta">
+        <a class="btn" href="theme-en/">英語テーマページ · 動く歌詞</a>
+        <a class="btn secondary" href="theme-zh/">中文主题歌专页 · 动态歌词</a>
+      </div>
+      <p style="text-align:center;"><a href="mixi/">Mi Xiに会う · 歌手ホーム →</a></p>
+      <p style="text-align:center;"><a href="https://daddymi777.com/gospel-wisdom/">daddymi777.com/gospel-wisdom · テーマソングページ</a></p>
+    </section>
+    <footer>
+      <div class="brandmark" style="text-align:center;margin:0 0 10px;"><a href="https://daddymi777.com/" aria-label="回首页 Home"><img src="../brand/mark-transparent.png" alt="米老爸 Daddy Mi" style="height:36px;width:36px;"></a><div style="margin-top:3px;font-size:12.5px;letter-spacing:.14em;">米老爸 Daddy Mi</div></div>
+      Gospel Wisdom · 創設メンバー登録受付中——お支払いはまだ始まっていません。<br>
+      サポート：<a href="mailto:support@daddymi777.com">support@daddymi777.com</a> · © 2026 米老爸 Daddy Mi. All rights reserved.
+    <div style="margin-top:10px;"><a class="homelink" href="https://daddymi777.com/" style="font-size:12.5px;color:inherit;opacity:.72;">ホーム · Home</a></div></footer>
+
+  </div>
+
+  <!-- i18n: JA/KO draft by Amani team, pending GPT cross-check -->
+  <!-- ================= 한국어 뷰 ================= -->
+  <div class="view-ko" lang="ko">
+
+    <header>
+      <div class="kicker">매일 묵상</div>
+      <h1>Gospel Wisdom 복음의 지혜
+        <span class="sub">네빌 고다드의 관점으로 읽는 매일의 성경 묵상</span>
+      </h1>
+      <p class="tagline">하루에 한 편: 성경(한국어 + 영어) + 그 배경 + 네빌의 내적 해석 + 오늘의 적용 + 기도</p>
+      <div class="status">창립 멤버 등록 접수 중 · 결제는 아직 열리지 않았습니다
+        <small>이메일을 남기는 것은 관심 등록일 뿐입니다. 구매가 아니며, 어떤 비용도 청구되지 않습니다.</small>
+      </div>
+    </header>
+
+    <section>
+      <h2>이것은 무엇인가요</h2>
+      <p><em>복음의 지혜</em>는 날마다 조금씩 엮어 가고 있는 매일 묵상입니다. 각 편은 성경의 한 구절을 가져와, 먼저 그 본래의 맥락과 의미를 밝히고, 다음으로 네빌 고다드의 내적 해석 방법으로 다시 읽은 뒤, 오늘을 위한 구체적인 적용 하나와 기도로 마무리합니다. 해석 방법에 대해서는 그 사실을 분명히 밝힙니다. <strong>어떤 결과도 약속하지 않습니다.</strong></p>
+      <p>2026년 11월 8일 현재, <strong>18편</strong>이 완성되어 있습니다(중국어와 영어 원고가 함께 준비되어 있습니다). 전체 목표는 365편이며, 30편마다 한 권으로 묶고 있습니다. 최근의 집필 속도는 대략 하루에 한 편입니다.</p>
+    </section>
+
+    <section>
+      <h2>먼저 읽고 결정하세요: 무료 맛보기(1–7편)</h2>
+      <p>무료 맛보기에는 첫 번째 권의 처음 7편이 <strong>전문</strong> 그대로 실려 있습니다 — 회원 권과 동일한 텍스트이며, 줄인 부분은 없습니다. 먼저 읽어 보신 뒤 참여 여부를 결정하세요. 어떤 비용도 먼저 낼 필요가 없습니다.</p>
+      <ul class="entries">
+        <li>1편 · 골로새서 1:13</li>
+        <li>2편 · 디모데후서 3:16–17</li>
+        <li>3편 · 이사야 41:10</li>
+        <li>4편 · 요한복음 1:1</li>
+        <li>5편 · 히브리서 4:12</li>
+        <li>6편 · 시편 119:11</li>
+        <li>7편 · 시편 139:23</li>
+      </ul>
+      <p class="muted">받는 방법: 아래 등록 버튼을 누르고 양식에서 '무료 맛보기'를 선택하시면, 맛보기 PDF를 이메일로 보내 드립니다.</p>
+    </section>
+
+    <section class="sample">
+      <h2>등록 전에: 한 편의 전문을 먼저 읽어 보세요</h2>
+      <p>아래는 3편(이사야 41:10)의 <strong>전문</strong>으로, 회원에게 전달되는 것과 동일한 텍스트입니다. 먼저 읽어 보신 뒤 등록 여부를 결정하세요. 이것은 '두 사람이 함께 읽는 공독 시트'이기도 합니다. 파트너와 함께, 한 사람은 한국어로, 한 사람은 영어로 읽고(위의 언어 버튼으로 전환), 다 읽은 뒤에는 끝부분의 세 가지 질문으로 서로 발견한 것을 비교해 보세요. 모든 편의 읽는 법은 같습니다 — <strong>먼저 맥락, 그다음 내적 해석.</strong></p>
+
+      <h3>성경 말씀</h3>
+      <blockquote>
+        <p>두려워하지 말라 내가 너와 함께 함이라 놀라지 말라 나는 네 하나님이 됨이라 내가 너를 굳세게 하리라 참으로 너를 도와 주리라 참으로 나의 의로운 오른손으로 너를 붙들리라 (이사야 41:10, 개역개정)</p>
+        <p>"Fear thou not; for I am with thee: be not dismayed; for I am thy God: I will strengthen thee; yea, I will help thee; yea, I will uphold thee with the right hand of my righteousness." (Isaiah 41:10, KJV)</p>
+      </blockquote>
+
+      <h3>맥락</h3>
+      <p>이사야 41장은 포로 생활 가운데, 강대한 나라들 사이에서 작고 두려움에 떠는 이스라엘에게 말씀합니다. 하나님은 그들을 당신의 택하신 종이라 부르시며, 당신의 임재와 도움을 약속하십니다. 이 말씀은 무엇보다 떠는 백성에게 주시는 위로입니다 — 구호가 아니라, 언약의 보장입니다.</p>
+
+      <h3>내적 해석</h3>
+      <p>이 구절에는 주목할 만한 문법이 있습니다. 우리에게는 단 두 가지만 말씀하십니다 — 두려워하지 말라, 놀라지 말라. 반면 하나님 자신에 대해서는 세 가지 약속을 말씀하시는데, 히브리어에서 그 세 가지는 모두 완료형입니다. '내가 이미 너를 굳세게 하였다. 이미 너를 도왔다. 이미 너를 붙들었다.' 하나님은 미래에서 우리에게 손짓하시는 분이 아닙니다. 그분은 끝(완성)의 자리에서 말씀하십니다.</p>
+      <p>왜 '두려워하지 말라'가 먼저일까요? 히브리어에서 두려움과 경외는 하나의 어근을 나눕니다. 두려움이란 방향을 잃은 경외입니다 — 하나님께 드려야 할 경외를 청구서와 진단 결과와 나쁜 소식에 내어 준 상태입니다. 그리고 '놀라지 말라'는 말 그대로 '불안하게 두리번거리지 말라'는 뜻입니다. 눈은 계속 바깥에서 증거를 찾고, 그 불안한 확인 한 번 한 번이 옛 상태에 던지는 또 한 표입니다. 두 명령은 하나의 같은 말을 합니다. 멈추고, 시선을 안으로 되돌리라는 것입니다.</p>
+      <p>네빌 고다드의 내적 해석에서, 말씀하시는 '나'와 떠는 '너'는 멀리 떨어진 존재가 아닙니다. '내가 너와 함께 있다'의 '나'는 우리 자각의 깊은 곳에 있는 'I AM(나는 있다)'입니다. 그것은 결코 떠난 적이 없습니다. 바뀌어야 할 것은 우리가 주장하는 정체성뿐입니다. 두려움과 믿음은 같은 힘입니다. 두려움은 되고 싶지 않은 자기를 상상하고, 믿음은 이미 이루어진 결말에 충실합니다.</p>
+      <p>마지막 장면이 가장 따뜻합니다. 이 장 앞부분에서 우상을 만드는 자들은 우상이 흔들리지 않도록 못으로 고정합니다. 그러나 하나님의 백성은 하나님을 붙들어 드릴 필요가 없습니다 — 하나님의 의로운 오른손이 그들을 붙드십니다. 여기서 의란 올바르고 참된 것을 뜻합니다. 소원이 이미 이루어졌다는 느낌 안에 머무는 것이 바로 그 올바름 안에 서는 것입니다. 결국 버틴다는 것은 이를 악물고 매달리는 것이 아니었습니다. 붙들려 있는 것이었습니다.</p>
+
+      <h3>오늘의 적용</h3>
+      <p>오늘 두려움이 올라올 때, 방황하는 시선을 거두고 마음속으로 이렇게 말해 보세요. '나는 이미 붙들려 있다.' 그리고 눈앞의 한 걸음만 내디디세요.</p>
+
+      <h3>기도</h3>
+      <p>하늘 아버지, 이미 저를 굳세게 하시고 도우셨으며, 지금도 의로운 오른손으로 붙들어 주시니 감사합니다. 오늘 제 방황하는 시선을 거두어 주시고, 느낌이 아니라 당신의 임재로 걸으며, 평안 가운데 눈앞의 한 걸음을 내딛게 하소서. 예수 그리스도의 이름으로 기도합니다. 아멘.</p>
+
+      <h3>두 독자를 위한 세 가지 질문</h3>
+      <ol>
+        <li>이 편에서, 본문의 원래 맥락에 속하는 부분은 어디인가요?</li>
+        <li>내적 해석은 어디에 다른 각도를 더하고 있나요? 그리고 그것이 해석임이 표시되어 있나요?</li>
+        <li>어떤 부분을 받아들이고, 어떤 부분에 의문을 품고, 어떤 부분을 거절하시겠습니까? (동의하지 않는 것 또한 온전한 읽기의 결과입니다 — 그것이 함께 읽는 이유입니다.)</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>창립 멤버 <span class="price">$7.99<small> / 월</small></span></h2>
+      <p><strong>창립 멤버 등록은 받고 있지만, 결제는 아직 열리지 않았습니다.</strong> 이메일을 남기는 것은 관심 등록일 뿐 구매가 아니며, 어떤 비용도 청구되지 않습니다. 결제가 열리면, 등록하신 분들께 가장 먼저 알려 드립니다. 월 $7.99로 받게 되는 것은 정확히 다음과 같습니다.</p>
+      <table>
+        <tr><th>제공 항목</th><th>내용</th><th>시기</th></tr>
+        <tr><td>회원 제1권(현재 보유분)</td><td>1–17편 전문, PDF(A5, 38페이지)</td><td>결제 확인 후 24시간 이내 이메일 발송</td></tr>
+        <tr><td>매월 신규 편 묶음</td><td>지난달에 완성된 모든 편을 하나의 PDF로</td><td>매월 첫째 주에 이메일 발송</td></tr>
+        <tr><td>완성된 권</td><td>30편이 완성될 때마다 해당 권의 전체 PDF</td><td>완성되는 달에 이메일 발송</td></tr>
+      </table>
+      <p class="fineprint">제공 형식은 PDF뿐입니다(휴대폰으로 읽을 수 있고 인쇄도 가능합니다). 앱이나 ePub은 약속하지 않습니다. 묶음의 분량은 실제 집필 속도를 따르며, 고정된 편수를 약속하지 않습니다. 현재 속도라면 제1권은 2026년 11월 하순경 30편에 이를 것으로 보입니다 — 이것은 추정치이며, <strong>보장된 날짜가 아닙니다</strong>. 아직 쓰이지 않은 것을 미리 파는 일은 결코 없습니다.</p>
+      <p class="fineprint"><strong>해지 및 환불:</strong> 언제든 해지할 수 있습니다 — 다음 달부터 청구가 멈추고, 이미 받으신 내용은 그대로 간직하실 수 있습니다. 첫 결제는 7일 이내에 무조건 전액 환불합니다. 그달의 묶음이 발송되기 전에 해지하면 그달 요금은 전액 환불되고, 발송된 후에는 그달 요금은 환불되지 않으며 다음달부터 청구가 멈춥니다.</p>
+      <div class="cta">
+        <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSfwqTcZwqPH-WPPqm6Pa_ZXQui9nSpIOPoYSq72XCWl3XsUKQ/viewform" target="_blank" rel="noopener">구매 관심 등록 / 무료 맛보기 받기</a>
+      </div>
+      <p class="fineprint" style="text-align:center;">등록은 구매가 아닙니다 · 비용 없음 · 결제가 열리면 등록자에게 가장 먼저 알립니다</p>
+    </section>
+
+    <section>
+      <h2>하루를 바치기 · 헌정</h2>
+      <p>365일 중 하루를 무료로 선택해, 그날을 누군가에게 바칠 수 있습니다. 짧은 헌정 문구와 함께요. 이것은 <strong>관심 등록일 뿐</strong>입니다. 헌정이 실제로 실릴지는, 그날의 편이 완성되고 프로젝트가 진행되는지에 달려 있습니다 — <strong>이 등록은 게재 약속이 아니며</strong>, 비용도 들지 않습니다.</p>
+      <div class="cta">
+        <a class="btn secondary" href="https://docs.google.com/forms/d/e/1FAIpQLScFT9EpDscbmchwAK7KfE5aZNq5EXdl3floAWtiGYpVPyz__w/viewform" target="_blank" rel="noopener">하루 선택 · 헌정하기</a>
+      </div>
+    </section>
+
+
+    <!-- 테마송 · 노래: Mi Xi -->
+    <section>
+      <h2>테마송 · 노래: Mi Xi 🎶</h2>
+      <p><em>복음의 지혜</em>에는 그만의 목소리가 있습니다 — 가상 AI 가수 <strong>Mi Xi</strong>입니다. 두 테마송은 각각 독립된 작품입니다. 중국어 노래는 아침의 빛을, 영어 노래는 바다 위의 빛을 노래합니다.</p>
+      <p><strong>영어 테마송 'A Little More Like Light'</strong></p>
+      <p>A Little More Like Light</p>
+      <p>Every day offers a quiet invitation to return to God's word.</p>
+      <p>A Little More Like Light is an original song created for Gospel Wisdom. It reflects a simple hope: that Scripture will do more than comfort us for a moment. May it gradually shape how we think, speak, love, and live.</p>
+      <p>You are welcome to listen before reading today's passage, or afterward, as a gentle moment of reflection.</p>
+      <p>May one small truth become one faithful step today.</p>
+      <p><strong>Performed by Mi Xi 🎶</strong> / Virtual AI vocalist · AI-generated music and vocals</p>
+      <audio controls preload="metadata" src="theme-en/song.mp3" style="width:100%;"></audio>
+      <p class="fineprint">Original concept and lyrics by the Gospel Wisdom team. Music and vocals generated with AI assistance.</p>
+      <p><strong>중국어 테마송 《在你话语里，天亮了》</strong></p>
+      <p>在你话语里，天亮了</p>
+      <p>每天，我们都可以留一点安静的时间，重新打开神的话语。</p>
+      <p>这首《在你话语里，天亮了》为 Gospel Wisdom 创作，唱的是一个简单的心愿：在忙碌与不确定中，来到主面前，让经文照亮内心，让信心在平凡生活里慢慢生长。</p>
+      <p>你可以在阅读今日经文之前，先听一遍；也可以读完之后，让音乐陪你安静片刻。</p>
+      <p>愿今天的一句话，成为你生命里真实的一步。</p>
+      <p><strong>米曦 Mi Xi 演唱 🎶</strong> ／ AI 虚拟歌手 · 音乐及演唱由 AI 辅助生成</p>
+      <audio controls preload="metadata" src="theme-zh/song.mp3" style="width:100%;"></audio>
+      <p class="fineprint">本歌曲由 Gospel Wisdom 团队原创策划与撰词，音乐及演唱使用 AI 辅助生成。</p>
+      <div class="cta">
+        <a class="btn" href="theme-en/">영어 테마 페이지 · 움직이는 가사</a>
+        <a class="btn secondary" href="theme-zh/">中文主题歌专页 · 动态歌词</a>
+      </div>
+      <p style="text-align:center;"><a href="mixi/">Mi Xi 만나기 · 가수 홈 →</a></p>
+      <p style="text-align:center;"><a href="https://daddymi777.com/gospel-wisdom/">daddymi777.com/gospel-wisdom · 테마송 페이지</a></p>
+    </section>
+    <footer>
+      <div class="brandmark" style="text-align:center;margin:0 0 10px;"><a href="https://daddymi777.com/" aria-label="回首页 Home"><img src="../brand/mark-transparent.png" alt="米老爸 Daddy Mi" style="height:36px;width:36px;"></a><div style="margin-top:3px;font-size:12.5px;letter-spacing:.14em;">米老爸 Daddy Mi</div></div>
+      Gospel Wisdom · 창립 멤버 등록 접수 중 — 결제는 아직 열리지 않았습니다.<br>
+      고객 지원: <a href="mailto:support@daddymi777.com">support@daddymi777.com</a> · © 2026 米老爸 Daddy Mi. All rights reserved.
+    <div style="margin-top:10px;"><a class="homelink" href="https://daddymi777.com/" style="font-size:12.5px;color:inherit;opacity:.72;">홈 · Home</a></div></footer>
 
   </div>
 
