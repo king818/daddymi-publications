@@ -399,6 +399,9 @@ def main():
   .langbar button { font:inherit; font-size:13px; padding:4px 13px; border-radius:999px; cursor:pointer; background:transparent; color:#cdbf9f; border:1px solid #2c3c5f; }
   .langbar button.active { background:#C9A764; color:#0B1220; border-color:#C9A764; font-weight:700; }
   .langbar a.langlink { font-size:13px; padding:4px 13px; border-radius:999px; color:#cdbf9f; border:1px solid #2c3c5f; text-decoration:none; }
+  .langbar { flex-wrap:wrap; }
+  .langbar button, .langbar a.langlink { white-space:nowrap; flex:none; }
+  @media (max-width:560px) { .langbar { gap:5px; } .langbar button, .langbar a.langlink { font-size:12px; padding:4px 9px; } .langbar .langsep { display:none; } }
   .langsep { color:#5b6675; font-size:13px; }
   .counts { display:flex; flex-wrap:wrap; gap:8px; margin-top:12px; }
   .chip { background:#16213a; border:1px solid #2c3c5f; border-radius:999px; padding:4px 10px; font-size:12.5px; }
@@ -437,6 +440,7 @@ def main():
 <link rel="icon" type="image/png" sizes="32x32" href="brand/favicon-32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="brand/favicon-16.png">
   <link rel="apple-touch-icon" sizes="180x180" href="brand/apple-touch-icon.png">
+<style>.homelink{text-decoration:none}.homelink:hover{text-decoration:underline}</style>
 </head>
 <body>
 <header>
@@ -471,7 +475,7 @@ def main():
   <div id="list"></div>
   __UNV_HTML__
 </main>
-<footer class="sitefoot"><div class="brandmark" style="text-align:center;margin:0 0 8px;"><img src="brand/mark-transparent.png" alt="Daddy Mi" style="height:28px;width:auto;"></div><span data-ui="csLabel">Customer service: </span><a href="mailto:support@daddymi777.com">support@daddymi777.com</a> · <span data-ui="copyright">© 2026 Daddy Mi. All rights reserved.</span></footer>
+<footer class="sitefoot"><div class="brandmark" style="text-align:center;margin:0 0 8px;"><a href="https://daddymi777.com/" aria-label="回首页 Home"><img src="brand/mark-transparent.png" alt="Daddy Mi" style="height:28px;width:auto;"></a></div><span data-ui="csLabel">Customer service: </span><a href="mailto:support@daddymi777.com">support@daddymi777.com</a> · <span data-ui="copyright">© 2026 Daddy Mi. All rights reserved.</span><div style="margin-top:8px;"><a class="homelink" href="https://daddymi777.com/" style="font-size:12.5px;color:inherit;opacity:.72;">回首页 · Home</a></div></footer>
 <script>
 const PUBS = __PUBS_JSON__;
 const PRIV = __PRIV_JSON__;
