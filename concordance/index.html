@@ -121,10 +121,20 @@
 <link rel="icon" type="image/png" sizes="16x16" href="../brand/favicon-16.png">
 <link rel="apple-touch-icon" sizes="180x180" href="../brand/apple-touch-icon.png">
 <style>.homelink{text-decoration:none}.homelink:hover{text-decoration:underline}.langbar a.langlink{font-size:14.5px;padding:5px 14px;border-radius:999px;color:var(--muted);border:1px solid var(--line);text-decoration:none}</style>
+<style>
+/*topnav-2026-11-10: top mini-nav - back link (left) beside the language switcher (right)*/
+.topnav{display:flex;flex-wrap:wrap;align-items:center;gap:8px;padding-top:18px}
+.topnav .langbar{padding-top:0;margin-left:auto}
+.topback{display:inline-block;font-size:13.5px;line-height:1.5;padding:5px 13px;border-radius:999px;color:var(--muted);border:1px solid var(--line);background:var(--card);text-decoration:none;white-space:nowrap}
+.topback:hover{color:var(--accent-dark);border-color:var(--accent)}
+@media (max-width:560px){.topback{font-size:12.5px;padding:4px 10px}}
+</style>
 </head>
 <body>
 <div class="wrap">
 
+  <div class="topnav">
+    <a class="topback" href="https://daddymi777.com/"><span class="view-zh">← 回首页</span><span class="view-zh-hant">← 回首頁</span><span class="view-en">← Home</span></a>
   <div class="langbar" role="group" aria-label="Language">
     <button type="button" id="btn-zh-hans" onclick="gwSetLang('zh-hans')">简体</button>
     <span class="langsep">|</span>
@@ -135,6 +145,7 @@
     <a class="langlink" href="https://daddymi777.com/ja/">日本語</a>
     <span class="langsep">|</span>
     <a class="langlink" href="https://daddymi777.com/ko/">한국어</a>
+  </div>
   </div>
 
   <!-- ================= 简体中文视图 ================= -->
