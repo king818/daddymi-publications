@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta property="og:type" content="website">
+<meta property="og:title" content="《灯下擂茶》谢谢你，妈妈 — 米曦 Mi Xi">
+<meta property="og:description" content="一首写给妈妈的歌。365 天的饭菜，一生的守候 — 孩子们都看见了，都记得。｜试听版 PREVIEW · Available in English, Traditional Chinese, Simplified Chinese, Japanese and Korean.">
+<meta property="og:url" content="https://daddymi777.com/music/mx005/v4/">
+<meta property="og:image" content="https://daddymi777.com/music/mx005/v3/cover.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="《灯下擂茶》谢谢你，妈妈 — 米曦 Mi Xi">
+<meta name="twitter:description" content="一首写给妈妈的歌。365 天的饭菜，一生的守候 — 孩子们都看见了，都记得。｜试听版 PREVIEW · Available in English, Traditional Chinese, Simplified Chinese, Japanese and Korean.">
+<meta name="twitter:image" content="https://daddymi777.com/music/mx005/v3/cover.jpg">
+<title>《灯下擂茶》谢谢你，妈妈 — 试听版｜米曦 Mi Xi</title>
+<link rel="icon" type="image/png" sizes="32x32" href="/brand/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/brand/favicon-16.png">
+<link rel="apple-touch-icon" href="/brand/apple-touch-icon.png">
+<style>
+  :root{
+    --ink:#503339; --ink-soft:#7a5560; --rose:#b4526b; --rose-deep:#96435a;
+    --gold:#c9a24b; --paper:#fff9f4; --card:rgba(255,255,255,.66);
+  }
+  *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:"Songti SC","STSong","Noto Serif SC","Noto Serif CJK SC",serif;
+    color:var(--ink);
+    background:
+      radial-gradient(120% 60% at 50% -6%, #ffe9df 0%, rgba(255,233,223,0) 55%),
+      radial-gradient(90% 45% at 88% 22%, rgba(255,205,190,.5) 0%, rgba(255,205,190,0) 60%),
+      linear-gradient(180deg,#fdf1ec 0%,#fbe7e0 34%,#f9ded6 68%,#f6d5cc 100%);
+    min-height:100vh;
+  }
+  /* ————— diagonal preview watermark ————— */
+  .wm{position:fixed;inset:-40%;z-index:60;pointer-events:none;overflow:hidden;
+      transform:rotate(-24deg);display:flex;flex-wrap:wrap;align-content:flex-start}
+  .wm span{font-size:44px;letter-spacing:.35em;color:rgba(150,67,90,.075);
+           padding:64px 30px;white-space:nowrap;font-weight:600}
+  .brandmark{text-align:center;margin:0 0 6px}
+  .brandmark img{width:68px;height:68px}
+  .footmark{text-align:center;margin:0 0 10px}
+  .footmark img{width:46px;height:46px}
+  .wrap{max-width:640px;margin:0 auto;padding:34px 22px 30px;position:relative;z-index:1}
+  /* ————— hero ————— */
+  .hero{text-align:center;padding:8px 0 4px}
+  .hero svg{width:min(300px,76vw);height:auto;filter:drop-shadow(0 10px 24px rgba(180,82,107,.16))}
+  .pill{display:inline-block;margin-top:14px;padding:5px 16px;border:1.5px solid var(--rose);
+        color:var(--rose-deep);border-radius:999px;font-size:13.5px;letter-spacing:.28em;
+        background:rgba(255,255,255,.55)}
+  h1{font-size:41px;letter-spacing:.14em;font-weight:600;margin-top:16px;color:#5b2f3a}
+  .subtitle{margin-top:9px;font-size:18.5px;letter-spacing:.34em;color:var(--rose-deep)}
+  .singer{margin-top:7px;font-size:13.5px;letter-spacing:.3em;color:var(--ink-soft)}
+  .story{margin:24px auto 4px;max-width:520px;font-size:15.5px;line-height:2.05;
+         color:#63444c;text-align:center}
+  .story b{color:var(--rose-deep);font-weight:600}
+  .rule{width:64px;height:2px;background:linear-gradient(90deg,transparent,var(--gold),transparent);
+        margin:22px auto 0;border-radius:2px}
+  /* ————— player ————— */
+  .player{position:sticky;top:10px;z-index:40;margin:26px auto 6px;max-width:560px;
+          background:var(--card);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
+          border:1px solid rgba(255,255,255,.85);border-radius:22px;
+          box-shadow:0 14px 34px rgba(150,67,90,.16);padding:16px 18px 13px}
+  .prow{display:flex;align-items:center;gap:15px}
+  #playBtn{flex:0 0 auto;width:58px;height:58px;border-radius:50%;border:none;cursor:pointer;
+    background:radial-gradient(circle at 32% 28%, #d97b93, var(--rose) 58%, var(--rose-deep));
+    box-shadow:0 8px 20px rgba(180,82,107,.42), inset 0 1.5px 2px rgba(255,255,255,.55);
+    display:flex;align-items:center;justify-content:center;transition:transform .15s}
+  #playBtn:active{transform:scale(.94)}
+  #playBtn svg{width:24px;height:24px;fill:#fff}
+  .ptrack{flex:1}
+  .pbar{height:6px;border-radius:3px;background:rgba(180,82,107,.18);cursor:pointer;position:relative}
+  #pfill{height:100%;width:0%;border-radius:3px;background:linear-gradient(90deg,#d98aa0,var(--rose));position:relative}
+  #pfill::after{content:"";position:absolute;right:-6px;top:50%;transform:translateY(-50%);
+    width:12px;height:12px;border-radius:50%;background:#fff;border:2px solid var(--rose);
+    box-shadow:0 1px 5px rgba(150,67,90,.4)}
+  .ptime{display:flex;justify-content:space-between;font-size:12px;color:var(--ink-soft);
+         margin-top:7px;letter-spacing:.12em;font-family:ui-monospace,Menlo,monospace}
+  .phint{text-align:center;font-size:12.5px;color:var(--ink-soft);letter-spacing:.22em;margin-top:9px}
+  /* ————— lyrics ————— */
+  .lyrics{max-width:560px;margin:14px auto 0;padding:6px 4px 10px}
+  .sec{text-align:center;font-size:12.5px;letter-spacing:.5em;color:var(--gold);
+       margin:30px 0 10px;font-weight:600}
+  .sec:first-child{margin-top:8px}
+  .line{font-size:18.5px;line-height:1.5;padding:7px 12px;margin:2px 0;border-radius:12px;
+        text-align:center;color:#8a6a72;cursor:pointer;transition:all .45s ease}
+  .line.active{color:#7c2438;font-size:21.5px;font-weight:600;
+        background:linear-gradient(90deg,rgba(255,255,255,0),rgba(255,255,255,.75),rgba(255,255,255,0));
+        text-shadow:0 1px 10px rgba(255,190,170,.65)}
+  .line.done{color:#6d4a54}
+  /* ————— making-of notes ————— */
+  .notes{max-width:560px;margin:38px auto 4px;background:var(--card);
+         backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
+         border:1px solid rgba(255,255,255,.85);border-radius:22px;
+         box-shadow:0 14px 34px rgba(150,67,90,.13);padding:26px 26px 20px}
+  .notes h2{text-align:center;font-size:19px;letter-spacing:.5em;font-weight:600;color:#5b2f3a}
+  .notes .nrule{width:52px;height:2px;background:linear-gradient(90deg,transparent,var(--gold),transparent);
+         margin:13px auto 16px;border-radius:2px}
+  .notes p{font-size:14.5px;line-height:2.0;color:#63444c;margin-bottom:11px;text-align:justify}
+  .notes p b{color:var(--rose-deep);font-weight:600}
+  .credits{margin-top:15px;padding-top:13px;border-top:1px solid rgba(180,82,107,.22);
+         text-align:center;font-size:12.5px;line-height:2.0;letter-spacing:.14em;color:var(--ink-soft)}
+  /* ————— footer ————— */
+  footer{text-align:center;padding:34px 20px 40px;color:var(--ink-soft);position:relative;z-index:1}
+  .disclosure{font-size:12px;line-height:1.9;letter-spacing:.06em;max-width:520px;margin:0 auto}
+  .home{display:inline-block;margin-top:16px;color:var(--rose-deep);text-decoration:none;
+        font-size:14px;letter-spacing:.24em;border-bottom:1px solid rgba(180,82,107,.4);padding-bottom:2px}
+  .copy{margin-top:14px;font-size:12.5px;letter-spacing:.18em}
+</style>
+</head>
+<body>
+<div class="wm" id="wm"></div>
+<div class="wrap">
+  <div class="brandmark"><a href="https://daddymi777.com/" aria-label="米老爸 Daddy Mi — 回到首页"><img src="/brand/mark-transparent.png" alt="米老爸 Daddy Mi"></a></div>
+  <div class="hero">
+    <svg viewBox="0 0 320 190" role="img" aria-label="灯下擂茶">
+      <defs>
+        <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+          <stop offset="0%" stop-color="#ffd9a8" stop-opacity=".95"/>
+          <stop offset="55%" stop-color="#ffc98f" stop-opacity=".45"/>
+          <stop offset="100%" stop-color="#ffc98f" stop-opacity="0"/>
+        </radialGradient>
+        <linearGradient id="tea" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#d9b06a"/><stop offset="100%" stop-color="#b98a3e"/>
+        </linearGradient>
+      </defs>
+      <circle cx="160" cy="62" r="58" fill="url(#glow)"/>
+      <line x1="160" y1="0" x2="160" y2="22" stroke="#96435a" stroke-width="1.6" opacity=".55"/>
+      <path d="M146 22 h28 l-5 14 a9 9 0 0 1 -18 0 z" fill="#b4526b"/>
+      <circle cx="160" cy="46" r="7.5" fill="#ffca7a"/>
+      <circle cx="160" cy="46" r="15" fill="#ffb35c" opacity=".35"/>
+      <ellipse cx="160" cy="152" rx="118" ry="10" fill="#e9b8a6" opacity=".55"/>
+      <path d="M110 128 q50 20 100 0 l-7 22 a10 10 0 0 1 -10 7 h-66 a10 10 0 0 1 -10 -7 z" fill="#a04a61"/>
+      <path d="M110 128 q50 20 100 0 q-50 12 -100 0z" fill="#7e3648"/>
+      <ellipse cx="160" cy="129.5" rx="49" ry="7.5" fill="url(#tea)"/>
+      <path d="M146 116 q4 -10 0 -19 M160 118 q5 -12 0 -23 M174 116 q4 -10 0 -19" stroke="#d98aa0" stroke-width="2.4" fill="none" stroke-linecap="round" opacity=".65"/>
+      <g fill="#c9a24b"><circle cx="138" cy="127" r="1.8"/><circle cx="150" cy="131" r="1.8"/><circle cx="164" cy="128" r="1.8"/><circle cx="178" cy="131" r="1.8"/></g>
+      <g stroke="#8a5a3b" stroke-width="2" stroke-linecap="round" opacity=".8">
+        <line x1="212" y1="146" x2="228" y2="120"/><line x1="220" y1="150" x2="236" y2="124"/>
+      </g>
+    </svg>
+    <div><span class="pill">试 听 版 · 非 最 终 版</span></div>
+    <div style="margin-top:9px;font-size:12.5px;letter-spacing:.26em;color:var(--ink-soft)">试听版 · Take 4 · 2026-11-10</div>
+    <h1>灯下擂茶</h1>
+    <div class="subtitle">谢谢你，妈妈</div>
+    <div class="singer">米 曦 &nbsp;M i &nbsp;X i</div>
+    <p class="story">一位妈妈，用一生的饭菜爱着家人——从清晨的灶台，到每晚丰盛的晚餐；那碗亲手擂的擂茶里，藏着说不出口的爱。<br>如今她病了，孩子们守在床边，只想亲口对她说：<b>谢谢你，妈妈。你做过的一切，我们都看见了，都记得。别担心，家里有我在。</b></p>
+    <div class="rule"></div>
+  </div>
+
+  <div class="player">
+    <div class="prow">
+      <button id="playBtn" aria-label="播放 / 暂停">
+        <svg id="icoPlay" viewBox="0 0 24 24"><path d="M8 5.5v13l11-6.5z"/></svg>
+        <svg id="icoPause" viewBox="0 0 24 24" style="display:none"><path d="M7 5h3.6v14H7zM13.4 5H17v14h-3.6z"/></svg>
+      </button>
+      <div class="ptrack">
+        <div class="pbar" id="pbar"><div id="pfill"></div></div>
+        <div class="ptime"><span id="tCur">0:00</span><span id="tDur">4:29</span></div>
+      </div>
+    </div>
+    <div class="phint">点 播 放 · 歌 词 会 跟 着 唱 亮 起</div>
+  </div>
+
+  <div class="lyrics" id="lyrics">
+<div class="sec">引子</div>
+<div class="line" data-t="13.32">今晚我坐在你的床边</div>
+<div class="line" data-t="16.5">轻轻握着你的手</div>
+<div class="line" data-t="20.0">有些话，平日没说</div>
+<div class="line" data-t="23.08">今夜想慢慢说给你听</div>
+<div class="sec">主歌一</div>
+<div class="line" data-t="27.02">记得清晨灶台的热气</div>
+<div class="line" data-t="30.2">记得中午满屋的饭香</div>
+<div class="line" data-t="33.2">你为小女儿剪过头发</div>
+<div class="line" data-t="36.84">又给她穿上漂亮衣裳</div>
+<div class="sec">主歌二 · 擂茶</div>
+<div class="line" data-t="41.3">你亲手擂的那碗茶</div>
+<div class="line" data-t="43.54">花生芝麻，慢慢擂香</div>
+<div class="line" data-t="46.56">茶汤拌着饭，配着青菜</div>
+<div class="line" data-t="49.98">夜里还有满桌的饭菜</div>
+<div class="sec">副歌一</div>
+<div class="line" data-t="54.22">谢谢你，妈妈，谢谢你的爱</div>
+<div class="line" data-t="57.94">谢谢你为这个家忙了半生</div>
+<div class="line" data-t="67.26">妈妈，你做过的一切</div>
+<div class="line" data-t="70.36">我们都看见了，都记得</div>
+<div class="line" data-t="73.96">有光陪你到天明</div>
+<div class="line" data-t="76.2">像那盏厨房里的灯</div>
+<div class="line" data-t="80.36">你用一生温暖了这个家</div>
+<div class="line" data-t="83.54">今晚换我们陪你到天明</div>
+<div class="sec">主歌三</div>
+<div class="line" data-t="106.7">快六十岁的你</div>
+<div class="line" data-t="109.44">背影比从前圆了一些</div>
+<div class="line" data-t="112.96">想起你年轻时的模样</div>
+<div class="line" data-t="116.44">心里满是不舍和感恩</div>
+<div class="line" data-t="119.34">从前你为我们穿好衣裳</div>
+<div class="line" data-t="123.04">如今女儿替你掖好被角</div>
+<div class="line" data-t="126.4">你问过多少回饿不饿</div>
+<div class="line" data-t="129.78">今天换我们问你累不累</div>
+<div class="sec">副歌二</div>
+<div class="line" data-t="134.42">谢谢你，妈妈，谢谢你的爱</div>
+<div class="line" data-t="137.9">谢谢你每天忙到天黑</div>
+<div class="line" data-t="141.28">一碗擂茶，一桌晚饭</div>
+<div class="line" data-t="143.66">藏着多少没说出口的爱</div>
+<div class="line" data-t="146.78">有光陪你到天明</div>
+<div class="line" data-t="150.22">有爱守在你的身边</div>
+<div class="line" data-t="154.24">我们为你轻轻祈祷</div>
+<div class="line" data-t="157.14">愿平安陪你度过今夜</div>
+<div class="sec">桥段</div>
+<div class="line" data-t="173.88">亲爱的，你也歇一歇</div>
+<div class="line" data-t="176.7">不用时时都那么坚强</div>
+<div class="line" data-t="179.82">从前是你替我们挡风雨</div>
+<div class="line" data-t="183.08">往后的日子，换我站在前面</div>
+<div class="line" data-t="186.68">我们不知道明天会怎样</div>
+<div class="line" data-t="190.1">但这份感恩，永远不会改变</div>
+<div class="line" data-t="193.94">愿天父的手扶持着你</div>
+<div class="line" data-t="196.64">也扶持那守候的肩膀</div>
+<div class="sec">尾副歌</div>
+<div class="line" data-t="214.0">谢谢你，妈妈，谢谢你的爱</div>
+<div class="line" data-t="217.92">谢谢你把岁月都给了这个家</div>
+<div class="line" data-t="221.26">那碗擂茶，那桌晚餐</div>
+<div class="line" data-t="223.7">我们都看见了，一生都记得</div>
+<div class="line" data-t="227.0">有光陪你到天明</div>
+<div class="line" data-t="230.2">如今换我们守在你身边</div>
+<div class="line" data-t="234.2">你安心歇着，家里的事有我</div>
+<div class="line" data-t="237.5">无论明天怎样，我都陪着你</div>
+<div class="sec">尾声</div>
+<div class="line" data-t="243.86">妈妈，谢谢你</div>
+<div class="line" data-t="249.98">你给我们的爱，我们永远记得</div>
+  </div>
+
+  <section class="notes">
+    <h2>制作手记</h2>
+    <div class="nrule"></div>
+    <p>这首歌，是为一位病中的妈妈写的。故事是真的：她用一生的饭菜爱着家人——一年三百六十五天，从清晨的灶台到每晚丰盛的晚餐，从不间断；那碗亲手擂的擂茶，花生芝麻慢慢擂出香；满桌人吃完，她才最后坐下来吃。</p>
+    <p>如今她病了。她的故事被一遍一遍讲起，直到讲的人先红了眼眶——<b>先有这个故事，才有这首歌。</b></p>
+    <p>歌词前后改了<b>八稿</b>，录了<b>四个版本</b>。您现在听到的，是第四个版本——开头半念半唱，像念一封侨批，慢慢念进歌里；唱到最后，又回到轻轻的念白，把话说完。这一版，钢琴也明确地回来了，贴着人声。我们还在继续打磨，直到它成为最终的那一首。</p>
+    <div class="credits">监制 米老爸 Daddy Mi<br>作词 团队协作（Junxi 与 Bowen 参订）<br>演唱 米曦 Mi Xi · 制作 Amani 团队</div>
+  </section>
+</div>
+
+<footer>
+  <div class="footmark"><a href="https://daddymi777.com/" aria-label="米老爸 Daddy Mi — 回到首页"><img src="/brand/mark-transparent.png" alt="米老爸 Daddy Mi"></a></div>
+  <p class="disclosure">本歌曲由 Gospel Wisdom 团队原创策划与撰词，音乐及演唱使用 AI 辅助生成。<br>这是一首献给妈妈的感恩节歌曲 · 试听版，尚未正式发行。</p>
+  <a class="home" href="../">全 部 版 本 · 版 本 索 引</a><br>
+  <a class="home" href="https://daddymi777.com/">回 到 首 页</a>
+  <p class="copy">© 2026 米老爸 Daddy Mi</p>
+</footer>
+
+<audio id="audio" src="song.mp3" preload="metadata"></audio>
+<script>
+  // watermark tiles
+  (function(){var wm=document.getElementById('wm'),s='';
+    for(var i=0;i<28;i++){s+='<span>试听版 PREVIEW</span>';} wm.innerHTML=s;})();
+
+  var LYRICS = [{"t": 13.32, "x": "今晚我坐在你的床边"}, {"t": 16.5, "x": "轻轻握着你的手"}, {"t": 20.0, "x": "有些话，平日没说"}, {"t": 23.08, "x": "今夜想慢慢说给你听"}, {"t": 27.02, "x": "记得清晨灶台的热气"}, {"t": 30.2, "x": "记得中午满屋的饭香"}, {"t": 33.2, "x": "你为小女儿剪过头发"}, {"t": 36.84, "x": "又给她穿上漂亮衣裳"}, {"t": 41.3, "x": "你亲手擂的那碗茶"}, {"t": 43.54, "x": "花生芝麻，慢慢擂香"}, {"t": 46.56, "x": "茶汤拌着饭，配着青菜"}, {"t": 49.98, "x": "夜里还有满桌的饭菜"}, {"t": 54.22, "x": "谢谢你，妈妈，谢谢你的爱"}, {"t": 57.94, "x": "谢谢你为这个家忙了半生"}, {"t": 67.26, "x": "妈妈，你做过的一切"}, {"t": 70.36, "x": "我们都看见了，都记得"}, {"t": 73.96, "x": "有光陪你到天明"}, {"t": 76.2, "x": "像那盏厨房里的灯"}, {"t": 80.36, "x": "你用一生温暖了这个家"}, {"t": 83.54, "x": "今晚换我们陪你到天明"}, {"t": 106.7, "x": "快六十岁的你"}, {"t": 109.44, "x": "背影比从前圆了一些"}, {"t": 112.96, "x": "想起你年轻时的模样"}, {"t": 116.44, "x": "心里满是不舍和感恩"}, {"t": 119.34, "x": "从前你为我们穿好衣裳"}, {"t": 123.04, "x": "如今女儿替你掖好被角"}, {"t": 126.4, "x": "你问过多少回饿不饿"}, {"t": 129.78, "x": "今天换我们问你累不累"}, {"t": 134.42, "x": "谢谢你，妈妈，谢谢你的爱"}, {"t": 137.9, "x": "谢谢你每天忙到天黑"}, {"t": 141.28, "x": "一碗擂茶，一桌晚饭"}, {"t": 143.66, "x": "藏着多少没说出口的爱"}, {"t": 146.78, "x": "有光陪你到天明"}, {"t": 150.22, "x": "有爱守在你的身边"}, {"t": 154.24, "x": "我们为你轻轻祈祷"}, {"t": 157.14, "x": "愿平安陪你度过今夜"}, {"t": 173.88, "x": "亲爱的，你也歇一歇"}, {"t": 176.7, "x": "不用时时都那么坚强"}, {"t": 179.82, "x": "从前是你替我们挡风雨"}, {"t": 183.08, "x": "往后的日子，换我站在前面"}, {"t": 186.68, "x": "我们不知道明天会怎样"}, {"t": 190.1, "x": "但这份感恩，永远不会改变"}, {"t": 193.94, "x": "愿天父的手扶持着你"}, {"t": 196.64, "x": "也扶持那守候的肩膀"}, {"t": 214.0, "x": "谢谢你，妈妈，谢谢你的爱"}, {"t": 217.92, "x": "谢谢你把岁月都给了这个家"}, {"t": 221.26, "x": "那碗擂茶，那桌晚餐"}, {"t": 223.7, "x": "我们都看见了，一生都记得"}, {"t": 227.0, "x": "有光陪你到天明"}, {"t": 230.2, "x": "如今换我们守在你身边"}, {"t": 234.2, "x": "你安心歇着，家里的事有我"}, {"t": 237.5, "x": "无论明天怎样，我都陪着你"}, {"t": 243.86, "x": "妈妈，谢谢你"}, {"t": 249.98, "x": "你给我们的爱，我们永远记得"}];
+  var audio = document.getElementById('audio');
+  var playBtn = document.getElementById('playBtn');
+  var icoPlay = document.getElementById('icoPlay'), icoPause = document.getElementById('icoPause');
+  var pfill = document.getElementById('pfill'), pbar = document.getElementById('pbar');
+  var tCur = document.getElementById('tCur'), tDur = document.getElementById('tDur');
+  var lineEls = Array.prototype.slice.call(document.querySelectorAll('.line'));
+  var cur = -1, lastScroll = 0;
+
+  function fmt(s){s=Math.max(0,Math.floor(s));return Math.floor(s/60)+':'+('0'+(s%60)).slice(-2);}
+  audio.addEventListener('loadedmetadata', function(){ tDur.textContent = fmt(audio.duration); });
+
+  function setIcon(){ var p = !audio.paused; icoPlay.style.display = p?'none':'block'; icoPause.style.display = p?'block':'none'; }
+  playBtn.addEventListener('click', function(){ if(audio.paused){audio.play();}else{audio.pause();} });
+  audio.addEventListener('play', setIcon); audio.addEventListener('pause', setIcon);
+  audio.addEventListener('ended', function(){ setIcon(); });
+
+  pbar.addEventListener('click', function(e){
+    var r = pbar.getBoundingClientRect();
+    var x = (e.touches ? e.touches[0].clientX : e.clientX);
+    audio.currentTime = audio.duration * Math.min(1, Math.max(0, (x - r.left) / r.width));
+  });
+
+  lineEls.forEach(function(el, i){
+    el.addEventListener('click', function(){ audio.currentTime = LYRICS[i].t + 0.05; audio.play(); });
+  });
+
+  audio.addEventListener('timeupdate', function(){
+    var t = audio.currentTime;
+    if(audio.duration){ pfill.style.width = (100 * t / audio.duration) + '%'; }
+    tCur.textContent = fmt(t);
+    var idx = -1;
+    for(var i = 0; i < LYRICS.length; i++){ if(t >= LYRICS[i].t) idx = i; else break; }
+    if(idx !== cur){
+      if(cur >= 0 && lineEls[cur]){ lineEls[cur].classList.remove('active'); lineEls[cur].classList.add('done'); }
+      cur = idx;
+      if(cur >= 0 && lineEls[cur]){
+        lineEls[cur].classList.add('active'); lineEls[cur].classList.remove('done');
+        var now = Date.now();
+        if(!audio.paused && now - lastScroll > 350){
+          lastScroll = now;
+          lineEls[cur].scrollIntoView({block:'center', behavior:'smooth'});
+        }
+      }
+    }
+  });
+</script>
+</body>
+</html>
