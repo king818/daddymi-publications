@@ -20,17 +20,19 @@
 
 <script>
 (function () {
-  var HTML_LANG = { 'zh-hans': 'zh-Hans', 'zh-hant': 'zh-Hant', 'en': 'en' };
+  var HTML_LANG = { 'zh-hans': 'zh-Hans', 'zh-hant': 'zh-Hant', 'en': 'en', 'ja': 'ja', 'ko': 'ko' };
   function detect() {
     var saved = null;
     try { saved = localStorage.getItem('gw-lang'); } catch (e) {}
     if (saved === 'zh') { return 'zh-hans'; }
-    if (saved === 'zh-hans' || saved === 'zh-hant' || saved === 'en') { return saved; }
+    if (saved === 'zh-hans' || saved === 'zh-hant' || saved === 'en' || saved === 'ja' || saved === 'ko') { return saved; }
     var langs = (navigator.languages && navigator.languages.length) ? navigator.languages : [navigator.language || 'en'];
     for (var i = 0; i < langs.length; i++) {
       var L = String(langs[i]).toLowerCase();
       if (/^zh-hant/.test(L) || /^zh-tw/.test(L) || /^zh-hk/.test(L) || /^zh-mo/.test(L)) { return 'zh-hant'; }
       if (/^zh/.test(L)) { return 'zh-hans'; }
+      if (/^ja/.test(L)) { return 'ja'; }
+      if (/^ko/.test(L)) { return 'ko'; }
     }
     return 'en';
   }
@@ -39,7 +41,7 @@
   document.documentElement.setAttribute('lang', HTML_LANG[lang]);
   window.gwSyncButtons = function () {
     var cur = document.documentElement.getAttribute('data-lang');
-    var map = { 'btn-zh-hans': 'zh-hans', 'btn-zh-hant': 'zh-hant', 'btn-en': 'en' };
+    var map = { 'btn-zh-hans': 'zh-hans', 'btn-zh-hant': 'zh-hant', 'btn-en': 'en', 'btn-ja': 'ja', 'btn-ko': 'ko' };
     for (var id in map) {
       var b = document.getElementById(id);
       if (b) { var on = cur === map[id]; b.classList.toggle('active', on); b.setAttribute('aria-pressed', on ? 'true' : 'false'); }
@@ -70,10 +72,14 @@
   }
   html[data-lang="en"] body{font-family:Georgia,"Times New Roman","Noto Serif SC",serif;}
   html[data-lang="zh-hant"] body{font-family:"Noto Serif TC","Songti TC","PMingLiU","Noto Serif SC",Georgia,serif;}
+  html[data-lang="ja"] body{font-family:"Hiragino Mincho ProN","Hiragino Mincho Pro","Yu Mincho","YuMincho","Noto Serif JP",Georgia,serif;}
+  html[data-lang="ko"] body{font-family:"Noto Serif KR","Nanum Myeongjo","Batang",Georgia,serif;}
 
-  html[data-lang="zh-hans"] .view-zh-hant, html[data-lang="zh-hans"] .view-en{display:none;}
-  html[data-lang="zh-hant"] .view-zh, html[data-lang="zh-hant"] .view-en{display:none;}
-  html[data-lang="en"] .view-zh, html[data-lang="en"] .view-zh-hant{display:none;}
+  html[data-lang="zh-hans"] .view-zh-hant, html[data-lang="zh-hans"] .view-en, html[data-lang="zh-hans"] .view-ja, html[data-lang="zh-hans"] .view-ko{display:none;}
+  html[data-lang="zh-hant"] .view-zh, html[data-lang="zh-hant"] .view-en, html[data-lang="zh-hant"] .view-ja, html[data-lang="zh-hant"] .view-ko{display:none;}
+  html[data-lang="en"] .view-zh, html[data-lang="en"] .view-zh-hant, html[data-lang="en"] .view-ja, html[data-lang="en"] .view-ko{display:none;}
+  html[data-lang="ja"] .view-zh, html[data-lang="ja"] .view-zh-hant, html[data-lang="ja"] .view-en, html[data-lang="ja"] .view-ko{display:none;}
+  html[data-lang="ko"] .view-zh, html[data-lang="ko"] .view-zh-hant, html[data-lang="ko"] .view-en, html[data-lang="ko"] .view-ja{display:none;}
   .wrap{max-width:760px; margin:0 auto; padding:0 20px 64px;}
   .langbar{display:flex; justify-content:flex-end; align-items:center; gap:8px; padding-top:18px;}
   .langbar button{
@@ -162,9 +168,9 @@
     <span class="langsep">|</span>
     <button type="button" id="btn-en" onclick="gwSetLang('en')">English</button>
     <span class="langsep">|</span>
-    <a class="langlink" href="https://daddymi777.com/ja/">日本語</a>
+    <button type="button" id="btn-ja" onclick="gwSetLang('ja')">日本語</button>
     <span class="langsep">|</span>
-    <a class="langlink" href="https://daddymi777.com/ko/">한국어</a>
+    <button type="button" id="btn-ko" onclick="gwSetLang('ko')">한국어</button>
   </div>
 
   <div class="viewpane view-zh" lang="zh-Hans">
@@ -407,6 +413,167 @@
       Customer service: <a href="mailto:support@daddymi777.com">support@daddymi777.com</a> · © 2026 Daddy Mi<br>
       <span class="fineprint">Mi Xi is a fictional AI vocalist created by Daddy Mi, not a human recording artist. Music and vocals are AI-generated with creative direction from the Daddy Mi team.</span>
     <div style="margin-top:10px;"><a class="homelink" href="https://daddymi777.com/" style="font-size:12.5px;color:inherit;opacity:.72;">Home</a></div></footer>
+  </div>
+
+  <!-- i18n: JA/KO draft by Amani team, pending GPT cross-check -->
+  <div class="viewpane view-ja" lang="ja">
+    <header>
+      <div class="kicker">米老爸 Daddy Mi · Gospel Wisdom 音楽</div>
+      <h1>米曦 Mi Xi
+        <span class="sub">AIバーチャル歌手 · Gospel Wisdom の歌声</span>
+      </h1>
+      <p class="tagline">温かく真摯な歌声で、神の言葉の中で平安と希望と新しさを見つける人々に寄り添います。</p>
+      <div class="mtvframe"><img src="mixi-look01-hero.jpg" alt="米曦、真珠色のアイボリーのハイネックニットトップスとライムブラウンのAライン・ミディスカートを着用、四つ葉のクローバーのペンダント"><div class="soon">🎬 最初の MTV が公開されました：第3曲『換我們為妳點燈』——残りの曲の MTV も一曲ずつ制作中です。</div></div>
+    </header>
+    <section>
+      <h2></h2>
+      <h2>米曦について · Mi Xi</h2>
+    <p>米曦（Mi Xi）は Daddy Mi 傘下のAIバーチャル女性歌手であり、Gospel Wisdom 音楽シリーズの歌声の姿です。</p>
+    <p>その名は、朝の最初の光に由来します。彼女の音楽は穏やかで静かです。忙しい日々の中で人々が足を止め、聖書をもう一度開き、神の言葉に思いを向け、信仰と愛と行動をもって新しい一日を迎える、その傍らに寄り添います。</p>
+    <p>中国語テーマソング『在你话语里，天亮了』と、独立した作品として作られた英語テーマソング「A Little More Like Light」を歌っています。また、感謝のシングル『換我們為妳點燈』と、誕生日の祝福ソング『愿你心里有光』も歌っています。</p>
+    <p>米曦は Daddy Mi の創作チームが生み出したバーチャル音楽キャラクターであり、実在の歌手ではありません。音楽と歌唱はAI技術の支援を受けて生成され、チームが創作の方向性、内容の審査、制作管理を担っています。</p>
+    <p>一曲一曲が、神の言葉へ静かに近づく招きとなりますように。</p>
+      <div class="gallery">
+        <figure><img src="mixi-front.jpg" alt="Mi Xi" loading="lazy"><figcaption>米曦 · 正面の定番ポートレート</figcaption></figure>
+        <figure><img src="mixi-three-quarter.jpg" alt="Mi Xi" loading="lazy"><figcaption>米曦 · 側顔</figcaption></figure>
+        <figure><img src="mixi-profile.jpg" alt="Mi Xi" loading="lazy"><figcaption>米曦 · 横顔のシルエット</figcaption></figure>
+        <figure><img src="mixi-halfbody.jpg" alt="Mi Xi" loading="lazy"><figcaption>米曦 · 朝の光の窓辺</figcaption></figure>
+      </div>
+    </section>
+    <section>
+      <h2></h2>
+      <h2>米曦の物語 · 連載中</h2>
+    <p>米曦の物語は、書き終えられた伝記ではありません——一曲一曲と共に、ゆっくりと展開していきます。</p>
+    <p>彼女の名前には「曦」という字があります。朝の最初の光です。舞台の眩しいスポットライトではなく、夜明けに部屋へ差し込み、新しい始まりを可能に感じさせる光。それが、彼女のすべての歌の出発点です。</p>
+    <p>彼女の音楽世界には、繰り返し現れる三つの場所があります。朝の光の中の窓辺——聖書を開き、静かに祈る場所。海辺——広々とした水面を前に、心のざわめきが静まっていく場所。そして書斎とピアノのそば——小声で歌い、ゆっくり読むための片隅。新しい歌のたびに、リスナーはそのいずれかの場所へ戻り、あるいは新しい場所へと導かれます。</p>
+    <p>彼女は、語りを務める米衡（Mi Heng）と、聖書を朗読する米安（Mi Ann）と共に、Daddy Mi の創作チームに属しています。米曦は——歌います。三人の中で、姿を見せるのは彼女だけです。音楽には、覚えてもらえる顔と、一貫した声の個性が必要だからです。温かく、穏やかで、真摯に。誇張せず、感情に訴えすぎることもなく。</p>
+    <p>米曦は、創作チームとAI技術が共に生み出したバーチャル歌手です——彼女の姿も、声も、歌も、チームが方向を定め、内容を審査し、AIの支援を受けて生成されます。彼女に実在の人生経験はありません。彼女の「成長」は、一曲一曲の歌の中に書かれています。新しい歌はすべて、彼女の物語の新しい章なのです。</p>
+    <p>このシリーズの最初の目標は、12曲です。12曲目が歌われた日、それらは一枚の完全なアルバムにまとめられます——それが米曦の物語の第一巻となります。</p>
+    </section>
+    <section>
+      <h2></h2>
+      <h2>シリーズ曲目 · 連載中</h2>
+      <p>四つの歌、一つの声。一曲ごとに自分のページがあり——自分の光、自分の場所、自分の物語があります。</p>            <div class="aj-rule" aria-hidden="true"></div>
+      <h2>アルバムの旅 · The Album Journey</h2>
+      <p class="aj-progress">公開済み 第1〜4曲 · 全12曲 · Songs 1–4 of 12 released</p>
+      <div class="aj-grid">
+      <a class="aj-card" href="../theme-zh/">
+<img src="../album-thumbs/song1.webp" alt="窓辺から差し込む暖かな光" width="480" height="480" loading="lazy">
+        <span class="aj-num">SONG 01</span>
+        <span class="aj-title">《在你话语里，天亮了》</span>
+        <span class="aj-kind">中国語テーマソング</span>
+      </a>
+      <a class="aj-card" href="../theme-en/">
+<img src="../album-thumbs/song2.webp" alt="黄昏の空と遠くの灯り" width="480" height="480" loading="lazy">
+        <span class="aj-num">SONG 02</span>
+        <span class="aj-title">A Little More Like Light</span>
+        <span class="aj-kind">英語テーマソング</span>
+      </a>
+      <a class="aj-card" href="../dian-deng/">
+<img src="../album-thumbs/song3.webp" alt="窓辺のオイルランプ" width="480" height="480" loading="lazy">
+        <span class="aj-num">SONG 03</span>
+        <span class="aj-title">《換我們為妳點燈》</span>
+        <span class="aj-kind">感謝のシングル</span>
+      </a>
+      <a class="aj-card" href="../birthday-light/">
+<img src="../album-thumbs/song4.webp" alt="朝の光の中のバースデーケーキとキャンドル" width="480" height="480" loading="lazy">
+        <span class="aj-num">SONG 04</span>
+        <span class="aj-title">《愿你心里有光》</span>
+        <span class="aj-kind">誕生日の祝福ソング</span>
+      </a>
+      </div>
+    </section>
+    <section>
+      <div class="aj-utility" style="margin-top:2px">
+        <a class="btn secondary" href="../">Gospel Wisdom 毎日のデボーション</a>
+      </div>
+    </section>
+    <footer>
+      <div class="brandmark" style="text-align:center;margin:0 0 8px;"><a href="https://daddymi777.com/" aria-label="回首页 Home"><img src="../../brand/mark-transparent.png" alt="Daddy Mi" style="height:28px;width:auto;"></a></div>
+      米曦 Mi Xi · Gospel Wisdom 音楽シリーズ<br>
+      お問い合わせ：<a href="mailto:support@daddymi777.com">support@daddymi777.com</a> · © 2026 米老爸 Daddy Mi<br>
+      <span class="fineprint">Mi Xi は Daddy Mi のAIバーチャル歌手であり、実在の歌手ではありません。音楽と歌唱はAI技術の支援を受けて生成されています。</span>
+    <div style="margin-top:10px;"><a class="homelink" href="https://daddymi777.com/" style="font-size:12.5px;color:inherit;opacity:.72;">ホーム · Home</a></div></footer>
+  </div>
+  <!-- i18n: JA/KO draft by Amani team, pending GPT cross-check -->
+  <div class="viewpane view-ko" lang="ko">
+    <header>
+      <div class="kicker">米老爸 Daddy Mi · Gospel Wisdom 음악</div>
+      <h1>米曦 Mi Xi
+        <span class="sub">AI 버추얼 가수 · Gospel Wisdom의 목소리</span>
+      </h1>
+      <p class="tagline">부드럽고 진실한 노랫소리로, 하나님의 말씀 안에서 평안과 소망과 새로움을 찾는 이들과 함께합니다.</p>
+      <div class="mtvframe"><img src="mixi-look01-hero.jpg" alt="米曦， 진주 아이보리 세미 하이넥 니트 상의와 라임 브라운 A라인 미디 스커트 착용, 네잎클로버 펜던트"><div class="soon">🎬 첫 MTV가 공개되었습니다: 3번 곡 『換我們為妳點燈』——나머지 곡들의 MTV도 한 곡씩 제작 중입니다.</div></div>
+    </header>
+    <section>
+      <h2></h2>
+      <h2>Mi Xi 만나기 · Mi Xi</h2>
+    <p>米曦 Mi Xi는 Daddy Mi 소속의 AI 버추얼 여성 가수이자, Gospel Wisdom 음악 시리즈의 노랫소리입니다.</p>
+    <p>그녀의 이름은 아침의 첫 빛에서 왔습니다. 그녀의 음악은 부드럽고 고요하여, 바쁜 일상 가운데 사람들이 걸음을 멈추고 성경을 다시 펼치며 하나님의 말씀을 묵상하고, 믿음과 사랑과 행동으로 새 하루를 맞이하도록 곁에서 함께합니다.</p>
+    <p>중국어 테마송 『在你话语里，天亮了』와, 독립적으로 창작된 영어 테마송 'A Little More Like Light'를 노래합니다. 또한 감사의 싱글 『換我們為妳點燈』와 생일 축하곡 『愿你心里有光』도 노래합니다.</p>
+    <p>米曦는 Daddy Mi 창작 팀이 만든 버추얼 음악 캐릭터로, 실존 가수가 아닙니다. 음악과 가창은 AI 기술의 도움으로 생성되며, 팀이 창작 방향과 내용 검토, 제작 관리를 맡고 있습니다.</p>
+    <p>노래 한 곡 한 곡이 하나님의 말씀에 고요히 다가가는 초대가 되기를 바랍니다.</p>
+      <div class="gallery">
+        <figure><img src="mixi-front.jpg" alt="Mi Xi" loading="lazy"><figcaption>米曦 · 정면 포트레이트</figcaption></figure>
+        <figure><img src="mixi-three-quarter.jpg" alt="Mi Xi" loading="lazy"><figcaption>米曦 · 옆모습</figcaption></figure>
+        <figure><img src="mixi-profile.jpg" alt="Mi Xi" loading="lazy"><figcaption>米曦 · 측면 실루엣</figcaption></figure>
+        <figure><img src="mixi-halfbody.jpg" alt="Mi Xi" loading="lazy"><figcaption>米曦 · 아침 햇살의 창가</figcaption></figure>
+      </div>
+    </section>
+    <section>
+      <h2></h2>
+      <h2>米曦의 이야기 · 연재 중</h2>
+    <p>米曦의 이야기는 이미 다 쓰인 전기가 아닙니다——노래 한 곡 한 곡과 함께 천천히 펼쳐집니다.</p>
+    <p>그녀의 이름에는 '曦'라는 글자가 있습니다. 아침의 첫 빛입니다. 무대 위의 눈부신 스포트라이트가 아니라, 새벽에 방 안으로 스며들어 새로운 시작을 가능하게 느끼게 하는 빛. 그것이 그녀의 모든 노래가 시작되는 곳입니다.</p>
+    <p>그녀의 음악 세계에는 반복해서 등장하는 세 곳이 있습니다. 아침 햇살 속의 창가——성경을 펼치고 조용히 기도하는 자리. 바닷가——탁 트인 물결 앞에서 마음의 소란이 가라앉는 곳. 그리고 서재와 피아노 곁——소곤소곤 노래하고 천천히 읽는 한구석. 새 노래가 나올 때마다 청취자는 그중 한 곳으로 돌아가거나, 새로운 곳으로 이끌립니다.</p>
+    <p>그녀는 내레이션을 맡는 米衡 Mi Heng, 성경을 낭독하는 米安 Mi Ann과 함께 Daddy Mi 창작 팀에 속해 있습니다. 米曦는——노래합니다. 세 사람 중 모습을 드러내는 이는 그녀뿐입니다. 음악에는 기억될 수 있는 얼굴과 한결같은 목소리의 개성이 필요하기 때문입니다. 부드럽고, 차분하고, 진실하게. 과장하지도, 감정을 과하게 자극하지도 않습니다.</p>
+    <p>米曦는 창작 팀과 AI 기술이 함께 만든 버추얼 가수입니다——그녀의 모습과 목소리와 노래는 팀이 방향을 정하고 내용을 검토하며, AI의 도움을 받아 생성됩니다. 그녀에게는 실제 삶의 경험이 없습니다. 그녀의 '성장'은 노래 한 곡 한 곡 안에 쓰여 있습니다. 새 노래는 모두 그녀 이야기의 새 장입니다.</p>
+    <p>이 시리즈의 첫 목표는 열두 곡입니다. 열두 번째 곡이 불리는 날, 그것들은 하나의 온전한 앨범으로 묶일 것입니다——그것이 米曦 이야기의 첫 번째 권이 됩니다.</p>
+    </section>
+    <section>
+      <h2></h2>
+      <h2>시리즈 곡목 · 연재 중</h2>
+      <p>네 곡의 노래, 하나의 목소리. 곡마다 자신의 페이지가 있습니다——자신의 빛, 자신의 장소, 자신의 이야기.</p>            <div class="aj-rule" aria-hidden="true"></div>
+      <h2>앨범의 여정 · The Album Journey</h2>
+      <p class="aj-progress">공개 완료 1–4번 곡 · 총 12곡 · Songs 1–4 of 12 released</p>
+      <div class="aj-grid">
+      <a class="aj-card" href="../theme-zh/">
+<img src="../album-thumbs/song1.webp" alt="창가로 스며드는 따뜻한 빛" width="480" height="480" loading="lazy">
+        <span class="aj-num">SONG 01</span>
+        <span class="aj-title">《在你话语里，天亮了》</span>
+        <span class="aj-kind">중국어 테마송</span>
+      </a>
+      <a class="aj-card" href="../theme-en/">
+<img src="../album-thumbs/song2.webp" alt="황혼의 하늘과 먼 곳의 불빛" width="480" height="480" loading="lazy">
+        <span class="aj-num">SONG 02</span>
+        <span class="aj-title">A Little More Like Light</span>
+        <span class="aj-kind">영어 테마송</span>
+      </a>
+      <a class="aj-card" href="../dian-deng/">
+<img src="../album-thumbs/song3.webp" alt="창가의 오일 램프" width="480" height="480" loading="lazy">
+        <span class="aj-num">SONG 03</span>
+        <span class="aj-title">《換我們為妳點燈》</span>
+        <span class="aj-kind">감사의 싱글</span>
+      </a>
+      <a class="aj-card" href="../birthday-light/">
+<img src="../album-thumbs/song4.webp" alt="아침 햇살 속 생일 케이크와 촛불" width="480" height="480" loading="lazy">
+        <span class="aj-num">SONG 04</span>
+        <span class="aj-title">《愿你心里有光》</span>
+        <span class="aj-kind">생일 축하곡</span>
+      </a>
+      </div>
+    </section>
+    <section>
+      <div class="aj-utility" style="margin-top:2px">
+        <a class="btn secondary" href="../">Gospel Wisdom 매일 묵상</a>
+      </div>
+    </section>
+    <footer>
+      <div class="brandmark" style="text-align:center;margin:0 0 8px;"><a href="https://daddymi777.com/" aria-label="回首页 Home"><img src="../../brand/mark-transparent.png" alt="Daddy Mi" style="height:28px;width:auto;"></a></div>
+      米曦 Mi Xi · Gospel Wisdom 음악 시리즈<br>
+      문의: <a href="mailto:support@daddymi777.com">support@daddymi777.com</a> · © 2026 米老爸 Daddy Mi<br>
+      <span class="fineprint">Mi Xi는 Daddy Mi 소속의 AI 버추얼 가수로, 실존 가수가 아닙니다. 음악과 가창은 AI 기술의 도움으로 생성됩니다.</span>
+    <div style="margin-top:10px;"><a class="homelink" href="https://daddymi777.com/" style="font-size:12.5px;color:inherit;opacity:.72;">홈 · Home</a></div></footer>
   </div>
 
 </div>
