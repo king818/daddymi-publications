@@ -398,6 +398,7 @@ def main():
   .langbar { display:flex; gap:8px; align-items:center; margin-top:12px; }
   .langbar button { font:inherit; font-size:13px; padding:4px 13px; border-radius:999px; cursor:pointer; background:transparent; color:#cdbf9f; border:1px solid #2c3c5f; }
   .langbar button.active { background:#C9A764; color:#0B1220; border-color:#C9A764; font-weight:700; }
+  .langbar a.langlink { font-size:13px; padding:4px 13px; border-radius:999px; color:#cdbf9f; border:1px solid #2c3c5f; text-decoration:none; }
   .langsep { color:#5b6675; font-size:13px; }
   .counts { display:flex; flex-wrap:wrap; gap:8px; margin-top:12px; }
   .chip { background:#16213a; border:1px solid #2c3c5f; border-radius:999px; padding:4px 10px; font-size:12.5px; }
@@ -447,6 +448,10 @@ def main():
     <button type="button" id="btn-zh-hant" onclick="gwSetLang('zh-hant')">繁體</button>
     <span class="langsep">|</span>
     <button type="button" id="btn-en" onclick="gwSetLang('en')">English</button>
+    <span class="langsep">|</span>
+    <a class="langlink" href="https://daddymi777.com/ja/">日本語</a>
+    <span class="langsep">|</span>
+    <a class="langlink" href="https://daddymi777.com/ko/">한국어</a>
   </div>
   <div class="counts">__CHIPS__</div>
   <div class="counts" style="margin-top:8px;"><span data-ui="musicLine">🎵 Mi Xi · Gospel Wisdom theme songs:</span>
