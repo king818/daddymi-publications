@@ -126,6 +126,10 @@
     section{padding:22px 18px 18px;}
     th{white-space:normal;}
   }
+/*nav-fix-2026-11-10: phone-width language switcher must not crush CJK labels*/
+.langbar{flex-wrap:wrap}
+.langbar button,.langbar a.langlink{white-space:nowrap;flex:none}
+@media (max-width:560px){.langbar{gap:5px}.langbar button,.langbar a.langlink{font-size:12.5px;padding:4px 9px}.langbar .langsep{display:none}}
 </style>
   <link rel="icon" type="image/png" sizes="32x32" href="../brand/favicon-32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="../brand/favicon-16.png">
