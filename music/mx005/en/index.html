@@ -64,10 +64,15 @@
   .credits{font-size:13px;color:var(--ink-soft);letter-spacing:.1em;margin-bottom:10px}
   .home{display:inline-block;color:var(--rose-deep);text-decoration:none;font-size:14.5px;letter-spacing:.3em;margin-bottom:10px}
   .copy{font-size:12.5px;color:var(--ink-soft);letter-spacing:.14em}
+  .langbar{display:flex;justify-content:flex-end;align-items:center;gap:7px;max-width:640px;margin:0 auto;padding:16px 22px 0;position:relative;z-index:30;flex-wrap:wrap}
+  .langbar a{font-size:13.5px;padding:5px 13px;border-radius:999px;color:var(--ink-soft);border:1px solid rgba(180,82,107,.35);text-decoration:none;background:rgba(255,255,255,.5)}
+  .langbar a.active{background:var(--rose);color:#fff;border-color:var(--rose);font-weight:700}
+  .langbar .langsep{color:rgba(150,67,90,.35);font-size:12px}
 </style>
 </head>
 <body>
 <div class="wm" id="wm"></div>
+<div class="langbar" role="group" aria-label="Language"><a href="/music/mx005/">简体</a><span class="langsep">|</span><a href="/music/mx005/tc/">繁體</a><span class="langsep">|</span><a href="/music/mx005/en/" class="active" aria-current="true">English</a><span class="langsep">|</span><a href="/music/mx005/ja/">日本語</a><span class="langsep">|</span><a href="/music/mx005/ko/">한국어</a></div>
 <div class="wrap">
   <div class="brandmark"><a href="https://daddymi777.com/" aria-label="Daddy Mi — Back to home"><img src="/brand/mark-transparent.png" alt="Daddy Mi"></a></div>
   <h1>Lei Cha Beneath the Lamp</h1>
