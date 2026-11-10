@@ -29,6 +29,8 @@
   --radius-lg: 18px;
 }
 html[lang="zh-Hant"] { --serif-zh: "Noto Serif TC", "Noto Serif SC", "Songti TC", "Songti SC", serif; }
+html[lang="ja"] { --serif-zh: "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Yu Mincho", "YuMincho", "Noto Serif JP", serif; --serif-latin: "EB Garamond", "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Yu Mincho", "Noto Serif JP", serif; }
+html[lang="ko"] { --serif-zh: "Noto Serif KR", "Nanum Myeongjo", "Batang", serif; --serif-latin: "EB Garamond", "Noto Serif KR", "Nanum Myeongjo", serif; }
 
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }

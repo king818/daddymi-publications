@@ -5,11 +5,13 @@ Source : portal-src/content.json   (all trilingual strings live there)
 Outputs: index.html          (zh-Hans — the site root page)
          zh-hant/index.html
          en/index.html
+         ja/index.html
+         ko/index.html
          portal.css          (the single visual layer, from
                               portal-src/portal.css — restyle there;
                               the page structure never changes)
 
-The three versions are rendered from a single template + the single
+The five versions are rendered from a single template + the single
 content file, so they cannot drift apart. Re-run after editing
 content.json:  python3 portal-src/build.py
 
@@ -28,7 +30,7 @@ ROOT = os.path.dirname(HERE)
 TEMPLATE = """<!DOCTYPE html>
 <html lang="%%HTML_LANG%%">
 <head>
-<meta charset="utf-8">
+%%I18N_NOTE%%<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>%%TITLE%%</title>
 <meta name="description" content="%%TAGLINE%%">
@@ -36,6 +38,8 @@ TEMPLATE = """<!DOCTYPE html>
 <link rel="alternate" hreflang="zh-Hans" href="https://daddymi777.com/">
 <link rel="alternate" hreflang="zh-Hant" href="https://daddymi777.com/zh-hant/">
 <link rel="alternate" hreflang="en" href="https://daddymi777.com/en/">
+<link rel="alternate" hreflang="ja" href="https://daddymi777.com/ja/">
+<link rel="alternate" hreflang="ko" href="https://daddymi777.com/ko/">
 <link rel="alternate" hreflang="x-default" href="https://daddymi777.com/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="米老爸 Daddy Mi">
@@ -201,7 +205,7 @@ TEMPLATE = """<!DOCTYPE html>
 </html>
 """
 
-ORDER = ["zh-hans", "zh-hant", "en"]
+ORDER = ["zh-hans", "zh-hant", "en", "ja", "ko"]
 
 # Stylesheet C "Ink & Light" + Track A calligraphy (boss ruling
 # 2026-11-09): on the Chinese views the hero brand line is the
@@ -243,6 +247,8 @@ def _inscr_strip(page, prefix):
 def render(code, page, site, pages):
     prefix = page["prefix"]
     values = {
+        "I18N_NOTE": ('<!-- i18n: JA/KO draft by Amani team, pending GPT cross-check -->\n'
+                      if code in ("ja", "ko") else ""),
         "HTML_LANG": page["html_lang"],
         "TITLE": page["title"],
         "BRANDLINE_BLOCK": _brandline_block(page, prefix),
