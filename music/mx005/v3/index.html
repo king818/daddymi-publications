@@ -111,11 +111,17 @@
   .langbar a{font-size:13.5px;padding:5px 13px;border-radius:999px;color:var(--ink-soft);border:1px solid rgba(180,82,107,.35);text-decoration:none;background:rgba(255,255,255,.5)}
   .langbar a.active{background:var(--rose);color:#fff;border-color:var(--rose);font-weight:700}
   .langbar .langsep{color:rgba(150,67,90,.35);font-size:12px}
+/*mx005-nav-fix-2026-11-10*/
+.langbar a{white-space:nowrap}
+.backbar{max-width:640px;margin:0 auto;padding:10px 22px 0;position:relative;z-index:30}
+.backbar a{display:inline-block;font-size:13.5px;padding:5px 13px;border-radius:999px;color:var(--ink-soft);border:1px solid rgba(180,82,107,.35);text-decoration:none;background:rgba(255,255,255,.55)}
+@media (max-width:560px){.langbar{flex-wrap:nowrap;gap:4px;padding:14px 12px 0}.langbar a{font-size:12px;padding:4px 8px}.langbar .langsep{display:none}.backbar{padding:10px 12px 0}}
 </style>
 </head>
 <body>
 <div class="wm" id="wm"></div>
 <div class="langbar" role="group" aria-label="Language"><a href="/music/mx005/v3/" class="active" aria-current="true">简体</a><span class="langsep">|</span><a href="/music/mx005/v3/tc/">繁體</a><span class="langsep">|</span><a href="/music/mx005/v3/en/">English</a><span class="langsep">|</span><a href="/music/mx005/v3/ja/">日本語</a><span class="langsep">|</span><a href="/music/mx005/v3/ko/">한국어</a></div>
+<div class="backbar"><a href="/music/mx005/">← 回到本歌全部版本</a></div>
 <div class="wrap">
   <div class="brandmark"><a href="https://daddymi777.com/" aria-label="米老爸 Daddy Mi — 回到首页"><img src="/brand/mark-transparent.png" alt="米老爸 Daddy Mi"></a></div>
   <div class="hero">
