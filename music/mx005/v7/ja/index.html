@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta property="og:type" content="website">
+<meta property="og:title" content="『灯下擂茶』ありがとう、お母さん — 米曦 Mi Xi · Take 7 試聴版">
+<meta property="og:description" content="お母さんに贈る一曲。365日のごはん、一生の見守り — 子どもたちはみんな見ていました、覚えています。｜試聴版 PREVIEW · Available in English, Traditional Chinese, Simplified Chinese, Japanese and Korean.">
+<meta property="og:url" content="https://daddymi777.com/music/mx005/v7/ja/">
+<meta property="og:image" content="https://daddymi777.com/music/mx005/v3/cover.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="『灯下擂茶』ありがとう、お母さん — 米曦 Mi Xi · Take 7 試聴版">
+<meta name="twitter:description" content="お母さんに贈る一曲。365日のごはん、一生の見守り — 子どもたちはみんな見ていました、覚えています。｜試聴版 PREVIEW · Available in English, Traditional Chinese, Simplified Chinese, Japanese and Korean.">
+<meta name="twitter:image" content="https://daddymi777.com/music/mx005/v3/cover.jpg">
+<title>『灯下擂茶』ありがとう、お母さん — 米曦 Mi Xi · Take 7 試聴版</title>
+<link rel="icon" type="image/png" sizes="32x32" href="/brand/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/brand/favicon-16.png">
+<link rel="apple-touch-icon" href="/brand/apple-touch-icon.png">
+<style>
+  :root{
+    --ink:#503339; --ink-soft:#7a5560; --rose:#b4526b; --rose-deep:#96435a;
+    --gold:#c9a24b; --paper:#fff9f4; --card:rgba(255,255,255,.66);
+  }
+  *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:"Hiragino Mincho ProN","Hiragino Mincho Pro","Yu Mincho","YuMincho","Noto Serif JP",Georgia,serif;
+    color:var(--ink);
+    background:
+      radial-gradient(120% 60% at 50% -6%, #ffe9df 0%, rgba(255,233,223,0) 55%),
+      radial-gradient(90% 45% at 88% 22%, rgba(255,205,190,.5) 0%, rgba(255,205,190,0) 60%),
+      linear-gradient(180deg,#fdf1ec 0%,#fbe7e0 34%,#f9ded6 68%,#f6d5cc 100%);
+    min-height:100vh;
+  }
+  /* ————— diagonal preview watermark ————— */
+  .wm{position:fixed;inset:-40%;z-index:60;pointer-events:none;overflow:hidden;
+      transform:rotate(-24deg);display:flex;flex-wrap:wrap;align-content:flex-start}
+  .wm span{font-size:44px;letter-spacing:.35em;color:rgba(150,67,90,.075);
+           padding:64px 30px;white-space:nowrap;font-weight:600}
+  .brandmark{text-align:center;margin:0 0 6px}
+  .brandmark img{width:68px;height:68px}
+  .footmark{text-align:center;margin:0 0 10px}
+  .footmark img{width:46px;height:46px}
+  .wrap{max-width:640px;margin:0 auto;padding:34px 22px 30px;position:relative;z-index:1}
+  /* ————— hero ————— */
+  .hero{text-align:center;padding:8px 0 4px}
+  .hero svg{width:min(300px,76vw);height:auto;filter:drop-shadow(0 10px 24px rgba(180,82,107,.16))}
+  .pill{display:inline-block;margin-top:14px;padding:5px 16px;border:1.5px solid var(--rose);
+        color:var(--rose-deep);border-radius:999px;font-size:13.5px;letter-spacing:.28em;
+        background:rgba(255,255,255,.55)}
+  h1{font-size:41px;letter-spacing:.14em;font-weight:600;margin-top:16px;color:#5b2f3a}
+  .subtitle{margin-top:9px;font-size:18.5px;letter-spacing:.34em;color:var(--rose-deep)}
+  .singer{margin-top:7px;font-size:13.5px;letter-spacing:.3em;color:var(--ink-soft)}
+  .story{margin:24px auto 4px;max-width:520px;font-size:15.5px;line-height:2.05;
+         color:#63444c;text-align:center}
+  .story b{color:var(--rose-deep);font-weight:600}
+  .rule{width:64px;height:2px;background:linear-gradient(90deg,transparent,var(--gold),transparent);
+        margin:22px auto 0;border-radius:2px}
+  /* ————— player ————— */
+  .player{position:sticky;top:10px;z-index:40;margin:26px auto 6px;max-width:560px;
+          background:var(--card);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
+          border:1px solid rgba(255,255,255,.85);border-radius:22px;
+          box-shadow:0 14px 34px rgba(150,67,90,.16);padding:16px 18px 13px}
+  .prow{display:flex;align-items:center;gap:15px}
+  #playBtn{flex:0 0 auto;width:58px;height:58px;border-radius:50%;border:none;cursor:pointer;
+    background:radial-gradient(circle at 32% 28%, #d97b93, var(--rose) 58%, var(--rose-deep));
+    box-shadow:0 8px 20px rgba(180,82,107,.42), inset 0 1.5px 2px rgba(255,255,255,.55);
+    display:flex;align-items:center;justify-content:center;transition:transform .15s}
+  #playBtn:active{transform:scale(.94)}
+  #playBtn svg{width:24px;height:24px;fill:#fff}
+  .ptrack{flex:1}
+  .pbar{height:6px;border-radius:3px;background:rgba(180,82,107,.18);cursor:pointer;position:relative}
+  #pfill{height:100%;width:0%;border-radius:3px;background:linear-gradient(90deg,#d98aa0,var(--rose));position:relative}
+  #pfill::after{content:"";position:absolute;right:-6px;top:50%;transform:translateY(-50%);
+    width:12px;height:12px;border-radius:50%;background:#fff;border:2px solid var(--rose);
+    box-shadow:0 1px 5px rgba(150,67,90,.4)}
+  .ptime{display:flex;justify-content:space-between;font-size:12px;color:var(--ink-soft);
+         margin-top:7px;letter-spacing:.12em;font-family:ui-monospace,Menlo,monospace}
+  .phint{text-align:center;font-size:12.5px;color:var(--ink-soft);letter-spacing:.22em;margin-top:9px}
+  /* ————— lyrics ————— */
+  .lyrics{max-width:560px;margin:14px auto 0;padding:6px 4px 10px}
+  .sec{text-align:center;font-size:12.5px;letter-spacing:.5em;color:var(--gold);
+       margin:30px 0 10px;font-weight:600}
+  .sec:first-child{margin-top:8px}
+  .line{font-size:18.5px;line-height:1.5;padding:7px 12px;margin:2px 0;border-radius:12px;
+        text-align:center;color:#8a6a72;cursor:pointer;transition:all .45s ease}
+  .line.active{color:#7c2438;font-size:21.5px;font-weight:600;
+        background:linear-gradient(90deg,rgba(255,255,255,0),rgba(255,255,255,.75),rgba(255,255,255,0));
+        text-shadow:0 1px 10px rgba(255,190,170,.65)}
+  .line.done{color:#6d4a54}
+  /* ————— making-of notes ————— */
+  .notes{max-width:560px;margin:38px auto 4px;background:var(--card);
+         backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
+         border:1px solid rgba(255,255,255,.85);border-radius:22px;
+         box-shadow:0 14px 34px rgba(150,67,90,.13);padding:26px 26px 20px}
+  .notes h2{text-align:center;font-size:19px;letter-spacing:.5em;font-weight:600;color:#5b2f3a}
+  .notes .nrule{width:52px;height:2px;background:linear-gradient(90deg,transparent,var(--gold),transparent);
+         margin:13px auto 16px;border-radius:2px}
+  .notes p{font-size:14.5px;line-height:2.0;color:#63444c;margin-bottom:11px;text-align:justify}
+  .notes p b{color:var(--rose-deep);font-weight:600}
+  .credits{margin-top:15px;padding-top:13px;border-top:1px solid rgba(180,82,107,.22);
+         text-align:center;font-size:12.5px;line-height:2.0;letter-spacing:.14em;color:var(--ink-soft)}
+  /* ————— footer ————— */
+  footer{text-align:center;padding:34px 20px 40px;color:var(--ink-soft);position:relative;z-index:1}
+  .disclosure{font-size:12px;line-height:1.9;letter-spacing:.06em;max-width:520px;margin:0 auto}
+  .home{display:inline-block;margin-top:16px;color:var(--rose-deep);text-decoration:none;
+        font-size:14px;letter-spacing:.24em;border-bottom:1px solid rgba(180,82,107,.4);padding-bottom:2px}
+  .copy{margin-top:14px;font-size:12.5px;letter-spacing:.18em}
+  .langbar{display:flex;justify-content:flex-end;align-items:center;gap:7px;max-width:640px;margin:0 auto;padding:16px 22px 0;position:relative;z-index:30;flex-wrap:wrap}
+  .langbar a{font-size:13.5px;padding:5px 13px;border-radius:999px;color:var(--ink-soft);border:1px solid rgba(180,82,107,.35);text-decoration:none;background:rgba(255,255,255,.5)}
+  .langbar a.active{background:var(--rose);color:#fff;border-color:var(--rose);font-weight:700}
+  .langbar .langsep{color:rgba(150,67,90,.35);font-size:12px}
+/*mx005-nav-fix-2026-11-10*/
+.langbar a{white-space:nowrap}
+.backbar{max-width:640px;margin:0 auto;padding:10px 22px 0;position:relative;z-index:30}
+.backbar a{display:inline-block;font-size:13.5px;padding:5px 13px;border-radius:999px;color:var(--ink-soft);border:1px solid rgba(180,82,107,.35);text-decoration:none;background:rgba(255,255,255,.55)}
+@media (max-width:560px){.langbar{flex-wrap:nowrap;gap:4px;padding:14px 12px 0}.langbar a{font-size:12px;padding:4px 8px}.langbar .langsep{display:none}.backbar{padding:10px 12px 0}}
+/*mx005-candidates-2026-11-11*/
+.pnow{font-size:12.5px;color:var(--ink-soft);letter-spacing:.08em;margin:0 0 8px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.pnow #trackName{color:var(--rose-deep);font-weight:600}
+.cands{max-width:560px;margin:22px auto 0}
+.cands h2{text-align:center;font-size:15px;letter-spacing:.3em;font-weight:600;color:#5b2f3a;margin-bottom:4px}
+.vcard{background:var(--card);border:1px solid rgba(180,82,107,.25);border-radius:16px;
+  padding:13px 16px 12px;margin:11px 0;box-shadow:0 6px 22px rgba(150,67,90,.08);cursor:pointer;transition:all .25s ease}
+.vcard.sel{background:rgba(255,255,255,.88);border-color:var(--rose);box-shadow:0 0 0 2px rgba(180,82,107,.3),0 8px 24px rgba(150,67,90,.16)}
+.vhead{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 10px;margin-bottom:4px}
+.vname{font-size:17px;color:var(--rose-deep);font-weight:700;letter-spacing:.04em}
+.vdur{font-size:13px;color:var(--ink-soft);font-family:ui-monospace,Menlo,monospace}
+.badge{font-size:12px;color:#fff;background:var(--rose);border-radius:999px;padding:2.5px 10px;letter-spacing:.14em}
+.badge.dim{background:#a08b90}
+.vnote{font-size:14px;line-height:1.75;color:var(--ink);margin:2px 0 9px}
+.vplay{font:inherit;font-size:13px;letter-spacing:.12em;color:var(--rose-deep);background:rgba(255,255,255,.6);
+  border:1px solid rgba(180,82,107,.45);border-radius:999px;padding:4px 14px;cursor:pointer}
+.vcard.sel .vplay{background:var(--rose);color:#fff;border-color:var(--rose)}
+.vcard.fail{background:rgba(236,226,228,.55);border-style:dashed;border-color:rgba(160,139,144,.6)}
+.vcard.fail .vname,.vcard.fail .vnote{color:#9a8388}
+.line.nosing{cursor:default;opacity:.55}
+</style>
+</head>
+<body>
+<div class="wm" id="wm"></div>
+<div class="langbar" role="group" aria-label="Language"><a href="/music/mx005/v7/">简体</a><span class="langsep">|</span><a href="/music/mx005/v7/tc/">繁體</a><span class="langsep">|</span><a href="/music/mx005/v7/en/">English</a><span class="langsep">|</span><a href="/music/mx005/v7/ja/" class="active" aria-current="true">日本語</a><span class="langsep">|</span><a href="/music/mx005/v7/ko/">한국어</a></div>
+<div class="backbar"><a href="/music/mx005/ja/">← この曲の全バージョンへ</a></div>
+<div class="wrap">
+  <div class="brandmark"><a href="https://daddymi777.com/" aria-label="米老爸 Daddy Mi — ホームへ"><img src="/brand/mark-transparent.png" alt="米老爸 Daddy Mi"></a></div>
+  <div class="hero">
+    <svg viewBox="0 0 320 190" role="img" aria-label="灯下擂茶">
+      <defs>
+        <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+          <stop offset="0%" stop-color="#ffd9a8" stop-opacity=".95"/>
+          <stop offset="55%" stop-color="#ffc98f" stop-opacity=".45"/>
+          <stop offset="100%" stop-color="#ffc98f" stop-opacity="0"/>
+        </radialGradient>
+        <linearGradient id="tea" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#d9b06a"/><stop offset="100%" stop-color="#b98a3e"/>
+        </linearGradient>
+      </defs>
+      <circle cx="160" cy="62" r="58" fill="url(#glow)"/>
+      <line x1="160" y1="0" x2="160" y2="22" stroke="#96435a" stroke-width="1.6" opacity=".55"/>
+      <path d="M146 22 h28 l-5 14 a9 9 0 0 1 -18 0 z" fill="#b4526b"/>
+      <circle cx="160" cy="46" r="7.5" fill="#ffca7a"/>
+      <circle cx="160" cy="46" r="15" fill="#ffb35c" opacity=".35"/>
+      <ellipse cx="160" cy="152" rx="118" ry="10" fill="#e9b8a6" opacity=".55"/>
+      <path d="M110 128 q50 20 100 0 l-7 22 a10 10 0 0 1 -10 7 h-66 a10 10 0 0 1 -10 -7 z" fill="#a04a61"/>
+      <path d="M110 128 q50 20 100 0 q-50 12 -100 0z" fill="#7e3648"/>
+      <ellipse cx="160" cy="129.5" rx="49" ry="7.5" fill="url(#tea)"/>
+      <path d="M146 116 q4 -10 0 -19 M160 118 q5 -12 0 -23 M174 116 q4 -10 0 -19" stroke="#d98aa0" stroke-width="2.4" fill="none" stroke-linecap="round" opacity=".65"/>
+      <g fill="#c9a24b"><circle cx="138" cy="127" r="1.8"/><circle cx="150" cy="131" r="1.8"/><circle cx="164" cy="128" r="1.8"/><circle cx="178" cy="131" r="1.8"/></g>
+      <g stroke="#8a5a3b" stroke-width="2" stroke-linecap="round" opacity=".8">
+        <line x1="212" y1="146" x2="228" y2="120"/><line x1="220" y1="150" x2="236" y2="124"/>
+      </g>
+    </svg>
+    <div><span class="pill">試聴版 · 最終版ではありません</span></div>
+    <div style="margin-top:9px;font-size:12.5px;letter-spacing:.26em;color:var(--ink-soft)">試聴版 · Take 7 · 2026-11-11</div>
+    <h1>灯下擂茶</h1>
+    <div class="subtitle">ありがとう、お母さん</div>
+    <div class="singer">米 曦 &nbsp;M i &nbsp;X i</div>
+    <p class="story">一人のお母さんが、一生分のごはんで家族を愛してきました——朝の台所から、毎晩の豊かな食卓まで。その手で擂（す）った擂茶（レイチャ）の一杯には、言葉にできない愛が込められています。<br>今、彼女は病に伏しています。子どもたちはベッドのそばに寄り添い、ただ自分の口で伝えたいのです：<b>ありがとう、お母さん。あなたがしてきたことは、みんな見ていました、みんな覚えています。心配しないで、家には私がいます。</b></p>
+    <div class="rule"></div>
+  </div>
+
+  <div class="player">
+    <div class="prow">
+      <button id="playBtn" aria-label="再生 / 一時停止">
+        <svg id="icoPlay" viewBox="0 0 24 24"><path d="M8 5.5v13l11-6.5z"/></svg>
+        <svg id="icoPause" viewBox="0 0 24 24" style="display:none"><path d="M7 5h3.6v14H7zM13.4 5H17v14h-3.6z"/></svg>
+      </button>
+      <div class="ptrack">
+        <div class="pnow">再生中：<span id="trackName">前奏版（s606） · おすすめ</span></div>
+        <div class="pbar" id="pbar"><div id="pfill"></div></div>
+        <div class="ptime"><span id="tCur">0:00</span><span id="tDur">5:31</span></div>
+      </div>
+    </div>
+    <div class="phint">再生を押すと、歌詞が歌に合わせて光ります</div>
+    <div class="phint" style="margin-top:5px;letter-spacing:.06em">※ この曲は中国語（普通話）で歌われています。歌詞は原文のまま表示しています</div>
+  </div>
+
+  <section class="cands" id="cands">
+    <h2>候補バージョン · 順番にお聴きください</h2>
+    <div class="vcard sel" data-track="prelude">
+      <div class="vhead"><span class="vname">前奏版（s606）</span><span class="badge">おすすめ</span><span class="vdur">5:31</span></div>
+      <p class="vnote">冒頭の考査に合格 — 冒頭の重みは Take 1 の2.8倍</p>
+      <button type="button" class="vplay">このバージョンを再生</button>
+    </div>
+    <div class="vcard" data-track="s707">
+      <div class="vhead"><span class="vname">s707</span><span class="vdur">5:20</span></div>
+      <p class="vnote">新しく生成した一遍 — 冒頭はまだ軽い</p>
+      <button type="button" class="vplay">このバージョンを再生</button>
+    </div>
+    <div class="vcard" data-track="s808">
+      <div class="vhead"><span class="vname">s808</span><span class="vdur">5:12</span></div>
+      <p class="vnote">新しく生成した一遍 — 冒頭はまだ軽い</p>
+      <button type="button" class="vplay">このバージョンを再生</button>
+    </div>
+  </section>
+
+  <div class="lyrics" id="lyrics">
+<div class="sec">イントロ</div>
+<div class="line">今夜、ベッドのそばに一脚の椅子が置かれている</div>
+<div class="line">私は座り、あなたの静かな寝息に耳をすます</div>
+<div class="line">ランプの光が天井を照らし</div>
+<div class="line">布団の外に出たあなたの手を照らす</div>
+<div class="sec">バース 1</div>
+<div class="line">明け方、かまどから白い湯気が立ちのぼる</div>
+<div class="line">熱気があなたの顔にかかる</div>
+<div class="line">あなたはエプロンで手を拭い</div>
+<div class="line">振り返って、私の椀にお肉を入れてくれる</div>
+<div class="line">すり棒が鉢をめぐり、コトコトと音を立てる</div>
+<div class="line">落花生とごま、ゆっくりと香りが出てくる</div>
+<div class="line">あなたは糸の端を噛み切り、新しい服を広げ</div>
+<div class="line">一度に私の体へ着せてくれる</div>
+<div class="sec">コーラス 1</div>
+<div class="line">ありがとう、お母さん</div>
+<div class="line">鶏が鳴く前から、かまどの火はもう灯っている</div>
+<div class="line">あなたはかまどの前に立ち</div>
+<div class="line">私たちは座ってご飯の香りを待つ</div>
+<div class="line">光が夜明けまであなたと共にありますように</div>
+<div class="line">あのランプが食卓いっぱいの料理を照らす</div>
+<div class="line">あの両手は一鉢の擂茶をすり</div>
+<div class="line">熱い椀や皿を持ち上げてきた</div>
+<div class="sec">バース 2</div>
+<div class="line">今あなたはベッドで横向きに眠る</div>
+<div class="line">後ろ姿は小さくなり、服もゆるくなった</div>
+<div class="line">ベッドのそばの若い頃の写真</div>
+<div class="line">写真の中で、あなたは今の私より若い</div>
+<div class="line">あなたが寝返りを打ち、掛け布団の端がずり落ちる</div>
+<div class="line">私は手を伸ばし、あなたのために整える</div>
+<div class="line">前はあなたが夜中に、私に布団を掛けてくれた</div>
+<div class="line">今度は私が、一夜に何度も起きる番</div>
+<div class="sec">コーラス 2</div>
+<div class="line">ありがとう、お母さん</div>
+<div class="line">椀の縁にはまだお茶の香りが残り</div>
+<div class="line">あなたの手には淡いお茶の染み</div>
+<div class="line">一生洗っても、落ちなかった</div>
+<div class="line">光が夜明けまであなたと共にありますように</div>
+<div class="line">ベッドのそばのランプは一晩中灯っていた</div>
+<div class="line">あなたは眠り、私は静かに座っている</div>
+<div class="line">あなたの寝息を、一つ一つ聞きながら</div>
+<div class="sec">ブリッジ</div>
+<div class="line">あの雨の年、あなたは戸口に立っていた</div>
+<div class="line">傘を私たちに傾け、自分の肩は半分濡れた</div>
+<div class="line">今、窓の外にはまた雨が降り始めた</div>
+<div class="line">私は立ち上がり、半開きの窓を閉める</div>
+<div class="line">かまどでは、あなたに教わった擂茶がとろ火で煮えている</div>
+<div class="line">戸口のランプは、私はずっと消していない</div>
+<div class="line">あなたは夢の中で、私の幼い頃の名を呼ぶ</div>
+<div class="line">私は手を、あなたの手のひらに置く</div>
+<div class="sec">ラストコーラス</div>
+<div class="line">ありがとう、お母さん</div>
+<div class="line">あのすり棒は、鉢の縁に寄りかかっている</div>
+<div class="line">あの両手は、今夜は休ませてあげよう</div>
+<div class="line">あなたのエプロンは、私の腰に結ばれている</div>
+<div class="line">光が夜明けまであなたと共にありますように</div>
+<div class="line">今度は私が、椀をあなたに捧げよう</div>
+<div class="line">目覚めたら、そっと一声呼んで</div>
+<div class="line">私はベッドのそばにいる、あなたに応えよう</div>
+<div class="sec">アウトロ</div>
+<div class="line">お母さん、手がまだ布団の外に出ているよ</div>
+<div class="line">少し握っていよう、あなたは眠って</div>
+  </div>
+
+  <section class="notes">
+    <h2>制作ノート</h2>
+    <div class="nrule"></div>
+    <p>この曲は、病気のお母さんのために書かれました。実話です。彼女は一生分のごはんで家族を愛してきました——一年三百六十五日、朝の台所から毎晩の豊かな夕食まで、一日も欠かさず。手ずから擂った擂茶は、ピーナッツと胡麻の香りがゆっくりと立ちのぼります。食卓のみんなが食べ終わって、最後に彼女が席に着くのです。</p>
+    <p>今、彼女は病に伏しています。彼女の物語は何度も語られ、語る人の目が先に赤くなりました——<b>この物語があって、この曲が生まれました。</b></p>
+    <p>第七版は冒頭だけに集中しました。全曲で最も勢いのある管弦楽の一節を一番前に移し——前奏版は最初の一拍から全重量で、冒頭の重みは Take 1 の2.8倍、この版で唯一、冒頭の考査に合格しました。残りの二遍は新しく生成したもので、冒頭はまだ軽めです。三遍とも正直に並べましたので、比べてお聴きください。</p>
+    <div class="credits">監修 米老爸 Daddy Mi<br>作詞 チーム協力（Junxi と Bowen が参画）<br>歌唱 米曦 Mi Xi · 制作 Amani チーム</div>
+  </section>
+</div>
+
+<footer>
+  <div class="footmark"><a href="https://daddymi777.com/" aria-label="米老爸 Daddy Mi — ホームへ"><img src="/brand/mark-transparent.png" alt="米老爸 Daddy Mi"></a></div>
+  <p class="disclosure">本曲は Gospel Wisdom チームがオリジナルで企画・作詞し、音楽と歌唱にはAI生成の支援を受けています。<br>お母さんに捧げる感謝祭の歌 · 試聴版、正式リリースはまだです。</p>
+  <a class="home" href="../../ja/">全バージョン · バージョン索引</a><br>
+  <a class="home" href="https://daddymi777.com/">ホームに戻る</a>
+  <p class="copy">© 2026 米老爸 Daddy Mi</p>
+</footer>
+
+<audio id="audio" src="../prelude-s606.mp3" preload="metadata"></audio>
+<script>
+  // watermark tiles
+  (function(){var wm=document.getElementById('wm'),s='';
+    for(var i=0;i<28;i++){s+='<span>試聴版 PREVIEW</span>';} wm.innerHTML=s;})();
+
+  var TRACKS = {
+    "prelude": {src: "../prelude-s606.mp3", dur: "5:31", name: "前奏版（s606） · おすすめ", times: [39.98,46.34,52.6,55.56,58.84,65.42,68.48,72.02,78.72,80.76,85.02,88.38,91.76,93.84,97.99,100.22,103.76,106.78,111.03,115.3,135.78,139.12,142.96,145.54,149.2,152.3,155.24,158.54,165.38,167.76,170.72,174.34,177.5,180.96,183.94,187.42,210.0,215.88,222.28,225.52,229.34,232.54,241.84,247.92,280.56,283.04,286.26,289.28,292.34,295.94,299.08,302.48,317.5,320.02]},
+    "s707": {src: "../s707.mp3", dur: "5:20", name: "s707", times: [26.74,33.0,41.64,46.12,53.4,60.94,66.34,69.92,74.88,76.26,80.04,83.2,89.16,null,95.08,97.08,101.84,104.84,108.14,114.68,131.34,134.96,138.88,141.34,145.17,147.86,152.2,154.52,160.8,162.88,166.68,169.2,172.78,177.2,179.74,183.92,202.84,209.48,216.18,219.68,223.64,227.38,230.8,237.44,264.2,265.52,270.02,272.5,276.76,280.26,283.46,286.52,296.74,302.84]},
+    "s808": {src: "../s808.mp3", dur: "5:12", name: "s808", times: [24.8,31.66,38.44,41.62,52.18,58.28,64.88,67.88,72.84,74.84,77.66,81.58,88.44,91.84,94.66,96.54,100.82,103.66,108.18,111.24,127.9,133.88,141.24,143.84,147.62,153.74,157.1,160.26,167.54,170.56,173.06,175.6,179.78,183.76,186.74,190.12,207.16,214.34,219.44,223.22,227.14,229.3,232.28,238.8,259.28,262.06,265.22,267.5,271.94,274.88,278.8,282.08,298.92,304.92]}
+  };
+  var active = "prelude";
+  var audio = document.getElementById('audio');
+  var playBtn = document.getElementById('playBtn');
+  var icoPlay = document.getElementById('icoPlay'), icoPause = document.getElementById('icoPause');
+  var pfill = document.getElementById('pfill'), pbar = document.getElementById('pbar');
+  var tCur = document.getElementById('tCur'), tDur = document.getElementById('tDur');
+  var lineEls = Array.prototype.slice.call(document.querySelectorAll('.line'));
+  var cur = -1, lastScroll = 0;
+
+  function fmt(s){s=Math.max(0,Math.floor(s));return Math.floor(s/60)+':'+('0'+(s%60)).slice(-2);}
+  audio.addEventListener('loadedmetadata', function(){ tDur.textContent = fmt(audio.duration); });
+
+  function setIcon(){ var p = !audio.paused; icoPlay.style.display = p?'none':'block'; icoPause.style.display = p?'block':'none'; }
+  playBtn.addEventListener('click', function(){ if(audio.paused){audio.play();}else{audio.pause();} });
+  audio.addEventListener('play', setIcon); audio.addEventListener('pause', setIcon);
+  audio.addEventListener('ended', function(){ setIcon(); });
+
+  pbar.addEventListener('click', function(e){
+    var r = pbar.getBoundingClientRect();
+    var x = (e.touches ? e.touches[0].clientX : e.clientX);
+    audio.currentTime = audio.duration * Math.min(1, Math.max(0, (x - r.left) / r.width));
+  });
+
+  function times(){ return TRACKS[active].times; }
+  function markNosing(){
+    var T = times();
+    lineEls.forEach(function(el, i){ el.classList.toggle('nosing', T[i] === null); });
+  }
+  function resetLines(){
+    lineEls.forEach(function(el){ el.classList.remove('active'); el.classList.remove('done'); });
+    cur = -1;
+  }
+  lineEls.forEach(function(el, i){
+    el.addEventListener('click', function(){
+      var t = times()[i];
+      if(t === null || t === undefined) return;
+      audio.currentTime = t + 0.05; audio.play();
+    });
+  });
+
+  var trackName = document.getElementById('trackName');
+  var cards = Array.prototype.slice.call(document.querySelectorAll('.vcard[data-track]'));
+  function selectTrack(id){
+    if(id === active){ audio.play(); return; }
+    active = id;
+    var tr = TRACKS[id];
+    audio.pause();
+    audio.src = tr.src;
+    audio.load();
+    trackName.textContent = tr.name;
+    tDur.textContent = tr.dur; tCur.textContent = '0:00'; pfill.style.width = '0%';
+    cards.forEach(function(c){ c.classList.toggle('sel', c.getAttribute('data-track') === id); });
+    resetLines(); markNosing();
+    audio.play();
+  }
+  cards.forEach(function(c){
+    c.addEventListener('click', function(){ selectTrack(c.getAttribute('data-track')); });
+  });
+  markNosing();
+
+  audio.addEventListener('timeupdate', function(){
+    var t = audio.currentTime;
+    if(audio.duration){ pfill.style.width = (100 * t / audio.duration) + '%'; }
+    tCur.textContent = fmt(t);
+    var idx = -1;
+    var T = times();
+    for(var i = 0; i < T.length; i++){
+      if(T[i] === null) continue;
+      if(t >= T[i]) idx = i; else break;
+    }
+    if(idx !== cur){
+      if(cur >= 0 && lineEls[cur]){ lineEls[cur].classList.remove('active'); lineEls[cur].classList.add('done'); }
+      cur = idx;
+      if(cur >= 0 && lineEls[cur]){
+        lineEls[cur].classList.add('active'); lineEls[cur].classList.remove('done');
+        var now = Date.now();
+        if(!audio.paused && now - lastScroll > 350){
+          lastScroll = now;
+          lineEls[cur].scrollIntoView({block:'center', behavior:'smooth'});
+        }
+      }
+    }
+  });
+</script>
+</body>
+</html>
