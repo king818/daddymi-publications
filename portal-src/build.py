@@ -151,6 +151,11 @@ TEMPLATE = """<!DOCTYPE html>
         <p>%%CARD3_D%%</p>
         <a href="%%PUBS_LINK%%">%%CARD3_LINK%%</a>
       </div>
+      <div class="card">
+        <h3>%%CARD4_T%%</h3>
+        <p>%%CARD4_D%%</p>
+        <a href="%%ORDER_LINK%%">%%CARD4_LINK%%</a>
+      </div>
     </div>
   </section>
 
@@ -163,6 +168,7 @@ TEMPLATE = """<!DOCTYPE html>
   <footer>
     <img class="footmark" src="%%PREFIX%%brand/mark-transparent.png" alt="">
     <div>%%FOOTER_SUPPORT%%：<a href="mailto:%%SUPPORT_EMAIL%%">%%SUPPORT_EMAIL%%</a></div>
+    <div><a href="%%ORDER_LINK%%">%%ORDER_FOOTER%%</a></div>
     <div><a href="%%YT_CHANNEL%%" target="_blank" rel="noopener">%%YT_CHANNEL_LABEL%%</a></div>
     <div><a href="%%YT_MV%%" target="_blank" rel="noopener">%%YT_MV_LABEL%%</a></div>
     <div>%%FOOTER_PRIVACY%%</div>
@@ -206,6 +212,17 @@ TEMPLATE = """<!DOCTYPE html>
 """
 
 ORDER = ["zh-hans", "zh-hant", "en", "ja", "ko"]
+
+# Custom-song order pages live under /order/ with their own locale
+# layout (tc, not zh-hant) — boss order 2026-11-11: every homepage
+# links into the order page in its own language.
+ORDER_PATH = {
+    "zh-hans": "order/",
+    "zh-hant": "order/tc/",
+    "en": "order/en/",
+    "ja": "order/ja/",
+    "ko": "order/ko/",
+}
 
 # Stylesheet C "Ink & Light" + Track A calligraphy (boss ruling
 # 2026-11-09): on the Chinese views the hero brand line is the
@@ -281,6 +298,8 @@ def render(code, page, site, pages):
         "CARD1_T": page["card1_t"], "CARD1_D": page["card1_d"], "CARD1_LINK": page["card1_link"],
         "CARD2_T": page["card2_t"], "CARD2_D": page["card2_d"], "CARD2_LINK": page["card2_link"],
         "CARD3_T": page["card3_t"], "CARD3_D": page["card3_d"], "CARD3_LINK": page["card3_link"],
+        "CARD4_T": page["card4_t"], "CARD4_D": page["card4_d"], "CARD4_LINK": page["card4_link"],
+        "ORDER_FOOTER": page["order_footer"],
         "ABOUT_H": page["about_h"], "ABOUT_P": page["about_p"],
         "ABOUT_FAITH": page["about_faith"],
         "HERO_IMG": prefix + site["hero_image"],
@@ -299,6 +318,7 @@ def render(code, page, site, pages):
         "MIXI_LINK": prefix + "gospel-wisdom/mixi/?lang=" + code,
         "DIANDENG_LINK": prefix + "gospel-wisdom/dian-deng/?lang=" + code,
         "PUBS_LINK": prefix + "publications/",
+        "ORDER_LINK": prefix + ORDER_PATH[code],
     }
     alts = [pages[c]["og_locale"] for c in ORDER if c != code]
     values["OG_LOCALE_ALTS"] = "\n".join(
