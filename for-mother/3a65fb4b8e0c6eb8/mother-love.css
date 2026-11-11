@@ -1,0 +1,92 @@
+/* ============================================================
+   mother-love.css — 《灯下擂茶》妈妈专属页专用样式
+   Warm-pink mother-love theme, written for this page alone
+   (2026-11-11). Not shared with any other page or stylesheet.
+   Phone-first: she opens it on her phone, at her bedside.
+   ============================================================ */
+:root{
+  --rose:#C4577E; --rose-deep:#9E3A5F; --rose-soft:#E79FB9;
+  --blush:#FDF1EC; --peach:#FBE3D8; --cream:#FFF9F5;
+  --ink:#54303E; --ink-soft:#8A5A68; --gold:#C9A24B; --gold-deep:#A37F2C;
+  --card:rgba(255,255,255,.72); --line:rgba(196,87,126,.28);
+}
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html{scroll-behavior:smooth}
+body{
+  font-family:"Songti SC","STSong","Noto Serif SC","Noto Serif CJK SC",serif;
+  color:var(--ink);
+  background:
+    radial-gradient(130% 55% at 50% -8%, #FFE9E2 0%, rgba(255,233,226,0) 55%),
+    radial-gradient(90% 40% at 92% 18%, rgba(231,159,185,.35) 0%, rgba(231,159,185,0) 60%),
+    linear-gradient(180deg,#FDF1EC 0%,#FBE9E1 38%,#F8DCD2 72%,#F5D2C6 100%);
+  min-height:100vh;
+}
+.langbar{display:flex;justify-content:flex-end;align-items:center;gap:7px;max-width:660px;margin:0 auto;padding:16px 22px 0;flex-wrap:wrap}
+.langbar a{font-size:13.5px;padding:5px 13px;border-radius:999px;color:var(--ink-soft);border:1px solid var(--line);text-decoration:none;background:rgba(255,255,255,.55)}
+.langbar a.active{background:var(--rose);color:#fff;border-color:var(--rose);font-weight:700}
+.langbar .langsep{color:rgba(84,48,62,.35);font-size:12px}
+.backbar{max-width:660px;margin:0 auto;padding:10px 22px 0;display:flex;gap:8px;flex-wrap:wrap}
+.backbar a{display:inline-block;font-size:13.5px;padding:5px 13px;border-radius:999px;color:var(--ink-soft);border:1px solid var(--line);text-decoration:none;background:rgba(255,255,255,.6)}
+.wrap{max-width:660px;margin:0 auto;padding:30px 22px 26px}
+.brandmark{text-align:center;margin:0 0 4px}
+.brandmark img{width:68px;height:68px}
+.footmark{text-align:center;margin:0 0 10px}
+.footmark img{width:46px;height:46px}
+.hero{text-align:center;padding:6px 0 2px}
+.hero svg{width:min(300px,76vw);height:auto;filter:drop-shadow(0 10px 24px rgba(196,87,126,.20))}
+.pill{display:inline-block;margin-top:14px;padding:5px 16px;border:1.5px solid var(--rose);
+  color:var(--rose-deep);border-radius:999px;font-size:13.5px;letter-spacing:.26em;background:rgba(255,255,255,.55)}
+h1{font-size:40px;letter-spacing:.12em;font-weight:600;margin-top:16px;color:var(--ink)}
+.subtitle{margin-top:9px;font-size:18.5px;letter-spacing:.32em;color:var(--rose-deep)}
+.singer{margin-top:7px;font-size:13.5px;letter-spacing:.3em;color:var(--ink-soft)}
+.dedicate{max-width:560px;margin:26px auto 4px;background:var(--card);border:1px solid rgba(255,255,255,.9);
+  border-radius:22px;box-shadow:0 14px 34px rgba(158,58,95,.14);padding:24px 26px 18px}
+.dedicate h2{text-align:center;font-size:19px;letter-spacing:.45em;font-weight:600;color:var(--rose-deep)}
+.dedicate .drule{width:52px;height:2px;background:linear-gradient(90deg,transparent,var(--rose),transparent);margin:12px auto 14px;border-radius:2px}
+.dedicate p{font-size:15.5px;line-height:2.05;color:var(--ink);text-align:justify;margin-bottom:10px}
+.story{margin:22px auto 2px;max-width:530px;font-size:15.5px;line-height:2.05;color:#6B4250;text-align:center}
+.story b{color:var(--rose-deep);font-weight:600}
+.rule{width:64px;height:2px;background:linear-gradient(90deg,transparent,var(--rose),transparent);margin:22px auto 0;border-radius:2px}
+.player{position:sticky;top:10px;z-index:40;margin:26px auto 6px;max-width:560px;
+  background:var(--card);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
+  border:1px solid rgba(255,255,255,.9);border-radius:24px;
+  box-shadow:0 16px 36px rgba(158,58,95,.20);padding:18px 18px 14px}
+.prow{display:flex;align-items:center;gap:16px}
+#playBtn{flex:0 0 auto;width:68px;height:68px;border-radius:50%;border:none;cursor:pointer;
+  background:radial-gradient(circle at 32% 28%, #F2A9C4, var(--rose) 58%, var(--rose-deep));
+  box-shadow:0 10px 24px rgba(196,87,126,.45), inset 0 1.5px 2px rgba(255,255,255,.55);
+  display:flex;align-items:center;justify-content:center;transition:transform .15s}
+#playBtn:active{transform:scale(.94)}
+#playBtn svg{width:28px;height:28px;fill:#fff}
+.ptrack{flex:1}
+.pbar{height:7px;border-radius:4px;background:rgba(196,87,126,.18);cursor:pointer;position:relative}
+#pfill{height:100%;width:0%;border-radius:4px;background:linear-gradient(90deg,var(--rose-soft),var(--rose));position:relative}
+#pfill::after{content:"";position:absolute;right:-7px;top:50%;transform:translateY(-50%);
+  width:14px;height:14px;border-radius:50%;background:#fff;border:2px solid var(--rose);
+  box-shadow:0 1px 5px rgba(84,48,62,.4)}
+.ptime{display:flex;justify-content:space-between;font-size:12.5px;color:var(--ink-soft);
+  margin-top:7px;letter-spacing:.12em;font-family:ui-monospace,Menlo,monospace}
+.phint{text-align:center;font-size:13px;color:var(--ink-soft);letter-spacing:.2em;margin-top:10px}
+.lyrics{max-width:560px;margin:14px auto 0;padding:6px 4px 10px}
+.sec{text-align:center;font-size:12.5px;letter-spacing:.5em;color:var(--rose);margin:30px 0 10px;font-weight:600}
+.sec:first-child{margin-top:8px}
+.line{font-size:19px;line-height:1.5;padding:7px 12px;margin:2px 0;border-radius:12px;
+  text-align:center;color:#B08A96;cursor:pointer;transition:all .45s ease}
+.line.active{color:var(--rose-deep);font-size:22px;font-weight:600;
+  background:linear-gradient(90deg,rgba(255,255,255,0),rgba(255,255,255,.8),rgba(255,255,255,0));
+  text-shadow:0 1px 10px rgba(231,159,185,.6)}
+.line.done{color:#6B4250}
+.creditsbox{max-width:560px;margin:36px auto 2px;text-align:center;font-size:13px;line-height:2.05;
+  letter-spacing:.12em;color:var(--ink-soft);border-top:1px solid var(--line);padding-top:16px}
+footer{text-align:center;padding:30px 20px 42px;color:var(--ink-soft)}
+.disclosure{font-size:12px;line-height:1.9;letter-spacing:.05em;max-width:520px;margin:0 auto}
+.copy{margin-top:12px;font-size:12.5px;letter-spacing:.18em}
+@media (max-width:560px){
+  .langbar{flex-wrap:nowrap;gap:4px;padding:14px 12px 0}
+  .langbar a{font-size:12px;padding:4px 8px;white-space:nowrap}
+  .langbar .langsep{display:none}
+  .backbar{padding:10px 12px 0}
+  h1{font-size:34px}
+  .line{font-size:18px}
+  .line.active{font-size:20.5px}
+}

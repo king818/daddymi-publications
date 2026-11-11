@@ -62,6 +62,17 @@
   .langbar .langsep{color:rgba(30,42,56,.35);font-size:12px}
 .langbar a{white-space:nowrap}
 @media (max-width:560px){.langbar{flex-wrap:nowrap;gap:4px;padding:14px 12px 0}.langbar a{font-size:12px;padding:4px 8px}.langbar .langsep{display:none}}
+
+  /* ——— album grid (boss ruling 2026-11-11): 4 tiles per row, sequential, no carousel ——— */
+  .albumh{text-align:center;font-size:19px;letter-spacing:.3em;font-weight:600;color:var(--gold-deep);margin:26px 0 2px}
+  .albumgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:16px 0 20px}
+  .albumgrid .vcard{margin:0;padding:14px 13px 12px;display:flex;flex-direction:column}
+  .albumgrid .vname{font-size:16px;line-height:1.45}
+  .albumgrid .vnote{font-size:12.8px;line-height:1.75;flex:1}
+  .albumgrid .badge{font-size:11px;padding:2px 8px}
+  .albumgrid .pagelink{font-size:12.8px;margin-top:8px}
+  .trackno{font-size:11px;letter-spacing:.14em;color:#fff;background:var(--ink-soft);border-radius:6px;padding:2px 7px;font-weight:700}
+  @media (max-width:560px){.albumgrid{gap:9px}.albumgrid .vcard{padding:11px 9px 10px;border-radius:13px}.albumgrid .vname{font-size:13px}.albumgrid .vnote{font-size:11px;line-height:1.65}.albumgrid .pagelink{font-size:11px}.albumgrid .badge{font-size:10px;padding:1.5px 6px;letter-spacing:.06em}.trackno{font-size:10px;padding:1.5px 5px}}
 </style>
 </head>
 <body>
@@ -72,34 +83,33 @@
   <p class="sub">米曦 Mi Xi</p>
   <p class="tagline">米曦の歌はすべて、実話から生まれました。<br>これは全曲の総索引です——カードを開くと、その曲のページへ入ります。</p>
 
-  <div class="vcard">
-    <div class="vhead"><span class="vname">『灯下擂茶』</span><span class="badge">第5曲 · 試聴中</span></div>
-    <p class="vnote">副題「ありがとう、お母さん」——母に贈る感謝の歌。試聴テイクは4つあり、現在は Take 4 が最良で、決定版を制作中です。</p>
-    <a class="pagelink" href="/music/mx005/ja/">この曲のテイク一覧を開く →</a>
-  </div>
-
-  <div class="vcard">
-    <div class="vhead"><span class="vname">《換我們為妳點燈》</span><span class="badge">公開中</span></div>
+    <h2 class="albumh">アルバム《光，慢慢成为路》 · 収録曲</h2>
+  <div class="albumgrid">
+<div class="vcard">
+    <div class="vhead"><span class="trackno">01</span><span class="vname">《換我們為妳點燈》</span><span class="badge">公開中</span></div>
     <p class="vnote">三姑に捧げる歌——幼い頃、私たちのために灯をともしてくれた人へ。今度は私たちが、彼女のために灯をともします。</p>
     <a class="pagelink" href="/gospel-wisdom/dian-deng/">この曲のページを開く →</a>
   </div>
-
-  <div class="vcard">
-    <div class="vhead"><span class="vname">《愿你心里有光》</span><span class="badge">公開中</span></div>
+<div class="vcard">
+    <div class="vhead"><span class="trackno">02</span><span class="vname">《愿你心里有光》</span><span class="badge">公開中</span></div>
     <p class="vnote">誕生日の歌——あなたの心に光がありますように。どれほど遠い道でも、光が寄り添いますように。</p>
     <a class="pagelink" href="/gospel-wisdom/birthday-light/">この曲のページを開く →</a>
   </div>
-
-  <div class="vcard">
-    <div class="vhead"><span class="vname">A Little More Like Light</span><span class="badge">公開中</span></div>
+<div class="vcard">
+    <div class="vhead"><span class="trackno">03</span><span class="vname">A Little More Like Light</span><span class="badge">公開中</span></div>
     <p class="vnote">Gospel Wisdom の英語テーマソング——一日ごとに、少しずつ光に近づけますように。</p>
     <a class="pagelink" href="/gospel-wisdom/theme-en/">この曲のページを開く →</a>
   </div>
-
-  <div class="vcard">
-    <div class="vhead"><span class="vname">《在你话语里，天亮了》</span><span class="badge">公開中</span></div>
+<div class="vcard">
+    <div class="vhead"><span class="trackno">04</span><span class="vname">《在你话语里，天亮了》</span><span class="badge">公開中</span></div>
     <p class="vnote">Gospel Wisdom の中国語テーマソング——あなたの言葉の中で、夜が明けます。</p>
     <a class="pagelink" href="/gospel-wisdom/theme-zh/">この曲のページを開く →</a>
+  </div>
+<div class="vcard">
+    <div class="vhead"><span class="trackno">05</span><span class="vname">『灯下擂茶』</span><span class="badge">第5曲 · 公開中</span></div>
+    <p class="vnote">副題「ありがとう、お母さん」——母に贈る感謝の歌。正式リリース：Take 4 が決定版です（2026-11-11）。</p>
+    <a class="pagelink" href="/music/mx005/ja/">この曲の正式版ページを開く →</a>
+  </div>
   </div>
 
   <div class="vcard">
@@ -117,7 +127,7 @@
   <footer>
     <div class="footmark"><a href="https://daddymi777.com/" aria-label="米老爸 Daddy Mi — ホームへ"><img src="/brand/mark-transparent.png" alt="米老爸 Daddy Mi"></a></div>
     <p class="disclosure">本サイトの楽曲は Gospel Wisdom チームが企画・作詞し、音楽と歌唱には AI 生成を補助として使用しています。</p>
-    <p class="credits">米曦 Mi Xi · チームコラボレーション（Junxi &amp; Bowen）</p>
+    <p class="credits">米曦 Mi Xi · チームコラボレーション（Junshi &amp; Bowen）</p>
     <a class="home" href="https://daddymi777.com/">ホームへ</a>
     <p class="copy">© 2026 米老爸 Daddy Mi</p>
   </footer>

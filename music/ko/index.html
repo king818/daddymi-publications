@@ -62,6 +62,17 @@
   .langbar .langsep{color:rgba(30,42,56,.35);font-size:12px}
 .langbar a{white-space:nowrap}
 @media (max-width:560px){.langbar{flex-wrap:nowrap;gap:4px;padding:14px 12px 0}.langbar a{font-size:12px;padding:4px 8px}.langbar .langsep{display:none}}
+
+  /* ——— album grid (boss ruling 2026-11-11): 4 tiles per row, sequential, no carousel ——— */
+  .albumh{text-align:center;font-size:19px;letter-spacing:.3em;font-weight:600;color:var(--gold-deep);margin:26px 0 2px}
+  .albumgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:16px 0 20px}
+  .albumgrid .vcard{margin:0;padding:14px 13px 12px;display:flex;flex-direction:column}
+  .albumgrid .vname{font-size:16px;line-height:1.45}
+  .albumgrid .vnote{font-size:12.8px;line-height:1.75;flex:1}
+  .albumgrid .badge{font-size:11px;padding:2px 8px}
+  .albumgrid .pagelink{font-size:12.8px;margin-top:8px}
+  .trackno{font-size:11px;letter-spacing:.14em;color:#fff;background:var(--ink-soft);border-radius:6px;padding:2px 7px;font-weight:700}
+  @media (max-width:560px){.albumgrid{gap:9px}.albumgrid .vcard{padding:11px 9px 10px;border-radius:13px}.albumgrid .vname{font-size:13px}.albumgrid .vnote{font-size:11px;line-height:1.65}.albumgrid .pagelink{font-size:11px}.albumgrid .badge{font-size:10px;padding:1.5px 6px;letter-spacing:.06em}.trackno{font-size:10px;padding:1.5px 5px}}
 </style>
 </head>
 <body>
@@ -72,34 +83,33 @@
   <p class="sub">米曦 Mi Xi</p>
   <p class="tagline">Mi Xi의 모든 노래는 실화에서 시작되었습니다.<br>이 페이지는 전곡의 총 인덱스입니다 — 카드를 열면 그 곡의 페이지로 들어갑니다.</p>
 
-  <div class="vcard">
-    <div class="vhead"><span class="vname">《등불 아래 레이차》</span><span class="badge">다섯 번째 곡 · 미리듣기</span></div>
-    <p class="vnote">부제 「고마워요, 엄마」 — 어머니께 드리는 감사의 노래. 미리듣기 테이크 4개 중 Take 4가 현재 최선이며, 최종 버전을 제작 중입니다.</p>
-    <a class="pagelink" href="/music/mx005/ko/">이 곡의 테이크 인덱스 열기 →</a>
-  </div>
-
-  <div class="vcard">
-    <div class="vhead"><span class="vname">《換我們為妳點燈》</span><span class="badge">공개 중</span></div>
+    <h2 class="albumh">앨범 《光，慢慢成为路》 · 수록곡</h2>
+  <div class="albumgrid">
+<div class="vcard">
+    <div class="vhead"><span class="trackno">01</span><span class="vname">《換我們為妳點燈》</span><span class="badge">공개 중</span></div>
     <p class="vnote">삼고모(三姑)께 드리는 노래 — 어린 시절 우리를 위해 등불을 켜 주셨던 분. 이제 우리가 그분을 위해 등불을 켭니다.</p>
     <a class="pagelink" href="/gospel-wisdom/dian-deng/">이 곡의 페이지 열기 →</a>
   </div>
-
-  <div class="vcard">
-    <div class="vhead"><span class="vname">《愿你心里有光》</span><span class="badge">공개 중</span></div>
+<div class="vcard">
+    <div class="vhead"><span class="trackno">02</span><span class="vname">《愿你心里有光》</span><span class="badge">공개 중</span></div>
     <p class="vnote">생일 노래 — 당신의 마음에 빛이 있기를. 아무리 먼 길이라도 빛이 함께하기를.</p>
     <a class="pagelink" href="/gospel-wisdom/birthday-light/">이 곡의 페이지 열기 →</a>
   </div>
-
-  <div class="vcard">
-    <div class="vhead"><span class="vname">A Little More Like Light</span><span class="badge">공개 중</span></div>
+<div class="vcard">
+    <div class="vhead"><span class="trackno">03</span><span class="vname">A Little More Like Light</span><span class="badge">공개 중</span></div>
     <p class="vnote">Gospel Wisdom의 영어 주제가 — 하루하루 조금씩 더 빛을 닮아가기를.</p>
     <a class="pagelink" href="/gospel-wisdom/theme-en/">이 곡의 페이지 열기 →</a>
   </div>
-
-  <div class="vcard">
-    <div class="vhead"><span class="vname">《在你话语里，天亮了》</span><span class="badge">공개 중</span></div>
+<div class="vcard">
+    <div class="vhead"><span class="trackno">04</span><span class="vname">《在你话语里，天亮了》</span><span class="badge">공개 중</span></div>
     <p class="vnote">Gospel Wisdom의 중국어 주제가 — 당신의 말씀 안에서 날이 밝습니다.</p>
     <a class="pagelink" href="/gospel-wisdom/theme-zh/">이 곡의 페이지 열기 →</a>
+  </div>
+<div class="vcard">
+    <div class="vhead"><span class="trackno">05</span><span class="vname">《등불 아래 레이차》</span><span class="badge">다섯 번째 곡 · 정식 발매</span></div>
+    <p class="vnote">부제 「고마워요, 엄마」 — 어머니께 드리는 감사의 노래. 정식 발매: Take 4 최종본입니다 (2026-11-11).</p>
+    <a class="pagelink" href="/music/mx005/ko/">이 곡의 정식 발매 페이지 열기 →</a>
+  </div>
   </div>
 
   <div class="vcard">
@@ -117,7 +127,7 @@
   <footer>
     <div class="footmark"><a href="https://daddymi777.com/" aria-label="米老爸 Daddy Mi — 홈으로"><img src="/brand/mark-transparent.png" alt="米老爸 Daddy Mi"></a></div>
     <p class="disclosure">이 사이트의 노래는 Gospel Wisdom 팀이 기획하고 작사했으며, 음악과 보컬에는 AI가 보조로 사용되었습니다.</p>
-    <p class="credits">Mi Xi · 팀 협업 (Junxi &amp; Bowen)</p>
+    <p class="credits">Mi Xi · 팀 협업 (Junshi &amp; Bowen)</p>
     <a class="home" href="https://daddymi777.com/">홈으로</a>
     <p class="copy">© 2026 米老爸 Daddy Mi</p>
   </footer>

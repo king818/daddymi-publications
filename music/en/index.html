@@ -62,6 +62,17 @@
   .langbar .langsep{color:rgba(30,42,56,.35);font-size:12px}
 .langbar a{white-space:nowrap}
 @media (max-width:560px){.langbar{flex-wrap:nowrap;gap:4px;padding:14px 12px 0}.langbar a{font-size:12px;padding:4px 8px}.langbar .langsep{display:none}}
+
+  /* ——— album grid (boss ruling 2026-11-11): 4 tiles per row, sequential, no carousel ——— */
+  .albumh{text-align:center;font-size:19px;letter-spacing:.3em;font-weight:600;color:var(--gold-deep);margin:26px 0 2px}
+  .albumgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:16px 0 20px}
+  .albumgrid .vcard{margin:0;padding:14px 13px 12px;display:flex;flex-direction:column}
+  .albumgrid .vname{font-size:16px;line-height:1.45}
+  .albumgrid .vnote{font-size:12.8px;line-height:1.75;flex:1}
+  .albumgrid .badge{font-size:11px;padding:2px 8px}
+  .albumgrid .pagelink{font-size:12.8px;margin-top:8px}
+  .trackno{font-size:11px;letter-spacing:.14em;color:#fff;background:var(--ink-soft);border-radius:6px;padding:2px 7px;font-weight:700}
+  @media (max-width:560px){.albumgrid{gap:9px}.albumgrid .vcard{padding:11px 9px 10px;border-radius:13px}.albumgrid .vname{font-size:13px}.albumgrid .vnote{font-size:11px;line-height:1.65}.albumgrid .pagelink{font-size:11px}.albumgrid .badge{font-size:10px;padding:1.5px 6px;letter-spacing:.06em}.trackno{font-size:10px;padding:1.5px 5px}}
 </style>
 </head>
 <body>
@@ -72,34 +83,33 @@
   <p class="sub">米曦 Mi Xi</p>
   <p class="tagline">Every song Mi Xi sings began with a true story.<br>This is the index of them all — open any card to enter that song's own page.</p>
 
-  <div class="vcard">
-    <div class="vhead"><span class="vname">Lei Cha Beneath the Lamp</span><span class="badge">Fifth song · Preview</span></div>
-    <p class="vnote">Subtitled "Thank You, Mom" — a Thanksgiving song for a mother. Four preview takes so far; Take 4 is the current best, and the final version is in production.</p>
-    <a class="pagelink" href="/music/mx005/en/">Open the take index for this song →</a>
-  </div>
-
-  <div class="vcard">
-    <div class="vhead"><span class="vname">《換我們為妳點燈》</span><span class="badge">Released</span></div>
+    <h2 class="albumh">Album — The Light We Carry · Tracks</h2>
+  <div class="albumgrid">
+<div class="vcard">
+    <div class="vhead"><span class="trackno">01</span><span class="vname">《換我們為妳點燈》</span><span class="badge">Released</span></div>
     <p class="vnote">A song for Sangu — in childhood she lit the lamp for us; now it is our turn to light it for her.</p>
     <a class="pagelink" href="/gospel-wisdom/dian-deng/">Open this song's page →</a>
   </div>
-
-  <div class="vcard">
-    <div class="vhead"><span class="vname">《愿你心里有光》</span><span class="badge">Released</span></div>
+<div class="vcard">
+    <div class="vhead"><span class="trackno">02</span><span class="vname">《愿你心里有光》</span><span class="badge">Released</span></div>
     <p class="vnote">A birthday song — may there be light in your heart, and may the light keep you company however far the road goes.</p>
     <a class="pagelink" href="/gospel-wisdom/birthday-light/">Open this song's page →</a>
   </div>
-
-  <div class="vcard">
-    <div class="vhead"><span class="vname">A Little More Like Light</span><span class="badge">Released</span></div>
+<div class="vcard">
+    <div class="vhead"><span class="trackno">03</span><span class="vname">A Little More Like Light</span><span class="badge">Released</span></div>
     <p class="vnote">The English theme song of Gospel Wisdom — may I become, day by day, a little more like light.</p>
     <a class="pagelink" href="/gospel-wisdom/theme-en/">Open this song's page →</a>
   </div>
-
-  <div class="vcard">
-    <div class="vhead"><span class="vname">《在你话语里，天亮了》</span><span class="badge">Released</span></div>
+<div class="vcard">
+    <div class="vhead"><span class="trackno">04</span><span class="vname">《在你话语里，天亮了》</span><span class="badge">Released</span></div>
     <p class="vnote">The Chinese theme song of Gospel Wisdom — in Your words, the day breaks.</p>
     <a class="pagelink" href="/gospel-wisdom/theme-zh/">Open this song's page →</a>
+  </div>
+<div class="vcard">
+    <div class="vhead"><span class="trackno">05</span><span class="vname">Lei Cha Beneath the Lamp</span><span class="badge">Fifth song · Released</span></div>
+    <p class="vnote">Subtitled "Thank You, Mom" — a Thanksgiving song for a mother. Officially released: Take 4 is the final version (2026-11-11).</p>
+    <a class="pagelink" href="/music/mx005/en/">Open the official release page →</a>
+  </div>
   </div>
 
   <div class="vcard">
@@ -117,7 +127,7 @@
   <footer>
     <div class="footmark"><a href="https://daddymi777.com/" aria-label="Daddy Mi — Back to home"><img src="/brand/mark-transparent.png" alt="Daddy Mi 米老爸"></a></div>
     <p class="disclosure">The songs on this site are written and produced by the Gospel Wisdom team, with AI-assisted music and vocals.</p>
-    <p class="credits">Mi Xi · Team collaboration (Junxi &amp; Bowen)</p>
+    <p class="credits">Mi Xi · Team collaboration (Junshi &amp; Bowen)</p>
     <a class="home" href="https://daddymi777.com/">H O M E</a>
     <p class="copy">© 2026 米老爸 Daddy Mi</p>
   </footer>
