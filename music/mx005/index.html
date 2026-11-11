@@ -19,59 +19,61 @@
 <link rel="apple-touch-icon" href="/brand/apple-touch-icon.png">
 <style>
   :root{
-    --ink:#503339; --ink-soft:#7a5560; --rose:#b4526b; --rose-deep:#96435a;
-    --gold:#c9a24b; --paper:#fff9f4; --card:rgba(255,255,255,.66);
+    /* Ink & Light palette, aligned with portal.css (boss 2026-11-11) */
+    --ink:#1E2A38; --ink-soft:#45536A; --muted:#7E8698; --gold:#C9A227;
+    --gold-deep:#8A6D1F; --gold-soft:#E9D48A; --rice:#F8F4EA; --rice-deep:#F3EDDD;
+    --hairline:#E0D7BE; --paper:#FFFDF6; --card:rgba(255,255,255,.66);
   }
   *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
   body{
     font-family:"Songti SC","STSong","Noto Serif SC","Noto Serif CJK SC",serif;
     color:var(--ink);
     background:
-      radial-gradient(120% 60% at 50% -6%, #ffe9df 0%, rgba(255,233,223,0) 55%),
-      radial-gradient(90% 45% at 88% 22%, rgba(255,205,190,.5) 0%, rgba(255,205,190,0) 60%),
-      linear-gradient(180deg,#fdf1ec 0%,#fbe7e0 34%,#f9ded6 68%,#f6d5cc 100%);
+      radial-gradient(120% 60% at 50% -6%, rgba(233,212,138,.55) 0%, rgba(233,212,138,0) 55%),
+      radial-gradient(90% 45% at 88% 22%, rgba(233,212,138,.30) 0%, rgba(233,212,138,0) 60%),
+      linear-gradient(180deg,#F8F4EA 0%,#F8F4EA 55%,#F3EDDD 100%);
     min-height:100vh;
   }
   .wm{position:fixed;inset:-40%;z-index:60;pointer-events:none;overflow:hidden;
       transform:rotate(-24deg);display:flex;flex-wrap:wrap;align-content:flex-start}
-  .wm span{font-size:44px;letter-spacing:.35em;color:rgba(150,67,90,.075);
+  .wm span{font-size:44px;letter-spacing:.35em;color:rgba(30,42,56,.075);
            padding:64px 30px;white-space:nowrap;font-weight:600}
   .wrap{max-width:640px;margin:0 auto;padding:34px 22px 30px;position:relative;z-index:1}
   .brandmark{text-align:center;margin:0 0 6px}
   .brandmark img{width:68px;height:68px}
   .footmark{text-align:center;margin:0 0 10px}
   .footmark img{width:46px;height:46px}
-  h1{font-size:30px;text-align:center;color:var(--rose-deep);letter-spacing:.06em;margin:10px 0 2px}
+  h1{font-size:30px;text-align:center;color:var(--gold-deep);letter-spacing:.06em;margin:10px 0 2px}
   .sub{text-align:center;font-size:17px;color:var(--ink-soft);letter-spacing:.28em;margin-bottom:6px}
   .tagline{text-align:center;font-size:14.5px;color:var(--ink-soft);line-height:1.9;margin:10px 12px 4px}
-  .preview-tag{display:block;width:fit-content;margin:14px auto 4px;padding:5px 16px;border:1.4px solid var(--rose);
-    border-radius:999px;color:var(--rose-deep);font-size:13.5px;letter-spacing:.22em;background:rgba(255,255,255,.5)}
-  .vcard{background:var(--card);border:1px solid rgba(180,82,107,.25);border-radius:16px;
-    padding:18px 18px 14px;margin:18px 0;box-shadow:0 6px 22px rgba(150,67,90,.08)}
+  .preview-tag{display:block;width:fit-content;margin:14px auto 4px;padding:5px 16px;border:1.4px solid var(--gold);
+    border-radius:999px;color:var(--gold-deep);font-size:13.5px;letter-spacing:.22em;background:rgba(255,255,255,.5)}
+  .vcard{background:var(--card);border:1px solid rgba(201,162,39,.25);border-radius:16px;
+    padding:18px 18px 14px;margin:18px 0;box-shadow:0 6px 22px rgba(30,42,56,.08)}
   .vhead{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 12px;margin-bottom:6px}
-  .vname{font-size:19px;color:var(--rose-deep);font-weight:700;letter-spacing:.04em}
+  .vname{font-size:19px;color:var(--gold-deep);font-weight:700;letter-spacing:.04em}
   .vdate{font-size:13px;color:var(--ink-soft);letter-spacing:.12em}
   .vdur{font-size:13px;color:var(--ink-soft)}
-  .badge{font-size:12px;color:#fff;background:var(--rose);border-radius:999px;padding:2.5px 10px;letter-spacing:.14em}
-  .badge.dim{background:#a08b90}
+  .badge{font-size:12px;color:#fff;background:var(--gold);border-radius:999px;padding:2.5px 10px;letter-spacing:.14em}
+  .badge.dim{background:#7E8698}
   .vnote{font-size:14.5px;line-height:1.85;color:var(--ink);margin:4px 0 10px}
-  .vnote .warn{color:var(--rose-deep)}
+  .vnote .warn{color:var(--gold-deep)}
   audio{width:100%;height:40px}
-  .pagelink{display:inline-block;margin-top:10px;color:var(--rose-deep);font-size:14.5px;
-    text-decoration:none;border-bottom:1px solid var(--rose);padding-bottom:1px;letter-spacing:.08em}
+  .pagelink{display:inline-block;margin-top:10px;color:var(--gold-deep);font-size:14.5px;
+    text-decoration:none;border-bottom:1px solid var(--gold);padding-bottom:1px;letter-spacing:.08em}
   footer{margin-top:30px;text-align:center}
   .disclosure{font-size:12.5px;line-height:1.9;color:var(--ink-soft);margin-bottom:14px}
   .credits{font-size:13px;color:var(--ink-soft);letter-spacing:.1em;margin-bottom:10px}
-  .home{display:inline-block;color:var(--rose-deep);text-decoration:none;font-size:14.5px;letter-spacing:.3em;margin-bottom:10px}
+  .home{display:inline-block;color:var(--gold-deep);text-decoration:none;font-size:14.5px;letter-spacing:.3em;margin-bottom:10px}
   .copy{font-size:12.5px;color:var(--ink-soft);letter-spacing:.14em}
   .langbar{display:flex;justify-content:flex-end;align-items:center;gap:7px;max-width:640px;margin:0 auto;padding:16px 22px 0;position:relative;z-index:30;flex-wrap:wrap}
-  .langbar a{font-size:13.5px;padding:5px 13px;border-radius:999px;color:var(--ink-soft);border:1px solid rgba(180,82,107,.35);text-decoration:none;background:rgba(255,255,255,.5)}
-  .langbar a.active{background:var(--rose);color:#fff;border-color:var(--rose);font-weight:700}
-  .langbar .langsep{color:rgba(150,67,90,.35);font-size:12px}
+  .langbar a{font-size:13.5px;padding:5px 13px;border-radius:999px;color:var(--ink-soft);border:1px solid rgba(201,162,39,.35);text-decoration:none;background:rgba(255,255,255,.5)}
+  .langbar a.active{background:var(--gold);color:#fff;border-color:var(--gold);font-weight:700}
+  .langbar .langsep{color:rgba(30,42,56,.35);font-size:12px}
 /*mx005-nav-fix-2026-11-10*/
 .langbar a{white-space:nowrap}
 .backbar{max-width:640px;margin:0 auto;padding:10px 22px 0;position:relative;z-index:30}
-.backbar a{display:inline-block;font-size:13.5px;padding:5px 13px;border-radius:999px;color:var(--ink-soft);border:1px solid rgba(180,82,107,.35);text-decoration:none;background:rgba(255,255,255,.55)}
+.backbar a{display:inline-block;font-size:13.5px;padding:5px 13px;border-radius:999px;color:var(--ink-soft);border:1px solid rgba(201,162,39,.35);text-decoration:none;background:rgba(255,255,255,.55)}
 @media (max-width:560px){.langbar{flex-wrap:nowrap;gap:4px;padding:14px 12px 0}.langbar a{font-size:12px;padding:4px 8px}.langbar .langsep{display:none}.backbar{padding:10px 12px 0}}
 </style>
 </head>
