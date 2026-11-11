@@ -18,18 +18,30 @@
 <link rel="icon" type="image/png" sizes="16x16" href="/brand/favicon-16.png">
 <link rel="apple-touch-icon" href="/brand/apple-touch-icon.png">
 <style>
+  /* ============================================================
+     Color system — Ink & Light （水墨之光）, aligned with the main site.
+     BASE tokens mirror portal.css (:root) — keep in sync with it.
+     SEASONAL ACCENTS （感恩节 Thanksgiving): change ONLY the
+     --season-* block below when the season changes.
+     ============================================================ */
   :root{
-    --ink:#503339; --ink-soft:#7a5560; --rose:#b4526b; --rose-deep:#96435a;
-    --gold:#c9a24b; --paper:#fff9f4; --card:rgba(255,255,255,.66);
+    /* — base: Ink & Light (from portal.css) — */
+    --ink:#1E2A38; --ink-soft:#45536A; --muted:#7E8698;
+    --paper:#FFFDF6; --rice:#F8F4EA; --rice-deep:#F3EDDD;
+    --gold:#C9A227; --gold-soft:#E9D48A; --gold-text:#8A6D1F;
+    --hairline:#E0D7BE; --card:rgba(255,255,255,.66);
+    /* — seasonal accents: Thanksgiving （秋金 / 南瓜橙 / 深蔓越莓红） — */
+    --season:#C05621; --season-deep:#9A3B12; --season-soft:rgba(192,86,33,.35);
+    --season-tint:#FBEEDC; --season-glow:rgba(233,212,138,.55);
   }
   *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
   body{
     font-family:"Noto Serif KR","Nanum Myeongjo","Batang",Georgia,serif;
     color:var(--ink);
     background:
-      radial-gradient(120% 60% at 50% -6%, #ffe9df 0%, rgba(255,233,223,0) 55%),
-      radial-gradient(90% 45% at 88% 22%, rgba(255,205,190,.5) 0%, rgba(255,205,190,0) 60%),
-      linear-gradient(180deg,#fdf1ec 0%,#fbe7e0 34%,#f9ded6 68%,#f6d5cc 100%);
+      radial-gradient(120% 60% at 50% -6%, var(--season-glow) 0%, rgba(233,212,138,0) 55%),
+      radial-gradient(90% 45% at 88% 22%, rgba(233,212,138,.30) 0%, rgba(233,212,138,0) 60%),
+      linear-gradient(180deg,#FFFDF6 0%,#FDFBF4 34%,#F8F4EA 68%,#F3EDDD 100%);
     min-height:100vh;
   }
   .wrap{max-width:640px;margin:0 auto;padding:30px 22px 30px;position:relative;z-index:1}
@@ -38,67 +50,71 @@
   .footmark{text-align:center;margin:0 0 10px}
   .footmark img{width:46px;height:46px}
   .dryrun{text-align:center;margin:4px 0 2px}
-  .dryrun span{display:inline-block;padding:6px 18px;border:1.5px solid var(--rose);color:#fff;
-    background:var(--rose);border-radius:999px;font-size:14px;letter-spacing:.2em;font-weight:700;
-    box-shadow:0 6px 18px rgba(180,82,107,.28)}
-  h1{font-size:31px;text-align:center;color:#5b2f3a;letter-spacing:.06em;font-weight:600;margin:20px 0 6px;line-height:1.35}
-  .sub{text-align:center;font-size:17.5px;color:var(--rose-deep);letter-spacing:.24em;margin-bottom:6px}
-  .lead{text-align:center;font-size:15.5px;color:#63444c;line-height:2.0;margin:16px 6px 4px}
-  .lead b{color:var(--rose-deep);font-weight:600}
+  .dryrun span{display:inline-block;padding:6px 18px;border:1.5px solid var(--season);color:#fff;
+    background:linear-gradient(180deg,var(--season) 0%,var(--season-deep) 100%);border-radius:999px;font-size:14px;letter-spacing:.2em;font-weight:700;
+    box-shadow:0 6px 18px rgba(154,59,18,.28)}
+  h1{font-size:31px;text-align:center;color:var(--ink);letter-spacing:.06em;font-weight:600;margin:20px 0 6px;line-height:1.35}
+  .sub{text-align:center;font-size:17.5px;color:var(--gold-text);letter-spacing:.24em;margin-bottom:6px}
+  .lead{text-align:center;font-size:15.5px;color:var(--ink-soft);line-height:2.0;margin:16px 6px 4px}
+  .lead b{color:var(--gold-text);font-weight:600}
   .rule{width:64px;height:2px;background:linear-gradient(90deg,transparent,var(--gold),transparent);margin:24px auto 0;border-radius:2px}
-  h2{text-align:center;font-size:19px;letter-spacing:.3em;font-weight:600;color:#5b2f3a;margin:34px 0 4px}
-  .vcard{background:var(--card);border:1px solid rgba(180,82,107,.25);border-radius:16px;
-    padding:18px 18px 14px;margin:16px 0;box-shadow:0 6px 22px rgba(150,67,90,.08)}
-  .vname{font-size:19px;color:var(--rose-deep);font-weight:700;letter-spacing:.04em;margin-bottom:4px}
+  h2{text-align:center;font-size:19px;letter-spacing:.3em;font-weight:600;color:var(--ink);margin:34px 0 4px}
+  .occasions h2{color:var(--season-deep)}
+  .vcard{background:var(--card);border:1px solid var(--hairline);border-radius:16px;
+    padding:18px 18px 14px;margin:16px 0;box-shadow:0 6px 22px rgba(30,42,56,.07)}
+  .vname{font-size:19px;color:var(--gold-text);font-weight:700;letter-spacing:.04em;margin-bottom:4px}
   .vnote{font-size:14.5px;line-height:1.85;color:var(--ink);margin:4px 0 10px}
   .vcard audio{width:100%;margin:2px 0 8px}
-  .pagelink{display:inline-block;margin-top:2px;color:var(--rose-deep);font-size:14.5px;
-    text-decoration:none;border-bottom:1px solid var(--rose);padding-bottom:1px;letter-spacing:.08em}
+  .pagelink{display:inline-block;margin-top:2px;color:var(--gold-text);font-size:14.5px;
+    text-decoration:none;border-bottom:1px solid var(--gold);padding-bottom:1px;letter-spacing:.08em}
+  .occasions .vcard{border-color:var(--season-soft);background:linear-gradient(180deg,var(--season-tint) 0%,var(--card) 78%)}
+  .occasions .vname{color:var(--season-deep)}
+  .occasions .pagelink{color:var(--season-deep);border-bottom-color:var(--season)}
   .intro{text-align:center;font-size:14.5px;color:var(--ink-soft);line-height:1.9;margin:6px 8px 4px}
   ol.steps{list-style:none;margin:14px 0 6px;counter-reset:s}
   ol.steps li{counter-increment:s;display:flex;align-items:center;gap:14px;background:var(--card);
-    border:1px solid rgba(180,82,107,.2);border-radius:14px;padding:12px 16px;margin:9px 0;font-size:15.5px;line-height:1.6}
+    border:1px solid var(--hairline);border-radius:14px;padding:12px 16px;margin:9px 0;font-size:15.5px;line-height:1.6}
   ol.steps li::before{content:counter(s);flex:0 0 auto;width:30px;height:30px;border-radius:50%;
-    background:var(--rose);color:#fff;font-size:14px;font-weight:700;display:flex;align-items:center;justify-content:center}
-  .plain{font-size:15px;line-height:1.95;color:#63444c;margin:14px 4px 0;text-align:center}
-  .plain b{color:var(--rose-deep);font-weight:600}
+    background:var(--gold);color:#fff;font-size:14px;font-weight:700;display:flex;align-items:center;justify-content:center}
+  .plain{font-size:15px;line-height:1.95;color:var(--ink-soft);margin:14px 4px 0;text-align:center}
+  .plain b{color:var(--gold-text);font-weight:600}
   .tier{display:flex;gap:16px;align-items:flex-start}
-  .price{flex:0 0 auto;min-width:72px;font-size:24px;font-weight:700;color:var(--rose-deep);letter-spacing:.02em;font-family:Georgia,serif}
-  .tname{font-size:17.5px;color:#5b2f3a;font-weight:700;margin:2px 0 4px;letter-spacing:.03em}
+  .price{flex:0 0 auto;min-width:72px;font-size:24px;font-weight:700;color:var(--gold-text);letter-spacing:.02em;font-family:Georgia,serif}
+  .tname{font-size:17.5px;color:var(--ink);font-weight:700;margin:2px 0 4px;letter-spacing:.03em}
   .tdesc{font-size:14.5px;line-height:1.8;color:var(--ink)}
   .note{font-size:14px;line-height:1.85;color:var(--ink);text-align:center;margin:12px 6px 0}
   .small{font-size:12.5px;line-height:1.85;color:var(--ink-soft);text-align:center;margin:10px 10px 0}
-  form.order{background:var(--card);border:1px solid rgba(180,82,107,.25);border-radius:18px;
-    padding:20px 18px 18px;margin:16px 0 6px;box-shadow:0 10px 28px rgba(150,67,90,.1)}
+  form.order{background:var(--card);border:1px solid var(--hairline);border-radius:18px;
+    padding:20px 18px 18px;margin:16px 0 6px;box-shadow:0 10px 28px rgba(30,42,56,.09)}
   .field{margin:0 0 14px}
-  .field label{display:block;font-size:14.5px;color:#5b2f3a;font-weight:600;margin-bottom:6px;letter-spacing:.04em}
-  .field .req{font-size:12px;color:var(--rose);font-weight:400;margin-left:6px}
+  .field label{display:block;font-size:14.5px;color:var(--ink);font-weight:600;margin-bottom:6px;letter-spacing:.04em}
+  .field .req{font-size:12px;color:var(--season-deep);font-weight:400;margin-left:6px}
   .field input[type=text],.field input[type=email],.field input[type=date],.field select,.field textarea{
     width:100%;font:inherit;font-size:15px;color:var(--ink);background:rgba(255,255,255,.85);
-    border:1px solid rgba(180,82,107,.35);border-radius:10px;padding:10px 12px}
+    border:1px solid var(--hairline);border-radius:10px;padding:10px 12px}
   .field textarea{min-height:140px;line-height:1.7;resize:vertical}
-  .field input:focus,.field select:focus,.field textarea:focus{outline:2px solid rgba(180,82,107,.35);border-color:var(--rose)}
+  .field input:focus,.field select:focus,.field textarea:focus{outline:2px solid rgba(201,162,39,.35);border-color:var(--gold)}
   .check{display:flex;gap:10px;align-items:flex-start;font-size:14.5px;line-height:1.7;margin:2px 0 16px;color:var(--ink)}
-  .check input{margin-top:5px;width:17px;height:17px;accent-color:var(--rose)}
+  .check input{margin-top:5px;width:17px;height:17px;accent-color:var(--gold)}
   .check small{display:block;color:var(--ink-soft);font-size:12.5px}
   button.send{display:block;width:100%;border:none;cursor:pointer;font:inherit;font-size:16px;font-weight:700;
     letter-spacing:.14em;color:#fff;padding:13px 16px;border-radius:999px;
-    background:radial-gradient(circle at 32% 28%, #d97b93, var(--rose) 58%, var(--rose-deep));
-    box-shadow:0 8px 20px rgba(180,82,107,.32)}
+    background:radial-gradient(circle at 32% 28%, var(--season) 0%, var(--season-deep) 62%);
+    box-shadow:0 8px 20px rgba(154,59,18,.30)}
   .confirm{display:none;margin:14px 0 0;padding:14px 16px;border-radius:14px;background:rgba(255,255,255,.85);
-    border:1px solid var(--gold);font-size:15px;line-height:1.85;color:#5b2f3a;text-align:center}
+    border:1px solid var(--gold);font-size:15px;line-height:1.85;color:var(--ink);text-align:center}
   .confirm.show{display:block}
   .confirm small{display:block;margin-top:6px;font-size:12.5px;color:var(--ink-soft)}
-  .confirm a,.support a{color:var(--rose-deep)}
+  .confirm a,.support a{color:var(--gold-text)}
   footer{margin-top:34px;text-align:center}
   .support{font-size:14px;color:var(--ink);letter-spacing:.04em;margin-bottom:12px}
   .disclosure{font-size:12.5px;line-height:1.9;color:var(--ink-soft);margin-bottom:14px}
-  .home{display:inline-block;color:var(--rose-deep);text-decoration:none;font-size:14.5px;letter-spacing:.3em;margin:0 10px 10px}
+  .home{display:inline-block;color:var(--gold-text);text-decoration:none;font-size:14.5px;letter-spacing:.3em;margin:0 10px 10px}
   .copy{font-size:12.5px;color:var(--ink-soft);letter-spacing:.14em}
   .langbar{display:flex;justify-content:flex-end;align-items:center;gap:7px;max-width:640px;margin:0 auto;padding:16px 22px 0;position:relative;z-index:30;flex-wrap:wrap}
-  .langbar a{font-size:13.5px;padding:5px 13px;border-radius:999px;color:var(--ink-soft);border:1px solid rgba(180,82,107,.35);text-decoration:none;background:rgba(255,255,255,.5)}
-  .langbar a.active{background:var(--rose);color:#fff;border-color:var(--rose);font-weight:700}
-  .langbar .langsep{color:rgba(150,67,90,.35);font-size:12px}
+  .langbar a{font-size:13.5px;padding:5px 13px;border-radius:999px;color:var(--ink-soft);border:1px solid var(--hairline);text-decoration:none;background:rgba(255,255,255,.5)}
+  .langbar a.active{background:var(--gold);color:#fff;border-color:var(--gold);font-weight:700}
+  .langbar .langsep{color:rgba(69,83,106,.35);font-size:12px}
 .langbar a{white-space:nowrap}
 @media (max-width:560px){.langbar{flex-wrap:nowrap;gap:4px;padding:14px 12px 0}.langbar a{font-size:12px;padding:4px 8px}.langbar .langsep{display:none}h1{font-size:26px}.price{min-width:60px;font-size:21px}}
 </style>
@@ -153,7 +169,7 @@
 
   <h2 id="reserve">노래 예약하기</h2>
   <p class="intro">아래 내용을 작성하시면 보내실 예약 이메일을 만들어 드립니다. 여기서는 어떤 비용도 청구되지 않습니다.</p>
-  <form class="order" id="orderForm" method="get" action="mailto:edgegaming@gmail.com">
+  <form class="order" id="orderForm" method="get" action="mailto:support@daddymi777.com">
     <div class="field">
       <label for="occasion">행사</label>
       <select id="occasion" name="occasion">
@@ -207,12 +223,12 @@
       <input type="text" id="yourname" name="name" autocomplete="name">
     </div>
     <button type="submit" class="send">예약 이메일 만들기</button>
-    <div class="confirm" id="confirm" role="status" aria-live="polite">감사합니다 — 예약 초안이 이메일 앱에 준비되었습니다. 보내 주시면 예약금 결제를 위해 답장드리겠습니다. 결제는 곧 열립니다.<small>이메일 앱이 열리지 않았다면, 다음 주소로 직접 보내 주세요: <a href="mailto:edgegaming@gmail.com">edgegaming@gmail.com</a></small></div>
+    <div class="confirm" id="confirm" role="status" aria-live="polite">감사합니다 — 예약 초안이 이메일 앱에 준비되었습니다. 보내 주시면 예약금 결제를 위해 답장드리겠습니다. 결제는 곧 열립니다.<small>이메일 앱이 열리지 않았다면, 다음 주소로 직접 보내 주세요: <a href="mailto:support@daddymi777.com">support@daddymi777.com</a></small></div>
   </form>
 
   <footer>
     <div class="footmark"><a href="/" aria-label="米老爸 Daddy Mi — 홈으로"><img src="/brand/mark-transparent.png" alt="米老爸 Daddy Mi"></a></div>
-    <p class="support">문의: <a href="mailto:edgegaming@gmail.com">edgegaming@gmail.com</a></p>
+    <p class="support">문의: <a href="mailto:support@daddymi777.com">support@daddymi777.com</a></p>
     <p class="disclosure">이 사이트의 노래는 Gospel Wisdom 팀이 기획하고 작사했으며, 음악과 보컬에는 AI가 보조로 사용되었습니다.</p>
     <a class="home" href="/music/">전 곡 보 기</a>
     <a class="home" href="/">홈으로</a>
@@ -221,7 +237,7 @@
 </div>
 <script>
 (function(){
-  var MAIL = "edgegaming@gmail.com", L = {"intro": "안녕하세요. 맞춤 노래를 예약하고 싶습니다.", "occ": "행사", "rcpt": "받는 분 이름", "story": "당신의 이야기", "slang": "노래 언어", "tier": "단계", "voice": "제 목소리로 직접 불러 보고 싶어요", "email": "이메일", "name": "이름", "yes": "예", "no": "아니요"};
+  var MAIL = "support@daddymi777.com", L = {"intro": "안녕하세요. 맞춤 노래를 예약하고 싶습니다.", "occ": "행사", "rcpt": "받는 분 이름", "story": "당신의 이야기", "slang": "노래 언어", "tier": "단계", "voice": "제 목소리로 직접 불러 보고 싶어요", "email": "이메일", "name": "이름", "yes": "예", "no": "아니요"};
   var form = document.getElementById('orderForm'), box = document.getElementById('confirm');
   form.addEventListener('submit', function(e){
     e.preventDefault();
