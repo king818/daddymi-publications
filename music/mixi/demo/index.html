@@ -35,7 +35,9 @@
            padding:70px 34px;white-space:nowrap;font-weight:600}
   .wrap{max-width:680px;margin:0 auto;padding:34px 22px 60px;position:relative;z-index:1}
   header{text-align:center;margin-bottom:8px}
-  header img.mark{width:64px;height:64px;object-fit:contain}
+  .brandline{display:flex;align-items:center;justify-content:center;gap:9px;margin:2px 0}
+  .brandline img.mark{height:28px;width:28px;object-fit:contain}
+  .brandline .bname{font-size:15px;letter-spacing:.16em;color:var(--gold-deep)}
   h1{font-size:30px;letter-spacing:.06em;margin-top:10px}
   .sub{color:var(--ink-soft);font-size:16px;margin-top:8px;line-height:1.7}
   .badge{display:inline-block;margin-top:14px;padding:5px 16px;border:1px solid var(--gold);
@@ -62,7 +64,7 @@
 </div>
 <div class="wrap">
   <header>
-    <img class="mark" src="/brand/mark-transparent.png" alt="米老爸 Daddy Mi">
+    <div class="brandline"><img class="mark" src="/brand/mark-transparent.png" alt="米老爸 Daddy Mi"><span class="bname">米老爸 Daddy Mi</span></div>
     <h1>米曦 Mi Xi · 五语演示曲</h1>
     <p class="sub">同一首《光》，五种语言，一把声音。<br>为定制音乐客户准备的能力演示 —— 客户选什么语言，她就唱什么语言。</p>
     <div class="badge">内部演示 · DEMO</div>
@@ -142,7 +144,8 @@ Let this love keep glowing bright</div>
   <footer>
     <div class="rule"></div>
     制作：YuE 2（YuE2-3B · Q4_0 GGUF）· audio.cpp · MSI · seed 42 · 2026-11-11<br>
-    本页为内部审听版，未链接至任何公开导航。音乐授权路径裁示前，不对外发布、不作商业使用。
+    本页为内部审听版，未链接至任何公开导航。音乐授权路径裁示前，不对外发布、不作商业使用。<br>
+    © 2026 米老爸 Daddy Mi
   </footer>
 </div>
 </body>
