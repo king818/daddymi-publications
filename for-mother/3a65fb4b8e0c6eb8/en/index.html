@@ -17,41 +17,45 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/brand/favicon-32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/brand/favicon-16.png">
 <link rel="apple-touch-icon" href="/brand/apple-touch-icon.png">
-<link rel="stylesheet" href="/for-mother/3a65fb4b8e0c6eb8/mother-love.css">
+<link rel="stylesheet" href="/for-mother/3a65fb4b8e0c6eb8/mother-love-v3.css">
 </head>
 <body>
+<!-- ===== CURTAIN: press the big button -> the curtain opens -> the song begins -> the page presents itself, station by station (boss ruling 2026-11-12) ===== -->
+<div id="curtain" aria-label="Begin">
+  <div class="cur-backdrop"></div>
+  <div class="cur-glow" aria-hidden="true"></div>
+  <div class="cur-panel cur-left" aria-hidden="true"></div>
+  <div class="cur-panel cur-right" aria-hidden="true"></div>
+  <div class="cur-valance" aria-hidden="true"></div>
+  <div class="cur-center">
+    <img class="cur-mark" src="/brand/mark-transparent.png" alt="">
+    <div class="cur-title">Lei Cha Beneath the Lamp</div>
+    <div class="cur-sub">Thank You, Mom</div>
+    <div class="cur-for">A Song of Gratitude, for Mother</div>
+    <button id="startBtn" type="button" aria-label="Begin"><span class="cur-play" aria-hidden="true">▶</span>Begin</button>
+    <div class="cur-hint">Tap once — the curtain opens, the song begins,<br>and the page will gently walk along with you</div>
+  </div>
+</div>
+
 <div class="langbar" role="group" aria-label="Language"><a href="https://daddymi777.com/for-mother/3a65fb4b8e0c6eb8/">简体</a><span class="langsep">|</span><a href="https://daddymi777.com/for-mother/3a65fb4b8e0c6eb8/tc/">繁體</a><span class="langsep">|</span><a href="https://daddymi777.com/for-mother/3a65fb4b8e0c6eb8/en/" class="active" aria-current="true">English</a><span class="langsep">|</span><a href="https://daddymi777.com/for-mother/3a65fb4b8e0c6eb8/ja/">日本語</a><span class="langsep">|</span><a href="https://daddymi777.com/for-mother/3a65fb4b8e0c6eb8/ko/">한국어</a></div>
 <div class="backbar"><a href="https://daddymi777.com/">← Back to Home</a><a href="/music/mx005/en/">Official song page →</a></div>
 <div class="wrap">
   <div class="sitehead"><a href="https://daddymi777.com/"><img src="/brand/mark-transparent.png" alt="米老爸 Daddy Mi"><span>米老爸 Daddy Mi</span></a></div>
-  <div class="hero">
+  <div class="hero" id="stHero">
     <figure class="heroimg"><img src="/for-mother/3a65fb4b8e0c6eb8/hero-s7b-v2.jpg" alt="Mi Xi · Morning Light"></figure>
     <div><span class="pill">FOR MOTHER · A SONG OF GRATITUDE</span></div>
     <h1>Lei Cha Beneath the Lamp</h1>
     <div class="subtitle">Thank You, Mom</div>
     <div class="singer">Mi Xi</div>
   </div>
-  <section class="dedicate">
+  <section class="dedicate reveal" id="stDedicate">
     <h2>For Duanduan's Mother</h2>
     <div class="drule"></div>
     <p>This song is sung to you by Duanduan and family, together. The gratitude that is so hard to say out loud is all here, in these few minutes — thank you for a lifetime of meals; thank you for folding your love, spoon by spoon, into every bowl of lei cha and every dinner table.</p>
     <div class="blessing"><p>May you sleep peacefully at night — as peacefully as you once sang us to sleep.</p><p>May the pain in your body slowly fade, and your strength return, a little more each day.</p><p>May there always be light in your heart — like the lamp in that old hometown kitchen: warm, and softly bright.</p><p>May you never have to worry about anything again: the meals will be cooked, the lamp will be kept, and the family — the family has us now.</p><p>All you need to do is rest easy, eat well, and sleep well.</p><p>We are right here beside you. Always.</p></div>
   </section>
-  <section class="storysec">
-    <h3>The Story Behind This Song</h3>
-    <div class="drule"></div>
-    <p>It begins in a hometown kitchen. Until Duanduan was fourteen, every meal in that house was cooked on an old-fashioned stove — firewood crackling, white steam rising from the iron wok, the stove’s warmth filling the whole morning. Mother stood at that stove for half a lifetime: porridge at dawn, lunch at noon, a generous dinner every night — and she was always the last one to sit down.</p>
-    <p>Under the lamp is the sight of her making lei cha. Peanuts, sesame and tea leaves go into the mortar, ground round and round, slowly, until the fragrance rises; the tea is mixed with rice and served with a plate of greens. That is this family’s own taste — the sound of a mother grinding her love into the days.</p>
-    <p>Later, the family moved to Tianhe, Guangzhou. The kitchen changed; the old stove gave way to gas. But Mother’s cooking never changed, not for a single day. Now the daughter is grown, and there is one sentence she has kept in her heart for a long time:</p>
-    <p class="storyquote">“Don’t worry. I’ve grown up. This family has me now — lean on me.”</p>
-  </section>
-  <!-- ===== VIDEO: self-hosted MP4 is the primary player (mother is in Guangzhou; YouTube is unreachable there). The YouTube Unlisted copy htNjC_xlI2w is kept for the record only and is NOT embedded. ===== -->
-  <section class="videosec">
-    <h3>The Film</h3>
-    <div class="drule"></div>
-    <div class="videowrap"><video id="mvvideo" controls preload="metadata" playsinline poster="/for-mother/3a65fb4b8e0c6eb8/mtv-poster.jpg"><source src="/for-mother/3a65fb4b8e0c6eb8/mtv-private.mp4" type="video/mp4"></video></div>
-    <p class="videocap">A Little Music Film for “Lei Cha Under the Lamp” · Mi Xi</p>
-  </section>
+  
+  
   <div class="rule"></div>
   <div class="player">
     <div class="prow">
@@ -132,62 +136,299 @@
 <div class="line" data-t="249.98">The love you gave us, we will always remember</div>
   </div>
 
-  <div class="creditsbox">Lei Cha Under the Lamp — Thank You, Mom<br>Sung by Mi Xi (AI virtual singer)<br>Lyrics: Team collaboration (with Junshi &amp; Bowen)<br>Music: AI-assisted, reviewed by the team<br>Music production: Daddy Mi Music</div>
+  <!-- ===== VIDEO: self-hosted MP4 is the primary player (mother is in Guangzhou). ===== -->
+  <section class="videosec reveal" id="stVideo">
+    <h3>The Film</h3>
+    <div class="drule"></div>
+    <div class="videowrap"><video id="mvvideo" controls preload="metadata" playsinline poster="/for-mother/3a65fb4b8e0c6eb8/mtv-poster.jpg"><source src="/for-mother/3a65fb4b8e0c6eb8/mtv-private.mp4" type="video/mp4"></video></div>
+    <p class="videocap">A Little Music Film for “Lei Cha Under the Lamp” · Mi Xi</p>
+  </section>
+  <section class="storysec reveal" id="stStory">
+    <h3>The Story Behind This Song</h3>
+    <div class="drule"></div>
+    <p>It begins in a hometown kitchen. Until Duanduan was fourteen, every meal in that house was cooked on an old-fashioned stove — firewood crackling, white steam rising from the iron wok, the stove’s warmth filling the whole morning. Mother stood at that stove for half a lifetime: porridge at dawn, lunch at noon, a generous dinner every night — and she was always the last one to sit down.</p>
+    <p>Under the lamp is the sight of her making lei cha. Peanuts, sesame and tea leaves go into the mortar, ground round and round, slowly, until the fragrance rises; the tea is mixed with rice and served with a plate of greens. That is this family’s own taste — the sound of a mother grinding her love into the days.</p>
+    <p>Later, the family moved to Tianhe, Guangzhou. The kitchen changed; the old stove gave way to gas. But Mother’s cooking never changed, not for a single day. Now the daughter is grown, and there is one sentence she has kept in her heart for a long time:</p>
+    <p class="storyquote">“Don’t worry. I’ve grown up. This family has me now — lean on me.”</p>
+  </section>
+  <div class="creditsbox reveal" id="stCredits">Lei Cha Under the Lamp — Thank You, Mom<br>Sung by Mi Xi (AI virtual singer)<br>Lyrics: Team collaboration (with Junshi &amp; Bowen)<br>Music: AI-assisted, reviewed by the team<br>Music production: Daddy Mi Music</div>
 </div>
-<footer>
+
+<!-- ===== FINALE: the stove lamp at night, then dawn (boss ruling 2026-11-12, benchmarked on the light page's finale and raised a level) ===== -->
+<section class="finale" id="stFinale" aria-label="有光陪你到天明。我们都在您身边，一直都在。—— 端端">
+  <div class="fin-night" aria-hidden="true"></div>
+  <div class="fin-embers" id="finEmbers" aria-hidden="true"></div>
+  <div class="fin-inner">
+    <div class="fin-lamp" aria-hidden="true"><div class="fin-halo"></div><div class="fin-core"></div><div class="fin-flame"></div><div class="fin-lampbase"></div></div>
+    <p class="fin-her" id="finHer" aria-label="有光陪你到天明"></p>
+    <p class="fin-her2" id="finHer2" aria-label="我们都在您身边，一直都在。"></p>
+    <p class="fin-sign" id="finSign">—— 端端</p>
+  </div>
+</section>
+<footer id="stEnd">
   <div class="footmark"><a href="https://daddymi777.com/" aria-label="Daddy Mi"><img src="/brand/mark-transparent.png" alt="米老爸 Daddy Mi"></a></div>
   <p class="disclosure">This song was created and written by the Gospel Wisdom team, with music and vocals generated with the help of AI.<br>A Thanksgiving song for Mother.</p>
   <p class="copy">© 2026 米老爸 Daddy Mi</p>
 </footer>
 <audio id="audio" src="/for-mother/3a65fb4b8e0c6eb8/song.mp3" preload="metadata"></audio>
+
 <script>
   var LYRICS = [{"t": 13.32, "x": "Tonight I sit beside your bed"}, {"t": 16.5, "x": "Gently holding your hand"}, {"t": 20.0, "x": "Some words I never said on ordinary days"}, {"t": 23.08, "x": "Tonight I want to tell you slowly"}, {"t": 27.02, "x": "I remember the stove's warmth at dawn"}, {"t": 30.2, "x": "I remember the scent of lunch filling the house"}, {"t": 33.2, "x": "You once cut your little girl's hair"}, {"t": 36.84, "x": "And dressed her in pretty clothes"}, {"t": 41.3, "x": "That bowl of lei cha you ground by hand"}, {"t": 43.54, "x": "Peanuts and sesame, slowly ground till fragrant"}, {"t": 46.56, "x": "Tea mixed with rice, greens on the side"}, {"t": 49.98, "x": "And at night, still a table full of food"}, {"t": 54.22, "x": "Thank you, Mom, thank you for your love"}, {"t": 57.94, "x": "Thank you for working half a lifetime for this family"}, {"t": 67.26, "x": "Mom, everything you have done"}, {"t": 70.36, "x": "We saw it all, and we remember it all"}, {"t": 73.96, "x": "May light stay with you till morning"}, {"t": 76.2, "x": "Like that lamp in the kitchen"}, {"t": 80.36, "x": "You warmed this family with your whole life"}, {"t": 83.54, "x": "Tonight, let us stay with you till morning"}, {"t": 106.7, "x": "Almost sixty now, you"}, {"t": 109.44, "x": "Your back is rounder than before"}, {"t": 112.96, "x": "Thinking of how you looked when you were young"}, {"t": 116.44, "x": "My heart is full of longing and gratitude"}, {"t": 119.34, "x": "You used to dress us in our clothes"}, {"t": 123.04, "x": "Now your daughter tucks in your blanket"}, {"t": 126.4, "x": "You asked so many times if we were hungry"}, {"t": 129.78, "x": "Today it is our turn to ask if you are tired"}, {"t": 134.42, "x": "Thank you, Mom, thank you for your love"}, {"t": 137.9, "x": "Thank you for working every day until dark"}, {"t": 141.28, "x": "A bowl of lei cha, a table of dinner"}, {"t": 143.66, "x": "How much unspoken love they hold"}, {"t": 146.78, "x": "May light stay with you till morning"}, {"t": 150.22, "x": "May love keep watch beside you"}, {"t": 154.24, "x": "We gently pray for you"}, {"t": 157.14, "x": "May peace stay with you through this night"}, {"t": 173.88, "x": "Dearest, rest a while too"}, {"t": 176.7, "x": "You don't always have to be so strong"}, {"t": 179.82, "x": "You used to shield us from the wind and rain"}, {"t": 183.08, "x": "From now on, let me stand in front"}, {"t": 186.68, "x": "We don't know what tomorrow will bring"}, {"t": 190.1, "x": "But this gratitude will never change"}, {"t": 193.94, "x": "May Heavenly Father's hand uphold you"}, {"t": 196.64, "x": "And uphold the shoulders that keep watch"}, {"t": 214.0, "x": "Thank you, Mom, thank you for your love"}, {"t": 217.92, "x": "Thank you for giving your years to this family"}, {"t": 221.26, "x": "That bowl of lei cha, that table of dinner"}, {"t": 223.7, "x": "We saw it all; we will remember all our lives"}, {"t": 227.0, "x": "May light stay with you till morning"}, {"t": 230.2, "x": "Now it is our turn to keep watch beside you"}, {"t": 234.2, "x": "Rest easy; the house is in my hands"}, {"t": 237.5, "x": "Whatever tomorrow brings, I will stay with you"}, {"t": 243.86, "x": "Mom, thank you"}, {"t": 249.98, "x": "The love you gave us, we will always remember"}];
+(function(){
   var audio = document.getElementById('audio');
+  var video = document.getElementById('mvvideo');
   var playBtn = document.getElementById('playBtn');
   var icoPlay = document.getElementById('icoPlay'), icoPause = document.getElementById('icoPause');
   var pfill = document.getElementById('pfill'), pbar = document.getElementById('pbar');
   var tCur = document.getElementById('tCur'), tDur = document.getElementById('tDur');
   var lineEls = Array.prototype.slice.call(document.querySelectorAll('.line'));
-  var cur = -1, lastScroll = 0;
+  var blessEls = Array.prototype.slice.call(document.querySelectorAll('.blessing p'));
+  var curtain = document.getElementById('curtain');
+  var startBtn = document.getElementById('startBtn');
+  var stDedicate = document.querySelector('.dedicate');
+  var stVideo = document.querySelector('.videosec');
+  var stStory = document.querySelector('.storysec');
+  var stCredits = document.querySelector('.creditsbox');
+  var stFooter = document.querySelector('footer');
+  var finaleEl = document.getElementById('stFinale');
 
   function fmt(s){s=Math.max(0,Math.floor(s));return Math.floor(s/60)+':'+('0'+(s%60)).slice(-2);}
+  function safePlay(el){ var p = el.play(); if(p && p.catch){ p.catch(function(){}); } }
   audio.addEventListener('loadedmetadata', function(){ tDur.textContent = fmt(audio.duration); });
+  /* WeChat / iOS pre-unlock: load the audio on first touch so the big button never falls flat */
+  document.addEventListener('WeixinJSBridgeReady', function(){ audio.load(); }, false);
+  document.addEventListener('touchstart', function unlock(){ audio.load(); document.removeEventListener('touchstart', unlock); }, { passive:true });
 
+  /* ---------- LAND: scroll so the station truly lands inside the viewing area, then verify & correct ----------
+     (The 2026-11-08 defect was auto-scroll sliding PAST sections so they never landed in view.
+      Every station here lands, settles, is measured, and is corrected if it missed.) */
+  function land(el, ratio){
+    if(!el) return;
+    var vh = window.innerHeight;
+    var r = el.getBoundingClientRect();
+    var y = window.scrollY + r.top - vh * ratio;
+    window.scrollTo({ top: Math.max(0, y), behavior: 'smooth' });
+    clearTimeout(el._lv);
+    el._lv = setTimeout(function(){
+      var r2 = el.getBoundingClientRect();
+      var want = vh * ratio;
+      if (Math.abs(r2.top - want) > 30 && r2.top > -vh * 0.5) {
+        window.scrollBy({ top: r2.top - want, behavior: 'auto' });
+      }
+    }, 1000);
+  }
+
+  /* ---------- tour state ---------- */
+  var tour = { started:false, done:false, frozen:false, suspendedUntil:0,
+               dedicateFired:false, blessIdx:-1, finaleStep:-1, finaleTimer:null };
+  function suspended(){ return Date.now() < tour.suspendedUntil; }
+  ['wheel','touchmove'].forEach(function(ev){
+    document.addEventListener(ev, function(){ tour.suspendedUntil = Date.now() + 6000; }, { passive:true });
+  });
+
+  /* ---------- player chrome (kept from the previous version) ---------- */
   function setIcon(){ var p = !audio.paused; icoPlay.style.display = p?'none':'block'; icoPause.style.display = p?'block':'none'; }
-  playBtn.addEventListener('click', function(){ if(audio.paused){audio.play();}else{audio.pause();} });
+  playBtn.addEventListener('click', function(){ if(audio.paused){ safePlay(audio); } else { audio.pause(); } });
   audio.addEventListener('play', setIcon); audio.addEventListener('pause', setIcon);
-  audio.addEventListener('ended', function(){ setIcon(); });
-
   pbar.addEventListener('click', function(e){
     var r = pbar.getBoundingClientRect();
     var x = (e.touches ? e.touches[0].clientX : e.clientX);
-    audio.currentTime = audio.duration * Math.min(1, Math.max(0, (x - r.left) / r.width));
+    if(audio.duration){ audio.currentTime = audio.duration * Math.min(1, Math.max(0, (x - r.left) / r.width)); }
   });
-
   lineEls.forEach(function(el, i){
-    el.addEventListener('click', function(){ audio.currentTime = LYRICS[i].t + 0.05; audio.play(); });
+    el.addEventListener('click', function(){ audio.currentTime = LYRICS[i].t + 0.05; safePlay(audio); });
   });
 
-  audio.addEventListener('timeupdate', function(){
+  /* ---------- the curtain ---------- */
+  document.documentElement.classList.add('locked');
+  startBtn.addEventListener('click', function(){
+    if(tour.started) return;
+    tour.started = true;
+    safePlay(audio);                       /* inside the gesture: iOS/WeChat safe */
+    curtain.classList.add('open');
+    setTimeout(function(){
+      curtain.classList.add('gone');
+      document.documentElement.classList.remove('locked');
+    }, 3400);
+    setTimeout(function(){ curtain.style.display = 'none'; }, 4600);
+  });
+
+  /* ---------- lyric follow (Fairy-page paradigm: rAF, comfort zone, yields to the reader) ---------- */
+  var cur = -1, lastScroll = 0, rafId = null;
+  function followLine(idx){
+    if(idx === cur) return;
+    if(cur >= 0 && lineEls[cur]){ lineEls[cur].classList.remove('active'); lineEls[cur].classList.add('done'); }
+    cur = idx;
+    if(cur < 0 || !lineEls[cur]) return;
+    lineEls[cur].classList.add('active'); lineEls[cur].classList.remove('done');
+    var r = lineEls[cur].getBoundingClientRect();
+    var vh = window.innerHeight;
+    if(!suspended() && !tour.frozen && (r.top > vh * 0.72 || r.bottom < vh * 0.18)){
+      var now = Date.now();
+      if(now - lastScroll > 350){ lastScroll = now; lineEls[cur].scrollIntoView({ block:'center', behavior:'smooth' }); }
+    }
+  }
+  function syncStep(){
     var t = audio.currentTime;
     if(audio.duration){ pfill.style.width = (100 * t / audio.duration) + '%'; }
     tCur.textContent = fmt(t);
-    var idx = -1;
-    for(var i = 0; i < LYRICS.length; i++){ if(t >= LYRICS[i].t) idx = i; else break; }
-    if(idx !== cur){
-      if(cur >= 0 && lineEls[cur]){ lineEls[cur].classList.remove('active'); lineEls[cur].classList.add('done'); }
-      cur = idx;
-      if(cur >= 0 && lineEls[cur]){
-        lineEls[cur].classList.add('active'); lineEls[cur].classList.remove('done');
-        var now = Date.now();
-        if(!audio.paused && now - lastScroll > 350){
-          lastScroll = now;
-          lineEls[cur].scrollIntoView({block:'center', behavior:'smooth'});
-        }
-      }
+    /* station: the dedication, landed while the intro music plays */
+    if(tour.started && !tour.dedicateFired && t >= 3.5){
+      tour.dedicateFired = true;
+      if(!suspended() && !tour.frozen) land(stDedicate, 0.07);
     }
+    /* the six blessings light one by one while she rests on the dedication */
+    if(t >= 3.5 && t < 13.3 && blessEls.length){
+      var bi = Math.min(blessEls.length - 1, Math.floor((t - 3.5) / 1.63));
+      if(bi !== tour.blessIdx){
+        tour.blessIdx = bi;
+        blessEls.forEach(function(p, i){ p.classList.toggle('lit', i === bi); });
+      }
+    } else if(t >= 13.3 && tour.blessIdx !== -2){
+      tour.blessIdx = -2;
+      blessEls.forEach(function(p){ p.classList.remove('lit'); });
+    }
+    var lt = t + 0.15, idx = -1;
+    for(var i = 0; i < LYRICS.length; i++){ if(lt >= LYRICS[i].t) idx = i; else break; }
+    followLine(idx);
+    if(!audio.paused && !audio.ended){ rafId = requestAnimationFrame(syncStep); }
+  }
+  function startSync(){ if(rafId === null){ rafId = requestAnimationFrame(syncStep); } }
+  function stopSync(){ if(rafId !== null){ cancelAnimationFrame(rafId); rafId = null; } }
+  audio.addEventListener('play', startSync);
+  audio.addEventListener('pause', stopSync);
+  audio.addEventListener('seeked', function(){
+    if(audio.currentTime < 3){ tour.dedicateFired = false; }
+    if(audio.currentTime < 13 && tour.done){ tour.done = false; tour.finaleStep = -1; }
+    if(audio.currentTime < audio.duration - 15 && (finDone || finRunning)){ finClear(); finReset(); finDone = false; finRunning = false; }
+    cur = -2; /* force re-follow at the new position */
   });
+
+  /* ---------- FINALE scene: the stove lamp at night, then dawn ----------
+     Benchmarked on the light page's finale (boss ruling 2026-11-12) and raised
+     a level: lamp-light grows -> stove sparks / light dust rise -> night dawns
+     -> the dedication's own words light character by character and hold.
+     Click the scene while it plays to complete it; click it once it holds to
+     watch it again. Manual takeover never blocks the trigger: if she has
+     taken the scroll into her own hands, the scene completes in place
+     (light-page parity) instead of stealing the page back. */
+  var finTimers = [], finRunning = false, finDone = false;
+  function finLater(fn, ms){ finTimers.push(setTimeout(fn, ms)); }
+  function finClear(){ finTimers.forEach(clearTimeout); finTimers = []; }
+  function buildFinChars(el, text){
+    if(!el || el.childNodes.length) return;
+    text.split('').forEach(function(c, i){
+      var s = document.createElement('span');
+      s.className = 'ch'; s.textContent = c;
+      s.style.transitionDelay = (i * 0.17) + 's';
+      el.appendChild(s);
+    });
+  }
+  buildFinChars(document.getElementById('finHer'), '有光陪你到天明');
+  buildFinChars(document.getElementById('finHer2'), '我们都在您身边，一直都在。');
+  var finChars = Array.prototype.slice.call(document.querySelectorAll('#stFinale .ch'));
+  var finSign = document.getElementById('finSign');
+  (function buildEmbers(){
+    var box = document.getElementById('finEmbers');
+    if(!box) return;
+    var seed = 7;
+    function rnd(){ seed = (seed * 16807) % 2147483647; return seed / 2147483647; }
+    for(var i = 0; i < 26; i++){
+      var e = document.createElement('i');
+      var sz = 3 + rnd() * 5;
+      e.style.left = (4 + rnd() * 92) + '%';
+      e.style.width = sz + 'px'; e.style.height = sz + 'px';
+      e.style.animationDuration = (7 + rnd() * 8) + 's';
+      e.style.animationDelay = (rnd() * 9) + 's';
+      box.appendChild(e);
+    }
+  })();
+  function finReset(){
+    finaleEl.classList.remove('dawned', 'lamp-lit', 'embers-on');
+    finChars.forEach(function(s){ s.classList.remove('on'); });
+    if(finSign) finSign.classList.remove('float');
+  }
+  function finishFinale(){
+    finClear();
+    finaleEl.classList.add('lamp-lit', 'embers-on', 'dawned');
+    finChars.forEach(function(s){ s.classList.add('on'); });
+    if(finSign) finSign.classList.add('float');
+    finDone = true; finRunning = false;
+  }
+  function runFinale(){
+    if(!finaleEl || finRunning) return;
+    finClear(); finReset();
+    finDone = false; finRunning = true;
+    var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if(reduce){ finishFinale(); return; }
+    finaleEl.scrollIntoView({ behavior:'smooth', block:'start' });
+    finLater(function(){ finaleEl.classList.add('lamp-lit'); }, 1300);   /* a lamp-light grows in the night kitchen (~2.5s) */
+    finLater(function(){ finaleEl.classList.add('embers-on'); }, 2100);  /* stove sparks / light dust begin to rise */
+    finLater(function(){ finaleEl.classList.add('dawned'); }, 4400);     /* the night slowly dawns (night layer fades 2.6s) */
+    finLater(function(){ finChars.forEach(function(s){ s.classList.add('on'); }); }, 6100); /* her words, character by character */
+    finLater(function(){ if(finSign) finSign.classList.add('float'); finDone = true; finRunning = false; }, 6100 + 3400 + 1600);
+  }
+  if(finaleEl){
+    finaleEl.addEventListener('click', function(){
+      if(finRunning && !finDone){ finishFinale(); }
+      else if(finDone){ runFinale(); }
+    });
+  }
+
+  /* ---------- post-song walk: after the song — the film, the story, the signing-off, then the finale ----------
+     Timer-driven (Fairy-page finale paradigm). Freezes while the film plays. */
+  function finaleAdvance(){
+    if(!tour.started || tour.done) return;
+    if(tour.frozen){ tour.finaleTimer = setTimeout(finaleAdvance, 1200); return; }
+    if(suspended()){
+      /* she has taken the scroll herself: never steal it back — complete the finale in place */
+      tour.done = true;
+      finishFinale();
+      return;
+    }
+    tour.finaleStep++;
+    if(tour.finaleStep === 0){
+      land(stVideo, 0.08);
+      tour.finaleTimer = setTimeout(finaleAdvance, 9000);   /* rest on the film; she may press play (freezes the tour) */
+    } else if(tour.finaleStep === 1){
+      land(stStory, 0.07);
+      tour.finaleTimer = setTimeout(finaleAdvance, 6500);
+    } else if(tour.finaleStep === 2){
+      land(stCredits, 0.10);
+      tour.finaleTimer = setTimeout(finaleAdvance, 3500);
+    } else {
+      tour.done = true;
+      runFinale();
+    }
+  }
+  audio.addEventListener('ended', function(){
+    setIcon(); stopSync();
+    if(cur >= 0 && lineEls[cur]){ lineEls[cur].classList.remove('active'); lineEls[cur].classList.add('done'); }
+    tour.finaleStep = -1;
+    tour.finaleTimer = setTimeout(finaleAdvance, 1500);
+  });
+
+  /* ---------- the film and the song never talk over each other; the tour freezes for the film ---------- */
+  if(video){
+    video.addEventListener('play', function(){ tour.frozen = true; if(!audio.paused){ audio.pause(); } });
+    video.addEventListener('pause', function(){ tour.frozen = false; });
+    video.addEventListener('ended', function(){
+      tour.frozen = false;
+      if(tour.finaleStep === 0){ clearTimeout(tour.finaleTimer); tour.finaleTimer = setTimeout(finaleAdvance, 1000); }
+      else if(audio.ended && tour.done && !finDone && !finRunning){ setTimeout(runFinale, 800); }
+    });
+  }
+
+  /* ---------- gentle reveals as the stations enter view ---------- */
+  var io = ('IntersectionObserver' in window) ? new IntersectionObserver(function(es){
+    es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
+  }, { threshold: 0.10 }) : null;
+  Array.prototype.slice.call(document.querySelectorAll('.reveal')).forEach(function(el){
+    if(io){ io.observe(el); } else { el.classList.add('in'); }
+  });
+})();
 </script>
+
 
 </body>
 </html>
