@@ -110,4 +110,5 @@ footer{text-align:center;padding:30px 20px 42px;color:var(--ink-soft)}
 .storysec .storyquote{text-align:center;font-size:17.5px;line-height:1.9;color:var(--rose-deep);font-weight:600;margin:14px 0 6px}
 .videowrap{position:relative;padding-top:56.25%;border-radius:16px;overflow:hidden;box-shadow:0 12px 30px rgba(158,58,95,.22);background:#2b121c}
 .videowrap iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.videowrap video{position:absolute;inset:0;width:100%;height:100%;border:0;background:#1a1216}
 .videocap{text-align:center;font-size:12.5px;letter-spacing:.14em;color:var(--ink-soft);margin-top:10px}

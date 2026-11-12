@@ -45,11 +45,11 @@
     <p>のちに一家は広州・天河へ引っ越しました。台所は変わり、かまどはガスに替わりました。けれど、お母さんのごはんは、一日も変わりませんでした。今、娘は大人になりました。ずっと心にしまってきた一言を、お母さんに伝えたいのです：</p>
     <p class="storyquote">「心配しないで。私も大きくなったよ。家には私がいるから、頼っていいんだよ。」</p>
   </section>
-  <!-- ===== VIDEO SLOT · SWAP POINT: when the story MV is ready, change ONLY the VIDEO_ID value in the script at the bottom of this page (search "VIDEO_ID"). Nothing else needs editing. ===== -->
+  <!-- ===== VIDEO: self-hosted MP4 is the primary player (mother is in Guangzhou; YouTube is unreachable there). The YouTube Unlisted copy htNjC_xlI2w is kept for the record only and is NOT embedded. ===== -->
   <section class="videosec">
     <h3>映 像</h3>
     <div class="drule"></div>
-    <div class="videowrap"><iframe id="mvframe" title="Lei Cha Under the Lamp — music film" loading="lazy" allow="accelerometer; encrypted-media; picture-in-picture" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+    <div class="videowrap"><video id="mvvideo" controls preload="metadata" playsinline poster="/for-mother/3a65fb4b8e0c6eb8/mtv-poster.jpg"><source src="/for-mother/3a65fb4b8e0c6eb8/mtv-private.mp4" type="video/mp4"></video></div>
     <p class="videocap">『灯下擂茶』ミュージック映像 · 米曦 Mi Xi</p>
   </section>
   <div class="rule"></div>
@@ -188,6 +188,6 @@
     }
   });
 </script>
-<script>var VIDEO_ID = "htNjC_xlI2w"; /* SWAP POINT */ document.getElementById('mvframe').src = "https://www.youtube-nocookie.com/embed/" + VIDEO_ID + "?rel=0";</script>
+
 </body>
 </html>
