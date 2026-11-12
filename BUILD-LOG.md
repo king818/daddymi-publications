@@ -228,3 +228,10 @@ component is a gyōsho-simplified form, disclosed to and accepted by the boss).
 - Reveal-on-scroll: inline IntersectionObserver script; the hiding class is added by JS only — no-JS and prefers-reduced-motion visitors see everything.
 - Palette, fonts, Track A calligraphy, brand mark, copy, link targets and the Buttondown form (action + field names) unchanged.
 - Verified by Amani (parent): build outputs keep the form action/name/subfield in all three views; headless render at 390px measures input 54px / shell 56px / button 46px — the giant oval is gone.
+
+## 2026-11-11 — Album picture gallery 上线 (boss 17:23/17:25 PST 定）
+
+- 新增公开画册页 /album/gallery/（五语：SC 根、/tc/、/en/、/ja/、/ko/）：米曦首张专辑《光，慢慢成为路》的视觉画册——《A Little More Like Light》全部 18 帧分镜图（S2-A 用定版 v2-a），JPG 1600px q85、共 3.8MB；boss 联络表上的 8 帧带 ★ 推荐标记 (S1-A/S2-A/S3-A/S4-A/S5-A/S6-A/S7-B/S8-A)。
+- 设计 = natural page（boss 原话 "the natural page")：纯黑底、图片满幅 edge-to-edge、无卡片/边框/装饰，图注极简（帧号 + 一句短诗）。页眉明示「首张专辑」归属与本歌视觉世界。
+- 分享卡：五语各自 og:title/description + twitter card，og:image 统一用专辑微笑分享卡 assets/share-album.jpg。
+- 入口与回链：五语主页 nav + 五语 /music/ 索引卡片 + gospel-wisdom/theme-en 五语视图按钮 → 画册；画册页脚回 /music/ 与主页；右上角语言切换齐全。
