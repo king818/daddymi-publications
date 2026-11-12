@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta property="og:type" content="website">
+<meta property="og:title" content="《등불 아래 레이차》· 미리듣기 아카이브 — 米曦 Mi Xi">
+<meta property="og:description" content="엄마에게 바치는 노래 한 곡. 365일의 밥상, 평생의 돌봄 — 아이들은 모두 보았고, 모두 기억합니다. | 정식 발매 · Available in English, Traditional Chinese, Simplified Chinese, Japanese and Korean.">
+<meta property="og:url" content="https://daddymi777.com/music/mx005/archive/ko/">
+<meta property="og:image" content="https://daddymi777.com/music/mx005/share-s7b.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="《등불 아래 레이차》· 미리듣기 아카이브 — 米曦 Mi Xi">
+<meta name="twitter:description" content="엄마에게 바치는 노래 한 곡. 365일의 밥상, 평생의 돌봄 — 아이들은 모두 보았고, 모두 기억합니다. | 정식 발매 · Available in English, Traditional Chinese, Simplified Chinese, Japanese and Korean.">
+<meta name="twitter:image" content="https://daddymi777.com/music/mx005/share-s7b.jpg">
+<title>《등불 아래 레이차》· 미리듣기 아카이브 — 米曦 Mi Xi</title>
+<link rel="icon" type="image/png" sizes="32x32" href="/brand/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/brand/favicon-16.png">
+<link rel="apple-touch-icon" href="/brand/apple-touch-icon.png">
+<style>
+  :root{
+    /* Ink & Light palette, aligned with portal.css (boss 2026-11-11) */
+    --ink:#1E2A38; --ink-soft:#45536A; --muted:#7E8698; --gold:#C9A227;
+    --gold-deep:#8A6D1F; --gold-soft:#E9D48A; --rice:#F8F4EA; --rice-deep:#F3EDDD;
+    --hairline:#E0D7BE; --paper:#FFFDF6; --card:rgba(255,255,255,.66);
+  }
+  *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:"Noto Serif KR","Nanum Myeongjo","Batang",Georgia,serif;
+    color:var(--ink);
+    background:
+      radial-gradient(120% 60% at 50% -6%, rgba(233,212,138,.55) 0%, rgba(233,212,138,0) 55%),
+      radial-gradient(90% 45% at 88% 22%, rgba(233,212,138,.30) 0%, rgba(233,212,138,0) 60%),
+      linear-gradient(180deg,#F8F4EA 0%,#F8F4EA 55%,#F3EDDD 100%);
+    min-height:100vh;
+  }
+  .brandmark{text-align:center;margin:0 0 6px}
+  .brandmark img{width:68px;height:68px}
+  .footmark{text-align:center;margin:0 0 10px}
+  .footmark img{width:46px;height:46px}
+  .wrap{max-width:640px;margin:0 auto;padding:34px 22px 30px;position:relative;z-index:1}
+  /* ————— hero ————— */
+  .hero{text-align:center;padding:8px 0 4px}
+  .hero svg{width:min(300px,76vw);height:auto;filter:drop-shadow(0 10px 24px rgba(201,162,39,.16))}
+  .pill{display:inline-block;margin-top:14px;padding:5px 16px;border:1.5px solid var(--gold);
+        color:var(--gold-deep);border-radius:999px;font-size:13.5px;letter-spacing:.28em;
+        background:rgba(255,255,255,.55)}
+  h1{font-size:41px;letter-spacing:.14em;font-weight:600;margin-top:16px;color:#1E2A38}
+  .subtitle{margin-top:9px;font-size:18.5px;letter-spacing:.34em;color:var(--gold-deep)}
+  .singer{margin-top:7px;font-size:13.5px;letter-spacing:.3em;color:var(--ink-soft)}
+  .story{margin:24px auto 4px;max-width:520px;font-size:15.5px;line-height:2.05;
+         color:#45536A;text-align:center}
+  .story b{color:var(--gold-deep);font-weight:600}
+  .rule{width:64px;height:2px;background:linear-gradient(90deg,transparent,var(--gold),transparent);
+        margin:22px auto 0;border-radius:2px}
+  /* ————— player ————— */
+  .player{position:sticky;top:10px;z-index:40;margin:26px auto 6px;max-width:560px;
+          background:var(--card);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
+          border:1px solid rgba(255,255,255,.85);border-radius:22px;
+          box-shadow:0 14px 34px rgba(30,42,56,.16);padding:16px 18px 13px}
+  .prow{display:flex;align-items:center;gap:15px}
+  #playBtn{flex:0 0 auto;width:58px;height:58px;border-radius:50%;border:none;cursor:pointer;
+    background:radial-gradient(circle at 32% 28%, #E9D48A, var(--gold) 58%, var(--gold-deep));
+    box-shadow:0 8px 20px rgba(201,162,39,.42), inset 0 1.5px 2px rgba(255,255,255,.55);
+    display:flex;align-items:center;justify-content:center;transition:transform .15s}
+  #playBtn:active{transform:scale(.94)}
+  #playBtn svg{width:24px;height:24px;fill:#fff}
+  .ptrack{flex:1}
+  .pbar{height:6px;border-radius:3px;background:rgba(201,162,39,.18);cursor:pointer;position:relative}
+  #pfill{height:100%;width:0%;border-radius:3px;background:linear-gradient(90deg,#E9D48A,var(--gold));position:relative}
+  #pfill::after{content:"";position:absolute;right:-6px;top:50%;transform:translateY(-50%);
+    width:12px;height:12px;border-radius:50%;background:#fff;border:2px solid var(--gold);
+    box-shadow:0 1px 5px rgba(30,42,56,.4)}
+  .ptime{display:flex;justify-content:space-between;font-size:12px;color:var(--ink-soft);
+         margin-top:7px;letter-spacing:.12em;font-family:ui-monospace,Menlo,monospace}
+  .phint{text-align:center;font-size:12.5px;color:var(--ink-soft);letter-spacing:.22em;margin-top:9px}
+  /* ————— lyrics ————— */
+  .lyrics{max-width:560px;margin:14px auto 0;padding:6px 4px 10px}
+  .sec{text-align:center;font-size:12.5px;letter-spacing:.5em;color:var(--gold);
+       margin:30px 0 10px;font-weight:600}
+  .sec:first-child{margin-top:8px}
+  .line{font-size:18.5px;line-height:1.5;padding:7px 12px;margin:2px 0;border-radius:12px;
+        text-align:center;color:#7E8698;cursor:pointer;transition:all .45s ease}
+  .line.active{color:#8A6D1F;font-size:21.5px;font-weight:600;
+        background:linear-gradient(90deg,rgba(255,255,255,0),rgba(255,255,255,.75),rgba(255,255,255,0));
+        text-shadow:0 1px 10px rgba(233,212,138,.55)}
+  .line.done{color:#45536A}
+  /* ————— making-of notes ————— */
+  .notes{max-width:560px;margin:38px auto 4px;background:var(--card);
+         backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
+         border:1px solid rgba(255,255,255,.85);border-radius:22px;
+         box-shadow:0 14px 34px rgba(30,42,56,.13);padding:26px 26px 20px}
+  .notes h2{text-align:center;font-size:19px;letter-spacing:.5em;font-weight:600;color:#1E2A38}
+  .notes .nrule{width:52px;height:2px;background:linear-gradient(90deg,transparent,var(--gold),transparent);
+         margin:13px auto 16px;border-radius:2px}
+  .notes p{font-size:14.5px;line-height:2.0;color:#45536A;margin-bottom:11px;text-align:justify}
+  .notes p b{color:var(--gold-deep);font-weight:600}
+  .credits{margin-top:15px;padding-top:13px;border-top:1px solid rgba(201,162,39,.22);
+         text-align:center;font-size:12.5px;line-height:2.0;letter-spacing:.14em;color:var(--ink-soft)}
+  /* ————— footer ————— */
+  footer{text-align:center;padding:34px 20px 40px;color:var(--ink-soft);position:relative;z-index:1}
+  .disclosure{font-size:12px;line-height:1.9;letter-spacing:.06em;max-width:520px;margin:0 auto}
+  .home{display:inline-block;margin-top:16px;color:var(--gold-deep);text-decoration:none;
+        font-size:14px;letter-spacing:.24em;border-bottom:1px solid rgba(201,162,39,.4);padding-bottom:2px}
+  .copy{margin-top:14px;font-size:12.5px;letter-spacing:.18em}
+  .langbar{display:flex;justify-content:flex-end;align-items:center;gap:7px;max-width:640px;margin:0 auto;padding:16px 22px 0;position:relative;z-index:30;flex-wrap:wrap}
+  .langbar a{font-size:13.5px;padding:5px 13px;border-radius:999px;color:var(--ink-soft);border:1px solid rgba(201,162,39,.35);text-decoration:none;background:rgba(255,255,255,.5)}
+  .langbar a.active{background:var(--gold);color:#fff;border-color:var(--gold);font-weight:700}
+  .langbar .langsep{color:rgba(30,42,56,.35);font-size:12px}
+/*mx005-nav-fix-2026-11-10*/
+.langbar a{white-space:nowrap}
+.backbar{max-width:640px;margin:0 auto;padding:10px 22px 0;position:relative;z-index:30}
+.backbar a{display:inline-block;font-size:13.5px;padding:5px 13px;border-radius:999px;color:var(--ink-soft);border:1px solid rgba(201,162,39,.35);text-decoration:none;background:rgba(255,255,255,.55)}
+@media (max-width:560px){.langbar{flex-wrap:nowrap;gap:4px;padding:14px 12px 0}.langbar a{font-size:12px;padding:4px 8px}.langbar .langsep{display:none}.backbar{padding:10px 12px 0}}
+
+  /* ——— versions archive (carried from the version-index page) ——— */
+  .versions{max-width:560px;margin:6px auto 0}
+  .verh{text-align:center;font-size:20px;letter-spacing:.4em;font-weight:600;color:#1E2A38;margin:26px 0 6px}
+  .verintro{text-align:center;font-size:13.5px;line-height:1.9;color:var(--ink-soft);margin:0 10px 8px}
+  .vcard{background:var(--card);border:1px solid rgba(201,162,39,.25);border-radius:16px;padding:18px 18px 14px;margin:18px 0;box-shadow:0 6px 22px rgba(30,42,56,.08);text-align:left}
+  .vhead{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 12px;margin-bottom:6px}
+  .vname{font-size:19px;color:var(--gold-deep);font-weight:700;letter-spacing:.04em}
+  .vdate{font-size:13px;color:var(--ink-soft);letter-spacing:.12em}
+  .vdur{font-size:13px;color:var(--ink-soft)}
+  .badge{font-size:12px;color:#fff;background:var(--gold);border-radius:999px;padding:2.5px 10px;letter-spacing:.14em}
+  .badge.dim{background:#7E8698}
+  .vnote{font-size:14.5px;line-height:1.85;color:var(--ink);margin:4px 0 10px}
+  .vnote .warn{color:var(--gold-deep)}
+  .vcard audio{width:100%;height:40px}
+  .pagelink{display:inline-block;margin-top:10px;color:var(--gold-deep);font-size:14.5px;text-decoration:none;border-bottom:1px solid var(--gold);padding-bottom:1px;letter-spacing:.08em}
+</style>
+</head>
+<body>
+<div class="langbar" role="group" aria-label="Language"><a href="/music/mx005/archive/">简体</a><span class="langsep">|</span><a href="/music/mx005/archive/tc/">繁體</a><span class="langsep">|</span><a href="/music/mx005/archive/en/">English</a><span class="langsep">|</span><a href="/music/mx005/archive/ja/">日本語</a><span class="langsep">|</span><a href="/music/mx005/archive/ko/" class="active" aria-current="true">한국어</a></div>
+<div class="backbar"><a href="/music/mx005/ko/">← 《등불 아래 레이차》 정식 발매로 돌아가기</a> <a href="/music/ko/">전체 곡</a></div>
+<div class="wrap">
+  <div class="brandmark"><a href="https://daddymi777.com/" aria-label="米老爸 Daddy Mi"><img src="/brand/mark-transparent.png" alt="米老爸 Daddy Mi"></a></div>
+  <div class="hero">
+    <h1>미리듣기 아카이브</h1>
+    <p class="story">《등불 아래 레이차》 정식 발매 전의 모든 미리듣기 버전이 여기에 있습니다 — 각 버전을 이 페이지에서 바로 재생할 수 있고, 각자의 독립된 미리듣기 페이지도 그대로 남아 있습니다.</p>
+  </div>
+</div>
+
+<div class="wrap" style="padding-top:2px">
+  <section id="versions" class="versions">
+  <h2 class="verh">전체 버전 · 미리듣기 아카이브</h2>
+  <p class="verintro">최종본에 이르기까지의 아홉 개 미리듣기 버전(Take 1–Take 9)을 그대로 보존합니다 — 각 미리듣기 페이지는 지금도 열립니다.</p>
+<div class="vcard">
+    <div class="vhead"><span class="vname">Take 9</span><span class="badge">후보 · 선택 대기</span><span class="vdate">등록일 2026-11-11</span><span class="vdur">4:36</span></div>
+    <p class="vnote">동결된 V9.4 가사로 한 번에 세 버전(s1101 / s1102 / s1103)을 생성했습니다. 힘은 세 번째 간주에 담았습니다 — 바이올린이 치솟으며 이끌고 첼로가 아래에서 응답합니다. 검수: s1101의 세 번째 간주가 기준에 가장 가깝고 1행만 빠져 리드 후보입니다. 세 버전 모두 오프닝이 아직 가벼워 오프닝 관문은 통과하지 못했습니다. 아래는 s1101이며, 세 버전 모두 전체 미리듣기 페이지에 있습니다.</p>
+    <audio controls preload="none" src="../../v9/s1101.mp3"></audio>
+    <a class="pagelink" href="../../v9/ko/">Take 9 전체 미리듣기 페이지 열기 (후보 3개 + 동적 가사) →</a>
+  </div>
+
+  <div class="vcard">
+    <div class="vhead"><span class="vname">Take 8</span><span class="badge dim">초안 · 검수 미실시</span><span class="vdate">등록일 2026-11-11</span></div>
+    <p class="vnote">중간 버전 입력으로 생성한 초안 세 개(시드 808 / 909 / 1010). 파일명이 다른 배치와 충돌해 '잘못 표기된 초안'으로 보류되었고, 검수를 거치지 않았습니다. 보스 본인의 요청에 따라 2026-11-11 있는 그대로 공개해 청취에 제공합니다 — 최종 버전 후보가 아닙니다. 세 초안 모두 전체 미리듣기 페이지에 있습니다.</p>
+    <a class="pagelink" href="../../v8/ko/">Take 8 미리듣기 페이지 열기 (초안 3개) →</a>
+  </div>
+
+  <div class="vcard">
+    <div class="vhead"><span class="vname">Take 7</span><span class="badge">후보 · 선택 대기</span><span class="vdate">등록일 2026-11-11</span><span class="vdur">5:31</span></div>
+    <p class="vnote">오프닝에 집중한 버전: 전주 버전은 곡에서 가장 웅장한 관현악 대목을 맨 앞으로 옮겨 첫 박자부터 전 무게로 시작합니다(오프닝 무게 Take 1의 2.8배, 유일한 합격); 새로 생성한 후보 두 버전이 더 있습니다. 아래는 전주 버전이며, 세 버전 모두 전체 미리듣기 페이지에 있습니다.</p>
+    <audio controls preload="none" src="../../v7/prelude-s606.mp3"></audio>
+    <a class="pagelink" href="../../v7/ko/">Take 7 전체 미리듣기 페이지 열기 (후보 3개 + 동적 가사) →</a>
+  </div>
+
+  <div class="vcard">
+    <div class="vhead"><span class="vname">Take 6</span><span class="badge">후보 · 선택 대기</span><span class="vdate">등록일 2026-11-11</span><span class="vdur">5:16</span></div>
+    <p class="vnote">같은 최종 가사로 한 번에 여섯 개 후보(s101–s606): s606은 가사가 가장 깨끗하고, s505는 상승이 가장 가파릅니다; s404는 마지막 줄이 빠져 불합격으로 표시했습니다. 아래는 추천하는 s606이며, 여섯 버전 모두 전체 미리듣기 페이지에 있습니다.</p>
+    <audio controls preload="none" src="../../v6/s606.mp3"></audio>
+    <a class="pagelink" href="../../v6/ko/">Take 6 전체 미리듣기 페이지 열기 (후보 6개 + 동적 가사) →</a>
+  </div>
+
+  <div class="vcard">
+    <div class="vhead"><span class="vname">Take 5</span><span class="badge dim">이전 현행 버전 · 차점</span><span class="vdate">등록일 2026-11-10</span><span class="vdur">5:20</span></div>
+    <p class="vnote">V9.4 가사: 아웃트로 두 줄만 교체 — 「阿母，手還露著呢／我先握一會兒，你睡吧」(어머니, 손이 이불 밖에 나와 있어요 / 제가 잠시 잡고 있을게요, 주무세요). 도입부의 ‘이불 밖의 손’과 브리지의 손바닥 장면을 받는 결말. 낭송 구조와 피아노·현악은 그대로. 줄별 QC 대조 진행 중이며, 아웃트로 두 줄은 ASR 3회로 실제 가창을 확인함.</p>
+    <audio controls preload="none" src="../../v5/song.mp3"></audio>
+    <a class="pagelink" href="../../v5/ko/">Take 5 전체 미리듣기 페이지 열기(흐르는 가사 + 제작 노트) →</a>
+  </div>
+
+  <div class="vcard">
+    <div class="vhead"><span class="vname">Take 4</span><span class="badge">최종본 · 정식 발매</span><span class="vdate">등록일 2026-11-10</span><span class="vdur">4:30</span></div>
+    <p class="vnote">V8 가사 + 읊조림 구조: 도입은 반은 읊고 반은 노래하며, 먼 타향에서 고향으로 보낸 편지를 읽어 주듯 시작하고, 마지막은 읊조림으로 돌아와 마무리합니다. 피아노와 첼로, 바이올린이 목소리에 곁을 지킵니다. 줄 단위 QC로 대조를 마쳤고, 마지막 두 줄이 노래에 들어간 것을 확인했습니다. 가사가 흐르는 전체 미리듣기 페이지는 아래에 있습니다. <b>2026-11-11 최종 확정 — 이 페이지 상단이 정식 버전입니다.</b></p>
+    <audio controls preload="none" src="../../v4/song.mp3"></audio>
+    <a class="pagelink" href="../../v4/ko/">Take 4 전체 미리듣기 페이지 열기(흐르는 가사 + 제작 노트) →</a>
+  </div>
+
+  <div class="vcard">
+    <div class="vhead"><span class="vname">차오산어 시험 가창 샘플</span><span class="vdate">등록일 2026-11-10</span><span class="vdur">1:08</span></div>
+    <p class="vnote">부속 실험: 같은 목소리로 차오산어 짧은 구간을 시험 삼아 불러, 방언 가창이 가능한지 확인했습니다.</p>
+    <audio controls preload="none" src="../../v4/chaoshan-test.mp3"></audio>
+  </div>
+
+  <div class="vcard">
+    <div class="vhead"><span class="vname">Take 3</span><span class="vdate">등록일 2026-11-09</span><span class="vdur">5:06</span></div>
+    <p class="vnote">합창을 빼고 현악 솔로에 여백을 남긴 버전. 평가 60–70점, 뼈대는 유지.<span class="warn">확인됨: 마지막 서면 두 줄은 이 버전에서 노래에 들어가지 않았습니다.</span>가사가 흐르는 전체 미리듣기 페이지는 아래에 있습니다.</p>
+    <audio controls preload="none" src="../../v3/song.mp3"></audio>
+    <a class="pagelink" href="../../v3/ko/">Take 3 전체 미리듣기 페이지 열기(흐르는 가사 + 제작 노트) →</a>
+  </div>
+
+  <div class="vcard">
+    <div class="vhead"><span class="vname">Take 2</span><span class="vdate">등록일 2026-11-09</span><span class="vdur">4:22</span></div>
+    <p class="vnote">V5 가사 확정고의 첫 녹음. 옛 편곡(합창 포함).</p>
+    <audio controls preload="none" src="../../v2/song.mp3"></audio>
+    <a class="pagelink" href="../../v2/ko/">Take 2 전체 미리듣기 페이지 열기(흐르는 가사 + 제작 노트) →</a>
+  </div>
+
+  <div class="vcard">
+    <div class="vhead"><span class="vname">Take 1</span><span class="badge dim">기준 미달 · 보관</span><span class="vdate">등록일 2026-11-09</span><span class="vdur">4:09</span></div>
+    <p class="vnote">첫 버전: 가사가 매끄럽지 않고 편곡이 마음을 움직이지 못했습니다 — 버리지 않고 보관해 대조 자료로 삼았으며, 이후의 모든 버전은 이 버전 위에 서 있습니다.</p>
+    <audio controls preload="none" src="../../v1/song.mp3"></audio>
+    <a class="pagelink" href="../../v1/ko/">Take 1 전체 미리듣기 페이지 열기(흐르는 가사 + 제작 노트) →</a>
+  </div>
+  </section>
+</div>
+
+<footer>
+  <div class="footmark"><a href="https://daddymi777.com/" aria-label="米老爸 Daddy Mi"><img src="/brand/mark-transparent.png" alt="米老爸 Daddy Mi"></a></div>
+  <a class="home" href="/music/mx005/ko/">《등불 아래 레이차》 정식 발매</a><br>
+  <a class="home" href="https://daddymi777.com/">홈으로 돌아가기</a>
+  <p class="copy">© 2026 米老爸 Daddy Mi</p>
+</footer>
+
+</body>
+</html>
