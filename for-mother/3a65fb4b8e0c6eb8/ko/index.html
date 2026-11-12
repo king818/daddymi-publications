@@ -17,7 +17,7 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/brand/favicon-32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/brand/favicon-16.png">
 <link rel="apple-touch-icon" href="/brand/apple-touch-icon.png">
-<link rel="stylesheet" href="/for-mother/3a65fb4b8e0c6eb8/mother-love-v5.css">
+<link rel="stylesheet" href="/for-mother/3a65fb4b8e0c6eb8/mother-love-v6.css">
 </head>
 <body>
 <!-- ===== CURTAIN: press the big button -> the curtain opens -> the song begins -> the page presents itself, station by station (boss ruling 2026-11-12) ===== -->
@@ -166,6 +166,7 @@
     <div class="fin-lamp" aria-hidden="true"><div class="fin-halo"></div><div class="fin-core"></div><div class="fin-flame"></div><div class="fin-lampbase"></div></div>
     <p class="fin-her" id="finHer" aria-label="有光陪你到天明"></p>
     <p class="fin-her2" id="finHer2" aria-label="我们都在您身边，一直都在。"></p>
+    <p class="fin-date" id="finDate">2026년 11월 12일</p>
     <p class="fin-sign" id="finSign">—— 端端</p>
   </div>
 </section>
@@ -174,6 +175,8 @@
   <p class="disclosure">이 곡은 Gospel Wisdom 팀이 오리지널로 기획·작사하고, 음악과 노래에는 AI 생성의 지원을 받았습니다.<br>어머니께 바치는 추수감사절 노래입니다.</p>
   <p class="copy">© 2026 米老爸 Daddy Mi</p>
 </footer>
+<div class="tour-toast" id="tourToast" role="status" aria-live="polite"></div>
+<div class="tour-buddy" id="tourBuddy" aria-hidden="true"></div>
 <audio id="audio" src="/for-mother/3a65fb4b8e0c6eb8/song.mp3" preload="metadata"></audio>
 
 <script>
@@ -195,6 +198,26 @@
   var stCredits = document.querySelector('.creditsbox');
   var stFooter = document.querySelector('footer');
   var finaleEl = document.getElementById('stFinale');
+
+  /* ---------- floating companions (boss, 2026-11-12): a warm word as the
+     journey begins, a small lamp that stays in the corner afterwards, and a
+     gentle notice when the film ends — so she always knows the page is
+     walking with her and she never has to wonder what happens next ------ */
+  var toastEl = document.getElementById('tourToast');
+  var buddyEl = document.getElementById('tourBuddy');
+  var toastTimer = null;
+  function showToast(text, ms){
+    if(!toastEl) return;
+    toastEl.textContent = text;
+    toastEl.classList.add('show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){
+      toastEl.classList.remove('show');
+      if(buddyEl) buddyEl.classList.add('show');
+    }, ms || 4200);
+  }
+  var TXT_START = '편히 앉아 계세요. 음악이 페이지를 안내해 드립니다. 손대지 않으셔도 됩니다.';
+  var TXT_MVEND = '잠시만 기다려 주세요. 페이지가 자동으로 아래로 이동합니다.';
 
   function fmt(s){s=Math.max(0,Math.floor(s));return Math.floor(s/60)+':'+('0'+(s%60)).slice(-2);}
   function safePlay(el){ var p = el.play(); if(p && p.catch){ p.catch(function(){}); } }
@@ -226,6 +249,9 @@
   var tour = { started:false, done:false, frozen:false, suspendedUntil:0,
                dedicateFired:false, blessIdx:-1, finaleStep:-1, finaleTimer:null };
   function suspended(){ return Date.now() < tour.suspendedUntil; }
+  /* page-level hold (the film's big Pause button): stops the media AND the walk */
+  var ctlHoldFlag = false;
+  function ctlHold(){ return ctlHoldFlag; }
   ['wheel','touchmove'].forEach(function(ev){
     document.addEventListener(ev, function(){ tour.suspendedUntil = Date.now() + 6000; }, { passive:true });
   });
@@ -250,6 +276,7 @@
     tour.started = true;
     safePlay(audio);                       /* inside the gesture: iOS/WeChat safe */
     curtain.classList.add('open');
+    setTimeout(function(){ showToast(TXT_START, 4600); }, 2600);
     setTimeout(function(){
       curtain.classList.add('gone');
       document.documentElement.classList.remove('locked');
@@ -335,6 +362,7 @@
   buildFinChars(document.getElementById('finHer2'), '我们都在您身边，一直都在。');
   var finChars = Array.prototype.slice.call(document.querySelectorAll('#stFinale .ch'));
   var finSign = document.getElementById('finSign');
+  var finDate = document.getElementById('finDate');
   (function buildEmbers(){
     var box = document.getElementById('finEmbers');
     if(!box) return;
@@ -354,12 +382,14 @@
     finaleEl.classList.remove('dawned', 'lamp-lit', 'embers-on');
     finChars.forEach(function(s){ s.classList.remove('on'); });
     if(finSign) finSign.classList.remove('float');
+    if(finDate) finDate.classList.remove('float');
   }
   function finishFinale(){
     finClear();
     finaleEl.classList.add('lamp-lit', 'embers-on', 'dawned');
     finChars.forEach(function(s){ s.classList.add('on'); });
     if(finSign) finSign.classList.add('float');
+    if(finDate) finDate.classList.add('float');
     finDone = true; finRunning = false;
   }
   function runFinale(){
@@ -373,7 +403,7 @@
     finLater(function(){ finaleEl.classList.add('embers-on'); }, 2100);  /* stove sparks / light dust begin to rise */
     finLater(function(){ finaleEl.classList.add('dawned'); }, 4400);     /* the night slowly dawns (night layer fades 2.6s) */
     finLater(function(){ finChars.forEach(function(s){ s.classList.add('on'); }); }, 6100); /* her words, character by character */
-    finLater(function(){ if(finSign) finSign.classList.add('float'); finDone = true; finRunning = false; }, 6100 + 3400 + 1600);
+    finLater(function(){ if(finSign) finSign.classList.add('float'); if(finDate) finDate.classList.add('float'); finDone = true; finRunning = false; }, 6100 + 3400 + 1600);
   }
   if(finaleEl){
     finaleEl.addEventListener('click', function(){
@@ -386,6 +416,7 @@
      Timer-driven (Fairy-page finale paradigm). Freezes while the film plays. */
   function finaleAdvance(){
     if(!tour.started || tour.done) return;
+    if(ctlHold()){ tour.finaleTimer = setTimeout(finaleAdvance, 1200); return; }
     if(tour.frozen){ tour.finaleTimer = setTimeout(finaleAdvance, 1200); return; }
     if(suspended()){
       /* she has her hand on the page: WAIT — do not end the walk here
@@ -438,12 +469,13 @@
     }
     if(mvPauseBtn){
       mvPauseBtn.addEventListener('click', function(){
-        if(video.paused || video.ended){ if(video.ended){ video.currentTime = 0; } safePlay(video); }
-        else { video.pause(); }
+        if(video.paused || video.ended){ ctlHoldFlag = false; if(video.ended){ video.currentTime = 0; } safePlay(video); }
+        else { ctlHoldFlag = true; video.pause(); }
       });
     }
     if(mvReplayBtn){
       mvReplayBtn.addEventListener('click', function(){
+        ctlHoldFlag = false;
         mvEndHandled = false;
         video.currentTime = 0;
         safePlay(video);
@@ -481,11 +513,13 @@
       if(mvEndHandled) return;
       mvEndHandled = true;
       if(!tour.started) return;
+      if(!tour.done) showToast(TXT_MVEND, 4200);
       if(tour.done){ if(!finDone && !finRunning){ setTimeout(runFinale, 800); } return; }
       clearTimeout(tour.finaleTimer);
       tour.finaleTimer = setTimeout(advanceAfterMv, 1500);
     }
     video.addEventListener('play', function(){
+      ctlHoldFlag = false;
       tour.frozen = true;
       if(!audio.paused){ audio.pause(); }
       mvEndHandled = false;
