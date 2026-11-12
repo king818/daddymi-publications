@@ -2,7 +2,7 @@
 
 Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, filterable version: https://king818.github.io/daddymi-publications/
 
-**330 public videos** · 74 replaced/private versions · Come, Follow Me 2026: 138 · Daily Verse · Neville Readings: 150 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 28 · Music Videos: 1 · Neville Inner Reading Podcast: 7
+**331 public videos** · 74 replaced/private versions · Come, Follow Me 2026: 138 · Daily Verse · Neville Readings: 150 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 28 · Music Videos: 2 · Neville Inner Reading Podcast: 7
 
 
 ## 來跟隨我 2026 — 中文（69）
@@ -384,10 +384,11 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-10-31 | ['Guaranteed 14% Returns'? A Dangerous Illusion | Finance Basics](https://www.youtube.com/shorts/_z0BhZ_z1P8) | Short (hook) | Finance Basics 2026 (English) | Archived · d6c05cce | Live | `_z0BhZ_z1P8` |
 | 2026-10-31 | [The Premium Lowers Your Real Cost to $109.08 | Finance Basics](https://www.youtube.com/shorts/meGAW-UginY) | Short (funnel) | Finance Basics 2026 (English) | Archived · ce324423 | Live | `meGAW-UginY` |
 
-## 音樂錄影帶 MV — 中文（1）
+## 音樂錄影帶 MV — 中文（2）
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
+| 2026-11-11 | [《燈下擂茶》米曦 Mi Xi 原創單曲｜謝謝你，媽媽](https://www.youtube.com/watch?v=-t6mGZf0G4k) | Official Audio | 音樂錄影帶 MV | 待存档 | 已發布 | `-t6mGZf0G4k` |
 | 2026-11-08 | [「換我們為妳點燈」米曦 Mi Xi 原創單曲 MTV](https://www.youtube.com/watch?v=w3UkV2G7Tl8) | MTV | 音樂錄影帶 MV | 待存档 | 已發布 | `w3UkV2G7Tl8` |
 
 ## Replaced / Private versions (74)

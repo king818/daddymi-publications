@@ -3893,6 +3893,21 @@ publications:
   status: Public
   note: Uploaded via YouTube Studio web (browser lane) 2026-11-08; verified Public on fresh Studio + public loads 15:31 PST — copyright and community-guidelines checks both clear, AI-content disclosure set to Yes; item 1 of the 音樂錄影帶 MV playlist (PLSxnHgZ_KCSI, Public, created 2026-11-08 under the boss's all-MTVs-to-YouTube rule). REFRAMED 2026-11-08 under the boss's ruling that YouTube promotes Mi Xi and the family stays private — the v1 title/description (family dedication framing, first link https://sangu.daddymi777.com/) are replaced by the v2 pack (youtube-upload-pack-v2-mixi.md) — Mi Xi single title, Mi Xi-focused description whose first link is the song's new dedicated page https://daddymi777.com/gospel-wisdom/dian-deng/. Index title + dedicated_page updated in step with the v2 pack; the Studio-side edit is executed by the browser lane from that pack. The family tribute page https://sangu.daddymi777.com/ is untouched and remains the family's private gift surface.
 - platform: YouTube
+  series: Music Videos
+  topic: 燈下擂茶 — 米曦 Mi Xi 感恩單曲（謝謝你，媽媽）官方音頻
+  language: zh-Hant
+  type: Official Audio
+  title: 《燈下擂茶》米曦 Mi Xi 原創單曲｜謝謝你，媽媽
+  published: '2026-11-11'
+  url: https://www.youtube.com/watch?v=-t6mGZf0G4k
+  native_id: -t6mGZf0G4k
+  playlist: 音樂錄影帶 MV
+  playlist_id: PLSxnHgZ_KCSI
+  playlist_url: https://www.youtube.com/playlist?list=PLSxnHgZ_KCSI
+  dedicated_page: https://daddymi777.com/music/mx005/
+  status: Public
+  note: Official audio release of Mi Xi's fifth single 《燈下擂茶》 (subtitle 謝謝你，媽媽), uploaded via the YouTube Data API on 2026-11-11 with trilingual title/description and custom thumbnail; description's first link is the song's dedicated page https://daddymi777.com/music/mx005/. Held Private on 2026-11-11 because the YouTube Data API daily quota was exhausted; flipped to Public on 2026-11-12 via videos.update (embeddable, license and madeForKids preserved) and verified Public by API read-back the same run; membership in the 音樂錄影帶 MV playlist (PLSxnHgZ_KCSI) re-verified by playlistItems listing (item 2 of 2).
+- platform: YouTube
   series: Daily Verse · Neville Readings
   topic: Psalm 119:105
   language: zh-Hant
