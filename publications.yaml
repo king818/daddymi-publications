@@ -3905,8 +3905,8 @@ publications:
   playlist_id: PLSxnHgZ_KCSI
   playlist_url: https://www.youtube.com/playlist?list=PLSxnHgZ_KCSI
   dedicated_page: https://daddymi777.com/music/mx005/
-  status: Public
-  note: Official audio release of Mi Xi's fifth single 《燈下擂茶》 (subtitle 謝謝你，媽媽), uploaded via the YouTube Data API on 2026-11-11 with trilingual title/description and custom thumbnail; description's first link is the song's dedicated page https://daddymi777.com/music/mx005/. Held Private on 2026-11-11 because the YouTube Data API daily quota was exhausted; flipped to Public on 2026-11-12 via videos.update (embeddable, license and madeForKids preserved) and verified Public by API read-back the same run; membership in the 音樂錄影帶 MV playlist (PLSxnHgZ_KCSI) re-verified by playlistItems listing (item 2 of 2).
+  status: Private — superseded by the story MTV gRbiXvJxEic on 2026-11-12; set Private per boss ruling once the formal story MV went live, kept for archive, not deleted
+  note: Official audio release of Mi Xi's fifth single 《燈下擂茶》 (subtitle 謝謝你，媽媽), uploaded via the YouTube Data API on 2026-11-11 with trilingual title/description and custom thumbnail; description's first link is the song's dedicated page https://daddymi777.com/music/mx005/. Held Private on 2026-11-11 because the YouTube Data API daily quota was exhausted; flipped to Public on 2026-11-12 via videos.update (embeddable, license and madeForKids preserved) and verified Public by API read-back the same run; membership in the 音樂錄影帶 MV playlist (PLSxnHgZ_KCSI) re-verified by playlistItems listing (item 2 of 2). Set Private on 2026-11-12 after the formal story MTV gRbiXvJxEic went Public (boss ruling of 2026-11-12); verified Private by API read-back the same run.
 - platform: YouTube
   series: Daily Verse · Neville Readings
   topic: Psalm 119:105
@@ -4868,6 +4868,21 @@ replaced_or_private:
   playlist: Daily Verse · Neville Readings 2026 (English)
   archive_note: 439cfeb6-1889-4689-9d33-03130e9964e8
   status: Private — replaced by the Remotion repair version nbsnvOt6WGs in the 2026-11-08 swap; this build carried an opaque dark panel over content cards (transparency defect — §4 tree-roots slide crushed near-black, α ≈187) and no background music; set Private per boss ruling, not deleted
+- platform: YouTube
+  series: Music Videos
+  topic: 燈下擂茶 — 米曦 Mi Xi 感恩單曲故事版 MTV
+  language: zh-Hant
+  type: MTV
+  title: 《燈下擂茶》米曦 Mi Xi 原創單曲 MTV｜謝謝你，媽媽
+  published: '2026-11-12'
+  url: https://www.youtube.com/watch?v=gRbiXvJxEic
+  native_id: gRbiXvJxEic
+  playlist: 音樂錄影帶 MV
+  playlist_id: PLSxnHgZ_KCSI
+  playlist_url: https://www.youtube.com/playlist?list=PLSxnHgZ_KCSI
+  dedicated_page: https://daddymi777.com/music/mx005/
+  status: Public
+  note: 故事版 MTV（36 張故事靜幀 + Remotion 組裝，音頻 = Take 4 定版母帶，附 zh-Hans 歌詞字幕軌）。2026-11-12 經 API 上傳，先 Private 核實（標題/時長/字幕軌/播放列表成員）後轉 Public 並複核。AI 使用披露待 Studio 補設（API 無此欄位）。私人版（片尾獻詞卡 + 全中文落款）htNjC_xlI2w 為 Unlisted、未入任何播放列表，只嵌媽媽專屬頁 https://daddymi777.com/for-mother/3a65fb4b8e0c6eb8/ 。占位版 -t6mGZf0G4k 依 boss 2026-11-12 裁示，於正式 MV 上線後轉 Private 留檔（未刪除）。
 unverified:
 - item: CFM Lesson 3 (6 videos, published 2026-11-03) — Evernote archive notes missing
   reason: Checked 2026-11-03 — no archive notes found in Evernote by video ID or title; archive ZIPs not yet built. Finals retained on M1 mini (~/cfm-bf03-creation) and in the run dir on the VM.

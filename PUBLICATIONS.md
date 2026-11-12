@@ -2,7 +2,7 @@
 
 Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, filterable version: https://king818.github.io/daddymi-publications/
 
-**331 public videos** · 74 replaced/private versions · Come, Follow Me 2026: 138 · Daily Verse · Neville Readings: 150 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 28 · Music Videos: 2 · Neville Inner Reading Podcast: 7
+**331 public videos** · 75 replaced/private versions · Come, Follow Me 2026: 138 · Daily Verse · Neville Readings: 150 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 28 · Music Videos: 2 · Neville Inner Reading Podcast: 7
 
 
 ## 來跟隨我 2026 — 中文（69）
@@ -388,10 +388,10 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
-| 2026-11-11 | [《燈下擂茶》米曦 Mi Xi 原創單曲｜謝謝你，媽媽](https://www.youtube.com/watch?v=-t6mGZf0G4k) | Official Audio | 音樂錄影帶 MV | 待存档 | 已發布 | `-t6mGZf0G4k` |
+| 2026-11-11 | [《燈下擂茶》米曦 Mi Xi 原創單曲｜謝謝你，媽媽](https://www.youtube.com/watch?v=-t6mGZf0G4k) | Official Audio | 音樂錄影帶 MV | 待存档 | Private | `-t6mGZf0G4k` |
 | 2026-11-08 | [「換我們為妳點燈」米曦 Mi Xi 原創單曲 MTV](https://www.youtube.com/watch?v=w3UkV2G7Tl8) | MTV | 音樂錄影帶 MV | 待存档 | 已發布 | `w3UkV2G7Tl8` |
 
-## Replaced / Private versions (74)
+## Replaced / Private versions (75)
 
 Same productions, kept for the record — not public.
 
@@ -509,6 +509,12 @@ Same productions, kept for the record — not public.
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
 | 2026-11-04 | [Eyring — Comfort from the Holy Ghost](https://youtu.be/qtSEFFhFwIE)<br><sub>Elders Quorum | Comfort from the Holy Ghost · Matthew J. Eyring</sub> | Long | General Conference Talks 2026 (English) | Archived · 1850f84c | Private · replaced | `qtSEFFhFwIE` |
+
+### 已取代 / Private · 音樂錄影帶 MV — 中文（1）
+
+| 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
+|---|---|---|---|---|---|---|
+| 2026-11-12 | [《燈下擂茶》米曦 Mi Xi 原創單曲 MTV｜謝謝你，媽媽](https://www.youtube.com/watch?v=gRbiXvJxEic) | MTV | 音樂錄影帶 MV | 待存档 | 已發布 | `gRbiXvJxEic` |
 
 ## Unverified / pending
 
