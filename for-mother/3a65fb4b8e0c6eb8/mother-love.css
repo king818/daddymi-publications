@@ -90,3 +90,24 @@ footer{text-align:center;padding:30px 20px 42px;color:var(--ink-soft)}
   .line{font-size:18px}
   .line.active{font-size:20.5px}
 }
+
+/* ---- 2026-11-12 upgrade: sitehead furniture, photo hero, blessing, story, video ---- */
+.sitehead{max-width:660px;margin:0 auto;padding:2px 4px 0}
+.sitehead a{display:inline-flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink-soft)}
+.sitehead img{width:28px;height:28px}
+.sitehead span{font-size:13px;letter-spacing:.22em}
+.heroimg{margin:10px auto 4px;max-width:600px;border-radius:26px;overflow:hidden;
+  border:6px solid rgba(255,255,255,.85);box-shadow:0 22px 48px rgba(158,58,95,.28)}
+.heroimg img{display:block;width:100%;height:auto}
+.blessing{margin:16px 0 8px;padding:18px 20px 10px;border-radius:18px;
+  background:linear-gradient(160deg,rgba(255,233,226,.95),rgba(251,227,216,.75));
+  border:1px solid rgba(196,87,126,.22)}
+.blessing p{font-size:16px;line-height:2.1;margin-bottom:8px;text-align:left;color:var(--ink)}
+.storysec,.videosec{max-width:560px;margin:28px auto 4px;background:var(--card);border:1px solid rgba(255,255,255,.9);
+  border-radius:22px;box-shadow:0 14px 34px rgba(158,58,95,.12);padding:24px 26px 18px}
+.storysec h3,.videosec h3{text-align:center;font-size:17px;letter-spacing:.4em;font-weight:600;color:var(--rose-deep)}
+.storysec p{font-size:15.5px;line-height:2.05;text-align:justify;margin-bottom:10px;color:var(--ink)}
+.storysec .storyquote{text-align:center;font-size:17.5px;line-height:1.9;color:var(--rose-deep);font-weight:600;margin:14px 0 6px}
+.videowrap{position:relative;padding-top:56.25%;border-radius:16px;overflow:hidden;box-shadow:0 12px 30px rgba(158,58,95,.22);background:#2b121c}
+.videowrap iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.videocap{text-align:center;font-size:12.5px;letter-spacing:.14em;color:var(--ink-soft);margin-top:10px}
