@@ -17,7 +17,7 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/brand/favicon-32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/brand/favicon-16.png">
 <link rel="apple-touch-icon" href="/brand/apple-touch-icon.png">
-<link rel="stylesheet" href="/for-mother/3a65fb4b8e0c6eb8/mother-love-v3.css">
+<link rel="stylesheet" href="/for-mother/3a65fb4b8e0c6eb8/mother-love-v4.css">
 </head>
 <body>
 <!-- ===== CURTAIN: press the big button -> the curtain opens -> the song begins -> the page presents itself, station by station (boss ruling 2026-11-12) ===== -->
@@ -141,6 +141,10 @@
     <h3>映 像</h3>
     <div class="drule"></div>
     <div class="videowrap"><video id="mvvideo" controls preload="metadata" playsinline poster="/for-mother/3a65fb4b8e0c6eb8/mtv-poster.jpg"><source src="/for-mother/3a65fb4b8e0c6eb8/mtv-private.mp4" type="video/mp4"></video></div>
+        <div class="mvbtns">
+      <button id="mvPauseBtn" type="button" class="mvbtn" aria-label="一時停止"><span class="mvbtn-ico" aria-hidden="true">&#x25B6;</span><span class="mvbtn-txt">再生</span></button>
+      <button id="mvReplayBtn" type="button" class="mvbtn mvbtn-alt" aria-label="最初から"><span class="mvbtn-ico" aria-hidden="true">&#x21BA;</span><span class="mvbtn-txt">最初から</span></button>
+    </div>
     <p class="videocap">『灯下擂茶』ミュージック映像 · 米曦 Mi Xi</p>
   </section>
   <section class="storysec reveal" id="stStory">
@@ -410,13 +414,79 @@
 
   /* ---------- the film and the song never talk over each other; the tour freezes for the film ---------- */
   if(video){
-    video.addEventListener('play', function(){ tour.frozen = true; if(!audio.paused){ audio.pause(); } });
-    video.addEventListener('pause', function(){ tour.frozen = false; });
-    video.addEventListener('ended', function(){
+    /* ---- the film's own BIG controls: pause / resume and replay, sized for a mother's hand (boss, live test 2026-11-12) ---- */
+    var mvPauseBtn = document.getElementById('mvPauseBtn');
+    var mvReplayBtn = document.getElementById('mvReplayBtn');
+    var MV_TXT = { pause:'一時停止', resume:'つづける', play:'再生' };
+    function mvBtnSync(){
+      if(!mvPauseBtn) return;
+      var ico = mvPauseBtn.querySelector('.mvbtn-ico'), txt = mvPauseBtn.querySelector('.mvbtn-txt');
+      if(!video.paused && !video.ended){ ico.textContent = '\u23F8'; txt.textContent = MV_TXT.pause; }
+      else { ico.textContent = '\u25B6'; txt.textContent = (video.currentTime > 0.5 && !video.ended) ? MV_TXT.resume : MV_TXT.play; }
+    }
+    if(mvPauseBtn){
+      mvPauseBtn.addEventListener('click', function(){
+        if(video.paused || video.ended){ if(video.ended){ video.currentTime = 0; } safePlay(video); }
+        else { video.pause(); }
+      });
+    }
+    if(mvReplayBtn){
+      mvReplayBtn.addEventListener('click', function(){
+        mvEndHandled = false;
+        video.currentTime = 0;
+        safePlay(video);
+      });
+    }
+    /* ---- the walk resumes after the film, however she arrived at it ----
+       Defect found by the boss himself (2026-11-12): the old wiring advanced
+       the walk ONLY in the single state finaleStep===0 (song ended, walk
+       resting on the film). If she reached the film on her own while the song
+       was still playing, pressing play paused the song for the film; the song
+       then never fired 'ended', finaleStep stayed -1, and when the film ended
+       nothing advanced — the walk died at the film station. The film's end
+       now advances the remaining stations from ANY tour state, after a gentle
+       pause, with a duration watchdog in case 'ended' is ever missed — and
+       only while the film station is in view, so the page is never yanked
+       away from wherever she has taken it herself. */
+    var mvEndHandled = false, mvWatch = null;
+    function mvNearView(){
+      if(!stVideo) return false;
+      var r = stVideo.getBoundingClientRect(), vh = window.innerHeight;
+      return r.bottom > vh * 0.15 && r.top < vh * 0.85;
+    }
+    function advanceAfterMv(){
+      if(tour.done) return;
+      if(!mvNearView()) return;
+      tour.suspendedUntil = 0;
+      clearTimeout(tour.finaleTimer);
+      if(tour.finaleStep < 0) tour.finaleStep = 0;
+      finaleAdvance();
+    }
+    function onMvEnded(){
       tour.frozen = false;
-      if(tour.finaleStep === 0){ clearTimeout(tour.finaleTimer); tour.finaleTimer = setTimeout(finaleAdvance, 1000); }
-      else if(audio.ended && tour.done && !finDone && !finRunning){ setTimeout(runFinale, 800); }
+      if(mvWatch !== null){ clearInterval(mvWatch); mvWatch = null; }
+      mvBtnSync();
+      if(mvEndHandled) return;
+      mvEndHandled = true;
+      if(!tour.started) return;
+      if(tour.done){ if(!finDone && !finRunning){ setTimeout(runFinale, 800); } return; }
+      clearTimeout(tour.finaleTimer);
+      tour.finaleTimer = setTimeout(advanceAfterMv, 1500);
+    }
+    video.addEventListener('play', function(){
+      tour.frozen = true;
+      if(!audio.paused){ audio.pause(); }
+      mvEndHandled = false;
+      mvBtnSync();
+      if(mvWatch === null){
+        mvWatch = setInterval(function(){
+          if(video.ended || (video.duration && !video.paused && video.currentTime >= video.duration - 0.6)){ onMvEnded(); }
+        }, 500);
+      }
     });
+    video.addEventListener('pause', function(){ tour.frozen = false; mvBtnSync(); });
+    video.addEventListener('ended', onMvEnded);
+    mvBtnSync();
   }
 
   /* ---------- gentle reveals as the stations enter view ---------- */
