@@ -89,6 +89,11 @@
     .langbar .langsep{display:none;}
     .backbar{padding:10px 12px 0;}
   }
+
+  .videowrap{position:relative;width:100%;padding-top:56.25%;border-radius:12px;overflow:hidden;border:1px solid var(--line);margin-top:12px;background:#000;}
+  .videowrap iframe{position:absolute;inset:0;width:100%;height:100%;border:0;}
+  video.mv{width:100%;display:block;border-radius:12px;border:1px solid var(--line);margin-top:12px;background:#000;}
+  .mvlabel{font-size:15.5px;font-weight:700;color:var(--accent-dark);margin-top:18px;}
 </style>
 </head>
 <body>
@@ -178,6 +183,14 @@
         <p>媽媽，謝謝你</p>
         <p>你給我們的愛，我們永遠記得</p>
     </div>
+  </section>
+  <section id="mv">
+    <h2>音樂錄影帶 · 故事版 MV</h2>
+    <p>這首歌背後的故事，拍成了影像——從清晨的灶台，到燈下的一碗擂茶；歌詞隨畫面逐句呈現。</p>
+    <p class="mvlabel">在 YouTube 觀看</p>
+    <div class="videowrap"><iframe src="https://www.youtube.com/embed/gRbiXvJxEic" title="YouTube" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+    <p class="mvlabel">本站直接播放（無需跳轉）</p>
+    <video class="mv" controls preload="metadata" playsinline poster="/music/mx005/carnation-leicha.jpg" src="/music/mx005/mtv-public.mp4"></video>
   </section>
   <section>
     <h2>製作手記</h2>
