@@ -18,116 +18,77 @@
 <link rel="apple-touch-icon" href="/brand/apple-touch-icon.png">
 <style>
   :root{
-    /* Ink & Light palette, aligned with portal.css (boss 2026-11-11) */
-    --ink:#1E2A38; --ink-soft:#45536A; --muted:#7E8698; --gold:#C9A227;
-    --gold-deep:#8A6D1F; --gold-soft:#E9D48A; --rice:#F8F4EA; --rice-deep:#F3EDDD;
-    --hairline:#E0D7BE; --paper:#FFFDF6; --card:rgba(255,255,255,.66);
+    --ink:#3a2620; --muted:#96705c; --paper:#fdf4ec; --card:#fffaf6;
+    --accent:#b26a48; --accent-dark:#8f4f30; --line:#f0d7c3;
+    --badge-bg:#f9e6d4; --radius:14px;
   }
-  *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
-  html{scroll-behavior:smooth}
+  *{box-sizing:border-box; margin:0; padding:0;}
   body{
     font-family:"Noto Serif KR","Nanum Myeongjo","Batang",Georgia,serif;
-    color:var(--ink);
-    background:
-      radial-gradient(120% 60% at 50% -6%, rgba(233,212,138,.55) 0%, rgba(233,212,138,0) 55%),
-      radial-gradient(90% 45% at 88% 22%, rgba(233,212,138,.30) 0%, rgba(233,212,138,0) 60%),
-      linear-gradient(180deg,#F8F4EA 0%,#F8F4EA 55%,#F3EDDD 100%);
-    min-height:100vh;
+    background:linear-gradient(180deg,#f6d9c2 0%,#fdf4ec 460px); color:var(--ink); line-height:1.75; -webkit-font-smoothing:antialiased;
   }
-  .brandmark{text-align:center;margin:0 0 6px}
-  .brandmark img{width:68px;height:68px}
-  .footmark{text-align:center;margin:0 0 10px}
-  .footmark img{width:46px;height:46px}
-  .wrap{max-width:640px;margin:0 auto;padding:34px 22px 30px;position:relative;z-index:1}
-  /* ————— hero ————— */
-  .hero{text-align:center;padding:8px 0 4px}
-  .hero svg{width:min(300px,76vw);height:auto;filter:drop-shadow(0 10px 24px rgba(201,162,39,.16))}
-  .pill{display:inline-block;margin-top:14px;padding:5px 16px;border:1.5px solid var(--gold);
-        color:var(--gold-deep);border-radius:999px;font-size:13.5px;letter-spacing:.28em;
-        background:rgba(255,255,255,.55)}
-  h1{font-size:41px;letter-spacing:.14em;font-weight:600;margin-top:16px;color:#1E2A38}
-  .subtitle{margin-top:9px;font-size:18.5px;letter-spacing:.34em;color:var(--gold-deep)}
-  .singer{margin-top:7px;font-size:13.5px;letter-spacing:.3em;color:var(--ink-soft)}
-  .story{margin:24px auto 4px;max-width:520px;font-size:15.5px;line-height:2.05;
-         color:#45536A;text-align:center}
-  .story b{color:var(--gold-deep);font-weight:600}
-  .rule{width:64px;height:2px;background:linear-gradient(90deg,transparent,var(--gold),transparent);
-        margin:22px auto 0;border-radius:2px}
-  /* ————— player ————— */
-  .player{position:sticky;top:10px;z-index:40;margin:26px auto 6px;max-width:560px;
-          background:var(--card);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
-          border:1px solid rgba(255,255,255,.85);border-radius:22px;
-          box-shadow:0 14px 34px rgba(30,42,56,.16);padding:16px 18px 13px}
-  .prow{display:flex;align-items:center;gap:15px}
-  #playBtn{flex:0 0 auto;width:58px;height:58px;border-radius:50%;border:none;cursor:pointer;
-    background:radial-gradient(circle at 32% 28%, #E9D48A, var(--gold) 58%, var(--gold-deep));
-    box-shadow:0 8px 20px rgba(201,162,39,.42), inset 0 1.5px 2px rgba(255,255,255,.55);
-    display:flex;align-items:center;justify-content:center;transition:transform .15s}
-  #playBtn:active{transform:scale(.94)}
-  #playBtn svg{width:24px;height:24px;fill:#fff}
-  .ptrack{flex:1}
-  .pbar{height:6px;border-radius:3px;background:rgba(201,162,39,.18);cursor:pointer;position:relative}
-  #pfill{height:100%;width:0%;border-radius:3px;background:linear-gradient(90deg,#E9D48A,var(--gold));position:relative}
-  #pfill::after{content:"";position:absolute;right:-6px;top:50%;transform:translateY(-50%);
-    width:12px;height:12px;border-radius:50%;background:#fff;border:2px solid var(--gold);
-    box-shadow:0 1px 5px rgba(30,42,56,.4)}
-  .ptime{display:flex;justify-content:space-between;font-size:12px;color:var(--ink-soft);
-         margin-top:7px;letter-spacing:.12em;font-family:ui-monospace,Menlo,monospace}
-  .phint{text-align:center;font-size:12.5px;color:var(--ink-soft);letter-spacing:.22em;margin-top:9px}
-  /* ————— lyrics ————— */
-  .lyrics{max-width:560px;margin:14px auto 0;padding:6px 4px 10px}
-  .sec{text-align:center;font-size:12.5px;letter-spacing:.5em;color:var(--gold);
-       margin:30px 0 10px;font-weight:600}
-  .sec:first-child{margin-top:8px}
-  .line{font-size:18.5px;line-height:1.5;padding:7px 12px;margin:2px 0;border-radius:12px;
-        text-align:center;color:#7E8698;cursor:pointer;transition:all .45s ease}
-  .line.active{color:#8A6D1F;font-size:21.5px;font-weight:600;
-        background:linear-gradient(90deg,rgba(255,255,255,0),rgba(255,255,255,.75),rgba(255,255,255,0));
-        text-shadow:0 1px 10px rgba(233,212,138,.55)}
-  .line.done{color:#45536A}
-  /* ————— making-of notes ————— */
-  .notes{max-width:560px;margin:38px auto 4px;background:var(--card);
-         backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
-         border:1px solid rgba(255,255,255,.85);border-radius:22px;
-         box-shadow:0 14px 34px rgba(30,42,56,.13);padding:26px 26px 20px}
-  .notes h2{text-align:center;font-size:19px;letter-spacing:.5em;font-weight:600;color:#1E2A38}
-  .notes .nrule{width:52px;height:2px;background:linear-gradient(90deg,transparent,var(--gold),transparent);
-         margin:13px auto 16px;border-radius:2px}
-  .notes p{font-size:14.5px;line-height:2.0;color:#45536A;margin-bottom:11px;text-align:justify}
-  .notes p b{color:var(--gold-deep);font-weight:600}
-  .credits{margin-top:15px;padding-top:13px;border-top:1px solid rgba(201,162,39,.22);
-         text-align:center;font-size:12.5px;line-height:2.0;letter-spacing:.14em;color:var(--ink-soft)}
-  /* ————— footer ————— */
-  footer{text-align:center;padding:34px 20px 40px;color:var(--ink-soft);position:relative;z-index:1}
-  .disclosure{font-size:12px;line-height:1.9;letter-spacing:.06em;max-width:520px;margin:0 auto}
-  .home{display:inline-block;margin-top:16px;color:var(--gold-deep);text-decoration:none;
-        font-size:14px;letter-spacing:.24em;border-bottom:1px solid rgba(201,162,39,.4);padding-bottom:2px}
-  .copy{margin-top:14px;font-size:12.5px;letter-spacing:.18em}
-  .langbar{display:flex;justify-content:flex-end;align-items:center;gap:7px;max-width:640px;margin:0 auto;padding:16px 22px 0;position:relative;z-index:30;flex-wrap:wrap}
-  .langbar a{font-size:13.5px;padding:5px 13px;border-radius:999px;color:var(--ink-soft);border:1px solid rgba(201,162,39,.35);text-decoration:none;background:rgba(255,255,255,.5)}
-  .langbar a.active{background:var(--gold);color:#fff;border-color:var(--gold);font-weight:700}
-  .langbar .langsep{color:rgba(30,42,56,.35);font-size:12px}
-/*mx005-nav-fix-2026-11-10*/
-.langbar a{white-space:nowrap}
-.backbar{max-width:640px;margin:0 auto;padding:10px 22px 0;position:relative;z-index:30}
-.backbar a{display:inline-block;font-size:13.5px;padding:5px 13px;border-radius:999px;color:var(--ink-soft);border:1px solid rgba(201,162,39,.35);text-decoration:none;background:rgba(255,255,255,.55)}
-@media (max-width:560px){.langbar{flex-wrap:nowrap;gap:4px;padding:14px 12px 0}.langbar a{font-size:12px;padding:4px 8px}.langbar .langsep{display:none}.backbar{padding:10px 12px 0}}
-
-  /* ——— versions archive (carried from the version-index page) ——— */
-  .versions{max-width:560px;margin:6px auto 0}
-  .verh{text-align:center;font-size:20px;letter-spacing:.4em;font-weight:600;color:#1E2A38;margin:26px 0 6px}
-  .verintro{text-align:center;font-size:13.5px;line-height:1.9;color:var(--ink-soft);margin:0 10px 8px}
-  .vcard{background:var(--card);border:1px solid rgba(201,162,39,.25);border-radius:16px;padding:18px 18px 14px;margin:18px 0;box-shadow:0 6px 22px rgba(30,42,56,.08);text-align:left}
-  .vhead{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 12px;margin-bottom:6px}
-  .vname{font-size:19px;color:var(--gold-deep);font-weight:700;letter-spacing:.04em}
-  .vdate{font-size:13px;color:var(--ink-soft);letter-spacing:.12em}
-  .vdur{font-size:13px;color:var(--ink-soft)}
-  .badge{font-size:12px;color:#fff;background:var(--gold);border-radius:999px;padding:2.5px 10px;letter-spacing:.14em}
-  .badge.dim{background:#7E8698}
-  .vnote{font-size:14.5px;line-height:1.85;color:var(--ink);margin:4px 0 10px}
-  .vnote .warn{color:var(--gold-deep)}
-  .vcard audio{width:100%;height:40px}
-  .pagelink{display:inline-block;margin-top:10px;color:var(--gold-deep);font-size:14.5px;text-decoration:none;border-bottom:1px solid var(--gold);padding-bottom:1px;letter-spacing:.08em}
+  .wrap{max-width:760px; margin:0 auto; padding:0 20px 64px;}
+  .langbar{display:flex; justify-content:flex-end; align-items:center; gap:8px; max-width:760px; margin:0 auto; padding:18px 20px 0; flex-wrap:wrap;}
+  .langbar a{font-size:14.5px; padding:5px 14px; border-radius:999px; color:var(--muted); border:1px solid var(--line); text-decoration:none; background:transparent; white-space:nowrap;}
+  .langbar a.active{background:var(--accent); color:#fff; border-color:var(--accent); font-weight:700;}
+  .langbar .langsep{color:var(--muted); font-size:14px;}
+  .backbar{max-width:760px; margin:0 auto; padding:12px 20px 0;}
+  .backbar a{color:var(--accent-dark); text-decoration:none; font-size:15px;}
+  .brandmark{text-align:center; margin:16px 0 0;}
+  .brandmark img{width:56px; height:56px;}
+  .footmark{text-align:center; margin:0 0 10px;}
+  .footmark img{width:46px; height:46px;}
+  header{padding:22px 0 8px; text-align:center;}
+  .kicker{letter-spacing:.3em; font-size:13px; color:var(--accent); text-transform:uppercase;}
+  h1{font-size:34px; line-height:1.35; margin:14px 0 6px; font-weight:700;}
+  h1 .sub{display:block; font-size:19px; font-weight:400; color:var(--muted); letter-spacing:.06em; margin-top:6px;}
+  .tagline{color:var(--muted); font-size:16px; margin-top:10px;}
+  .heroimg{width:100%; border-radius:12px; display:block; border:1px solid var(--line); margin-top:14px;}
+  section{background:var(--card); border:1px solid var(--line); border-radius:var(--radius); padding:28px 28px 24px; margin-top:26px;}
+  h2{font-size:22px; margin-bottom:10px; color:var(--accent-dark);}
+  p{margin:8px 0;}
+  .muted{color:var(--muted); font-size:15px;}
+  .playerline{font-size:16.5px; margin-top:4px;}
+  audio.song{width:100%; margin-top:8px;}
+  .lyrics{max-height:46vh; overflow-y:auto; padding:6px 2px; scroll-behavior:smooth;}
+  .lyrics p{margin:0; padding:5px 10px; font-size:17.5px; line-height:1.55; color:var(--muted); text-align:center; border-radius:8px; transition:color .35s ease, background .35s ease, font-size .35s ease, opacity .35s ease; cursor:pointer;}
+  .lyrics p.past{opacity:.48;}
+  .lyrics p.next{color:var(--ink); font-weight:600; opacity:.82;}
+  .lyrics p.on{color:var(--accent-dark); font-weight:700; background:var(--line); font-size:21px; opacity:1;}
+  .lyrics p.seg{font-size:13px; letter-spacing:.3em; color:var(--accent); text-align:center; padding:0 10px 2px; cursor:default; margin-top:14px;}
+  .lyrics p.seg:first-child{margin-top:0;}
+  .credit{background:rgba(127,110,80,.07); border:1px solid var(--line); border-radius:10px; padding:12px 16px; font-size:15px; margin-top:14px; white-space:pre-line; text-align:center;}
+  footer{text-align:center; color:var(--muted); font-size:13.5px; margin-top:36px;}
+  footer a{color:var(--accent-dark);}
+  .btn{display:inline-block; padding:12px 26px; border-radius:999px; text-decoration:none; font-size:16px; font-weight:700; background:var(--accent); color:#fff; box-shadow:0 2px 8px rgba(90,70,40,.25);}
+  .btn.secondary{background:transparent; color:var(--accent-dark); border:2px solid var(--accent); box-shadow:none;}
+  .aj-rule{height:2px; background:linear-gradient(90deg,transparent,var(--accent),transparent); opacity:.55; margin:4px 0 18px;}
+  .aj-progress{color:var(--muted); font-size:14.5px; margin:-2px 0 14px;}
+  .aj-grid{display:grid; grid-template-columns:repeat(4,1fr); gap:24px;}
+  .aj-card{display:block; text-decoration:none; color:var(--ink); border-radius:10px; padding:8px 8px 10px;}
+  .aj-card img{width:100%; height:auto; aspect-ratio:1/1; object-fit:cover; display:block; border-radius:6px; border:1px solid var(--line); transition:transform .25s ease, filter .25s ease;}
+  a.aj-card:hover img{filter:brightness(1.07); transform:translateY(-2px);}
+  a.aj-card:hover .aj-title{text-decoration:underline; text-decoration-color:var(--accent); text-underline-offset:3px;}
+  .aj-card:focus-visible{outline:2px solid var(--accent); outline-offset:2px;}
+  .aj-num{display:block; margin-top:10px; font-size:12px; letter-spacing:.14em; text-transform:uppercase; color:var(--accent); font-weight:700;}
+  .aj-title{display:block; font-size:16.5px; line-height:1.45; margin-top:2px; overflow:hidden; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical;}
+  .aj-kind{display:block; color:var(--muted); font-size:13.5px; margin-top:2px;}
+  .aj-current{background:var(--badge-bg); border:1px solid var(--accent);}
+  .aj-current img{border-color:var(--accent);}
+  .aj-here{display:inline-block; margin-top:6px; font-size:12.5px; letter-spacing:.08em; color:var(--accent-dark); font-weight:700;}
+  .aj-utility{display:flex; flex-wrap:wrap; gap:10px; justify-content:center; margin-top:26px;}
+  @media (max-width:719px){ .aj-grid{grid-template-columns:repeat(2,1fr); gap:16px;} }
+  @media (prefers-reduced-motion:reduce){ .aj-card img{transition:none;} a.aj-card:hover img{transform:none;} }
+  @media (max-width:560px){
+    h1{font-size:27px;}
+    section{padding:22px 18px 18px;}
+    .lyrics p{font-size:16.5px;}
+    .lyrics p.on{font-size:19.5px;}
+    .langbar{gap:5px; padding:14px 12px 0;}
+    .langbar a{font-size:12.5px; padding:4px 9px;}
+    .langbar .langsep{display:none;}
+    .backbar{padding:10px 12px 0;}
+  }
 </style>
 </head>
 <body>
@@ -135,204 +96,193 @@
 <div class="backbar"><a href="/music/ko/">← 전체 곡</a></div>
 <div class="wrap">
   <div class="brandmark"><a href="https://daddymi777.com/" aria-label="米老爸 Daddy Mi — 홈으로"><img src="/brand/mark-transparent.png" alt="米老爸 Daddy Mi"></a></div>
-  <div class="hero">
-    <svg viewBox="0 0 320 190" role="img" aria-label="등불 아래 레이차">
-      <defs>
-        <radialGradient id="glow" cx="50%" cy="50%" r="50%">
-          <stop offset="0%" stop-color="#ffd9a8" stop-opacity=".95"/>
-          <stop offset="55%" stop-color="#ffc98f" stop-opacity=".45"/>
-          <stop offset="100%" stop-color="#ffc98f" stop-opacity="0"/>
-        </radialGradient>
-        <linearGradient id="tea" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0%" stop-color="#d9b06a"/><stop offset="100%" stop-color="#b98a3e"/>
-        </linearGradient>
-      </defs>
-      <circle cx="160" cy="62" r="58" fill="url(#glow)"/>
-      <line x1="160" y1="0" x2="160" y2="22" stroke="#45536A" stroke-width="1.6" opacity=".55"/>
-      <path d="M146 22 h28 l-5 14 a9 9 0 0 1 -18 0 z" fill="#1E2A38"/>
-      <circle cx="160" cy="46" r="7.5" fill="#ffca7a"/>
-      <circle cx="160" cy="46" r="15" fill="#ffb35c" opacity=".35"/>
-      <ellipse cx="160" cy="152" rx="118" ry="10" fill="#E0D7BE" opacity=".55"/>
-      <path d="M110 128 q50 20 100 0 l-7 22 a10 10 0 0 1 -10 7 h-66 a10 10 0 0 1 -10 -7 z" fill="#45536A"/>
-      <path d="M110 128 q50 20 100 0 q-50 12 -100 0z" fill="#1E2A38"/>
-      <ellipse cx="160" cy="129.5" rx="49" ry="7.5" fill="url(#tea)"/>
-      <path d="M146 116 q4 -10 0 -19 M160 118 q5 -12 0 -23 M174 116 q4 -10 0 -19" stroke="#E9D48A" stroke-width="2.4" fill="none" stroke-linecap="round" opacity=".65"/>
-      <g fill="#C9A227"><circle cx="138" cy="127" r="1.8"/><circle cx="150" cy="131" r="1.8"/><circle cx="164" cy="128" r="1.8"/><circle cx="178" cy="131" r="1.8"/></g>
-      <g stroke="#8a5a3b" stroke-width="2" stroke-linecap="round" opacity=".8">
-        <line x1="212" y1="146" x2="228" y2="120"/><line x1="220" y1="150" x2="236" y2="124"/>
-      </g>
-    </svg>
-    <div><span class="pill">정식 발매 · 최종본</span></div>
-    <div style="margin-top:9px;font-size:12.5px;letter-spacing:.26em;color:var(--ink-soft)">정식 발매 · 2026-11-11</div>
-    <h1>등불 아래 레이차</h1>
-    <div class="subtitle">고마워요, 엄마</div>
-    <div class="singer">米 曦 &nbsp;M i &nbsp;X i</div>
-    <p class="story">한 분의 어머니가 평생의 밥상으로 가족을 사랑해 왔습니다 — 새벽의 부엌에서부터 매일 밤 풍성한 저녁 식탁까지. 손수 갈아 만든 레이차 한 그릇에는 말로 다 못 할 사랑이 담겨 있습니다.<br>이제 어머니는 병으로 누워 계십니다. 아이들은 침대 곁을 지키며, 직접 전하고 싶습니다: <b>고마워요, 엄마. 엄마가 해 오신 모든 것을 저희는 다 보았고, 다 기억합니다. 걱정 마세요, 집에는 제가 있어요.</b></p>
-    <img src="carnation-leicha.jpg" alt="카네이션을 든 미시, 탁자 위 레이차 한 그릇 — 어머니를 생각하며" style="display:block;margin:18px auto 4px;max-width:520px;width:100%;border-radius:14px">
-    <div class="rule"></div>
-  </div>
-
-  <div class="player">
-    <div class="prow">
-      <button id="playBtn" aria-label="재생 / 일시정지">
-        <svg id="icoPlay" viewBox="0 0 24 24"><path d="M8 5.5v13l11-6.5z"/></svg>
-        <svg id="icoPause" viewBox="0 0 24 24" style="display:none"><path d="M7 5h3.6v14H7zM13.4 5H17v14h-3.6z"/></svg>
-      </button>
-      <div class="ptrack">
-        <div class="pbar" id="pbar"><div id="pfill"></div></div>
-        <div class="ptime"><span id="tCur">0:00</span><span id="tDur">4:29</span></div>
-      </div>
-    </div>
-    <div class="phint">재생을 누르면 가사가 노래에 맞춰 빛납니다</div>
-    <div class="phint" style="margin-top:5px;letter-spacing:.06em">※ 이 곡은 중국어(보통화)로 불렀습니다. 가사는 원문을 그대로 표시합니다</div>
-  </div>
-
-  <div class="lyrics" id="lyrics">
-<div class="sec">인트로</div>
-<div class="line" data-t="13.32">오늘 밤 저는 당신의 침대 곁에 앉아</div>
-<div class="line" data-t="16.5">당신의 손을 살며시 잡아요</div>
-<div class="line" data-t="20">평소에는 하지 못했던 말을</div>
-<div class="line" data-t="23.08">오늘 밤은 천천히 당신에게 들려드리고 싶어요</div>
-<div class="sec">1절</div>
-<div class="line" data-t="27.02">새벽 아궁이의 온기를 기억해요</div>
-<div class="line" data-t="30.2">점심이면 집 안 가득하던 밥 냄새를 기억해요</div>
-<div class="line" data-t="33.2">당신은 작은딸의 머리를 잘라 주었고</div>
-<div class="line" data-t="36.84">예쁜 옷을 입혀 주었어요</div>
-<div class="sec">2절 · 레이차</div>
-<div class="line" data-t="41.3">당신이 손수 간 그 레이차</div>
-<div class="line" data-t="43.54">땅콩과 참깨, 천천히 갈아 향이 나요</div>
-<div class="line" data-t="46.56">찻물을 밥에 섞고 나물을 곁들여</div>
-<div class="line" data-t="49.98">밤이 되어도 여전히 밥상 가득한 음식</div>
-<div class="sec">후렴 1</div>
-<div class="line" data-t="54.22">감사해요, 엄마, 당신의 사랑에 감사해요</div>
-<div class="line" data-t="57.94">이 가정을 위해 반평생을 바쁘게 일해 주셔서 감사해요</div>
-<div class="line" data-t="67.26">엄마, 당신이 해 오신 모든 것을</div>
-<div class="line" data-t="70.36">우리는 다 보았고, 다 기억해요</div>
-<div class="line" data-t="73.96">빛이 새벽까지 당신과 함께하기를</div>
-<div class="line" data-t="76.2">부엌의 그 등잔처럼</div>
-<div class="line" data-t="80.36">당신은 평생으로 이 가정을 따뜻하게 했어요</div>
-<div class="line" data-t="83.54">오늘 밤은 우리가 새벽까지 당신과 함께 있을게요</div>
-<div class="sec">3절</div>
-<div class="line" data-t="106.7">예순이 가까운 당신</div>
-<div class="line" data-t="109.44">뒷모습은 전보다 둥글어졌어요</div>
-<div class="line" data-t="112.96">젊었을 때 당신의 모습을 떠올리면</div>
-<div class="line" data-t="116.44">마음은 아련함과 감사로 가득해요</div>
-<div class="line" data-t="119.34">예전에는 당신이 우리에게 옷을 입혀 주었는데</div>
-<div class="line" data-t="123.04">이제는 딸이 당신의 이불 끝자락을 여며 드려요</div>
-<div class="line" data-t="126.4">당신은 몇 번이나 배고프냐고 물었는데</div>
-<div class="line" data-t="129.78">오늘은 우리가 당신에게 피곤하지 않냐고 물을 차례예요</div>
-<div class="sec">후렴 2</div>
-<div class="line" data-t="134.42">감사해요, 엄마, 당신의 사랑에 감사해요</div>
-<div class="line" data-t="137.9">매일 어두워질 때까지 일해 주셔서 감사해요</div>
-<div class="line" data-t="141.28">레이차 한 사발, 저녁 밥상 한 상</div>
-<div class="line" data-t="143.66">그 안에 얼마나 많은, 말하지 못한 사랑이 숨어 있을까요</div>
-<div class="line" data-t="146.78">빛이 새벽까지 당신과 함께하기를</div>
-<div class="line" data-t="150.22">사랑이 당신 곁을 지키기를</div>
-<div class="line" data-t="154.24">우리는 살며시 당신을 위해 기도해요</div>
-<div class="line" data-t="157.14">평안이 오늘 밤 당신과 함께하기를</div>
-<div class="sec">브리지</div>
-<div class="line" data-t="173.88">사랑하는 당신도 조금 쉬세요</div>
-<div class="line" data-t="176.7">늘 그렇게 강하지 않아도 돼요</div>
-<div class="line" data-t="179.82">예전에는 당신이 우리를 위해 비바람을 막아 주었는데</div>
-<div class="line" data-t="183.08">앞으로의 날들은 제가 앞에 설게요</div>
-<div class="line" data-t="186.68">내일이 어떻게 될지 우리는 모르지만</div>
-<div class="line" data-t="190.1">이 감사는 영원히 변하지 않을 거예요</div>
-<div class="line" data-t="193.94">하늘 아버지의 손이 당신을 붙들어 주시기를</div>
-<div class="line" data-t="196.64">그리고 지켜보는 어깨도 붙들어 주시기를</div>
-<div class="sec">마지막 후렴</div>
-<div class="line" data-t="214">감사해요, 엄마, 당신의 사랑에 감사해요</div>
-<div class="line" data-t="217.92">세월을 이 가정에 바쳐 주셔서 감사해요</div>
-<div class="line" data-t="221.26">그 레이차, 그 저녁 밥상</div>
-<div class="line" data-t="223.7">우리는 다 보았고, 평생 기억할게요</div>
-<div class="line" data-t="227">빛이 새벽까지 당신과 함께하기를</div>
-<div class="line" data-t="230.2">이제는 우리가 당신 곁을 지킬 차례예요</div>
-<div class="line" data-t="234.2">안심하고 쉬세요, 집안일은 제가 있어요</div>
-<div class="line" data-t="237.5">내일이 어떻든, 제가 당신과 함께 있을게요</div>
-<div class="sec">아웃트로</div>
-<div class="line" data-t="243.86">엄마, 감사해요</div>
-<div class="line" data-t="249.98">당신이 주신 사랑을 우리는 영원히 기억할게요</div>
-  </div>
-
-  <section class="notes">
-    <h2>제작 노트</h2>
-    <div class="nrule"></div>
-    <p>이 곡은 병으로 누워 계신 한 어머니를 위해 쓰였습니다. 실화입니다. 어머니는 평생의 밥상으로 가족을 사랑해 왔습니다 — 일 년 삼백육십오 일, 새벽의 부엌에서부터 매일 밤 풍성한 저녁 식사까지 단 하루도 거르지 않고요. 손수 갈아 만든 레이차에서는 땅콩과 참깨의 향이 천천히 우러나고, 식탁의 모두가 식사를 마친 뒤에야 어머니가 마지막으로 자리에 앉으셨습니다.</p>
-    <p>이제 어머니는 병으로 누워 계십니다. 어머니의 이야기는 몇 번이고 되풀이해 전해졌고, 이야기하는 사람의 눈시울이 먼저 붉어졌습니다 — <b>이 이야기가 먼저 있었기에, 이 노래가 있습니다.</b></p>
-    <p>이 노래는 도입에서 반은 읊고 반은 노래하듯, 먼 타향에서 고향으로 보낸 편지를 읽어 주듯 천천히 노래로 들어갑니다. 마지막에는 다시 조용한 읊조림으로 돌아와 이야기를 마무리합니다. 피아노는 등불 아래의 곁 지킴처럼 목소리에 가까이 함께합니다. 2026-11-11 정식 발매.</p>
-    <p>이 노래의 밑바탕에는 먼 옛날 고향의 연기 자욱한 부엌이 있습니다. 열네 살까지 집에서는 장작과 석탄을 때는 옛날식 아궁이로 밥을 지었습니다 — 가사 속 부뚜막에서 피어오르는 열기와 흰 연기는 바로 그런 부엌에서 온 것입니다. 훗날 가족은 광저우 톈허로 이사했고 부엌은 모습을 바꾸었지만, 어머니가 지어 주시던 밥상은 단 하루도 변하지 않았습니다.</p>
-    <div class="credits">제작 총괄 米老爸 Daddy Mi<br>작사 팀 협업(Junshi와 Bowen 자문)<br>노래 米曦 Mi Xi · 제작 Amani 팀</div>
+  <header>
+    <div class="kicker">米曦 Mi Xi · 어머니께 드리는 감사의 노래</div>
+    <h1>등불 아래 레이차
+      <span class="sub">米曦 Mi Xi · 시리즈 5번 곡</span>
+    </h1>
+    <p class="tagline">고마워요, 엄마 · 정식 발매 · 2026-11-11</p>
+    <img class="heroimg" src="carnation-leicha.jpg" alt="카네이션을 든 미시, 탁자 위 레이차 한 그릇 — 어머니를 생각하며">
+  </header>
+  <section>
+    <h2>노래 뒤에 있는 이야기</h2>
+    <p>한 분의 어머니가 평생의 밥상으로 가족을 사랑해 왔습니다 — 새벽의 부엌에서부터 매일 밤 풍성한 저녁 식탁까지. 손수 갈아 만든 레이차 한 그릇에는 말로 다 못 할 사랑이 담겨 있습니다.<br>이제 어머니는 병으로 누워 계십니다. 아이들은 침대 곁을 지키며, 직접 전하고 싶습니다: <b>고마워요, 엄마. 엄마가 해 오신 모든 것을 저희는 다 보았고, 다 기억합니다. 걱정 마세요, 집에는 제가 있어요.</b></p>
   </section>
+  <section id="listen">
+    <h2>듣기 · 가사 전문</h2>
+    <p class="playerline"><strong>米曦 Mi Xi 노래 🎶</strong> / AI 버추얼 가수 · 음악과 가창은 AI 생성</p>
+    <audio class="song" id="songAudio" controls preload="metadata" src="../v4/song.mp3"></audio>
+    <p class="muted">가사 전문 · 재생하면서 함께 보세요.</p>
+    <div class="lyrics">
+        <p class="seg">인트로</p>
+        <p>오늘 밤 저는 당신의 침대 곁에 앉아</p>
+        <p>당신의 손을 살며시 잡아요</p>
+        <p>평소에는 하지 못했던 말을</p>
+        <p>오늘 밤은 천천히 당신에게 들려드리고 싶어요</p>
+        <p class="seg">1절</p>
+        <p>새벽 아궁이의 온기를 기억해요</p>
+        <p>점심이면 집 안 가득하던 밥 냄새를 기억해요</p>
+        <p>당신은 작은딸의 머리를 잘라 주었고</p>
+        <p>예쁜 옷을 입혀 주었어요</p>
+        <p class="seg">2절 · 레이차</p>
+        <p>당신이 손수 간 그 레이차</p>
+        <p>땅콩과 참깨, 천천히 갈아 향이 나요</p>
+        <p>찻물을 밥에 섞고 나물을 곁들여</p>
+        <p>밤이 되어도 여전히 밥상 가득한 음식</p>
+        <p class="seg">후렴 1</p>
+        <p>감사해요, 엄마, 당신의 사랑에 감사해요</p>
+        <p>이 가정을 위해 반평생을 바쁘게 일해 주셔서 감사해요</p>
+        <p>엄마, 당신이 해 오신 모든 것을</p>
+        <p>우리는 다 보았고, 다 기억해요</p>
+        <p>빛이 새벽까지 당신과 함께하기를</p>
+        <p>부엌의 그 등잔처럼</p>
+        <p>당신은 평생으로 이 가정을 따뜻하게 했어요</p>
+        <p>오늘 밤은 우리가 새벽까지 당신과 함께 있을게요</p>
+        <p class="seg">3절</p>
+        <p>예순이 가까운 당신</p>
+        <p>뒷모습은 전보다 둥글어졌어요</p>
+        <p>젊었을 때 당신의 모습을 떠올리면</p>
+        <p>마음은 아련함과 감사로 가득해요</p>
+        <p>예전에는 당신이 우리에게 옷을 입혀 주었는데</p>
+        <p>이제는 딸이 당신의 이불 끝자락을 여며 드려요</p>
+        <p>당신은 몇 번이나 배고프냐고 물었는데</p>
+        <p>오늘은 우리가 당신에게 피곤하지 않냐고 물을 차례예요</p>
+        <p class="seg">후렴 2</p>
+        <p>감사해요, 엄마, 당신의 사랑에 감사해요</p>
+        <p>매일 어두워질 때까지 일해 주셔서 감사해요</p>
+        <p>레이차 한 사발, 저녁 밥상 한 상</p>
+        <p>그 안에 얼마나 많은, 말하지 못한 사랑이 숨어 있을까요</p>
+        <p>빛이 새벽까지 당신과 함께하기를</p>
+        <p>사랑이 당신 곁을 지키기를</p>
+        <p>우리는 살며시 당신을 위해 기도해요</p>
+        <p>평안이 오늘 밤 당신과 함께하기를</p>
+        <p class="seg">브리지</p>
+        <p>사랑하는 당신도 조금 쉬세요</p>
+        <p>늘 그렇게 강하지 않아도 돼요</p>
+        <p>예전에는 당신이 우리를 위해 비바람을 막아 주었는데</p>
+        <p>앞으로의 날들은 제가 앞에 설게요</p>
+        <p>내일이 어떻게 될지 우리는 모르지만</p>
+        <p>이 감사는 영원히 변하지 않을 거예요</p>
+        <p>하늘 아버지의 손이 당신을 붙들어 주시기를</p>
+        <p>그리고 지켜보는 어깨도 붙들어 주시기를</p>
+        <p class="seg">마지막 후렴</p>
+        <p>감사해요, 엄마, 당신의 사랑에 감사해요</p>
+        <p>세월을 이 가정에 바쳐 주셔서 감사해요</p>
+        <p>그 레이차, 그 저녁 밥상</p>
+        <p>우리는 다 보았고, 평생 기억할게요</p>
+        <p>빛이 새벽까지 당신과 함께하기를</p>
+        <p>이제는 우리가 당신 곁을 지킬 차례예요</p>
+        <p>안심하고 쉬세요, 집안일은 제가 있어요</p>
+        <p>내일이 어떻든, 제가 당신과 함께 있을게요</p>
+        <p class="seg">아웃트로</p>
+        <p>엄마, 감사해요</p>
+        <p>당신이 주신 사랑을 우리는 영원히 기억할게요</p>
+    </div>
+  </section>
+  <section>
+    <h2>제작 노트</h2>
+    <p>이 곡은 병으로 누워 계신 한 어머니를 위해 쓰였습니다. 실화입니다. 어머니는 평생의 밥상으로 가족을 사랑해 왔습니다 — 일 년 삼백육십오 일, 새벽의 부엌에서부터 매일 밤 풍성한 저녁 식사까지 단 하루도 거르지 않고요. 손수 갈아 만든 레이차에서는 땅콩과 참깨의 향이 천천히 우러나고, 식탁의 모두가 식사를 마친 뒤에야 어머니가 마지막으로 자리에 앉으셨습니다.</p>
+<p>이제 어머니는 병으로 누워 계십니다. 어머니의 이야기는 몇 번이고 되풀이해 전해졌고, 이야기하는 사람의 눈시울이 먼저 붉어졌습니다 — <b>이 이야기가 먼저 있었기에, 이 노래가 있습니다.</b></p>
+<p>이 노래는 도입에서 반은 읊고 반은 노래하듯, 먼 타향에서 고향으로 보낸 편지를 읽어 주듯 천천히 노래로 들어갑니다. 마지막에는 다시 조용한 읊조림으로 돌아와 이야기를 마무리합니다. 피아노는 등불 아래의 곁 지킴처럼 목소리에 가까이 함께합니다. 2026-11-11 정식 발매.</p>
+<p>이 노래의 밑바탕에는 먼 옛날 고향의 연기 자욱한 부엌이 있습니다. 열네 살까지 집에서는 장작과 석탄을 때는 옛날식 아궁이로 밥을 지었습니다 — 가사 속 부뚜막에서 피어오르는 열기와 흰 연기는 바로 그런 부엌에서 온 것입니다. 훗날 가족은 광저우 톈허로 이사했고 부엌은 모습을 바꾸었지만, 어머니가 지어 주시던 밥상은 단 하루도 변하지 않았습니다.</p>
+    <div class="credit">제작 총괄 米老爸 Daddy Mi
+작사 팀 협업(Junshi와 Bowen 자문)
+노래 米曦 Mi Xi · 제작 Amani 팀</div>
+  </section>
+  <section class="aj-zone">
+      <div class="aj-rule" aria-hidden="true"></div>
+      <h2>앨범의 여정 · The Album Journey</h2>
+      <p class="aj-progress">공개 완료 1–5번 곡 · 총 12곡 · Songs 1–5 of 12 released</p>
+      <div class="aj-grid">
+      <a class="aj-card" href="/gospel-wisdom/theme-zh/">
+<img src="/gospel-wisdom/album-thumbs/song1.webp" alt="창문으로 스며드는 저녁 무렵의 따뜻한 빛" width="480" height="480" loading="lazy">
+        <span class="aj-num">SONG 01</span>
+        <span class="aj-title">《在你话语里，天亮了》</span>
+        <span class="aj-kind">중국어 테마송</span>
+      </a>
+      <a class="aj-card" href="/gospel-wisdom/theme-en/">
+<img src="/gospel-wisdom/album-thumbs/song2.webp" alt="기와지붕 위의 황혼 하늘" width="480" height="480" loading="lazy">
+        <span class="aj-num">SONG 02</span>
+        <span class="aj-title">A Little More Like Light</span>
+        <span class="aj-kind">영어 테마송</span>
+      </a>
+      <a class="aj-card" href="/gospel-wisdom/dian-deng/">
+<img src="/gospel-wisdom/album-thumbs/song3.webp" alt="해 질 녘 창가의 오일 램프" width="480" height="480" loading="lazy">
+        <span class="aj-num">SONG 03</span>
+        <span class="aj-title">《换我们为妳点灯》</span>
+        <span class="aj-kind">감사의 싱글</span>
+      </a>
+      <a class="aj-card" href="/gospel-wisdom/birthday-light/">
+<img src="/gospel-wisdom/album-thumbs/song4.webp" alt="아침 햇살 속 생일 케이크와 촛불" width="480" height="480" loading="lazy">
+        <span class="aj-num">SONG 04</span>
+        <span class="aj-title">《愿你心里有光》</span>
+        <span class="aj-kind">생일 축하곡</span>
+      </a>
+      <div class="aj-card aj-current" aria-current="page">
+<img src="/gospel-wisdom/album-thumbs/song5.jpg" alt="흰 드레스를 입은 Mi Xi 정면" width="480" height="480" loading="lazy">
+        <span class="aj-num">SONG 05</span>
+        <span class="aj-title">《등불 아래 레이차》</span>
+        <span class="aj-kind">어머니께 드리는 감사의 노래</span>
+        <span class="aj-here">이 페이지 · This page</span>
+      </div>
+      </div>
+      <div class="aj-utility">
+        <a class="btn secondary" href="/gospel-wisdom/mixi/">Mi Xi 만나기 · 아티스트 홈</a>
+        <a class="btn secondary" href="/gospel-wisdom/">Gospel Wisdom 매일 묵상</a>
+        <a class="btn secondary" href="/music/ko/">전체 곡</a>
+        <a class="btn secondary" href="/album/gallery/ko/">앨범 화첩 · 갤러리</a>
+        <a class="btn secondary" href="https://daddymi777.com/">홈 · Home</a>
+      </div>
+    </section>
+  <footer>
+    <div class="footmark"><a href="https://daddymi777.com/" aria-label="米老爸 Daddy Mi — 홈으로"><img src="/brand/mark-transparent.png" alt="米老爸 Daddy Mi"></a></div>
+    <p>이 곡은 Gospel Wisdom 팀이 오리지널로 기획·작사하고, 음악과 노래에는 AI 생성의 지원을 받았습니다.<br>엄마에게 바치는 추수감사절 노래 · 정식 발매 (2026-11-11).<br>문의: <a href="mailto:support@daddymi777.com">support@daddymi777.com</a></p>
+    <p><a href="https://daddymi777.com/">홈으로 돌아가기</a></p>
+    <p>© 2026 米老爸 Daddy Mi</p>
+  </footer>
 </div>
-
-<section class="albumnav" style="max-width:760px;margin:36px auto 0;padding:26px 20px 6px;border-top:1px solid var(--hairline);text-align:center;position:relative;z-index:1">
-  <h2 style="font-size:19px;color:var(--ink);letter-spacing:.05em;margin-bottom:6px">앨범 《光，慢慢成为路》 · 수록곡</h2>
-  <p style="font-size:12.5px;color:var(--muted);letter-spacing:.14em;margin-bottom:14px">Mi Xi · 첫 앨범</p>
-  <ol style="list-style:none;text-align:left;max-width:520px;margin:0 auto">
-    <li style="padding:9px 4px;border-bottom:1px solid var(--hairline)"><a href="/gospel-wisdom/dian-deng/" style="color:var(--ink-soft);text-decoration:none"><span style="color:var(--gold-deep);font-size:12px;letter-spacing:.18em">01</span>&nbsp;&nbsp;《換我們為妳點燈》</a></li>
-    <li style="padding:9px 4px;border-bottom:1px solid var(--hairline)"><a href="/gospel-wisdom/birthday-light/" style="color:var(--ink-soft);text-decoration:none"><span style="color:var(--gold-deep);font-size:12px;letter-spacing:.18em">02</span>&nbsp;&nbsp;《愿你心里有光》</a></li>
-    <li style="padding:9px 4px;border-bottom:1px solid var(--hairline)"><a href="/gospel-wisdom/theme-en/" style="color:var(--ink-soft);text-decoration:none"><span style="color:var(--gold-deep);font-size:12px;letter-spacing:.18em">03</span>&nbsp;&nbsp;A Little More Like Light</a></li>
-    <li style="padding:9px 4px;border-bottom:1px solid var(--hairline)"><a href="/gospel-wisdom/theme-zh/" style="color:var(--ink-soft);text-decoration:none"><span style="color:var(--gold-deep);font-size:12px;letter-spacing:.18em">04</span>&nbsp;&nbsp;《在你话语里，天亮了》</a></li>
-    <li style="padding:9px 4px"><span style="color:var(--ink)"><span style="color:var(--gold-deep);font-size:12px;letter-spacing:.18em">05</span>&nbsp;&nbsp;<b>《등불 아래 레이차》</b></span> <span style="font-size:12px;color:var(--gold-deep)">· 이 페이지</span></li>
-  </ol>
-  <p style="margin-top:18px;font-size:13.5px"><a href="/music/ko/" style="color:var(--gold-deep)">전체 곡</a> &nbsp;·&nbsp; <a href="/album/gallery/ko/" style="color:var(--gold-deep)">앨범 화첩</a> &nbsp;·&nbsp; <a href="/ko/" style="color:var(--gold-deep)">홈으로</a></p>
-</section>
-
-<footer>
-  <div class="footmark"><a href="https://daddymi777.com/" aria-label="米老爸 Daddy Mi — 홈으로"><img src="/brand/mark-transparent.png" alt="米老爸 Daddy Mi"></a></div>
-  <p class="disclosure">이 곡은 Gospel Wisdom 팀이 오리지널로 기획·작사하고, 음악과 노래에는 AI 생성의 지원을 받았습니다.<br>엄마에게 바치는 추수감사절 노래 · 정식 발매 (2026-11-11).<br>문의: <a href="mailto:support@daddymi777.com">support@daddymi777.com</a></p>
-  <a class="home" href="https://daddymi777.com/">홈으로 돌아가기</a>
-  <p class="copy">© 2026 米老爸 Daddy Mi</p>
-</footer>
-
-<audio id="audio" src="../v4/song.mp3" preload="metadata"></audio>
 <script>
-
-  var LYRICS = [{"t": 13.32, "x": "오늘 밤 저는 당신의 침대 곁에 앉아"}, {"t": 16.5, "x": "당신의 손을 살며시 잡아요"}, {"t": 20.0, "x": "평소에는 하지 못했던 말을"}, {"t": 23.08, "x": "오늘 밤은 천천히 당신에게 들려드리고 싶어요"}, {"t": 27.02, "x": "새벽 아궁이의 온기를 기억해요"}, {"t": 30.2, "x": "점심이면 집 안 가득하던 밥 냄새를 기억해요"}, {"t": 33.2, "x": "당신은 작은딸의 머리를 잘라 주었고"}, {"t": 36.84, "x": "예쁜 옷을 입혀 주었어요"}, {"t": 41.3, "x": "당신이 손수 간 그 레이차"}, {"t": 43.54, "x": "땅콩과 참깨, 천천히 갈아 향이 나요"}, {"t": 46.56, "x": "찻물을 밥에 섞고 나물을 곁들여"}, {"t": 49.98, "x": "밤이 되어도 여전히 밥상 가득한 음식"}, {"t": 54.22, "x": "감사해요, 엄마, 당신의 사랑에 감사해요"}, {"t": 57.94, "x": "이 가정을 위해 반평생을 바쁘게 일해 주셔서 감사해요"}, {"t": 67.26, "x": "엄마, 당신이 해 오신 모든 것을"}, {"t": 70.36, "x": "우리는 다 보았고, 다 기억해요"}, {"t": 73.96, "x": "빛이 새벽까지 당신과 함께하기를"}, {"t": 76.2, "x": "부엌의 그 등잔처럼"}, {"t": 80.36, "x": "당신은 평생으로 이 가정을 따뜻하게 했어요"}, {"t": 83.54, "x": "오늘 밤은 우리가 새벽까지 당신과 함께 있을게요"}, {"t": 106.7, "x": "예순이 가까운 당신"}, {"t": 109.44, "x": "뒷모습은 전보다 둥글어졌어요"}, {"t": 112.96, "x": "젊었을 때 당신의 모습을 떠올리면"}, {"t": 116.44, "x": "마음은 아련함과 감사로 가득해요"}, {"t": 119.34, "x": "예전에는 당신이 우리에게 옷을 입혀 주었는데"}, {"t": 123.04, "x": "이제는 딸이 당신의 이불 끝자락을 여며 드려요"}, {"t": 126.4, "x": "당신은 몇 번이나 배고프냐고 물었는데"}, {"t": 129.78, "x": "오늘은 우리가 당신에게 피곤하지 않냐고 물을 차례예요"}, {"t": 134.42, "x": "감사해요, 엄마, 당신의 사랑에 감사해요"}, {"t": 137.9, "x": "매일 어두워질 때까지 일해 주셔서 감사해요"}, {"t": 141.28, "x": "레이차 한 사발, 저녁 밥상 한 상"}, {"t": 143.66, "x": "그 안에 얼마나 많은, 말하지 못한 사랑이 숨어 있을까요"}, {"t": 146.78, "x": "빛이 새벽까지 당신과 함께하기를"}, {"t": 150.22, "x": "사랑이 당신 곁을 지키기를"}, {"t": 154.24, "x": "우리는 살며시 당신을 위해 기도해요"}, {"t": 157.14, "x": "평안이 오늘 밤 당신과 함께하기를"}, {"t": 173.88, "x": "사랑하는 당신도 조금 쉬세요"}, {"t": 176.7, "x": "늘 그렇게 강하지 않아도 돼요"}, {"t": 179.82, "x": "예전에는 당신이 우리를 위해 비바람을 막아 주었는데"}, {"t": 183.08, "x": "앞으로의 날들은 제가 앞에 설게요"}, {"t": 186.68, "x": "내일이 어떻게 될지 우리는 모르지만"}, {"t": 190.1, "x": "이 감사는 영원히 변하지 않을 거예요"}, {"t": 193.94, "x": "하늘 아버지의 손이 당신을 붙들어 주시기를"}, {"t": 196.64, "x": "그리고 지켜보는 어깨도 붙들어 주시기를"}, {"t": 214.0, "x": "감사해요, 엄마, 당신의 사랑에 감사해요"}, {"t": 217.92, "x": "세월을 이 가정에 바쳐 주셔서 감사해요"}, {"t": 221.26, "x": "그 레이차, 그 저녁 밥상"}, {"t": 223.7, "x": "우리는 다 보았고, 평생 기억할게요"}, {"t": 227.0, "x": "빛이 새벽까지 당신과 함께하기를"}, {"t": 230.2, "x": "이제는 우리가 당신 곁을 지킬 차례예요"}, {"t": 234.2, "x": "안심하고 쉬세요, 집안일은 제가 있어요"}, {"t": 237.5, "x": "내일이 어떻든, 제가 당신과 함께 있을게요"}, {"t": 243.86, "x": "엄마, 감사해요"}, {"t": 249.98, "x": "당신이 주신 사랑을 우리는 영원히 기억할게요"}];
-  var audio = document.getElementById('audio');
-  var playBtn = document.getElementById('playBtn');
-  var icoPlay = document.getElementById('icoPlay'), icoPause = document.getElementById('icoPause');
-  var pfill = document.getElementById('pfill'), pbar = document.getElementById('pbar');
-  var tCur = document.getElementById('tCur'), tDur = document.getElementById('tDur');
-  var lineEls = Array.prototype.slice.call(document.querySelectorAll('.line'));
-  var cur = -1, lastScroll = 0;
-
-  function fmt(s){s=Math.max(0,Math.floor(s));return Math.floor(s/60)+':'+('0'+(s%60)).slice(-2);}
-  audio.addEventListener('loadedmetadata', function(){ tDur.textContent = fmt(audio.duration); });
-
-  function setIcon(){ var p = !audio.paused; icoPlay.style.display = p?'none':'block'; icoPause.style.display = p?'block':'none'; }
-  playBtn.addEventListener('click', function(){ if(audio.paused){audio.play();}else{audio.pause();} });
-  audio.addEventListener('play', setIcon); audio.addEventListener('pause', setIcon);
-  audio.addEventListener('ended', function(){ setIcon(); });
-
-  pbar.addEventListener('click', function(e){
-    var r = pbar.getBoundingClientRect();
-    var x = (e.touches ? e.touches[0].clientX : e.clientX);
-    audio.currentTime = audio.duration * Math.min(1, Math.max(0, (x - r.left) / r.width));
+(function () {
+  var audio = document.getElementById('songAudio');
+  if (!audio) { return; }
+  var cues = [13.32, 16.5, 20, 23.08, 27.02, 30.2, 33.2, 36.84, 41.3, 43.54, 46.56, 49.98, 54.22, 57.94, 67.26, 70.36, 73.96, 76.2, 80.36, 83.54, 106.7, 109.44, 112.96, 116.44, 119.34, 123.04, 126.4, 129.78, 134.42, 137.9, 141.28, 143.66, 146.78, 150.22, 154.24, 157.14, 173.88, 176.7, 179.82, 183.08, 186.68, 190.1, 193.94, 196.64, 214, 217.92, 221.26, 223.7, 227, 230.2, 234.2, 237.5, 243.86, 249.98];
+  var box = document.querySelector('.lyrics');
+  var lines = box.querySelectorAll('p:not(.seg)');
+  var cur = -2, holdUntil = 0;
+  ['wheel', 'touchstart', 'pointerdown'].forEach(function (ev) {
+    box.addEventListener(ev, function () { holdUntil = Date.now() + 4000; }, { passive: true });
   });
-
-  lineEls.forEach(function(el, i){
-    el.addEventListener('click', function(){ audio.currentTime = LYRICS[i].t + 0.05; audio.play(); });
+  lines.forEach(function (p, n) {
+    p.addEventListener('click', function () {
+      if (cues[n] != null) { audio.currentTime = cues[n]; if (audio.paused) { audio.play(); } }
+    });
   });
-
-  audio.addEventListener('timeupdate', function(){
-    var t = audio.currentTime;
-    if(audio.duration){ pfill.style.width = (100 * t / audio.duration) + '%'; }
-    tCur.textContent = fmt(t);
-    var idx = -1;
-    for(var i = 0; i < LYRICS.length; i++){ if(t >= LYRICS[i].t) idx = i; else break; }
-    if(idx !== cur){
-      if(cur >= 0 && lineEls[cur]){ lineEls[cur].classList.remove('active'); lineEls[cur].classList.add('done'); }
-      cur = idx;
-      if(cur >= 0 && lineEls[cur]){
-        lineEls[cur].classList.add('active'); lineEls[cur].classList.remove('done');
-        var now = Date.now();
-        if(!audio.paused && now - lastScroll > 350){
-          lastScroll = now;
-          lineEls[cur].scrollIntoView({block:'center', behavior:'smooth'});
-        }
-      }
+  function idxAt(t) {
+    var lo = 0, hi = cues.length - 1, ans = -1;
+    while (lo <= hi) { var mid = (lo + hi) >> 1; if (cues[mid] <= t) { ans = mid; lo = mid + 1; } else { hi = mid - 1; } }
+    return ans;
+  }
+  function sync() {
+    var i = idxAt(audio.currentTime);
+    if (i === cur) { return; }
+    cur = i;
+    for (var j = 0; j < lines.length; j++) {
+      lines[j].classList.toggle('past', j < i);
+      lines[j].classList.toggle('on', j === i);
+      lines[j].classList.toggle('next', j === i + 1);
     }
-  });
+    if (i >= 0 && lines[i] && Date.now() > holdUntil) {
+      var boxRect = box.getBoundingClientRect();
+      var lineRect = lines[i].getBoundingClientRect();
+      var target = box.scrollTop + (lineRect.top - boxRect.top) - (box.clientHeight - lineRect.height) / 2;
+      box.scrollTo({ top: Math.max(0, target), behavior: 'smooth' });
+    }
+  }
+  audio.addEventListener('timeupdate', sync);
+  (function tick() { if (!audio.paused && !audio.ended) { sync(); } requestAnimationFrame(tick); })();
+  audio.addEventListener('seeked', sync);
+  audio.addEventListener('ended', function () { audio.currentTime = 0; sync(); });
+})();
 </script>
 </body>
 </html>
