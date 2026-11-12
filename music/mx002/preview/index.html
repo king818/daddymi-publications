@@ -59,6 +59,10 @@
              font-size:16px;border-bottom:1px solid var(--gold-soft);padding-bottom:2px}
   nav.back a:hover{color:var(--ink)}
   footer{margin-top:34px;text-align:center;color:var(--muted);font-size:13px;line-height:1.9}
+  .langbar{display:flex;justify-content:flex-end;align-items:center;gap:8px;max-width:760px;margin:0 auto;padding:18px 22px 0;flex-wrap:wrap;position:relative;z-index:1}
+  .langbar a{font-size:14px;padding:5px 14px;border-radius:999px;color:var(--muted);border:1px solid var(--hairline);text-decoration:none;background:rgba(255,255,255,.45);white-space:nowrap}
+  .langbar a.active{background:var(--gold-deep);color:#fff;border-color:var(--gold-deep);font-weight:700}
+  .langbar .langsep{color:var(--muted);font-size:14px}
   footer .rule{width:56px;height:1px;background:var(--gold);margin:0 auto 14px;opacity:.7}
 </style>
 </head>
@@ -68,6 +72,7 @@
   <span>内部预览 PREVIEW</span><span>内部预览 PREVIEW</span><span>内部预览 PREVIEW</span><span>内部预览 PREVIEW</span>
   <span>内部预览 PREVIEW</span><span>内部预览 PREVIEW</span><span>内部预览 PREVIEW</span><span>内部预览 PREVIEW</span>
 </div>
+<div class="langbar" role="group" aria-label="Language"><a href="/music/mx002/preview/" class="active" aria-current="true">简体</a><span class="langsep">|</span><a href="/music/mx002/preview/tc/">繁體</a><span class="langsep">|</span><a href="/music/mx002/preview/en/">English</a><span class="langsep">|</span><a href="/music/mx002/preview/ja/">日本語</a><span class="langsep">|</span><a href="/music/mx002/preview/ko/">한국어</a></div>
 <div class="wrap">
   <header>
     <img class="mark" src="/brand/mark-transparent.png" alt="米老爸 Daddy Mi">
