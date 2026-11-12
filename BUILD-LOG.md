@@ -252,3 +252,11 @@ component is a gyōsho-simplified form, disclosed to and accepted by the boss).
 - 全站按定版序校正: /music/ 总索引 (五语, 卡片重排 + trackno 重号)、歌曲 1–4 页与认识米曦页的专辑之旅 (五语视图: 卡片重排重号、「下一首」按新序)、画册页脚逐首链接 (五语)、/order/ 样品卡顺序 (五语: 点灯在擂茶之前)。
 - 第 5 首正式版页 (五语) 改版为 Gospel Wisdom 家族风格 (暖纸底色、衬线、卡片分节, 与 1–4 首同款): 播放器换成与 1–4 首同款的整幅原生播放器 (去掉原来的大圆按钮); 页底专辑导航改为与 1–4 首同款的图文卡片 (定版曲序, 05 标此页); 故事、康乃馨擂茶图、歌词 (54 句同步高亮)、制作手记、署名、语言切换全部保留, 仍无 Take 字样, og 分享卡未动。
 - theme-en 页自身的独特风格按 boss 裁示保留不动 (只改其编号与顺序文字)。
+
+## 2026-11-11 — 首页音乐试听区 + 全站路径标准化 (boss 19:23 / 19:26 PST 令)
+
+- 五语首页新增「音乐试听 · Music Preview」区 (#preview, 紧接 #listen 之后): 五首歌按定版曲序 01–05 各一张卡 — 本歌专属分享图封面、标题、一句简介、副歌试听播放器 (30–60 秒, preload=none, 无自动播放, 全页同时只许一个播放器发声)、本歌页面链接、定制邀请 (链 /order/ 对应语种)。区头带 Mi 企业标志。
+- 试听片段: 自各歌发布母带按其页面歌词时间轴截取副歌段 (theme-zh 62.24–102.80s / theme-en 73.28–116.14s / dian-deng 84.88–124.86s / birthday-light 39.96–81.64s / mx005 54.22–97.00s), 1s 淡入 2s 淡出, MP3 128k (640–687 KB), 存 assets/teasers/; 已登记 mixi-production-registry 为各自主带 Take 的 homepage_teaser 衍生资产 (registry commit d7e561e)。
+- 首页改由生成器产出: portal-src/build.py + content.json 补回先前只手改在实况 HTML 的导航「试听存档 / 画册」两项与 1200×630 share-home 分享卡 (此前生成器与实况已漂移, 直接重跑会回退) — 现生成器 = 唯一事实源。
+- 路径标准化 (新立站规 docs/SITE-STANDARDS.md): 全站内部链接/资源改根目录绝对路径 — 首页 (生成器)、/publications/ (generate.py 源头改绝对路径 + 补回 og 块; 注: 本机 Python 无 OpenCC, 其产物只对齐路径行、数据未动, 标准文档 §7 已记明)、/music/ 全树 (含 mx005 归档页 ../vN/ 与各版本页 JS 曲目数据 src)、/album/、/order/、/gospel-wisdom/ 全树、/concordance/、/for-mother/ — 共 878 处引用改写, 全站 HTML 已无 ../ 相对引用。
+- 部署门: tools/link_audit.py (仓库内可重复执行的全站内链审计, 退出码非零 = 有坏链); 本次审计报告 docs/link-audit-2026-11-11.md。

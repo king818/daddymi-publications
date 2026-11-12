@@ -356,6 +356,15 @@ def main():
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Daddy Mi — Publications Index</title>
+<meta property="og:type" content="website">
+<meta property="og:title" content="米老爸 Daddy Mi — 全部发布作品索引 · Publications Index">
+<meta property="og:description" content="米老爸 Daddy Mi 全部已发布作品的总索引——播客、每日经文与原创音乐，按播放清单整理，逐条可查。The complete index of everything published on the Daddy Mi channel — podcasts, daily verses and original music.">
+<meta property="og:url" content="https://daddymi777.com/publications/">
+<meta property="og:image" content="https://daddymi777.com/assets/share-home.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="米老爸 Daddy Mi — 全部发布作品索引 · Publications Index">
+<meta name="twitter:description" content="米老爸 Daddy Mi 全部已发布作品的总索引——播客、每日经文与原创音乐，按播放清单整理，逐条可查。The complete index of everything published on the Daddy Mi channel — podcasts, daily verses and original music.">
+<meta name="twitter:image" content="https://daddymi777.com/assets/share-home.jpg">
 <script>
 (function () {
   var HTML_LANG = { 'zh-hans': 'zh-Hans', 'zh-hant': 'zh-Hant', 'en': 'en' };
@@ -437,9 +446,9 @@ def main():
     td { border:none; padding:3px 8px; }
   }
 </style>
-<link rel="icon" type="image/png" sizes="32x32" href="brand/favicon-32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="brand/favicon-16.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="brand/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/brand/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/brand/favicon-16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/brand/apple-touch-icon.png">
 <style>.homelink{text-decoration:none}.homelink:hover{text-decoration:underline}</style>
 </head>
 <body>
@@ -459,9 +468,9 @@ def main():
   </div>
   <div class="counts">__CHIPS__</div>
   <div class="counts" style="margin-top:8px;"><span data-ui="musicLine">🎵 Mi Xi · Gospel Wisdom theme songs:</span>
-    <a href="gospel-wisdom/theme-zh/" data-ui="musicZh">《在你话语里，天亮了》 (Mandarin)</a> ·
-    <a href="gospel-wisdom/theme-en/" data-ui="musicEn">A Little More Like Light (English)</a> ·
-    <a href="gospel-wisdom/mixi/" data-ui="musicHub">Meet Mi Xi</a>
+    <a href="/gospel-wisdom/theme-zh/" data-ui="musicZh">《在你话语里，天亮了》 (Mandarin)</a> ·
+    <a href="/gospel-wisdom/theme-en/" data-ui="musicEn">A Little More Like Light (English)</a> ·
+    <a href="/gospel-wisdom/mixi/" data-ui="musicHub">Meet Mi Xi</a>
   </div>
 </header>
 <div class="controls">
@@ -475,7 +484,7 @@ def main():
   <div id="list"></div>
   __UNV_HTML__
 </main>
-<footer class="sitefoot"><div class="brandmark" style="text-align:center;margin:0 0 8px;"><a href="https://daddymi777.com/" aria-label="回首页 Home"><img src="brand/mark-transparent.png" alt="Daddy Mi" style="height:28px;width:auto;"></a></div><span data-ui="csLabel">Customer service: </span><a href="mailto:support@daddymi777.com">support@daddymi777.com</a> · <span data-ui="copyright">© 2026 Daddy Mi. All rights reserved.</span><div style="margin-top:8px;"><a class="homelink" href="https://daddymi777.com/" style="font-size:12.5px;color:inherit;opacity:.72;">回首页 · Home</a></div></footer>
+<footer class="sitefoot"><div class="brandmark" style="text-align:center;margin:0 0 8px;"><a href="https://daddymi777.com/" aria-label="回首页 Home"><img src="/brand/mark-transparent.png" alt="Daddy Mi" style="height:28px;width:auto;"></a></div><span data-ui="csLabel">Customer service: </span><a href="mailto:support@daddymi777.com">support@daddymi777.com</a> · <span data-ui="copyright">© 2026 Daddy Mi. All rights reserved.</span><div style="margin-top:8px;"><a class="homelink" href="https://daddymi777.com/" style="font-size:12.5px;color:inherit;opacity:.72;">回首页 · Home</a></div></footer>
 <script>
 const PUBS = __PUBS_JSON__;
 const PRIV = __PRIV_JSON__;
@@ -602,18 +611,16 @@ window.gwApplyLang();
         .replace("__SERIES_DISP__", json.dumps(SERIES_DISP, ensure_ascii=False))
         .replace("__PUBS_JSON__", embed(PUBS))
         .replace("__PRIV_JSON__", embed(PRIV)))
-    # /publications/ variant: the same document served one directory
-    # deeper — back-link bar after <body>, and ../ on every root-relative
-    # reference (brand assets, gospel-wisdom song links).
+    # /publications/ variant: the same document with a back-link bar
+    # after <body>. All internal references are root-absolute (site
+    # standard, docs/SITE-STANDARDS.md), so no path patching is needed.
     pubs_doc = html_doc.replace(
         "<body>",
         "<body>\n"
         '<div style="max-width:1100px;margin:0 auto;padding:12px 16px 0;">'
-        '<a href="../" style="color:#8a6d1f;text-decoration:none;font-size:14px;">'
+        '<a href="/" style="color:#8a6d1f;text-decoration:none;font-size:14px;">'
         "← 返回米老爸首页</a></div>",
         1)
-    for _pat in ('href="brand/', 'src="brand/', 'href="gospel-wisdom/'):
-        pubs_doc = pubs_doc.replace(_pat, _pat.replace('="', '="../', 1))
     import os
     os.makedirs("publications", exist_ok=True)
     open("publications/index.html", "w", encoding="utf-8").write(pubs_doc)

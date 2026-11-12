@@ -29,9 +29,9 @@
 <meta name="twitter:title" content="米老爸 Daddy Mi — 以智慧启发人生，以科技传递温暖">
 <meta name="twitter:description" content="米老爸 Daddy Mi 的官方门户——每日灵修、原创音乐与视频作品，都从这里开始。">
 <meta name="twitter:image" content="https://daddymi777.com/assets/share-home.jpg">
-<link rel="icon" type="image/png" sizes="32x32" href="brand/favicon-32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="brand/favicon-16.png">
-<link rel="apple-touch-icon" sizes="180x180" href="brand/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/brand/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/brand/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/brand/apple-touch-icon.png">
 <script>
 /* Legacy-anchor rescue (joint recommendation §4): the old root index
    rendered series blocks without stable fragment ids, so any shared
@@ -39,45 +39,97 @@
    /publications/ with the fragment preserved. The portal's own
    section anchors (#listen, #subscribe, #works, #about) stay. */
 (function () {
-  var own = { '#listen': 1, '#subscribe': 1, '#works': 1, '#about': 1, '': 1 };
+  var own = { '#listen': 1, '#preview': 1, '#subscribe': 1, '#works': 1, '#about': 1, '': 1 };
   var h = window.location.hash || '';
-  if (!own[h]) { window.location.replace('publications/' + h); }
+  if (!own[h]) { window.location.replace('/publications/' + h); }
 })();
 </script>
-<link rel="stylesheet" href="portal.css">
+<link rel="stylesheet" href="/portal.css">
 </head>
 <body>
 <div class="wrap">
   <div class="topbar">
     <div class="brand">米老爸 Daddy Mi</div>
-    <div class="langswitch"><span class="cur" aria-current="true">简体</span><a href="zh-hant/">繁體</a><a href="en/">English</a><a href="ja/">日本語</a><a href="ko/">한국어</a></div>
+    <div class="langswitch"><span class="cur" aria-current="true">简体</span><a href="/zh-hant/">繁體</a><a href="/en/">English</a><a href="/ja/">日本語</a><a href="/ko/">한국어</a></div>
   </div>
   <nav class="nav">
-    <a href="gospel-wisdom/?lang=zh-hans">灵修</a>
-    <a href="gospel-wisdom/mixi/?lang=zh-hans">米曦</a>
-    <a href="publications/">视频库</a>
-    <a href="music/mx005/archive/">试听存档</a>
-    <a href="album/gallery/">画册</a>
+    <a href="/gospel-wisdom/?lang=zh-hans">灵修</a>
+    <a href="/gospel-wisdom/mixi/?lang=zh-hans">米曦</a>
+    <a href="/publications/">视频库</a>
+    <a href="/music/mx005/archive/">试听存档</a>
+    <a href="/album/gallery/">画册</a>
   </nav>
 
   <header>
-    <img class="heromark" src="brand/mark-transparent.png" alt="米老爸 Daddy Mi">
-    <h1 class="brand-art"><span class="callig-text" aria-hidden="true"><span class="ct-line">以智慧启发人生</span><span class="ct-line">以科技传递温暖</span></span><img class="callig-line1" src="brand/calligraphy/brand-line1.png" alt="" onerror="this.closest('.brand-art').classList.add('callig-failed')"><img class="callig-line2" src="brand/calligraphy/brand-line2.png" alt="" onerror="this.closest('.brand-art').classList.add('callig-failed')"><span class="sr-only">以智慧启发人生，以科技传递温暖。</span></h1>
+    <img class="heromark" src="/brand/mark-transparent.png" alt="米老爸 Daddy Mi">
+    <h1 class="brand-art"><span class="callig-text" aria-hidden="true"><span class="ct-line">以智慧启发人生</span><span class="ct-line">以科技传递温暖</span></span><img class="callig-line1" src="/brand/calligraphy/brand-line1.png" alt="" onerror="this.closest('.brand-art').classList.add('callig-failed')"><img class="callig-line2" src="/brand/calligraphy/brand-line2.png" alt="" onerror="this.closest('.brand-art').classList.add('callig-failed')"><span class="sr-only">以智慧启发人生，以科技传递温暖。</span></h1>
     <p class="tagline">米老爸 Daddy Mi 的官方门户——每日灵修、原创音乐与视频作品，都从这里开始。</p>
-    <img class="heroimg" src="gospel-wisdom/album-thumbs/song3.webp" alt="灯光下的小径——米曦《換我們為妳點燈》画面">
+    <img class="heroimg" src="/gospel-wisdom/album-thumbs/song3.webp" alt="灯光下的小径——米曦《換我們為妳點燈》画面">
   </header>
 
   <section class="card listen" id="listen" style="margin-top:0">
-    <div class="inscr-strip" role="img" aria-label="点灯的人"><img src="brand/calligraphy/inscr-0.png" alt=""><img src="brand/calligraphy/inscr-1.png" alt=""><img src="brand/calligraphy/inscr-2.png" alt=""><img src="brand/calligraphy/inscr-3.png" alt=""></div>
-    <img src="gospel-wisdom/dian-deng/mixi-cover-diandeng.jpg" alt="《換我們為妳點燈》单曲封面——米曦">
+    <div class="inscr-strip" role="img" aria-label="点灯的人"><img src="/brand/calligraphy/inscr-0.png" alt=""><img src="/brand/calligraphy/inscr-1.png" alt=""><img src="/brand/calligraphy/inscr-2.png" alt=""><img src="/brand/calligraphy/inscr-3.png" alt=""></div>
+    <img src="/gospel-wisdom/dian-deng/mixi-cover-diandeng.jpg" alt="《換我們為妳點燈》单曲封面——米曦">
     <div style="flex:1; min-width:0">
       <h2>先听一首</h2>
       <p class="song">《換我們為妳點燈》</p>
       <p class="by">米曦 Mi Xi 演唱 · 原创单曲</p>
-      <audio controls preload="none" src="gospel-wisdom/dian-deng/song.mp3"></audio>
+      <audio controls preload="none" src="/gospel-wisdom/dian-deng/song.mp3"></audio>
       <p class="disclosure">AI 披露：这首歌的音乐与演唱由 AI 辅助生成；词曲、制作与审定由米老爸团队完成。</p>
-      <p class="songpage"><a href="gospel-wisdom/dian-deng/?lang=zh-hans">这首歌的专属页 →</a></p>
+      <p class="songpage"><a href="/gospel-wisdom/dian-deng/?lang=zh-hans">这首歌的专属页 →</a></p>
       <p class="likeprompt"><a href="#subscribe">喜欢这首？下一首新歌，第一时间寄给你 ↓</a></p>
+    </div>
+  </section>
+
+  <section id="preview">
+    <div class="pv-head"><img class="pv-mark" src="/brand/mark-transparent.png" alt=""><h2>音乐试听 · Music Preview</h2></div>
+    <p class="pv-sub">米曦的五首歌，每首先听一小段——每一首，都从一个真实的故事开始。</p>
+    <div class="pv-grid">
+      <article class="pv-card">
+        <img src="/gospel-wisdom/theme-zh/share-v2.jpg" alt="《在你话语里，天亮了》" loading="lazy">
+        <p class="pv-title"><span class="pv-no">01</span>《在你话语里，天亮了》</p>
+        <p class="pv-note">Gospel Wisdom 中文主题歌——在祂的话语里，天就亮了。</p>
+        <p class="pv-tag">试听 · 0:41</p>
+        <audio controls preload="none" src="/assets/teasers/theme-zh-teaser.mp3"></audio>
+        <p class="pv-links"><a href="/gospel-wisdom/theme-zh/?lang=zh-hans">这首歌的页面 →</a></p>
+        <p class="pv-links"><a href="/order/">喜欢这样的歌？把你的故事，也定制成一首 →</a></p>
+      </article>
+      <article class="pv-card">
+        <img src="/gospel-wisdom/theme-en/share-v2.jpg" alt="A Little More Like Light" loading="lazy">
+        <p class="pv-title"><span class="pv-no">02</span>A Little More Like Light</p>
+        <p class="pv-note">Gospel Wisdom 英文主题歌——愿我一天比一天，更像光一点点。</p>
+        <p class="pv-tag">试听 · 0:43</p>
+        <audio controls preload="none" src="/assets/teasers/theme-en-teaser.mp3"></audio>
+        <p class="pv-links"><a href="/gospel-wisdom/theme-en/?lang=zh-hans">这首歌的页面 →</a></p>
+        <p class="pv-links"><a href="/order/">喜欢这样的歌？把你的故事，也定制成一首 →</a></p>
+      </article>
+      <article class="pv-card">
+        <img src="/gospel-wisdom/dian-deng/share-s5a.jpg" alt="《換我們為妳點燈》" loading="lazy">
+        <p class="pv-title"><span class="pv-no">03</span>《換我們為妳點燈》</p>
+        <p class="pv-note">献给三姑的一首歌——小时候，她为我们点灯；如今，换我们为她点灯。</p>
+        <p class="pv-tag">试听 · 0:40</p>
+        <audio controls preload="none" src="/assets/teasers/dian-deng-teaser.mp3"></audio>
+        <p class="pv-links"><a href="/gospel-wisdom/dian-deng/?lang=zh-hans">这首歌的页面 →</a></p>
+        <p class="pv-links"><a href="/order/">喜欢这样的歌？把你的故事，也定制成一首 →</a></p>
+      </article>
+      <article class="pv-card">
+        <img src="/gospel-wisdom/birthday-light/share-v2.jpg" alt="《愿你心里有光》" loading="lazy">
+        <p class="pv-title"><span class="pv-no">04</span>《愿你心里有光》</p>
+        <p class="pv-note">一首生日之歌——愿你心里有光，走多远的路，都有光陪着。</p>
+        <p class="pv-tag">试听 · 0:42</p>
+        <audio controls preload="none" src="/assets/teasers/birthday-light-teaser.mp3"></audio>
+        <p class="pv-links"><a href="/gospel-wisdom/birthday-light/?lang=zh-hans">这首歌的页面 →</a></p>
+        <p class="pv-links"><a href="/order/">喜欢这样的歌？把你的故事，也定制成一首 →</a></p>
+      </article>
+      <article class="pv-card">
+        <img src="/music/mx005/share-s7b.jpg" alt="《灯下擂茶》" loading="lazy">
+        <p class="pv-title"><span class="pv-no">05</span>《灯下擂茶》</p>
+        <p class="pv-note">副题「谢谢你，妈妈」——一首写给妈妈的感恩之歌。</p>
+        <p class="pv-tag">试听 · 0:43</p>
+        <audio controls preload="none" src="/assets/teasers/mx005-teaser.mp3"></audio>
+        <p class="pv-links"><a href="/music/mx005/">这首歌的页面 →</a></p>
+        <p class="pv-links"><a href="/order/">喜欢这样的歌？把你的故事，也定制成一首 →</a></p>
+      </article>
     </div>
   </section>
 
@@ -115,22 +167,22 @@
       <div class="card">
         <h3>Gospel Wisdom · 每日灵修</h3>
         <p>每日一段值得安静思考的经文与解读，陪你开始新的一天。</p>
-        <a href="gospel-wisdom/?lang=zh-hans">进入灵修 →</a>
+        <a href="/gospel-wisdom/?lang=zh-hans">进入灵修 →</a>
       </div>
       <div class="card">
         <h3>米曦 Mi Xi</h3>
         <p>认识米老爸旗下的 AI 虚拟歌手米曦——听她的原创歌曲，与歌曲背后的故事。</p>
-        <a href="gospel-wisdom/mixi/?lang=zh-hans">认识米曦 →</a>
+        <a href="/gospel-wisdom/mixi/?lang=zh-hans">认识米曦 →</a>
       </div>
       <div class="card">
         <h3>视频库</h3>
         <p>324 支公开发布视频的完整索引，按系列与语言整理，随时查找。</p>
-        <a href="publications/">浏览索引 →</a>
+        <a href="/publications/">浏览索引 →</a>
       </div>
       <div class="card">
         <h3>定制一首歌 · 送给重要的人</h3>
         <p>把你的故事写成歌，由米曦演唱——送给重要的人，一份不会凋谢的礼物。</p>
-        <a href="order/">了解定制 →</a>
+        <a href="/order/">了解定制 →</a>
       </div>
     </div>
   </section>
@@ -142,9 +194,9 @@
   </section>
 
   <footer>
-    <img class="footmark" src="brand/mark-transparent.png" alt="">
+    <img class="footmark" src="/brand/mark-transparent.png" alt="">
     <div>客服邮箱：<a href="mailto:support@daddymi777.com">support@daddymi777.com</a></div>
-    <div><a href="order/">定制歌曲</a></div>
+    <div><a href="/order/">定制歌曲</a></div>
     <div><a href="https://www.youtube.com/@DaddyMi777" target="_blank" rel="noopener">米老爸 YouTube 频道 ↗（需境外网络）</a></div>
     <div><a href="https://www.youtube.com/playlist?list=PLSxnHgZ_KCSI" target="_blank" rel="noopener">音乐录影带 MV 清单 ↗（需境外网络）</a></div>
     <div>隐私：本站不追踪你的浏览；订阅邮箱只用于发送更新，可随时退订。</div>
@@ -182,6 +234,17 @@
     io.observe(el);
   }
 })();
+</script>
+<script>
+/* One audio at a time (2026-11-11): starting any player on the page
+   pauses the others — the listen card and the five preview teasers
+   never overlap. */
+document.addEventListener('play', function (e) {
+  var t = e.target;
+  if (!t || t.tagName !== 'AUDIO') return;
+  var all = document.querySelectorAll('audio');
+  for (var i = 0; i < all.length; i++) { if (all[i] !== t) all[i].pause(); }
+}, true);
 </script>
 </body>
 </html>

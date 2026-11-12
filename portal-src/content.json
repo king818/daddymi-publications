@@ -37,6 +37,8 @@
    "like_prompt": "Like this song? The next new song, sent to you first",
    "listen_h": "Listen first",
    "listen_img_alt": "Single cover of 《換我們為妳點燈》 — Mi Xi",
+   "nav_archive": "Preview Archive",
+   "nav_gallery": "Gallery",
    "nav_gw": "Devotionals",
    "nav_mixi": "Mi Xi",
    "nav_videos": "Video Library",
@@ -44,6 +46,33 @@
    "order_footer": "Custom songs",
    "out": "en/index.html",
    "prefix": "../",
+   "preview_h": "Music Preview",
+   "preview_sub": "Five songs by Mi Xi — hear a short preview of each. Every one began with a true story.",
+   "pv_custom": "Love songs like these? Have your own story made into one →",
+   "pv_full": "This song's page →",
+   "pv_songs": [
+    {
+     "note": "The Chinese theme song of Gospel Wisdom — in Your words, the day breaks.",
+     "title": "《在你话语里，天亮了》"
+    },
+    {
+     "note": "The English theme song of Gospel Wisdom — a little more like light, day by day.",
+     "title": "A Little More Like Light"
+    },
+    {
+     "note": "A song for Sangu — she lit the lamp for us in childhood; now it is our turn.",
+     "title": "《換我們為妳點燈》"
+    },
+    {
+     "note": "A birthday song — may there be light in your heart, however far the road goes.",
+     "title": "《愿你心里有光》"
+    },
+    {
+     "note": "Subtitled “Thank You, Mom” — a Thanksgiving song for a mother.",
+     "title": "Lei Cha Beneath the Lamp"
+    }
+   ],
+   "pv_teaser": "Preview",
    "song_by": "Sung by Mi Xi · an original single",
    "song_page_link": "This song's own page →",
    "subscribe_button": "Subscribe",
@@ -99,6 +128,8 @@
    "like_prompt": "この曲が心に届いたら——次の新曲を、いちばん先にお届けします",
    "listen_h": "まずは一曲",
    "listen_img_alt": "シングル『換我們為妳點燈』のカバー——Mi Xi",
+   "nav_archive": "試聴アーカイブ",
+   "nav_gallery": "ギャラリー",
    "nav_gw": "デボーション",
    "nav_mixi": "Mi Xi",
    "nav_videos": "動画ライブラリ",
@@ -106,6 +137,33 @@
    "order_footer": "カスタムソング",
    "out": "ja/index.html",
    "prefix": "../",
+   "preview_h": "音楽の試聴 · Music Preview",
+   "preview_sub": "Mi Xiの5曲を、少しずつ試聴できます——どの曲も、実話から生まれました。",
+   "pv_custom": "こんな歌がお好きなら——あなたの物語も、一曲にできます →",
+   "pv_full": "この曲のページ →",
+   "pv_songs": [
+    {
+     "note": "Gospel Wisdomの中国語テーマソング——あなたの言葉の中で、夜が明けます。",
+     "title": "《在你话语里，天亮了》"
+    },
+    {
+     "note": "Gospel Wisdomの英語テーマソング——一日ごとに、少しずつ光に近づけますように。",
+     "title": "A Little More Like Light"
+    },
+    {
+     "note": "三姑に捧げる歌——幼い頃、私たちのために灯をともしてくれた人へ。今度は私たちの番です。",
+     "title": "《換我們為妳點燈》"
+    },
+    {
+     "note": "誕生日の歌——あなたの心に光がありますように。どれほど遠い道でも、光が寄り添いますように。",
+     "title": "《愿你心里有光》"
+    },
+    {
+     "note": "副題「ありがとう、お母さん」——母に贈る感謝の歌。",
+     "title": "『灯下擂茶』"
+    }
+   ],
+   "pv_teaser": "試聴",
    "song_by": "Mi Xi 歌唱 · オリジナルシングル",
    "song_page_link": "この曲の専用ページ →",
    "subscribe_button": "登録する",
@@ -161,6 +219,8 @@
    "like_prompt": "이 곡이 마음에 드셨다면 — 다음 신곡을 가장 먼저 보내드립니다",
    "listen_h": "먼저 한 곡",
    "listen_img_alt": "《換我們為妳點燈》 싱글 커버 — Mi Xi",
+   "nav_archive": "미리듣기 아카이브",
+   "nav_gallery": "갤러리",
    "nav_gw": "묵상",
    "nav_mixi": "Mi Xi",
    "nav_videos": "영상 라이브러리",
@@ -168,6 +228,33 @@
    "order_footer": "맞춤 노래",
    "out": "ko/index.html",
    "prefix": "../",
+   "preview_h": "음악 미리듣기 · Music Preview",
+   "preview_sub": "Mi Xi의 다섯 곡을 먼저 조금씩 들어 보세요 — 모두 실화에서 태어난 노래입니다.",
+   "pv_custom": "이런 노래가 마음에 드셨나요? 당신의 이야기도 한 곡으로 만들어 드립니다 →",
+   "pv_full": "이 곡의 페이지 →",
+   "pv_songs": [
+    {
+     "note": "Gospel Wisdom의 중국어 주제가 — 당신의 말씀 안에서 날이 밝습니다.",
+     "title": "《在你话语里，天亮了》"
+    },
+    {
+     "note": "Gospel Wisdom의 영어 주제가 — 하루하루 조금씩 더 빛을 닮아가기를.",
+     "title": "A Little More Like Light"
+    },
+    {
+     "note": "삼고모께 드리는 노래 — 어린 시절 우리를 위해 등불을 켜 주셨던 분. 이제 우리가 그분을 위해 등불을 켭니다.",
+     "title": "《換我們為妳點燈》"
+    },
+    {
+     "note": "생일 노래 — 당신의 마음에 빛이 있기를. 아무리 먼 길이라도 빛이 함께하기를.",
+     "title": "《愿你心里有光》"
+    },
+    {
+     "note": "부제 「고마워요, 엄마」 — 어머니께 드리는 감사의 노래.",
+     "title": "《등불 아래 레이차》"
+    }
+   ],
+   "pv_teaser": "미리듣기",
    "song_by": "Mi Xi 노래 · 오리지널 싱글",
    "song_page_link": "이 곡의 전용 페이지 →",
    "subscribe_button": "구독하기",
@@ -223,6 +310,8 @@
    "like_prompt": "喜欢这首？下一首新歌，第一时间寄给你",
    "listen_h": "先听一首",
    "listen_img_alt": "《換我們為妳點燈》单曲封面——米曦",
+   "nav_archive": "试听存档",
+   "nav_gallery": "画册",
    "nav_gw": "灵修",
    "nav_mixi": "米曦",
    "nav_videos": "视频库",
@@ -230,6 +319,33 @@
    "order_footer": "定制歌曲",
    "out": "index.html",
    "prefix": "",
+   "preview_h": "音乐试听 · Music Preview",
+   "preview_sub": "米曦的五首歌，每首先听一小段——每一首，都从一个真实的故事开始。",
+   "pv_custom": "喜欢这样的歌？把你的故事，也定制成一首 →",
+   "pv_full": "这首歌的页面 →",
+   "pv_songs": [
+    {
+     "note": "Gospel Wisdom 中文主题歌——在祂的话语里，天就亮了。",
+     "title": "《在你话语里，天亮了》"
+    },
+    {
+     "note": "Gospel Wisdom 英文主题歌——愿我一天比一天，更像光一点点。",
+     "title": "A Little More Like Light"
+    },
+    {
+     "note": "献给三姑的一首歌——小时候，她为我们点灯；如今，换我们为她点灯。",
+     "title": "《換我們為妳點燈》"
+    },
+    {
+     "note": "一首生日之歌——愿你心里有光，走多远的路，都有光陪着。",
+     "title": "《愿你心里有光》"
+    },
+    {
+     "note": "副题「谢谢你，妈妈」——一首写给妈妈的感恩之歌。",
+     "title": "《灯下擂茶》"
+    }
+   ],
+   "pv_teaser": "试听",
    "song_by": "米曦 Mi Xi 演唱 · 原创单曲",
    "song_page_link": "这首歌的专属页 →",
    "subscribe_button": "订阅",
@@ -285,6 +401,8 @@
    "like_prompt": "喜歡這首？下一首新歌，第一時間寄給你",
    "listen_h": "先聽一首",
    "listen_img_alt": "《換我們為妳點燈》單曲封面——米曦",
+   "nav_archive": "試聽存檔",
+   "nav_gallery": "畫冊",
    "nav_gw": "靈修",
    "nav_mixi": "米曦",
    "nav_videos": "影片庫",
@@ -292,6 +410,33 @@
    "order_footer": "訂製歌曲",
    "out": "zh-hant/index.html",
    "prefix": "../",
+   "preview_h": "音樂試聽 · Music Preview",
+   "preview_sub": "米曦的五首歌，每首先聽一小段——每一首，都從一個真實的故事開始。",
+   "pv_custom": "喜歡這樣的歌？把你的故事，也訂製成一首 →",
+   "pv_full": "這首歌的頁面 →",
+   "pv_songs": [
+    {
+     "note": "Gospel Wisdom 中文主題歌——在祂的話語裡，天就亮了。",
+     "title": "《在你話語裡，天亮了》"
+    },
+    {
+     "note": "Gospel Wisdom 英文主題歌——願我一天比一天，更像光一點點。",
+     "title": "A Little More Like Light"
+    },
+    {
+     "note": "獻給三姑的一首歌——小時候，是她為我們點燈；如今，換我們為她點燈。",
+     "title": "《換我們為妳點燈》"
+    },
+    {
+     "note": "一首生日之歌——願你心裡有光，走多遠的路，都有光陪著。",
+     "title": "《願你心裡有光》"
+    },
+    {
+     "note": "副題「謝謝你，媽媽」——一首寫給媽媽的感恩之歌。",
+     "title": "《燈下擂茶》"
+    }
+   ],
+   "pv_teaser": "試聽",
    "song_by": "米曦 Mi Xi 演唱 · 原創單曲",
    "song_page_link": "這首歌的專屬頁 →",
    "subscribe_button": "訂閱",
@@ -318,9 +463,9 @@
   "buttondown_username": "daddymi",
   "cover_path": "gospel-wisdom/dian-deng/mixi-cover-diandeng.jpg",
   "hero_image": "gospel-wisdom/album-thumbs/song3.webp",
-  "og_image": "https://daddymi777.com/assets/share-thumb.jpg",
-  "og_image_h": 600,
-  "og_image_w": 600,
+  "og_image": "https://daddymi777.com/assets/share-home.jpg",
+  "og_image_h": 630,
+  "og_image_w": 1200,
   "song_title": "《換我們為妳點燈》",
   "support_email": "support@daddymi777.com",
   "youtube_channel": "https://www.youtube.com/@DaddyMi777",

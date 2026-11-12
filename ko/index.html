@@ -30,9 +30,9 @@
 <meta name="twitter:title" content="Daddy Mi 米老爸 — 삶에는 지혜를, 기술에는 마음을">
 <meta name="twitter:description" content="Daddy Mi(米老爸)의 공식 포털 — 매일의 묵상, 오리지널 음악과 영상 작품이 모두 이곳에서 시작됩니다.">
 <meta name="twitter:image" content="https://daddymi777.com/assets/share-home.jpg">
-<link rel="icon" type="image/png" sizes="32x32" href="../brand/favicon-32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="../brand/favicon-16.png">
-<link rel="apple-touch-icon" sizes="180x180" href="../brand/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/brand/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/brand/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/brand/apple-touch-icon.png">
 <script>
 /* Legacy-anchor rescue (joint recommendation §4): the old root index
    rendered series blocks without stable fragment ids, so any shared
@@ -40,45 +40,97 @@
    /publications/ with the fragment preserved. The portal's own
    section anchors (#listen, #subscribe, #works, #about) stay. */
 (function () {
-  var own = { '#listen': 1, '#subscribe': 1, '#works': 1, '#about': 1, '': 1 };
+  var own = { '#listen': 1, '#preview': 1, '#subscribe': 1, '#works': 1, '#about': 1, '': 1 };
   var h = window.location.hash || '';
-  if (!own[h]) { window.location.replace('../publications/' + h); }
+  if (!own[h]) { window.location.replace('/publications/' + h); }
 })();
 </script>
-<link rel="stylesheet" href="../portal.css">
+<link rel="stylesheet" href="/portal.css">
 </head>
 <body>
 <div class="wrap">
   <div class="topbar">
     <div class="brand">米老爸 Daddy Mi</div>
-    <div class="langswitch"><a href="../">简体</a><a href="../zh-hant/">繁體</a><a href="../en/">English</a><a href="../ja/">日本語</a><span class="cur" aria-current="true">한국어</span></div>
+    <div class="langswitch"><a href="/">简体</a><a href="/zh-hant/">繁體</a><a href="/en/">English</a><a href="/ja/">日本語</a><span class="cur" aria-current="true">한국어</span></div>
   </div>
   <nav class="nav">
-    <a href="../gospel-wisdom/?lang=ko">묵상</a>
-    <a href="../gospel-wisdom/mixi/?lang=ko">Mi Xi</a>
-    <a href="../publications/">영상 라이브러리</a>
-    <a href="../music/mx005/archive/ko/">미리듣기 아카이브</a>
-    <a href="../album/gallery/ko/">갤러리</a>
+    <a href="/gospel-wisdom/?lang=ko">묵상</a>
+    <a href="/gospel-wisdom/mixi/?lang=ko">Mi Xi</a>
+    <a href="/publications/">영상 라이브러리</a>
+    <a href="/music/mx005/archive/ko/">미리듣기 아카이브</a>
+    <a href="/album/gallery/ko/">갤러리</a>
   </nav>
 
   <header>
-    <img class="heromark" src="../brand/mark-transparent.png" alt="米老爸 Daddy Mi">
+    <img class="heromark" src="/brand/mark-transparent.png" alt="米老爸 Daddy Mi">
     <h1 class="brand-en">삶에는 지혜를, 기술에는 마음을.</h1>
     <p class="tagline">Daddy Mi(米老爸)의 공식 포털 — 매일의 묵상, 오리지널 음악과 영상 작품이 모두 이곳에서 시작됩니다.</p>
-    <img class="heroimg" src="../gospel-wisdom/album-thumbs/song3.webp" alt="등불이 비치는 오솔길 — Mi Xi 《換我們為妳點燈》의 한 장면">
+    <img class="heroimg" src="/gospel-wisdom/album-thumbs/song3.webp" alt="등불이 비치는 오솔길 — Mi Xi 《換我們為妳點燈》의 한 장면">
   </header>
 
   <section class="card listen" id="listen" style="margin-top:0">
     
-    <img src="../gospel-wisdom/dian-deng/mixi-cover-diandeng.jpg" alt="《換我們為妳點燈》 싱글 커버 — Mi Xi">
+    <img src="/gospel-wisdom/dian-deng/mixi-cover-diandeng.jpg" alt="《換我們為妳點燈》 싱글 커버 — Mi Xi">
     <div style="flex:1; min-width:0">
       <h2>먼저 한 곡</h2>
       <p class="song">《換我們為妳點燈》</p>
       <p class="by">Mi Xi 노래 · 오리지널 싱글</p>
-      <audio controls preload="none" src="../gospel-wisdom/dian-deng/song.mp3"></audio>
+      <audio controls preload="none" src="/gospel-wisdom/dian-deng/song.mp3"></audio>
       <p class="disclosure">AI 고지: 이 곡의 음악과 노래는 AI의 도움을 받아 생성되었습니다. 가사와 제작, 검토는 Daddy Mi 팀이 맡았습니다.</p>
-      <p class="songpage"><a href="../gospel-wisdom/dian-deng/?lang=ko">이 곡의 전용 페이지 →</a></p>
+      <p class="songpage"><a href="/gospel-wisdom/dian-deng/?lang=ko">이 곡의 전용 페이지 →</a></p>
       <p class="likeprompt"><a href="#subscribe">이 곡이 마음에 드셨다면 — 다음 신곡을 가장 먼저 보내드립니다 ↓</a></p>
+    </div>
+  </section>
+
+  <section id="preview">
+    <div class="pv-head"><img class="pv-mark" src="/brand/mark-transparent.png" alt=""><h2>음악 미리듣기 · Music Preview</h2></div>
+    <p class="pv-sub">Mi Xi의 다섯 곡을 먼저 조금씩 들어 보세요 — 모두 실화에서 태어난 노래입니다.</p>
+    <div class="pv-grid">
+      <article class="pv-card">
+        <img src="/gospel-wisdom/theme-zh/share-v2.jpg" alt="《在你话语里，天亮了》" loading="lazy">
+        <p class="pv-title"><span class="pv-no">01</span>《在你话语里，天亮了》</p>
+        <p class="pv-note">Gospel Wisdom의 중국어 주제가 — 당신의 말씀 안에서 날이 밝습니다.</p>
+        <p class="pv-tag">미리듣기 · 0:41</p>
+        <audio controls preload="none" src="/assets/teasers/theme-zh-teaser.mp3"></audio>
+        <p class="pv-links"><a href="/gospel-wisdom/theme-zh/?lang=ko">이 곡의 페이지 →</a></p>
+        <p class="pv-links"><a href="/order/ko/">이런 노래가 마음에 드셨나요? 당신의 이야기도 한 곡으로 만들어 드립니다 →</a></p>
+      </article>
+      <article class="pv-card">
+        <img src="/gospel-wisdom/theme-en/share-v2.jpg" alt="A Little More Like Light" loading="lazy">
+        <p class="pv-title"><span class="pv-no">02</span>A Little More Like Light</p>
+        <p class="pv-note">Gospel Wisdom의 영어 주제가 — 하루하루 조금씩 더 빛을 닮아가기를.</p>
+        <p class="pv-tag">미리듣기 · 0:43</p>
+        <audio controls preload="none" src="/assets/teasers/theme-en-teaser.mp3"></audio>
+        <p class="pv-links"><a href="/gospel-wisdom/theme-en/?lang=ko">이 곡의 페이지 →</a></p>
+        <p class="pv-links"><a href="/order/ko/">이런 노래가 마음에 드셨나요? 당신의 이야기도 한 곡으로 만들어 드립니다 →</a></p>
+      </article>
+      <article class="pv-card">
+        <img src="/gospel-wisdom/dian-deng/share-s5a.jpg" alt="《換我們為妳點燈》" loading="lazy">
+        <p class="pv-title"><span class="pv-no">03</span>《換我們為妳點燈》</p>
+        <p class="pv-note">삼고모께 드리는 노래 — 어린 시절 우리를 위해 등불을 켜 주셨던 분. 이제 우리가 그분을 위해 등불을 켭니다.</p>
+        <p class="pv-tag">미리듣기 · 0:40</p>
+        <audio controls preload="none" src="/assets/teasers/dian-deng-teaser.mp3"></audio>
+        <p class="pv-links"><a href="/gospel-wisdom/dian-deng/?lang=ko">이 곡의 페이지 →</a></p>
+        <p class="pv-links"><a href="/order/ko/">이런 노래가 마음에 드셨나요? 당신의 이야기도 한 곡으로 만들어 드립니다 →</a></p>
+      </article>
+      <article class="pv-card">
+        <img src="/gospel-wisdom/birthday-light/share-v2.jpg" alt="《愿你心里有光》" loading="lazy">
+        <p class="pv-title"><span class="pv-no">04</span>《愿你心里有光》</p>
+        <p class="pv-note">생일 노래 — 당신의 마음에 빛이 있기를. 아무리 먼 길이라도 빛이 함께하기를.</p>
+        <p class="pv-tag">미리듣기 · 0:42</p>
+        <audio controls preload="none" src="/assets/teasers/birthday-light-teaser.mp3"></audio>
+        <p class="pv-links"><a href="/gospel-wisdom/birthday-light/?lang=ko">이 곡의 페이지 →</a></p>
+        <p class="pv-links"><a href="/order/ko/">이런 노래가 마음에 드셨나요? 당신의 이야기도 한 곡으로 만들어 드립니다 →</a></p>
+      </article>
+      <article class="pv-card">
+        <img src="/music/mx005/share-s7b.jpg" alt="《등불 아래 레이차》" loading="lazy">
+        <p class="pv-title"><span class="pv-no">05</span>《등불 아래 레이차》</p>
+        <p class="pv-note">부제 「고마워요, 엄마」 — 어머니께 드리는 감사의 노래.</p>
+        <p class="pv-tag">미리듣기 · 0:43</p>
+        <audio controls preload="none" src="/assets/teasers/mx005-teaser.mp3"></audio>
+        <p class="pv-links"><a href="/music/mx005/ko/">이 곡의 페이지 →</a></p>
+        <p class="pv-links"><a href="/order/ko/">이런 노래가 마음에 드셨나요? 당신의 이야기도 한 곡으로 만들어 드립니다 →</a></p>
+      </article>
     </div>
   </section>
 
@@ -116,22 +168,22 @@
       <div class="card">
         <h3>Gospel Wisdom · 매일 묵상</h3>
         <p>하루를 시작하며, 조용히 음미할 성경 한 구절과 그 묵상을 전합니다.</p>
-        <a href="../gospel-wisdom/?lang=ko">묵상 들어가기 →</a>
+        <a href="/gospel-wisdom/?lang=ko">묵상 들어가기 →</a>
       </div>
       <div class="card">
         <h3>Mi Xi</h3>
         <p>Daddy Mi의 AI 가상 가수 Mi Xi를 만나 보세요 — 그녀의 오리지널 곡과, 그 곡들에 담긴 이야기를 소개합니다.</p>
-        <a href="../gospel-wisdom/mixi/?lang=ko">Mi Xi 만나기 →</a>
+        <a href="/gospel-wisdom/mixi/?lang=ko">Mi Xi 만나기 →</a>
       </div>
       <div class="card">
         <h3>영상 라이브러리</h3>
         <p>공개된 영상 324편의 전체 색인으로, 시리즈와 언어별로 정리되어 있습니다.</p>
-        <a href="../publications/">색인 보기 →</a>
+        <a href="/publications/">색인 보기 →</a>
       </div>
       <div class="card">
         <h3>소중한 사람을 위한 맞춤 노래</h3>
         <p>당신의 이야기를 노래로 만들어 Mi Xi가 불러 드립니다 — 소중한 사람에게 전하는, 시들지 않는 선물입니다.</p>
-        <a href="../order/ko/">맞춤 노래 안내 →</a>
+        <a href="/order/ko/">맞춤 노래 안내 →</a>
       </div>
     </div>
   </section>
@@ -143,9 +195,9 @@
   </section>
 
   <footer>
-    <img class="footmark" src="../brand/mark-transparent.png" alt="">
+    <img class="footmark" src="/brand/mark-transparent.png" alt="">
     <div>고객 지원：<a href="mailto:support@daddymi777.com">support@daddymi777.com</a></div>
-    <div><a href="../order/ko/">맞춤 노래</a></div>
+    <div><a href="/order/ko/">맞춤 노래</a></div>
     <div><a href="https://www.youtube.com/@DaddyMi777" target="_blank" rel="noopener">Daddy Mi 유튜브 채널 ↗ (중국 본토 밖의 네트워크가 필요합니다)</a></div>
     <div><a href="https://www.youtube.com/playlist?list=PLSxnHgZ_KCSI" target="_blank" rel="noopener">뮤직비디오 재생목록 ↗ (중국 본토 밖의 네트워크가 필요합니다)</a></div>
     <div>개인정보 안내: 이 사이트는 방문 기록을 추적하지 않습니다. 구독 이메일은 업데이트 발송에만 사용되며, 언제든 구독을 해지할 수 있습니다.</div>
@@ -183,6 +235,17 @@
     io.observe(el);
   }
 })();
+</script>
+<script>
+/* One audio at a time (2026-11-11): starting any player on the page
+   pauses the others — the listen card and the five preview teasers
+   never overlap. */
+document.addEventListener('play', function (e) {
+  var t = e.target;
+  if (!t || t.tagName !== 'AUDIO') return;
+  var all = document.querySelectorAll('audio');
+  for (var i = 0; i < all.length; i++) { if (all[i] !== t) all[i].pause(); }
+}, true);
 </script>
 </body>
 </html>

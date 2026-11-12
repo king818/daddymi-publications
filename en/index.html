@@ -29,9 +29,9 @@
 <meta name="twitter:title" content="Daddy Mi — Wisdom for Life. Technology with Heart.">
 <meta name="twitter:description" content="The official home of Daddy Mi — daily devotionals, original music, and video works, all starting here.">
 <meta name="twitter:image" content="https://daddymi777.com/assets/share-home.jpg">
-<link rel="icon" type="image/png" sizes="32x32" href="../brand/favicon-32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="../brand/favicon-16.png">
-<link rel="apple-touch-icon" sizes="180x180" href="../brand/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/brand/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/brand/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/brand/apple-touch-icon.png">
 <script>
 /* Legacy-anchor rescue (joint recommendation §4): the old root index
    rendered series blocks without stable fragment ids, so any shared
@@ -39,45 +39,97 @@
    /publications/ with the fragment preserved. The portal's own
    section anchors (#listen, #subscribe, #works, #about) stay. */
 (function () {
-  var own = { '#listen': 1, '#subscribe': 1, '#works': 1, '#about': 1, '': 1 };
+  var own = { '#listen': 1, '#preview': 1, '#subscribe': 1, '#works': 1, '#about': 1, '': 1 };
   var h = window.location.hash || '';
-  if (!own[h]) { window.location.replace('../publications/' + h); }
+  if (!own[h]) { window.location.replace('/publications/' + h); }
 })();
 </script>
-<link rel="stylesheet" href="../portal.css">
+<link rel="stylesheet" href="/portal.css">
 </head>
 <body>
 <div class="wrap">
   <div class="topbar">
     <div class="brand">米老爸 Daddy Mi</div>
-    <div class="langswitch"><a href="../">简体</a><a href="../zh-hant/">繁體</a><span class="cur" aria-current="true">English</span><a href="../ja/">日本語</a><a href="../ko/">한국어</a></div>
+    <div class="langswitch"><a href="/">简体</a><a href="/zh-hant/">繁體</a><span class="cur" aria-current="true">English</span><a href="/ja/">日本語</a><a href="/ko/">한국어</a></div>
   </div>
   <nav class="nav">
-    <a href="../gospel-wisdom/?lang=en">Devotionals</a>
-    <a href="../gospel-wisdom/mixi/?lang=en">Mi Xi</a>
-    <a href="../publications/">Video Library</a>
-    <a href="../music/mx005/archive/en/">Preview Archive</a>
-    <a href="../album/gallery/en/">Gallery</a>
+    <a href="/gospel-wisdom/?lang=en">Devotionals</a>
+    <a href="/gospel-wisdom/mixi/?lang=en">Mi Xi</a>
+    <a href="/publications/">Video Library</a>
+    <a href="/music/mx005/archive/en/">Preview Archive</a>
+    <a href="/album/gallery/en/">Gallery</a>
   </nav>
 
   <header>
-    <img class="heromark" src="../brand/mark-transparent.png" alt="米老爸 Daddy Mi">
+    <img class="heromark" src="/brand/mark-transparent.png" alt="米老爸 Daddy Mi">
     <h1 class="brand-en">Wisdom for Life. Technology with Heart.</h1>
     <p class="tagline">The official home of Daddy Mi — daily devotionals, original music, and video works, all starting here.</p>
-    <img class="heroimg" src="../gospel-wisdom/album-thumbs/song3.webp" alt="A lamp-lit path — Mi Xi, from “Lighting a Lamp for You”">
+    <img class="heroimg" src="/gospel-wisdom/album-thumbs/song3.webp" alt="A lamp-lit path — Mi Xi, from “Lighting a Lamp for You”">
   </header>
 
   <section class="card listen" id="listen" style="margin-top:0">
     
-    <img src="../gospel-wisdom/dian-deng/mixi-cover-diandeng.jpg" alt="Single cover of 《換我們為妳點燈》 — Mi Xi">
+    <img src="/gospel-wisdom/dian-deng/mixi-cover-diandeng.jpg" alt="Single cover of 《換我們為妳點燈》 — Mi Xi">
     <div style="flex:1; min-width:0">
       <h2>Listen first</h2>
       <p class="song">《換我們為妳點燈》</p>
       <p class="by">Sung by Mi Xi · an original single</p>
-      <audio controls preload="none" src="../gospel-wisdom/dian-deng/song.mp3"></audio>
+      <audio controls preload="none" src="/gospel-wisdom/dian-deng/song.mp3"></audio>
       <p class="disclosure">AI disclosure: this song's music and vocals were generated with AI assistance; lyrics, production and review are by the Daddy Mi team.</p>
-      <p class="songpage"><a href="../gospel-wisdom/dian-deng/?lang=en">This song's own page →</a></p>
+      <p class="songpage"><a href="/gospel-wisdom/dian-deng/?lang=en">This song's own page →</a></p>
       <p class="likeprompt"><a href="#subscribe">Like this song? The next new song, sent to you first ↓</a></p>
+    </div>
+  </section>
+
+  <section id="preview">
+    <div class="pv-head"><img class="pv-mark" src="/brand/mark-transparent.png" alt=""><h2>Music Preview</h2></div>
+    <p class="pv-sub">Five songs by Mi Xi — hear a short preview of each. Every one began with a true story.</p>
+    <div class="pv-grid">
+      <article class="pv-card">
+        <img src="/gospel-wisdom/theme-zh/share-v2.jpg" alt="《在你话语里，天亮了》" loading="lazy">
+        <p class="pv-title"><span class="pv-no">01</span>《在你话语里，天亮了》</p>
+        <p class="pv-note">The Chinese theme song of Gospel Wisdom — in Your words, the day breaks.</p>
+        <p class="pv-tag">Preview · 0:41</p>
+        <audio controls preload="none" src="/assets/teasers/theme-zh-teaser.mp3"></audio>
+        <p class="pv-links"><a href="/gospel-wisdom/theme-zh/?lang=en">This song's page →</a></p>
+        <p class="pv-links"><a href="/order/en/">Love songs like these? Have your own story made into one →</a></p>
+      </article>
+      <article class="pv-card">
+        <img src="/gospel-wisdom/theme-en/share-v2.jpg" alt="A Little More Like Light" loading="lazy">
+        <p class="pv-title"><span class="pv-no">02</span>A Little More Like Light</p>
+        <p class="pv-note">The English theme song of Gospel Wisdom — a little more like light, day by day.</p>
+        <p class="pv-tag">Preview · 0:43</p>
+        <audio controls preload="none" src="/assets/teasers/theme-en-teaser.mp3"></audio>
+        <p class="pv-links"><a href="/gospel-wisdom/theme-en/?lang=en">This song's page →</a></p>
+        <p class="pv-links"><a href="/order/en/">Love songs like these? Have your own story made into one →</a></p>
+      </article>
+      <article class="pv-card">
+        <img src="/gospel-wisdom/dian-deng/share-s5a.jpg" alt="《換我們為妳點燈》" loading="lazy">
+        <p class="pv-title"><span class="pv-no">03</span>《換我們為妳點燈》</p>
+        <p class="pv-note">A song for Sangu — she lit the lamp for us in childhood; now it is our turn.</p>
+        <p class="pv-tag">Preview · 0:40</p>
+        <audio controls preload="none" src="/assets/teasers/dian-deng-teaser.mp3"></audio>
+        <p class="pv-links"><a href="/gospel-wisdom/dian-deng/?lang=en">This song's page →</a></p>
+        <p class="pv-links"><a href="/order/en/">Love songs like these? Have your own story made into one →</a></p>
+      </article>
+      <article class="pv-card">
+        <img src="/gospel-wisdom/birthday-light/share-v2.jpg" alt="《愿你心里有光》" loading="lazy">
+        <p class="pv-title"><span class="pv-no">04</span>《愿你心里有光》</p>
+        <p class="pv-note">A birthday song — may there be light in your heart, however far the road goes.</p>
+        <p class="pv-tag">Preview · 0:42</p>
+        <audio controls preload="none" src="/assets/teasers/birthday-light-teaser.mp3"></audio>
+        <p class="pv-links"><a href="/gospel-wisdom/birthday-light/?lang=en">This song's page →</a></p>
+        <p class="pv-links"><a href="/order/en/">Love songs like these? Have your own story made into one →</a></p>
+      </article>
+      <article class="pv-card">
+        <img src="/music/mx005/share-s7b.jpg" alt="Lei Cha Beneath the Lamp" loading="lazy">
+        <p class="pv-title"><span class="pv-no">05</span>Lei Cha Beneath the Lamp</p>
+        <p class="pv-note">Subtitled “Thank You, Mom” — a Thanksgiving song for a mother.</p>
+        <p class="pv-tag">Preview · 0:43</p>
+        <audio controls preload="none" src="/assets/teasers/mx005-teaser.mp3"></audio>
+        <p class="pv-links"><a href="/music/mx005/en/">This song's page →</a></p>
+        <p class="pv-links"><a href="/order/en/">Love songs like these? Have your own story made into one →</a></p>
+      </article>
     </div>
   </section>
 
@@ -115,22 +167,22 @@
       <div class="card">
         <h3>Gospel Wisdom · Daily Devotionals</h3>
         <p>A daily passage of scripture with a reflection — worth a quiet moment at the start of your day.</p>
-        <a href="../gospel-wisdom/?lang=en">Enter devotionals →</a>
+        <a href="/gospel-wisdom/?lang=en">Enter devotionals →</a>
       </div>
       <div class="card">
         <h3>Mi Xi</h3>
         <p>Meet Mi Xi, Daddy Mi's AI virtual singer — hear her original songs and the stories behind them.</p>
-        <a href="../gospel-wisdom/mixi/?lang=en">Meet Mi Xi →</a>
+        <a href="/gospel-wisdom/mixi/?lang=en">Meet Mi Xi →</a>
       </div>
       <div class="card">
         <h3>Video Library</h3>
         <p>The complete index of 324 published videos, organized by series and language.</p>
-        <a href="../publications/">Browse the index →</a>
+        <a href="/publications/">Browse the index →</a>
       </div>
       <div class="card">
         <h3>Commission a Song — For Someone You Love</h3>
         <p>Your story, written into a song and sung by Mi Xi — a gift for someone you love that never fades.</p>
-        <a href="../order/en/">Commission a song →</a>
+        <a href="/order/en/">Commission a song →</a>
       </div>
     </div>
   </section>
@@ -142,9 +194,9 @@
   </section>
 
   <footer>
-    <img class="footmark" src="../brand/mark-transparent.png" alt="">
+    <img class="footmark" src="/brand/mark-transparent.png" alt="">
     <div>Support：<a href="mailto:support@daddymi777.com">support@daddymi777.com</a></div>
-    <div><a href="../order/en/">Custom songs</a></div>
+    <div><a href="/order/en/">Custom songs</a></div>
     <div><a href="https://www.youtube.com/@DaddyMi777" target="_blank" rel="noopener">Daddy Mi on YouTube ↗ (requires network access outside mainland China)</a></div>
     <div><a href="https://www.youtube.com/playlist?list=PLSxnHgZ_KCSI" target="_blank" rel="noopener">Music Videos playlist ↗ (requires network access outside mainland China)</a></div>
     <div>Privacy: this site does not track your browsing; subscription emails are used only to send updates, and you may unsubscribe anytime.</div>
@@ -182,6 +234,17 @@
     io.observe(el);
   }
 })();
+</script>
+<script>
+/* One audio at a time (2026-11-11): starting any player on the page
+   pauses the others — the listen card and the five preview teasers
+   never overlap. */
+document.addEventListener('play', function (e) {
+  var t = e.target;
+  if (!t || t.tagName !== 'AUDIO') return;
+  var all = document.querySelectorAll('audio');
+  for (var i = 0; i < all.length; i++) { if (all[i] !== t) all[i].pause(); }
+}, true);
 </script>
 </body>
 </html>

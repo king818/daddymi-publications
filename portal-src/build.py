@@ -21,6 +21,14 @@ Link layout: per-page relative prefixes from content.json ("" for the
 root page, "../" for the two language pages) resolve every asset and
 section link from each page's own depth, on both the custom domain
 and the github.io mirror.
+
+Maintenance 2026-11-11: the site standard is now ROOT-ABSOLUTE
+internal paths (docs/SITE-STANDARDS.md) — render() builds every
+internal URL from "/" and the language switcher uses LOCALE_PATH.
+The nav's Preview Archive and Gallery entries and the 1200x630
+share-home og card, previously hand-patched into the live HTML
+only, are generated here, as is the Music Preview section
+(PREVIEW_SONGS + the per-locale pv_* strings in content.json).
 """
 import json, os
 
@@ -65,7 +73,7 @@ TEMPLATE = """<!DOCTYPE html>
    /publications/ with the fragment preserved. The portal's own
    section anchors (#listen, #subscribe, #works, #about) stay. */
 (function () {
-  var own = { '#listen': 1, '#subscribe': 1, '#works': 1, '#about': 1, '': 1 };
+  var own = { '#listen': 1, '#preview': 1, '#subscribe': 1, '#works': 1, '#about': 1, '': 1 };
   var h = window.location.hash || '';
   if (!own[h]) { window.location.replace('%%PUBS_RESCUE%%' + h); }
 })();
@@ -82,6 +90,8 @@ TEMPLATE = """<!DOCTYPE html>
     <a href="%%GW_LINK%%">%%NAV_GW%%</a>
     <a href="%%MIXI_LINK%%">%%NAV_MIXI%%</a>
     <a href="%%PUBS_LINK%%">%%NAV_VIDEOS%%</a>
+    <a href="%%ARCHIVE_LINK%%">%%NAV_ARCHIVE%%</a>
+    <a href="%%GALLERY_LINK%%">%%NAV_GALLERY%%</a>
   </nav>
 
   <header>
@@ -104,6 +114,8 @@ TEMPLATE = """<!DOCTYPE html>
       <p class="likeprompt"><a href="#subscribe">%%LIKE_PROMPT%% ↓</a></p>
     </div>
   </section>
+
+  %%PREVIEW_SECTION%%
 
   <a class="explore" href="#works">%%EXPLORE_LINK%% ↓</a>
 
@@ -207,6 +219,17 @@ TEMPLATE = """<!DOCTYPE html>
   }
 })();
 </script>
+<script>
+/* One audio at a time (2026-11-11): starting any player on the page
+   pauses the others — the listen card and the five preview teasers
+   never overlap. */
+document.addEventListener('play', function (e) {
+  var t = e.target;
+  if (!t || t.tagName !== 'AUDIO') return;
+  var all = document.querySelectorAll('audio');
+  for (var i = 0; i < all.length; i++) { if (all[i] !== t) all[i].pause(); }
+}, true);
+</script>
 </body>
 </html>
 """
@@ -223,6 +246,75 @@ ORDER_PATH = {
     "ja": "order/ja/",
     "ko": "order/ko/",
 }
+
+# Root-absolute canonical paths (site standard, docs/SITE-STANDARDS.md).
+LOCALE_PATH = {"zh-hans": "/", "zh-hant": "/zh-hant/", "en": "/en/",
+               "ja": "/ja/", "ko": "/ko/"}
+ARCHIVE_PATH = {"zh-hans": "/music/mx005/archive/",
+                "zh-hant": "/music/mx005/archive/tc/",
+                "en": "/music/mx005/archive/en/",
+                "ja": "/music/mx005/archive/ja/",
+                "ko": "/music/mx005/archive/ko/"}
+GALLERY_PATH = {"zh-hans": "/album/gallery/",
+                "zh-hant": "/album/gallery/tc/",
+                "en": "/album/gallery/en/",
+                "ja": "/album/gallery/ja/",
+                "ko": "/album/gallery/ko/"}
+MX005_PATH = {"zh-hans": "/music/mx005/", "zh-hant": "/music/mx005/tc/",
+              "en": "/music/mx005/en/", "ja": "/music/mx005/ja/",
+              "ko": "/music/mx005/ko/"}
+
+# Homepage Music Preview (boss 2026-11-11): canonical album order
+# 01-05. Each teaser is a derived preview asset cut from the song's
+# released master — its chorus, timed from the lyric cues on the
+# song's own page — registered in king818/mixi-production-registry
+# as a homepage_teaser derivative of the master take. Covers are
+# each song's own share image. dur = displayed teaser length (s).
+PREVIEW_SONGS = [
+    {"no": "01", "cover": "/gospel-wisdom/theme-zh/share-v2.jpg",
+     "teaser": "/assets/teasers/theme-zh-teaser.mp3", "dur": 41,
+     "page": "/gospel-wisdom/theme-zh/"},
+    {"no": "02", "cover": "/gospel-wisdom/theme-en/share-v2.jpg",
+     "teaser": "/assets/teasers/theme-en-teaser.mp3", "dur": 43,
+     "page": "/gospel-wisdom/theme-en/"},
+    {"no": "03", "cover": "/gospel-wisdom/dian-deng/share-s5a.jpg",
+     "teaser": "/assets/teasers/dian-deng-teaser.mp3", "dur": 40,
+     "page": "/gospel-wisdom/dian-deng/"},
+    {"no": "04", "cover": "/gospel-wisdom/birthday-light/share-v2.jpg",
+     "teaser": "/assets/teasers/birthday-light-teaser.mp3", "dur": 42,
+     "page": "/gospel-wisdom/birthday-light/"},
+    {"no": "05", "cover": "/music/mx005/share-s7b.jpg",
+     "teaser": "/assets/teasers/mx005-teaser.mp3", "dur": 43,
+     "page": None},  # per-locale path: MX005_PATH
+]
+
+
+def _preview_section(page, code, order_link):
+    cards = []
+    for meta, song in zip(PREVIEW_SONGS, page["pv_songs"]):
+        href = meta["page"]
+        href = MX005_PATH[code] if href is None else href + "?lang=" + code
+        dur = "%d:%02d" % (meta["dur"] // 60, meta["dur"] % 60)
+        cards.append(
+            '<article class="pv-card">\n'
+            '        <img src="%s" alt="%s" loading="lazy">\n'
+            '        <p class="pv-title"><span class="pv-no">%s</span>%s</p>\n'
+            '        <p class="pv-note">%s</p>\n'
+            '        <p class="pv-tag">%s · %s</p>\n'
+            '        <audio controls preload="none" src="%s"></audio>\n'
+            '        <p class="pv-links"><a href="%s">%s</a></p>\n'
+            '        <p class="pv-links"><a href="%s">%s</a></p>\n'
+            '      </article>'
+            % (meta["cover"], song["title"], meta["no"], song["title"],
+               song["note"], page["pv_teaser"], dur, meta["teaser"],
+               href, page["pv_full"], order_link, page["pv_custom"]))
+    return ('<section id="preview">\n'
+            '    <div class="pv-head"><img class="pv-mark" src="/brand/mark-transparent.png" alt=""><h2>%s</h2></div>\n'
+            '    <p class="pv-sub">%s</p>\n'
+            '    <div class="pv-grid">\n      %s\n    </div>\n'
+            '  </section>'
+            % (page["preview_h"], page["preview_sub"], "\n      ".join(cards)))
+
 
 # Stylesheet C "Ink & Light" + Track A calligraphy (boss ruling
 # 2026-11-09): on the Chinese views the hero brand line is the
@@ -242,6 +334,7 @@ BRANDLINE_ALT = {
 INSCR_LABEL = {"zh-hans": "点灯的人", "zh-hant": "點燈的人"}
 _ONERROR = "onerror=\"this.closest('.brand-art').classList.add('callig-failed')\""
 
+
 def _brandline_block(page, prefix):
     code = page["html_lang"].lower()
     if code in BRANDLINE_ALT:
@@ -254,6 +347,7 @@ def _brandline_block(page, prefix):
                 % (alt1, alt2, prefix, _ONERROR, prefix, _ONERROR, page["brandline"]))
     return '<h1 class="brand-en">%s</h1>' % page["brandline"]
 
+
 def _inscr_strip(page, prefix):
     code = page["html_lang"].lower()
     if code in INSCR_LABEL:
@@ -261,8 +355,12 @@ def _inscr_strip(page, prefix):
         return '<div class="inscr-strip" role="img" aria-label="%s">%s</div>' % (INSCR_LABEL[code], imgs)
     return ""
 
+
 def render(code, page, site, pages):
-    prefix = page["prefix"]
+    # Site standard (2026-11-11): every internal URL is root-absolute,
+    # whatever directory the page itself lives in — page["prefix"] is
+    # kept in content.json for the record but no longer used.
+    prefix = "/"
     values = {
         "I18N_NOTE": ('<!-- i18n: JA/KO draft by Amani team, pending GPT cross-check -->\n'
                       if code in ("ja", "ko") else ""),
@@ -311,6 +409,9 @@ def render(code, page, site, pages):
         "YT_CHANNEL_LABEL": page["yt_channel"],
         "YT_MV_LABEL": page["yt_mv"],
         "NAV_GW": page["nav_gw"], "NAV_MIXI": page["nav_mixi"], "NAV_VIDEOS": page["nav_videos"],
+        "NAV_ARCHIVE": page["nav_archive"], "NAV_GALLERY": page["nav_gallery"],
+        "ARCHIVE_LINK": ARCHIVE_PATH[code], "GALLERY_LINK": GALLERY_PATH[code],
+        "PREVIEW_SECTION": _preview_section(page, code, "/" + ORDER_PATH[code]),
         "LISTEN_IMG_ALT": page["listen_img_alt"],
         "COVER": prefix + site["cover_path"],
         "AUDIO": prefix + site["audio_path"],
@@ -323,15 +424,15 @@ def render(code, page, site, pages):
     alts = [pages[c]["og_locale"] for c in ORDER if c != code]
     values["OG_LOCALE_ALTS"] = "\n".join(
         '<meta property="og:locale:alternate" content="%s">' % a for a in alts)
-    # language switcher: current language as text, others as links (paths from content.json)
+    # language switcher: current language as text, others as links
+    # (root-absolute canonical locale paths)
     parts = []
     for c in ORDER:
         label = page["switch_labels"][c]
-        href = page["lang_switch"][c]
-        if href is None:
+        if c == code:
             parts.append('<span class="cur" aria-current="true">%s</span>' % label)
         else:
-            parts.append('<a href="%s">%s</a>' % (href, label))
+            parts.append('<a href="%s">%s</a>' % (LOCALE_PATH[c], label))
     values["LANG_SWITCH"] = "".join(parts)
     html = TEMPLATE
     for k, v in values.items():

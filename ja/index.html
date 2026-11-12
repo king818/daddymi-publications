@@ -30,9 +30,9 @@
 <meta name="twitter:title" content="Daddy Mi 米老爸 — 人生に知恵を。テクノロジーに、心を。">
 <meta name="twitter:description" content="Daddy Mi（米老爸）の公式ポータル——毎日のデボーション、オリジナル音楽、映像作品は、すべてここから始まります。">
 <meta name="twitter:image" content="https://daddymi777.com/assets/share-home.jpg">
-<link rel="icon" type="image/png" sizes="32x32" href="../brand/favicon-32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="../brand/favicon-16.png">
-<link rel="apple-touch-icon" sizes="180x180" href="../brand/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/brand/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/brand/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/brand/apple-touch-icon.png">
 <script>
 /* Legacy-anchor rescue (joint recommendation §4): the old root index
    rendered series blocks without stable fragment ids, so any shared
@@ -40,45 +40,97 @@
    /publications/ with the fragment preserved. The portal's own
    section anchors (#listen, #subscribe, #works, #about) stay. */
 (function () {
-  var own = { '#listen': 1, '#subscribe': 1, '#works': 1, '#about': 1, '': 1 };
+  var own = { '#listen': 1, '#preview': 1, '#subscribe': 1, '#works': 1, '#about': 1, '': 1 };
   var h = window.location.hash || '';
-  if (!own[h]) { window.location.replace('../publications/' + h); }
+  if (!own[h]) { window.location.replace('/publications/' + h); }
 })();
 </script>
-<link rel="stylesheet" href="../portal.css">
+<link rel="stylesheet" href="/portal.css">
 </head>
 <body>
 <div class="wrap">
   <div class="topbar">
     <div class="brand">米老爸 Daddy Mi</div>
-    <div class="langswitch"><a href="../">简体</a><a href="../zh-hant/">繁體</a><a href="../en/">English</a><span class="cur" aria-current="true">日本語</span><a href="../ko/">한국어</a></div>
+    <div class="langswitch"><a href="/">简体</a><a href="/zh-hant/">繁體</a><a href="/en/">English</a><span class="cur" aria-current="true">日本語</span><a href="/ko/">한국어</a></div>
   </div>
   <nav class="nav">
-    <a href="../gospel-wisdom/?lang=ja">デボーション</a>
-    <a href="../gospel-wisdom/mixi/?lang=ja">Mi Xi</a>
-    <a href="../publications/">動画ライブラリ</a>
-    <a href="../music/mx005/archive/ja/">試聴アーカイブ</a>
-    <a href="../album/gallery/ja/">ギャラリー</a>
+    <a href="/gospel-wisdom/?lang=ja">デボーション</a>
+    <a href="/gospel-wisdom/mixi/?lang=ja">Mi Xi</a>
+    <a href="/publications/">動画ライブラリ</a>
+    <a href="/music/mx005/archive/ja/">試聴アーカイブ</a>
+    <a href="/album/gallery/ja/">ギャラリー</a>
   </nav>
 
   <header>
-    <img class="heromark" src="../brand/mark-transparent.png" alt="米老爸 Daddy Mi">
+    <img class="heromark" src="/brand/mark-transparent.png" alt="米老爸 Daddy Mi">
     <h1 class="brand-en">人生に知恵を。テクノロジーに、心を。</h1>
     <p class="tagline">Daddy Mi（米老爸）の公式ポータル——毎日のデボーション、オリジナル音楽、映像作品は、すべてここから始まります。</p>
-    <img class="heroimg" src="../gospel-wisdom/album-thumbs/song3.webp" alt="明かりのともる小道——Mi Xi『換我們為妳點燈』の一場面">
+    <img class="heroimg" src="/gospel-wisdom/album-thumbs/song3.webp" alt="明かりのともる小道——Mi Xi『換我們為妳點燈』の一場面">
   </header>
 
   <section class="card listen" id="listen" style="margin-top:0">
     
-    <img src="../gospel-wisdom/dian-deng/mixi-cover-diandeng.jpg" alt="シングル『換我們為妳點燈』のカバー——Mi Xi">
+    <img src="/gospel-wisdom/dian-deng/mixi-cover-diandeng.jpg" alt="シングル『換我們為妳點燈』のカバー——Mi Xi">
     <div style="flex:1; min-width:0">
       <h2>まずは一曲</h2>
       <p class="song">《換我們為妳點燈》</p>
       <p class="by">Mi Xi 歌唱 · オリジナルシングル</p>
-      <audio controls preload="none" src="../gospel-wisdom/dian-deng/song.mp3"></audio>
+      <audio controls preload="none" src="/gospel-wisdom/dian-deng/song.mp3"></audio>
       <p class="disclosure">AIに関する開示：この曲の音楽と歌唱は、AIの支援を受けて生成されました。作詞・作曲、制作、最終確認はDaddy Miチームが担っています。</p>
-      <p class="songpage"><a href="../gospel-wisdom/dian-deng/?lang=ja">この曲の専用ページ →</a></p>
+      <p class="songpage"><a href="/gospel-wisdom/dian-deng/?lang=ja">この曲の専用ページ →</a></p>
       <p class="likeprompt"><a href="#subscribe">この曲が心に届いたら——次の新曲を、いちばん先にお届けします ↓</a></p>
+    </div>
+  </section>
+
+  <section id="preview">
+    <div class="pv-head"><img class="pv-mark" src="/brand/mark-transparent.png" alt=""><h2>音楽の試聴 · Music Preview</h2></div>
+    <p class="pv-sub">Mi Xiの5曲を、少しずつ試聴できます——どの曲も、実話から生まれました。</p>
+    <div class="pv-grid">
+      <article class="pv-card">
+        <img src="/gospel-wisdom/theme-zh/share-v2.jpg" alt="《在你话语里，天亮了》" loading="lazy">
+        <p class="pv-title"><span class="pv-no">01</span>《在你话语里，天亮了》</p>
+        <p class="pv-note">Gospel Wisdomの中国語テーマソング——あなたの言葉の中で、夜が明けます。</p>
+        <p class="pv-tag">試聴 · 0:41</p>
+        <audio controls preload="none" src="/assets/teasers/theme-zh-teaser.mp3"></audio>
+        <p class="pv-links"><a href="/gospel-wisdom/theme-zh/?lang=ja">この曲のページ →</a></p>
+        <p class="pv-links"><a href="/order/ja/">こんな歌がお好きなら——あなたの物語も、一曲にできます →</a></p>
+      </article>
+      <article class="pv-card">
+        <img src="/gospel-wisdom/theme-en/share-v2.jpg" alt="A Little More Like Light" loading="lazy">
+        <p class="pv-title"><span class="pv-no">02</span>A Little More Like Light</p>
+        <p class="pv-note">Gospel Wisdomの英語テーマソング——一日ごとに、少しずつ光に近づけますように。</p>
+        <p class="pv-tag">試聴 · 0:43</p>
+        <audio controls preload="none" src="/assets/teasers/theme-en-teaser.mp3"></audio>
+        <p class="pv-links"><a href="/gospel-wisdom/theme-en/?lang=ja">この曲のページ →</a></p>
+        <p class="pv-links"><a href="/order/ja/">こんな歌がお好きなら——あなたの物語も、一曲にできます →</a></p>
+      </article>
+      <article class="pv-card">
+        <img src="/gospel-wisdom/dian-deng/share-s5a.jpg" alt="《換我們為妳點燈》" loading="lazy">
+        <p class="pv-title"><span class="pv-no">03</span>《換我們為妳點燈》</p>
+        <p class="pv-note">三姑に捧げる歌——幼い頃、私たちのために灯をともしてくれた人へ。今度は私たちの番です。</p>
+        <p class="pv-tag">試聴 · 0:40</p>
+        <audio controls preload="none" src="/assets/teasers/dian-deng-teaser.mp3"></audio>
+        <p class="pv-links"><a href="/gospel-wisdom/dian-deng/?lang=ja">この曲のページ →</a></p>
+        <p class="pv-links"><a href="/order/ja/">こんな歌がお好きなら——あなたの物語も、一曲にできます →</a></p>
+      </article>
+      <article class="pv-card">
+        <img src="/gospel-wisdom/birthday-light/share-v2.jpg" alt="《愿你心里有光》" loading="lazy">
+        <p class="pv-title"><span class="pv-no">04</span>《愿你心里有光》</p>
+        <p class="pv-note">誕生日の歌——あなたの心に光がありますように。どれほど遠い道でも、光が寄り添いますように。</p>
+        <p class="pv-tag">試聴 · 0:42</p>
+        <audio controls preload="none" src="/assets/teasers/birthday-light-teaser.mp3"></audio>
+        <p class="pv-links"><a href="/gospel-wisdom/birthday-light/?lang=ja">この曲のページ →</a></p>
+        <p class="pv-links"><a href="/order/ja/">こんな歌がお好きなら——あなたの物語も、一曲にできます →</a></p>
+      </article>
+      <article class="pv-card">
+        <img src="/music/mx005/share-s7b.jpg" alt="『灯下擂茶』" loading="lazy">
+        <p class="pv-title"><span class="pv-no">05</span>『灯下擂茶』</p>
+        <p class="pv-note">副題「ありがとう、お母さん」——母に贈る感謝の歌。</p>
+        <p class="pv-tag">試聴 · 0:43</p>
+        <audio controls preload="none" src="/assets/teasers/mx005-teaser.mp3"></audio>
+        <p class="pv-links"><a href="/music/mx005/ja/">この曲のページ →</a></p>
+        <p class="pv-links"><a href="/order/ja/">こんな歌がお好きなら——あなたの物語も、一曲にできます →</a></p>
+      </article>
     </div>
   </section>
 
@@ -116,22 +168,22 @@
       <div class="card">
         <h3>Gospel Wisdom · 毎日のデボーション</h3>
         <p>一日の始まりに、静かに味わいたい聖書の一節と、その黙想をお届けします。</p>
-        <a href="../gospel-wisdom/?lang=ja">デボーションへ →</a>
+        <a href="/gospel-wisdom/?lang=ja">デボーションへ →</a>
       </div>
       <div class="card">
         <h3>Mi Xi</h3>
         <p>Daddy MiのAIバーチャルシンガー、Mi Xiを紹介します——彼女のオリジナル曲と、その背景にある物語をどうぞ。</p>
-        <a href="../gospel-wisdom/mixi/?lang=ja">Mi Xiに会う →</a>
+        <a href="/gospel-wisdom/mixi/?lang=ja">Mi Xiに会う →</a>
       </div>
       <div class="card">
         <h3>動画ライブラリ</h3>
         <p>公開中の動画324本の完全な索引です。シリーズと言語別に整理してあります。</p>
-        <a href="../publications/">索引を見る →</a>
+        <a href="/publications/">索引を見る →</a>
       </div>
       <div class="card">
         <h3>大切な人へ、一曲をオーダー</h3>
         <p>あなたの物語を歌にして、米曦（Mi Xi）が歌います——大切な人への、色あせない贈り物です。</p>
-        <a href="../order/ja/">オーダーのご案内 →</a>
+        <a href="/order/ja/">オーダーのご案内 →</a>
       </div>
     </div>
   </section>
@@ -143,9 +195,9 @@
   </section>
 
   <footer>
-    <img class="footmark" src="../brand/mark-transparent.png" alt="">
+    <img class="footmark" src="/brand/mark-transparent.png" alt="">
     <div>サポート：<a href="mailto:support@daddymi777.com">support@daddymi777.com</a></div>
-    <div><a href="../order/ja/">カスタムソング</a></div>
+    <div><a href="/order/ja/">カスタムソング</a></div>
     <div><a href="https://www.youtube.com/@DaddyMi777" target="_blank" rel="noopener">Daddy MiのYouTubeチャンネル ↗（視聴には中国本土の外のネットワークが必要です）</a></div>
     <div><a href="https://www.youtube.com/playlist?list=PLSxnHgZ_KCSI" target="_blank" rel="noopener">ミュージックビデオのプレイリスト ↗（視聴には中国本土の外のネットワークが必要です）</a></div>
     <div>プライバシー：当サイトはあなたの閲覧を追跡しません。登録いただいたメールアドレスは更新のお知らせにのみ使用し、いつでも配信を停止できます。</div>
@@ -183,6 +235,17 @@
     io.observe(el);
   }
 })();
+</script>
+<script>
+/* One audio at a time (2026-11-11): starting any player on the page
+   pauses the others — the listen card and the five preview teasers
+   never overlap. */
+document.addEventListener('play', function (e) {
+  var t = e.target;
+  if (!t || t.tagName !== 'AUDIO') return;
+  var all = document.querySelectorAll('audio');
+  for (var i = 0; i < all.length; i++) { if (all[i] !== t) all[i].pause(); }
+}, true);
 </script>
 </body>
 </html>
