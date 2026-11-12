@@ -17,7 +17,7 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/brand/favicon-32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/brand/favicon-16.png">
 <link rel="apple-touch-icon" href="/brand/apple-touch-icon.png">
-<link rel="stylesheet" href="/for-mother/3a65fb4b8e0c6eb8/mother-love-v4.css">
+<link rel="stylesheet" href="/for-mother/3a65fb4b8e0c6eb8/mother-love-v5.css">
 </head>
 <body>
 <!-- ===== CURTAIN: press the big button -> the curtain opens -> the song begins -> the page presents itself, station by station (boss ruling 2026-11-12) ===== -->
@@ -278,8 +278,11 @@
     tCur.textContent = fmt(t);
     /* station: the dedication, landed while the intro music plays */
     if(tour.started && !tour.dedicateFired && t >= 3.5){
-      tour.dedicateFired = true;
-      if(!suspended() && !tour.frozen) land(stDedicate, 0.07);
+      /* one chance only used to be spent even when her hand was on the page
+         and the landing was skipped (boss, live 2026-11-12): now the chance
+         is only spent when the landing actually happens — while she scrolls,
+         the walk simply waits a breath and lands it once she lets go. */
+      if(!suspended() && !tour.frozen){ tour.dedicateFired = true; land(stDedicate, 0.07); }
     }
     /* the six blessings light one by one while she rests on the dedication */
     if(t >= 3.5 && t < 13.3 && blessEls.length){
@@ -385,11 +388,20 @@
     if(!tour.started || tour.done) return;
     if(tour.frozen){ tour.finaleTimer = setTimeout(finaleAdvance, 1200); return; }
     if(suspended()){
-      /* she has taken the scroll herself: never steal it back — complete the finale in place */
+      /* she has her hand on the page: WAIT — do not end the walk here
+         (boss, live 2026-11-12: one incidental scroll used to suspend the
+         flow for good, the finale completing invisibly wherever she was).
+         The walk retries while she is touching and resumes once her hands
+         have been off the page a few seconds; only a long, sustained
+         takeover completes the finale in place, as before, rather than
+         steal the page back from a reader who truly took over. */
+      tour.suspendRetries = (tour.suspendRetries || 0) + 1;
+      if(tour.suspendRetries <= 8){ tour.finaleTimer = setTimeout(finaleAdvance, 1500); return; }
       tour.done = true;
       finishFinale();
       return;
     }
+    tour.suspendRetries = 0;
     tour.finaleStep++;
     if(tour.finaleStep === 0){
       land(stVideo, 0.08);
