@@ -74,6 +74,9 @@
   .gcard img{width:100%;height:auto;display:block}
   .gcard .gtext{padding:16px 22px;font-size:16px;letter-spacing:.14em;color:var(--ink)}
   .gcard .gtext small{display:block;font-size:13px;color:var(--muted);letter-spacing:.08em;margin-top:5px}
+    .vrow{margin-top:16px}
+  .vrow .vlabel{font-size:16px;color:var(--ink);letter-spacing:.06em;margin-bottom:8px}
+  .vrow audio{width:100%;height:44px;display:block}
   .ask{margin-top:30px;text-align:center;border:1.5px dashed var(--gold);border-radius:14px;
        padding:22px;background:rgba(255,255,255,.5)}
   .ask p{font-size:16.5px;color:var(--ink);line-height:2}
@@ -125,6 +128,23 @@
     <img src="/music/miyo/gallery/img/p7.jpg" alt="米悠ギャラリー">
     <span class="gtext">米悠 · ギャラリー<small>写真と映像 — 開いてご覧ください</small></span>
   </a>
+
+  <section class="voice">
+    <h2><span class="dot">✦</span>あなたの声を選んでください</h2>
+    <p>同じ歌を歌った3つの声を用意しました。全部聴いて、いちばん好きな声を教えてください。選んだ声が、あなたの歌声になります。</p>
+  <div class="vrow">
+    <div class="vlabel">声 A · 星屑ブレス — 軽やかで透明、夜に降る星の光のよう</div>
+    <audio controls preload="none" src="/music/miyo/voice/voice-a-v1.mp3"></audio>
+  </div>
+  <div class="vrow">
+    <div class="vlabel">声 B · 月光クリア — 明るく澄んだ、月光のように清らかな声</div>
+    <audio controls preload="none" src="/music/miyo/voice/voice-b-v1.mp3"></audio>
+  </div>
+  <div class="vrow">
+    <div class="vlabel">声 C · 夜更けのささやき — 少しハスキーな、深夜ラジオの温もり</div>
+    <audio controls preload="none" src="/music/miyo/voice/voice-c-v1.mp3"></audio>
+  </div>
+  </section>
 
   <div class="ask">
     <p>このページは、まずあなたに見ていただくためのものです ——<br>加えたい内容や、変えたい写真があれば、教えてください。そのとおりに直します。</p>

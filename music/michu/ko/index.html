@@ -76,6 +76,9 @@
   .gcard img{width:100%;height:auto;display:block}
   .gcard .gtext{padding:16px 22px;font-size:16px;letter-spacing:.14em;color:var(--ink)}
   .gcard .gtext small{display:block;font-size:13px;color:var(--muted);letter-spacing:.08em;margin-top:5px}
+    .vrow{margin-top:16px}
+  .vrow .vlabel{font-size:16px;color:var(--ink);letter-spacing:.06em;margin-bottom:8px}
+  .vrow audio{width:100%;height:44px;display:block}
   .ask{margin-top:30px;text-align:center;border:1.5px dashed var(--gold);border-radius:14px;
        padding:22px;background:rgba(255,255,255,.5)}
   .ask p{font-size:16.5px;color:var(--ink);line-height:2}
@@ -124,6 +127,23 @@
     <img src="/music/michu/gallery/img/g1.jpg" alt="Mi Chu 갤러리">
     <span class="gtext">Mi Chu · 갤러리<small>사진 — 눌러서 보기</small></span>
   </a>
+
+  <section class="voice">
+    <h2><span class="dot">✦</span>당신의 목소리를 골라 주세요</h2>
+    <p>같은 노래를 부른 세 가지 목소리를 준비했어요. 모두 들어 보시고 가장 마음에 드는 목소리를 알려 주세요. 고른 목소리가 당신의 노래 목소리가 됩니다.</p>
+  <div class="vrow">
+    <div class="vlabel">목소리 A · 아침의 온기 — 따뜻한 중음, 다정함 속에 단단한 힘</div>
+    <audio controls preload="none" src="/music/michu/voice/voice-a-v1.mp3"></audio>
+  </div>
+  <div class="vrow">
+    <div class="vlabel">목소리 B · 대지의 가슴소리 — 두텁고 안정적, 대지처럼 믿음직한 목소리</div>
+    <audio controls preload="none" src="/music/michu/voice/voice-b-v1.mp3"></audio>
+  </div>
+  <div class="vrow">
+    <div class="vlabel">목소리 C · 미소의 맑은 소리 — 맑고 가볍게, 미소를 머금은 밝음</div>
+    <audio controls preload="none" src="/music/michu/voice/voice-c-v1.mp3"></audio>
+  </div>
+  </section>
 
   <div class="ask">
     <p>이 페이지는 먼저 당신에게 보여드립니다 —<br>추가하고 싶은 내용이나 바꾸고 싶은 사진이 있으면 알려주세요. 그대로 고치겠습니다.</p>

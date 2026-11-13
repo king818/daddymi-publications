@@ -74,6 +74,9 @@
   .gcard img{width:100%;height:auto;display:block}
   .gcard .gtext{padding:16px 22px;font-size:16px;letter-spacing:.14em;color:var(--ink)}
   .gcard .gtext small{display:block;font-size:13px;color:var(--muted);letter-spacing:.08em;margin-top:5px}
+    .vrow{margin-top:16px}
+  .vrow .vlabel{font-size:16px;color:var(--ink);letter-spacing:.06em;margin-bottom:8px}
+  .vrow audio{width:100%;height:44px;display:block}
   .ask{margin-top:30px;text-align:center;border:1.5px dashed var(--gold);border-radius:14px;
        padding:22px;background:rgba(255,255,255,.5)}
   .ask p{font-size:16.5px;color:var(--ink);line-height:2}
@@ -125,6 +128,23 @@
     <img src="/music/miyo/gallery/img/p7.jpg" alt="米悠画册">
     <span class="gtext">米悠 · 画册<small>照片与影像 — 点开看看</small></span>
   </a>
+
+  <section class="voice">
+    <h2><span class="dot">✦</span>选你的声音</h2>
+    <p>我们为你准备了三种声音，唱的都是同一段歌。请一一听完，告诉我们你最喜欢哪一个——选定之后，它就是你唱歌的声音。</p>
+  <div class="vrow">
+    <div class="vlabel">声音 A · 星尘气声 — 空灵轻飘，像星光落在夜里</div>
+    <audio controls preload="none" src="/music/miyo/voice/voice-a-v1.mp3"></audio>
+  </div>
+  <div class="vrow">
+    <div class="vlabel">声音 B · 月光清亮 — 清亮透亮，像月光一样干净</div>
+    <audio controls preload="none" src="/music/miyo/voice/voice-b-v1.mp3"></audio>
+  </div>
+  <div class="vrow">
+    <div class="vlabel">声音 C · 夜阑低语 — 微哑低语，深夜电台的温度</div>
+    <audio controls preload="none" src="/music/miyo/voice/voice-c-v1.mp3"></audio>
+  </div>
+  </section>
 
   <div class="ask">
     <p>这页先给你看 ——<br>想加什么内容，或者想换哪张照片，告诉我们，我们照着改。</p>

@@ -76,6 +76,9 @@
   .gcard img{width:100%;height:auto;display:block}
   .gcard .gtext{padding:16px 22px;font-size:16px;letter-spacing:.14em;color:var(--ink)}
   .gcard .gtext small{display:block;font-size:13px;color:var(--muted);letter-spacing:.08em;margin-top:5px}
+    .vrow{margin-top:16px}
+  .vrow .vlabel{font-size:16px;color:var(--ink);letter-spacing:.06em;margin-bottom:8px}
+  .vrow audio{width:100%;height:44px;display:block}
   .ask{margin-top:30px;text-align:center;border:1.5px dashed var(--gold);border-radius:14px;
        padding:22px;background:rgba(255,255,255,.5)}
   .ask p{font-size:16.5px;color:var(--ink);line-height:2}
@@ -124,6 +127,23 @@
     <img src="/music/michu/gallery/img/g1.jpg" alt="米初ギャラリー">
     <span class="gtext">米初 · ギャラリー<small>写真 — タップして見る</small></span>
   </a>
+
+  <section class="voice">
+    <h2><span class="dot">✦</span>あなたの声を選んでください</h2>
+    <p>同じ歌を歌った3つの声を用意しました。全部聴いて、いちばん好きな声を教えてください。選んだ声が、あなたの歌声になります。</p>
+  <div class="vrow">
+    <div class="vlabel">声 A · 朝の温もり — 温かい中音、寄り添う優しさと芯の強さ</div>
+    <audio controls preload="none" src="/music/michu/voice/voice-a-v1.mp3"></audio>
+  </div>
+  <div class="vrow">
+    <div class="vlabel">声 B · 大地の胸声 — 厚みがあり穏やか、大地のように頼れる声</div>
+    <audio controls preload="none" src="/music/michu/voice/voice-b-v1.mp3"></audio>
+  </div>
+  <div class="vrow">
+    <div class="vlabel">声 C · 微笑みの清声 — 澄んで軽やか、微笑みを帯びた明るさ</div>
+    <audio controls preload="none" src="/music/michu/voice/voice-c-v1.mp3"></audio>
+  </div>
+  </section>
 
   <div class="ask">
     <p>このページはまずあなたへ ——<br>追加したい内容や、変えたい写真があれば教えてください。その通りに直します。</p>
