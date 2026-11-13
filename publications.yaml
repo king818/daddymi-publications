@@ -4009,6 +4009,19 @@ publications:
   dedicated_page: https://daddymi777.com/gospel-wisdom/mixi/
   status: Public
   note: 'Mi Xi intro podcast, English episode: podcast-style video built from the finished episode audio - Mi Xi portrait for opening and closing, each song segment carries its own cover art; en captions and a custom thumbnail attached. Uploaded via the YouTube Data API on 2026-11-13 and published Public the same day (API-verified); the description links the Mi Xi album page first, then the five song pages in canonical order. AI-content disclosure submitted via API (containsSyntheticMedia=True accepted); Studio confirmation to follow.'
+- platform: YouTube
+  series: Mi Xi Intro Podcast
+  topic: 미시를 만나다 - 다섯 곡, 하나의 목소리
+  language: ko
+  type: Long
+  title: '미시를 만나다: 다섯 곡, 하나의 목소리'
+  published: '2026-11-13'
+  url: https://youtu.be/ib1S4Nn_Cdc
+  native_id: ib1S4Nn_Cdc
+  playlist: 
+  dedicated_page: https://daddymi777.com/gospel-wisdom/mixi/
+  status: Public
+  note: 'Mi Xi intro podcast, Korean episode: podcast-style video built from the finished episode audio - Mi Xi portrait for opening and closing, each song segment carries its own cover art. Uploaded via the YouTube Data API on 2026-11-13 and published Public the same day (API-verified: public, embeddable, not made for kids, category Music). At registration time the ko captions, the custom thumbnail, the Korean playlist and the AI-content disclosure submission were still pending: the shared YouTube Data API quota pool was exhausted by the video insert itself (403 quotaExceeded on captions.insert). All four resume after the quota reset at 2026-11-14 00:00 PST via the staged steps recorded in the production package upload-state.json; playlist fields will be added when the playlist exists.'
 replaced_or_private:
 - platform: YouTube
   series: Daily Verse · Neville Readings

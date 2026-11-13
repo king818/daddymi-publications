@@ -2,7 +2,7 @@
 
 Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, filterable version: https://king818.github.io/daddymi-publications/
 
-**333 public videos** · 75 replaced/private versions · Come, Follow Me 2026: 138 · Daily Verse · Neville Readings: 150 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 28 · Mi Xi Intro Podcast: 2 · Music Videos: 2 · Neville Inner Reading Podcast: 7
+**334 public videos** · 75 replaced/private versions · Come, Follow Me 2026: 138 · Daily Verse · Neville Readings: 150 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 28 · Mi Xi Intro Podcast: 3 · Music Videos: 2 · Neville Inner Reading Podcast: 7
 
 
 ## 來跟隨我 2026 — 中文（69）
@@ -397,11 +397,12 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 |---|---|---|---|---|---|---|
 | 2026-11-13 | [《认识米曦：五首歌，一个声音》](https://youtu.be/3XNuNjqh2aw) | 長集 | 认识米曦 · 米曦介绍播客（中文） | 待存档 | 已發布 | `3XNuNjqh2aw` |
 
-## Mi Xi Intro Podcast — English (1)
+## Mi Xi Intro Podcast — English (2)
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
 | 2026-11-13 | [Meet Mi Xi: Five Songs, One Voice](https://youtu.be/q8bIHJpzNQ4) | Long | Meet Mi Xi · Mi Xi Podcast (English) | Not archived yet | Live | `q8bIHJpzNQ4` |
+| 2026-11-13 | [미시를 만나다: 다섯 곡, 하나의 목소리](https://youtu.be/ib1S4Nn_Cdc) | Long | — | Not archived yet | Live | `ib1S4Nn_Cdc` |
 
 ## Replaced / Private versions (75)
 
