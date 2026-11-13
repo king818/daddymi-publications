@@ -136,7 +136,7 @@
 <div class="line" data-t="249.98">你给我们的爱，我们永远记得</div>
   </div>
 
-  <!-- ===== VIDEO: self-hosted MP4 is the primary player (mother is in Guangzhou). ===== -->
+  <!-- ===== VIDEO: region-based source (RUNBOOK sec.6) -- mainland viewers get the Guangzhou OSS HLS mirror via the wiring script at the end of this page; everyone else plays this self-hosted MP4. ===== -->
   <section class="videosec reveal" id="stVideo">
     <h3>影 像</h3>
     <div class="drule"></div>
@@ -178,6 +178,84 @@
 <div class="tour-toast" id="tourToast" role="status" aria-live="polite"></div>
 <div class="tour-buddy" id="tourBuddy" aria-hidden="true"></div>
 <audio id="audio" src="/for-mother/3a65fb4b8e0c6eb8/song.mp3" preload="metadata"></audio>
+
+<script>
+/* ===== Region-based video source (RUNBOOK section 6; wired 2026-11-12) =====
+   Mainland-China viewers are served the bit-identical HLS package from the
+   Guangzhou OSS mirror; everyone else keeps the GitHub Pages MP4 in the
+   <video> tag below. Portability law: the media host lives in this ONE
+   config variable -- switching providers = sync the file tree + change
+   CN_MEDIA_BASE. Detection is client-side: mainland time zones first,
+   zh-CN language as the fallback signal when no time zone is reported.
+   Any HLS failure falls back to the original MP4 automatically. */
+(function(){
+  var CN_MEDIA_BASE = 'https://daddymi-media.oss-cn-guangzhou.aliyuncs.com';
+  var CN_HLS = CN_MEDIA_BASE + '/mx005-private/master.m3u8';
+  var MP4_SRC = '/for-mother/3a65fb4b8e0c6eb8/mtv-private.mp4';
+  var HLS_JS = [
+    'https://cdn.bootcdn.net/ajax/libs/hls.js/1.5.13/hls.min.js',
+    'https://cdn.jsdelivr.net/npm/hls.js@1.5.13/dist/hls.min.js',
+    'https://cdnjs.cloudflare.com/ajax/libs/hls.js/1.5.13/hls.min.js'
+  ];
+  var video = document.getElementById('mvvideo');
+  if(!video) return;
+  function isMainland(){
+    var tz = '';
+    try { tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; } catch(e){}
+    if(['Asia/Shanghai','Asia/Chongqing','Asia/Harbin','Asia/Urumqi'].indexOf(tz) !== -1) return true;
+    if(!tz){
+      var lang = (navigator.language || navigator.userLanguage || '').toLowerCase();
+      if(lang === 'zh-cn' || lang.indexOf('zh-hans') === 0) return true;
+    }
+    return false;
+  }
+  if(!isMainland()) return;
+  var fellBack = false;
+  function useMp4(){
+    if(fellBack) return; fellBack = true;
+    try {
+      video.removeAttribute('src');
+      var s = video.querySelector('source');
+      if(!s){ s = document.createElement('source'); s.type = 'video/mp4'; video.appendChild(s); }
+      s.src = MP4_SRC;
+      video.load();
+    } catch(e){}
+  }
+  /* Safari / iOS (incl. WeChat webview) play HLS natively */
+  if(video.canPlayType('application/vnd.apple.mpegurl')){
+    var srcEl = video.querySelector('source');
+    if(srcEl) srcEl.parentNode.removeChild(srcEl);
+    video.src = CN_HLS;
+    video.addEventListener('error', useMp4, { once:true });
+    video.load();
+    return;
+  }
+  /* Other browsers: hls.js, mainland-friendly CDN first, then global CDNs */
+  function trySrc(i){
+    if(i >= HLS_JS.length){ useMp4(); return; }
+    var sc = document.createElement('script');
+    sc.src = HLS_JS[i];
+    sc.onload = function(){ startHls(); };
+    sc.onerror = function(){ trySrc(i + 1); };
+    document.head.appendChild(sc);
+  }
+  function startHls(){
+    if(!(window.Hls && Hls.isSupported())){ useMp4(); return; }
+    var hls = new Hls({ maxBufferLength: 30 });
+    var retried = false;
+    hls.on(Hls.Events.ERROR, function(ev, data){
+      if(!data || !data.fatal) return;
+      if(data.type === Hls.ErrorTypes.NETWORK_ERROR && !retried){ retried = true; hls.startLoad(); return; }
+      if(data.type === Hls.ErrorTypes.MEDIA_ERROR){ try { hls.recoverMediaError(); return; } catch(e){} }
+      try { hls.destroy(); } catch(e){}
+      useMp4();
+    });
+    hls.loadSource(CN_HLS);
+    hls.attachMedia(video);
+  }
+  trySrc(0);
+})();
+</script>
 
 <script>
   var LYRICS = [{"t": 13.32, "x": "今晚我坐在你的床边"}, {"t": 16.5, "x": "轻轻握着你的手"}, {"t": 20.0, "x": "有些话，平日没说"}, {"t": 23.08, "x": "今夜想慢慢说给你听"}, {"t": 27.02, "x": "记得清晨灶台的热气"}, {"t": 30.2, "x": "记得中午满屋的饭香"}, {"t": 33.2, "x": "你为小女儿剪过头发"}, {"t": 36.84, "x": "又给她穿上漂亮衣裳"}, {"t": 41.3, "x": "你亲手擂的那碗茶"}, {"t": 43.54, "x": "花生芝麻，慢慢擂香"}, {"t": 46.56, "x": "茶汤拌着饭，配着青菜"}, {"t": 49.98, "x": "夜里还有满桌的饭菜"}, {"t": 54.22, "x": "谢谢你，妈妈，谢谢你的爱"}, {"t": 57.94, "x": "谢谢你为这个家忙了半生"}, {"t": 67.26, "x": "妈妈，你做过的一切"}, {"t": 70.36, "x": "我们都看见了，都记得"}, {"t": 73.96, "x": "有光陪你到天明"}, {"t": 76.2, "x": "像那盏厨房里的灯"}, {"t": 80.36, "x": "你用一生温暖了这个家"}, {"t": 83.54, "x": "今晚换我们陪你到天明"}, {"t": 106.7, "x": "快六十岁的你"}, {"t": 109.44, "x": "背影比从前圆了一些"}, {"t": 112.96, "x": "想起你年轻时的模样"}, {"t": 116.44, "x": "心里满是不舍和感恩"}, {"t": 119.34, "x": "从前你为我们穿好衣裳"}, {"t": 123.04, "x": "如今女儿替你掖好被角"}, {"t": 126.4, "x": "你问过多少回饿不饿"}, {"t": 129.78, "x": "今天换我们问你累不累"}, {"t": 134.42, "x": "谢谢你，妈妈，谢谢你的爱"}, {"t": 137.9, "x": "谢谢你每天忙到天黑"}, {"t": 141.28, "x": "一碗擂茶，一桌晚饭"}, {"t": 143.66, "x": "藏着多少没说出口的爱"}, {"t": 146.78, "x": "有光陪你到天明"}, {"t": 150.22, "x": "有爱守在你的身边"}, {"t": 154.24, "x": "我们为你轻轻祈祷"}, {"t": 157.14, "x": "愿平安陪你度过今夜"}, {"t": 173.88, "x": "亲爱的，你也歇一歇"}, {"t": 176.7, "x": "不用时时都那么坚强"}, {"t": 179.82, "x": "从前是你替我们挡风雨"}, {"t": 183.08, "x": "往后的日子，换我站在前面"}, {"t": 186.68, "x": "我们不知道明天会怎样"}, {"t": 190.1, "x": "但这份感恩，永远不会改变"}, {"t": 193.94, "x": "愿天父的手扶持着你"}, {"t": 196.64, "x": "也扶持那守候的肩膀"}, {"t": 214.0, "x": "谢谢你，妈妈，谢谢你的爱"}, {"t": 217.92, "x": "谢谢你把岁月都给了这个家"}, {"t": 221.26, "x": "那碗擂茶，那桌晚餐"}, {"t": 223.7, "x": "我们都看见了，一生都记得"}, {"t": 227.0, "x": "有光陪你到天明"}, {"t": 230.2, "x": "如今换我们守在你身边"}, {"t": 234.2, "x": "你安心歇着，家里的事有我"}, {"t": 237.5, "x": "无论明天怎样，我都陪着你"}, {"t": 243.86, "x": "妈妈，谢谢你"}, {"t": 249.98, "x": "你给我们的爱，我们永远记得"}];
