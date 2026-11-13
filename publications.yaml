@@ -3979,6 +3979,36 @@ publications:
   archive_note: fc38ec7a-62b7-4cb0-9f5c-623fc28544d8
   playlist: Daily Verse · Neville Readings 2026 (English)
   status: Public
+- platform: YouTube
+  series: Mi Xi Intro Podcast
+  topic: 认识米曦：五首歌，一个声音
+  language: zh-Hans
+  type: Long
+  title: 《认识米曦：五首歌，一个声音》
+  published: '2026-11-13'
+  url: https://youtu.be/3XNuNjqh2aw
+  native_id: 3XNuNjqh2aw
+  playlist: 认识米曦 · 米曦介绍播客（中文）
+  playlist_id: PLTXtZQ08A1XQ
+  playlist_url: https://www.youtube.com/playlist?list=PLTXtZQ08A1XQ
+  dedicated_page: https://daddymi777.com/gospel-wisdom/mixi/
+  status: Public
+  note: 'Mi Xi intro podcast, Chinese episode: podcast-style video built from the finished episode audio - Mi Xi portrait for opening and closing, each song segment carries its own cover art; zh-Hans captions and a custom thumbnail attached. Uploaded via the YouTube Data API on 2026-11-13 and published Public the same day (API-verified); the description links the Mi Xi album page first, then the five song pages in canonical order. AI-content disclosure submitted via API (containsSyntheticMedia=True accepted); Studio confirmation to follow.'
+- platform: YouTube
+  series: Mi Xi Intro Podcast
+  topic: Meet Mi Xi - Five Songs, One Voice
+  language: en
+  type: Long
+  title: 'Meet Mi Xi: Five Songs, One Voice'
+  published: '2026-11-13'
+  url: https://youtu.be/q8bIHJpzNQ4
+  native_id: q8bIHJpzNQ4
+  playlist: Meet Mi Xi · Mi Xi Podcast (English)
+  playlist_id: PLUf8wVhplJyQ
+  playlist_url: https://www.youtube.com/playlist?list=PLUf8wVhplJyQ
+  dedicated_page: https://daddymi777.com/gospel-wisdom/mixi/
+  status: Public
+  note: 'Mi Xi intro podcast, English episode: podcast-style video built from the finished episode audio - Mi Xi portrait for opening and closing, each song segment carries its own cover art; en captions and a custom thumbnail attached. Uploaded via the YouTube Data API on 2026-11-13 and published Public the same day (API-verified); the description links the Mi Xi album page first, then the five song pages in canonical order. AI-content disclosure submitted via API (containsSyntheticMedia=True accepted); Studio confirmation to follow.'
 replaced_or_private:
 - platform: YouTube
   series: Daily Verse · Neville Readings
