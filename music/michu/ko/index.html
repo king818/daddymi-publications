@@ -85,6 +85,14 @@
   footer{text-align:center;padding:36px 22px 10px}
   footer .fline{font-size:12.5px;color:var(--muted);letter-spacing:.14em;margin-top:8px;line-height:1.9}
   @media (max-width:560px){h1{font-size:36px}.wrap{padding:26px 16px 24px}section{padding:20px 17px}.langbar{gap:5px;padding:14px 16px 0}.langbar a{font-size:12.5px;padding:4px 9px}.langbar .langsep{display:none}.backbar{padding:10px 16px 0}}
+
+  .vform label{display:block;font-size:15px;color:var(--ink);letter-spacing:.06em;margin:16px 0 7px}
+  .vform input[type="text"],.vform select,.vform textarea{width:100%;font:inherit;font-size:16px;color:var(--ink);background:rgba(255,255,255,.78);border:1px solid var(--hairline);border-radius:10px;padding:12px 14px}
+  .vform textarea{min-height:96px;resize:vertical;line-height:1.7}
+  .vform select{appearance:none;-webkit-appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%238A6D1F' stroke-width='2'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 16px center;padding-right:42px}
+  .vform .send{margin-top:20px;width:100%;font:inherit;font-size:16.5px;letter-spacing:.12em;color:#fff;background:var(--gold-deep);border:none;border-radius:999px;padding:14px 20px;cursor:pointer}
+  .vform .fine{font-size:13px;color:var(--muted);line-height:1.85;margin-top:12px}
+  .vform .confirm{display:none;margin-top:16px;border:1px solid var(--gold);border-radius:10px;padding:14px 16px;background:rgba(255,255,255,.6);font-size:15px;color:var(--ink);line-height:1.9}
 </style>
 </head>
 <body>
@@ -128,21 +136,79 @@
     <span class="gtext">Mi Chu · 갤러리<small>사진 — 눌러서 보기</small></span>
   </a>
 
-  <section class="voice">
+  <section class="voice" id="voice-samples">
     <h2><span class="dot">✦</span>당신의 목소리를 골라 주세요</h2>
-    <p>같은 노래를 부른 세 가지 목소리를 준비했어요. 모두 들어 보시고 가장 마음에 드는 목소리를 알려 주세요. 고른 목소리가 당신의 노래 목소리가 됩니다.</p>
+    <p>같은 짧은 노래를 부른, 서로 완전히 다른 여덟 가지 목소리를 준비했어요. 어느 것도 같은 목소리를 변형한 게 아니라, 각자 독립된 방향이에요. 모두 들어 보시고 마음에 가장 와닿는 목소리의 이름을 기억해 주세요.</p>
   <div class="vrow">
-    <div class="vlabel">목소리 A · 아침의 온기 — 따뜻한 중음, 다정함 속에 단단한 힘</div>
-    <audio controls preload="none" src="/music/michu/voice/voice-a-v1.mp3"></audio>
+    <div class="vlabel">맑은 고음 — 밝고 투명하게, 아침 첫 햇살처럼</div>
+    <audio controls preload="none" src="/music/michu/voice/style-bright-soprano-v2.mp3"></audio>
   </div>
   <div class="vrow">
-    <div class="vlabel">목소리 B · 대지의 가슴소리 — 두텁고 안정적, 대지처럼 믿음직한 목소리</div>
-    <audio controls preload="none" src="/music/michu/voice/voice-b-v1.mp3"></audio>
+    <div class="vlabel">따뜻한 힐링 — 부드럽게 감싸는, 겨울밤 따뜻한 차 한 잔처럼</div>
+    <audio controls preload="none" src="/music/michu/voice/style-warm-healing-v2.mp3"></audio>
   </div>
   <div class="vrow">
-    <div class="vlabel">목소리 C · 미소의 맑은 소리 — 맑고 가볍게, 미소를 머금은 밝음</div>
-    <audio controls preload="none" src="/music/michu/voice/voice-c-v1.mp3"></audio>
+    <div class="vlabel">저음의 허스키 — 깊고 살짝 거친, 이야기가 있는 목소리</div>
+    <audio controls preload="none" src="/music/michu/voice/style-low-husky-v2.mp3"></audio>
   </div>
+  <div class="vrow">
+    <div class="vlabel">몽환적이고 가벼운 — 가볍게 떠다니는, 먼 곳에서 닿는 듯한 목소리</div>
+    <audio controls preload="none" src="/music/michu/voice/style-ethereal-airy-v2.mp3"></audio>
+  </div>
+  <div class="vrow">
+    <div class="vlabel">성숙하고 파워풀 — 당당하고 무게감 있게, 공간을 채우는 목소리</div>
+    <audio controls preload="none" src="/music/michu/voice/style-mature-power-v2.mp3"></audio>
+  </div>
+  <div class="vrow">
+    <div class="vlabel">달콤하고 젊은 — 맑고 달콤하게, 청춘의 에너지</div>
+    <audio controls preload="none" src="/music/michu/voice/style-sweet-youthful-v2.mp3"></audio>
+  </div>
+  <div class="vrow">
+    <div class="vlabel">포크 스토리텔러 — 소박하고 진솔하게, 귓가에 이야기를 들려주듯</div>
+    <audio controls preload="none" src="/music/michu/voice/style-folk-storyteller-v2.mp3"></audio>
+  </div>
+  <div class="vrow">
+    <div class="vlabel">소울풀 R&B — 매끄러운 기교, 리듬과 감정을 함께</div>
+    <audio controls preload="none" src="/music/michu/voice/style-soulful-rnb-v2.mp3"></audio>
+  </div>
+  </section>
+
+  <section class="voicepick" id="voice-pick">
+    <h2><span class="dot">✦</span>다른 방향을 원하시나요?</h2>
+    <p>이 여덟 가지 중에 마음속 목소리가 없다면, 아래 양식으로 원하는 방향을 알려 주세요. 메뉴에서 가장 가까운 방향을 골라도 좋고, 직접 글로 적어 주셔도 좋아요.</p>
+    <p>제출해 주시면 그 방향으로 당신만을 위한 목소리 샘플을 만들어, 남겨 주신 연락처로 보내 드립니다. 당신이 좋다고 해 주셔야 비로소 당신의 목소리로 정해집니다.</p>
+    <form class="vform" method="POST" action="https://formsubmit.co/iching6@gmail.com">
+      <input type="hidden" name="singer" value="Mi Chu 米初">
+      <input type="hidden" name="page" value="https://daddymi777.com/music/michu/ko/">
+      <input type="hidden" name="_subject" value="声音选择 Voice Pick — Mi Chu 米初">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="https://daddymi777.com/music/michu/ko/?sent=1#voice-pick">
+      <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+      <label for="vp-name-ko">이름</label>
+      <input type="text" id="vp-name-ko" name="name" required autocomplete="name">
+      <label for="vp-contact-ko">연락처 (WeChat 또는 이메일)</label>
+      <input type="text" id="vp-contact-ko" name="contact" required>
+      <label for="vp-style-ko">가장 가까운 방향 고르기</label>
+      <select id="vp-style-ko" name="style" required>
+        <option value="" disabled selected>방향을 골라 주세요…</option>
+        <option value="Bright Soprano">맑은 고음 — 밝고 투명하게, 아침 첫 햇살처럼</option>
+        <option value="Warm and Healing">따뜻한 힐링 — 부드럽게 감싸는, 겨울밤 따뜻한 차 한 잔처럼</option>
+        <option value="Low and Husky">저음의 허스키 — 깊고 살짝 거친, 이야기가 있는 목소리</option>
+        <option value="Ethereal and Airy">몽환적이고 가벼운 — 가볍게 떠다니는, 먼 곳에서 닿는 듯한 목소리</option>
+        <option value="Mature and Powerful">성숙하고 파워풀 — 당당하고 무게감 있게, 공간을 채우는 목소리</option>
+        <option value="Sweet and Youthful">달콤하고 젊은 — 맑고 달콤하게, 청춘의 에너지</option>
+        <option value="Folk Storyteller">포크 스토리텔러 — 소박하고 진솔하게, 귓가에 이야기를 들려주듯</option>
+        <option value="Soulful RnB">소울풀 R&B — 매끄러운 기교, 리듬과 감정을 함께</option>
+        <option value="Cantonese Diva">광둥어 디바 — 우아한 광둥어 발음, 황금기 홍콩 팝의 향기</option>
+        <option value="Rock Power">록 파워 — 시원하게 뻗는, 무대를 뜨겁게 달구는 목소리</option>
+      </select>
+      <label for="vp-dream-ko">또는, 꿈꾸는 목소리를 적어 주세요</label>
+      <textarea id="vp-dream-ko" name="dream_voice" placeholder="예: 심야 라디오 진행자처럼, 천천히 이야기를 들려주는 목소리…"></textarea>
+      <button type="submit" class="send">제출 · 내 샘플 만들어 주세요</button>
+      <div class="fine">샘플 제작에는 조금 시간이 걸려요. 완성되면 남겨 주신 연락처로 보내 드리니 기다려 주세요.</div>
+      <div class="confirm" id="voiceConfirm" role="status">고맙습니다, 잘 접수했어요! 당신만을 위한 샘플이 완성되면 남겨 주신 연락처로 보내 드릴게요.</div>
+    </form>
   </section>
 
   <div class="ask">
@@ -154,5 +220,8 @@
     <div class="fline">© 2026 米老爸 Daddy Mi<br>내부 미리보기 · 비공개 · Internal Preview</div>
   </footer>
 </div>
+<script>
+(function(){var q=new URLSearchParams(location.search);if(q.get('sent')==='1'){var c=document.getElementById('voiceConfirm');if(c){c.style.display='block';c.scrollIntoView({behavior:'smooth',block:'center'});}}})();
+</script>
 </body>
 </html>

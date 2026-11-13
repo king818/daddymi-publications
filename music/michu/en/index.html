@@ -85,6 +85,14 @@
   footer{text-align:center;padding:36px 22px 10px}
   footer .fline{font-size:12.5px;color:var(--muted);letter-spacing:.14em;margin-top:8px;line-height:1.9}
   @media (max-width:560px){h1{font-size:36px}.wrap{padding:26px 16px 24px}section{padding:20px 17px}.langbar{gap:5px;padding:14px 16px 0}.langbar a{font-size:12.5px;padding:4px 9px}.langbar .langsep{display:none}.backbar{padding:10px 16px 0}}
+
+  .vform label{display:block;font-size:15px;color:var(--ink);letter-spacing:.06em;margin:16px 0 7px}
+  .vform input[type="text"],.vform select,.vform textarea{width:100%;font:inherit;font-size:16px;color:var(--ink);background:rgba(255,255,255,.78);border:1px solid var(--hairline);border-radius:10px;padding:12px 14px}
+  .vform textarea{min-height:96px;resize:vertical;line-height:1.7}
+  .vform select{appearance:none;-webkit-appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%238A6D1F' stroke-width='2'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 16px center;padding-right:42px}
+  .vform .send{margin-top:20px;width:100%;font:inherit;font-size:16.5px;letter-spacing:.12em;color:#fff;background:var(--gold-deep);border:none;border-radius:999px;padding:14px 20px;cursor:pointer}
+  .vform .fine{font-size:13px;color:var(--muted);line-height:1.85;margin-top:12px}
+  .vform .confirm{display:none;margin-top:16px;border:1px solid var(--gold);border-radius:10px;padding:14px 16px;background:rgba(255,255,255,.6);font-size:15px;color:var(--ink);line-height:1.9}
 </style>
 </head>
 <body>
@@ -128,21 +136,79 @@
     <span class="gtext">Mi Chu · Gallery<small>Photos — tap to look</small></span>
   </a>
 
-  <section class="voice">
+  <section class="voice" id="voice-samples">
     <h2><span class="dot">✦</span>Choose Your Voice</h2>
-    <p>We prepared three voices for you, all singing the same short song. Please listen to each one, and tell us which you love most — once you choose, it becomes your singing voice.</p>
+    <p>We made eight genuinely different voices for you, all singing the same short song. Each one is its own direction — not the same voice tuned up or down. Listen to them all, and remember the name of the one that feels most like you.</p>
   <div class="vrow">
-    <div class="vlabel">Voice A · Morning Warmth — a warm mezzo, close and gentle, with quiet strength</div>
-    <audio controls preload="none" src="/music/michu/voice/voice-a-v1.mp3"></audio>
+    <div class="vlabel">Bright Soprano — clear and luminous, like the first sunlight of the morning</div>
+    <audio controls preload="none" src="/music/michu/voice/style-bright-soprano-v2.mp3"></audio>
   </div>
   <div class="vrow">
-    <div class="vlabel">Voice B · Grounded Chest — full and steady, reliable as the earth</div>
-    <audio controls preload="none" src="/music/michu/voice/voice-b-v1.mp3"></audio>
+    <div class="vlabel">Warm &amp; Healing — soft and enveloping, like hot tea on a winter night</div>
+    <audio controls preload="none" src="/music/michu/voice/style-warm-healing-v2.mp3"></audio>
   </div>
   <div class="vrow">
-    <div class="vlabel">Voice C · Smiling Clarity — clear and light, with a smile in the sound</div>
-    <audio controls preload="none" src="/music/michu/voice/voice-c-v1.mp3"></audio>
+    <div class="vlabel">Low &amp; Husky — deep, slightly smoky, with a story in every note</div>
+    <audio controls preload="none" src="/music/michu/voice/style-low-husky-v2.mp3"></audio>
   </div>
+  <div class="vrow">
+    <div class="vlabel">Ethereal &amp; Airy — light and floating, as if from far away</div>
+    <audio controls preload="none" src="/music/michu/voice/style-ethereal-airy-v2.mp3"></audio>
+  </div>
+  <div class="vrow">
+    <div class="vlabel">Mature &amp; Powerful — poised and commanding, a voice that fills the room</div>
+    <audio controls preload="none" src="/music/michu/voice/style-mature-power-v2.mp3"></audio>
+  </div>
+  <div class="vrow">
+    <div class="vlabel">Sweet &amp; Youthful — bright and sweet, full of young energy</div>
+    <audio controls preload="none" src="/music/michu/voice/style-sweet-youthful-v2.mp3"></audio>
+  </div>
+  <div class="vrow">
+    <div class="vlabel">Folk Storyteller — plain and sincere, like a story told close to your ear</div>
+    <audio controls preload="none" src="/music/michu/voice/style-folk-storyteller-v2.mp3"></audio>
+  </div>
+  <div class="vrow">
+    <div class="vlabel">Soulful R&amp;B — smooth runs, rhythm and feeling together</div>
+    <audio controls preload="none" src="/music/michu/voice/style-soulful-rnb-v2.mp3"></audio>
+  </div>
+  </section>
+
+  <section class="voicepick" id="voice-pick">
+    <h2><span class="dot">✦</span>Want a Different Direction?</h2>
+    <p>If none of these eight is the voice in your heart, tell us where to go with the form below — pick the closest direction from the menu, or describe it in your own words.</p>
+    <p>After you submit, we will generate a short sample made only for you, in exactly that direction, and send it back through the contact you leave us. Only when you say yes does it become your voice.</p>
+    <form class="vform" method="POST" action="https://formsubmit.co/iching6@gmail.com">
+      <input type="hidden" name="singer" value="Mi Chu 米初">
+      <input type="hidden" name="page" value="https://daddymi777.com/music/michu/en/">
+      <input type="hidden" name="_subject" value="声音选择 Voice Pick — Mi Chu 米初">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="https://daddymi777.com/music/michu/en/?sent=1#voice-pick">
+      <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+      <label for="vp-name-en">Your name</label>
+      <input type="text" id="vp-name-en" name="name" required autocomplete="name">
+      <label for="vp-contact-en">How to reach you (WeChat or email)</label>
+      <input type="text" id="vp-contact-en" name="contact" required>
+      <label for="vp-style-en">Pick the closest direction</label>
+      <select id="vp-style-en" name="style" required>
+        <option value="" disabled selected>Choose a direction…</option>
+        <option value="Bright Soprano">Bright Soprano — clear and luminous, like the first sunlight of the morning</option>
+        <option value="Warm and Healing">Warm &amp; Healing — soft and enveloping, like hot tea on a winter night</option>
+        <option value="Low and Husky">Low &amp; Husky — deep, slightly smoky, with a story in every note</option>
+        <option value="Ethereal and Airy">Ethereal &amp; Airy — light and floating, as if from far away</option>
+        <option value="Mature and Powerful">Mature &amp; Powerful — poised and commanding, a voice that fills the room</option>
+        <option value="Sweet and Youthful">Sweet &amp; Youthful — bright and sweet, full of young energy</option>
+        <option value="Folk Storyteller">Folk Storyteller — plain and sincere, like a story told close to your ear</option>
+        <option value="Soulful RnB">Soulful R&amp;B — smooth runs, rhythm and feeling together</option>
+        <option value="Cantonese Diva">Cantonese Diva — graceful Cantonese diction, golden-age Cantopop charm</option>
+        <option value="Rock Power">Rock Power — soaring and strong, a voice that can fire up a crowd</option>
+      </select>
+      <label for="vp-dream-en">Or describe your dream voice</label>
+      <textarea id="vp-dream-en" name="dream_voice" placeholder="For example: a late-night radio voice that tells stories slowly…"></textarea>
+      <button type="submit" class="send">Submit · Generate My Sample</button>
+      <div class="fine">Samples take a little time to make. Please watch your WeChat or email — we will send your sample back for your approval.</div>
+      <div class="confirm" id="voiceConfirm" role="status">Thank you — we received it! When your personal sample is ready, we will send it back through the contact you left us.</div>
+    </form>
   </section>
 
   <div class="ask">
@@ -154,5 +220,8 @@
     <div class="fline">© 2026 米老爸 Daddy Mi<br>Internal Preview · Not Public</div>
   </footer>
 </div>
+<script>
+(function(){var q=new URLSearchParams(location.search);if(q.get('sent')==='1'){var c=document.getElementById('voiceConfirm');if(c){c.style.display='block';c.scrollIntoView({behavior:'smooth',block:'center'});}}})();
+</script>
 </body>
 </html>

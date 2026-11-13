@@ -83,6 +83,14 @@
   footer{text-align:center;padding:36px 22px 10px}
   footer .fline{font-size:12.5px;color:var(--muted);letter-spacing:.14em;margin-top:8px;line-height:1.9}
   @media (max-width:560px){h1{font-size:36px}.wrap{padding:26px 16px 24px}section{padding:20px 17px}.langbar{gap:5px;padding:14px 16px 0}.langbar a{font-size:12.5px;padding:4px 9px}.langbar .langsep{display:none}.backbar{padding:10px 16px 0}}
+
+  .vform label{display:block;font-size:15px;color:var(--ink);letter-spacing:.06em;margin:16px 0 7px}
+  .vform input[type="text"],.vform select,.vform textarea{width:100%;font:inherit;font-size:16px;color:var(--ink);background:rgba(255,255,255,.78);border:1px solid var(--hairline);border-radius:10px;padding:12px 14px}
+  .vform textarea{min-height:96px;resize:vertical;line-height:1.7}
+  .vform select{appearance:none;-webkit-appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%238A6D1F' stroke-width='2'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 16px center;padding-right:42px}
+  .vform .send{margin-top:20px;width:100%;font:inherit;font-size:16.5px;letter-spacing:.12em;color:#fff;background:var(--gold-deep);border:none;border-radius:999px;padding:14px 20px;cursor:pointer}
+  .vform .fine{font-size:13px;color:var(--muted);line-height:1.85;margin-top:12px}
+  .vform .confirm{display:none;margin-top:16px;border:1px solid var(--gold);border-radius:10px;padding:14px 16px;background:rgba(255,255,255,.6);font-size:15px;color:var(--ink);line-height:1.9}
 </style>
 </head>
 <body>
@@ -129,21 +137,79 @@
     <span class="gtext">米悠 · ギャラリー<small>写真と映像 — 開いてご覧ください</small></span>
   </a>
 
-  <section class="voice">
+  <section class="voice" id="voice-samples">
     <h2><span class="dot">✦</span>あなたの声を選んでください</h2>
-    <p>同じ歌を歌った3つの声を用意しました。全部聴いて、いちばん好きな声を教えてください。選んだ声が、あなたの歌声になります。</p>
+    <p>同じ短い歌を歌った、まったく違う8つの声を用意しました。どれも独立した方向性で、同じ声を変えたものではありません。全部聴いて、心にいちばん響く声の名前を覚えておいてください。</p>
   <div class="vrow">
-    <div class="vlabel">声 A · 星屑ブレス — 軽やかで透明、夜に降る星の光のよう</div>
-    <audio controls preload="none" src="/music/miyo/voice/voice-a-v1.mp3"></audio>
+    <div class="vlabel">澄んだ高音 — 明るく透明、朝の最初の光のよう</div>
+    <audio controls preload="none" src="/music/miyo/voice/style-bright-soprano-v2.mp3"></audio>
   </div>
   <div class="vrow">
-    <div class="vlabel">声 B · 月光クリア — 明るく澄んだ、月光のように清らかな声</div>
-    <audio controls preload="none" src="/music/miyo/voice/voice-b-v1.mp3"></audio>
+    <div class="vlabel">温かい癒し声 — 柔らかく包み込む、冬の夜の温かいお茶のよう</div>
+    <audio controls preload="none" src="/music/miyo/voice/style-warm-healing-v2.mp3"></audio>
   </div>
   <div class="vrow">
-    <div class="vlabel">声 C · 夜更けのささやき — 少しハスキーな、深夜ラジオの温もり</div>
-    <audio controls preload="none" src="/music/miyo/voice/voice-c-v1.mp3"></audio>
+    <div class="vlabel">低くハスキー — 深みと渋み、物語を感じさせる声</div>
+    <audio controls preload="none" src="/music/miyo/voice/style-low-husky-v2.mp3"></audio>
   </div>
+  <div class="vrow">
+    <div class="vlabel">空霊でエアリー — 軽やかに漂う、遠くから届くような声</div>
+    <audio controls preload="none" src="/music/miyo/voice/style-ethereal-airy-v2.mp3"></audio>
+  </div>
+  <div class="vrow">
+    <div class="vlabel">大人っぽくパワフル — 堂々として、場を包む存在感</div>
+    <audio controls preload="none" src="/music/miyo/voice/style-mature-power-v2.mp3"></audio>
+  </div>
+  <div class="vrow">
+    <div class="vlabel">甘く若々しい — 明るく清らか、青春の輝き</div>
+    <audio controls preload="none" src="/music/miyo/voice/style-sweet-youthful-v2.mp3"></audio>
+  </div>
+  <div class="vrow">
+    <div class="vlabel">フォークの語り声 — 素朴で誠実、耳元で物語を語るよう</div>
+    <audio controls preload="none" src="/music/miyo/voice/style-folk-storyteller-v2.mp3"></audio>
+  </div>
+  <div class="vrow">
+    <div class="vlabel">ソウルフルR&B — 滑らかな節回し、リズムと情感</div>
+    <audio controls preload="none" src="/music/miyo/voice/style-soulful-rnb-v2.mp3"></audio>
+  </div>
+  </section>
+
+  <section class="voicepick" id="voice-pick">
+    <h2><span class="dot">✦</span>別の方向がいいですか？</h2>
+    <p>この8つに「これだ」と思う声がなければ、下のフォームで希望の方向を教えてください。メニューからいちばん近いものを選んでも、自分の言葉で書いても大丈夫です。</p>
+    <p>送信いただいたら、その方向であなただけの声のサンプルを生成し、ご連絡先へお送りします。あなたが「これがいい」と言ってくれて初めて、あなたの声として決まります。</p>
+    <form class="vform" method="POST" action="https://formsubmit.co/iching6@gmail.com">
+      <input type="hidden" name="singer" value="Mi Yo 米悠">
+      <input type="hidden" name="page" value="https://daddymi777.com/music/miyo/ja/">
+      <input type="hidden" name="_subject" value="声音选择 Voice Pick — Mi Yo 米悠">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="https://daddymi777.com/music/miyo/ja/?sent=1#voice-pick">
+      <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+      <label for="vp-name-ja">お名前</label>
+      <input type="text" id="vp-name-ja" name="name" required autocomplete="name">
+      <label for="vp-contact-ja">ご連絡先（WeChatまたはメール）</label>
+      <input type="text" id="vp-contact-ja" name="contact" required>
+      <label for="vp-style-ja">いちばん近い方向を選ぶ</label>
+      <select id="vp-style-ja" name="style" required>
+        <option value="" disabled selected>方向を選んでください…</option>
+        <option value="Bright Soprano">澄んだ高音 — 明るく透明、朝の最初の光のよう</option>
+        <option value="Warm and Healing">温かい癒し声 — 柔らかく包み込む、冬の夜の温かいお茶のよう</option>
+        <option value="Low and Husky">低くハスキー — 深みと渋み、物語を感じさせる声</option>
+        <option value="Ethereal and Airy">空霊でエアリー — 軽やかに漂う、遠くから届くような声</option>
+        <option value="Mature and Powerful">大人っぽくパワフル — 堂々として、場を包む存在感</option>
+        <option value="Sweet and Youthful">甘く若々しい — 明るく清らか、青春の輝き</option>
+        <option value="Folk Storyteller">フォークの語り声 — 素朴で誠実、耳元で物語を語るよう</option>
+        <option value="Soulful RnB">ソウルフルR&B — 滑らかな節回し、リズムと情感</option>
+        <option value="Cantonese Diva">広東語の歌姫 — しなやかな広東語、黄金期の香港ポップスの香り</option>
+        <option value="Rock Power">ロックパワー — 高らかに力強く、会場を熱くする声</option>
+      </select>
+      <label for="vp-dream-ja">または、夢の声を自由に書いてください</label>
+      <textarea id="vp-dream-ja" name="dream_voice" placeholder="例：深夜ラジオのパーソナリティのように、ゆっくり物語を語る声…"></textarea>
+      <button type="submit" class="send">送信 · サンプルを作ってもらう</button>
+      <div class="fine">サンプルの生成には少し時間がかかります。できあがったら、ご連絡先へお送りしますのでお待ちください。</div>
+      <div class="confirm" id="voiceConfirm" role="status">ありがとうございます。受け付けました。あなた専用のサンプルができたら、ご連絡先へお送りします。</div>
+    </form>
   </section>
 
   <div class="ask">
@@ -155,5 +221,8 @@
     <div class="fline">© 2026 米老爸 Daddy Mi<br>内部プレビュー · 非公開 · Internal Preview</div>
   </footer>
 </div>
+<script>
+(function(){var q=new URLSearchParams(location.search);if(q.get('sent')==='1'){var c=document.getElementById('voiceConfirm');if(c){c.style.display='block';c.scrollIntoView({behavior:'smooth',block:'center'});}}})();
+</script>
 </body>
 </html>
