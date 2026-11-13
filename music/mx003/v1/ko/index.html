@@ -183,5 +183,118 @@
 })();
 </script>
 
+<script>
+/* ===== Region-based video source (RUNBOOK section 6; wired 2026-11-12) =====
+   Mainland-China viewers are served the bit-identical HLS package from the
+   Guangzhou OSS mirror; everyone else keeps the GitHub Pages MP4 in the
+   <video> tag. Portability law: the media host lives in this ONE config
+   variable -- switching providers = sync the file tree + change
+   CN_MEDIA_BASE. Detection is client-side: mainland time zones first,
+   zh-CN language as the fallback signal when no time zone is reported.
+   Any HLS failure falls back to the original MP4 automatically.
+   Videos with preload="none" are wired lazily on first play. */
+(function(){
+  var CN_MEDIA_BASE = 'https://daddymi-media.oss-cn-guangzhou.aliyuncs.com';
+  var CN_HLS = CN_MEDIA_BASE + '/mx003-v1/master.m3u8';
+  var HLS_JS = [
+    'https://cdn.bootcdn.net/ajax/libs/hls.js/1.5.13/hls.min.js',
+    'https://cdn.jsdelivr.net/npm/hls.js@1.5.13/dist/hls.min.js',
+    'https://cdnjs.cloudflare.com/ajax/libs/hls.js/1.5.13/hls.min.js'
+  ];
+  var videos = Array.prototype.slice.call(document.querySelectorAll('#film'));
+  if(!videos.length) return;
+  function isMainland(){
+    var tz = '';
+    try { tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; } catch(e){}
+    if(['Asia/Shanghai','Asia/Chongqing','Asia/Harbin','Asia/Urumqi'].indexOf(tz) !== -1) return true;
+    if(!tz){
+      var lang = (navigator.language || navigator.userLanguage || '').toLowerCase();
+      if(lang === 'zh-cn' || lang.indexOf('zh-hans') === 0) return true;
+    }
+    return false;
+  }
+  if(!isMainland()) return;
+  var hlsJsState = 0, hlsWaiters = [];
+  function withHlsJs(cb){
+    if(hlsJsState === 2){ cb(true); return; }
+    if(hlsJsState === 3){ cb(false); return; }
+    hlsWaiters.push(cb);
+    if(hlsJsState === 1) return;
+    hlsJsState = 1;
+    (function trySrc(i){
+      if(i >= HLS_JS.length){
+        hlsJsState = 3;
+        hlsWaiters.splice(0).forEach(function(f){ f(false); });
+        return;
+      }
+      var sc = document.createElement('script');
+      sc.src = HLS_JS[i];
+      sc.onload = function(){
+        hlsJsState = 2;
+        hlsWaiters.splice(0).forEach(function(f){ f(true); });
+      };
+      sc.onerror = function(){ trySrc(i + 1); };
+      document.head.appendChild(sc);
+    })(0);
+  }
+  videos.forEach(function(video){ wireOne(video); });
+  function wireOne(video){
+    var srcEl = video.querySelector('source');
+    var MP4_SRC = video.getAttribute('src') || (srcEl ? srcEl.getAttribute('src') : '') || '';
+    var fellBack = false, begun = false;
+    function useMp4(){
+      if(fellBack) return; fellBack = true;
+      try {
+        video.removeAttribute('src');
+        var s = video.querySelector('source');
+        if(!s){ s = document.createElement('source'); s.type = 'video/mp4'; video.appendChild(s); }
+        s.src = MP4_SRC;
+        video.load();
+      } catch(e){}
+    }
+    function startHls(){
+      if(!(window.Hls && Hls.isSupported())){ useMp4(); return; }
+      var hls = new Hls({ maxBufferLength: 30 });
+      var retried = false;
+      hls.on(Hls.Events.ERROR, function(ev, data){
+        if(!data || !data.fatal) return;
+        if(data.type === Hls.ErrorTypes.NETWORK_ERROR && !retried){ retried = true; hls.startLoad(); return; }
+        if(data.type === Hls.ErrorTypes.MEDIA_ERROR){ try { hls.recoverMediaError(); return; } catch(e){} }
+        try { hls.destroy(); } catch(e){}
+        useMp4();
+      });
+      hls.loadSource(CN_HLS);
+      hls.attachMedia(video);
+    }
+    function begin(resume){
+      if(begun) return; begun = true;
+      if(video.canPlayType('application/vnd.apple.mpegurl')){
+        var s0 = video.querySelector('source');
+        if(s0) s0.parentNode.removeChild(s0);
+        video.src = CN_HLS;
+        video.addEventListener('error', useMp4, { once:true });
+        video.load();
+        if(resume) video.play();
+        return;
+      }
+      withHlsJs(function(ok){
+        if(!ok){ useMp4(); if(resume) video.play(); return; }
+        startHls();
+        if(resume) video.play();
+      });
+    }
+    if(video.getAttribute('preload') === 'none'){
+      video.addEventListener('play', function(){
+        if(begun) return;
+        try { video.pause(); } catch(e){}
+        begin(true);
+      });
+    } else {
+      begin(false);
+    }
+  }
+})();
+</script>
+
 </body>
 </html>
