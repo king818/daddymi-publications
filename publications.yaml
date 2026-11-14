@@ -5154,6 +5154,49 @@ replaced_or_private:
   native_id: I__HAF5eEgI
   playlist: 來跟隨我 2026（中文）
   status: 'Private — duplicate of the canonical hook Short 7ZudwvQmBjs (same title) from the 2026-11-02 repeat-publish batch; sits in the CFM ZH playlist but Private — flip to Public or remove from playlist pending boss ruling (channel unlock audit 2026-11-14)'
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: 1 Thessalonians 5:16-18
+  language: zh
+  type: Long
+  title: 每日經文 2026-11-09 · Neville 解讀｜帖撒羅尼迦前書 5:16-18 要常常喜樂——喜樂是源頭，不是結果
+  published: '2026-11-09'
+  url: https://youtu.be/6MNE_awWHkc
+  native_id: 6MNE_awWHkc
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: 1 Thessalonians 5:16-18
+  language: en
+  type: Long
+  title: Daily Verse 2026-11-09 · 1 Thessalonians 5:16-18 | Rejoice Always — Joy, Prayer, and Thanks
+  published: '2026-11-09'
+  url: https://youtu.be/uX7VKFC-Zf4
+  native_id: uX7VKFC-Zf4
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: 1 Thessalonians 5:16-18
+  language: ja
+  type: Long
+  title: 毎日の聖句 2026-11-09 · ネヴィル解釈｜テサロニケ人への第一の手紙 5:16-18 喜びは源泉であって、結果ではない
+  published: '2026-11-14'
+  url: https://youtu.be/PxKAChmMIxc
+  native_id: PxKAChmMIxc
+  playlist: 毎日の聖句 · 日本語
+  status: 'Public — inserted Public 2026-11-14 with playlist add and JA captions per upload log; AI disclosure NOT set (generic quota pool exhausted 2026-11-14 before set_disclosure ran) — midnight-batch remainder'
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Psalm 119:105
+  language: ja
+  type: Long
+  title: 毎日の聖句 2026-11-09 · ネヴィル解釈｜詩篇 119:105 ともしびは次の一歩を照らす
+  published: '2026-11-14'
+  url: https://youtu.be/4tN-1vTqsCA
+  native_id: 4tN-1vTqsCA
+  status: 'Public — inserted Public 2026-11-14 half-finished: uploaded JA captions missing (captions.insert failed 403 quotaExceeded) and not in the JA playlist (release audit 2026-11-14 anomaly A1); AI disclosure NOT set — midnight-batch P3 remainder'
 unverified:
 - item: CFM Lesson 3 (6 videos, published 2026-11-03) — Evernote archive notes missing
   reason: Checked 2026-11-03 — no archive notes found in Evernote by video ID or title; archive ZIPs not yet built. Finals retained on M1 mini (~/cfm-bf03-creation) and in the run dir on the VM.
