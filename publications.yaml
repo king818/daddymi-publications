@@ -4022,6 +4022,19 @@ publications:
   dedicated_page: https://daddymi777.com/gospel-wisdom/mixi/
   status: Public
   note: 'Mi Xi intro podcast, Korean episode: podcast-style video built from the finished episode audio - Mi Xi portrait for opening and closing, each song segment carries its own cover art. Uploaded via the YouTube Data API on 2026-11-13 and published Public the same day (API-verified: public, embeddable, not made for kids, category Music). At registration time the ko captions, the custom thumbnail, the Korean playlist and the AI-content disclosure submission were still pending: the shared YouTube Data API quota pool was exhausted by the video insert itself (403 quotaExceeded on captions.insert). All four resume after the quota reset at 2026-11-14 00:00 PST via the staged steps recorded in the production package upload-state.json; playlist fields will be added when the playlist exists.'
+- platform: YouTube
+  series: Mi Xi Intro Podcast
+  topic: ミーシーを知る - 五つの歌、一つの声
+  language: ja
+  type: Long
+  title: 'ミーシーを知る：五つの歌、一つの声'
+  published: '2026-11-13'
+  url: https://youtu.be/sYU1VqoLeNA
+  native_id: sYU1VqoLeNA
+  playlist: 
+  dedicated_page: https://daddymi777.com/gospel-wisdom/mixi/
+  status: Public
+  note: 'Mi Xi intro podcast, Japanese episode (take 2, gate PASS): podcast-style video built from the finished episode audio - Mi Xi portrait for opening and closing, each song segment carries its own cover art. Uploaded via the YouTube Data API on 2026-11-13 and published Public the same day (API-verified 2026-11-13: public, duration PT8M28S). At registration time the ja captions, the custom thumbnail, the Japanese playlist and the AI-content disclosure submission were still pending: the shared YouTube Data API quota pool was exhausted (403 quotaExceeded on captions.insert / thumbnails.set / playlists.insert / videos.update, re-confirmed 2026-11-13 ~16:25 PST). All four resume after the quota reset at 2026-11-14 00:00 PST via the staged steps recorded in the production package upload-state.json; playlist fields will be added when the playlist exists.'
 replaced_or_private:
 - platform: YouTube
   series: Daily Verse · Neville Readings
