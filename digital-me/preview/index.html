@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>小程序九页模拟 · 米老爸 Daddy Mi（内部预览）</title>
+<style>
+  /* Style mirrors miniprogram/app.wxss (brand cream / brown / gold). */
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #e9e2d2; font-family: -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif; color: #3a2e20; }
+  .phone { max-width: 430px; margin: 0 auto; background: #faf5ec; min-height: 100vh; display: flex; flex-direction: column; box-shadow: 0 0 24px rgba(58,46,32,.25); }
+  .navbar { background: #faf5ec; border-bottom: 1px solid #e7dcc8; padding: 12px 16px; display: flex; align-items: center; gap: 10px; position: sticky; top: 0; z-index: 5; }
+  .navbar .back { color: #8a5a2b; font-size: 15px; cursor: pointer; min-width: 44px; }
+  .navbar .title { flex: 1; text-align: center; font-weight: 600; font-size: 16px; }
+  .navbar .spacer { min-width: 44px; }
+  .simnote { background: #fdf6e3; color: #8a5a2b; font-size: 12px; text-align: center; padding: 6px 10px; border-bottom: 1px solid #e7dcc8; }
+  main { flex: 1; }
+  .screen { display: none; }
+  .screen.active { display: block; }
+  .wrap { padding: 16px; }
+  .card { background: #fffdf8; border: 1px solid #e7dcc8; border-radius: 12px; padding: 16px; margin-bottom: 12px; }
+  .h1 { font-size: 22px; font-weight: 700; line-height: 1.35; }
+  .h2 { font-size: 17px; font-weight: 700; margin-bottom: 8px; }
+  .sub { color: #7a6a54; font-size: 14px; line-height: 1.6; }
+  .small { color: #8a7a63; font-size: 12px; line-height: 1.6; }
+  .btn { display: block; text-align: center; border-radius: 999px; padding: 12px 16px; font-size: 15px; margin: 10px 0; cursor: pointer; user-select: none; }
+  .btn-primary { background: #8a5a2b; color: #fff; }
+  .btn-outline { border: 2px solid #8a5a2b; color: #8a5a2b; background: transparent; }
+  .btn.disabled { opacity: .45; pointer-events: none; }
+  .pill { display: inline-block; border: 2px solid #b98d4f; color: #8a5a2b; border-radius: 999px; padding: 3px 10px; font-size: 11px; margin-right: 6px; vertical-align: 2px; }
+  .badge-preview { background: #f3e5c8; color: #8a5a2b; border-radius: 4px; padding: 2px 7px; font-size: 11px; white-space: nowrap; }
+  .input { background: #fff; border: 1px solid #ddd2bd; border-radius: 7px; padding: 11px; font-size: 15px; margin: 6px 0 10px; width: 100%; }
+  textarea.input { min-height: 100px; }
+  .label { font-size: 14px; font-weight: 600; margin-top: 8px; display: block; }
+  .why { color: #8a7a63; font-size: 12px; line-height: 1.55; margin-top: 3px; }
+  .switch-row { display: flex; justify-content: space-between; align-items: flex-start; padding: 11px 0; border-bottom: 1px solid #efe6d4; }
+  .switch-txt { flex: 1; padding-right: 10px; font-size: 14px; line-height: 1.55; }
+  .price { color: #8a5a2b; font-weight: 700; font-size: 18px; }
+  .footer { text-align: center; color: #a08b6d; font-size: 12px; padding: 20px 0 30px; }
+  .stage-dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: #8a5a2b; margin-right: 7px; }
+  .lang-switch { text-align: right; font-size: 12px; color: #8a5a2b; padding: 4px 0; }
+  .tabbar { display: flex; border-top: 1px solid #e7dcc8; background: #fffdf8; position: sticky; bottom: 0; }
+  .tabbar div { flex: 1; text-align: center; padding: 10px 0 12px; font-size: 13px; color: #8a7a63; cursor: pointer; }
+  .tabbar div.sel { color: #8a5a2b; font-weight: 700; }
+  /* iOS-style switch */
+  .sw { position: relative; width: 51px; height: 31px; flex: none; margin-top: 2px; }
+  .sw input { display: none; }
+  .sw i { position: absolute; inset: 0; background: #e3ddcf; border-radius: 999px; transition: .2s; }
+  .sw i:before { content: ''; position: absolute; width: 27px; height: 27px; border-radius: 50%; background: #fff; top: 2px; left: 2px; transition: .2s; box-shadow: 0 1px 3px rgba(0,0,0,.25); }
+  .sw input:checked + i { background: #8a5a2b; }
+  .sw input:checked + i:before { left: 22px; }
+  .sw input:disabled + i { opacity: .4; }
+  .subrow { display: flex; justify-content: space-between; align-items: center; padding: 4px 0; }
+  select.input { appearance: none; }
+  input[type=range] { width: 100%; accent-color: #8a5a2b; margin: 8px 0; }
+  .idx-item { display: flex; gap: 12px; align-items: flex-start; cursor: pointer; }
+  .idx-num { background: #8a5a2b; color: #fff; border-radius: 50%; width: 26px; height: 26px; line-height: 26px; text-align: center; font-size: 13px; flex: none; margin-top: 2px; }
+  .toast { position: fixed; left: 50%; top: 42%; transform: translate(-50%,-50%); background: rgba(30,24,16,.92); color: #fff; padding: 14px 20px; border-radius: 10px; font-size: 14px; line-height: 1.5; max-width: 82%; text-align: center; display: none; z-index: 50; }
+  .fakevideo { background: #3a2e20; color: #f3e5c8; border-radius: 10px; text-align: center; padding: 42px 10px; margin-top: 10px; font-size: 14px; }
+  .chk { display: flex; gap: 7px; align-items: flex-start; cursor: pointer; }
+  .chk input { width: 19px; height: 19px; accent-color: #8a5a2b; margin-top: 2px; flex: none; }
+</style>
+</head>
+<body>
+<div class="phone">
+  <div class="navbar">
+    <div class="back" id="navBack" style="visibility:hidden">‹ 返回</div>
+    <div class="title">米老爸 Daddy Mi</div>
+    <div class="spacer"></div>
+  </div>
+  <div class="simnote">内部模拟预览 · 与真实小程序同文案、同流程（数据为示例，不连后端）</div>
+  <main id="main"><!-- screens injected by JS --></main>
+  <div class="tabbar" id="tabbar">
+    <div data-tab="home">歌手</div>
+    <div data-tab="order">订制</div>
+    <div data-tab="intake">做分身</div>
+    <div data-tab="status">进度</div>
+  </div>
+</div>
+<div class="toast" id="toast"></div>
+<script>
+'use strict';
+/* All copy below is copied verbatim from miniprogram/assets/i18n/zh-Hans.json,
+   shared/singers.json, shared/consent-items.json and shared/config.js. */
+const S = {
+  brand_line: '米老爸 Daddy Mi · 数字艺人工作室',
+  hero_title: '让你的形象与歌声，在你不在线时继续发光',
+  hero_sub: '真人授权、本人控制的数字 IP 工作室。我们为直播主与创作者打造专属数字分身与原创歌曲——授权先行，每一步都由你确认。',
+  hero_cta_intake: '开始做我的数字分身',
+  hero_cta_order: '为TA订制一首歌',
+  showcase_title: '我们的数字歌手',
+  preview_only_badge: '预览 · 授权流程办理中',
+  footer_rights: '© 2026 米老爸 Daddy Mi',
+  singer_songs: '代表作品',
+  singer_make_mine: '我也想做一个这样的分身',
+  order_title: '订制音乐',
+  order_line_a: 'A 线 · 为自己建 IP', order_line_a_sub: '主播、创作者为自己订制：形象 + AI 歌手演唱的主题歌 + 专属页',
+  order_line_b: 'B 线 · 送给喜欢的主播', order_line_b_sub: '把一首专属于TA的歌作为礼物送出',
+  order_free_title: '免费体验档（A 线）',
+  order_free_desc: '授权完成后：形象 1 套（3 张）+ 私密预览页（带水印，30 天）+ 20–30 秒器乐小样（不演唱、不使用本人声音）。每人限 1 次，每日名额有限。',
+  ta_free: '免费档：3 个工作日内', ta_single: '单曲：约 10–14 天', ta_pack3: '3 首：约 4 周', ta_reservation: '预约档：排期另行确认',
+  order_includes_single: '含：形象 1 套（3–5 张）· AI 演唱主题歌 1 首 · 专属页 · 词/曲各 1 次修改',
+  order_includes_pack3: '含单曲全部内容 · 专辑页 · 歌词海报',
+  order_reservation: '预约档 · 暂不排期、不印日期',
+  order_target_hint: 'B 线请填写目标主播的平台与账号名（用于发出授权邀请）。',
+  order_b2_rule: 'B 线规则（请仔细读）：若目标主播尚未在本工作室登记，您的订单会先向TA发出授权邀请。TA拒绝或 14 天内未回应，订单自动全额退款。授权是法律要求——「给主播一个惊喜」不能绕过TA本人的同意。',
+  order_ownvoice_note: '所有歌曲均由 AI 歌手演唱，不是主播本人声音演唱。',
+  order_payment_pending: '目前小程序/网页内暂不收款：提交后顾问会联系您确认范围与授权流程，再完成付款与排期。价格以本页所示为准。',
+  order_cta: '记录这份订制意向',
+  order_submit_ok: '意向已记录，我们会尽快联系您。',
+  err_generic: '出错了，请稍后再试。',
+  intake_title: '做我的数字分身',
+  intake_steps: '四步：① 注册 ② 提交资料 ③ 授权确认（含真人验证）④ 工作室审核',
+  intake_register_title: '注册', intake_email: '邮箱', intake_send_code: '发送验证码',
+  intake_email_code: '邮箱验证码', intake_invite_code: '邀请码（工作室发放，或通过意向审核后取得）',
+  intake_stage_name: '艺名 / 常用名', intake_phone: '手机号（仅用于联系，暂不验证）',
+  intake_platforms: '你的直播/创作平台账号（如 Bilibili、抖音、YouTube 账号名）',
+  intake_why_email: '注册只需证明能联系到你——身份与肖像权利会在授权步骤单独核验，比短信验证码更严，也更保护你。',
+  intake_register_btn: '注册并继续',
+  submit_title: '提交资料', status_title: '我的进度',
+  submit_photos: '照片（正脸清晰照至少 1 张，建议 3–5 张不同角度）',
+  submit_voice: '声音样本（朗读或清唱 30 秒以上，安静环境）',
+  submit_video: '视频样本（可选，出镜片段更佳）',
+  submit_add: '添加',
+  submit_story: '你的真实故事（经历、风格、想被记住的样子——写得越真实，分身越像你）',
+  submit_quota: '初始额度 250 MB；审核通过后可追加。大文件会自动分片上传，可断点续传。',
+  submit_quarantine_note: '所有文件先进入隔离区扫描（文件头校验、病毒扫描、去除定位信息），不会直接公开，提交内容不会出现在任何公开页面。',
+  submit_btn: '提交并进入授权确认',
+  consent_title: '授权确认',
+  consent_intro: '这一步最重要，请慢慢读。注册只是注册——下面每一项才是对你肖像与声音的正式授权。每一项都是单独的开关，默认关闭；标为「必需」的项目不打开无法继续，我们在每项下方写明了原因。可选项不开，你的作品将被限制为私人用途。',
+  consent_required: '必需', consent_optional: '可选', consent_disabled_v1: '暂未开放',
+  consent_next_xborder: '继续：跨境与第三方单独确认',
+  err_required_consent: '有必需的授权项尚未打开，请逐项阅读后再确认。',
+  consent_use_private: '私人用途（仅自己保存欣赏）',
+  consent_use_showcase: '展示用途（在工作室与我的页面展示）',
+  consent_use_commercial: '商业用途（用于付费作品与推广）',
+  territory_china_mainland: '中国大陆', territory_greater_china: '大中华区', territory_worldwide: '全球',
+  xborder_title: '跨境与第三方处理 · 单独确认',
+  xborder_body: '为了制作你的数字分身，部分素材需要交由以下类别的第三方处理，数据可能位于中国境外：生图服务（美国）、云算力（美国）、音乐生成（美国）。具体厂商清单会作为协议附件在签署时提供。我们只发送制作所必需的最少素材，传输与存储均加密。你可以拒绝——拒绝则无法使用需要这些服务的制作项目，我们会与你商量替代方案。',
+  xborder_agree: '我已阅读并单独同意跨境与第三方处理',
+  xborder_next: '继续：真人验证',
+  liveness_title: '真人验证（授权的最后一环）',
+  liveness_body: '请录制一段 5–10 秒自拍视频，朗读下面这句话。系统会核对视频中的人脸与声音是否与你提交的资料一致，再由工作室人工复核。录像只存入授权证据库，不会公开、不会用于任何其他用途。',
+  liveness_phrase_prefix: '请朗读：',
+  liveness_note: '勾选框证明不了是你本人——这段录像就是防止有人拿你的照片冒名做分身。它是我们保护你的方式。',
+  liveness_record: '开始录制', liveness_rerecord: '重新录制', liveness_submit: '提交验证',
+  status_application: '我的分身申请', status_case: '编号', status_current: '当前阶段',
+  status_orders: '我的订制订单',
+  status_preview_ready: '你的私密预览已生成（带水印，仅你可见）。请查看后确认——你不确认，我们不会公开、不会进入制作。',
+  status_approve_preview: '确认预览，可以继续', status_approve_final: '确认成品',
+  status_changes: '申请补件',
+  st_authorization_pending: '待完成授权确认', st_submitted: '已提交'
+};
+/* shared/singers.json (zh-Hans names + taglines via i18n keys) */
+const SINGERS = [
+  { id: 'mixi', name: '米曦', tagline: '工作室原创 AI 歌手 · 原创歌曲与统一艺术形象', mode: 'public',
+    songs: ['theme-zh', 'theme-en', 'dian-deng', 'birthday-light', 'mx005'] },
+  { id: 'miyo', name: '米悠', tagline: '真人主播的数字分身 · 本人授权、本人控制', mode: 'preview_only', songs: [] },
+  { id: 'michu', name: '米初', tagline: '新晋数字歌手 · 首支单曲筹备中', mode: 'preview_only', songs: [] }
+];
+/* shared/config.js pricing.tiers (A / B prices, CNY) */
+const TIERS = [
+  { id: 'single', label: '单曲', A: 1980, B: 3280, saleable: true, includes: S.order_includes_single, ta: S.ta_single },
+  { id: 'pack3', label: '3 首', A: 4980, B: 8800, saleable: true, includes: S.order_includes_pack3, ta: S.ta_pack3 },
+  { id: 'pack5', label: '5 首', A: 7980, B: 13800, saleable: false, includes: '', ta: '' },
+  { id: 'pack10', label: '10 首', A: 14800, B: 21800, saleable: false, includes: '', ta: '' }
+];
+/* shared/consent-items.json — 12 items, in source order */
+const CONSENT_ITEMS = [
+  { id: 'portrait_modeling', req: true, label: '肖像建模：同意工作室用我提交的照片建立我的数字形象。', why: '没有这一项，工作室不能合法使用你的照片生成任何形象。' },
+  { id: 'voice_modeling', disabled: true, label: '声音建模：同意工作室用我的声音样本建立我的数字声音。', why: '本工作室目前没有本人声音演唱的生产线，此项暂不开放；任何文案都不会承诺用你的声音演唱。' },
+  { id: 'ai_generation', req: true, label: 'AI 生成：同意工作室用 AI 技术生成我的形象图、歌曲与相关作品。', why: '我们的全部制作方式都是 AI 辅助生成，不同意则无法制作。' },
+  { id: 'uses', req: true, label: '使用范围（可多选）：', why: '至少选择私人用途才能继续；展示与商业用途不开，对应场景会被系统自动禁止。' },
+  { id: 'channels', req: false, label: '展示渠道（逐项选择）：', why: '作品只会出现在你勾选的渠道，未勾选的渠道系统不会发布。' },
+  { id: 'territory', req: true, label: '授权地域：', why: '不同地区的法律对数字分身的要求不同，必须明确范围。' },
+  { id: 'term', req: true, label: '授权期限（年，默认 2 年）：', why: '到期后工作室必须停止新的使用，并按约定处理已有作品。' },
+  { id: 'withdrawal', req: true, label: '撤回权：我知道我可以随时撤回授权；撤回后工作室须在约定时限内下架并删除，并向我提供删除证明。撤回前已合法售出的作品按协议处理。', why: '这是你的法定权利，必须单独确认你知道它存在。' },
+  { id: 'revenue_rights', req: false, label: '收益与权属：人格权利永远属于我本人；工作室新创作作品的版权与收益分配按单独协议约定（B 线赠礼订单适用三方约定）。', why: '涉及付费与赠礼时需要明确，可先关闭，后续签约时再开。' },
+  { id: 'third_parties', req: true, label: '第三方处理方：我同意将必要素材交由协议列明的第三方处理（如生图服务、云算力，含其数据所在国家）——在下一个页面单独确认。', why: '制作会用到外部 AI 与云服务，必须让你知道素材会到哪里、由谁处理。' },
+  { id: 'ai_labeling', req: true, label: 'AI 标识：我同意作品按法律要求标注为 AI 生成内容，并承诺不将分身用于诈骗、冒充他人或违法用途。', why: 'AI 标识是法律的强制要求，也是保护你本人声誉的底线。' },
+  { id: 'adult_declaration', req: true, label: '本人声明：我已年满 18 周岁，提交的肖像与声音权利属于我本人。', why: '未成年人不在本服务范围内，且年龄不能只凭自报——后续真人验证会再次核对。' }
+];
+const CHANNELS = ['in_app_showcase', 'wechat', 'bilibili', 'douyin', 'youtube', 'tiktok']; /* shared/config.js channels, shown raw as in the real app */
+
+const state = {
+  screen: 'index', tab: null, singerId: 'mixi',
+  line: 'A', tier: 'single',
+  loggedIn: false, stageName: '',
+  files: [], orders: [],
+  consent: {}, uses: { use_private: false, use_showcase: false, use_commercial: false },
+  channels: {}, territory: '大中华区', termYears: 2,
+  xborderAgreed: false, recorded: false,
+  appStage: null /* null | 'authorization_pending' | 'submitted' */
+};
+CONSENT_ITEMS.forEach(it => { state.consent[it.id] = it.id === 'term'; });
+
+const $main = document.getElementById('main');
+const $toast = document.getElementById('toast');
+let toastTimer = null;
+function toast(msg, ms) {
+  $toast.textContent = msg; $toast.style.display = 'block';
+  clearTimeout(toastTimer); toastTimer = setTimeout(() => { $toast.style.display = 'none'; }, ms || 2400);
+}
+function esc(x) { return String(x).replace(/&/g, '&amp;').replace(/</g, '&lt;'); }
+function go(screen, opts) {
+  state.screen = screen;
+  state.tab = ['home', 'order', 'intake', 'status'].includes(screen) ? screen : state.tab;
+  render();
+  window.scrollTo(0, 0);
+}
+function footer() { return '<div class="footer">' + S.footer_rights + '</div>'; }
+function sw(id, checked, disabled) {
+  return '<label class="sw"><input type="checkbox" data-sw="' + id + '"' + (checked ? ' checked' : '') + (disabled ? ' disabled' : '') + '><i></i></label>';
+}
+</script>
+<script>
+const PAGE_LIST = [
+  { id: 'home', name: '首页（歌手展示）', desc: '品牌主张、两位主按钮、三位数字歌手卡片' },
+  { id: 'singer', name: '歌手详情', desc: '一位歌手的标语与代表作品，附「我也想做一个这样的分身」' },
+  { id: 'order', name: '订制音乐', desc: 'A 线 / B 线、免费体验档与四档价格，记录订制意向' },
+  { id: 'intake', name: '做我的数字分身（注册）', desc: '邮箱验证码 + 邀请码注册，四步流程入口' },
+  { id: 'submit', name: '提交资料', desc: '照片 / 声音 / 视频样本上传与真实故事' },
+  { id: 'consent', name: '授权确认', desc: '12 项逐项授权，默认关闭，必需项不开不能继续' },
+  { id: 'xborder', name: '跨境与第三方处理 · 单独确认', desc: '跨境与第三方处理单独勾选同意' },
+  { id: 'liveness', name: '真人验证', desc: '朗读服务器下发短语录制 5–10 秒自拍视频' },
+  { id: 'status', name: '我的进度', desc: '分身申请阶段与我的订制订单' }
+];
+function vIndex() {
+  let h = '<div class="wrap"><div class="h1">小程序九页 · 模拟目录</div>' +
+    '<div class="sub" style="margin:10px 0 14px">点任意一页直接看，或按流程从头走一遍：歌手 → 订制 → 做分身 → 提交 → 授权 → 跨境 → 真人验证 → 进度。</div>' +
+    '<div class="btn btn-primary" data-go="home">▶ 按流程走一遍（从首页开始）</div>';
+  PAGE_LIST.forEach((p, i) => {
+    h += '<div class="card idx-item" data-go="' + p.id + '"><div class="idx-num">' + (i + 1) + '</div>' +
+      '<div><div class="h2" style="margin-bottom:4px">' + p.name + '</div><div class="sub">' + p.desc + '</div></div></div>';
+  });
+  return h + footer() + '</div>';
+}
+function vHome() {
+  let h = '<div class="wrap"><div class="lang-switch">🌐 ' + S.brand_line + '</div>' +
+    '<div class="h1">' + S.hero_title + '</div>' +
+    '<div class="sub" style="margin:10px 0 4px">' + S.hero_sub + '</div>' +
+    '<div class="btn btn-primary" data-act="goIntake">' + S.hero_cta_intake + '</div>' +
+    '<div class="btn btn-outline" data-act="goOrder">' + S.hero_cta_order + '</div>' +
+    '<div class="h2" style="margin-top:18px">' + S.showcase_title + '</div>';
+  SINGERS.forEach(sg => {
+    h += '<div class="card" data-singer="' + sg.id + '"><div style="display:flex;justify-content:space-between;align-items:center">' +
+      '<div class="h2" style="margin:0">' + sg.name + '</div>' +
+      (sg.mode === 'preview_only' ? '<div class="badge-preview">' + S.preview_only_badge + '</div>' : '') +
+      '</div><div class="sub">' + sg.tagline + '</div></div>';
+  });
+  return h + footer() + '</div>';
+}
+function vSinger() {
+  const sg = SINGERS.find(x => x.id === state.singerId) || SINGERS[0];
+  let h = '<div class="wrap"><div style="display:flex;justify-content:space-between;align-items:center">' +
+    '<div class="h1">' + sg.name + '</div>' +
+    (sg.mode === 'preview_only' ? '<div class="badge-preview">' + S.preview_only_badge + '</div>' : '') +
+    '</div><div class="sub" style="margin:8px 0">' + sg.tagline + '</div>';
+  if (sg.songs.length) {
+    h += '<div class="card"><div class="h2">' + S.singer_songs + '</div>' +
+      sg.songs.map(x => '<div style="padding:5px 0">♪ ' + esc(x) + '</div>').join('') + '</div>';
+  }
+  h += '<div class="btn btn-primary" data-act="goIntake">' + S.singer_make_mine + '</div>';
+  return h + footer() + '</div>';
+}
+function vOrder() {
+  const A = state.line === 'A';
+  let h = '<div class="wrap"><div class="h1">' + S.order_title + '</div>' +
+    '<div style="display:flex;gap:8px;margin:12px 0">' +
+    '<div class="btn ' + (A ? 'btn-primary' : 'btn-outline') + '" style="flex:1" data-line="A">' + S.order_line_a + '</div>' +
+    '<div class="btn ' + (!A ? 'btn-primary' : 'btn-outline') + '" style="flex:1" data-line="B">' + S.order_line_b + '</div></div>' +
+    '<div class="sub">' + (A ? S.order_line_a_sub : S.order_line_b_sub) + '</div>';
+  if (A) {
+    h += '<div class="card"><div class="h2">' + S.order_free_title + ' · ¥0</div><div class="sub">' + S.order_free_desc + '</div><div class="small">' + S.ta_free + '</div></div>';
+  }
+  TIERS.forEach(t => {
+    h += '<div class="card" data-tier="' + t.id + '" style="' + (state.tier === t.id ? 'border-color:#8a5a2b;border-width:2px' : '') + '">' +
+      '<div style="display:flex;justify-content:space-between"><div class="h2" style="margin:0">' + t.label + '</div>' +
+      '<div class="price">¥' + (A ? t.A : t.B) + '</div></div>' +
+      (t.includes ? '<div class="sub">' + t.includes + '</div>' : '') +
+      (!t.saleable ? '<div class="small">' + S.order_reservation + '</div>' : '') +
+      (t.ta ? '<div class="small">' + t.ta + '</div>' : '') + '</div>';
+  });
+  if (!A) {
+    h += '<label class="label">' + S.order_target_hint + '</label>' +
+      '<input class="input" placeholder="Bilibili / 抖音 / YouTube 账号名">' +
+      '<div class="card" style="background:#fdf6e3"><div class="small">' + S.order_b2_rule + '</div></div>';
+  }
+  h += '<div class="small" style="margin:8px 0">' + S.order_ownvoice_note + '</div>' +
+    '<div class="small">' + S.order_payment_pending + '</div>' +
+    '<div class="btn btn-primary" data-act="orderSubmit">' + S.order_cta + '</div>';
+  return h + footer() + '</div>';
+}
+function vIntake() {
+  let h = '<div class="wrap"><div class="h1">' + S.intake_title + '</div>' +
+    '<div class="sub" style="margin:7px 0">' + S.intake_steps + '</div>';
+  if (!state.loggedIn) {
+    h += '<div class="card"><div class="h2">' + S.intake_register_title + '</div>' +
+      '<label class="label">' + S.intake_email + '</label><input class="input" id="f-email" placeholder="you@example.com">' +
+      '<div class="btn btn-outline" data-act="sendCode">' + S.intake_send_code + '</div>' +
+      '<label class="label">' + S.intake_email_code + '</label><input class="input" type="number">' +
+      '<label class="label">' + S.intake_invite_code + '</label><input class="input" id="f-invite">' +
+      '<label class="label">' + S.intake_stage_name + '</label><input class="input" id="f-stage">' +
+      '<label class="label">' + S.intake_phone + '</label><input class="input">' +
+      '<label class="label">' + S.intake_platforms + '</label><input class="input">' +
+      '<div class="why">' + S.intake_why_email + '</div>' +
+      '<div class="btn btn-primary" data-act="register">' + S.intake_register_btn + '</div></div>';
+  } else {
+    h += '<div class="card"><div class="btn btn-primary" data-go="submit">' + S.submit_title + '</div>' +
+      '<div class="btn btn-outline" data-go="status">' + S.status_title + '</div></div>';
+  }
+  return h + footer() + '</div>';
+}
+function vSubmit() {
+  let h = '<div class="wrap"><div class="h1">' + S.submit_title + '</div><div class="card">' +
+    '<label class="label">' + S.submit_photos + '</label><div class="btn btn-outline" data-add="photo">' + S.submit_add + ' 📷</div>' +
+    '<label class="label">' + S.submit_voice + '</label><div class="btn btn-outline" data-add="voice">' + S.submit_add + ' 🎙</div>' +
+    '<label class="label">' + S.submit_video + '</label><div class="btn btn-outline" data-add="video">' + S.submit_add + ' 🎬</div>' +
+    state.files.map(f => '<div class="small">' + f + '</div>').join('') +
+    '</div><div class="card"><label class="label">' + S.submit_story + '</label>' +
+    '<textarea class="input" maxlength="5000"></textarea></div>' +
+    '<div class="small">' + S.submit_quota + '</div>' +
+    '<div class="small" style="margin-top:5px">' + S.submit_quarantine_note + '</div>' +
+    '<div class="btn btn-primary" data-act="submitAll">' + S.submit_btn + '</div>';
+  return h + footer() + '</div>';
+}
+</script>
+<script>
+function vConsent() {
+  let rows = '';
+  CONSENT_ITEMS.forEach(it => {
+    const pill = it.disabled ? '<span class="pill">' + S.consent_disabled_v1 + '</span>'
+      : it.req ? '<span class="pill">' + S.consent_required + '</span>'
+      : '<span class="pill">' + S.consent_optional + '</span>';
+    if (it.id === 'uses') {
+      rows += '<div class="switch-row"><div class="switch-txt"><div>' + it.label + ' ' + pill + '</div><div class="why">' + it.why + '</div>' +
+        '<div style="margin-top:7px">' +
+        '<div class="subrow"><span>' + S.consent_use_private + '</span>' + sw('use_private', state.uses.use_private) + '</div>' +
+        '<div class="subrow"><span>' + S.consent_use_showcase + '</span>' + sw('use_showcase', state.uses.use_showcase) + '</div>' +
+        '<div class="subrow"><span>' + S.consent_use_commercial + '</span>' + sw('use_commercial', state.uses.use_commercial) + '</div>' +
+        '</div></div></div>';
+    } else if (it.id === 'channels') {
+      rows += '<div class="switch-row"><div class="switch-txt"><div>' + it.label + ' ' + pill + '</div><div class="why">' + it.why + '</div>' +
+        CHANNELS.map(ch => '<div class="subrow"><span>' + ch + '</span>' + sw('ch:' + ch, !!state.channels[ch]) + '</div>').join('') +
+        '</div></div>';
+    } else if (it.id === 'territory') {
+      rows += '<div class="switch-row"><div class="switch-txt"><div>' + it.label + ' ' + pill + '</div><div class="why">' + it.why + '</div>' +
+        '<select class="input" id="territorySel" style="margin-top:7px">' +
+        [S.territory_china_mainland, S.territory_greater_china, S.territory_worldwide].map(x =>
+          '<option' + (state.territory === x ? ' selected' : '') + '>' + x + '</option>').join('') +
+        '</select></div></div>';
+    } else {
+      rows += '<div class="switch-row"><div class="switch-txt"><div>' + it.label + ' ' + pill + '</div><div class="why">' + it.why + '</div></div>' +
+        sw(it.id, !!state.consent[it.id], it.disabled) + '</div>';
+    }
+  });
+  rows += '<div style="padding-top:10px"><label class="label">授权期限 / Term (' + state.termYears + ')</label>' +
+    '<input type="range" min="1" max="5" step="1" value="' + state.termYears + '" id="termSlider"></div>';
+  return '<div class="wrap"><div class="h1">' + S.consent_title + '</div>' +
+    '<div class="sub" style="margin:8px 0">' + S.consent_intro + '</div>' +
+    '<div class="card">' + rows + '</div>' +
+    '<div class="btn btn-primary" data-act="consentNext">' + S.consent_next_xborder + '</div>' + footer() + '</div>';
+}
+function vXborder() {
+  return '<div class="wrap"><div class="h1">' + S.xborder_title + '</div>' +
+    '<div class="card"><div class="sub">' + S.xborder_body + '</div></div>' +
+    '<label class="chk"><input type="checkbox" id="xbChk"' + (state.xborderAgreed ? ' checked' : '') + '>' +
+    '<span style="flex:1;font-size:14px;line-height:1.55">' + S.xborder_agree + '</span></label>' +
+    '<div class="btn btn-primary' + (state.xborderAgreed ? '' : ' disabled') + '" data-act="xborderNext">' + S.xborder_next + '</div>' +
+    footer() + '</div>';
+}
+function vLiveness() {
+  /* Phrase format is the server format (backend/src/server.js); code/keyword are sample placeholders. */
+  const phrase = '我是' + (state.stageName || '本人') + '，今天是2026年11月13日，我自愿授权米老爸工作室为我制作数字分身，验证码 4821，关键词 苹果。（示例短语）';
+  let h = '<div class="wrap"><div class="h1">' + S.liveness_title + '</div>' +
+    '<div class="card"><div class="sub">' + S.liveness_body + '</div>' +
+    '<div style="margin-top:10px;font-size:16px;line-height:1.6;font-weight:600">' + S.liveness_phrase_prefix + '</div>' +
+    '<div style="font-size:16px;line-height:1.6;color:#8a5a2b">' + phrase + '</div></div>' +
+    '<div class="small">' + S.liveness_note + '</div>';
+  if (state.recorded) h += '<div class="fakevideo">▶ 示例录像（模拟）· 0:07</div>';
+  h += '<div class="btn btn-outline" data-act="record">' + (state.recorded ? S.liveness_rerecord : S.liveness_record) + '</div>' +
+    '<div class="btn btn-primary' + (state.recorded ? '' : ' disabled') + '" data-act="livenessSubmit">' + S.liveness_submit + '</div>';
+  return h + footer() + '</div>';
+}
+function vStatus() {
+  let h = '<div class="wrap"><div class="h1">' + S.status_title + '</div>';
+  if (state.appStage) {
+    const label = state.appStage === 'submitted' ? S.st_submitted : S.st_authorization_pending;
+    const idx = state.appStage === 'submitted' ? 2 : 5;
+    h += '<div class="card"><div class="h2">' + S.status_application + '</div>' +
+      '<div class="small">' + S.status_case + ': DM-2026-0001（示例编号）</div>' +
+      '<div style="margin:8px 0"><span class="stage-dot"></span><span>' + S.status_current + ': <b>' + label + '</b> (' + idx + '/16)</span></div>';
+    if (state.appStage === 'authorization_pending')
+      h += '<div class="btn btn-outline" data-go="consent">' + S.consent_title + '</div>';
+    h += '</div>';
+  }
+  if (state.orders.length) {
+    h += '<div class="card"><div class="h2">' + S.status_orders + '</div>' +
+      state.orders.map(o => '<div class="small" style="padding:4px 0">' + o + '</div>').join('') + '</div>';
+  }
+  if (!state.appStage && !state.orders.length)
+    h += '<div class="sub" style="margin-top:10px">（尚无申请与订单——先从「做分身」注册，或在「订制」记录一份意向，这里就会出现进度。）</div>';
+  return h + footer() + '</div>';
+}
+const VIEWS = { index: vIndex, home: vHome, singer: vSinger, order: vOrder, intake: vIntake, submit: vSubmit, consent: vConsent, xborder: vXborder, liveness: vLiveness, status: vStatus };
+function render() {
+  $main.innerHTML = '<section class="screen active">' + VIEWS[state.screen]() + '</section>';
+  document.getElementById('navBack').style.visibility = state.screen === 'index' ? 'hidden' : 'visible';
+  document.getElementById('tabbar').style.display = state.screen === 'index' ? 'none' : 'flex';
+  document.querySelectorAll('#tabbar div').forEach(d => d.classList.toggle('sel', d.dataset.tab === state.tab));
+}
+const BACK = { singer: 'home', submit: 'intake', consent: 'submit', xborder: 'consent', liveness: 'xborder' };
+document.getElementById('navBack').addEventListener('click', () => go(BACK[state.screen] || 'index'));
+document.getElementById('tabbar').addEventListener('click', e => { const t = e.target.dataset.tab; if (t) go(t); });
+$main.addEventListener('click', e => {
+  const goEl = e.target.closest('[data-go]'); if (goEl) { go(goEl.dataset.go); return; }
+  const sgEl = e.target.closest('[data-singer]'); if (sgEl) { state.singerId = sgEl.dataset.singer; go('singer'); return; }
+  const lineEl = e.target.closest('[data-line]'); if (lineEl) { state.line = lineEl.dataset.line; render(); return; }
+  const tierEl = e.target.closest('[data-tier]'); if (tierEl) { state.tier = tierEl.dataset.tier; render(); return; }
+  const addEl = e.target.closest('[data-add]'); if (addEl) {
+    const k = addEl.dataset.add;
+    if (k === 'voice') { toast('🎙'); return; }
+    state.files.push(k + ' · 示例文件 ✓'); render(); return;
+  }
+  const actEl = e.target.closest('[data-act]'); if (!actEl) return;
+  const act = actEl.dataset.act;
+  if (act === 'goIntake') go('intake');
+  else if (act === 'goOrder') go('order');
+  else if (act === 'sendCode') toast('✓');
+  else if (act === 'register') {
+    const st = document.getElementById('f-stage');
+    state.stageName = st ? st.value.trim() : '';
+    state.loggedIn = true; state.appStage = 'authorization_pending';
+    go('submit');
+  }
+  else if (act === 'orderSubmit') {
+    if (!state.loggedIn) { go('intake'); return; } /* real app: switchTab to intake when not logged in */
+    const t = TIERS.find(x => x.id === state.tier);
+    state.orders.push(state.line + ' · ' + t.id + ' · ¥' + (state.line === 'A' ? t.A : t.B) + ' · submitted');
+    toast(S.order_submit_ok, 2600);
+  }
+  else if (act === 'submitAll') go('consent');
+  else if (act === 'consentNext') {
+    const missing = !state.consent.portrait_modeling || !state.consent.ai_generation || !state.uses.use_private ||
+      !state.consent.third_parties || !state.consent.withdrawal || !state.consent.ai_labeling || !state.consent.adult_declaration;
+    if (missing) { toast(S.err_required_consent, 2800); return; }
+    go('xborder');
+  }
+  else if (act === 'xborderNext') { if (state.xborderAgreed) go('liveness'); }
+  else if (act === 'record') { state.recorded = true; render(); }
+  else if (act === 'livenessSubmit') {
+    if (!state.recorded) return;
+    state.appStage = 'submitted';
+    toast('✓ 已提交，等待工作室人工复核');
+    setTimeout(() => go('status'), 900);
+  }
+});
+$main.addEventListener('change', e => {
+  const swEl = e.target.closest('[data-sw]');
+  if (swEl) {
+    const id = swEl.dataset.sw, on = swEl.checked;
+    if (id.indexOf('use_') === 0) state.uses[id] = on;
+    else if (id.indexOf('ch:') === 0) state.channels[id.slice(3)] = on;
+    else state.consent[id] = on;
+    return;
+  }
+  if (e.target.id === 'territorySel') state.territory = e.target.value;
+  if (e.target.id === 'termSlider') { state.termYears = Number(e.target.value); render(); }
+  if (e.target.id === 'xbChk') { state.xborderAgreed = e.target.checked; render(); }
+});
+render();
+</script>
+</body>
+</html>
