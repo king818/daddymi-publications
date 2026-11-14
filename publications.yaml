@@ -4939,6 +4939,221 @@ replaced_or_private:
   dedicated_page: https://daddymi777.com/music/mx005/
   status: Public
   note: 故事版 MTV（36 張故事靜幀 + Remotion 組裝，音頻 = Take 4 定版母帶，附 zh-Hans 歌詞字幕軌）。2026-11-12 經 API 上傳，先 Private 核實（標題/時長/字幕軌/播放列表成員）後轉 Public 並複核。AI 使用披露待 Studio 補設（API 無此欄位）。私人版（片尾獻詞卡 + 全中文落款）htNjC_xlI2w 為 Unlisted、未入任何播放列表，只嵌媽媽專屬頁 https://daddymi777.com/for-mother/3a65fb4b8e0c6eb8/ 。占位版 -t6mGZf0G4k 依 boss 2026-11-12 裁示，於正式 MV 上線後轉 Private 留檔（未刪除）。
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: John 10:10
+  language: zh
+  type: Long
+  title: 每日經文 2026-11-09 · Neville 解讀｜約翰福音 10:10 從匱乏到豐盛——活出基督已經賜予你的生命
+  published: '2026-11-09'
+  url: https://youtu.be/23oetdY1Nh4
+  native_id: 23oetdY1Nh4
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: John 10:10
+  language: en
+  type: Long
+  title: Daily Verse 2026-11-09 · John 10:10 | From Scarcity to Abundance
+  published: '2026-11-09'
+  url: https://youtu.be/7nUhugfwlwg
+  native_id: 7nUhugfwlwg
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Hebrews 4:16
+  language: zh
+  type: Long
+  title: 每日經文 2026-11-12 · Neville 解讀｜希伯來書 4:16 坦然無懼來到施恩的寶座前——在恩典中醒來
+  published: '2026-11-12'
+  url: https://youtu.be/yAYs4ux_SWs
+  native_id: yAYs4ux_SWs
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: fd6033ae-d801-42d6-b266-d33fbcc04a5d
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Hebrews 4:16
+  language: en
+  type: Long
+  title: Daily Verse 2026-11-12 · Hebrews 4:16 | Come Boldly to the Throne of Grace
+  published: '2026-11-12'
+  url: https://youtu.be/89S7NTtECRg
+  native_id: 89S7NTtECRg
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: fd6033ae-d801-42d6-b266-d33fbcc04a5d
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Matthew 6:11
+  language: zh
+  type: Long
+  title: 每日經文 2026-11-13 · Neville 解讀｜馬太福音 6:11 別用明天的憂慮透支今天 Part 1
+  published: '2026-11-13'
+  url: https://youtu.be/4An87UxInCA
+  native_id: 4An87UxInCA
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: 18cc4f2e-ea5a-4776-91d9-8f133312ab8b
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Matthew 6:11
+  language: zh
+  type: Long
+  title: 每日經文 2026-11-13 · Neville 解讀｜馬太福音 6:11 別用明天的憂慮透支今天 Part 2
+  published: '2026-11-13'
+  url: https://youtu.be/1nPCuToIoyk
+  native_id: 1nPCuToIoyk
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: 18cc4f2e-ea5a-4776-91d9-8f133312ab8b
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Matthew 6:11
+  language: en
+  type: Long
+  title: Daily Verse 2026-11-13 · Matthew 6:11 | Trading Future Anxiety for Daily Bread
+  published: '2026-11-13'
+  url: https://youtu.be/KuHUl8ScN28
+  native_id: KuHUl8ScN28
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: 18cc4f2e-ea5a-4776-91d9-8f133312ab8b
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Psalm 139:10
+  language: zh
+  type: Long
+  title: 每日經文 2026-11-14 · Neville 解讀｜詩篇 139:10 即使在那裡，祂的手仍然扶持我
+  published: '2026-11-14'
+  url: https://youtu.be/RPWsM5RWgpk
+  native_id: RPWsM5RWgpk
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: 9c5976e8-9a7b-4419-9325-41a08ba9fc03
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Psalm 139:10
+  language: en
+  type: Long
+  title: Daily Verse 2026-11-14 · Psalm 139:10 | Even There, His Hand Shall Hold Me
+  published: '2026-11-14'
+  url: https://youtu.be/fPnVQdHJYaU
+  native_id: fPnVQdHJYaU
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: 9c5976e8-9a7b-4419-9325-41a08ba9fc03
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Psalm 139:10
+  language: ja
+  type: Long
+  title: 毎日の聖句 2026-11-14 · ネヴィル解釈｜詩篇 139:10 その所でも、主のみ手がわたしを支える
+  published: '2026-11-14'
+  url: https://youtu.be/bZe5uWdNqlc
+  native_id: bZe5uWdNqlc
+  playlist: 毎日の聖句 · 日本語
+  archive_note: 9c5976e8-9a7b-4419-9325-41a08ba9fc03
+  status: Public
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 16 — Exodus 14–18 (Red Sea)
+  language: zh-Hant
+  type: Long
+  title: 來跟隨我 2026 第16週（4月13日–19日）｜只管站住！看耶和華……的救恩 · 出埃及記 14–18
+  published: '2026-11-14'
+  url: https://youtu.be/bElilMPZDxM
+  native_id: bElilMPZDxM
+  playlist: 來跟隨我 2026（中文）
+  status: Live
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: John 10:10
+  language: zh
+  type: Long
+  title: 每日經文 2026-11-15 · Neville 解讀｜約翰福音 10:10 從匱乏到豐盛 Part 1
+  published: '2026-11-15'
+  url: https://youtu.be/bCEnsA5wBSA
+  native_id: bCEnsA5wBSA
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  status: Scheduled (private, publishAt 2026-11-15T14:00:00Z)
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: John 10:10
+  language: zh
+  type: Long
+  title: 每日經文 2026-11-15 · Neville 解讀｜約翰福音 10:10 從匱乏到豐盛 Part 2
+  published: '2026-11-15'
+  url: https://youtu.be/EkkAd8MTRvY
+  native_id: EkkAd8MTRvY
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  status: Scheduled (private, publishAt 2026-11-15T14:00:00Z)
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: John 10:10
+  language: en
+  type: Long
+  title: Daily Verse 2026-11-15 · John 10:10 | From Scarcity to Abundance
+  published: '2026-11-15'
+  url: https://youtu.be/ZLvQtHrNQlc
+  native_id: ZLvQtHrNQlc
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  status: Scheduled (private, publishAt 2026-11-15T14:00:00Z)
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: John 10:10
+  language: ja
+  type: Long
+  title: 毎日の聖句 2026-11-15 · ネヴィル解読｜ヨハネによる福音書 10:10 欠乏から豊かさへ
+  published: '2026-11-15'
+  url: https://youtu.be/Otwv5FLAviQ
+  native_id: Otwv5FLAviQ
+  playlist: 毎日の聖句 · 日本語
+  status: Scheduled (private, publishAt 2026-11-15T14:00:00Z)
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Psalm 139:10
+  language: zh
+  type: Long
+  title: 每日經文 2026-11-14 · Neville 解讀｜詩篇 139:10 即使在那裡，祂的手仍然扶持我
+  published: '2026-11-13'
+  url: https://youtu.be/2wu6ckRFzcc
+  native_id: 2wu6ckRFzcc
+  status: 'Private — duplicate upload of the Psalm 139:10 ZH long (same title, uploaded 2026-11-13 in the same run as the canonical RPWsM5RWgpk), never published; API-verified Private 2026-11-14 (channel unlock audit), retained not deleted pending boss ruling'
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Psalm 139:10
+  language: zh
+  type: Long
+  title: 每日經文 2026-11-14 · Neville 解讀｜詩篇 139:10 即使在那裡，祂的手仍然扶持我
+  published: '2026-11-13'
+  url: https://youtu.be/Fbhq9Uq1dX0
+  native_id: Fbhq9Uq1dX0
+  status: 'Private — duplicate upload of the Psalm 139:10 ZH long (same title, uploaded 2026-11-13 in the same run as the canonical RPWsM5RWgpk), never published; API-verified Private 2026-11-14 (channel unlock audit), retained not deleted pending boss ruling'
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 47 — Hosea & Joel
+  language: en
+  type: Long
+  title: Come, Follow Me 2026 Week 47 (Nov 16–22) | I Will Love Them Freely · Hosea; Joel
+  published: '2026-11-10'
+  url: https://youtu.be/9lkAkN75zgg
+  native_id: 9lkAkN75zgg
+  playlist: Come, Follow Me 2026 (English)
+  status: 'Private — superseded by the swap repair version ZMF1A0S67qU, the current public version; API-verified Private 2026-11-14 (channel unlock audit), retained not deleted'
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 51 — Malachi
+  language: zh
+  type: Short (hook)
+  title: '2026 第51週｜祂說：我曾愛你們 #Shorts'
+  published: '2026-11-02'
+  url: https://www.youtube.com/shorts/I__HAF5eEgI
+  native_id: I__HAF5eEgI
+  playlist: 來跟隨我 2026（中文）
+  status: 'Private — duplicate of the canonical hook Short 7ZudwvQmBjs (same title) from the 2026-11-02 repeat-publish batch; sits in the CFM ZH playlist but Private — flip to Public or remove from playlist pending boss ruling (channel unlock audit 2026-11-14)'
 unverified:
 - item: CFM Lesson 3 (6 videos, published 2026-11-03) — Evernote archive notes missing
   reason: Checked 2026-11-03 — no archive notes found in Evernote by video ID or title; archive ZIPs not yet built. Finals retained on M1 mini (~/cfm-bf03-creation) and in the run dir on the VM.
