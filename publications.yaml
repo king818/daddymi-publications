@@ -5067,6 +5067,31 @@ replaced_or_private:
   url: https://youtu.be/bElilMPZDxM
   native_id: bElilMPZDxM
   playlist: 來跟隨我 2026（中文）
+  archive_note: d779449f-ff3d-4ffb-a632-033fa62829d1
+  status: Live
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 16 — Exodus 14–18 (Red Sea)
+  language: zh-Hant
+  type: Short (hook)
+  title: 2026 第16週｜前面是海，後面是追兵——什麼都別做，只要站住？
+  published: '2026-11-15'
+  url: https://youtu.be/Wj5PnCQrQdI
+  native_id: Wj5PnCQrQdI
+  playlist: 來跟隨我 2026（中文）
+  archive_note: d8071b2b-58a7-4015-bf68-db21a8ff1c8a
+  status: Live
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 16 — Exodus 14–18 (Red Sea)
+  language: zh-Hant
+  type: Short (funnel)
+  title: 2026 第16週｜七天「站住與收取」：哪一杯苦水，已經開始變甜了？
+  published: '2026-11-15'
+  url: https://youtu.be/dnUQ0pqiObI
+  native_id: dnUQ0pqiObI
+  playlist: 來跟隨我 2026（中文）
+  archive_note: 15e3f1a5-4b73-4554-a97a-043b9e52df08
   status: Live
 - platform: YouTube
   series: Daily Verse · Neville Readings

@@ -2,7 +2,7 @@
 
 Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, filterable version: https://king818.github.io/daddymi-publications/
 
-**335 public videos** · 104 replaced/private versions · Come, Follow Me 2026: 138 · Daily Verse · Neville Readings: 150 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 28 · Mi Xi Intro Podcast: 4 · Music Videos: 2 · Neville Inner Reading Podcast: 7
+**335 public videos** · 106 replaced/private versions · Come, Follow Me 2026: 138 · Daily Verse · Neville Readings: 150 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 28 · Mi Xi Intro Podcast: 4 · Music Videos: 2 · Neville Inner Reading Podcast: 7
 
 
 ## 來跟隨我 2026 — 中文（69）
@@ -405,7 +405,7 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-11-13 | [미시를 만나다: 다섯 곡, 하나의 목소리](https://youtu.be/ib1S4Nn_Cdc) | Long | PLeLVX1PwZr8g | Not archived yet | Live | `ib1S4Nn_Cdc` |
 | 2026-11-13 | [ミーシーを知る：五つの歌、一つの声](https://youtu.be/sYU1VqoLeNA) | Long | PLXi8P8Db85T4 | Not archived yet | Live | `sYU1VqoLeNA` |
 
-## Replaced / Private versions (104)
+## Replaced / Private versions (106)
 
 Same productions, kept for the record — not public.
 
@@ -514,14 +514,16 @@ Same productions, kept for the record — not public.
 | 2026-10-30 | [EP1 original Short (1:01, pre-redo)](https://youtu.be/MyWvEekwrh4) | Short | Neville Inner Reading Podcast 2026 (English) | Not archived yet | Private · replaced by redo | `MyWvEekwrh4` |
 | 2026-10-28 | [EP1 English original (pre-redo)](https://youtu.be/Hmc6emlD1UQ) | Long | Neville Inner Reading Podcast 2026 (English) | Archived · Video Artifacts · 88e92add | Private · original | `Hmc6emlD1UQ` |
 
-### 已取代 / Private · 來跟隨我 2026 — 中文（9）
+### 已取代 / Private · 來跟隨我 2026 — 中文（11）
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
+| 2026-11-15 | [第 16 週 · 前面是海，後面是追兵——什麼都別做，只要站住？](https://youtu.be/Wj5PnCQrQdI)<br><sub>2026 第16週｜前面是海，後面是追兵——什麼都別做，只要站住？</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 已存档 · d8071b2b | 已發布 | `Wj5PnCQrQdI` |
+| 2026-11-15 | [第 16 週 · 七天「站住與收取」：哪一杯苦水，已經開始變甜了？](https://youtu.be/dnUQ0pqiObI)<br><sub>2026 第16週｜七天「站住與收取」：哪一杯苦水，已經開始變甜了？</sub> | Short · 導入 | 來跟隨我 2026（中文） | 已存档 · 15e3f1a5 | 已發布 | `dnUQ0pqiObI` |
 | 2026-11-15 | [第 18 週 · 歸耶和華為聖](https://youtu.be/OHRVhqhda84)<br><sub>來跟隨我 2026 第18週（4月27日–5月3日）｜歸耶和華為聖 · 出埃及記 35–40；利未記 1；4；16；19</sub> | 長集 | Come, Follow Me 2026（中文） | 已存档 · dc55ac2d | 已發布 | `OHRVhqhda84` |
 | 2026-11-15 | [第 18 週 · 來跟隨我 第18週](https://youtu.be/LnLgmWwl7FM)<br><sub>榮光充滿了帳幕｜來跟隨我 第18週</sub> | Short · 鉤子 | Come, Follow Me 2026（中文） | 已存档 · dc55ac2d | 已發布 | `LnLgmWwl7FM` |
 | 2026-11-15 | [第 18 週 · 來跟隨我 第18週](https://youtu.be/UBgiaUf5LXI)<br><sub>每天甘心，完成一件善行｜來跟隨我 第18週</sub> | Short · 導入 | Come, Follow Me 2026（中文） | 已存档 · dc55ac2d | 已發布 | `UBgiaUf5LXI` |
-| 2026-11-14 | [第 16 週 · 只管站住！看耶和華……的救恩](https://youtu.be/bElilMPZDxM)<br><sub>來跟隨我 2026 第16週（4月13日–19日）｜只管站住！看耶和華……的救恩 · 出埃及記 14–18</sub> | 長集 | 來跟隨我 2026（中文） | 待存档 | 已發布 | `bElilMPZDxM` |
+| 2026-11-14 | [第 16 週 · 只管站住！看耶和華……的救恩](https://youtu.be/bElilMPZDxM)<br><sub>來跟隨我 2026 第16週（4月13日–19日）｜只管站住！看耶和華……的救恩 · 出埃及記 14–18</sub> | 長集 | 來跟隨我 2026（中文） | 已存档 · d779449f | 已發布 | `bElilMPZDxM` |
 | 2026-11-03 | [第 3 週 · 地是空虛混沌，祂說：要有光](https://youtu.be/G0UH51vPj9s)<br><sub>2026 第3週｜地是空虛混沌，祂說：要有光</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 待存档 | Private · 重複上傳 | `G0UH51vPj9s` |
 | 2026-11-03 | [第 3 週 · 七天操練：照著創造的次序過一周](https://youtu.be/g9nguOQgU4o)<br><sub>2026 第3週｜七天操練：照著創造的次序過一周</sub> | Short · 導入 | 來跟隨我 2026（中文） | 待存档 | Private · 重複上傳 | `g9nguOQgU4o` |
 | 2026-11-02 | [第 51 週 · 我曾愛你們](https://youtu.be/3l6lpOWsSk0)<br><sub>來跟隨我 2026 第51週（12月14日–20日）｜我曾愛你們 · 瑪拉基書</sub> | 長集 | 來跟隨我 2026（中文） | 待存档 | Private · 重複上傳 | `3l6lpOWsSk0` |
