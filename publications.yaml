@@ -5121,6 +5121,7 @@ replaced_or_private:
   published: '2026-11-13'
   url: https://youtu.be/2wu6ckRFzcc
   native_id: 2wu6ckRFzcc
+  playlist: 每日經文 · Neville 解讀 2026（中文）
   status: 'Private — duplicate upload of the Psalm 139:10 ZH long (same title, uploaded 2026-11-13 in the same run as the canonical RPWsM5RWgpk), never published; API-verified Private 2026-11-14 (channel unlock audit), retained not deleted pending boss ruling'
 - platform: YouTube
   series: Daily Verse · Neville Readings
@@ -5131,6 +5132,7 @@ replaced_or_private:
   published: '2026-11-13'
   url: https://youtu.be/Fbhq9Uq1dX0
   native_id: Fbhq9Uq1dX0
+  playlist: 每日經文 · Neville 解讀 2026（中文）
   status: 'Private — duplicate upload of the Psalm 139:10 ZH long (same title, uploaded 2026-11-13 in the same run as the canonical RPWsM5RWgpk), never published; API-verified Private 2026-11-14 (channel unlock audit), retained not deleted pending boss ruling'
 - platform: YouTube
   series: Come, Follow Me 2026
@@ -5196,7 +5198,80 @@ replaced_or_private:
   published: '2026-11-14'
   url: https://youtu.be/4tN-1vTqsCA
   native_id: 4tN-1vTqsCA
+  playlist: 毎日の聖句 · 日本語
   status: 'Public — inserted Public 2026-11-14 half-finished: uploaded JA captions missing (captions.insert failed 403 quotaExceeded) and not in the JA playlist (release audit 2026-11-14 anomaly A1); AI disclosure NOT set — midnight-batch P3 remainder'
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 18 — Exodus 35–40; Leviticus 1; 4; 16; 19 (Tabernacle)
+  language: zh
+  type: Long
+  title: 來跟隨我 2026 第18週（4月27日–5月3日）｜歸耶和華為聖 · 出埃及記 35–40；利未記 1；4；16；19
+  published: '2026-11-15'
+  url: https://youtu.be/OHRVhqhda84
+  native_id: OHRVhqhda84
+  playlist: Come, Follow Me 2026（中文）
+  archive_note: dc55ac2d-81c7-4d99-9a3f-9ed4e916ab42
+  status: Live
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 18 — Exodus 35–40; Leviticus 1; 4; 16; 19 (Tabernacle)
+  language: zh
+  type: Short (hook)
+  title: 榮光充滿了帳幕｜來跟隨我 第18週 #Shorts
+  published: '2026-11-15'
+  url: https://youtu.be/LnLgmWwl7FM
+  native_id: LnLgmWwl7FM
+  playlist: Come, Follow Me 2026（中文）
+  archive_note: dc55ac2d-81c7-4d99-9a3f-9ed4e916ab42
+  status: Live
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 18 — Exodus 35–40; Leviticus 1; 4; 16; 19 (Tabernacle)
+  language: zh
+  type: Short (funnel)
+  title: 每天甘心，完成一件善行｜來跟隨我 第18週 #Shorts
+  published: '2026-11-15'
+  url: https://youtu.be/UBgiaUf5LXI
+  native_id: UBgiaUf5LXI
+  playlist: Come, Follow Me 2026（中文）
+  archive_note: dc55ac2d-81c7-4d99-9a3f-9ed4e916ab42
+  status: Live
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 18 — Exodus 35–40; Leviticus 1; 4; 16; 19 (Tabernacle)
+  language: en
+  type: Long
+  title: CFM 2026 Week 18 (Apr 27–May 3) | Holiness to the Lord · Exodus 35–40; Leviticus 1; 4; 16; 19
+  published: '2026-11-15'
+  url: https://youtu.be/kKru778WOeE
+  native_id: kKru778WOeE
+  playlist: Come, Follow Me 2026 (English)
+  archive_note: ee2ddf02-2ca0-4061-b7f2-7aafd0f842d9
+  status: Live
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 18 — Exodus 35–40; Leviticus 1; 4; 16; 19 (Tabernacle)
+  language: en
+  type: Short (hook)
+  title: The Glory Filled the Tabernacle | CFM Week 18 #Shorts
+  published: '2026-11-15'
+  url: https://youtu.be/LyLMm02mG18
+  native_id: LyLMm02mG18
+  playlist: Come, Follow Me 2026 (English)
+  archive_note: ee2ddf02-2ca0-4061-b7f2-7aafd0f842d9
+  status: Live
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 18 — Exodus 35–40; Leviticus 1; 4; 16; 19 (Tabernacle)
+  language: en
+  type: Short (funnel)
+  title: One Willing Act a Day | CFM Week 18 #Shorts
+  published: '2026-11-15'
+  url: https://youtu.be/DEt5x4AiWyc
+  native_id: DEt5x4AiWyc
+  playlist: Come, Follow Me 2026 (English)
+  archive_note: ee2ddf02-2ca0-4061-b7f2-7aafd0f842d9
+  status: Uploaded + inserted into the EN playlist 2026-11-15; flip to Public + AI disclosure BLOCKED by YouTube API daily quota (403 quotaExceeded during finalize) — flip owed after quota reset (midnight PT 2026-11-16), then set status Live
 unverified:
 - item: CFM Lesson 3 (6 videos, published 2026-11-03) — Evernote archive notes missing
   reason: Checked 2026-11-03 — no archive notes found in Evernote by video ID or title; archive ZIPs not yet built. Finals retained on M1 mini (~/cfm-bf03-creation) and in the run dir on the VM.
