@@ -4045,6 +4045,7 @@ publications:
   url: https://youtu.be/f05-tmHi4BQ
   native_id: f05-tmHi4BQ
   playlist: 來跟隨我 2026（中文）
+  archive_note: 92b316cc-4595-450c-8912-c4d2ec699d3b
   status: Live
 - platform: YouTube
   series: Come, Follow Me 2026
@@ -4056,6 +4057,7 @@ publications:
   url: https://youtu.be/n54suN_x0bk
   native_id: n54suN_x0bk
   playlist: 來跟隨我 2026（中文）
+  archive_note: 92b316cc-4595-450c-8912-c4d2ec699d3b
   status: Live
 - platform: YouTube
   series: Come, Follow Me 2026
@@ -4067,6 +4069,7 @@ publications:
   url: https://youtu.be/dS7sqr7UfIs
   native_id: dS7sqr7UfIs
   playlist: 來跟隨我 2026（中文）
+  archive_note: 92b316cc-4595-450c-8912-c4d2ec699d3b
   status: Live
 - platform: YouTube
   series: Come, Follow Me 2026
@@ -4078,6 +4081,7 @@ publications:
   url: https://youtu.be/utCeYcxEMSg
   native_id: utCeYcxEMSg
   playlist: Come, Follow Me 2026 (English)
+  archive_note: f9d6126e-fd6e-4044-a05d-b3994d064ae0
   status: Live
 - platform: YouTube
   series: Come, Follow Me 2026
@@ -4089,6 +4093,7 @@ publications:
   url: https://youtu.be/EkyxvA7fUt0
   native_id: EkyxvA7fUt0
   playlist: Come, Follow Me 2026 (English)
+  archive_note: f9d6126e-fd6e-4044-a05d-b3994d064ae0
   status: Live
 - platform: YouTube
   series: Come, Follow Me 2026
@@ -4100,6 +4105,7 @@ publications:
   url: https://youtu.be/nAJOZpFYKOM
   native_id: nAJOZpFYKOM
   playlist: Come, Follow Me 2026 (English)
+  archive_note: f9d6126e-fd6e-4044-a05d-b3994d064ae0
   status: Live
 
 replaced_or_private:
