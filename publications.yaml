@@ -4118,6 +4118,7 @@ publications:
   url: https://youtu.be/ZqDqZNXJP-o
   native_id: ZqDqZNXJP-o
   playlist: 來跟隨我 2026（中文）
+  archive_note: 44264b02-519a-4c0a-9bdc-7bfe1f9b23c8
   status: Live
   note: 'ZH long uploaded via the YouTube Data API on 2026-11-16 and published Public the same day (API-verified 2026-11-16: public, duration PT18M47S, inserted into playlist PLDplaecZ3Y5Q by finalize_bf25.py). At registration time the zh-Hans and zh-Hant caption tracks, the custom thumbnail and the pinned comment were still pending: the shared generic API quota pool was exhausted (403 quotaExceeded on captions.insert). Those steps, the playlist membership read-back and the Evernote archive note (Gospel notebook, tags 來跟隨我 第25週 + Neville Goddard) resume after the quota reset at 2026-11-17 00:00 PST; archive_note will be backfilled then.'
 - platform: YouTube
@@ -4129,6 +4130,7 @@ publications:
   url: https://youtu.be/wNO63aXM8ug
   native_id: wNO63aXM8ug
   playlist: 來跟隨我 2026（中文）
+  archive_note: 44264b02-519a-4c0a-9bdc-7bfe1f9b23c8
   status: Private
   note: 'Uploaded via the YouTube Data API on 2026-11-16 (Video Uploads pool) and held Private: playlist insertion into PLDplaecZ3Y5Q, the flip to Public and the AI-content disclosure were blocked by the exhausted generic quota pool (403 quotaExceeded). All three steps resume after the quota reset at 2026-11-17 00:00 PST via finalize_bf25.py; this row flips to Live once the video is Public. The Studio Related video field must also be set to the long ZqDqZNXJP-o.'
 - platform: YouTube
@@ -4140,6 +4142,7 @@ publications:
   url: https://youtu.be/_C1NbIVaTyo
   native_id: _C1NbIVaTyo
   playlist: 來跟隨我 2026（中文）
+  archive_note: 44264b02-519a-4c0a-9bdc-7bfe1f9b23c8
   status: Private
   note: 'Uploaded via the YouTube Data API on 2026-11-16 (Video Uploads pool) and held Private: playlist insertion into PLDplaecZ3Y5Q, the flip to Public and the AI-content disclosure were blocked by the exhausted generic quota pool (403 quotaExceeded). All three steps resume after the quota reset at 2026-11-17 00:00 PST via finalize_bf25.py; this row flips to Live once the video is Public. The Studio Related video field must also be set to the long ZqDqZNXJP-o.'
 replaced_or_private:
