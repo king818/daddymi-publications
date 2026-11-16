@@ -4108,6 +4108,40 @@ publications:
   archive_note: f9d6126e-fd6e-4044-a05d-b3994d064ae0
   status: Live
 
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 25 — 1 Samuel 17–18; 24–26; 2 Samuel 5–7
+  language: zh
+  type: Long
+  title: 來跟隨我 2026 第25週（6月15日–21日）｜爭戰的勝敗全在乎耶和華 · 撒母耳記上 17–18；24–26；撒母耳記下 5–7
+  published: '2026-11-16'
+  url: https://youtu.be/ZqDqZNXJP-o
+  native_id: ZqDqZNXJP-o
+  playlist: 來跟隨我 2026（中文）
+  status: Live
+  note: 'ZH long uploaded via the YouTube Data API on 2026-11-16 and published Public the same day (API-verified 2026-11-16: public, duration PT18M47S, inserted into playlist PLDplaecZ3Y5Q by finalize_bf25.py). At registration time the zh-Hans and zh-Hant caption tracks, the custom thumbnail and the pinned comment were still pending: the shared generic API quota pool was exhausted (403 quotaExceeded on captions.insert). Those steps, the playlist membership read-back and the Evernote archive note (Gospel notebook, tags 來跟隨我 第25週 + Neville Goddard) resume after the quota reset at 2026-11-17 00:00 PST; archive_note will be backfilled then.'
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 25 — 1 Samuel 17–18; 24–26; 2 Samuel 5–7
+  language: zh
+  type: Short (hook)
+  title: 爭戰的勝敗全在乎耶和華｜來跟隨我 第25週 #Shorts
+  url: https://youtu.be/wNO63aXM8ug
+  native_id: wNO63aXM8ug
+  playlist: 來跟隨我 2026（中文）
+  status: Private
+  note: 'Uploaded via the YouTube Data API on 2026-11-16 (Video Uploads pool) and held Private: playlist insertion into PLDplaecZ3Y5Q, the flip to Public and the AI-content disclosure were blocked by the exhausted generic quota pool (403 quotaExceeded). All three steps resume after the quota reset at 2026-11-17 00:00 PST via finalize_bf25.py; this row flips to Live once the video is Public. The Studio Related video field must also be set to the long ZqDqZNXJP-o.'
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 25 — 1 Samuel 17–18; 24–26; 2 Samuel 5–7
+  language: zh
+  type: Short (funnel)
+  title: 先在主面前得勝，再行動｜來跟隨我 第25週 #Shorts
+  url: https://youtu.be/_C1NbIVaTyo
+  native_id: _C1NbIVaTyo
+  playlist: 來跟隨我 2026（中文）
+  status: Private
+  note: 'Uploaded via the YouTube Data API on 2026-11-16 (Video Uploads pool) and held Private: playlist insertion into PLDplaecZ3Y5Q, the flip to Public and the AI-content disclosure were blocked by the exhausted generic quota pool (403 quotaExceeded). All three steps resume after the quota reset at 2026-11-17 00:00 PST via finalize_bf25.py; this row flips to Live once the video is Public. The Studio Related video field must also be set to the long ZqDqZNXJP-o.'
 replaced_or_private:
 - platform: YouTube
   series: Daily Verse · Neville Readings
