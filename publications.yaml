@@ -5296,7 +5296,7 @@ replaced_or_private:
   native_id: DEt5x4AiWyc
   playlist: Come, Follow Me 2026 (English)
   archive_note: ee2ddf02-2ca0-4061-b7f2-7aafd0f842d9
-  status: Uploaded + inserted into the EN playlist 2026-11-15; flip to Public + AI disclosure BLOCKED by YouTube API daily quota (403 quotaExceeded during finalize) — flip owed after quota reset (midnight PT 2026-11-16), then set status Live
+  status: Live
 unverified:
 - item: CFM Lesson 3 (6 videos, published 2026-11-03) — Evernote archive notes missing
   reason: Checked 2026-11-03 — no archive notes found in Evernote by video ID or title; archive ZIPs not yet built. Finals retained on M1 mini (~/cfm-bf03-creation) and in the run dir on the VM.
