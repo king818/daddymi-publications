@@ -2,13 +2,16 @@
 
 Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, filterable version: https://king818.github.io/daddymi-publications/
 
-**335 public videos** · 106 replaced/private versions · Come, Follow Me 2026: 138 · Daily Verse · Neville Readings: 150 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 28 · Mi Xi Intro Podcast: 4 · Music Videos: 2 · Neville Inner Reading Podcast: 7
+**341 public videos** · 106 replaced/private versions · Come, Follow Me 2026: 144 · Daily Verse · Neville Readings: 150 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 28 · Mi Xi Intro Podcast: 4 · Music Videos: 2 · Neville Inner Reading Podcast: 7
 
 
-## 來跟隨我 2026 — 中文（69）
+## 來跟隨我 2026 — 中文（72）
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
+| 2026-11-16 | [第 19 週 · 你們不可背叛耶和華，也不要怕](https://youtu.be/f05-tmHi4BQ)<br><sub>來跟隨我 2026 第19週（5月4日–10日）｜你們不可背叛耶和華，也不要怕 · 民數記 11–14；20–24；27</sub> | 長集 | 來跟隨我 2026（中文） | 待存档 | 已發布 | `f05-tmHi4BQ` |
+| 2026-11-16 | [第 19 週 · 來跟隨我 第19週](https://youtu.be/n54suN_x0bk)<br><sub>不要怕他們，他們是我們的食物｜來跟隨我 第19週</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 待存档 | 已發布 | `n54suN_x0bk` |
+| 2026-11-16 | [第 19 週 · 來跟隨我 第19週](https://youtu.be/dS7sqr7UfIs)<br><sub>七天，一句信心的話｜來跟隨我 第19週</sub> | Short · 導入 | 來跟隨我 2026（中文） | 待存档 | 已發布 | `dS7sqr7UfIs` |
 | 2026-11-08 | [第 44 週 · 我必使哀哭變為歡樂](https://youtu.be/-YkdQZ-Qm_Q)<br><sub>來跟隨我 2026 第44週（10月26日–11月1日）｜我必使哀哭變為歡樂 · 耶利米書</sub> | 長集 | 來跟隨我 2026（中文） | 已存档 · 4327f78b | 已發布 | `-YkdQZ-Qm_Q` |
 | 2026-11-06 | [第 7 週 · 挪亞在耶和華眼前蒙恩](https://youtu.be/BIEDfPA9orY)<br><sub>來跟隨我 2026 第7週（2月9日–15日）｜挪亞在耶和華眼前蒙恩 · 創世記 6–11；摩西書 8</sub> | 長集 | 來跟隨我 2026（中文） | 已存档 · 3469a5b7 | 已發布 | `BIEDfPA9orY` |
 | 2026-11-06 | [第 7 週 · 耶和華把他關在方舟裡頭](https://youtube.com/shorts/e0n1SdnavrA)<br><sub>2026 第7週｜耶和華把他關在方舟裡頭</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 已存档 · 21ff8a3f | 已發布 | `e0n1SdnavrA` |
@@ -79,10 +82,13 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-10-31 | [第 45 週 · 神到流亡之地找你｜以西結書](https://www.youtube.com/shorts/Tk8jNm_BPrc)<br><sub>2026 第45週｜神到流亡之地找你｜以西結書</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 已存档 · dbaae7fa | 已發布 | `Tk8jNm_BPrc` |
 | 2026-10-31 | [第 45 週 · 除掉石心，賜給你們肉心｜以西結書](https://www.youtube.com/shorts/Rspv2DcNX_s)<br><sub>2026 第45週｜除掉石心，賜給你們肉心｜以西結書</sub> | Short · 導入 | 來跟隨我 2026（中文） | 已存档 · f9a717b1 | 已發布 | `Rspv2DcNX_s` |
 
-## Come, Follow Me 2026 — English (69)
+## Come, Follow Me 2026 — English (72)
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
+| 2026-11-16 | [Week 19 · Numbers 11–14; 20–24; 27](https://youtu.be/utCeYcxEMSg)<br><sub>CFM 2026 Week 19 (May 4–10) | Rebel Not Ye against the Lord, Neither Fear · Numbers 11–14; 20–24; 27</sub> | Long | Come, Follow Me 2026 (English) | Not archived yet | Live | `utCeYcxEMSg` |
+| 2026-11-16 | [Week 19 · Numbers 11–14; 20–24; 27](https://youtu.be/EkyxvA7fUt0)<br><sub>Rebel Not Ye against the Lord, Neither Fear | CFM Week 19</sub> | Short (hook) | Come, Follow Me 2026 (English) | Not archived yet | Live | `EkyxvA7fUt0` |
+| 2026-11-16 | [Week 19 · Numbers 11–14; 20–24; 27](https://youtu.be/nAJOZpFYKOM)<br><sub>Seven Days, One Word of Faith | CFM Week 19</sub> | Short (funnel) | Come, Follow Me 2026 (English) | Not archived yet | Live | `nAJOZpFYKOM` |
 | 2026-11-08 | [Week 44 · Jeremiah](https://youtu.be/TCyMDamf0g0)<br><sub>Come, Follow Me 2026 Week 44 (Oct 26–Nov 1) | I Will Turn Their Mourning into Joy · Jeremiah</sub> | Long | Come, Follow Me 2026 (English) | Archived · 77aeaa26 | Live | `TCyMDamf0g0` |
 | 2026-11-06 | [Week 7 · Noah Found Grace in the Eyes of the Lord](https://youtu.be/AxuOxwJaquI)<br><sub>CFM 2026 Week 7 (Feb 9–15) | Noah Found Grace in the Eyes of the Lord · Genesis 6–11; Moses 8</sub> | Long | Come, Follow Me 2026 (English) | Archived · ed0140c7 | Live | `AxuOxwJaquI` |
 | 2026-11-06 | [Week 7 · Noah Found Grace in the Eyes of the Lord](https://youtube.com/shorts/sKNgkpe7wcc)<br><sub>2026 Week 7 | "And the Lord Shut Him In"</sub> | Short (hook) | Come, Follow Me 2026 (English) | Archived · af677ce8 | Live | `sKNgkpe7wcc` |

@@ -4035,6 +4035,73 @@ publications:
   dedicated_page: https://daddymi777.com/gospel-wisdom/mixi/
   status: Public
   note: 'Mi Xi intro podcast, Japanese episode (take 2, gate PASS): podcast-style video built from the finished episode audio - Mi Xi portrait for opening and closing, each song segment carries its own cover art. Uploaded via the YouTube Data API on 2026-11-13 and published Public the same day (API-verified 2026-11-13: public, duration PT8M28S). At registration time the ja captions, the custom thumbnail, the Japanese playlist and the AI-content disclosure submission were still pending: the shared YouTube Data API quota pool was exhausted (403 quotaExceeded on captions.insert / thumbnails.set / playlists.insert / videos.update, re-confirmed 2026-11-13 ~16:25 PST). All four resume after the quota reset at 2026-11-14 00:00 PST via the staged steps recorded in the production package upload-state.json; playlist fields will be added when the playlist exists.'
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 19 — Numbers 11–14; 20–24; 27
+  language: zh
+  type: Long
+  title: 來跟隨我 2026 第19週（5月4日–10日）｜你們不可背叛耶和華，也不要怕 · 民數記 11–14；20–24；27
+  published: '2026-11-16'
+  url: https://youtu.be/f05-tmHi4BQ
+  native_id: f05-tmHi4BQ
+  playlist: 來跟隨我 2026（中文）
+  status: Live
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 19 — Numbers 11–14; 20–24; 27
+  language: zh
+  type: Short (hook)
+  title: 不要怕他們，他們是我們的食物｜來跟隨我 第19週 #Shorts
+  published: '2026-11-16'
+  url: https://youtu.be/n54suN_x0bk
+  native_id: n54suN_x0bk
+  playlist: 來跟隨我 2026（中文）
+  status: Live
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 19 — Numbers 11–14; 20–24; 27
+  language: zh
+  type: Short (funnel)
+  title: 七天，一句信心的話｜來跟隨我 第19週 #Shorts
+  published: '2026-11-16'
+  url: https://youtu.be/dS7sqr7UfIs
+  native_id: dS7sqr7UfIs
+  playlist: 來跟隨我 2026（中文）
+  status: Live
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 19 — Numbers 11–14; 20–24; 27
+  language: en
+  type: Long
+  title: CFM 2026 Week 19 (May 4–10) | Rebel Not Ye against the Lord, Neither Fear · Numbers 11–14; 20–24; 27
+  published: '2026-11-16'
+  url: https://youtu.be/utCeYcxEMSg
+  native_id: utCeYcxEMSg
+  playlist: Come, Follow Me 2026 (English)
+  status: Live
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 19 — Numbers 11–14; 20–24; 27
+  language: en
+  type: Short (hook)
+  title: Rebel Not Ye against the Lord, Neither Fear | CFM Week 19 #Shorts
+  published: '2026-11-16'
+  url: https://youtu.be/EkyxvA7fUt0
+  native_id: EkyxvA7fUt0
+  playlist: Come, Follow Me 2026 (English)
+  status: Live
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 19 — Numbers 11–14; 20–24; 27
+  language: en
+  type: Short (funnel)
+  title: Seven Days, One Word of Faith | CFM Week 19 #Shorts
+  published: '2026-11-16'
+  url: https://youtu.be/nAJOZpFYKOM
+  native_id: nAJOZpFYKOM
+  playlist: Come, Follow Me 2026 (English)
+  status: Live
+
 replaced_or_private:
 - platform: YouTube
   series: Daily Verse · Neville Readings
