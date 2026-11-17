@@ -4289,6 +4289,42 @@ publications:
   playlist: 來跟隨我 2026（中文）
   archive_note: ee0850fe-5b3a-4b90-8601-79976b11c3c0
   status: Live
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 31 — Ezra 1; 3–7; Nehemiah 2; 4–6; 8
+  language: zh
+  type: Long
+  title: 來跟隨我 2026 第31週（7月27日–8月2日）｜我現在辦理大工 · 以斯拉記 1；3–7；尼希米記 2；4–6；8
+  published: '2026-11-17'
+  url: https://youtu.be/jENKnoPaZ4U
+  native_id: jENKnoPaZ4U
+  playlist: 來跟隨我 2026（中文）
+  archive_note: ec517c82-ae8e-4c89-b514-59482269e603
+  status: Live
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 31 — Ezra 1; 3–7; Nehemiah 2; 4–6; 8
+  language: zh
+  type: Short (hook)
+  title: 我現在辦理大工，不能下去｜來跟隨我 第31週 #Shorts
+  published: '2026-11-17'
+  url: https://youtu.be/gXrpFRV40_k
+  native_id: gXrpFRV40_k
+  playlist: 來跟隨我 2026（中文）
+  archive_note: ec517c82-ae8e-4c89-b514-59482269e603
+  status: Live
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 31 — Ezra 1; 3–7; Nehemiah 2; 4–6; 8
+  language: zh
+  type: Short (funnel)
+  title: 守住我的大工｜來跟隨我 第31週 #Shorts
+  published: '2026-11-17'
+  url: https://youtu.be/lTnAAgDdAbE
+  native_id: lTnAAgDdAbE
+  playlist: 來跟隨我 2026（中文）
+  archive_note: ec517c82-ae8e-4c89-b514-59482269e603
+  status: Live
 replaced_or_private:
 - platform: YouTube
   series: Daily Verse · Neville Readings
