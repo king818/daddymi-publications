@@ -4217,6 +4217,78 @@ publications:
   playlist: 來跟隨我 2026（中文）
   archive_note: 8d554d98-aea5-42a6-83c0-4ced018fcb40
   status: Live
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 21 — Joshua 1–8; 23–24
+  language: en
+  type: Long
+  title: CFM 2026 Week 21 (May 18–24) | Be Strong and of a Good Courage · Joshua 1–8; 23–24
+  published: '2026-11-17'
+  url: https://youtu.be/9Psn6razT8k
+  native_id: 9Psn6razT8k
+  playlist: Come, Follow Me 2026 (English)
+  archive_note: f327cea7-e218-43b3-b6f7-5e06da141cb5
+  status: Live
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 21 — Joshua 1–8; 23–24
+  language: en
+  type: Short (hook)
+  title: Be Strong and of a Good Courage | CFM Week 21 #Shorts
+  published: '2026-11-17'
+  url: https://youtu.be/1D07NtiX22I
+  native_id: 1D07NtiX22I
+  playlist: Come, Follow Me 2026 (English)
+  archive_note: f327cea7-e218-43b3-b6f7-5e06da141cb5
+  status: Live
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 21 — Joshua 1–8; 23–24
+  language: en
+  type: Short (funnel)
+  title: One Faithful Step Today | CFM Week 21 #Shorts
+  published: '2026-11-17'
+  url: https://youtu.be/eDY8bjREo9s
+  native_id: eDY8bjREo9s
+  playlist: Come, Follow Me 2026 (English)
+  archive_note: f327cea7-e218-43b3-b6f7-5e06da141cb5
+  status: Live
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 22 — Judges 2–4; 6–8; 13–16
+  language: zh
+  type: Long
+  title: 來跟隨我 2026 第22週（5月25日–31日）｜耶和華就……興起一位拯救者 · 士師記 2–4；6–8；13–16
+  published: '2026-11-17'
+  url: https://youtu.be/_6ob_jfztcI
+  native_id: _6ob_jfztcI
+  playlist: 來跟隨我 2026（中文）
+  archive_note: ee0850fe-5b3a-4b90-8601-79976b11c3c0
+  status: Live
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 22 — Judges 2–4; 6–8; 13–16
+  language: zh
+  type: Short (hook)
+  title: 耶和華豈不在你前頭行嗎｜來跟隨我 第22週 #Shorts
+  published: '2026-11-17'
+  url: https://youtu.be/vCIPM6xjHEc
+  native_id: vCIPM6xjHEc
+  playlist: 來跟隨我 2026（中文）
+  archive_note: ee0850fe-5b3a-4b90-8601-79976b11c3c0
+  status: Live
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 22 — Judges 2–4; 6–8; 13–16
+  language: zh
+  type: Short (funnel)
+  title: 每晚三分鐘｜來跟隨我 第22週 #Shorts
+  published: '2026-11-17'
+  url: https://youtu.be/2XhDPSGvoS4
+  native_id: 2XhDPSGvoS4
+  playlist: 來跟隨我 2026（中文）
+  archive_note: ee0850fe-5b3a-4b90-8601-79976b11c3c0
+  status: Live
 replaced_or_private:
 - platform: YouTube
   series: Daily Verse · Neville Readings
