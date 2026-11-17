@@ -4145,6 +4145,78 @@ publications:
   archive_note: 44264b02-519a-4c0a-9bdc-7bfe1f9b23c8
   status: Private
   note: 'Uploaded via the YouTube Data API on 2026-11-16 (Video Uploads pool) and held Private: playlist insertion into PLDplaecZ3Y5Q, the flip to Public and the AI-content disclosure were blocked by the exhausted generic quota pool (403 quotaExceeded). All three steps resume after the quota reset at 2026-11-17 00:00 PST via finalize_bf25.py; this row flips to Live once the video is Public. The Studio Related video field must also be set to the long ZqDqZNXJP-o.'
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 17 — Exodus 19–20; 24; 31–34
+  language: en
+  type: Long
+  title: CFM 2026 Week 17 (Apr 20–26) | All That the Lord Hath Spoken We Will Do · Exodus 19–20; 24; 31–34
+  published: '2026-11-17'
+  url: https://youtu.be/mkFsHhuhRCo
+  native_id: mkFsHhuhRCo
+  playlist: Come, Follow Me 2026 (English)
+  archive_note: f82a70e6-9760-450b-aaaf-d4687da4cdcc
+  status: Live
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 17 — Exodus 19–20; 24; 31–34
+  language: en
+  type: Short (hook)
+  title: All That the Lord Hath Spoken We Will Do | CFM Week 17 #Shorts
+  published: '2026-11-17'
+  url: https://youtu.be/6cTqLrQdPP8
+  native_id: 6cTqLrQdPP8
+  playlist: Come, Follow Me 2026 (English)
+  archive_note: f82a70e6-9760-450b-aaaf-d4687da4cdcc
+  status: Live
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 17 — Exodus 19–20; 24; 31–34
+  language: en
+  type: Short (funnel)
+  title: Turn One Daily Choice toward God | CFM Week 17 #Shorts
+  published: '2026-11-17'
+  url: https://youtu.be/aHy-q5kWcMc
+  native_id: aHy-q5kWcMc
+  playlist: Come, Follow Me 2026 (English)
+  archive_note: f82a70e6-9760-450b-aaaf-d4687da4cdcc
+  status: Live
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 20 — Deuteronomy 6–8; 15; 18; 29–30; 34
+  language: zh
+  type: Long
+  title: 來跟隨我 2026 第20週（5月11日–17日）｜你要謹慎，免得你忘記……耶和華 · 申命記 6–8；15；18；29–30；34
+  published: '2026-11-17'
+  url: https://youtu.be/CZPH0wvBdCw
+  native_id: CZPH0wvBdCw
+  playlist: 來跟隨我 2026（中文）
+  archive_note: 8d554d98-aea5-42a6-83c0-4ced018fcb40
+  status: Live
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 20 — Deuteronomy 6–8; 15; 18; 29–30; 34
+  language: zh
+  type: Short (hook)
+  title: 得到一切之後，還記得是誰給的嗎｜來跟隨我 第20週 #Shorts
+  published: '2026-11-17'
+  url: https://youtu.be/EfwWCubjP5o
+  native_id: EfwWCubjP5o
+  playlist: 來跟隨我 2026（中文）
+  archive_note: 8d554d98-aea5-42a6-83c0-4ced018fcb40
+  status: Live
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 20 — Deuteronomy 6–8; 15; 18; 29–30; 34
+  language: zh
+  type: Short (funnel)
+  title: 七天，記念與感恩的日記｜來跟隨我 第20週 #Shorts
+  published: '2026-11-17'
+  url: https://youtu.be/TU1sFEoRXR4
+  native_id: TU1sFEoRXR4
+  playlist: 來跟隨我 2026（中文）
+  archive_note: 8d554d98-aea5-42a6-83c0-4ced018fcb40
+  status: Live
 replaced_or_private:
 - platform: YouTube
   series: Daily Verse · Neville Readings
