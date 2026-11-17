@@ -2,16 +2,28 @@
 
 Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, filterable version: https://king818.github.io/daddymi-publications/
 
-**341 public videos** · 106 replaced/private versions · Come, Follow Me 2026: 144 · Daily Verse · Neville Readings: 150 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 28 · Mi Xi Intro Podcast: 4 · Music Videos: 2 · Neville Inner Reading Podcast: 7
+**362 public videos** · 106 replaced/private versions · Come, Follow Me 2026: 165 · Daily Verse · Neville Readings: 150 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 28 · Mi Xi Intro Podcast: 4 · Music Videos: 2 · Neville Inner Reading Podcast: 7
 
 
-## 來跟隨我 2026 — 中文（72）
+## 來跟隨我 2026 — 中文（84）
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
+| 2026-11-17 | [第 20 週 · 你要謹慎，免得你忘記……耶和華](https://youtu.be/CZPH0wvBdCw)<br><sub>來跟隨我 2026 第20週（5月11日–17日）｜你要謹慎，免得你忘記……耶和華 · 申命記 6–8；15；18；29–30；34</sub> | 長集 | 來跟隨我 2026（中文） | 已存档 · 8d554d98 | 已發布 | `CZPH0wvBdCw` |
+| 2026-11-17 | [第 20 週 · 來跟隨我 第20週](https://youtu.be/EfwWCubjP5o)<br><sub>得到一切之後，還記得是誰給的嗎｜來跟隨我 第20週</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 已存档 · 8d554d98 | 已發布 | `EfwWCubjP5o` |
+| 2026-11-17 | [第 20 週 · 來跟隨我 第20週](https://youtu.be/TU1sFEoRXR4)<br><sub>七天，記念與感恩的日記｜來跟隨我 第20週</sub> | Short · 導入 | 來跟隨我 2026（中文） | 已存档 · 8d554d98 | 已發布 | `TU1sFEoRXR4` |
+| 2026-11-17 | [第 22 週 · 耶和華就……興起一位拯救者](https://youtu.be/_6ob_jfztcI)<br><sub>來跟隨我 2026 第22週（5月25日–31日）｜耶和華就……興起一位拯救者 · 士師記 2–4；6–8；13–16</sub> | 長集 | 來跟隨我 2026（中文） | 已存档 · ee0850fe | 已發布 | `_6ob_jfztcI` |
+| 2026-11-17 | [第 22 週 · 來跟隨我 第22週](https://youtu.be/vCIPM6xjHEc)<br><sub>耶和華豈不在你前頭行嗎｜來跟隨我 第22週</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 已存档 · ee0850fe | 已發布 | `vCIPM6xjHEc` |
+| 2026-11-17 | [第 22 週 · 來跟隨我 第22週](https://youtu.be/2XhDPSGvoS4)<br><sub>每晚三分鐘｜來跟隨我 第22週</sub> | Short · 導入 | 來跟隨我 2026（中文） | 已存档 · ee0850fe | 已發布 | `2XhDPSGvoS4` |
+| 2026-11-17 | [第 31 週 · 我現在辦理大工](https://youtu.be/jENKnoPaZ4U)<br><sub>來跟隨我 2026 第31週（7月27日–8月2日）｜我現在辦理大工 · 以斯拉記 1；3–7；尼希米記 2；4–6；8</sub> | 長集 | 來跟隨我 2026（中文） | 已存档 · ec517c82 | 已發布 | `jENKnoPaZ4U` |
+| 2026-11-17 | [第 31 週 · 來跟隨我 第31週](https://youtu.be/gXrpFRV40_k)<br><sub>我現在辦理大工，不能下去｜來跟隨我 第31週</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 已存档 · ec517c82 | 已發布 | `gXrpFRV40_k` |
+| 2026-11-17 | [第 31 週 · 來跟隨我 第31週](https://youtu.be/lTnAAgDdAbE)<br><sub>守住我的大工｜來跟隨我 第31週</sub> | Short · 導入 | 來跟隨我 2026（中文） | 已存档 · ec517c82 | 已發布 | `lTnAAgDdAbE` |
 | 2026-11-16 | [第 19 週 · 你們不可背叛耶和華，也不要怕](https://youtu.be/f05-tmHi4BQ)<br><sub>來跟隨我 2026 第19週（5月4日–10日）｜你們不可背叛耶和華，也不要怕 · 民數記 11–14；20–24；27</sub> | 長集 | 來跟隨我 2026（中文） | 已存档 · 92b316cc | 已發布 | `f05-tmHi4BQ` |
 | 2026-11-16 | [第 19 週 · 來跟隨我 第19週](https://youtu.be/n54suN_x0bk)<br><sub>不要怕他們，他們是我們的食物｜來跟隨我 第19週</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 已存档 · 92b316cc | 已發布 | `n54suN_x0bk` |
 | 2026-11-16 | [第 19 週 · 來跟隨我 第19週](https://youtu.be/dS7sqr7UfIs)<br><sub>七天，一句信心的話｜來跟隨我 第19週</sub> | Short · 導入 | 來跟隨我 2026（中文） | 已存档 · 92b316cc | 已發布 | `dS7sqr7UfIs` |
+| 2026-11-16 | [第 25 週 · 爭戰的勝敗全在乎耶和華](https://youtu.be/ZqDqZNXJP-o)<br><sub>來跟隨我 2026 第25週（6月15日–21日）｜爭戰的勝敗全在乎耶和華 · 撒母耳記上 17–18；24–26；撒母耳記下 5–7</sub> | 長集 | 來跟隨我 2026（中文） | 已存档 · 44264b02 | 已發布 | `ZqDqZNXJP-o` |
+| 2026-11-16 | [第 25 週 · 來跟隨我 第25週](https://youtu.be/wNO63aXM8ug)<br><sub>爭戰的勝敗全在乎耶和華｜來跟隨我 第25週</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 已存档 · 44264b02 | Private | `wNO63aXM8ug` |
+| 2026-11-16 | [第 25 週 · 來跟隨我 第25週](https://youtu.be/_C1NbIVaTyo)<br><sub>先在主面前得勝，再行動｜來跟隨我 第25週</sub> | Short · 導入 | 來跟隨我 2026（中文） | 已存档 · 44264b02 | Private | `_C1NbIVaTyo` |
 | 2026-11-08 | [第 44 週 · 我必使哀哭變為歡樂](https://youtu.be/-YkdQZ-Qm_Q)<br><sub>來跟隨我 2026 第44週（10月26日–11月1日）｜我必使哀哭變為歡樂 · 耶利米書</sub> | 長集 | 來跟隨我 2026（中文） | 已存档 · 4327f78b | 已發布 | `-YkdQZ-Qm_Q` |
 | 2026-11-06 | [第 7 週 · 挪亞在耶和華眼前蒙恩](https://youtu.be/BIEDfPA9orY)<br><sub>來跟隨我 2026 第7週（2月9日–15日）｜挪亞在耶和華眼前蒙恩 · 創世記 6–11；摩西書 8</sub> | 長集 | 來跟隨我 2026（中文） | 已存档 · 3469a5b7 | 已發布 | `BIEDfPA9orY` |
 | 2026-11-06 | [第 7 週 · 耶和華把他關在方舟裡頭](https://youtube.com/shorts/e0n1SdnavrA)<br><sub>2026 第7週｜耶和華把他關在方舟裡頭</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 已存档 · 21ff8a3f | 已發布 | `e0n1SdnavrA` |
@@ -82,10 +94,19 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-10-31 | [第 45 週 · 神到流亡之地找你｜以西結書](https://www.youtube.com/shorts/Tk8jNm_BPrc)<br><sub>2026 第45週｜神到流亡之地找你｜以西結書</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 已存档 · dbaae7fa | 已發布 | `Tk8jNm_BPrc` |
 | 2026-10-31 | [第 45 週 · 除掉石心，賜給你們肉心｜以西結書](https://www.youtube.com/shorts/Rspv2DcNX_s)<br><sub>2026 第45週｜除掉石心，賜給你們肉心｜以西結書</sub> | Short · 導入 | 來跟隨我 2026（中文） | 已存档 · f9a717b1 | 已發布 | `Rspv2DcNX_s` |
 
-## Come, Follow Me 2026 — English (72)
+## Come, Follow Me 2026 — English (81)
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
+| 2026-11-17 | [Week 17 · Exodus 19–20; 24; 31–34](https://youtu.be/mkFsHhuhRCo)<br><sub>CFM 2026 Week 17 (Apr 20–26) | All That the Lord Hath Spoken We Will Do · Exodus 19–20; 24; 31–34</sub> | Long | Come, Follow Me 2026 (English) | Archived · f82a70e6 | Live | `mkFsHhuhRCo` |
+| 2026-11-17 | [Week 17 · Exodus 19–20; 24; 31–34](https://youtu.be/6cTqLrQdPP8)<br><sub>All That the Lord Hath Spoken We Will Do | CFM Week 17</sub> | Short (hook) | Come, Follow Me 2026 (English) | Archived · f82a70e6 | Live | `6cTqLrQdPP8` |
+| 2026-11-17 | [Week 17 · Exodus 19–20; 24; 31–34](https://youtu.be/aHy-q5kWcMc)<br><sub>Turn One Daily Choice toward God | CFM Week 17</sub> | Short (funnel) | Come, Follow Me 2026 (English) | Archived · f82a70e6 | Live | `aHy-q5kWcMc` |
+| 2026-11-17 | [Week 21 · Joshua 1–8; 23–24](https://youtu.be/9Psn6razT8k)<br><sub>CFM 2026 Week 21 (May 18–24) | Be Strong and of a Good Courage · Joshua 1–8; 23–24</sub> | Long | Come, Follow Me 2026 (English) | Archived · f327cea7 | Live | `9Psn6razT8k` |
+| 2026-11-17 | [Week 21 · Joshua 1–8; 23–24](https://youtu.be/1D07NtiX22I)<br><sub>Be Strong and of a Good Courage | CFM Week 21</sub> | Short (hook) | Come, Follow Me 2026 (English) | Archived · f327cea7 | Live | `1D07NtiX22I` |
+| 2026-11-17 | [Week 21 · Joshua 1–8; 23–24](https://youtu.be/eDY8bjREo9s)<br><sub>One Faithful Step Today | CFM Week 21</sub> | Short (funnel) | Come, Follow Me 2026 (English) | Archived · f327cea7 | Live | `eDY8bjREo9s` |
+| 2026-11-17 | [Week 31 · Ezra 1; 3–7; Nehemiah 2; 4–6; 8](https://youtu.be/bI7pWE5hz4I)<br><sub>CFM 2026 Week 31 (July 27–August 2) | I Am Doing a Great Work · Ezra 1; 3–7; Nehemiah 2; 4–6; 8</sub> | Long | Come, Follow Me 2026 (English) | Archived · a4788a77 | Live | `bI7pWE5hz4I` |
+| 2026-11-17 | [Week 31 · Ezra 1; 3–7; Nehemiah 2; 4–6; 8](https://youtu.be/2GRO5OP0InM)<br><sub>I Am Doing a Great Work — I Cannot Come Down | CFM Week 31</sub> | Short (hook) | Come, Follow Me 2026 (English) | Archived · a4788a77 | Live | `2GRO5OP0InM` |
+| 2026-11-17 | [Week 31 · Ezra 1; 3–7; Nehemiah 2; 4–6; 8](https://youtu.be/8N6ahR31XuE)<br><sub>Stay with the Great Work | CFM Week 31</sub> | Short (funnel) | Come, Follow Me 2026 (English) | Archived · a4788a77 | Live | `8N6ahR31XuE` |
 | 2026-11-16 | [Week 19 · Numbers 11–14; 20–24; 27](https://youtu.be/utCeYcxEMSg)<br><sub>CFM 2026 Week 19 (May 4–10) | Rebel Not Ye against the Lord, Neither Fear · Numbers 11–14; 20–24; 27</sub> | Long | Come, Follow Me 2026 (English) | Archived · f9d6126e | Live | `utCeYcxEMSg` |
 | 2026-11-16 | [Week 19 · Numbers 11–14; 20–24; 27](https://youtu.be/EkyxvA7fUt0)<br><sub>Rebel Not Ye against the Lord, Neither Fear | CFM Week 19</sub> | Short (hook) | Come, Follow Me 2026 (English) | Archived · f9d6126e | Live | `EkyxvA7fUt0` |
 | 2026-11-16 | [Week 19 · Numbers 11–14; 20–24; 27](https://youtu.be/nAJOZpFYKOM)<br><sub>Seven Days, One Word of Faith | CFM Week 19</sub> | Short (funnel) | Come, Follow Me 2026 (English) | Archived · f9d6126e | Live | `nAJOZpFYKOM` |
