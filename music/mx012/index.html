@@ -3,176 +3,318 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<meta name="robots" content="noindex, nofollow">
 <meta property="og:type" content="website">
-<meta property="og:title" content="你留下的光 — 米曦 Mi Xi · 献给薛叔叔一家">
-<meta property="og:description" content="一首唱给薛叔叔的歌：她没有带走所有的光——还有一些，留在家里平凡的日常，留在儿孙的笑脸里，也留在每一个想念她的日子里。">
+<meta property="og:title" content="《你留下的光》— 米曦 Mi Xi · 纪念之歌">
+<meta property="og:description" content="她没有带走所有的光——黄昏里，光还落在他的肩头。一首唱给留下来的人的歌。｜米曦 Mi Xi 演唱 · 系列第 7 首">
 <meta property="og:url" content="https://daddymi777.com/music/mx012/">
-<meta property="og:image" content="https://daddymi777.com/music/mx012/share.jpg">
+<meta property="og:image" content="https://daddymi777.com/music/mx012/share-v2.jpg">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="你留下的光 — 米曦 Mi Xi · 献给薛叔叔一家">
-<meta name="twitter:description" content="一首唱给薛叔叔的歌：她没有带走所有的光——还有一些，留在家里平凡的日常，留在儿孙的笑脸里，也留在每一个想念她的日子里。">
-<meta name="twitter:image" content="https://daddymi777.com/music/mx012/share.jpg">
-<title>你留下的光 — 米曦 Mi Xi · 献给薛叔叔一家</title>
+<meta name="twitter:title" content="《你留下的光》— 米曦 Mi Xi · 纪念之歌">
+<meta name="twitter:description" content="她没有带走所有的光——黄昏里，光还落在他的肩头。一首唱给留下来的人的歌。｜米曦 Mi Xi 演唱 · 系列第 7 首">
+<meta name="twitter:image" content="https://daddymi777.com/music/mx012/share-v2.jpg">
+<title>《你留下的光》— 米曦 Mi Xi · 纪念之歌</title>
 <link rel="icon" type="image/png" sizes="32x32" href="/brand/favicon-32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/brand/favicon-16.png">
 <link rel="apple-touch-icon" href="/brand/apple-touch-icon.png">
 <style>
   :root{
-    --ink:#1E2A38; --ink-soft:#45536A; --muted:#7E8698; --gold:#C9A227;
-    --gold-deep:#8A6D1F; --gold-soft:#E9D48A; --rice:#F8F4EA; --rice-deep:#F3EDDD;
-    --hairline:#E0D7BE; --paper:#FFFDF6; --card:rgba(255,255,255,.66);
+    --ink:#1E2A38; --muted:#7E8698; --paper:#F8F4EA; --card:#FFFDF6;
+    --accent:#C9A227; --accent-dark:#8A6D1F; --line:#E0D7BE;
+    --badge-bg:#F3EDDD; --radius:14px;
   }
-  *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  *{box-sizing:border-box; margin:0; padding:0;}
   body{
-    font-family:"Songti SC","STSong","Noto Serif SC","Noto Serif CJK SC",serif;
-    color:var(--ink);
-    background:
-      radial-gradient(120% 60% at 50% -6%, rgba(233,212,138,.55) 0%, rgba(233,212,138,0) 55%),
-      radial-gradient(90% 45% at 88% 22%, rgba(233,212,138,.30) 0%, rgba(233,212,138,0) 60%),
-      linear-gradient(180deg,#F8F4EA 0%,#F8F4EA 55%,#F3EDDD 100%);
-    min-height:100vh;
+    font-family:"Noto Serif SC","Songti SC","STSong",Georgia,"Times New Roman",serif;
+    background:linear-gradient(180deg,#F3EDDD 0%,#F8F4EA 460px); color:var(--ink); line-height:1.75; -webkit-font-smoothing:antialiased;
   }
-  .wrap{max-width:760px;margin:0 auto;padding:34px 22px 60px;position:relative;z-index:1}
-  header{text-align:center;margin-bottom:8px}
-  .brandline{display:flex;align-items:center;justify-content:center;gap:9px;margin:2px 0}
-  .brandline img.mark{height:28px;width:28px;object-fit:contain}
-  .brandline .bname{font-size:15px;letter-spacing:.16em;color:var(--gold-deep)}
-  h1{font-size:30px;letter-spacing:.04em;margin-top:10px;line-height:1.35}
-  .sub{color:var(--ink-soft);font-size:16px;margin-top:8px;line-height:1.7}
-  .badge{display:inline-block;margin-top:14px;padding:5px 16px;border:1px solid var(--gold);
-         border-radius:999px;color:var(--gold-deep);font-size:13px;letter-spacing:.18em;background:rgba(255,253,246,.7)}
-  .about{margin:20px auto 2px;max-width:620px;color:var(--ink-soft);font-size:15px;line-height:2;text-align:center}
-  .about p{margin:10px 0}
-  .player{background:var(--card);border:1px solid var(--hairline);border-radius:16px;
-          padding:18px;margin-top:22px;backdrop-filter:blur(3px)}
-  .player .cover{display:block;width:100%;border-radius:10px}
-  .player audio{width:100%;display:block;margin-top:14px}
-  .meta{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin-top:14px}
-  .meta .t{font-size:19px;letter-spacing:.03em}
-  .chip{font-size:12px;padding:3px 11px;border-radius:999px;border:1px solid var(--gold-soft);
-        color:var(--gold-deep);background:rgba(233,212,138,.18);letter-spacing:.08em}
-  .lyrics{margin-top:26px;background:var(--card);border:1px solid var(--hairline);border-radius:16px;
-          padding:22px 22px 12px;backdrop-filter:blur(3px)}
-  .lyrics h2{font-size:17px;letter-spacing:.14em;color:var(--gold-deep);text-align:center;font-weight:600}
-  .sec{margin:20px 0 8px;font-size:12.5px;letter-spacing:.26em;color:var(--muted);text-align:center}
-  .line{font-size:16.5px;line-height:1.65;text-align:center;color:var(--ink-soft);padding:2.5px 8px}
-  .closing{margin:26px auto 0;max-width:620px;color:var(--ink-soft);font-size:15px;line-height:2;text-align:center}
-  nav.back{margin-top:26px;background:var(--card);border:1px solid var(--hairline);border-radius:16px;
-           padding:18px 22px;backdrop-filter:blur(3px)}
-  nav.back .lbl{font-size:13px;color:var(--muted);letter-spacing:.22em;margin-bottom:10px}
-  nav.back a{display:inline-block;margin:4px 14px 4px 0;color:var(--gold-deep);text-decoration:none;
-             font-size:16px;border-bottom:1px solid var(--gold-soft);padding-bottom:2px}
-  nav.back a:hover{color:var(--ink)}
-  footer{margin-top:34px;text-align:center;color:var(--muted);font-size:13px;line-height:1.9}
-  footer .rule{width:56px;height:1px;background:var(--gold);margin:0 auto 14px;opacity:.7}
+  .wrap{max-width:760px; margin:0 auto; padding:0 20px 64px;}
+  .langbar{display:flex; justify-content:flex-end; align-items:center; gap:8px; max-width:760px; margin:0 auto; padding:18px 20px 0; flex-wrap:wrap;}
+  .langbar a{font-size:14.5px; padding:5px 14px; border-radius:999px; color:var(--muted); border:1px solid var(--line); text-decoration:none; background:transparent; white-space:nowrap;}
+  .langbar a.active{background:var(--accent); color:#fff; border-color:var(--accent); font-weight:700;}
+  .langbar .langsep{color:var(--muted); font-size:14px;}
+  .backbar{max-width:760px; margin:0 auto; padding:12px 20px 0;}
+  .backbar a{color:var(--accent-dark); text-decoration:none; font-size:15px;}
+  .sitehead{max-width:760px; margin:0 auto; padding:14px 20px 0;}
+  .sitehead a{display:inline-flex; align-items:center; gap:8px; text-decoration:none; color:var(--muted);}
+  .sitehead img{width:28px; height:28px;}
+  .sitehead span{font-size:13px; letter-spacing:.22em;}
+  .footmark{text-align:center; margin:0 0 10px;}
+  .footmark img{width:46px; height:46px;}
+  header{padding:22px 0 8px; text-align:center;}
+  .kicker{letter-spacing:.3em; font-size:13px; color:var(--accent); text-transform:uppercase;}
+  h1{font-size:34px; line-height:1.35; margin:14px 0 6px; font-weight:700;}
+  h1 .sub{display:block; font-size:19px; font-weight:400; color:var(--muted); letter-spacing:.06em; margin-top:6px;}
+  .tagline{color:var(--muted); font-size:16px; margin-top:10px;}
+  .heroimg{width:100%; border-radius:12px; display:block; border:1px solid var(--line); margin-top:14px;}
+  section{background:var(--card); border:1px solid var(--line); border-radius:var(--radius); padding:28px 28px 24px; margin-top:26px;}
+  h2{font-size:22px; margin-bottom:10px; color:var(--accent-dark);}
+  p{margin:8px 0;}
+  .muted{color:var(--muted); font-size:15px;}
+  .playerline{font-size:16.5px; margin-top:4px;}
+  audio.song{width:100%; margin-top:8px;}
+  .lyrics{max-height:46vh; overflow-y:auto; padding:6px 2px; scroll-behavior:smooth;}
+  .lyrics p{margin:0; padding:5px 10px; font-size:17.5px; line-height:1.55; color:var(--muted); text-align:center; border-radius:8px; transition:color .35s ease, background .35s ease, font-size .35s ease, opacity .35s ease; cursor:pointer;}
+  .lyrics p.past{opacity:.48;}
+  .lyrics p.next{color:var(--ink); font-weight:600; opacity:.82;}
+  .lyrics p.on{color:var(--accent-dark); font-weight:700; background:var(--line); font-size:21px; opacity:1;}
+  .lyrics p.seg{font-size:13px; letter-spacing:.3em; color:var(--accent); text-align:center; padding:0 10px 2px; cursor:default; margin-top:14px;}
+  .lyrics p.seg:first-child{margin-top:0;}
+  .credit{background:rgba(127,110,80,.07); border:1px solid var(--line); border-radius:10px; padding:12px 16px; font-size:15px; margin-top:14px; white-space:pre-line; text-align:center;}
+  footer{text-align:center; color:var(--muted); font-size:13.5px; margin-top:36px;}
+  footer a{color:var(--accent-dark);}
+  .btn{display:inline-block; padding:12px 26px; border-radius:999px; text-decoration:none; font-size:16px; font-weight:700; background:var(--accent); color:#fff; box-shadow:0 2px 8px rgba(30,42,56,.25);}
+  .btn.secondary{background:transparent; color:var(--accent-dark); border:2px solid var(--accent); box-shadow:none;}
+  .aj-rule{height:2px; background:linear-gradient(90deg,transparent,var(--accent),transparent); opacity:.55; margin:4px 0 18px;}
+  .aj-progress{color:var(--muted); font-size:14.5px; margin:-2px 0 14px;}
+  .aj-grid{display:grid; grid-template-columns:repeat(4,1fr); gap:24px;}
+  .aj-card{display:block; text-decoration:none; color:var(--ink); border-radius:10px; padding:8px 8px 10px;}
+  .aj-card img{width:100%; height:auto; aspect-ratio:1/1; object-fit:cover; display:block; border-radius:6px; border:1px solid var(--line); transition:transform .25s ease, filter .25s ease;}
+  a.aj-card:hover img{filter:brightness(1.07); transform:translateY(-2px);}
+  a.aj-card:hover .aj-title{text-decoration:underline; text-decoration-color:var(--accent); text-underline-offset:3px;}
+  .aj-card:focus-visible{outline:2px solid var(--accent); outline-offset:2px;}
+  .aj-num{display:block; margin-top:10px; font-size:12px; letter-spacing:.14em; text-transform:uppercase; color:var(--accent); font-weight:700;}
+  .aj-title{display:block; font-size:16.5px; line-height:1.45; margin-top:2px; overflow:hidden; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical;}
+  .aj-kind{display:block; color:var(--muted); font-size:13.5px; margin-top:2px;}
+  .aj-current{background:var(--badge-bg); border:1px solid var(--accent);}
+  .aj-current img{border-color:var(--accent);}
+  .aj-here{display:inline-block; margin-top:6px; font-size:12.5px; letter-spacing:.08em; color:var(--accent-dark); font-weight:700;}
+  .aj-utility{display:flex; flex-wrap:wrap; gap:10px; justify-content:center; margin-top:26px;}
+  @media (max-width:719px){ .aj-grid{grid-template-columns:repeat(2,1fr); gap:16px;} }
+  @media (prefers-reduced-motion:reduce){ .aj-card img{transition:none;} a.aj-card:hover img{transform:none;} }
+  @media (max-width:560px){
+    h1{font-size:27px;}
+    section{padding:22px 18px 18px;}
+    .lyrics p{font-size:16.5px;}
+    .lyrics p.on{font-size:19.5px;}
+    .langbar{gap:5px; padding:14px 12px 0;}
+    .langbar a{font-size:12.5px; padding:4px 9px;}
+    .langbar .langsep{display:none;}
+    .backbar{padding:10px 12px 0;}
+    .sitehead{padding:10px 12px 0;}
+  }
+
+  .videowrap{position:relative;width:100%;padding-top:56.25%;border-radius:12px;overflow:hidden;border:1px solid var(--line);margin-top:12px;background:#000;}
+  .videowrap iframe{position:absolute;inset:0;width:100%;height:100%;border:0;}
+  video.mv{width:100%;display:block;border-radius:12px;border:1px solid var(--line);margin-top:12px;background:#000;}
+  .mvlabel{font-size:15.5px;font-weight:700;color:var(--accent-dark);margin-top:18px;}
+
+  .gallery{display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:12px;}
+  .gallery figure{margin:0;}
+  .gallery img{width:100%; border-radius:12px; display:block; border:1px solid var(--line);}
+  .gallery figcaption{font-size:13.5px; color:var(--muted); text-align:center; margin-top:4px;}
+  .dedication{font-size:17.5px; color:var(--accent-dark); margin-top:12px; line-height:1.9;}
 </style>
 </head>
 <body>
+<div class="sitehead"><a href="https://daddymi777.com/" aria-label="米老爸 Daddy Mi — 回到首页"><img src="/brand/mark-transparent.png" alt="米老爸 Daddy Mi"><span>米老爸 Daddy Mi</span></a></div>
+<div class="backbar"><a href="/music/">← 全部歌曲</a></div>
 <div class="wrap">
   <header>
-    <div class="brandline"><img class="mark" src="/brand/mark-transparent.png" alt="米老爸 Daddy Mi"><span class="bname">米老爸 Daddy Mi</span></div>
-    <h1>你留下的光</h1>
-    <p class="sub">米曦 Mi Xi · AI 歌手<br>献给薛叔叔一家</p>
-    <div class="badge">一份小小的心意</div>
+    <div class="kicker">米曦 Mi Xi · 纪念之歌</div>
+    <h1>《你留下的光》
+      <span class="sub">米曦 Mi Xi 演唱 · 系列第 7 首</span>
+    </h1>
+    <p class="tagline">正式版 · 2026-11-17</p>
+    <p class="dedication">献给薛叔叔——愿这首歌陪您想念薛阿姨，也陪您把往后的日子，慢慢过亮。</p>
+    <img class="heroimg" src="/music/mx012/hero-dusk.jpg" alt="米曦在黄昏的林间，光落在肩头">
   </header>
-
-  <div class="about">
-    <p>薛阿姨在去年冬天离开了我们。她走以后，薛叔叔还是每天低着头，忙着手里的活——就像这么多年一样：从前她接下的活，他来做；两双手，把日子慢慢过。</p>
-    <p>这首歌，是想轻轻告诉薛叔叔：她没有带走所有的光。一起走过的那些年、这个家里平凡的日常、孩子们长大成人的欣慰，都还留着光。想她的时候，就静静地想，不必总是那么坚强。</p>
-    <p>我们也相信，先走一步的人，并不是故事的结束。天父知道我们的眼泪，也把盼望放在我们心里——日子还要往前走，而她留下的光，会一直陪着这个家。</p>
-  </div>
-
-  <section class="player">
-    <img class="cover" src="/music/mx012/poster.jpg" alt="林间洒落的晨光">
-    <audio id="song" controls preload="metadata" src="/music/mx012/song.mp3"></audio>
-    <div class="meta">
-      <span class="t">你留下的光 — 全曲</span>
-      <span class="chip">4:33</span><span class="chip">普通话</span><span class="chip">米曦 Mi Xi</span>
+  <section>
+    <h2>歌曲背后的故事</h2>
+    <p>黄昏的时候，他还低着头，忙着手里的活。光从低处斜进来，落在他的肩头——和从前的每一个黄昏一样，又不太一样。</p>
+    <p>她不在身边了。可是有些东西，她没有带走：留在家里平凡的日常里，留在他忙碌的手掌里，留在他们一起走过的时光里，轻轻发亮。</p>
+    <p>这首歌，是唱给留下来的人的：你不必总是那么坚强，想她的时候，就静静地想。等手里的活忙完，让黄昏慢慢地经过——你会发现，那束光一直都在。而你，可以在光里，重新站起来。</p>
+  </section>
+  <section>
+    <h2>剧照 · 歌里的光</h2>
+      <div class="gallery">
+        <figure><img src="/gospel-wisdom/mixi/mixi-mx012-hand-light.jpg" alt="Mi Xi" loading="lazy"><figcaption>伸手迎向留下的光</figcaption></figure>
+        <figure><img src="/gospel-wisdom/mixi/mixi-mx012-standing-dusk.jpg" alt="Mi Xi" loading="lazy"><figcaption>在光里重新站起来</figcaption></figure>
+        <figure><img src="/gospel-wisdom/mixi/mixi-mx012-forest.jpg" alt="Mi Xi" loading="lazy"><figcaption>林间晨光</figcaption></figure>
+      </div>
+  </section>
+  <section id="listen">
+    <h2>聆听 · 完整歌词</h2>
+    <p class="playerline"><strong>米曦 Mi Xi 演唱 🎶 ／ AI 虚拟歌手 · 音乐及演唱由 AI 辅助生成</strong></p>
+    <audio class="song" id="songAudio" controls preload="metadata" src="/music/mx012/song.mp3"></audio>
+    <p class="muted">完整歌词（原文）· 播放时可对照聆听。</p>
+    <div class="lyrics">
+        <p class="seg">主歌一</p>
+        <p>你低着头，忙着手里的活</p>
+        <p>黄昏的光，落在肩头</p>
+        <p>从前她接下的活，你来做</p>
+        <p>两双手，把日子慢慢过</p>
+        <p>那些年，走过多少路</p>
+        <p>有辛苦，也有奔头</p>
+        <p>如今你还是这样忙着</p>
+        <p>她的名字，留在心头</p>
+        <p class="seg">副歌</p>
+        <p>她没有带走所有的光</p>
+        <p>还有一些，留在你身旁</p>
+        <p>留在家里，平凡的日常</p>
+        <p>留在你，忙碌的手掌</p>
+        <p>你不必总是那么坚强</p>
+        <p>偶尔想她，就静静想</p>
+        <p>一起走过的那些时光</p>
+        <p>还在心里，轻轻发亮</p>
+        <p class="seg">主歌二</p>
+        <p>从前的家，装过多少年</p>
+        <p>后来换了，更小的屋檐</p>
+        <p>房子小了，日子轻了</p>
+        <p>两个人，终于能歇一歇</p>
+        <p>孩子大了，孩子的孩子</p>
+        <p>也走过了，成长的岁月</p>
+        <p>一路辛苦，慢慢有了答案</p>
+        <p>有些欣慰，不必说出来</p>
+        <p class="seg">副歌</p>
+        <p>她没有带走所有的光</p>
+        <p>还有一些，留在你身旁</p>
+        <p>留在家里，平凡的日常</p>
+        <p>留在你，忙碌的手掌</p>
+        <p>你不必总是那么坚强</p>
+        <p>偶尔想她，就静静想</p>
+        <p>一起走过的那些时光</p>
+        <p>还在心里，轻轻发亮</p>
+        <p class="seg">桥段</p>
+        <p>这一生，忙着忙着</p>
+        <p>就走过了，那么多年</p>
+        <p>好不容易，日子轻了</p>
+        <p>却少了一个人，在身边</p>
+        <p>若有一天，你停下双手</p>
+        <p>让黄昏，慢慢地经过</p>
+        <p>想想那些，已经长大的孩子</p>
+        <p>也想想，她陪你走过的路</p>
+        <p class="seg">最后副歌</p>
+        <p>她没有带走所有的光</p>
+        <p>还有一些，留在你身旁</p>
+        <p>留在家里，平凡的日常</p>
+        <p>留在你，温暖的手掌</p>
+        <p>不必忘记，也不必勉强</p>
+        <p>想她的时候，就静静想</p>
+        <p>这一生，有过她的陪伴</p>
+        <p>已有那么多，值得珍藏</p>
+        <p class="seg">安静尾声</p>
+        <p>黄昏的光，慢慢变长</p>
+        <p>你放下手里的忙</p>
+        <p>风轻轻过，日子轻轻过</p>
+        <p>有一份爱，还在身旁</p>
+        <p>还在身旁……</p>
+        <p>轻轻的……</p>
+        <p>像光……</p>
     </div>
   </section>
-
-  <section class="lyrics">
-    <h2>歌词 · Lyrics</h2>
-<div class="sec">主歌一</div>
-<div class="line">你低着头，忙着手里的活</div>
-<div class="line">黄昏的光，落在肩头</div>
-<div class="line">从前她接下的活，你来做</div>
-<div class="line">两双手，把日子慢慢过</div>
-<div class="line">那些年，走过多少路</div>
-<div class="line">有辛苦，也有奔头</div>
-<div class="line">如今你还是这样忙着</div>
-<div class="line">她的名字，留在心头</div>
-<div class="sec">副歌</div>
-<div class="line">她没有带走所有的光</div>
-<div class="line">还有一些，留在你身旁</div>
-<div class="line">留在家里，平凡的日常</div>
-<div class="line">留在你，忙碌的手掌</div>
-<div class="line">你不必总是那么坚强</div>
-<div class="line">偶尔想她，就静静想</div>
-<div class="line">一起走过的那些时光</div>
-<div class="line">还在心里，轻轻发亮</div>
-<div class="sec">主歌二</div>
-<div class="line">从前的家，装过多少年</div>
-<div class="line">后来换了，更小的屋檐</div>
-<div class="line">房子小了，日子轻了</div>
-<div class="line">两个人，终于能歇一歇</div>
-<div class="line">孩子大了，孩子的孩子</div>
-<div class="line">也走过了，成长的岁月</div>
-<div class="line">一路辛苦，慢慢有了答案</div>
-<div class="line">有些欣慰，不必说出来</div>
-<div class="sec">副歌</div>
-<div class="line">她没有带走所有的光</div>
-<div class="line">还有一些，留在你身旁</div>
-<div class="line">留在家里，平凡的日常</div>
-<div class="line">留在你，忙碌的手掌</div>
-<div class="line">你不必总是那么坚强</div>
-<div class="line">偶尔想她，就静静想</div>
-<div class="line">一起走过的那些时光</div>
-<div class="line">还在心里，轻轻发亮</div>
-<div class="sec">桥段</div>
-<div class="line">这一生，忙着忙着</div>
-<div class="line">就走过了，那么多年</div>
-<div class="line">好不容易，日子轻了</div>
-<div class="line">却少了一个人，在身边</div>
-<div class="line">若有一天，你停下双手</div>
-<div class="line">让黄昏，慢慢地经过</div>
-<div class="line">想想那些，已经长大的孩子</div>
-<div class="line">也想想，她陪你走过的路</div>
-<div class="sec">最后副歌</div>
-<div class="line">她没有带走所有的光</div>
-<div class="line">还有一些，留在你身旁</div>
-<div class="line">留在家里，平凡的日常</div>
-<div class="line">留在你，温暖的手掌</div>
-<div class="line">不必忘记，也不必勉强</div>
-<div class="line">想她的时候，就静静想</div>
-<div class="line">这一生，有过她的陪伴</div>
-<div class="line">已有那么多，值得珍藏</div>
-<div class="sec">安静尾声</div>
-<div class="line">黄昏的光，慢慢变长</div>
-<div class="line">你放下手里的忙</div>
-<div class="line">风轻轻过，日子轻轻过</div>
-<div class="line">有一份爱，还在身旁</div>
-<div class="line">还在身旁……</div>
-<div class="line">轻轻的……</div>
-<div class="line">像光……</div>
+  <section>
+    <h2>制作手记</h2>
+    <p>旋律走到最后，不悲伤，只留下光。愿每一个留下来的人，都能在光里，把往后的日子慢慢过亮。</p>
+    <div class="credit">监制 米老爸 Daddy Mi
+作词 团队协作（Junshi 与 Bowen 参订）
+演唱 米曦 Mi Xi · 制作 Amani 团队</div>
   </section>
-
-  <p class="closing">薛叔叔，这首歌先放在这里，慢慢听。<br>愿它陪着您和家人——在想念的时候，心里仍有光。</p>
-
-  <nav class="back">
-    <div class="lbl">返回 · BACK</div>
-    <a href="/">首页 Home</a>
-    <a href="/music/">音乐 Music</a>
-    <a href="/gospel-wisdom/mixi/">认识米曦</a>
-  </nav>
-
+  <section class="aj-zone">
+      <div class="aj-rule" aria-hidden="true"></div>
+      <h2>专辑之旅 · The Album Journey</h2>
+      <p class="aj-progress">已发布 第 1–7 首 · Songs 1–7 released</p>
+      <div class="aj-grid">
+      <a class="aj-card" href="/gospel-wisdom/theme-zh/">
+<img src="/gospel-wisdom/album-thumbs/song1-mixi.webp" alt="米曦 Mi Xi" width="480" height="480" loading="lazy">
+        <span class="aj-num">SONG 01</span>
+        <span class="aj-title">《在你话语里，天亮了》</span>
+        <span class="aj-kind">中文主题歌</span>
+      </a>
+      <a class="aj-card" href="/gospel-wisdom/theme-en/">
+<img src="/gospel-wisdom/album-thumbs/song2-mixi.webp" alt="米曦 Mi Xi" width="480" height="480" loading="lazy">
+        <span class="aj-num">SONG 02</span>
+        <span class="aj-title">A Little More Like Light</span>
+        <span class="aj-kind">英文主题歌</span>
+      </a>
+      <a class="aj-card" href="/gospel-wisdom/dian-deng/">
+<img src="/gospel-wisdom/album-thumbs/song3-mixi.webp" alt="米曦 Mi Xi" width="480" height="480" loading="lazy">
+        <span class="aj-num">SONG 03</span>
+        <span class="aj-title">《换我们为妳点灯》</span>
+        <span class="aj-kind">感恩单曲</span>
+      </a>
+      <a class="aj-card" href="/gospel-wisdom/birthday-light/">
+<img src="/gospel-wisdom/album-thumbs/song4-mixi.webp" alt="米曦 Mi Xi" width="480" height="480" loading="lazy">
+        <span class="aj-num">SONG 04</span>
+        <span class="aj-title">《愿你心里有光》</span>
+        <span class="aj-kind">生日祝福歌</span>
+      </a>
+      <a class="aj-card" href="/music/mx005/">
+<img src="/gospel-wisdom/album-thumbs/song5.jpg" alt="米曦 · 白衣正面像" width="480" height="480" loading="lazy">
+        <span class="aj-num">SONG 05</span>
+        <span class="aj-title">《灯下擂茶》</span>
+        <span class="aj-kind">母亲感恩之歌</span>
+      </a>
+      <a class="aj-card" href="/music/mx011/">
+<img src="/gospel-wisdom/album-thumbs/song6-mixi.webp" alt="米曦 · 黎明祷告" width="480" height="480" loading="lazy">
+        <span class="aj-num">SONG 06</span>
+        <span class="aj-title">《等你等到天光》</span>
+        <span class="aj-kind">粵語歌曲</span>
+      </a>
+      <div class="aj-card aj-current" aria-current="page">
+<img src="/gospel-wisdom/album-thumbs/song7-mixi.webp" alt="米曦 · 黄昏的光" width="480" height="480" loading="lazy">
+        <span class="aj-num">SONG 07</span>
+        <span class="aj-title">《你留下的光》</span>
+        <span class="aj-kind">纪念之歌</span>
+        <span class="aj-here">此页 · This page</span>
+      </div>
+      </div>
+      <div class="aj-utility">
+        <a class="btn secondary" href="/gospel-wisdom/mixi/">认识米曦 · 歌手主页</a>
+        <a class="btn secondary" href="/gospel-wisdom/">Gospel Wisdom 每日灵修</a>
+        <a class="btn secondary" href="/music/">全部歌曲 · All Songs</a>
+        <a class="btn secondary" href="/album/gallery/">专辑画册 · 视觉画册</a>
+        <a class="btn secondary" href="https://daddymi777.com/">回首页 · Home</a>
+      </div>
+    </section>
   <footer>
-    <div class="rule"></div>
-米老爸 Daddy Mi 出品 · 《你留下的光》（2026-11-17）<br>
-    本页为私下分享，未列入公开导航。<br>
-    © 2026 米老爸 Daddy Mi
+    <div class="footmark"><a href="https://daddymi777.com/" aria-label="米老爸 Daddy Mi — 回到首页"><img src="/brand/mark-transparent.png" alt="米老爸 Daddy Mi"></a></div>
+    <p>本歌曲由 Gospel Wisdom 团队原创策划与撰词，音乐及演唱使用 AI 辅助生成。<br>一首纪念之歌 · 已正式发行（2026-11-17）。<br>客服邮箱：<a href="mailto:support@daddymi777.com">support@daddymi777.com</a></p>
+    <p><a href="https://daddymi777.com/">回 到 首 页</a></p>
+    <p>© 2026 米老爸 Daddy Mi</p>
   </footer>
 </div>
+<script>
+(function () {
+  var audio = document.getElementById('songAudio');
+  if (!audio) { return; }
+  var cues = [13.66, 18.92, 25.54, 27.98, 32.98, 36.46, 39.94, 43.32, 49.78, 53.1, 56.28, 59.48, 63.28, 65.88, 69.08, 72.52, 83.86, 87.04, 90.3, 93.04, 96.92, 99.86, 103.36, 106.4, 113.22, 116.5, 119.5, 122.78, 125.92, 129.16, 132.16, 135.74, 170.26, 173.18, 175.62, 178.92, 182.3, 185.8, 189.36, 193.02, 199.92, 203.12, 206.16, 209.48, 213.02, 215.74, 218.9, 222.52, 230.0, 235.9, 242.54, 245.6, 250.74, 258.6, 265.6];
+  var box = document.querySelector('.lyrics');
+  var lines = box.querySelectorAll('p:not(.seg)');
+  var cur = -2, holdUntil = 0;
+  ['wheel', 'touchstart', 'pointerdown'].forEach(function (ev) {
+    box.addEventListener(ev, function () { holdUntil = Date.now() + 4000; }, { passive: true });
+  });
+  lines.forEach(function (p, n) {
+    p.addEventListener('click', function () {
+      if (cues[n] != null) { audio.currentTime = cues[n]; if (audio.paused) { audio.play(); } }
+    });
+  });
+  function idxAt(t) {
+    var lo = 0, hi = cues.length - 1, ans = -1;
+    while (lo <= hi) { var mid = (lo + hi) >> 1; if (cues[mid] <= t) { ans = mid; lo = mid + 1; } else { hi = mid - 1; } }
+    return ans;
+  }
+  function sync() {
+    var i = idxAt(audio.currentTime);
+    if (i === cur) { return; }
+    cur = i;
+    for (var j = 0; j < lines.length; j++) {
+      lines[j].classList.toggle('past', j < i);
+      lines[j].classList.toggle('on', j === i);
+      lines[j].classList.toggle('next', j === i + 1);
+    }
+    if (i >= 0 && lines[i] && Date.now() > holdUntil) {
+      var boxRect = box.getBoundingClientRect();
+      var lineRect = lines[i].getBoundingClientRect();
+      var target = box.scrollTop + (lineRect.top - boxRect.top) - (box.clientHeight - lineRect.height) / 2;
+      box.scrollTo({ top: Math.max(0, target), behavior: 'smooth' });
+    }
+  }
+  audio.addEventListener('timeupdate', sync);
+  (function tick() { if (!audio.paused && !audio.ended) { sync(); } requestAnimationFrame(tick); })();
+  audio.addEventListener('seeked', sync);
+  audio.addEventListener('ended', function () { audio.currentTime = 0; sync(); });
+})();
+</script>
 </body>
 </html>

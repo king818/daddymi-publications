@@ -7,200 +7,298 @@
 <meta property="og:title" content="等你等到天光 — Mi Xi · 粵語新歌正式版">
 <meta property="og:description" content="米曦 Mi Xi 的粵語新歌《等你等到天光》正式版：一個在深圳打拼、永不認輸的人，和一個陪他等到天光的人。｜正式版 · Available in English, Traditional Chinese, Simplified Chinese, Japanese and Korean.">
 <meta property="og:url" content="https://daddymi777.com/music/mx011/tc/">
-<meta property="og:image" content="https://daddymi777.com/music/mx011/share.jpg">
+<meta property="og:image" content="https://daddymi777.com/music/mx011/share-v2.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="等你等到天光 — Mi Xi · 粵語新歌正式版">
 <meta name="twitter:description" content="米曦 Mi Xi 的粵語新歌《等你等到天光》正式版：一個在深圳打拼、永不認輸的人，和一個陪他等到天光的人。｜正式版 · Available in English, Traditional Chinese, Simplified Chinese, Japanese and Korean.">
-<meta name="twitter:image" content="https://daddymi777.com/music/mx011/share.jpg">
+<meta name="twitter:image" content="https://daddymi777.com/music/mx011/share-v2.jpg">
 <title>等你等到天光 — Mi Xi · 粵語新歌正式版</title>
 <link rel="icon" type="image/png" sizes="32x32" href="/brand/favicon-32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/brand/favicon-16.png">
 <link rel="apple-touch-icon" href="/brand/apple-touch-icon.png">
 <style>
   :root{
-    --ink:#1E2A38; --ink-soft:#45536A; --muted:#7E8698; --gold:#C9A227;
-    --gold-deep:#8A6D1F; --gold-soft:#E9D48A; --rice:#F8F4EA; --rice-deep:#F3EDDD;
-    --hairline:#E0D7BE; --paper:#FFFDF6; --card:rgba(255,255,255,.66);
+    --ink:#1E2A38; --muted:#7E8698; --paper:#F8F4EA; --card:#FFFDF6;
+    --accent:#C9A227; --accent-dark:#8A6D1F; --line:#E0D7BE;
+    --badge-bg:#F3EDDD; --radius:14px;
   }
-  *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  *{box-sizing:border-box; margin:0; padding:0;}
   body{
-    font-family:"Songti SC","STSong","Noto Serif SC","Noto Serif CJK SC",serif;
-    color:var(--ink);
-    background:
-      radial-gradient(120% 60% at 50% -6%, rgba(233,212,138,.55) 0%, rgba(233,212,138,0) 55%),
-      radial-gradient(90% 45% at 88% 22%, rgba(233,212,138,.30) 0%, rgba(233,212,138,0) 60%),
-      linear-gradient(180deg,#F8F4EA 0%,#F8F4EA 55%,#F3EDDD 100%);
-    min-height:100vh;
+    font-family:"Noto Serif SC","Songti SC","STSong",Georgia,"Times New Roman",serif;
+    background:linear-gradient(180deg,#F3EDDD 0%,#F8F4EA 460px); color:var(--ink); line-height:1.75; -webkit-font-smoothing:antialiased;
   }
-  .wm{position:fixed;inset:-40%;z-index:60;pointer-events:none;overflow:hidden;
-      transform:rotate(-24deg);display:flex;flex-wrap:wrap;align-content:flex-start}
-  .wm span{font-size:40px;letter-spacing:.3em;color:rgba(30,42,56,.06);
-           padding:70px 34px;white-space:nowrap;font-weight:600}
-  .wrap{max-width:760px;margin:0 auto;padding:34px 22px 60px;position:relative;z-index:1}
-  header{text-align:center;margin-bottom:8px}
-  .brandline{display:flex;align-items:center;justify-content:center;gap:9px;margin:2px 0}
-  .brandline img.mark{height:28px;width:28px;object-fit:contain}
-  .brandline .bname{font-size:15px;letter-spacing:.16em;color:var(--gold-deep)}
-  h1{font-size:30px;letter-spacing:.04em;margin-top:10px;line-height:1.35}
-  .origtitle{color:var(--muted);font-size:15px;margin-top:6px;letter-spacing:.1em}
-  .sub{color:var(--ink-soft);font-size:16px;margin-top:8px;line-height:1.7}
-  .badge{display:inline-block;margin-top:14px;padding:5px 16px;border:1px solid var(--gold);
-         border-radius:999px;color:var(--gold-deep);font-size:13px;letter-spacing:.18em;background:rgba(255,253,246,.7)}
-  .note a{color:var(--gold-deep)}
-  .note{margin:22px auto 6px;max-width:620px;color:var(--muted);font-size:14px;line-height:1.8;text-align:center}
-  .about{margin:14px auto 2px;max-width:620px;color:var(--ink-soft);font-size:14.5px;line-height:1.9;text-align:center}
-  .player{background:var(--card);border:1px solid var(--hairline);border-radius:16px;
-          padding:18px;margin-top:22px;backdrop-filter:blur(3px)}
-  .player .cover{display:block;width:100%;border-radius:10px}
-  .player audio{width:100%;display:block;margin-top:14px}
-  .meta{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin-top:14px}
-  .meta .t{font-size:19px;letter-spacing:.03em}
-  .chip{font-size:12px;padding:3px 11px;border-radius:999px;border:1px solid var(--gold-soft);
-        color:var(--gold-deep);background:rgba(233,212,138,.18);letter-spacing:.08em}
-  .lyrics{margin-top:26px;background:var(--card);border:1px solid var(--hairline);border-radius:16px;
-          padding:22px 22px 12px;backdrop-filter:blur(3px)}
-  .lyrics h2{font-size:17px;letter-spacing:.14em;color:var(--gold-deep);text-align:center;font-weight:600}
-  .lyrhint{text-align:center;color:var(--muted);font-size:13px;margin-top:8px;line-height:1.7}
-  .sec{margin:20px 0 8px;font-size:12.5px;letter-spacing:.26em;color:var(--muted);text-align:center}
-  .line{font-size:16.5px;line-height:1.65;text-align:center;color:var(--ink-soft);
-        padding:2.5px 8px;border-radius:8px;cursor:pointer;transition:color .3s,background .3s}
-  .line:hover{background:rgba(233,212,138,.18)}
-  .line.on{color:var(--ink);font-weight:700;background:rgba(233,212,138,.30)}
-  nav.back{margin-top:26px;background:var(--card);border:1px solid var(--hairline);border-radius:16px;
-           padding:18px 22px;backdrop-filter:blur(3px)}
-  nav.back .lbl{font-size:13px;color:var(--muted);letter-spacing:.22em;margin-bottom:10px}
-  nav.back a{display:inline-block;margin:4px 14px 4px 0;color:var(--gold-deep);text-decoration:none;
-             font-size:16px;border-bottom:1px solid var(--gold-soft);padding-bottom:2px}
-  nav.back a:hover{color:var(--ink)}
-  footer{margin-top:34px;text-align:center;color:var(--muted);font-size:13px;line-height:1.9}
-  .langbar{display:flex;justify-content:flex-end;align-items:center;gap:8px;max-width:760px;margin:0 auto;padding:18px 22px 0;flex-wrap:wrap;position:relative;z-index:1}
-  .langbar a{font-size:14px;padding:5px 14px;border-radius:999px;color:var(--muted);border:1px solid var(--hairline);text-decoration:none;background:rgba(255,255,255,.45);white-space:nowrap}
-  .langbar a.active{background:var(--gold-deep);color:#fff;border-color:var(--gold-deep);font-weight:700}
-  .langbar .langsep{color:var(--muted);font-size:14px}
-  footer .rule{width:56px;height:1px;background:var(--gold);margin:0 auto 14px;opacity:.7}
+  .wrap{max-width:760px; margin:0 auto; padding:0 20px 64px;}
+  .langbar{display:flex; justify-content:flex-end; align-items:center; gap:8px; max-width:760px; margin:0 auto; padding:18px 20px 0; flex-wrap:wrap;}
+  .langbar a{font-size:14.5px; padding:5px 14px; border-radius:999px; color:var(--muted); border:1px solid var(--line); text-decoration:none; background:transparent; white-space:nowrap;}
+  .langbar a.active{background:var(--accent); color:#fff; border-color:var(--accent); font-weight:700;}
+  .langbar .langsep{color:var(--muted); font-size:14px;}
+  .backbar{max-width:760px; margin:0 auto; padding:12px 20px 0;}
+  .backbar a{color:var(--accent-dark); text-decoration:none; font-size:15px;}
+  .sitehead{max-width:760px; margin:0 auto; padding:14px 20px 0;}
+  .sitehead a{display:inline-flex; align-items:center; gap:8px; text-decoration:none; color:var(--muted);}
+  .sitehead img{width:28px; height:28px;}
+  .sitehead span{font-size:13px; letter-spacing:.22em;}
+  .footmark{text-align:center; margin:0 0 10px;}
+  .footmark img{width:46px; height:46px;}
+  header{padding:22px 0 8px; text-align:center;}
+  .kicker{letter-spacing:.3em; font-size:13px; color:var(--accent); text-transform:uppercase;}
+  h1{font-size:34px; line-height:1.35; margin:14px 0 6px; font-weight:700;}
+  h1 .sub{display:block; font-size:19px; font-weight:400; color:var(--muted); letter-spacing:.06em; margin-top:6px;}
+  .tagline{color:var(--muted); font-size:16px; margin-top:10px;}
+  .heroimg{width:100%; border-radius:12px; display:block; border:1px solid var(--line); margin-top:14px;}
+  section{background:var(--card); border:1px solid var(--line); border-radius:var(--radius); padding:28px 28px 24px; margin-top:26px;}
+  h2{font-size:22px; margin-bottom:10px; color:var(--accent-dark);}
+  p{margin:8px 0;}
+  .muted{color:var(--muted); font-size:15px;}
+  .playerline{font-size:16.5px; margin-top:4px;}
+  audio.song{width:100%; margin-top:8px;}
+  .lyrics{max-height:46vh; overflow-y:auto; padding:6px 2px; scroll-behavior:smooth;}
+  .lyrics p{margin:0; padding:5px 10px; font-size:17.5px; line-height:1.55; color:var(--muted); text-align:center; border-radius:8px; transition:color .35s ease, background .35s ease, font-size .35s ease, opacity .35s ease; cursor:pointer;}
+  .lyrics p.past{opacity:.48;}
+  .lyrics p.next{color:var(--ink); font-weight:600; opacity:.82;}
+  .lyrics p.on{color:var(--accent-dark); font-weight:700; background:var(--line); font-size:21px; opacity:1;}
+  .lyrics p.seg{font-size:13px; letter-spacing:.3em; color:var(--accent); text-align:center; padding:0 10px 2px; cursor:default; margin-top:14px;}
+  .lyrics p.seg:first-child{margin-top:0;}
+  .credit{background:rgba(127,110,80,.07); border:1px solid var(--line); border-radius:10px; padding:12px 16px; font-size:15px; margin-top:14px; white-space:pre-line; text-align:center;}
+  footer{text-align:center; color:var(--muted); font-size:13.5px; margin-top:36px;}
+  footer a{color:var(--accent-dark);}
+  .btn{display:inline-block; padding:12px 26px; border-radius:999px; text-decoration:none; font-size:16px; font-weight:700; background:var(--accent); color:#fff; box-shadow:0 2px 8px rgba(30,42,56,.25);}
+  .btn.secondary{background:transparent; color:var(--accent-dark); border:2px solid var(--accent); box-shadow:none;}
+  .aj-rule{height:2px; background:linear-gradient(90deg,transparent,var(--accent),transparent); opacity:.55; margin:4px 0 18px;}
+  .aj-progress{color:var(--muted); font-size:14.5px; margin:-2px 0 14px;}
+  .aj-grid{display:grid; grid-template-columns:repeat(4,1fr); gap:24px;}
+  .aj-card{display:block; text-decoration:none; color:var(--ink); border-radius:10px; padding:8px 8px 10px;}
+  .aj-card img{width:100%; height:auto; aspect-ratio:1/1; object-fit:cover; display:block; border-radius:6px; border:1px solid var(--line); transition:transform .25s ease, filter .25s ease;}
+  a.aj-card:hover img{filter:brightness(1.07); transform:translateY(-2px);}
+  a.aj-card:hover .aj-title{text-decoration:underline; text-decoration-color:var(--accent); text-underline-offset:3px;}
+  .aj-card:focus-visible{outline:2px solid var(--accent); outline-offset:2px;}
+  .aj-num{display:block; margin-top:10px; font-size:12px; letter-spacing:.14em; text-transform:uppercase; color:var(--accent); font-weight:700;}
+  .aj-title{display:block; font-size:16.5px; line-height:1.45; margin-top:2px; overflow:hidden; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical;}
+  .aj-kind{display:block; color:var(--muted); font-size:13.5px; margin-top:2px;}
+  .aj-current{background:var(--badge-bg); border:1px solid var(--accent);}
+  .aj-current img{border-color:var(--accent);}
+  .aj-here{display:inline-block; margin-top:6px; font-size:12.5px; letter-spacing:.08em; color:var(--accent-dark); font-weight:700;}
+  .aj-utility{display:flex; flex-wrap:wrap; gap:10px; justify-content:center; margin-top:26px;}
+  @media (max-width:719px){ .aj-grid{grid-template-columns:repeat(2,1fr); gap:16px;} }
+  @media (prefers-reduced-motion:reduce){ .aj-card img{transition:none;} a.aj-card:hover img{transform:none;} }
+  @media (max-width:560px){
+    h1{font-size:27px;}
+    section{padding:22px 18px 18px;}
+    .lyrics p{font-size:16.5px;}
+    .lyrics p.on{font-size:19.5px;}
+    .langbar{gap:5px; padding:14px 12px 0;}
+    .langbar a{font-size:12.5px; padding:4px 9px;}
+    .langbar .langsep{display:none;}
+    .backbar{padding:10px 12px 0;}
+    .sitehead{padding:10px 12px 0;}
+  }
+
+  .videowrap{position:relative;width:100%;padding-top:56.25%;border-radius:12px;overflow:hidden;border:1px solid var(--line);margin-top:12px;background:#000;}
+  .videowrap iframe{position:absolute;inset:0;width:100%;height:100%;border:0;}
+  video.mv{width:100%;display:block;border-radius:12px;border:1px solid var(--line);margin-top:12px;background:#000;}
+  .mvlabel{font-size:15.5px;font-weight:700;color:var(--accent-dark);margin-top:18px;}
+
+  .gallery{display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:12px;}
+  .gallery figure{margin:0;}
+  .gallery img{width:100%; border-radius:12px; display:block; border:1px solid var(--line);}
+  .gallery figcaption{font-size:13.5px; color:var(--muted); text-align:center; margin-top:4px;}
+  .dedication{font-size:17.5px; color:var(--accent-dark); margin-top:12px; line-height:1.9;}
 </style>
 </head>
 <body>
+<div class="sitehead"><a href="https://daddymi777.com/" aria-label="米老爸 Daddy Mi — 回到首頁"><img src="/brand/mark-transparent.png" alt="米老爸 Daddy Mi"><span>米老爸 Daddy Mi</span></a></div>
 <div class="langbar" role="group" aria-label="Language"><a href="/music/mx011/">简体</a><span class="langsep">|</span><a href="/music/mx011/tc/" class="active" aria-current="true">繁體</a><span class="langsep">|</span><a href="/music/mx011/en/">English</a><span class="langsep">|</span><a href="/music/mx011/ja/">日本語</a><span class="langsep">|</span><a href="/music/mx011/ko/">한국어</a></div>
+<div class="backbar"><a href="/music/">← 全部歌曲</a></div>
 <div class="wrap">
   <header>
-    <div class="brandline"><img class="mark" src="/brand/mark-transparent.png" alt="米老爸 Daddy Mi"><span class="bname">米老爸 Daddy Mi</span></div>
-    <h1>等你等到天光</h1>
-    <p class="sub">米曦 Mi Xi · AI 歌手<br>粵語歌 · 正式版</p>
-    <div class="badge">正式版</div>
+    <div class="kicker">米曦 Mi Xi · 粵語歌曲</div>
+    <h1>《等你等到天光》
+      <span class="sub">米曦 Mi Xi 演唱 · 系列第 6 首</span>
+    </h1>
+    <p class="tagline">粵語歌曲 · 正式版 · 2026-11-17</p>
+    <img class="heroimg" src="/music/mx011/poster-official.jpg" alt="《等你等到天光》 · 米曦 Mi Xi">
   </header>
-  <p class="note">這是《等你等到天光》的正式版頁面。早前的<a href="/music/mx011/v1/">試聽版頁面</a>與<a href="/music/mx011/ab/">兩個版本對比試聽頁</a>都保留在原網址，可以從這裡互相前往。</p>
-  <p class="about">這首歌唱的是一個在深圳打拼的人：他被騙過、走過彎路，受過很多苦，卻從不認輸，一步一步走回心裡的方向。她被他這份永不放棄打動，每天陪他一起禱告、互相扶持，朝同一個遠方走——等風雨過去，等天光來到，把家築在磐石上。願這首歌，也陪正在路上的你，走過這一程。</p>
-
-  <section class="player">
-    <img class="cover" src="/music/mx011/poster.jpg" alt="《等你等到天光》封面">
-    <audio id="film" controls preload="metadata" src="/music/mx011/v1/track6-take1.mp3"></audio>
-    <div class="meta">
-      <span class="t">等你等到天光 — 全曲</span>
-      <span class="chip">4:24</span><span class="chip">粵語</span><span class="chip">正式版</span>
+  <section>
+    <h2>歌曲背後的故事</h2>
+    <p>這首歌唱的是一個在深圳打拼的人：他被騙過、走過彎路，受過很多苦，卻從不認輸，一步一步走回心裡的方向。她被他這份永不放棄打動，每天陪他一起禱告、互相扶持，朝同一個遠方走——等風雨過去，等天光來到，把家築在磐石上。願這首歌，也陪正在路上的你，走過這一程。</p>
+    <p class="muted">製作歷程（歷史存檔）：<a href="/music/mx011/v1/">試聽版</a> · <a href="/music/mx011/ab/">A/B 對比頁</a></p>
+  </section>
+  <section>
+    <h2>劇照 · 歌裡的光</h2>
+      <div class="gallery">
+        <figure><img src="/gospel-wisdom/mixi/mixi-mx011-dawn-prayer.jpg" alt="Mi Xi" loading="lazy"><figcaption>黎明禱告，為他守望</figcaption></figure>
+        <figure><img src="/gospel-wisdom/mixi/mixi-mx011-night-lamp.jpg" alt="Mi Xi" loading="lazy"><figcaption>深夜的燈，雨裡的城</figcaption></figure>
+        <figure><img src="/gospel-wisdom/mixi/mixi-mx011-dawn-tea.jpg" alt="Mi Xi" loading="lazy"><figcaption>天光透窗，兩盞熱茶</figcaption></figure>
+        <figure><img src="/gospel-wisdom/mixi/mixi-mx011-balcony-sunrise.jpg" alt="Mi Xi" loading="lazy"><figcaption>日出陽台，新的出發</figcaption></figure>
+      </div>
+  </section>
+  <section id="listen">
+    <h2>聆聽 · 完整歌詞</h2>
+    <p class="playerline"><strong>米曦 Mi Xi 演唱 🎶 ／ AI 虛擬歌手 · 音樂及演唱由 AI 輔助生成</strong></p>
+    <audio class="song" id="film" controls preload="metadata" src="/music/mx011/v1/track6-take1.mp3"></audio>
+    <p class="muted">完整歌詞（原文）· 播放時可對照聆聽。</p>
+    <div class="lyrics">
+        <p>深圳夜雨，落至深宵</p>
+        <p>你仍守望，那盞燈</p>
+        <p>枱上留低，未圓的夢</p>
+        <p>街外車輛，一趟又一趟</p>
+        <p>曾經有人，騙走你信任</p>
+        <p>曾經有人，帶你入錯門</p>
+        <p>你將眼淚，藏於雨裡</p>
+        <p>等到天光，再去尋尋</p>
+        <p>我望過你，垂頭的樣子</p>
+        <p>亦望過你，迎風上路</p>
+        <p>幾多歧路，行到盡頭</p>
+        <p>你轉過身，再覓去路</p>
+        <p>你說這裡，載住我哋夢想</p>
+        <p>要讓世間，望見這道光</p>
+        <p>我唔怕你，行得太慢</p>
+        <p>最怕你忘記，返屋企嘅方向</p>
+        <p>我等你，等到天光</p>
+        <p>等風雨，化做暖陽</p>
+        <p>唔係等你，贏盡這世間</p>
+        <p>只等你搵到，心底嘅方向</p>
+        <p>我陪你，等到天光</p>
+        <p>陪你雙手，輕輕合上</p>
+        <p>待那日，你牽住我手</p>
+        <p>於磐石上，築起一個家</p>
+        <p>朝早六點，窗透微光</p>
+        <p>兩盞熱茶，擺於枱上</p>
+        <p>你握緊我，閉上雙眼</p>
+        <p>將往後路，安然交託</p>
+        <p>唔求前路，無風無浪</p>
+        <p>只求跌低，仍有力量</p>
+        <p>你望住我，我望住你</p>
+        <p>共向同一個遠方</p>
+        <p>我等你，等到天光</p>
+        <p>等風雨，化做暖陽</p>
+        <p>就算世間，忘記你名字</p>
+        <p>我仍記住，你最初模樣</p>
+        <p>我陪你，等到天光</p>
+        <p>陪你守住，這份應許之光</p>
+        <p>待那日，你牽住我手</p>
+        <p>於磐石上，築起一個家</p>
+        <p>天光啦，你仍在身旁</p>
+        <p>這一趟，我哋一齊出發</p>
     </div>
   </section>
-
-  <section class="lyrics">
-    <h2>歌詞 · Lyrics</h2>
-    <p class="lyrhint">播放時歌詞會跟著唱亮起；點任一句歌詞，可跳到那一句。</p>
-<div class="sec">主歌一</div>
-<div class="line" data-t="13.12">深圳夜雨，落至深宵</div>
-<div class="line" data-t="20.00">你仍守望，那盞燈</div>
-<div class="line" data-t="26.36">枱上留低，未圓的夢</div>
-<div class="line" data-t="32.26">街外車輛，一趟又一趟</div>
-<div class="line" data-t="38.66">曾經有人，騙走你信任</div>
-<div class="line" data-t="45.66">曾經有人，帶你入錯門</div>
-<div class="line" data-t="51.96">你將眼淚，藏於雨裡</div>
-<div class="line" data-t="58.96">等到天光，再去尋尋</div>
-<div class="sec">主歌二</div>
-<div class="line" data-t="69.96">我望過你，垂頭的樣子</div>
-<div class="line" data-t="75.46">亦望過你，迎風上路</div>
-<div class="line" data-t="81.74">幾多歧路，行到盡頭</div>
-<div class="line" data-t="88.46">你轉過身，再覓去路</div>
-<div class="line" data-t="95.60">你說這裡，載住我哋夢想</div>
-<div class="line" data-t="99.30">要讓世間，望見這道光</div>
-<div class="line" data-t="102.62">我唔怕你，行得太慢</div>
-<div class="line" data-t="105.40">最怕你忘記，返屋企嘅方向</div>
-<div class="sec">副歌</div>
-<div class="line" data-t="111.86">我等你，等到天光</div>
-<div class="line" data-t="115.20">等風雨，化做暖陽</div>
-<div class="line" data-t="118.42">唔係等你，贏盡這世間</div>
-<div class="line" data-t="121.96">只等你搵到，心底嘅方向</div>
-<div class="line" data-t="125.88">我陪你，等到天光</div>
-<div class="line" data-t="128.32">陪你雙手，輕輕合上</div>
-<div class="line" data-t="131.68">待那日，你牽住我手</div>
-<div class="line" data-t="135.06">於磐石上，築起一個家</div>
-<div class="sec">間奏</div>
-<div class="sec">橋段</div>
-<div class="line" data-t="157.84">朝早六點，窗透微光</div>
-<div class="line" data-t="163.84">兩盞熱茶，擺於枱上</div>
-<div class="line" data-t="170.66">你握緊我，閉上雙眼</div>
-<div class="line" data-t="177.02">將往後路，安然交託</div>
-<div class="line" data-t="184.28">唔求前路，無風無浪</div>
-<div class="line" data-t="187.56">只求跌低，仍有力量</div>
-<div class="line" data-t="191.16">你望住我，我望住你</div>
-<div class="line" data-t="195.90">共向同一個遠方</div>
-<div class="sec">副歌</div>
-<div class="line" data-t="200.66">我等你，等到天光</div>
-<div class="line" data-t="203.92">等風雨，化做暖陽</div>
-<div class="line" data-t="207.22">就算世間，忘記你名字</div>
-<div class="line" data-t="210.58">我仍記住，你最初模樣</div>
-<div class="line" data-t="214.04">我陪你，等到天光</div>
-<div class="line" data-t="217.14">陪你守住，這份應許之光</div>
-<div class="line" data-t="220.64">待那日，你牽住我手</div>
-<div class="line" data-t="223.84">於磐石上，築起一個家</div>
-<div class="sec">結尾</div>
-<div class="line" data-t="234.50">天光啦，你仍在身旁</div>
-<div class="line" data-t="240.50">這一趟，我哋一齊出發</div>
+  <section>
+    <h2>製作手記</h2>
+    <p>這首歌的故事，從深圳的夜雨開始：一個人走過彎路、受過委屈，仍舊不認輸，一步一步走回心裡的方向。</p>
+    <p>她做的，是守望——守著一盞燈，陪他把雙手輕輕合上禱告，等風雨化做暖陽。等到天光，不是等他贏盡世間，是等他找到方向、記得回家的路；然後兩個人一起出發，把家築在磐石上。</p>
+    <div class="credit">監製 米老爸 Daddy Mi
+作詞 團隊協作（Junshi 與 Bowen 參訂）
+演唱 米曦 Mi Xi · 製作 Amani 團隊</div>
   </section>
-
-  <nav class="back">
-    <div class="lbl">返回 · BACK</div>
-    <a href="/">首頁 Home</a>
-    <a href="/music/">音樂 Music</a>
-    <a href="/album/gallery/">專輯相冊 Album</a>
-      <a href="/music/mx011/v1/">試聽版 Preview</a>
-    <a href="/music/mx011/ab/">版本對比 A/B</a>
-  </nav>
-
+  <section class="aj-zone">
+      <div class="aj-rule" aria-hidden="true"></div>
+      <h2>專輯之旅 · The Album Journey</h2>
+      <p class="aj-progress">已發布 第 1–7 首 · Songs 1–7 released</p>
+      <div class="aj-grid">
+      <a class="aj-card" href="/gospel-wisdom/theme-zh/">
+<img src="/gospel-wisdom/album-thumbs/song1-mixi.webp" alt="米曦 Mi Xi" width="480" height="480" loading="lazy">
+        <span class="aj-num">SONG 01</span>
+        <span class="aj-title">《在你話語裡，天亮了》</span>
+        <span class="aj-kind">中文主題歌</span>
+      </a>
+      <a class="aj-card" href="/gospel-wisdom/theme-en/">
+<img src="/gospel-wisdom/album-thumbs/song2-mixi.webp" alt="米曦 Mi Xi" width="480" height="480" loading="lazy">
+        <span class="aj-num">SONG 02</span>
+        <span class="aj-title">A Little More Like Light</span>
+        <span class="aj-kind">英文主題歌</span>
+      </a>
+      <a class="aj-card" href="/gospel-wisdom/dian-deng/">
+<img src="/gospel-wisdom/album-thumbs/song3-mixi.webp" alt="米曦 Mi Xi" width="480" height="480" loading="lazy">
+        <span class="aj-num">SONG 03</span>
+        <span class="aj-title">《換我們為妳點燈》</span>
+        <span class="aj-kind">感恩單曲</span>
+      </a>
+      <a class="aj-card" href="/gospel-wisdom/birthday-light/">
+<img src="/gospel-wisdom/album-thumbs/song4-mixi.webp" alt="米曦 Mi Xi" width="480" height="480" loading="lazy">
+        <span class="aj-num">SONG 04</span>
+        <span class="aj-title">《願你心裡有光》</span>
+        <span class="aj-kind">生日祝福歌</span>
+      </a>
+      <a class="aj-card" href="/music/mx005/tc/">
+<img src="/gospel-wisdom/album-thumbs/song5.jpg" alt="米曦 · 白衣正面像" width="480" height="480" loading="lazy">
+        <span class="aj-num">SONG 05</span>
+        <span class="aj-title">《燈下擂茶》</span>
+        <span class="aj-kind">母親感恩之歌</span>
+      </a>
+      <div class="aj-card aj-current" aria-current="page">
+<img src="/gospel-wisdom/album-thumbs/song6-mixi.webp" alt="米曦 · 黎明禱告" width="480" height="480" loading="lazy">
+        <span class="aj-num">SONG 06</span>
+        <span class="aj-title">《等你等到天光》</span>
+        <span class="aj-kind">粵語歌曲</span>
+        <span class="aj-here">此頁 · This page</span>
+      </div>
+      <a class="aj-card" href="/music/mx012/">
+<img src="/gospel-wisdom/album-thumbs/song7-mixi.webp" alt="米曦 · 黃昏的光" width="480" height="480" loading="lazy">
+        <span class="aj-num">SONG 07</span>
+        <span class="aj-title">《你留下的光》</span>
+        <span class="aj-kind">紀念之歌</span>
+      </a>
+      </div>
+      <div class="aj-utility">
+        <a class="btn secondary" href="/gospel-wisdom/mixi/">認識米曦 · 歌手主頁</a>
+        <a class="btn secondary" href="/gospel-wisdom/">Gospel Wisdom 每日靈脩</a>
+        <a class="btn secondary" href="/music/">全部歌曲 · All Songs</a>
+        <a class="btn secondary" href="/album/gallery/tc/">專輯畫冊 · 視覺畫冊</a>
+        <a class="btn secondary" href="https://daddymi777.com/">回首頁 · Home</a>
+      </div>
+    </section>
   <footer>
-    <div class="rule"></div>
-米老爸 Daddy Mi 出品 · 《等你等到天光》粵語正式版（2026-11-17）<br>
-    試聽版與版本對比頁保留在原網址，與本頁互相連結。<br>
-    © 2026 米老爸 Daddy Mi
+    <div class="footmark"><a href="https://daddymi777.com/" aria-label="米老爸 Daddy Mi — 回到首页"><img src="/brand/mark-transparent.png" alt="米老爸 Daddy Mi"></a></div>
+    <p>本歌曲由 Gospel Wisdom 團隊原創策劃與撰詞，音樂及演唱使用 AI 輔助生成。<br>這是一首唱給每一個在路上的人的粵語歌 · 已正式發行（2026-11-17）。<br>客服郵箱：<a href="mailto:support@daddymi777.com">support@daddymi777.com</a></p>
+    <p><a href="https://daddymi777.com/">回 到 首 頁</a></p>
+    <p>© 2026 米老爸 Daddy Mi</p>
   </footer>
 </div>
-
 <script>
-(function(){
-  var v=document.getElementById('film');
-  var lines=Array.prototype.slice.call(document.querySelectorAll('.line'));
-  var cur=-1;
-  function setOn(i){
-    if(i===cur)return;
-    if(cur>=0&&lines[cur])lines[cur].classList.remove('on');
-    cur=i;
-    if(cur>=0&&lines[cur]){lines[cur].classList.add('on');
-      lines[cur].scrollIntoView({block:'center',behavior:'smooth'});}
-  }
-  v.addEventListener('timeupdate',function(){
-    var t=v.currentTime,i=-1;
-    for(var k=0;k<lines.length;k++){if(parseFloat(lines[k].dataset.t)<=t)i=k;else break;}
-    setOn(i);
+(function () {
+  var audio = document.getElementById('film');
+  if (!audio) { return; }
+  var cues = [13.12, 20.0, 26.36, 32.26, 38.66, 45.66, 51.96, 58.96, 69.96, 75.46, 81.74, 88.46, 95.6, 99.3, 102.62, 105.4, 111.86, 115.2, 118.42, 121.96, 125.88, 128.32, 131.68, 135.06, 157.84, 163.84, 170.66, 177.02, 184.28, 187.56, 191.16, 195.9, 200.66, 203.92, 207.22, 210.58, 214.04, 217.14, 220.64, 223.84, 234.5, 240.5];
+  var box = document.querySelector('.lyrics');
+  var lines = box.querySelectorAll('p:not(.seg)');
+  var cur = -2, holdUntil = 0;
+  ['wheel', 'touchstart', 'pointerdown'].forEach(function (ev) {
+    box.addEventListener(ev, function () { holdUntil = Date.now() + 4000; }, { passive: true });
   });
-  v.addEventListener('seeked',function(){cur=-2;v.dispatchEvent(new Event('timeupdate'));});
-  lines.forEach(function(el){
-    el.addEventListener('click',function(){
-      v.currentTime=parseFloat(el.dataset.t)+0.01;
-      if(v.paused)v.play();
+  lines.forEach(function (p, n) {
+    p.addEventListener('click', function () {
+      if (cues[n] != null) { audio.currentTime = cues[n]; if (audio.paused) { audio.play(); } }
     });
   });
+  function idxAt(t) {
+    var lo = 0, hi = cues.length - 1, ans = -1;
+    while (lo <= hi) { var mid = (lo + hi) >> 1; if (cues[mid] <= t) { ans = mid; lo = mid + 1; } else { hi = mid - 1; } }
+    return ans;
+  }
+  function sync() {
+    var i = idxAt(audio.currentTime);
+    if (i === cur) { return; }
+    cur = i;
+    for (var j = 0; j < lines.length; j++) {
+      lines[j].classList.toggle('past', j < i);
+      lines[j].classList.toggle('on', j === i);
+      lines[j].classList.toggle('next', j === i + 1);
+    }
+    if (i >= 0 && lines[i] && Date.now() > holdUntil) {
+      var boxRect = box.getBoundingClientRect();
+      var lineRect = lines[i].getBoundingClientRect();
+      var target = box.scrollTop + (lineRect.top - boxRect.top) - (box.clientHeight - lineRect.height) / 2;
+      box.scrollTo({ top: Math.max(0, target), behavior: 'smooth' });
+    }
+  }
+  audio.addEventListener('timeupdate', sync);
+  (function tick() { if (!audio.paused && !audio.ended) { sync(); } requestAnimationFrame(tick); })();
+  audio.addEventListener('seeked', sync);
+  audio.addEventListener('ended', function () { audio.currentTime = 0; sync(); });
 })();
 </script>
-
-
 <script>
+
 /* ===== Region-based audio source (RUNBOOK section 6; wired 2026-11-13) =====
    Mainland-China viewers are served the HLS package from the Guangzhou OSS
    mirror; everyone else keeps the GitHub Pages MP3 in the <audio> tag.
@@ -308,6 +406,5 @@
   }
 })();
 </script>
-
 </body>
 </html>
