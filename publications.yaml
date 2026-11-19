@@ -7271,7 +7271,7 @@ replaced_or_private:
   playlist_id: PLSxnHgZ_KCSI
   playlist_url: https://www.youtube.com/playlist?list=PLSxnHgZ_KCSI
   dedicated_page: https://daddymi777.com/music/mx011/
-  status: Superseded — duplicate copy of the defective temp MV on the backup channel (Mi Gongzi, UCBcUKWkEIsF12UdJ8PbkoaA); removed from the 音樂錄影帶 MV playlist (PLSxnHgZ_KCSI) on 2026-11-19 when the fixed version eN7QZ2aH0n0 went Public on the main channel; the video itself was not deleted and its status on its own channel was not changed. Boss ruled on 2026-11-19 to set it Private from our side; attempted the same day — no Mi Gongzi OAuth token survives locally (the 2026-11-17 token was overwritten on 2026-11-18 and no backup exists), and writes from the main-channel token return 403 (proven 2026-11-18), so it remains Public on its own channel pending a YouTube Studio session under the owning account
+  status: Private — duplicate copy of the defective temp MV on the backup channel (Mi Gongzi, UCBcUKWkEIsF12UdJ8PbkoaA); removed from the 音樂錄影帶 MV playlist (PLSxnHgZ_KCSI) on 2026-11-19 when the fixed version eN7QZ2aH0n0 went Public on the main channel; set Private on 2026-11-19 via YouTube Studio under the owning account's live session (Studio route; boss did not take part), verified by read-back in the Studio content list (shown as 私人 with a lock icon); kept, not deleted
 - platform: YouTube
   series: Music Videos
   topic: 你留下的光 — 米曦 Mi Xi 單曲 MTV（專輯《光，慢慢成為路》第七首 mx012）

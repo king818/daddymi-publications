@@ -705,7 +705,7 @@ Same productions, kept for the record — not public.
 | 2026-11-18 | [等你等到天光（粵語）| 米曦 Mi Xi](https://www.youtube.com/watch?v=ZhAhU4cGMI8) | MTV | 音樂錄影帶 MV | 待存档 | Private | `ZhAhU4cGMI8` |
 | 2026-11-18 | [你留下的光 | 米曦 Mi Xi](https://www.youtube.com/watch?v=8JNVQ6gEuZs) | MTV | 音樂錄影帶 MV | 待存档 | Private | `8JNVQ6gEuZs` |
 | 2026-11-18 | [你留下的光 | 米曦 Mi Xi](https://www.youtube.com/watch?v=aEOw0R1SrIs) | MTV | — | 待存档 | Private | `aEOw0R1SrIs` |
-| 2026-11-17 | [等你等到天光（粵語）| 米曦 Mi Xi](https://www.youtube.com/watch?v=giTWQBQO2jM) | MTV | 音樂錄影帶 MV | 待存档 | Superseded | `giTWQBQO2jM` |
+| 2026-11-17 | [等你等到天光（粵語）| 米曦 Mi Xi](https://www.youtube.com/watch?v=giTWQBQO2jM) | MTV | 音樂錄影帶 MV | 待存档 | Private · 重複上傳 | `giTWQBQO2jM` |
 | 2026-11-12 | [《燈下擂茶》米曦 Mi Xi 原創單曲｜謝謝你，媽媽](https://www.youtube.com/watch?v=-t6mGZf0G4k) | Official Audio | 音樂錄影帶 MV | 待存档 | Private | `-t6mGZf0G4k` |
 | 2026-11-12 | [《燈下擂茶》｜謝謝你，媽媽（獻給媽媽的私人版）](https://youtu.be/htNjC_xlI2w) | MTV | 音樂錄影帶 MV | 待存档 | Unlisted | `htNjC_xlI2w` |
 
