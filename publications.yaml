@@ -4363,6 +4363,116 @@ publications:
   playlist: Come, Follow Me 2026 (English)
   archive_note: a4788a77-453e-49ab-b7ef-2d67deb8e74a
   status: Live
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 26 — 2 Samuel 11–12; 1 Kings 3; 6–9; 11
+  language: zh
+  type: Long
+  title: 來跟隨我 2026 第26週（6月22日–28日）｜求你在天上垂聽他們的禱告 · 撒母耳記下 11–12；列王紀上 3；6–9；11
+  published: '2026-11-18'
+  url: https://youtu.be/hGt96pg9kIw
+  native_id: hGt96pg9kIw
+  playlist: 來跟隨我 2026（中文）
+  status: Live
+  note: 'Uploaded and published Public via the YouTube Data API on 2026-11-18 (post-quota-reset staged lane), with the corrected -fixed zh-Hans/zh-Hant caption tracks and custom thumbnail; inserted into playlist PLDplaecZ3Y5Q with membership re-checked, pinned comment posted. AI disclosure was applied via videos.update (containsSyntheticMedia) but the field does not read back via the API (None on read-back, same as other lane pieces) — Studio-side disclosure check still pending. Evernote archive note pending (lane stopped on generic quota at the L31 caption step).'
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 26 — 2 Samuel 11–12; 1 Kings 3; 6–9; 11
+  language: zh
+  type: Short (hook)
+  title: 求你在天上垂聽，垂聽而赦免｜來跟隨我 第26週 #Shorts
+  published: '2026-11-18'
+  url: https://youtu.be/yDRVMJoyBfo
+  native_id: yDRVMJoyBfo
+  playlist: 來跟隨我 2026（中文）
+  status: Live
+  note: 'Published Public 2026-11-18 via the staged lane; playlist PLDplaecZ3Y5Q membership re-checked. Studio Related video field (to long hGt96pg9kIw) still to be set.'
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 26 — 2 Samuel 11–12; 1 Kings 3; 6–9; 11
+  language: zh
+  type: Short (funnel)
+  title: 停下來，求一顆能分辨的心｜來跟隨我 第26週 #Shorts
+  published: '2026-11-18'
+  url: https://youtu.be/iWCNTvssoqA
+  native_id: iWCNTvssoqA
+  playlist: 來跟隨我 2026（中文）
+  status: Live
+  note: 'Published Public 2026-11-18 via the staged lane; playlist PLDplaecZ3Y5Q membership re-checked. Studio Related video field (to long hGt96pg9kIw) still to be set.'
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 28 — 2 Kings 2–7
+  language: zh
+  type: Long
+  title: 來跟隨我 2026 第28週（7月6日–12日）｜以色列中有先知了 · 列王紀下 2–7
+  published: '2026-11-18'
+  url: https://youtu.be/EzZ30s7JPOs
+  native_id: EzZ30s7JPOs
+  playlist: 來跟隨我 2026（中文）
+  status: Live
+  note: 'Uploaded and published Public via the YouTube Data API on 2026-11-18 (post-quota-reset staged lane), with the corrected -fixed zh-Hans/zh-Hant caption tracks and custom thumbnail; inserted into playlist PLDplaecZ3Y5Q with membership re-checked, pinned comment posted. AI disclosure applied via videos.update but does not read back via API — Studio-side check pending. Evernote archive note pending.'
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 28 — 2 Kings 2–7
+  language: zh
+  type: Short (hook)
+  title: 不要懼怕！與我們同在的更多｜來跟隨我 第28週 #Shorts
+  published: '2026-11-18'
+  url: https://youtu.be/nzHQeK3vwCs
+  native_id: nzHQeK3vwCs
+  playlist: 來跟隨我 2026（中文）
+  status: Live
+  note: 'Published Public 2026-11-18 via the staged lane; playlist PLDplaecZ3Y5Q membership re-checked. Studio Related video field (to long EzZ30s7JPOs) still to be set.'
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 28 — 2 Kings 2–7
+  language: zh
+  type: Short (funnel)
+  title: 求主開我的眼睛｜來跟隨我 第28週 #Shorts
+  published: '2026-11-18'
+  url: https://youtu.be/lChUiM-OaI0
+  native_id: lChUiM-OaI0
+  playlist: 來跟隨我 2026（中文）
+  status: Live
+  note: 'Published Public 2026-11-18 via the staged lane; playlist PLDplaecZ3Y5Q membership re-checked. Studio Related video field (to long EzZ30s7JPOs) still to be set.'
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 29 — 2 Kings 16–25
+  language: zh
+  type: Long
+  title: 來跟隨我 2026 第29週（7月13日–19日）｜希西家倚靠耶和華——以色列的神 · 列王紀下 16–25
+  published: '2026-11-18'
+  url: https://youtu.be/GsH9ycZEHGc
+  native_id: GsH9ycZEHGc
+  playlist: 來跟隨我 2026（中文）
+  status: Live
+  note: 'Uploaded and published Public via the YouTube Data API on 2026-11-18 (post-quota-reset staged lane), with the corrected -fixed zh-Hans/zh-Hant caption tracks and custom thumbnail; inserted into playlist PLDplaecZ3Y5Q with membership re-checked, pinned comment posted. AI disclosure applied via videos.update but does not read back via API — Studio-side check pending. Evernote archive note pending.'
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 29 — 2 Kings 16–25
+  language: zh
+  type: Short (hook)
+  title: 將書信在耶和華面前展開｜來跟隨我 第29週 #Shorts
+  published: '2026-11-18'
+  url: https://youtu.be/PZcptDN28e8
+  native_id: PZcptDN28e8
+  playlist: 來跟隨我 2026（中文）
+  status: Live
+  note: 'Published Public 2026-11-18 via the staged lane; playlist PLDplaecZ3Y5Q membership re-checked. Studio Related video field (to long GsH9ycZEHGc) still to be set.'
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 29 — 2 Kings 16–25
+  language: zh
+  type: Short (funnel)
+  title: 把憂慮帶到主面前｜來跟隨我 第29週 #Shorts
+  published: '2026-11-18'
+  url: https://youtu.be/KO6sNeBR4uk
+  native_id: KO6sNeBR4uk
+  playlist: 來跟隨我 2026（中文）
+  status: Live
+  note: 'Published Public 2026-11-18 via the staged lane; playlist PLDplaecZ3Y5Q membership re-checked. Studio Related video field (to long GsH9ycZEHGc) still to be set.'
+
+
 replaced_or_private:
 - platform: YouTube
   series: Daily Verse · Neville Readings
@@ -5642,111 +5752,4 @@ unverified:
   reason: Registered 2026-11-09 at close-out; the Video Artifacts archive (ZH + EN) runs as a separate step and has not landed yet, so archive_note is absent on the six rows above, deliberately.
   action: Build the Video Artifacts archive notes for the six videos, verify landed, then backfill archive_note GUIDs on the six Psalm 119:105 rows.
 
-  resolved: '2026-11-09 — DONE: Video Artifacts archive landed and get_note-verified — three notes in notebook e3612165-36fe-69bc-5933-a6c8d7501a44 (tag video-archive): ZH note f46d167c-add0-4fa6-ad8a-a7b44367dd11 (long + both ZH Shorts, 12 resources), EN main note ef4e94a6-226a-4451-8d06-8bf9dce2c8fe (long master + upload SRT, 9 resources), EN companion note fc38ec7a-62b7-4cb0-9f5c-623fc28544d8 (both EN Shorts, 4 resources); all resource MD5s/sizes verified against local files; archive_note GUIDs backfilled on the six rows (Shorts rows carry their own notes GUIDs; EN main ef4e94a6-226a-4451-8d06-8bf9dce2c8fe stands as the episode archive_note).'- platform: YouTube
-  series: Come, Follow Me 2026
-  topic: Lesson 26 — 2 Samuel 11–12; 1 Kings 3; 6–9; 11
-  language: zh
-  type: Long
-  title: 來跟隨我 2026 第26週（6月22日–28日）｜求你在天上垂聽他們的禱告 · 撒母耳記下 11–12；列王紀上 3；6–9；11
-  published: '2026-11-18'
-  url: https://youtu.be/hGt96pg9kIw
-  native_id: hGt96pg9kIw
-  playlist: 來跟隨我 2026（中文）
-  status: Live
-  note: 'Uploaded and published Public via the YouTube Data API on 2026-11-18 (post-quota-reset staged lane), with the corrected -fixed zh-Hans/zh-Hant caption tracks and custom thumbnail; inserted into playlist PLDplaecZ3Y5Q with membership re-checked, pinned comment posted. AI disclosure was applied via videos.update (containsSyntheticMedia) but the field does not read back via the API (None on read-back, same as other lane pieces) — Studio-side disclosure check still pending. Evernote archive note pending (lane stopped on generic quota at the L31 caption step).'
-- platform: YouTube
-  series: Come, Follow Me 2026
-  topic: Lesson 26 — 2 Samuel 11–12; 1 Kings 3; 6–9; 11
-  language: zh
-  type: Short (hook)
-  title: 求你在天上垂聽，垂聽而赦免｜來跟隨我 第26週 #Shorts
-  published: '2026-11-18'
-  url: https://youtu.be/yDRVMJoyBfo
-  native_id: yDRVMJoyBfo
-  playlist: 來跟隨我 2026（中文）
-  status: Live
-  note: 'Published Public 2026-11-18 via the staged lane; playlist PLDplaecZ3Y5Q membership re-checked. Studio Related video field (to long hGt96pg9kIw) still to be set.'
-- platform: YouTube
-  series: Come, Follow Me 2026
-  topic: Lesson 26 — 2 Samuel 11–12; 1 Kings 3; 6–9; 11
-  language: zh
-  type: Short (funnel)
-  title: 停下來，求一顆能分辨的心｜來跟隨我 第26週 #Shorts
-  published: '2026-11-18'
-  url: https://youtu.be/iWCNTvssoqA
-  native_id: iWCNTvssoqA
-  playlist: 來跟隨我 2026（中文）
-  status: Live
-  note: 'Published Public 2026-11-18 via the staged lane; playlist PLDplaecZ3Y5Q membership re-checked. Studio Related video field (to long hGt96pg9kIw) still to be set.'
-- platform: YouTube
-  series: Come, Follow Me 2026
-  topic: Lesson 28 — 2 Kings 2–7
-  language: zh
-  type: Long
-  title: 來跟隨我 2026 第28週（7月6日–12日）｜以色列中有先知了 · 列王紀下 2–7
-  published: '2026-11-18'
-  url: https://youtu.be/EzZ30s7JPOs
-  native_id: EzZ30s7JPOs
-  playlist: 來跟隨我 2026（中文）
-  status: Live
-  note: 'Uploaded and published Public via the YouTube Data API on 2026-11-18 (post-quota-reset staged lane), with the corrected -fixed zh-Hans/zh-Hant caption tracks and custom thumbnail; inserted into playlist PLDplaecZ3Y5Q with membership re-checked, pinned comment posted. AI disclosure applied via videos.update but does not read back via API — Studio-side check pending. Evernote archive note pending.'
-- platform: YouTube
-  series: Come, Follow Me 2026
-  topic: Lesson 28 — 2 Kings 2–7
-  language: zh
-  type: Short (hook)
-  title: 不要懼怕！與我們同在的更多｜來跟隨我 第28週 #Shorts
-  published: '2026-11-18'
-  url: https://youtu.be/nzHQeK3vwCs
-  native_id: nzHQeK3vwCs
-  playlist: 來跟隨我 2026（中文）
-  status: Live
-  note: 'Published Public 2026-11-18 via the staged lane; playlist PLDplaecZ3Y5Q membership re-checked. Studio Related video field (to long EzZ30s7JPOs) still to be set.'
-- platform: YouTube
-  series: Come, Follow Me 2026
-  topic: Lesson 28 — 2 Kings 2–7
-  language: zh
-  type: Short (funnel)
-  title: 求主開我的眼睛｜來跟隨我 第28週 #Shorts
-  published: '2026-11-18'
-  url: https://youtu.be/lChUiM-OaI0
-  native_id: lChUiM-OaI0
-  playlist: 來跟隨我 2026（中文）
-  status: Live
-  note: 'Published Public 2026-11-18 via the staged lane; playlist PLDplaecZ3Y5Q membership re-checked. Studio Related video field (to long EzZ30s7JPOs) still to be set.'
-- platform: YouTube
-  series: Come, Follow Me 2026
-  topic: Lesson 29 — 2 Kings 16–25
-  language: zh
-  type: Long
-  title: 來跟隨我 2026 第29週（7月13日–19日）｜希西家倚靠耶和華——以色列的神 · 列王紀下 16–25
-  published: '2026-11-18'
-  url: https://youtu.be/GsH9ycZEHGc
-  native_id: GsH9ycZEHGc
-  playlist: 來跟隨我 2026（中文）
-  status: Live
-  note: 'Uploaded and published Public via the YouTube Data API on 2026-11-18 (post-quota-reset staged lane), with the corrected -fixed zh-Hans/zh-Hant caption tracks and custom thumbnail; inserted into playlist PLDplaecZ3Y5Q with membership re-checked, pinned comment posted. AI disclosure applied via videos.update but does not read back via API — Studio-side check pending. Evernote archive note pending.'
-- platform: YouTube
-  series: Come, Follow Me 2026
-  topic: Lesson 29 — 2 Kings 16–25
-  language: zh
-  type: Short (hook)
-  title: 將書信在耶和華面前展開｜來跟隨我 第29週 #Shorts
-  published: '2026-11-18'
-  url: https://youtu.be/PZcptDN28e8
-  native_id: PZcptDN28e8
-  playlist: 來跟隨我 2026（中文）
-  status: Live
-  note: 'Published Public 2026-11-18 via the staged lane; playlist PLDplaecZ3Y5Q membership re-checked. Studio Related video field (to long GsH9ycZEHGc) still to be set.'
-- platform: YouTube
-  series: Come, Follow Me 2026
-  topic: Lesson 29 — 2 Kings 16–25
-  language: zh
-  type: Short (funnel)
-  title: 把憂慮帶到主面前｜來跟隨我 第29週 #Shorts
-  published: '2026-11-18'
-  url: https://youtu.be/KO6sNeBR4uk
-  native_id: KO6sNeBR4uk
-  playlist: 來跟隨我 2026（中文）
-  status: Live
-  note: 'Published Public 2026-11-18 via the staged lane; playlist PLDplaecZ3Y5Q membership re-checked. Studio Related video field (to long GsH9ycZEHGc) still to be set.'
+  resolved: '2026-11-09 — DONE: Video Artifacts archive landed and get_note-verified — three notes in notebook e3612165-36fe-69bc-5933-a6c8d7501a44 (tag video-archive): ZH note f46d167c-add0-4fa6-ad8a-a7b44367dd11 (long + both ZH Shorts, 12 resources), EN main note ef4e94a6-226a-4451-8d06-8bf9dce2c8fe (long master + upload SRT, 9 resources), EN companion note fc38ec7a-62b7-4cb0-9f5c-623fc28544d8 (both EN Shorts, 4 resources); all resource MD5s/sizes verified against local files; archive_note GUIDs backfilled on the six rows (Shorts rows carry their own notes GUIDs; EN main ef4e94a6-226a-4451-8d06-8bf9dce2c8fe stands as the episode archive_note).'

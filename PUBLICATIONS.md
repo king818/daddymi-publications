@@ -2,13 +2,22 @@
 
 Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, filterable version: https://king818.github.io/daddymi-publications/
 
-**362 public videos** · 106 replaced/private versions · Come, Follow Me 2026: 165 · Daily Verse · Neville Readings: 150 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 28 · Mi Xi Intro Podcast: 4 · Music Videos: 2 · Neville Inner Reading Podcast: 7
+**371 public videos** · 106 replaced/private versions · Come, Follow Me 2026: 174 · Daily Verse · Neville Readings: 150 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 28 · Mi Xi Intro Podcast: 4 · Music Videos: 2 · Neville Inner Reading Podcast: 7
 
 
-## 來跟隨我 2026 — 中文（84）
+## 來跟隨我 2026 — 中文（93）
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
+| 2026-11-18 | [第 26 週 · 求你在天上垂聽他們的禱告](https://youtu.be/hGt96pg9kIw)<br><sub>來跟隨我 2026 第26週（6月22日–28日）｜求你在天上垂聽他們的禱告 · 撒母耳記下 11–12；列王紀上 3；6–9；11</sub> | 長集 | 來跟隨我 2026（中文） | 待存档 | 已發布 | `hGt96pg9kIw` |
+| 2026-11-18 | [第 26 週 · 來跟隨我 第26週](https://youtu.be/yDRVMJoyBfo)<br><sub>求你在天上垂聽，垂聽而赦免｜來跟隨我 第26週</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 待存档 | 已發布 | `yDRVMJoyBfo` |
+| 2026-11-18 | [第 26 週 · 來跟隨我 第26週](https://youtu.be/iWCNTvssoqA)<br><sub>停下來，求一顆能分辨的心｜來跟隨我 第26週</sub> | Short · 導入 | 來跟隨我 2026（中文） | 待存档 | 已發布 | `iWCNTvssoqA` |
+| 2026-11-18 | [第 28 週 · 以色列中有先知了](https://youtu.be/EzZ30s7JPOs)<br><sub>來跟隨我 2026 第28週（7月6日–12日）｜以色列中有先知了 · 列王紀下 2–7</sub> | 長集 | 來跟隨我 2026（中文） | 待存档 | 已發布 | `EzZ30s7JPOs` |
+| 2026-11-18 | [第 28 週 · 來跟隨我 第28週](https://youtu.be/nzHQeK3vwCs)<br><sub>不要懼怕！與我們同在的更多｜來跟隨我 第28週</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 待存档 | 已發布 | `nzHQeK3vwCs` |
+| 2026-11-18 | [第 28 週 · 來跟隨我 第28週](https://youtu.be/lChUiM-OaI0)<br><sub>求主開我的眼睛｜來跟隨我 第28週</sub> | Short · 導入 | 來跟隨我 2026（中文） | 待存档 | 已發布 | `lChUiM-OaI0` |
+| 2026-11-18 | [第 29 週 · 希西家倚靠耶和華——以色列的神](https://youtu.be/GsH9ycZEHGc)<br><sub>來跟隨我 2026 第29週（7月13日–19日）｜希西家倚靠耶和華——以色列的神 · 列王紀下 16–25</sub> | 長集 | 來跟隨我 2026（中文） | 待存档 | 已發布 | `GsH9ycZEHGc` |
+| 2026-11-18 | [第 29 週 · 來跟隨我 第29週](https://youtu.be/PZcptDN28e8)<br><sub>將書信在耶和華面前展開｜來跟隨我 第29週</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 待存档 | 已發布 | `PZcptDN28e8` |
+| 2026-11-18 | [第 29 週 · 來跟隨我 第29週](https://youtu.be/KO6sNeBR4uk)<br><sub>把憂慮帶到主面前｜來跟隨我 第29週</sub> | Short · 導入 | 來跟隨我 2026（中文） | 待存档 | 已發布 | `KO6sNeBR4uk` |
 | 2026-11-17 | [第 20 週 · 你要謹慎，免得你忘記……耶和華](https://youtu.be/CZPH0wvBdCw)<br><sub>來跟隨我 2026 第20週（5月11日–17日）｜你要謹慎，免得你忘記……耶和華 · 申命記 6–8；15；18；29–30；34</sub> | 長集 | 來跟隨我 2026（中文） | 已存档 · 8d554d98 | 已發布 | `CZPH0wvBdCw` |
 | 2026-11-17 | [第 20 週 · 來跟隨我 第20週](https://youtu.be/EfwWCubjP5o)<br><sub>得到一切之後，還記得是誰給的嗎｜來跟隨我 第20週</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 已存档 · 8d554d98 | 已發布 | `EfwWCubjP5o` |
 | 2026-11-17 | [第 20 週 · 來跟隨我 第20週](https://youtu.be/TU1sFEoRXR4)<br><sub>七天，記念與感恩的日記｜來跟隨我 第20週</sub> | Short · 導入 | 來跟隨我 2026（中文） | 已存档 · 8d554d98 | 已發布 | `TU1sFEoRXR4` |
