@@ -2,7 +2,7 @@
 
 Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, filterable version: https://king818.github.io/daddymi-publications/
 
-**371 public videos** · 106 replaced/private versions · Come, Follow Me 2026: 174 · Daily Verse · Neville Readings: 150 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 28 · Mi Xi Intro Podcast: 4 · Music Videos: 2 · Neville Inner Reading Podcast: 7
+**373 public videos** · 110 replaced/private versions · Come, Follow Me 2026: 174 · Daily Verse · Neville Readings: 150 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 28 · Mi Xi Intro Podcast: 4 · Music Videos: 4 · Neville Inner Reading Podcast: 7
 
 
 ## 來跟隨我 2026 — 中文（93）
@@ -420,10 +420,12 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-10-31 | ['Guaranteed 14% Returns'? A Dangerous Illusion | Finance Basics](https://www.youtube.com/shorts/_z0BhZ_z1P8) | Short (hook) | Finance Basics 2026 (English) | Archived · d6c05cce | Live | `_z0BhZ_z1P8` |
 | 2026-10-31 | [The Premium Lowers Your Real Cost to $109.08 | Finance Basics](https://www.youtube.com/shorts/meGAW-UginY) | Short (funnel) | Finance Basics 2026 (English) | Archived · ce324423 | Live | `meGAW-UginY` |
 
-## 音樂錄影帶 MV — 中文（2）
+## 音樂錄影帶 MV — 中文（4）
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
+| 2026-11-19 | [等你等到天光（粵語）| 米曦 Mi Xi](https://www.youtube.com/watch?v=eN7QZ2aH0n0) | MTV | 音樂錄影帶 MV | 待存档 | 已發布 | `eN7QZ2aH0n0` |
+| 2026-11-19 | [你留下的光 | 米曦 Mi Xi](https://www.youtube.com/watch?v=P5Hy-CuWLgE) | MTV | 音樂錄影帶 MV | 待存档 | 已發布 | `P5Hy-CuWLgE` |
 | 2026-11-11 | [《燈下擂茶》米曦 Mi Xi 原創單曲｜謝謝你，媽媽](https://www.youtube.com/watch?v=-t6mGZf0G4k) | Official Audio | 音樂錄影帶 MV | 待存档 | Private | `-t6mGZf0G4k` |
 | 2026-11-08 | [「換我們為妳點燈」米曦 Mi Xi 原創單曲 MTV](https://www.youtube.com/watch?v=w3UkV2G7Tl8) | MTV | 音樂錄影帶 MV | 待存档 | 已發布 | `w3UkV2G7Tl8` |
 
@@ -441,7 +443,7 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-11-13 | [미시를 만나다: 다섯 곡, 하나의 목소리](https://youtu.be/ib1S4Nn_Cdc) | Long | PLeLVX1PwZr8g | Not archived yet | Live | `ib1S4Nn_Cdc` |
 | 2026-11-13 | [ミーシーを知る：五つの歌、一つの声](https://youtu.be/sYU1VqoLeNA) | Long | PLXi8P8Db85T4 | Not archived yet | Live | `sYU1VqoLeNA` |
 
-## Replaced / Private versions (106)
+## Replaced / Private versions (110)
 
 Same productions, kept for the record — not public.
 
@@ -591,10 +593,14 @@ Same productions, kept for the record — not public.
 |---|---|---|---|---|---|---|
 | 2026-11-04 | [Eyring — Comfort from the Holy Ghost](https://youtu.be/qtSEFFhFwIE)<br><sub>Elders Quorum | Comfort from the Holy Ghost · Matthew J. Eyring</sub> | Long | General Conference Talks 2026 (English) | Archived · 1850f84c | Private · replaced | `qtSEFFhFwIE` |
 
-### 已取代 / Private · 音樂錄影帶 MV — 中文（1）
+### 已取代 / Private · 音樂錄影帶 MV — 中文（5）
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
+| 2026-11-18 | [你留下的光 | 米曦 Mi Xi](https://www.youtube.com/watch?v=aEOw0R1SrIs) | MTV | — | 待存档 | Private | `aEOw0R1SrIs` |
+| 2026-11-17 | [等你等到天光（粵語）| 米曦 Mi Xi](https://www.youtube.com/watch?v=ZhAhU4cGMI8) | MTV | 音樂錄影帶 MV | 待存档 | Private | `ZhAhU4cGMI8` |
+| 2026-11-17 | [等你等到天光（粵語）| 米曦 Mi Xi](https://www.youtube.com/watch?v=giTWQBQO2jM) | MTV | 音樂錄影帶 MV | 待存档 | Superseded | `giTWQBQO2jM` |
+| 2026-11-17 | [你留下的光 | 米曦 Mi Xi](https://www.youtube.com/watch?v=8JNVQ6gEuZs) | MTV | 音樂錄影帶 MV | 待存档 | Private | `8JNVQ6gEuZs` |
 | 2026-11-12 | [《燈下擂茶》米曦 Mi Xi 原創單曲 MTV｜謝謝你，媽媽](https://www.youtube.com/watch?v=gRbiXvJxEic) | MTV | 音樂錄影帶 MV | 待存档 | 已發布 | `gRbiXvJxEic` |
 
 ## Unverified / pending
