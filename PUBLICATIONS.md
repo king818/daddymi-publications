@@ -2,7 +2,7 @@
 
 Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, filterable version: https://king818.github.io/daddymi-publications/
 
-**508 public videos** · 111 replaced/private versions · Come, Follow Me 2026: 193 · Daily Verse · Neville Readings: 263 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 30 · Mi Xi Intro Podcast: 5 · Music Videos: 4 · Neville Inner Reading Podcast: 7
+**509 public videos** · 111 replaced/private versions · Come, Follow Me 2026: 193 · Daily Motivational: 1 · Daily Verse · Neville Readings: 263 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 30 · Mi Xi Intro Podcast: 5 · Music Videos: 4 · Neville Inner Reading Podcast: 7
 
 
 ## 來跟隨我 2026 — 中文（103）
@@ -578,6 +578,12 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-11-13 | [ミーシーを知る：五つの歌、一つの声](https://youtu.be/sYU1VqoLeNA) | Long | PLXi8P8Db85T4 | Not archived yet | Live | `sYU1VqoLeNA` |
 | 2026-11-13 | [ミーシーを知る：五つの歌、一つの声](https://youtu.be/kbMqv2f3VCQ) | Long | PLXi8P8Db85T4 | Not archived yet | Live | `kbMqv2f3VCQ` |
 
+## Daily Motivational — English (1)
+
+| 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
+|---|---|---|---|---|---|---|
+| 2026-11-19 | [Mount Up with Wings as Eagles | Isaiah 40:31 — Daily Motivational](https://www.youtube.com/shorts/mWTY6CMdKPc) | Short | Daily Motivational | Not archived yet | Live | `mWTY6CMdKPc` |
+
 ## Replaced / Private versions (111)
 
 Same productions, kept for the record — not public.
@@ -751,3 +757,4 @@ Same productions, kept for the record — not public.
 - **Daily Verse Psalm 119:11 replacement pair (2 longs, published 2026-11-03) — Evernote append pending** — Per-episode-imagery replacement versions 2-ZtDDffE4U (zh) and EB4svq0CPoA (en) published via Studio 2026-11-03 15:25–15:40 PST and verified Public; checked 2026-11-03 18:3x — no Evernote note contains the new video IDs, so the Video Artifacts append into the existing Psalm 119:11 notes has not landed yet; archive_note left empty deliberately. Originals sdpT4xWJW8A / FEmW-caUtk0 moved to replaced_or_private. Next: Append the replacement Video Artifacts to the existing Psalm 119:11 archive notes (zh d1658cf7-bd13-4e9f-a4a4-503737a0651d, en 9f4ddc4b-d876-4e69-bfa5-32d3bf85ee6f) per the replacement doctrine (append, never regenerate; double-hr separators, newest marked latest), then backfill archive_note GUIDs here.
 - **Daily Verse Psalm 119:105 full set (6 videos, published 2026-11-09) — Evernote archive notes not yet created** — Registered 2026-11-09 at close-out; the Video Artifacts archive (ZH + EN) runs as a separate step and has not landed yet, so archive_note is absent on the six rows above, deliberately. Next: Build the Video Artifacts archive notes for the six videos, verify landed, then backfill archive_note GUIDs on the six Psalm 119:105 rows.
 - **Library sync audit additions (2026-11-19) — Evernote archive notes not yet created for the newly registered rows** — The 2026-11-19 boss-directed library sync audit registered 131 publications rows and 5 replaced/private rows from a live YouTube API read-back; those rows carry no archive_note yet, so the index shows them as 待存檔 until backfilled. Next: Build/append the Video Artifacts and Gospel archive notes for the newly registered episodes (Daily Verse John 14:27 and Psalm 119:114 sets, CFM swap-repair longs, the 2026-11-13 – 2026-11-19 prayer sets) and backfill archive_note GUIDs on the rows.
+- **Daily Motivational pilot-001 Isaiah 40:31 (1 video, published 2026-11-19) — Evernote archive note missing** — New content line registered at publish time; archive note not yet created, archive_note left empty deliberately. Next: Create the archive note for mWTY6CMdKPc, then backfill the archive_note GUID here.

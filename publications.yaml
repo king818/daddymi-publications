@@ -6007,6 +6007,17 @@ publications:
   playlist: 저녁 기도 · 매일 기도
   status: Public
   note: Evening prayer for 2026-11-19, uploaded with publishAt 2026-11-20T01:00:00Z (17:00 PT); registered in the 2026-11-19 library sync audit.
+- platform: YouTube
+  series: Daily Motivational
+  topic: Isaiah 40:31 — Mount Up with Wings as Eagles
+  language: en
+  type: Short
+  title: Mount Up with Wings as Eagles | Isaiah 40:31 — Daily Motivational
+  published: '2026-11-19'
+  url: https://www.youtube.com/shorts/mWTY6CMdKPc
+  native_id: mWTY6CMdKPc
+  playlist: Daily Motivational
+  status: Live
 replaced_or_private:
 - platform: YouTube
   series: Come, Follow Me 2026
@@ -7363,3 +7374,6 @@ unverified:
 - item: Library sync audit additions (2026-11-19) — Evernote archive notes not yet created for the newly registered rows
   reason: The 2026-11-19 boss-directed library sync audit registered 131 publications rows and 5 replaced/private rows from a live YouTube API read-back; those rows carry no archive_note yet, so the index shows them as 待存檔 until backfilled.
   action: Build/append the Video Artifacts and Gospel archive notes for the newly registered episodes (Daily Verse John 14:27 and Psalm 119:114 sets, CFM swap-repair longs, the 2026-11-13 – 2026-11-19 prayer sets) and backfill archive_note GUIDs on the rows.
+- item: Daily Motivational pilot-001 Isaiah 40:31 (1 video, published 2026-11-19) — Evernote archive note missing
+  reason: New content line registered at publish time; archive note not yet created, archive_note left empty deliberately.
+  action: Create the archive note for mWTY6CMdKPc, then backfill the archive_note GUID here.
