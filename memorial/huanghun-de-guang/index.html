@@ -4,18 +4,19 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <meta name="robots" content="noindex, nofollow">
+<meta name="referrer" content="no-referrer">
 <meta property="og:type" content="website">
-<meta property="og:title" content="《你留下的光》— 米曦 Mi Xi">
-<meta property="og:description" content="献给薛叔叔——薛阿姨留下的光，还在您身旁。">
+<meta property="og:title" content="你留下的光 · 献给薛叔叔">
+<meta property="og:description" content="薛阿姨留下的光，还在您身旁。">
 <meta property="og:url" content="https://daddymi777.com/memorial/huanghun-de-guang/">
 <meta property="og:image" content="https://daddymi777.com/memorial/huanghun-de-guang/share.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="《你留下的光》— 米曦 Mi Xi">
-<meta name="twitter:description" content="献给薛叔叔——薛阿姨留下的光，还在您身旁。">
+<meta name="twitter:title" content="你留下的光 · 献给薛叔叔">
+<meta name="twitter:description" content="薛阿姨留下的光，还在您身旁。">
 <meta name="twitter:image" content="https://daddymi777.com/memorial/huanghun-de-guang/share.jpg">
-<title>《你留下的光》— 米曦 Mi Xi</title>
+<title>你留下的光 · 献给薛叔叔</title>
 <link rel="icon" type="image/png" sizes="32x32" href="/brand/favicon-32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/brand/favicon-16.png">
 <link rel="apple-touch-icon" href="/brand/apple-touch-icon.png">
@@ -37,11 +38,6 @@
   .sitehead span{font-size:13px; letter-spacing:.22em;}
   .footmark{text-align:center; margin:0 0 10px;}
   .footmark img{width:46px; height:46px;}
-  header{padding:22px 0 8px; text-align:center;}
-  .kicker{letter-spacing:.3em; font-size:13px; color:var(--accent); text-transform:uppercase;}
-  h1{font-size:34px; line-height:1.35; margin:14px 0 6px; font-weight:700;}
-  h1 .sub{display:block; font-size:19px; font-weight:400; color:var(--muted); letter-spacing:.06em; margin-top:6px;}
-  .heroimg{width:100%; border-radius:12px; display:block; border:1px solid var(--line); margin-top:14px;}
   section{background:var(--card); border:1px solid var(--line); border-radius:var(--radius); padding:28px 28px 24px; margin-top:26px;}
   h2{font-size:22px; margin-bottom:10px; color:var(--accent-dark);}
   p{margin:8px 0;}
@@ -58,38 +54,78 @@
   footer{text-align:center; color:var(--muted); font-size:13.5px; margin-top:36px;}
   footer a{color:var(--accent-dark);}
   .dedication{font-size:18.5px; color:var(--accent-dark); margin-top:12px; line-height:2.0; text-align:center;}
+  video.mv{width:100%;display:block;border-radius:12px;border:1px solid var(--line);margin-top:12px;background:#000;}
+  .mvlabel{font-size:15.5px;font-weight:700;color:var(--accent-dark);margin-top:18px;}
+  .still{max-width:520px; margin:12px auto 0;}
+  .still img{width:100%; border-radius:12px; display:block; border:1px solid var(--line);}
+  .still figcaption{font-size:13.5px; color:var(--muted); text-align:center; margin-top:4px;}
+  .signoff{text-align:right; color:var(--accent-dark); font-size:15.5px; line-height:1.9; margin-top:18px;}
+  .closing{background:linear-gradient(180deg,#F7ECD2,#FCF4DE); text-align:center; padding:52px 28px;}
+  .closing p{font-size:23px; letter-spacing:.16em; color:var(--accent-dark); margin:0;}
+  details.mvfold{background:var(--card); border:1px solid var(--line); border-radius:var(--radius); padding:24px 28px; margin-top:26px;}
+  details.mvfold summary{cursor:pointer; font-size:22px; font-weight:700; color:var(--accent-dark); list-style:none;}
+  details.mvfold summary::-webkit-details-marker{display:none;}
+  details.mvfold summary::after{content:"（点开观看）"; font-size:14px; font-weight:400; color:var(--muted); margin-left:10px; letter-spacing:.06em;}
+
+  /* ===== Cinematic first screen ===== */
+  .hero{max-width:1020px; margin:16px auto 0; padding:0 20px;}
+  .hero-frame{position:relative; border-radius:18px; overflow:hidden; border:1px solid var(--line); box-shadow:0 18px 50px rgba(62,48,16,.28); background:#2A2118;}
+  .hero-frame img{display:block; width:100%; height:min(94svh,760px); min-height:430px; object-fit:cover; object-position:center 30%; animation:heroIn 1.6s ease both;}
+  .hero-veil{position:absolute; inset:0; background:linear-gradient(180deg, rgba(24,18,8,0) 52%, rgba(24,18,8,.30) 78%, rgba(24,18,8,.58) 100%); pointer-events:none;}
+  .hero-text{position:absolute; left:0; right:0; bottom:0; padding:0 34px 26px; text-align:center; color:#FBF6E9;}
+  .hero-kicker{letter-spacing:.34em; font-size:13.5px; color:#F0DCA6; text-shadow:0 1px 10px rgba(0,0,0,.45);}
+  .hero-text h1{font-size:42px; line-height:1.3; margin:10px 0 2px; font-weight:700; text-shadow:0 2px 18px rgba(0,0,0,.45);}
+  .hero-heart{margin-top:12px; font-size:20px; letter-spacing:.12em; color:#F6E7BE; text-shadow:0 1px 12px rgba(0,0,0,.5);}
+  .hero-heart::before,.hero-heart::after{content:""; display:inline-block; width:34px; height:1px; background:linear-gradient(90deg,transparent,#E9CE8C); vertical-align:middle; margin:0 14px 5px;}
+  .hero-heart::after{background:linear-gradient(90deg,#E9CE8C,transparent);}
+  .hero-scroll{margin-top:16px; font-size:12px; letter-spacing:.3em; color:rgba(251,246,233,.55); animation:scrollHint 1.2s ease 1.8s both;}
+  @keyframes scrollHint{from{opacity:0;} to{opacity:1;}}
+  @keyframes heroIn{from{opacity:.3;} to{opacity:1;}}
+  @media (prefers-reduced-motion: reduce){
+    .hero-frame img,.hero-scroll{animation:none;}
+  }
+  .btn{display:inline-block; padding:11px 30px; border-radius:999px; text-decoration:none; font-size:16px; font-weight:700; background:var(--accent); color:#fff; box-shadow:0 2px 8px rgba(30,42,56,.22);}
+  .listenbtn{text-align:center; margin-top:16px;}
+  .ytlink{font-size:15px; margin-top:12px;}
   @media (max-width:560px){
-    h1{font-size:27px;}
     section{padding:22px 18px 18px;}
     .lyrics p{font-size:16.5px;}
     .lyrics p.on{font-size:19.5px;}
     .sitehead{padding:10px 12px 0;}
     .dedication{font-size:17px;}
+    .hero{padding:0 12px;}
+    .hero-frame img{height:88svh; min-height:380px; object-position:74% 30%;}
+    .hero-text{padding:0 18px 22px;}
+    .hero-text h1{font-size:30px;}
+    .hero-heart{font-size:18px; letter-spacing:.1em;}
   }
 </style>
 </head>
 <body>
 <div class="sitehead"><a href="https://daddymi777.com/" aria-label="米老爸 Daddy Mi — 回到首页"><img src="/brand/mark-transparent.png" alt="米老爸 Daddy Mi"><span>米老爸 Daddy Mi</span></a></div>
+
+<div class="hero">
+  <div class="hero-frame">
+    <img src="/memorial/huanghun-de-guang/hero-window.jpg" alt="米曦坐在窗边，侧脸望着光，嘴角带着轻轻的笑">
+    <div class="hero-veil" aria-hidden="true"></div>
+    <div class="hero-text">
+      <div class="hero-kicker">献给薛叔叔</div>
+      <h1>《你留下的光》</h1>
+      <div class="hero-heart">光，还在您身旁。</div>
+      <div class="hero-scroll">⌄ 向下</div>
+    </div>
+  </div>
+</div>
+
 <div class="wrap">
-  <header>
-    <div class="kicker">米曦 Mi Xi · 纪念之歌</div>
-    <h1>《你留下的光》
-      <span class="sub">米曦 Mi Xi 演唱</span>
-    </h1>
-    <img class="heroimg" src="/memorial/huanghun-de-guang/hero-window.jpg" alt="米曦坐在窗边，侧脸望着光，嘴角带着轻轻的笑">
-  </header>
   <section>
     <p class="dedication">献给薛叔叔——<br>薛阿姨留下的光，还在您身旁。<br>愿往后的每一个黄昏，都有温柔的光，陪您把日子慢慢过亮。</p>
-  </section>
-  <section>
-    <h2>故事</h2>
-    <p>有些光，不会因为黄昏到来，就真的熄灭。它藏在那些一起走过的日子里。藏在清晨的忙碌、傍晚的守望里，藏在一双双为生活操劳的手掌里。曾经觉得平凡的时光，回头再看，原来每一天都有光。</p>
-    <p>后来，黄昏还是会来，屋子也会有安静的时候。只是那份光，并没有走远。它留在熟悉的日常里，留在不经意的回想里，也留在一个人继续往前走的脚步里。</p>
-    <p>想念的时候，不必急着擦去眼泪；疲倦的时候，也不必总是那么坚强。就让黄昏的光慢慢变长，让风轻轻吹过。那些曾经一起把日子过亮的爱，并没有消失。它只是换了一种方式，继续陪在身旁。</p>
+    <p class="listenbtn"><a class="btn" href="#listen">听这首歌</a></p>
   </section>
   <section id="listen">
     <h2>聆听 · 完整歌词</h2>
     <p class="playerline"><strong>米曦 Mi Xi 演唱 🎶 ／ AI 虚拟歌手 · 音乐及演唱由 AI 辅助生成</strong></p>
+    <p class="muted">轻触播放键，即可聆听；歌词会随歌声慢慢走。</p>
     <audio class="song" id="songAudio" controls preload="metadata" src="/music/mx012/song.mp3"></audio>
     <p class="muted">完整歌词（原文）· 播放时可对照聆听。</p>
     <div class="lyrics">
@@ -158,9 +194,30 @@
     </div>
   </section>
   <section>
+    <h2>故事</h2>
+    <p>有些光，不会因为黄昏到来，就真的熄灭。它藏在那些一起走过的日子里。藏在清晨的忙碌、傍晚的守望里，藏在一双双为生活操劳的手掌里。曾经觉得平凡的时光，回头再看，原来每一天都有光。</p>
+    <p>后来，黄昏还是会来，屋子也会有安静的时候。只是那份光，并没有走远。它留在熟悉的日常里，留在不经意的回想里，也留在一个人继续往前走的脚步里。</p>
+    <p>想念的时候，不必急着擦去眼泪；疲倦的时候，也不必总是那么坚强。就让黄昏的光慢慢变长，让风轻轻吹过。那些曾经一起把日子过亮的爱，并没有消失。它只是换了一种方式，继续陪在身旁。</p>
+  </section>
+  <section>
+    <h2>剧照 · 歌里的光</h2>
+    <figure class="still"><img src="/gospel-wisdom/mixi/mixi-mx012-hand-light-v2.jpg" alt="米曦伸手迎向光" loading="lazy"><figcaption>伸手迎向留下的光</figcaption></figure>
+  </section>
+  <section>
     <h2>制作手记</h2>
     <p>写这首歌时，我一直想着黄昏里那束安静的光。不想用太多言语诉说思念，也不想催促谁走出悲伤。只愿旋律轻一些，歌声暖一些，让那些说不出口的话，慢慢落在心上。愿歌声停下以后，那份温暖还在。</p>
+    <p class="signoff">—— 米老爸 Daddy Mi 敬上<br>演唱 · 米曦 Mi Xi</p>
   </section>
+  <section class="closing">
+    <p>歌停了，光还在。</p>
+  </section>
+  <details class="mvfold" id="mv">
+    <summary>看见这首歌</summary>
+    <p>同一束光，也拍成了一段影像。想看的时候，再看。</p>
+    <p class="mvlabel">本站直接播放（无需跳转）</p>
+    <video id="mvvideo" class="mv" controls preload="metadata" playsinline poster="/music/mx012/poster.jpg" src="/music/mx012/mtv.mp4"></video>
+    <p class="ytlink">本站视频无法播放？<a href="https://www.youtube.com/watch?v=P5Hy-CuWLgE" target="_blank" rel="noreferrer noopener">在 YouTube 观看</a></p>
+  </details>
   <footer>
     <div class="footmark"><a href="https://daddymi777.com/" aria-label="米老爸 Daddy Mi — 回到首页"><img src="/brand/mark-transparent.png" alt="米老爸 Daddy Mi"></a></div>
     <p>© 2026 米老爸 Daddy Mi</p>
@@ -207,7 +264,127 @@
   (function tick() { if (!audio.paused && !audio.ended) { sync(); } requestAnimationFrame(tick); })();
   audio.addEventListener('seeked', sync);
   audio.addEventListener('ended', function () { audio.currentTime = 0; sync(); });
+  /* Keep the song and the MV from ever sounding at the same time. */
+  var mv = document.getElementById('mvvideo');
+  if (mv) {
+    audio.addEventListener('play', function () { try { mv.pause(); } catch (e) {} });
+    mv.addEventListener('play', function () { try { audio.pause(); } catch (e) {} });
+  }
 })();
 </script>
+
+<script>
+/* ===== Region-based video source (RUNBOOK section 6; wired 2026-11-12) =====
+   Mainland-China viewers are served the bit-identical HLS package from the
+   Guangzhou OSS mirror; everyone else keeps the GitHub Pages MP4 in the
+   <video> tag. Portability law: the media host lives in this ONE config
+   variable -- switching providers = sync the file tree + change
+   CN_MEDIA_BASE. Detection is client-side: mainland time zones first,
+   zh-CN language as the fallback signal when no time zone is reported.
+   Any HLS failure falls back to the original MP4 automatically.
+   Videos with preload="none" are wired lazily on first play. */
+(function(){
+  var CN_MEDIA_BASE = 'https://daddymi-media.oss-cn-guangzhou.aliyuncs.com';
+  var CN_HLS = CN_MEDIA_BASE + '/mx012/master.m3u8';
+  var HLS_JS = [
+    'https://cdn.bootcdn.net/ajax/libs/hls.js/1.5.13/hls.min.js',
+    'https://cdn.jsdelivr.net/npm/hls.js@1.5.13/dist/hls.min.js',
+    'https://cdnjs.cloudflare.com/ajax/libs/hls.js/1.5.13/hls.min.js'
+  ];
+  var videos = Array.prototype.slice.call(document.querySelectorAll('#mvvideo'));
+  if(!videos.length) return;
+  function isMainland(){
+    var tz = '';
+    try { tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; } catch(e){}
+    if(['Asia/Shanghai','Asia/Chongqing','Asia/Harbin','Asia/Urumqi'].indexOf(tz) !== -1) return true;
+    if(!tz){
+      var lang = (navigator.language || navigator.userLanguage || '').toLowerCase();
+      if(lang === 'zh-cn' || lang.indexOf('zh-hans') === 0) return true;
+    }
+    return false;
+  }
+  if(!isMainland()) return;
+  var hlsJsState = 0, hlsWaiters = [];
+  function withHlsJs(cb){
+    if(hlsJsState === 2){ cb(true); return; }
+    if(hlsJsState === 3){ cb(false); return; }
+    hlsWaiters.push(cb);
+    if(hlsJsState === 1) return;
+    hlsJsState = 1;
+    (function trySrc(i){
+      if(i >= HLS_JS.length){
+        hlsJsState = 3;
+        hlsWaiters.splice(0).forEach(function(f){ f(false); });
+        return;
+      }
+      var sc = document.createElement('script');
+      sc.src = HLS_JS[i];
+      sc.onload = function(){
+        hlsJsState = 2;
+        hlsWaiters.splice(0).forEach(function(f){ f(true); });
+      };
+      sc.onerror = function(){ trySrc(i + 1); };
+      document.head.appendChild(sc);
+    })(0);
+  }
+  videos.forEach(function(video){ wireOne(video); });
+  function wireOne(video){
+    var srcEl = video.querySelector('source');
+    var MP4_SRC = video.getAttribute('src') || (srcEl ? srcEl.getAttribute('src') : '') || '';
+    var fellBack = false, begun = false;
+    function useMp4(){
+      if(fellBack) return; fellBack = true;
+      try {
+        video.removeAttribute('src');
+        var s = video.querySelector('source');
+        if(!s){ s = document.createElement('source'); s.type = 'video/mp4'; video.appendChild(s); }
+        s.src = MP4_SRC;
+        video.load();
+      } catch(e){}
+    }
+    function startHls(){
+      if(!(window.Hls && Hls.isSupported())){ useMp4(); return; }
+      var hls = new Hls({ maxBufferLength: 30 });
+      var retried = false;
+      hls.on(Hls.Events.ERROR, function(ev, data){
+        if(!data || !data.fatal) return;
+        if(data.type === Hls.ErrorTypes.NETWORK_ERROR && !retried){ retried = true; hls.startLoad(); return; }
+        if(data.type === Hls.ErrorTypes.MEDIA_ERROR){ try { hls.recoverMediaError(); return; } catch(e){} }
+        try { hls.destroy(); } catch(e){}
+        useMp4();
+      });
+      hls.loadSource(CN_HLS);
+      hls.attachMedia(video);
+    }
+    function begin(resume){
+      if(begun) return; begun = true;
+      if(video.canPlayType('application/vnd.apple.mpegurl')){
+        var s0 = video.querySelector('source');
+        if(s0) s0.parentNode.removeChild(s0);
+        video.src = CN_HLS;
+        video.addEventListener('error', useMp4, { once:true });
+        video.load();
+        if(resume) video.play();
+        return;
+      }
+      withHlsJs(function(ok){
+        if(!ok){ useMp4(); if(resume) video.play(); return; }
+        startHls();
+        if(resume) video.play();
+      });
+    }
+    if(video.getAttribute('preload') === 'none'){
+      video.addEventListener('play', function(){
+        if(begun) return;
+        try { video.pause(); } catch(e){}
+        begin(true);
+      });
+    } else {
+      begin(false);
+    }
+  }
+})();
+</script>
+
 </body>
 </html>
