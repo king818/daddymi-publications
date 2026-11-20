@@ -6026,6 +6026,7 @@ publications:
   url: https://www.youtube.com/shorts/mWTY6CMdKPc
   native_id: mWTY6CMdKPc
   playlist: Daily Motivational
+  archive_note: a9f7d912-50bc-42fb-9ae9-42ad81fe75ce
   status: Live
 - platform: YouTube
   series: Daily Motivational
@@ -6037,6 +6038,7 @@ publications:
   url: https://www.youtube.com/shorts/6YGL56IrX5Y
   native_id: 6YGL56IrX5Y
   playlist: Daily Motivational
+  archive_note: a9f7d912-50bc-42fb-9ae9-42ad81fe75ce
   status: Live
 - platform: YouTube
   series: Daily Motivational
@@ -6048,6 +6050,7 @@ publications:
   url: https://www.youtube.com/shorts/bCIEyY9GNHI
   native_id: bCIEyY9GNHI
   playlist: Daily Motivational
+  archive_note: a9f7d912-50bc-42fb-9ae9-42ad81fe75ce
   status: Live
 - platform: YouTube
   series: Daily Motivational
@@ -6059,6 +6062,7 @@ publications:
   url: https://www.youtube.com/shorts/lxrp3fP48jY
   native_id: lxrp3fP48jY
   playlist: Daily Motivational
+  archive_note: a9f7d912-50bc-42fb-9ae9-42ad81fe75ce
   status: Live
 - platform: YouTube
   series: Daily Motivational
@@ -6070,6 +6074,7 @@ publications:
   url: https://www.youtube.com/shorts/W3XELYuvvX8
   native_id: W3XELYuvvX8
   playlist: Daily Motivational
+  archive_note: a9f7d912-50bc-42fb-9ae9-42ad81fe75ce
   status: Live
 - platform: YouTube
   series: Come, Follow Me 2026
@@ -7881,3 +7886,4 @@ unverified:
 - item: Daily Motivational pilot-001 Isaiah 40:31 (1 video, published 2026-11-19) — Evernote archive note missing
   reason: New content line registered at publish time; archive note not yet created, archive_note left empty deliberately.
   action: Create the archive note for mWTY6CMdKPc, then backfill the archive_note GUID here.
+  resolved: '2026-11-20 — DONE: Video Artifacts archive note created and get_note-verified — a9f7d912-50bc-42fb-9ae9-42ad81fe75ce (notebook e3612165-36fe-69bc-5933-a6c8d7501a44), covering all five pilot-001 videos (v1 EN mWTY6CMdKPc + v2 EN/ZH/JA/KO bCIEyY9GNHI / lxrp3fP48jY / 6YGL56IrX5Y / W3XELYuvvX8): YouTube links, Isaiah 40:31 texts in four languages, script points, locked Charon voice and mastering spec, PILOT.md key conclusions, master-file MD5s. archive_note GUID backfilled on all five rows in this update.'

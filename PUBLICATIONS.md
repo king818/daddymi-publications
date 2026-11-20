@@ -620,16 +620,16 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
-| 2026-11-20 | [從心展翅上騰 | 以賽亞書 40:31 — Daily Motivational](https://www.youtube.com/shorts/lxrp3fP48jY) | Short | Daily Motivational | 待存档 | 已發布 | `lxrp3fP48jY` |
+| 2026-11-20 | [從心展翅上騰 | 以賽亞書 40:31 — Daily Motivational](https://www.youtube.com/shorts/lxrp3fP48jY) | Short | Daily Motivational | 已存档 · a9f7d912 | 已發布 | `lxrp3fP48jY` |
 
 ## Daily Motivational — English (4)
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
-| 2026-11-20 | [Mount Up with Wings as Eagles | Isaiah 40:31 — Daily Motivational](https://www.youtube.com/shorts/bCIEyY9GNHI) | Short | Daily Motivational | Not archived yet | Live | `bCIEyY9GNHI` |
-| 2026-11-20 | [내면에서 날개를 펴고 비상하라 | 이사야 40:31 — Daily Motivational](https://www.youtube.com/shorts/W3XELYuvvX8) | Short | Daily Motivational | Not archived yet | Live | `W3XELYuvvX8` |
-| 2026-11-19 | [Mount Up with Wings as Eagles | Isaiah 40:31 — Daily Motivational](https://www.youtube.com/shorts/mWTY6CMdKPc) | Short | Daily Motivational | Not archived yet | Live | `mWTY6CMdKPc` |
-| 2026-11-19 | [翼を広げて上へ | イザヤ書 40:31 — Daily Motivational](https://www.youtube.com/shorts/6YGL56IrX5Y) | Short | Daily Motivational | Not archived yet | Live | `6YGL56IrX5Y` |
+| 2026-11-20 | [Mount Up with Wings as Eagles | Isaiah 40:31 — Daily Motivational](https://www.youtube.com/shorts/bCIEyY9GNHI) | Short | Daily Motivational | Archived · a9f7d912 | Live | `bCIEyY9GNHI` |
+| 2026-11-20 | [내면에서 날개를 펴고 비상하라 | 이사야 40:31 — Daily Motivational](https://www.youtube.com/shorts/W3XELYuvvX8) | Short | Daily Motivational | Archived · a9f7d912 | Live | `W3XELYuvvX8` |
+| 2026-11-19 | [Mount Up with Wings as Eagles | Isaiah 40:31 — Daily Motivational](https://www.youtube.com/shorts/mWTY6CMdKPc) | Short | Daily Motivational | Archived · a9f7d912 | Live | `mWTY6CMdKPc` |
+| 2026-11-19 | [翼を広げて上へ | イザヤ書 40:31 — Daily Motivational](https://www.youtube.com/shorts/6YGL56IrX5Y) | Short | Daily Motivational | Archived · a9f7d912 | Live | `6YGL56IrX5Y` |
 
 ## Replaced / Private versions (109)
 
