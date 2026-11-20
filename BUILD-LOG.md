@@ -260,3 +260,12 @@ component is a gyōsho-simplified form, disclosed to and accepted by the boss).
 - 首页改由生成器产出: portal-src/build.py + content.json 补回先前只手改在实况 HTML 的导航「试听存档 / 画册」两项与 1200×630 share-home 分享卡 (此前生成器与实况已漂移, 直接重跑会回退) — 现生成器 = 唯一事实源。
 - 路径标准化 (新立站规 docs/SITE-STANDARDS.md): 全站内部链接/资源改根目录绝对路径 — 首页 (生成器)、/publications/ (generate.py 源头改绝对路径 + 补回 og 块; 注: 本机 Python 无 OpenCC, 其产物只对齐路径行、数据未动, 标准文档 §7 已记明)、/music/ 全树 (含 mx005 归档页 ../vN/ 与各版本页 JS 曲目数据 src)、/album/、/order/、/gospel-wisdom/ 全树、/concordance/、/for-mother/ — 共 878 处引用改写, 全站 HTML 已无 ../ 相对引用。
 - 部署门: tools/link_audit.py (仓库内可重复执行的全站内链审计, 退出码非零 = 有坏链); 本次审计报告 docs/link-audit-2026-11-11.md。
+
+## 2026-11-19 — Daily Motivational 专页上线 (boss 16:55 PST 令)
+
+- 新页 /daily-motivational/ 五语视图齐全 (根 = 简体、/tc/ 繁中、/en/、/ja/、/ko/), 定位 = 基于福音经文的每日激励短片 (45–60 秒); 结构照 mx011/mx012 内容页固定件: 小标嵌页眉、五语切换、页脚 © 2026 米老爸 Daddy Mi、五语共用一张 1200×630 分享卡 (share.jpg 35.6KB, 鹰翼帧、无文字)。
+- 内容: 顶部嵌 YouTube 播放列表 Daily Motivational (PLNV8QoDtX4OM); 下方按语言分组列集, 每集本地播放器 + 地区路由 (大陆 → 广州 OSS HLS、其他 → GitHub 自托管 MP4; 路由脚本与 mx011/mx012 同款, CN_MEDIA_BASE 单点配置)。
+- 第 1 集 (英文) 已上架: 《Mount Up with Wings as Eagles》以赛亚书 40:31, YouTube mWTY6CMdKPc; 本地 MP4 = ep001-en.mp4 (与制作成品 pilot-001-final.mp4 的 MD5 一致 912e8fc9…); 广州 OSS HLS 包 dm-ep001-en (三档 1080/720/540, 38 对象全量核对 + master ETag 与本地 MD5 一致, 匿名读 200)。中文/日文/韩文组暂标「制作中」, v2 四语发布后按集增补 (页面已留 EPISODES 标记位)。
+- 导航: 五语首页导航新增「每日激励 / Daily Motivational」一项 (米曦之后) — 经 portal 生成器落地 (content.json 的 nav_motivational + build.py 的 DM_PATH), 非手改 HTML。
+- 附带修复生成器漂移: 首页页脚「隐私政策」链接此前只手补在实况 HTML、生成器里没有 — 本次回植生成器 (privacy_label + PRIVACY_PATH + 模板行); 重跑生成器后五语首页 diff 仅剩新增导航一行, 隐私链接零丢失。
+- 大陆真人实测 (DD) 为后续验收门, 本次未做 — 待 boss 请 DD 实测广州 HLS 播放后再关门。

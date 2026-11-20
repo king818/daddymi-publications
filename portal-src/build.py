@@ -89,6 +89,7 @@ TEMPLATE = """<!DOCTYPE html>
   <nav class="nav">
     <a href="%%GW_LINK%%">%%NAV_GW%%</a>
     <a href="%%MIXI_LINK%%">%%NAV_MIXI%%</a>
+    <a href="%%DM_LINK%%">%%NAV_MOTIVATIONAL%%</a>
     <a href="%%PUBS_LINK%%">%%NAV_VIDEOS%%</a>
     <a href="%%ARCHIVE_LINK%%">%%NAV_ARCHIVE%%</a>
     <a href="%%GALLERY_LINK%%">%%NAV_GALLERY%%</a>
@@ -184,6 +185,7 @@ TEMPLATE = """<!DOCTYPE html>
     <div><a href="%%YT_CHANNEL%%" target="_blank" rel="noopener">%%YT_CHANNEL_LABEL%%</a></div>
     <div><a href="%%YT_MV%%" target="_blank" rel="noopener">%%YT_MV_LABEL%%</a></div>
     <div>%%FOOTER_PRIVACY%%</div>
+    <div><a href="%%PRIVACY_LINK%%">%%PRIVACY_LABEL%%</a></div>
     <div>© 2026 米老爸 Daddy Mi</div>
   </footer>
 </div>
@@ -260,6 +262,12 @@ GALLERY_PATH = {"zh-hans": "/album/gallery/",
                 "en": "/album/gallery/en/",
                 "ja": "/album/gallery/ja/",
                 "ko": "/album/gallery/ko/"}
+PRIVACY_PATH = {"zh-hans": "/privacy/", "zh-hant": "/privacy/tc/",
+                "en": "/privacy/en/", "ja": "/privacy/ja/",
+                "ko": "/privacy/ko/"}
+DM_PATH = {"zh-hans": "/daily-motivational/", "zh-hant": "/daily-motivational/tc/",
+           "en": "/daily-motivational/en/", "ja": "/daily-motivational/ja/",
+           "ko": "/daily-motivational/ko/"}
 MX005_PATH = {"zh-hans": "/music/mx005/", "zh-hant": "/music/mx005/tc/",
               "en": "/music/mx005/en/", "ja": "/music/mx005/ja/",
               "ko": "/music/mx005/ko/"}
@@ -403,14 +411,16 @@ def render(code, page, site, pages):
         "HERO_IMG": prefix + site["hero_image"],
         "HERO_IMG_ALT": page["hero_img_alt"],
         "FOOTER_SUPPORT": page["footer_support"],
-        "FOOTER_PRIVACY": page["footer_privacy"],
+        "FOOTER_PRIVACY": page["footer_privacy"], "PRIVACY_LABEL": page["privacy_label"],
+        "PRIVACY_LINK": PRIVACY_PATH[code],
         "YT_CHANNEL": site["youtube_channel"],
         "YT_MV": site["youtube_mv_playlist"],
         "YT_CHANNEL_LABEL": page["yt_channel"],
         "YT_MV_LABEL": page["yt_mv"],
         "NAV_GW": page["nav_gw"], "NAV_MIXI": page["nav_mixi"], "NAV_VIDEOS": page["nav_videos"],
         "NAV_ARCHIVE": page["nav_archive"], "NAV_GALLERY": page["nav_gallery"],
-        "ARCHIVE_LINK": ARCHIVE_PATH[code], "GALLERY_LINK": GALLERY_PATH[code],
+        "NAV_MOTIVATIONAL": page["nav_motivational"],
+        "ARCHIVE_LINK": ARCHIVE_PATH[code], "GALLERY_LINK": GALLERY_PATH[code], "DM_LINK": DM_PATH[code],
         "PREVIEW_SECTION": _preview_section(page, code, "/" + ORDER_PATH[code]),
         "LISTEN_IMG_ALT": page["listen_img_alt"],
         "COVER": prefix + site["cover_path"],
