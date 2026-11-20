@@ -2,7 +2,7 @@
 
 Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, filterable version: https://king818.github.io/daddymi-publications/
 
-**509 public videos** · 111 replaced/private versions · Come, Follow Me 2026: 193 · Daily Motivational: 1 · Daily Verse · Neville Readings: 263 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 30 · Mi Xi Intro Podcast: 5 · Music Videos: 4 · Neville Inner Reading Podcast: 7
+**510 public videos** · 111 replaced/private versions · Come, Follow Me 2026: 193 · Daily Motivational: 2 · Daily Verse · Neville Readings: 263 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 30 · Mi Xi Intro Podcast: 5 · Music Videos: 4 · Neville Inner Reading Podcast: 7
 
 
 ## 來跟隨我 2026 — 中文（103）
@@ -578,11 +578,12 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-11-13 | [ミーシーを知る：五つの歌、一つの声](https://youtu.be/sYU1VqoLeNA) | Long | PLXi8P8Db85T4 | Not archived yet | Live | `sYU1VqoLeNA` |
 | 2026-11-13 | [ミーシーを知る：五つの歌、一つの声](https://youtu.be/kbMqv2f3VCQ) | Long | PLXi8P8Db85T4 | Not archived yet | Live | `kbMqv2f3VCQ` |
 
-## Daily Motivational — English (1)
+## Daily Motivational — English (2)
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
 | 2026-11-19 | [Mount Up with Wings as Eagles | Isaiah 40:31 — Daily Motivational](https://www.youtube.com/shorts/mWTY6CMdKPc) | Short | Daily Motivational | Not archived yet | Live | `mWTY6CMdKPc` |
+| 2026-11-19 | [翼を広げて上へ | イザヤ書 40:31 — Daily Motivational](https://www.youtube.com/shorts/6YGL56IrX5Y) | Short | Daily Motivational | Not archived yet | Live | `6YGL56IrX5Y` |
 
 ## Replaced / Private versions (111)
 

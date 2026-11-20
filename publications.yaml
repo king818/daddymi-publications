@@ -6018,6 +6018,17 @@ publications:
   native_id: mWTY6CMdKPc
   playlist: Daily Motivational
   status: Live
+- platform: YouTube
+  series: Daily Motivational
+  topic: Isaiah 40:31 — Mount Up with Wings as Eagles
+  language: ja
+  type: Short
+  title: 翼を広げて上へ | イザヤ書 40:31 — Daily Motivational
+  published: '2026-11-19'
+  url: https://www.youtube.com/shorts/6YGL56IrX5Y
+  native_id: 6YGL56IrX5Y
+  playlist: Daily Motivational
+  status: Live
 replaced_or_private:
 - platform: YouTube
   series: Come, Follow Me 2026
