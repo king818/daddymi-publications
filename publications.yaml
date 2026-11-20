@@ -6113,8 +6113,9 @@ publications:
   url: https://youtu.be/ubrjpwSdHxI
   native_id: ubrjpwSdHxI
   playlist: 來跟隨我 2026（中文）
+  archive_note: d002ce25-0376-41a2-992e-07fdd789537f
   status: Live
-  note: 'Uploaded and published Public via the YouTube Data API on 2026-11-19 (packs lane; the set had been metadata-blocked — no upload-pack existed — until the pack was authored 2026-11-19 from the QC-passed masters), with zh-Hans/zh-Hant caption tracks and custom thumbnail; inserted into playlist PLDplaecZ3Y5Q with membership re-checked, pinned comment posted. AI disclosure applied via videos.update but does not read back via API — Studio-side check pending. Evernote archive note pending.'
+  note: 'Uploaded and published Public via the YouTube Data API on 2026-11-19 (packs lane; the set had been metadata-blocked — no upload-pack existed — until the pack was authored 2026-11-19 from the QC-passed masters), with zh-Hans/zh-Hant caption tracks and custom thumbnail; inserted into playlist PLDplaecZ3Y5Q with membership re-checked, pinned comment posted. AI disclosure applied via videos.update but does not read back via API — Studio-side check pending. Evernote archive note d002ce25-0376-41a2-992e-07fdd789537f (Gospel notebook; created and get_note-verified 2026-11-20, ZIP resource 94,500,947 bytes matched).'
 - platform: YouTube
   series: Come, Follow Me 2026
   topic: Lesson 23 — Ruth; 1 Samuel 1–7
@@ -6125,6 +6126,7 @@ publications:
   url: https://youtu.be/Tm2-YbZpSFQ
   native_id: Tm2-YbZpSFQ
   playlist: 來跟隨我 2026（中文）
+  archive_note: d002ce25-0376-41a2-992e-07fdd789537f
   status: Live
   note: 'Published Public 2026-11-19 via the packs lane; playlist PLDplaecZ3Y5Q membership re-checked. Studio Related video field (to long ubrjpwSdHxI) still to be set.'
 - platform: YouTube
@@ -6137,6 +6139,7 @@ publications:
   url: https://youtu.be/kAF_NKYu_z8
   native_id: kAF_NKYu_z8
   playlist: 來跟隨我 2026（中文）
+  archive_note: d002ce25-0376-41a2-992e-07fdd789537f
   status: Live
   note: 'Published Public 2026-11-19 via the packs lane; playlist PLDplaecZ3Y5Q membership re-checked. Studio Related video field (to long ubrjpwSdHxI) still to be set.'
 - platform: YouTube
@@ -6149,8 +6152,9 @@ publications:
   url: https://youtu.be/_6ycBiZ8EWM
   native_id: _6ycBiZ8EWM
   playlist: Come, Follow Me 2026 (English)
+  archive_note: 6689135c-6ede-48e6-8523-a439a2eca13d
   status: Live
-  note: 'Uploaded and published Public via the YouTube Data API on 2026-11-19 (packs lane; upload-pack authored 2026-11-19 from the QC-passed masters), with en caption track and custom thumbnail; inserted into playlist PLErObnbcjQ1c with membership re-checked, pinned comment posted. AI disclosure applied via videos.update but does not read back via API — Studio-side check pending. Video Artifacts archive note pending.'
+  note: 'Uploaded and published Public via the YouTube Data API on 2026-11-19 (packs lane; upload-pack authored 2026-11-19 from the QC-passed masters), with en caption track and custom thumbnail; inserted into playlist PLErObnbcjQ1c with membership re-checked, pinned comment posted. AI disclosure applied via videos.update but does not read back via API — Studio-side check pending. Video Artifacts archive note 6689135c-6ede-48e6-8523-a439a2eca13d (created and get_note-verified 2026-11-20, ZIP resource 94,643,073 bytes matched).'
 - platform: YouTube
   series: Come, Follow Me 2026
   topic: Lesson 23 — Ruth; 1 Samuel 1–7
@@ -6161,6 +6165,7 @@ publications:
   url: https://youtu.be/giIvJXZ5YzQ
   native_id: giIvJXZ5YzQ
   playlist: Come, Follow Me 2026 (English)
+  archive_note: 6689135c-6ede-48e6-8523-a439a2eca13d
   status: Live
   note: 'Published Public 2026-11-19 via the packs lane; playlist PLErObnbcjQ1c membership re-checked. Studio Related video field (to long _6ycBiZ8EWM) still to be set.'
 - platform: YouTube
@@ -6173,6 +6178,7 @@ publications:
   url: https://youtu.be/FnD_3wemZ90
   native_id: FnD_3wemZ90
   playlist: Come, Follow Me 2026 (English)
+  archive_note: 6689135c-6ede-48e6-8523-a439a2eca13d
   status: Live
   note: 'Published Public 2026-11-19 via the packs lane; playlist PLErObnbcjQ1c membership re-checked. Studio Related video field (to long _6ycBiZ8EWM) still to be set.'
 - platform: YouTube
@@ -6185,8 +6191,9 @@ publications:
   url: https://youtu.be/R6UD0txPBK4
   native_id: R6UD0txPBK4
   playlist: 來跟隨我 2026（中文）
+  archive_note: bd43c433-a438-4029-988a-9e2cc3f61c4f
   status: Live
-  note: 'Uploaded and published Public via the YouTube Data API on 2026-11-19 (packs lane; upload-pack authored 2026-11-19), with the corrected -fixed zh-Hans/zh-Hant caption tracks and custom thumbnail; inserted into playlist PLDplaecZ3Y5Q with membership re-checked (finalize VERIFY read back the long Public with both caption tracks). AI disclosure applied via videos.update but does not read back via API — Studio-side check pending. Pinned comment still pending: the lane hit the generic quota pool (403 quotaExceeded) during the finalize verify of this set and stopped per protocol; the comment posts in the post-reset resume. Evernote archive note pending.'
+  note: 'Uploaded and published Public via the YouTube Data API on 2026-11-19 (packs lane; upload-pack authored 2026-11-19), with the corrected -fixed zh-Hans/zh-Hant caption tracks and custom thumbnail; inserted into playlist PLDplaecZ3Y5Q with membership re-checked (finalize VERIFY read back the long Public with both caption tracks). AI disclosure applied via videos.update but does not read back via API — Studio-side check pending. Pinned comment posted 2026-11-20 (resume lane #3, after the quota reset). Evernote archive note bd43c433-a438-4029-988a-9e2cc3f61c4f (Gospel notebook; created and get_note-verified 2026-11-20, ZIP resource 118,931,149 bytes matched).'
 - platform: YouTube
   series: Come, Follow Me 2026
   topic: Lesson 24 — 1 Samuel 8–10; 13; 15–16
@@ -6197,8 +6204,9 @@ publications:
   url: https://youtu.be/FLVI7G0z4uo
   native_id: FLVI7G0z4uo
   playlist: 來跟隨我 2026（中文）
+  archive_note: bd43c433-a438-4029-988a-9e2cc3f61c4f
   status: Live
-  note: 'Published Public 2026-11-19 via the packs lane (flip and disclosure applied by finalize_lane; playlist PLDplaecZ3Y5Q membership re-checked True). The final API read-back verify of this Short was cut by the 2026-11-19 quota stop and is queued for the post-reset verification pass. Studio Related video field (to long R6UD0txPBK4) still to be set.'
+  note: 'Published Public 2026-11-19 via the packs lane (flip and disclosure applied by finalize_lane; playlist PLDplaecZ3Y5Q membership re-checked True). Final API read-back verify completed 2026-11-20 (resume lane #3 finalize re-run): Public, playlist membership confirmed (skip-member). Studio Related video field (to long R6UD0txPBK4) still to be set.'
 - platform: YouTube
   series: Come, Follow Me 2026
   topic: Lesson 24 — 1 Samuel 8–10; 13; 15–16
@@ -6209,8 +6217,300 @@ publications:
   url: https://youtu.be/uhflw-P6FgQ
   native_id: uhflw-P6FgQ
   playlist: 來跟隨我 2026（中文）
+  archive_note: bd43c433-a438-4029-988a-9e2cc3f61c4f
   status: Live
-  note: 'Published Public 2026-11-19 via the packs lane (flip and disclosure applied by finalize_lane; playlist PLDplaecZ3Y5Q membership re-checked True). The final API read-back verify of this Short was cut by the 2026-11-19 quota stop and is queued for the post-reset verification pass. Studio Related video field (to long R6UD0txPBK4) still to be set.'
+  note: 'Published Public 2026-11-19 via the packs lane (flip and disclosure applied by finalize_lane; playlist PLDplaecZ3Y5Q membership re-checked True). Final API read-back verify completed 2026-11-20 (resume lane #3 finalize re-run): Public, playlist membership confirmed (skip-member). Studio Related video field (to long R6UD0txPBK4) still to be set.'
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 24 — 1 Samuel 8–10; 13; 15–16
+  language: en
+  type: Long
+  title: CFM 2026 Week 24 (June 8–14) | The Lord Looketh on the Heart · 1 Samuel 8–10; 13; 15–16
+  published: '2026-11-20'
+  url: https://youtu.be/CaqhUwEm9FU
+  native_id: CaqhUwEm9FU
+  playlist: Come, Follow Me 2026 (English)
+  status: Live
+  note: 'Uploaded and published Public via the YouTube Data API on 2026-11-20 (resume lane #3, after the 2026-11-19 packs lane hit the generic quota pool and stopped; upload-pack authored 2026-11-19 from the QC-passed masters), with en caption track and custom thumbnail; inserted into playlist PLErObnbcjQ1c with membership re-checked, pinned comment posted. AI disclosure applied via videos.update but does not read back via API (None channel-wide) — Studio-side check pending.'
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 24 — 1 Samuel 8–10; 13; 15–16
+  language: en
+  type: Short (hook)
+  title: Man Looketh on the Outward Appearance, but the LORD Looketh on the Heart | CFM Week 24 #Shorts
+  published: '2026-11-20'
+  url: https://youtu.be/MEKY1kSLt_U
+  native_id: MEKY1kSLt_U
+  playlist: Come, Follow Me 2026 (English)
+  status: Live
+  note: 'Published Public 2026-11-20 via resume lane #3; playlist PLErObnbcjQ1c membership re-checked. Studio Related video field (to long CaqhUwEm9FU) still to be set.'
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 24 — 1 Samuel 8–10; 13; 15–16
+  language: en
+  type: Short (funnel)
+  title: First Examine the Heart, Then Look at Outward Achievement | CFM Week 24 #Shorts
+  published: '2026-11-20'
+  url: https://youtu.be/rKrX3mPXw0I
+  native_id: rKrX3mPXw0I
+  playlist: Come, Follow Me 2026 (English)
+  status: Live
+  note: 'Published Public 2026-11-20 via resume lane #3; playlist PLErObnbcjQ1c membership re-checked. Studio Related video field (to long CaqhUwEm9FU) still to be set.'
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 30 — 2 Chronicles 14–20; 26; 30
+  language: zh
+  type: Long
+  title: 來跟隨我 2026 第30週（7月20日–26日）｜我們的眼目單仰望你 · 歷代志下 14–20；26；30
+  published: '2026-11-20'
+  url: https://youtu.be/YfZ0HwBnFbs
+  native_id: YfZ0HwBnFbs
+  playlist: 來跟隨我 2026（中文）
+  status: Live
+  note: 'Uploaded and published Public via the YouTube Data API on 2026-11-20 (resume lane #3, after the 2026-11-19 packs lane hit the generic quota pool and stopped; upload-pack authored 2026-11-19 from the QC-passed masters), with the name-fixed zh-Hans/zh-Hant caption tracks and custom thumbnail; inserted into playlist PLDplaecZ3Y5Q with membership re-checked, pinned comment posted. AI disclosure applied via videos.update but does not read back via API (None channel-wide) — Studio-side check pending.'
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 30 — 2 Chronicles 14–20; 26; 30
+  language: zh
+  type: Short (hook)
+  title: '我們不知道怎樣行，我們的眼目單仰望你｜來跟隨我 第30週 #Shorts'
+  published: '2026-11-20'
+  url: https://youtu.be/im63ux_3y-8
+  native_id: im63ux_3y-8
+  playlist: 來跟隨我 2026（中文）
+  status: Live
+  note: 'Published Public 2026-11-20 via resume lane #3; playlist PLDplaecZ3Y5Q membership re-checked. Studio Related video field (to long YfZ0HwBnFbs) still to be set.'
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 30 — 2 Chronicles 14–20; 26; 30
+  language: zh
+  type: Short (funnel)
+  title: '七天，把眼目轉向神｜來跟隨我 第30週 #Shorts'
+  published: '2026-11-20'
+  url: https://youtu.be/e12sZDOxQKc
+  native_id: e12sZDOxQKc
+  playlist: 來跟隨我 2026（中文）
+  status: Live
+  note: 'Published Public 2026-11-20 via resume lane #3; playlist PLDplaecZ3Y5Q membership re-checked. Studio Related video field (to long YfZ0HwBnFbs) still to be set.'
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 30 — 2 Chronicles 14–20; 26; 30
+  language: en
+  type: Long
+  title: CFM 2026 Week 30 (July 20–26) | Our Eyes Are upon Thee · 2 Chronicles 14–20; 26; 30
+  published: '2026-11-20'
+  url: https://youtu.be/jaJh8Kipc0E
+  native_id: jaJh8Kipc0E
+  playlist: Come, Follow Me 2026 (English)
+  status: Live
+  note: 'Uploaded and published Public via the YouTube Data API on 2026-11-20 (resume lane #3, after the 2026-11-19 packs lane hit the generic quota pool and stopped; upload-pack authored 2026-11-19 from the QC-passed masters), with en caption track and custom thumbnail; inserted into playlist PLErObnbcjQ1c with membership re-checked, pinned comment posted. AI disclosure applied via videos.update but does not read back via API (None channel-wide) — Studio-side check pending.'
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 30 — 2 Chronicles 14–20; 26; 30
+  language: en
+  type: Short (hook)
+  title: Neither Know We What to Do — Our Eyes Are upon Thee | CFM Week 30 #Shorts
+  published: '2026-11-20'
+  url: https://youtu.be/Qc50BPs3x70
+  native_id: Qc50BPs3x70
+  playlist: Come, Follow Me 2026 (English)
+  status: Live
+  note: 'Published Public 2026-11-20 via resume lane #3; playlist PLErObnbcjQ1c membership re-checked. Studio Related video field (to long jaJh8Kipc0E) still to be set.'
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 30 — 2 Chronicles 14–20; 26; 30
+  language: en
+  type: Short (funnel)
+  title: Seven Days of Turning Your Eyes | CFM Week 30 #Shorts
+  published: '2026-11-20'
+  url: https://youtu.be/uLqOlFARUwg
+  native_id: uLqOlFARUwg
+  playlist: Come, Follow Me 2026 (English)
+  status: Live
+  note: 'Published Public 2026-11-20 via resume lane #3; playlist PLErObnbcjQ1c membership re-checked. Studio Related video field (to long jaJh8Kipc0E) still to be set.'
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 25 — 1 Samuel 17–18; 24–26; 2 Samuel 5–7
+  language: en
+  type: Long
+  title: CFM 2026 Week 25 (June 15–21) | The Battle Is the Lord's · 1 Samuel 17–18; 24–26; 2 Samuel 5–7
+  published: '2026-11-20'
+  url: https://youtu.be/s32ybrmg6jQ
+  native_id: s32ybrmg6jQ
+  playlist: Come, Follow Me 2026 (English)
+  archive_note: a7806054-660e-4e27-a0d3-02850e6e6575
+  status: Live
+  note: 'Uploaded and published Public via the YouTube Data API on 2026-11-20 (resume lane #3, after the 2026-11-19 packs lane hit the generic quota pool and stopped; upload-pack authored 2026-11-19 from the QC-passed masters), with en caption track and custom thumbnail; inserted into playlist PLErObnbcjQ1c with membership re-checked, pinned comment posted. AI disclosure applied via videos.update but does not read back via API (None channel-wide) — Studio-side check pending. Video Artifacts archive note a7806054-660e-4e27-a0d3-02850e6e6575 (created and get_note-verified 2026-11-20, ZIP resource 98,245,061 bytes matched).'
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 25 — 1 Samuel 17–18; 24–26; 2 Samuel 5–7
+  language: en
+  type: Short (hook)
+  title: The Battle Is the Lord's | CFM Week 25 #Shorts
+  published: '2026-11-20'
+  url: https://youtu.be/Apr-o88JOsY
+  native_id: Apr-o88JOsY
+  playlist: Come, Follow Me 2026 (English)
+  archive_note: a7806054-660e-4e27-a0d3-02850e6e6575
+  status: Live
+  note: 'Published Public 2026-11-20 via resume lane #3; playlist PLErObnbcjQ1c membership re-checked. Studio Related video field (to long s32ybrmg6jQ) still to be set.'
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 25 — 1 Samuel 17–18; 24–26; 2 Samuel 5–7
+  language: en
+  type: Short (funnel)
+  title: Win Before the Lord, Then Act | CFM Week 25 #Shorts
+  published: '2026-11-20'
+  url: https://youtu.be/pplzeBDec_A
+  native_id: pplzeBDec_A
+  playlist: Come, Follow Me 2026 (English)
+  archive_note: a7806054-660e-4e27-a0d3-02850e6e6575
+  status: Live
+  note: 'Published Public 2026-11-20 via resume lane #3; playlist PLErObnbcjQ1c membership re-checked. Studio Related video field (to long s32ybrmg6jQ) still to be set.'
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 26 — 2 Samuel 11–12; 1 Kings 3; 6–9; 11
+  language: en
+  type: Long
+  title: CFM 2026 Week 26 (June 22–28) | Hear Thou in Heaven Their Prayer · 2 Samuel 11–12; 1 Kings 3;6–9;11
+  published: '2026-11-20'
+  url: https://youtu.be/ebLJHYAa60w
+  native_id: ebLJHYAa60w
+  playlist: Come, Follow Me 2026 (English)
+  status: Live
+  note: 'Uploaded and published Public via the YouTube Data API on 2026-11-20 (resume lane #3, after the 2026-11-19 packs lane hit the generic quota pool and stopped; upload-pack authored 2026-11-19 from the QC-passed masters), with en caption track and custom thumbnail; inserted into playlist PLErObnbcjQ1c with membership re-checked, pinned comment posted. AI disclosure applied via videos.update but does not read back via API (None channel-wide) — Studio-side check pending.'
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 26 — 2 Samuel 11–12; 1 Kings 3; 6–9; 11
+  language: en
+  type: Short (hook)
+  title: Hear Thou in Heaven, and When Thou Hearest, Forgive | CFM Week 26 #Shorts
+  published: '2026-11-20'
+  url: https://youtu.be/_9P4fZW-NQE
+  native_id: _9P4fZW-NQE
+  playlist: Come, Follow Me 2026 (English)
+  status: Live
+  note: 'Published Public 2026-11-20 via resume lane #3; playlist PLErObnbcjQ1c membership re-checked. Studio Related video field (to long ebLJHYAa60w) still to be set.'
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 26 — 2 Samuel 11–12; 1 Kings 3; 6–9; 11
+  language: en
+  type: Short (funnel)
+  title: Pause and Ask for an Understanding Heart | CFM Week 26 #Shorts
+  published: '2026-11-20'
+  url: https://youtu.be/vd6PJHuALcY
+  native_id: vd6PJHuALcY
+  playlist: Come, Follow Me 2026 (English)
+  status: Live
+  note: 'Published Public 2026-11-20 via resume lane #3; playlist PLErObnbcjQ1c membership re-checked. Studio Related video field (to long ebLJHYAa60w) still to be set.'
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 27 — 1 Kings 12–13; 17–22
+  language: en
+  type: Long
+  title: CFM 2026 Week 27 (June 29–July 5) | If the Lord Be God, Follow Him · 1 Kings 12–13; 17–22
+  published: '2026-11-20'
+  url: https://youtu.be/mE4Jk9UPBWM
+  native_id: mE4Jk9UPBWM
+  playlist: Come, Follow Me 2026 (English)
+  status: Live
+  note: 'Uploaded and published Public via the YouTube Data API on 2026-11-20 (resume lane #3, after the 2026-11-19 packs lane hit the generic quota pool and stopped; upload-pack authored 2026-11-19 from the QC-passed masters), with en caption track and custom thumbnail; inserted into playlist PLErObnbcjQ1c with membership re-checked, pinned comment posted. AI disclosure applied via videos.update but does not read back via API (None channel-wide) — Studio-side check pending.'
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 27 — 1 Kings 12–13; 17–22
+  language: en
+  type: Short (hook)
+  title: If the LORD Be God, Follow Him | CFM Week 27 #Shorts
+  published: '2026-11-20'
+  url: https://youtu.be/wzOqvMReXig
+  native_id: wzOqvMReXig
+  playlist: Come, Follow Me 2026 (English)
+  status: Live
+  note: 'Published Public 2026-11-20 via resume lane #3; playlist PLErObnbcjQ1c membership re-checked. Studio Related video field (to long mE4Jk9UPBWM) still to be set.'
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 27 — 1 Kings 12–13; 17–22
+  language: en
+  type: Short (funnel)
+  title: One Heart, One Lord, a Moment of Quiet | CFM Week 27 #Shorts
+  published: '2026-11-20'
+  url: https://youtu.be/rrNMVjyKPmU
+  native_id: rrNMVjyKPmU
+  playlist: Come, Follow Me 2026 (English)
+  status: Live
+  note: 'Published Public 2026-11-20 via resume lane #3; playlist PLErObnbcjQ1c membership re-checked. Studio Related video field (to long mE4Jk9UPBWM) still to be set.'
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 28 — 2 Kings 2–7
+  language: en
+  type: Long
+  title: CFM 2026 Week 28 (July 6–12) | There Is a Prophet in Israel · 2 Kings 2–7
+  published: '2026-11-20'
+  url: https://youtu.be/MsloGG-7ozM
+  native_id: MsloGG-7ozM
+  playlist: Come, Follow Me 2026 (English)
+  status: Live
+  note: 'Uploaded and published Public via the YouTube Data API on 2026-11-20 (resume lane #3, after the 2026-11-19 packs lane hit the generic quota pool and stopped; upload-pack authored 2026-11-19 from the QC-passed masters), with en caption track and custom thumbnail; inserted into playlist PLErObnbcjQ1c with membership re-checked, pinned comment posted. AI disclosure applied via videos.update but does not read back via API (None channel-wide) — Studio-side check pending.'
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 28 — 2 Kings 2–7
+  language: en
+  type: Short (hook)
+  title: Fear Not — They That Be With Us Are More | CFM Week 28 #Shorts
+  published: '2026-11-20'
+  url: https://youtu.be/T8y2bOyZ7lI
+  native_id: T8y2bOyZ7lI
+  playlist: Come, Follow Me 2026 (English)
+  status: Live
+  note: 'Published Public 2026-11-20 via resume lane #3; playlist PLErObnbcjQ1c membership re-checked. Studio Related video field (to long MsloGG-7ozM) still to be set.'
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 28 — 2 Kings 2–7
+  language: en
+  type: Short (funnel)
+  title: Lord, Open My Eyes | CFM Week 28 #Shorts
+  published: '2026-11-20'
+  url: https://youtu.be/tZQ9ISxMdn8
+  native_id: tZQ9ISxMdn8
+  playlist: Come, Follow Me 2026 (English)
+  status: Live
+  note: 'Published Public 2026-11-20 via resume lane #3; playlist PLErObnbcjQ1c membership re-checked. Studio Related video field (to long MsloGG-7ozM) still to be set.'
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 29 — 2 Kings 16–25
+  language: en
+  type: Long
+  title: CFM 2026 Week 29 (July 13–19) | He Trusted in the Lord God of Israel · 2 Kings 16–25
+  published: '2026-11-20'
+  url: https://youtu.be/Yjabi_ceNcU
+  native_id: Yjabi_ceNcU
+  playlist: Come, Follow Me 2026 (English)
+  status: Live
+  note: 'Uploaded and published Public via the YouTube Data API on 2026-11-20 (resume lane #3, after the 2026-11-19 packs lane hit the generic quota pool and stopped; upload-pack authored 2026-11-19 from the QC-passed masters), with en caption track and custom thumbnail; inserted into playlist PLErObnbcjQ1c with membership re-checked, pinned comment posted. AI disclosure applied via videos.update but does not read back via API (None channel-wide) — Studio-side check pending.'
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 29 — 2 Kings 16–25
+  language: en
+  type: Short (hook)
+  title: Spread It Before the LORD | CFM Week 29 #Shorts
+  published: '2026-11-20'
+  url: https://youtu.be/j4YYWF9BmBg
+  native_id: j4YYWF9BmBg
+  playlist: Come, Follow Me 2026 (English)
+  status: Live
+  note: 'Published Public 2026-11-20 via resume lane #3; playlist PLErObnbcjQ1c membership re-checked. Studio Related video field (to long Yjabi_ceNcU) still to be set.'
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 29 — 2 Kings 16–25
+  language: en
+  type: Short (funnel)
+  title: Bring Your Worries Before the Lord | CFM Week 29 #Shorts
+  published: '2026-11-20'
+  url: https://youtu.be/JO6F7uP01kg
+  native_id: JO6F7uP01kg
+  playlist: Come, Follow Me 2026 (English)
+  status: Live
+  note: 'Published Public 2026-11-20 via resume lane #3; playlist PLErObnbcjQ1c membership re-checked. Studio Related video field (to long Yjabi_ceNcU) still to be set.'
 replaced_or_private:
 - platform: YouTube
   series: Come, Follow Me 2026
@@ -7524,6 +7824,7 @@ unverified:
 - item: CFM packs lane quota stop (2026-11-19) — 24 pieces plus 1 pinned comment resume after the quota reset
   reason: The 2026-11-19 packs lane published Lessons 23 ZH, 23 EN and 24 ZH (9 pieces) and then hit the exhausted generic quota pool (403 quotaExceeded on a captions list call during the Lesson 24 ZH finalize verify) and stopped per protocol. Not yet uploaded — Lesson 24 EN, Lesson 30 ZH, Lesson 30 EN, and the EN sets of Lessons 25–29 (8 sets, 24 pieces; all upload-packs authored and builder-verified 2026-11-19). Also pending — the pinned comment on the Lesson 24 ZH long R6UD0txPBK4, the post-reset read-back verify of the two Lesson 24 ZH Shorts, and the Evernote archive notes for Lessons 23 ZH, 23 EN and 24 ZH.
   action: After the quota reset (2026-11-20 00:00 PST), re-run lane_packs_20261119.sh from the Lesson 24 EN set onward (idempotent via upload-state.json), post the Lesson 24 ZH pinned comment, run the final verification pass, then build the three archive notes and backfill rows.
+  resolved: '2026-11-20 — DONE by resume lane #3 (cron cfm-staged-lane-resume, 00:07–00:34 PST): all 24 pieces uploaded and published Public (each API read-back verified Public, playlist membership re-checked True, pinned comment posted per long); the Lesson 24 ZH pinned comment was posted and its two Shorts received the final read-back verify (Public, playlist members). Evernote archive notes created and get_note-verified: Lesson 23 ZH d002ce25-0376-41a2-992e-07fdd789537f (ZIP 94,500,947 bytes), Lesson 23 EN 6689135c-6ede-48e6-8523-a439a2eca13d (ZIP 94,643,073 bytes), Lesson 24 ZH bd43c433-a438-4029-988a-9e2cc3f61c4f (ZIP 118,931,149 bytes); archive_note GUIDs backfilled on all affected rows in this update. Side checks in the same run: the Lesson 25 EN archive note was missing and was built (a7806054-660e-4e27-a0d3-02850e6e6575, ZIP 98,245,061 bytes, get_note-verified), and the Lesson 31 EN archive was confirmed already present (a4788a77-453e-49ab-b7ef-2d67deb8e74a). Still open (not part of this entry): Studio Related-video fields for the lane Shorts and Studio-side AI-disclosure eye-checks.'
 - item: CFM Lesson 3 (6 videos, published 2026-11-03) — Evernote archive notes missing
   reason: Checked 2026-11-03 — no archive notes found in Evernote by video ID or title; archive ZIPs not yet built. Finals retained on M1 mini (~/cfm-bf03-creation) and in the run dir on the VM.
   action: Build archive ZIPs and create the six archive notes (Chinese → Gospel, English → Video Artifacts, per CFM archiving standard), then backfill archive_note GUIDs here.
