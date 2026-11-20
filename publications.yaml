@@ -6039,6 +6039,39 @@ publications:
   playlist: Daily Motivational
   status: Live
 - platform: YouTube
+  series: Daily Motivational
+  topic: Isaiah 40:31 — Mount Up with Wings as Eagles
+  language: en
+  type: Short
+  title: Mount Up with Wings as Eagles | Isaiah 40:31 — Daily Motivational
+  published: '2026-11-20'
+  url: https://www.youtube.com/shorts/bCIEyY9GNHI
+  native_id: bCIEyY9GNHI
+  playlist: Daily Motivational
+  status: Live
+- platform: YouTube
+  series: Daily Motivational
+  topic: Isaiah 40:31 — Mount Up with Wings as Eagles
+  language: zh
+  type: Short
+  title: 從心展翅上騰 | 以賽亞書 40:31 — Daily Motivational
+  published: '2026-11-20'
+  url: https://www.youtube.com/shorts/lxrp3fP48jY
+  native_id: lxrp3fP48jY
+  playlist: Daily Motivational
+  status: Live
+- platform: YouTube
+  series: Daily Motivational
+  topic: Isaiah 40:31 — Mount Up with Wings as Eagles
+  language: ko
+  type: Short
+  title: 내면에서 날개를 펴고 비상하라 | 이사야 40:31 — Daily Motivational
+  published: '2026-11-20'
+  url: https://www.youtube.com/shorts/W3XELYuvvX8
+  native_id: W3XELYuvvX8
+  playlist: Daily Motivational
+  status: Live
+- platform: YouTube
   series: Come, Follow Me 2026
   topic: Lesson 25 — 1 Samuel 17–18; 24–26; 2 Samuel 5–7
   language: zh

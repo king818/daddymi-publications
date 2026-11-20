@@ -2,22 +2,25 @@
 
 Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, filterable version: https://king818.github.io/daddymi-publications/
 
-**524 public videos** · 109 replaced/private versions · Come, Follow Me 2026: 207 · Daily Motivational: 2 · Daily Verse · Neville Readings: 263 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 30 · Mi Xi Intro Podcast: 5 · Music Videos: 4 · Neville Inner Reading Podcast: 7
+**551 public videos** · 109 replaced/private versions · Come, Follow Me 2026: 231 · Daily Motivational: 5 · Daily Verse · Neville Readings: 263 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 30 · Mi Xi Intro Podcast: 5 · Music Videos: 4 · Neville Inner Reading Podcast: 7
 
 
-## 來跟隨我 2026 — 中文（114）
+## 來跟隨我 2026 — 中文（117）
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
+| 2026-11-20 | [第 30 週 · 我們的眼目單仰望你](https://youtu.be/YfZ0HwBnFbs)<br><sub>來跟隨我 2026 第30週（7月20日–26日）｜我們的眼目單仰望你 · 歷代志下 14–20；26；30</sub> | 長集 | 來跟隨我 2026（中文） | 待存档 | 已發布 | `YfZ0HwBnFbs` |
+| 2026-11-20 | [第 30 週 · 來跟隨我 第30週](https://youtu.be/im63ux_3y-8)<br><sub>我們不知道怎樣行，我們的眼目單仰望你｜來跟隨我 第30週</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 待存档 | 已發布 | `im63ux_3y-8` |
+| 2026-11-20 | [第 30 週 · 來跟隨我 第30週](https://youtu.be/e12sZDOxQKc)<br><sub>七天，把眼目轉向神｜來跟隨我 第30週</sub> | Short · 導入 | 來跟隨我 2026（中文） | 待存档 | 已發布 | `e12sZDOxQKc` |
 | 2026-11-19 | [第 27 週 · 若耶和華是神，就當順從耶和華](https://youtu.be/3sAPCYKg3dI)<br><sub>來跟隨我 2026 第27週（6月29日–7月5日）｜若耶和華是神，就當順從耶和華 · 列王紀上 12–13；17–22</sub> | 長集 | 來跟隨我 2026（中文） | 已存档 · 9398f7a7 | 已發布 | `3sAPCYKg3dI` |
 | 2026-11-19 | [第 27 週 · 來跟隨我 第27週](https://youtu.be/-1JovvW9xUI)<br><sub>若耶和華是神，就當順從耶和華｜來跟隨我 第27週</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 已存档 · 9398f7a7 | 已發布 | `-1JovvW9xUI` |
 | 2026-11-19 | [第 27 週 · 來跟隨我 第27週](https://youtu.be/ETYVtI3MKzc)<br><sub>一顆心，一個主，一段安靜｜來跟隨我 第27週</sub> | Short · 導入 | 來跟隨我 2026（中文） | 已存档 · 9398f7a7 | 已發布 | `ETYVtI3MKzc` |
-| 2026-11-19 | [第 23 週 · 我的心因耶和華快樂](https://youtu.be/ubrjpwSdHxI)<br><sub>來跟隨我 2026 第23週（6月1日–7日）｜我的心因耶和華快樂 · 路得記；撒母耳記上 1–7</sub> | 長集 | 來跟隨我 2026（中文） | 待存档 | 已發布 | `ubrjpwSdHxI` |
-| 2026-11-19 | [第 23 週 · 來跟隨我 第23週](https://youtu.be/Tm2-YbZpSFQ)<br><sub>「你往哪裡去，我也往那裡去」｜來跟隨我 第23週</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 待存档 | 已發布 | `Tm2-YbZpSFQ` |
-| 2026-11-19 | [第 23 週 · 來跟隨我 第23週](https://youtu.be/kAF_NKYu_z8)<br><sub>先感恩，再傾心吐意｜來跟隨我 第23週</sub> | Short · 導入 | 來跟隨我 2026（中文） | 待存档 | 已發布 | `kAF_NKYu_z8` |
-| 2026-11-19 | [第 24 週 · 耶和華是看內心](https://youtu.be/R6UD0txPBK4)<br><sub>來跟隨我 2026 第24週（6月8日–14日）｜耶和華是看內心 · 撒母耳記上 8–10；13；15–16</sub> | 長集 | 來跟隨我 2026（中文） | 待存档 | 已發布 | `R6UD0txPBK4` |
-| 2026-11-19 | [第 24 週 · 來跟隨我 第24週](https://youtu.be/FLVI7G0z4uo)<br><sub>「人是看外貌，耶和華是看內心」｜來跟隨我 第24週</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 待存档 | 已發布 | `FLVI7G0z4uo` |
-| 2026-11-19 | [第 24 週 · 來跟隨我 第24週](https://youtu.be/uhflw-P6FgQ)<br><sub>先省察內心，再看外表成就｜來跟隨我 第24週</sub> | Short · 導入 | 來跟隨我 2026（中文） | 待存档 | 已發布 | `uhflw-P6FgQ` |
+| 2026-11-19 | [第 23 週 · 我的心因耶和華快樂](https://youtu.be/ubrjpwSdHxI)<br><sub>來跟隨我 2026 第23週（6月1日–7日）｜我的心因耶和華快樂 · 路得記；撒母耳記上 1–7</sub> | 長集 | 來跟隨我 2026（中文） | 已存档 · d002ce25 | 已發布 | `ubrjpwSdHxI` |
+| 2026-11-19 | [第 23 週 · 來跟隨我 第23週](https://youtu.be/Tm2-YbZpSFQ)<br><sub>「你往哪裡去，我也往那裡去」｜來跟隨我 第23週</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 已存档 · d002ce25 | 已發布 | `Tm2-YbZpSFQ` |
+| 2026-11-19 | [第 23 週 · 來跟隨我 第23週](https://youtu.be/kAF_NKYu_z8)<br><sub>先感恩，再傾心吐意｜來跟隨我 第23週</sub> | Short · 導入 | 來跟隨我 2026（中文） | 已存档 · d002ce25 | 已發布 | `kAF_NKYu_z8` |
+| 2026-11-19 | [第 24 週 · 耶和華是看內心](https://youtu.be/R6UD0txPBK4)<br><sub>來跟隨我 2026 第24週（6月8日–14日）｜耶和華是看內心 · 撒母耳記上 8–10；13；15–16</sub> | 長集 | 來跟隨我 2026（中文） | 已存档 · bd43c433 | 已發布 | `R6UD0txPBK4` |
+| 2026-11-19 | [第 24 週 · 來跟隨我 第24週](https://youtu.be/FLVI7G0z4uo)<br><sub>「人是看外貌，耶和華是看內心」｜來跟隨我 第24週</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 已存档 · bd43c433 | 已發布 | `FLVI7G0z4uo` |
+| 2026-11-19 | [第 24 週 · 來跟隨我 第24週](https://youtu.be/uhflw-P6FgQ)<br><sub>先省察內心，再看外表成就｜來跟隨我 第24週</sub> | Short · 導入 | 來跟隨我 2026（中文） | 已存档 · bd43c433 | 已發布 | `uhflw-P6FgQ` |
 | 2026-11-18 | [第 26 週 · 求你在天上垂聽他們的禱告](https://youtu.be/hGt96pg9kIw)<br><sub>來跟隨我 2026 第26週（6月22日–28日）｜求你在天上垂聽他們的禱告 · 撒母耳記下 11–12；列王紀上 3；6–9；11</sub> | 長集 | 來跟隨我 2026（中文） | 已存档 · e391e8dc | 已發布 | `hGt96pg9kIw` |
 | 2026-11-18 | [第 26 週 · 來跟隨我 第26週](https://youtu.be/yDRVMJoyBfo)<br><sub>求你在天上垂聽，垂聽而赦免｜來跟隨我 第26週</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 已存档 · e391e8dc | 已發布 | `yDRVMJoyBfo` |
 | 2026-11-18 | [第 26 週 · 來跟隨我 第26週](https://youtu.be/iWCNTvssoqA)<br><sub>停下來，求一顆能分辨的心｜來跟隨我 第26週</sub> | Short · 導入 | 來跟隨我 2026（中文） | 已存档 · e391e8dc | 已發布 | `iWCNTvssoqA` |
@@ -124,13 +127,34 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-10-31 | [第 45 週 · 神到流亡之地找你｜以西結書](https://www.youtube.com/shorts/Tk8jNm_BPrc)<br><sub>2026 第45週｜神到流亡之地找你｜以西結書</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 已存档 · dbaae7fa | 已發布 | `Tk8jNm_BPrc` |
 | 2026-10-31 | [第 45 週 · 除掉石心，賜給你們肉心｜以西結書](https://www.youtube.com/shorts/Rspv2DcNX_s)<br><sub>2026 第45週｜除掉石心，賜給你們肉心｜以西結書</sub> | Short · 導入 | 來跟隨我 2026（中文） | 已存档 · f9a717b1 | 已發布 | `Rspv2DcNX_s` |
 
-## Come, Follow Me 2026 — English (93)
+## Come, Follow Me 2026 — English (114)
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
-| 2026-11-19 | [Week 23 · Ruth; 1 Samuel 1–7](https://youtu.be/_6ycBiZ8EWM)<br><sub>CFM 2026 Week 23 (June 1–7) | My Heart Rejoiceth in the Lord · Ruth; 1 Samuel 1–7</sub> | Long | Come, Follow Me 2026 (English) | Not archived yet | Live | `_6ycBiZ8EWM` |
-| 2026-11-19 | [Week 23 · Ruth; 1 Samuel 1–7](https://youtu.be/giIvJXZ5YzQ)<br><sub>Whither Thou Goest, I Will Go | CFM Week 23</sub> | Short (hook) | Come, Follow Me 2026 (English) | Not archived yet | Live | `giIvJXZ5YzQ` |
-| 2026-11-19 | [Week 23 · Ruth; 1 Samuel 1–7](https://youtu.be/FnD_3wemZ90)<br><sub>First Give Thanks, Then Pour Out Your Heart | CFM Week 23</sub> | Short (funnel) | Come, Follow Me 2026 (English) | Not archived yet | Live | `FnD_3wemZ90` |
+| 2026-11-20 | [Week 24 · 1 Samuel 8–10; 13; 15–16](https://youtu.be/CaqhUwEm9FU)<br><sub>CFM 2026 Week 24 (June 8–14) | The Lord Looketh on the Heart · 1 Samuel 8–10; 13; 15–16</sub> | Long | Come, Follow Me 2026 (English) | Not archived yet | Live | `CaqhUwEm9FU` |
+| 2026-11-20 | [Week 24 · 1 Samuel 8–10; 13; 15–16](https://youtu.be/MEKY1kSLt_U)<br><sub>Man Looketh on the Outward Appearance, but the LORD Looketh on the Heart | CFM Week 24</sub> | Short (hook) | Come, Follow Me 2026 (English) | Not archived yet | Live | `MEKY1kSLt_U` |
+| 2026-11-20 | [Week 24 · 1 Samuel 8–10; 13; 15–16](https://youtu.be/rKrX3mPXw0I)<br><sub>First Examine the Heart, Then Look at Outward Achievement | CFM Week 24</sub> | Short (funnel) | Come, Follow Me 2026 (English) | Not archived yet | Live | `rKrX3mPXw0I` |
+| 2026-11-20 | [Week 30 · 2 Chronicles 14–20; 26; 30](https://youtu.be/jaJh8Kipc0E)<br><sub>CFM 2026 Week 30 (July 20–26) | Our Eyes Are upon Thee · 2 Chronicles 14–20; 26; 30</sub> | Long | Come, Follow Me 2026 (English) | Not archived yet | Live | `jaJh8Kipc0E` |
+| 2026-11-20 | [Week 30 · 2 Chronicles 14–20; 26; 30](https://youtu.be/Qc50BPs3x70)<br><sub>Neither Know We What to Do — Our Eyes Are upon Thee | CFM Week 30</sub> | Short (hook) | Come, Follow Me 2026 (English) | Not archived yet | Live | `Qc50BPs3x70` |
+| 2026-11-20 | [Week 30 · 2 Chronicles 14–20; 26; 30](https://youtu.be/uLqOlFARUwg)<br><sub>Seven Days of Turning Your Eyes | CFM Week 30</sub> | Short (funnel) | Come, Follow Me 2026 (English) | Not archived yet | Live | `uLqOlFARUwg` |
+| 2026-11-20 | [Week 25 · 1 Samuel 17–18; 24–26; 2 Samuel 5–7](https://youtu.be/s32ybrmg6jQ)<br><sub>CFM 2026 Week 25 (June 15–21) | The Battle Is the Lord's · 1 Samuel 17–18; 24–26; 2 Samuel 5–7</sub> | Long | Come, Follow Me 2026 (English) | Archived · a7806054 | Live | `s32ybrmg6jQ` |
+| 2026-11-20 | [Week 25 · 1 Samuel 17–18; 24–26; 2 Samuel 5–7](https://youtu.be/Apr-o88JOsY)<br><sub>The Battle Is the Lord's | CFM Week 25</sub> | Short (hook) | Come, Follow Me 2026 (English) | Archived · a7806054 | Live | `Apr-o88JOsY` |
+| 2026-11-20 | [Week 25 · 1 Samuel 17–18; 24–26; 2 Samuel 5–7](https://youtu.be/pplzeBDec_A)<br><sub>Win Before the Lord, Then Act | CFM Week 25</sub> | Short (funnel) | Come, Follow Me 2026 (English) | Archived · a7806054 | Live | `pplzeBDec_A` |
+| 2026-11-20 | [Week 26 · 2 Samuel 11–12; 1 Kings 3; 6–9; 11](https://youtu.be/ebLJHYAa60w)<br><sub>CFM 2026 Week 26 (June 22–28) | Hear Thou in Heaven Their Prayer · 2 Samuel 11–12; 1 Kings 3;6–9;11</sub> | Long | Come, Follow Me 2026 (English) | Not archived yet | Live | `ebLJHYAa60w` |
+| 2026-11-20 | [Week 26 · 2 Samuel 11–12; 1 Kings 3; 6–9; 11](https://youtu.be/_9P4fZW-NQE)<br><sub>Hear Thou in Heaven, and When Thou Hearest, Forgive | CFM Week 26</sub> | Short (hook) | Come, Follow Me 2026 (English) | Not archived yet | Live | `_9P4fZW-NQE` |
+| 2026-11-20 | [Week 26 · 2 Samuel 11–12; 1 Kings 3; 6–9; 11](https://youtu.be/vd6PJHuALcY)<br><sub>Pause and Ask for an Understanding Heart | CFM Week 26</sub> | Short (funnel) | Come, Follow Me 2026 (English) | Not archived yet | Live | `vd6PJHuALcY` |
+| 2026-11-20 | [Week 27 · 1 Kings 12–13; 17–22](https://youtu.be/mE4Jk9UPBWM)<br><sub>CFM 2026 Week 27 (June 29–July 5) | If the Lord Be God, Follow Him · 1 Kings 12–13; 17–22</sub> | Long | Come, Follow Me 2026 (English) | Not archived yet | Live | `mE4Jk9UPBWM` |
+| 2026-11-20 | [Week 27 · 1 Kings 12–13; 17–22](https://youtu.be/wzOqvMReXig)<br><sub>If the LORD Be God, Follow Him | CFM Week 27</sub> | Short (hook) | Come, Follow Me 2026 (English) | Not archived yet | Live | `wzOqvMReXig` |
+| 2026-11-20 | [Week 27 · 1 Kings 12–13; 17–22](https://youtu.be/rrNMVjyKPmU)<br><sub>One Heart, One Lord, a Moment of Quiet | CFM Week 27</sub> | Short (funnel) | Come, Follow Me 2026 (English) | Not archived yet | Live | `rrNMVjyKPmU` |
+| 2026-11-20 | [Week 28 · 2 Kings 2–7](https://youtu.be/MsloGG-7ozM)<br><sub>CFM 2026 Week 28 (July 6–12) | There Is a Prophet in Israel · 2 Kings 2–7</sub> | Long | Come, Follow Me 2026 (English) | Not archived yet | Live | `MsloGG-7ozM` |
+| 2026-11-20 | [Week 28 · 2 Kings 2–7](https://youtu.be/T8y2bOyZ7lI)<br><sub>Fear Not — They That Be With Us Are More | CFM Week 28</sub> | Short (hook) | Come, Follow Me 2026 (English) | Not archived yet | Live | `T8y2bOyZ7lI` |
+| 2026-11-20 | [Week 28 · 2 Kings 2–7](https://youtu.be/tZQ9ISxMdn8)<br><sub>Lord, Open My Eyes | CFM Week 28</sub> | Short (funnel) | Come, Follow Me 2026 (English) | Not archived yet | Live | `tZQ9ISxMdn8` |
+| 2026-11-20 | [Week 29 · 2 Kings 16–25](https://youtu.be/Yjabi_ceNcU)<br><sub>CFM 2026 Week 29 (July 13–19) | He Trusted in the Lord God of Israel · 2 Kings 16–25</sub> | Long | Come, Follow Me 2026 (English) | Not archived yet | Live | `Yjabi_ceNcU` |
+| 2026-11-20 | [Week 29 · 2 Kings 16–25](https://youtu.be/j4YYWF9BmBg)<br><sub>Spread It Before the LORD | CFM Week 29</sub> | Short (hook) | Come, Follow Me 2026 (English) | Not archived yet | Live | `j4YYWF9BmBg` |
+| 2026-11-20 | [Week 29 · 2 Kings 16–25](https://youtu.be/JO6F7uP01kg)<br><sub>Bring Your Worries Before the Lord | CFM Week 29</sub> | Short (funnel) | Come, Follow Me 2026 (English) | Not archived yet | Live | `JO6F7uP01kg` |
+| 2026-11-19 | [Week 23 · Ruth; 1 Samuel 1–7](https://youtu.be/_6ycBiZ8EWM)<br><sub>CFM 2026 Week 23 (June 1–7) | My Heart Rejoiceth in the Lord · Ruth; 1 Samuel 1–7</sub> | Long | Come, Follow Me 2026 (English) | Archived · 6689135c | Live | `_6ycBiZ8EWM` |
+| 2026-11-19 | [Week 23 · Ruth; 1 Samuel 1–7](https://youtu.be/giIvJXZ5YzQ)<br><sub>Whither Thou Goest, I Will Go | CFM Week 23</sub> | Short (hook) | Come, Follow Me 2026 (English) | Archived · 6689135c | Live | `giIvJXZ5YzQ` |
+| 2026-11-19 | [Week 23 · Ruth; 1 Samuel 1–7](https://youtu.be/FnD_3wemZ90)<br><sub>First Give Thanks, Then Pour Out Your Heart | CFM Week 23</sub> | Short (funnel) | Come, Follow Me 2026 (English) | Archived · 6689135c | Live | `FnD_3wemZ90` |
 | 2026-11-17 | [Week 17 · Exodus 19–20; 24; 31–34](https://youtu.be/mkFsHhuhRCo)<br><sub>CFM 2026 Week 17 (Apr 20–26) | All That the Lord Hath Spoken We Will Do · Exodus 19–20; 24; 31–34</sub> | Long | Come, Follow Me 2026 (English) | Archived · f82a70e6 | Live | `mkFsHhuhRCo` |
 | 2026-11-17 | [Week 17 · Exodus 19–20; 24; 31–34](https://youtu.be/6cTqLrQdPP8)<br><sub>All That the Lord Hath Spoken We Will Do | CFM Week 17</sub> | Short (hook) | Come, Follow Me 2026 (English) | Archived · f82a70e6 | Live | `6cTqLrQdPP8` |
 | 2026-11-17 | [Week 17 · Exodus 19–20; 24; 31–34](https://youtu.be/aHy-q5kWcMc)<br><sub>Turn One Daily Choice toward God | CFM Week 17</sub> | Short (funnel) | Come, Follow Me 2026 (English) | Archived · f82a70e6 | Live | `aHy-q5kWcMc` |
@@ -592,10 +616,18 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-11-13 | [ミーシーを知る：五つの歌、一つの声](https://youtu.be/sYU1VqoLeNA) | Long | PLXi8P8Db85T4 | Not archived yet | Live | `sYU1VqoLeNA` |
 | 2026-11-13 | [ミーシーを知る：五つの歌、一つの声](https://youtu.be/kbMqv2f3VCQ) | Long | PLXi8P8Db85T4 | Not archived yet | Live | `kbMqv2f3VCQ` |
 
-## Daily Motivational — English (2)
+## Daily Motivational — 中文（1）
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
+| 2026-11-20 | [從心展翅上騰 | 以賽亞書 40:31 — Daily Motivational](https://www.youtube.com/shorts/lxrp3fP48jY) | Short | Daily Motivational | 待存档 | 已發布 | `lxrp3fP48jY` |
+
+## Daily Motivational — English (4)
+
+| 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
+|---|---|---|---|---|---|---|
+| 2026-11-20 | [Mount Up with Wings as Eagles | Isaiah 40:31 — Daily Motivational](https://www.youtube.com/shorts/bCIEyY9GNHI) | Short | Daily Motivational | Not archived yet | Live | `bCIEyY9GNHI` |
+| 2026-11-20 | [내면에서 날개를 펴고 비상하라 | 이사야 40:31 — Daily Motivational](https://www.youtube.com/shorts/W3XELYuvvX8) | Short | Daily Motivational | Not archived yet | Live | `W3XELYuvvX8` |
 | 2026-11-19 | [Mount Up with Wings as Eagles | Isaiah 40:31 — Daily Motivational](https://www.youtube.com/shorts/mWTY6CMdKPc) | Short | Daily Motivational | Not archived yet | Live | `mWTY6CMdKPc` |
 | 2026-11-19 | [翼を広げて上へ | イザヤ書 40:31 — Daily Motivational](https://www.youtube.com/shorts/6YGL56IrX5Y) | Short | Daily Motivational | Not archived yet | Live | `6YGL56IrX5Y` |
 
