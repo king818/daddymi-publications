@@ -2,22 +2,31 @@
 
 Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, filterable version: https://king818.github.io/daddymi-publications/
 
-**510 public videos** · 111 replaced/private versions · Come, Follow Me 2026: 193 · Daily Motivational: 2 · Daily Verse · Neville Readings: 263 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 30 · Mi Xi Intro Podcast: 5 · Music Videos: 4 · Neville Inner Reading Podcast: 7
+**524 public videos** · 109 replaced/private versions · Come, Follow Me 2026: 207 · Daily Motivational: 2 · Daily Verse · Neville Readings: 263 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 30 · Mi Xi Intro Podcast: 5 · Music Videos: 4 · Neville Inner Reading Podcast: 7
 
 
-## 來跟隨我 2026 — 中文（103）
+## 來跟隨我 2026 — 中文（114）
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
-| 2026-11-18 | [第 26 週 · 求你在天上垂聽他們的禱告](https://youtu.be/hGt96pg9kIw)<br><sub>來跟隨我 2026 第26週（6月22日–28日）｜求你在天上垂聽他們的禱告 · 撒母耳記下 11–12；列王紀上 3；6–9；11</sub> | 長集 | 來跟隨我 2026（中文） | 待存档 | 已發布 | `hGt96pg9kIw` |
-| 2026-11-18 | [第 26 週 · 來跟隨我 第26週](https://youtu.be/yDRVMJoyBfo)<br><sub>求你在天上垂聽，垂聽而赦免｜來跟隨我 第26週</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 待存档 | 已發布 | `yDRVMJoyBfo` |
-| 2026-11-18 | [第 26 週 · 來跟隨我 第26週](https://youtu.be/iWCNTvssoqA)<br><sub>停下來，求一顆能分辨的心｜來跟隨我 第26週</sub> | Short · 導入 | 來跟隨我 2026（中文） | 待存档 | 已發布 | `iWCNTvssoqA` |
-| 2026-11-18 | [第 28 週 · 以色列中有先知了](https://youtu.be/EzZ30s7JPOs)<br><sub>來跟隨我 2026 第28週（7月6日–12日）｜以色列中有先知了 · 列王紀下 2–7</sub> | 長集 | 來跟隨我 2026（中文） | 待存档 | 已發布 | `EzZ30s7JPOs` |
-| 2026-11-18 | [第 28 週 · 來跟隨我 第28週](https://youtu.be/nzHQeK3vwCs)<br><sub>不要懼怕！與我們同在的更多｜來跟隨我 第28週</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 待存档 | 已發布 | `nzHQeK3vwCs` |
-| 2026-11-18 | [第 28 週 · 來跟隨我 第28週](https://youtu.be/lChUiM-OaI0)<br><sub>求主開我的眼睛｜來跟隨我 第28週</sub> | Short · 導入 | 來跟隨我 2026（中文） | 待存档 | 已發布 | `lChUiM-OaI0` |
-| 2026-11-18 | [第 29 週 · 希西家倚靠耶和華——以色列的神](https://youtu.be/GsH9ycZEHGc)<br><sub>來跟隨我 2026 第29週（7月13日–19日）｜希西家倚靠耶和華——以色列的神 · 列王紀下 16–25</sub> | 長集 | 來跟隨我 2026（中文） | 待存档 | 已發布 | `GsH9ycZEHGc` |
-| 2026-11-18 | [第 29 週 · 來跟隨我 第29週](https://youtu.be/PZcptDN28e8)<br><sub>將書信在耶和華面前展開｜來跟隨我 第29週</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 待存档 | 已發布 | `PZcptDN28e8` |
-| 2026-11-18 | [第 29 週 · 來跟隨我 第29週](https://youtu.be/KO6sNeBR4uk)<br><sub>把憂慮帶到主面前｜來跟隨我 第29週</sub> | Short · 導入 | 來跟隨我 2026（中文） | 待存档 | 已發布 | `KO6sNeBR4uk` |
+| 2026-11-19 | [第 27 週 · 若耶和華是神，就當順從耶和華](https://youtu.be/3sAPCYKg3dI)<br><sub>來跟隨我 2026 第27週（6月29日–7月5日）｜若耶和華是神，就當順從耶和華 · 列王紀上 12–13；17–22</sub> | 長集 | 來跟隨我 2026（中文） | 已存档 · 9398f7a7 | 已發布 | `3sAPCYKg3dI` |
+| 2026-11-19 | [第 27 週 · 來跟隨我 第27週](https://youtu.be/-1JovvW9xUI)<br><sub>若耶和華是神，就當順從耶和華｜來跟隨我 第27週</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 已存档 · 9398f7a7 | 已發布 | `-1JovvW9xUI` |
+| 2026-11-19 | [第 27 週 · 來跟隨我 第27週](https://youtu.be/ETYVtI3MKzc)<br><sub>一顆心，一個主，一段安靜｜來跟隨我 第27週</sub> | Short · 導入 | 來跟隨我 2026（中文） | 已存档 · 9398f7a7 | 已發布 | `ETYVtI3MKzc` |
+| 2026-11-19 | [第 23 週 · 我的心因耶和華快樂](https://youtu.be/ubrjpwSdHxI)<br><sub>來跟隨我 2026 第23週（6月1日–7日）｜我的心因耶和華快樂 · 路得記；撒母耳記上 1–7</sub> | 長集 | 來跟隨我 2026（中文） | 待存档 | 已發布 | `ubrjpwSdHxI` |
+| 2026-11-19 | [第 23 週 · 來跟隨我 第23週](https://youtu.be/Tm2-YbZpSFQ)<br><sub>「你往哪裡去，我也往那裡去」｜來跟隨我 第23週</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 待存档 | 已發布 | `Tm2-YbZpSFQ` |
+| 2026-11-19 | [第 23 週 · 來跟隨我 第23週](https://youtu.be/kAF_NKYu_z8)<br><sub>先感恩，再傾心吐意｜來跟隨我 第23週</sub> | Short · 導入 | 來跟隨我 2026（中文） | 待存档 | 已發布 | `kAF_NKYu_z8` |
+| 2026-11-19 | [第 24 週 · 耶和華是看內心](https://youtu.be/R6UD0txPBK4)<br><sub>來跟隨我 2026 第24週（6月8日–14日）｜耶和華是看內心 · 撒母耳記上 8–10；13；15–16</sub> | 長集 | 來跟隨我 2026（中文） | 待存档 | 已發布 | `R6UD0txPBK4` |
+| 2026-11-19 | [第 24 週 · 來跟隨我 第24週](https://youtu.be/FLVI7G0z4uo)<br><sub>「人是看外貌，耶和華是看內心」｜來跟隨我 第24週</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 待存档 | 已發布 | `FLVI7G0z4uo` |
+| 2026-11-19 | [第 24 週 · 來跟隨我 第24週](https://youtu.be/uhflw-P6FgQ)<br><sub>先省察內心，再看外表成就｜來跟隨我 第24週</sub> | Short · 導入 | 來跟隨我 2026（中文） | 待存档 | 已發布 | `uhflw-P6FgQ` |
+| 2026-11-18 | [第 26 週 · 求你在天上垂聽他們的禱告](https://youtu.be/hGt96pg9kIw)<br><sub>來跟隨我 2026 第26週（6月22日–28日）｜求你在天上垂聽他們的禱告 · 撒母耳記下 11–12；列王紀上 3；6–9；11</sub> | 長集 | 來跟隨我 2026（中文） | 已存档 · e391e8dc | 已發布 | `hGt96pg9kIw` |
+| 2026-11-18 | [第 26 週 · 來跟隨我 第26週](https://youtu.be/yDRVMJoyBfo)<br><sub>求你在天上垂聽，垂聽而赦免｜來跟隨我 第26週</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 已存档 · e391e8dc | 已發布 | `yDRVMJoyBfo` |
+| 2026-11-18 | [第 26 週 · 來跟隨我 第26週](https://youtu.be/iWCNTvssoqA)<br><sub>停下來，求一顆能分辨的心｜來跟隨我 第26週</sub> | Short · 導入 | 來跟隨我 2026（中文） | 已存档 · e391e8dc | 已發布 | `iWCNTvssoqA` |
+| 2026-11-18 | [第 28 週 · 以色列中有先知了](https://youtu.be/EzZ30s7JPOs)<br><sub>來跟隨我 2026 第28週（7月6日–12日）｜以色列中有先知了 · 列王紀下 2–7</sub> | 長集 | 來跟隨我 2026（中文） | 已存档 · 7cb10b45 | 已發布 | `EzZ30s7JPOs` |
+| 2026-11-18 | [第 28 週 · 來跟隨我 第28週](https://youtu.be/nzHQeK3vwCs)<br><sub>不要懼怕！與我們同在的更多｜來跟隨我 第28週</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 已存档 · 7cb10b45 | 已發布 | `nzHQeK3vwCs` |
+| 2026-11-18 | [第 28 週 · 來跟隨我 第28週](https://youtu.be/lChUiM-OaI0)<br><sub>求主開我的眼睛｜來跟隨我 第28週</sub> | Short · 導入 | 來跟隨我 2026（中文） | 已存档 · 7cb10b45 | 已發布 | `lChUiM-OaI0` |
+| 2026-11-18 | [第 29 週 · 希西家倚靠耶和華——以色列的神](https://youtu.be/GsH9ycZEHGc)<br><sub>來跟隨我 2026 第29週（7月13日–19日）｜希西家倚靠耶和華——以色列的神 · 列王紀下 16–25</sub> | 長集 | 來跟隨我 2026（中文） | 已存档 · c48c2969 | 已發布 | `GsH9ycZEHGc` |
+| 2026-11-18 | [第 29 週 · 來跟隨我 第29週](https://youtu.be/PZcptDN28e8)<br><sub>將書信在耶和華面前展開｜來跟隨我 第29週</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 已存档 · c48c2969 | 已發布 | `PZcptDN28e8` |
+| 2026-11-18 | [第 29 週 · 來跟隨我 第29週](https://youtu.be/KO6sNeBR4uk)<br><sub>把憂慮帶到主面前｜來跟隨我 第29週</sub> | Short · 導入 | 來跟隨我 2026（中文） | 已存档 · c48c2969 | 已發布 | `KO6sNeBR4uk` |
 | 2026-11-17 | [第 20 週 · 你要謹慎，免得你忘記……耶和華](https://youtu.be/CZPH0wvBdCw)<br><sub>來跟隨我 2026 第20週（5月11日–17日）｜你要謹慎，免得你忘記……耶和華 · 申命記 6–8；15；18；29–30；34</sub> | 長集 | 來跟隨我 2026（中文） | 已存档 · 8d554d98 | 已發布 | `CZPH0wvBdCw` |
 | 2026-11-17 | [第 20 週 · 來跟隨我 第20週](https://youtu.be/EfwWCubjP5o)<br><sub>得到一切之後，還記得是誰給的嗎｜來跟隨我 第20週</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 已存档 · 8d554d98 | 已發布 | `EfwWCubjP5o` |
 | 2026-11-17 | [第 20 週 · 來跟隨我 第20週](https://youtu.be/TU1sFEoRXR4)<br><sub>七天，記念與感恩的日記｜來跟隨我 第20週</sub> | Short · 導入 | 來跟隨我 2026（中文） | 已存档 · 8d554d98 | 已發布 | `TU1sFEoRXR4` |
@@ -31,6 +40,8 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-11-16 | [第 19 週 · 來跟隨我 第19週](https://youtu.be/n54suN_x0bk)<br><sub>不要怕他們，他們是我們的食物｜來跟隨我 第19週</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 已存档 · 92b316cc | 已發布 | `n54suN_x0bk` |
 | 2026-11-16 | [第 19 週 · 來跟隨我 第19週](https://youtu.be/dS7sqr7UfIs)<br><sub>七天，一句信心的話｜來跟隨我 第19週</sub> | Short · 導入 | 來跟隨我 2026（中文） | 已存档 · 92b316cc | 已發布 | `dS7sqr7UfIs` |
 | 2026-11-16 | [第 25 週 · 爭戰的勝敗全在乎耶和華](https://youtu.be/ZqDqZNXJP-o)<br><sub>來跟隨我 2026 第25週（6月15日–21日）｜爭戰的勝敗全在乎耶和華 · 撒母耳記上 17–18；24–26；撒母耳記下 5–7</sub> | 長集 | 來跟隨我 2026（中文） | 已存档 · 44264b02 | 已發布 | `ZqDqZNXJP-o` |
+| 2026-11-16 | [第 25 週 · 來跟隨我 第25週](https://youtu.be/wNO63aXM8ug)<br><sub>爭戰的勝敗全在乎耶和華｜來跟隨我 第25週</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 已存档 · 44264b02 | 已發布 | `wNO63aXM8ug` |
+| 2026-11-16 | [第 25 週 · 來跟隨我 第25週](https://youtu.be/_C1NbIVaTyo)<br><sub>先在主面前得勝，再行動｜來跟隨我 第25週</sub> | Short · 導入 | 來跟隨我 2026（中文） | 已存档 · 44264b02 | 已發布 | `_C1NbIVaTyo` |
 | 2026-11-15 | [第 16 週 · 前面是海，後面是追兵——什麼都別做，只要站住？](https://youtu.be/Wj5PnCQrQdI)<br><sub>2026 第16週｜前面是海，後面是追兵——什麼都別做，只要站住？</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 已存档 · d8071b2b | 已發布 | `Wj5PnCQrQdI` |
 | 2026-11-15 | [第 16 週 · 七天「站住與收取」：哪一杯苦水，已經開始變甜了？](https://youtu.be/dnUQ0pqiObI)<br><sub>2026 第16週｜七天「站住與收取」：哪一杯苦水，已經開始變甜了？</sub> | Short · 導入 | 來跟隨我 2026（中文） | 已存档 · 15e3f1a5 | 已發布 | `dnUQ0pqiObI` |
 | 2026-11-15 | [第 18 週 · 歸耶和華為聖](https://youtu.be/OHRVhqhda84)<br><sub>來跟隨我 2026 第18週（4月27日–5月3日）｜歸耶和華為聖 · 出埃及記 35–40；利未記 1；4；16；19</sub> | 長集 | Come, Follow Me 2026（中文） | 已存档 · dc55ac2d | 已發布 | `OHRVhqhda84` |
@@ -113,10 +124,13 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-10-31 | [第 45 週 · 神到流亡之地找你｜以西結書](https://www.youtube.com/shorts/Tk8jNm_BPrc)<br><sub>2026 第45週｜神到流亡之地找你｜以西結書</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 已存档 · dbaae7fa | 已發布 | `Tk8jNm_BPrc` |
 | 2026-10-31 | [第 45 週 · 除掉石心，賜給你們肉心｜以西結書](https://www.youtube.com/shorts/Rspv2DcNX_s)<br><sub>2026 第45週｜除掉石心，賜給你們肉心｜以西結書</sub> | Short · 導入 | 來跟隨我 2026（中文） | 已存档 · f9a717b1 | 已發布 | `Rspv2DcNX_s` |
 
-## Come, Follow Me 2026 — English (90)
+## Come, Follow Me 2026 — English (93)
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
+| 2026-11-19 | [Week 23 · Ruth; 1 Samuel 1–7](https://youtu.be/_6ycBiZ8EWM)<br><sub>CFM 2026 Week 23 (June 1–7) | My Heart Rejoiceth in the Lord · Ruth; 1 Samuel 1–7</sub> | Long | Come, Follow Me 2026 (English) | Not archived yet | Live | `_6ycBiZ8EWM` |
+| 2026-11-19 | [Week 23 · Ruth; 1 Samuel 1–7](https://youtu.be/giIvJXZ5YzQ)<br><sub>Whither Thou Goest, I Will Go | CFM Week 23</sub> | Short (hook) | Come, Follow Me 2026 (English) | Not archived yet | Live | `giIvJXZ5YzQ` |
+| 2026-11-19 | [Week 23 · Ruth; 1 Samuel 1–7](https://youtu.be/FnD_3wemZ90)<br><sub>First Give Thanks, Then Pour Out Your Heart | CFM Week 23</sub> | Short (funnel) | Come, Follow Me 2026 (English) | Not archived yet | Live | `FnD_3wemZ90` |
 | 2026-11-17 | [Week 17 · Exodus 19–20; 24; 31–34](https://youtu.be/mkFsHhuhRCo)<br><sub>CFM 2026 Week 17 (Apr 20–26) | All That the Lord Hath Spoken We Will Do · Exodus 19–20; 24; 31–34</sub> | Long | Come, Follow Me 2026 (English) | Archived · f82a70e6 | Live | `mkFsHhuhRCo` |
 | 2026-11-17 | [Week 17 · Exodus 19–20; 24; 31–34](https://youtu.be/6cTqLrQdPP8)<br><sub>All That the Lord Hath Spoken We Will Do | CFM Week 17</sub> | Short (hook) | Come, Follow Me 2026 (English) | Archived · f82a70e6 | Live | `6cTqLrQdPP8` |
 | 2026-11-17 | [Week 17 · Exodus 19–20; 24; 31–34](https://youtu.be/aHy-q5kWcMc)<br><sub>Turn One Daily Choice toward God | CFM Week 17</sub> | Short (funnel) | Come, Follow Me 2026 (English) | Archived · f82a70e6 | Live | `aHy-q5kWcMc` |
@@ -585,18 +599,16 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-11-19 | [Mount Up with Wings as Eagles | Isaiah 40:31 — Daily Motivational](https://www.youtube.com/shorts/mWTY6CMdKPc) | Short | Daily Motivational | Not archived yet | Live | `mWTY6CMdKPc` |
 | 2026-11-19 | [翼を広げて上へ | イザヤ書 40:31 — Daily Motivational](https://www.youtube.com/shorts/6YGL56IrX5Y) | Short | Daily Motivational | Not archived yet | Live | `6YGL56IrX5Y` |
 
-## Replaced / Private versions (111)
+## Replaced / Private versions (109)
 
 Same productions, kept for the record — not public.
 
 
-### 已取代 / Private · 來跟隨我 2026 — 中文（16）
+### 已取代 / Private · 來跟隨我 2026 — 中文（14）
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
 | 2026-11-18 | [第 27 週 · 若耶和華是神，就當順從耶和華](https://youtu.be/CjCmi_Dr9U8)<br><sub>來跟隨我 2026 第27週（6月29日–7月5日）｜若耶和華是神，就當順從耶和華 · 列王紀上 12–13；17–22</sub> | 長集 | 來跟隨我 2026（中文） | 待存档 | Private | `CjCmi_Dr9U8` |
-| 2026-11-16 | [第 25 週 · 來跟隨我 第25週](https://youtu.be/wNO63aXM8ug)<br><sub>爭戰的勝敗全在乎耶和華｜來跟隨我 第25週</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 已存档 · 44264b02 | Private | `wNO63aXM8ug` |
-| 2026-11-16 | [第 25 週 · 來跟隨我 第25週](https://youtu.be/_C1NbIVaTyo)<br><sub>先在主面前得勝，再行動｜來跟隨我 第25週</sub> | Short · 導入 | 來跟隨我 2026（中文） | 已存档 · 44264b02 | Private | `_C1NbIVaTyo` |
 | 2026-11-16 | [第 25 週 · 爭戰的勝敗全在乎耶和華](https://youtu.be/Y4sW6JFQRxo)<br><sub>來跟隨我 2026 第25週（6月15日–21日）｜爭戰的勝敗全在乎耶和華 · 撒母耳記上 17–18；24–26；撒母耳記下 5–7</sub> | 長集 | 來跟隨我 2026（中文） | 待存档 | Private | `Y4sW6JFQRxo` |
 | 2026-11-03 | [第 3 週 · 地是空虛混沌，祂說：要有光](https://youtu.be/G0UH51vPj9s)<br><sub>2026 第3週｜地是空虛混沌，祂說：要有光</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 待存档 | Private · 重複上傳 | `G0UH51vPj9s` |
 | 2026-11-03 | [第 3 週 · 七天操練：照著創造的次序過一周](https://youtu.be/g9nguOQgU4o)<br><sub>2026 第3週｜七天操練：照著創造的次序過一周</sub> | Short · 導入 | 來跟隨我 2026（中文） | 待存档 | Private · 重複上傳 | `g9nguOQgU4o` |
@@ -753,6 +765,7 @@ Same productions, kept for the record — not public.
 
 ## Unverified / pending
 
+- **CFM packs lane quota stop (2026-11-19) — 24 pieces plus 1 pinned comment resume after the quota reset** — The 2026-11-19 packs lane published Lessons 23 ZH, 23 EN and 24 ZH (9 pieces) and then hit the exhausted generic quota pool (403 quotaExceeded on a captions list call during the Lesson 24 ZH finalize verify) and stopped per protocol. Not yet uploaded — Lesson 24 EN, Lesson 30 ZH, Lesson 30 EN, and the EN sets of Lessons 25–29 (8 sets, 24 pieces; all upload-packs authored and builder-verified 2026-11-19). Also pending — the pinned comment on the Lesson 24 ZH long R6UD0txPBK4, the post-reset read-back verify of the two Lesson 24 ZH Shorts, and the Evernote archive notes for Lessons 23 ZH, 23 EN and 24 ZH. Next: After the quota reset (2026-11-20 00:00 PST), re-run lane_packs_20261119.sh from the Lesson 24 EN set onward (idempotent via upload-state.json), post the Lesson 24 ZH pinned comment, run the final verification pass, then build the three archive notes and backfill rows.
 - **CFM Lesson 3 (6 videos, published 2026-11-03) — Evernote archive notes missing** — Checked 2026-11-03 — no archive notes found in Evernote by video ID or title; archive ZIPs not yet built. Finals retained on M1 mini (~/cfm-bf03-creation) and in the run dir on the VM. Next: Build archive ZIPs and create the six archive notes (Chinese → Gospel, English → Video Artifacts, per CFM archiving standard), then backfill archive_note GUIDs here.
 - **Daily Verse James 1:12 + Proverbs 16:3 Chinese sets (6 videos, published 2026-11-03) — Evernote archive notes missing** — Archive notes not yet created at registration time; archive_note left empty deliberately. English sets still in production, IDs to follow. Next: Build archive ZIPs and create the six archive notes, then backfill archive_note GUIDs here.
 - **Daily Verse Psalm 119:11 replacement pair (2 longs, published 2026-11-03) — Evernote append pending** — Per-episode-imagery replacement versions 2-ZtDDffE4U (zh) and EB4svq0CPoA (en) published via Studio 2026-11-03 15:25–15:40 PST and verified Public; checked 2026-11-03 18:3x — no Evernote note contains the new video IDs, so the Video Artifacts append into the existing Psalm 119:11 notes has not landed yet; archive_note left empty deliberately. Originals sdpT4xWJW8A / FEmW-caUtk0 moved to replaced_or_private. Next: Append the replacement Video Artifacts to the existing Psalm 119:11 archive notes (zh d1658cf7-bd13-4e9f-a4a4-503737a0651d, en 9f4ddc4b-d876-4e69-bfa5-32d3bf85ee6f) per the replacement doctrine (append, never regenerate; double-hr separators, newest marked latest), then backfill archive_note GUIDs here.

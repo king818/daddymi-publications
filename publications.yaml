@@ -3853,7 +3853,7 @@ publications:
   playlist: 來跟隨我 2026（中文）
   archive_note: 44264b02-519a-4c0a-9bdc-7bfe1f9b23c8
   status: Live
-  note: 'ZH long uploaded via the YouTube Data API on 2026-11-16 and published Public the same day (API-verified 2026-11-16: public, duration PT18M47S, inserted into playlist PLDplaecZ3Y5Q by finalize_bf25.py). At registration time the zh-Hans and zh-Hant caption tracks, the custom thumbnail and the pinned comment were still pending: the shared generic API quota pool was exhausted (403 quotaExceeded on captions.insert). Those steps, the playlist membership read-back and the Evernote archive note (Gospel notebook, tags 來跟隨我 第25週 + Neville Goddard) resume after the quota reset at 2026-11-17 00:00 PST; archive_note will be backfilled then.'
+  note: 'ZH long uploaded via the YouTube Data API on 2026-11-16 and published Public the same day (API-verified 2026-11-16: public, duration PT18M47S, inserted into playlist PLDplaecZ3Y5Q by finalize_bf25.py). At registration time the zh-Hans and zh-Hant caption tracks, the custom thumbnail and the pinned comment were still pending: the shared generic API quota pool was exhausted (403 quotaExceeded on captions.insert). Those steps, the playlist membership read-back and the Evernote archive note (Gospel notebook, tags 來跟隨我 第25週 + Neville Goddard) resume after the quota reset at 2026-11-17 00:00 PST; archive_note will be backfilled then. COMPLETED: caption tracks and archive note landed 2026-11-18; on 2026-11-19 (resume lane) the custom thumbnail was set, the pinned comment posted, AI disclosure applied and playlist membership re-verified (API read-back).'
 - platform: YouTube
   series: Come, Follow Me 2026
   topic: Lesson 17 — Exodus 19–20; 24; 31–34
@@ -4080,8 +4080,9 @@ publications:
   url: https://youtu.be/hGt96pg9kIw
   native_id: hGt96pg9kIw
   playlist: 來跟隨我 2026（中文）
+  archive_note: e391e8dc-9cd9-4ec8-ae15-0c741c6d262b
   status: Live
-  note: 'Uploaded and published Public via the YouTube Data API on 2026-11-18 (post-quota-reset staged lane), with the corrected -fixed zh-Hans/zh-Hant caption tracks and custom thumbnail; inserted into playlist PLDplaecZ3Y5Q with membership re-checked, pinned comment posted. AI disclosure was applied via videos.update (containsSyntheticMedia) but the field does not read back via the API (None on read-back, same as other lane pieces) — Studio-side disclosure check still pending. Evernote archive note pending (lane stopped on generic quota at the L31 caption step).'
+  note: 'Uploaded and published Public via the YouTube Data API on 2026-11-18 (post-quota-reset staged lane), with the corrected -fixed zh-Hans/zh-Hant caption tracks and custom thumbnail; inserted into playlist PLDplaecZ3Y5Q with membership re-checked, pinned comment posted. AI disclosure was applied via videos.update (containsSyntheticMedia) but the field does not read back via the API (None on read-back, same as other lane pieces) — Studio-side disclosure check still pending. Evernote archive note e391e8dc-9cd9-4ec8-ae15-0c741c6d262b (Gospel notebook; created and get_note-verified 2026-11-19, ZIP resource byte-size matched).'
 - platform: YouTube
   series: Come, Follow Me 2026
   topic: Lesson 26 — 2 Samuel 11–12; 1 Kings 3; 6–9; 11
@@ -4092,6 +4093,7 @@ publications:
   url: https://youtu.be/yDRVMJoyBfo
   native_id: yDRVMJoyBfo
   playlist: 來跟隨我 2026（中文）
+  archive_note: e391e8dc-9cd9-4ec8-ae15-0c741c6d262b
   status: Live
   note: 'Published Public 2026-11-18 via the staged lane; playlist PLDplaecZ3Y5Q membership re-checked. Studio Related video field (to long hGt96pg9kIw) still to be set.'
 - platform: YouTube
@@ -4104,6 +4106,7 @@ publications:
   url: https://youtu.be/iWCNTvssoqA
   native_id: iWCNTvssoqA
   playlist: 來跟隨我 2026（中文）
+  archive_note: e391e8dc-9cd9-4ec8-ae15-0c741c6d262b
   status: Live
   note: 'Published Public 2026-11-18 via the staged lane; playlist PLDplaecZ3Y5Q membership re-checked. Studio Related video field (to long hGt96pg9kIw) still to be set.'
 - platform: YouTube
@@ -4116,8 +4119,9 @@ publications:
   url: https://youtu.be/EzZ30s7JPOs
   native_id: EzZ30s7JPOs
   playlist: 來跟隨我 2026（中文）
+  archive_note: 7cb10b45-e282-4572-940b-807f89b74ea2
   status: Live
-  note: 'Uploaded and published Public via the YouTube Data API on 2026-11-18 (post-quota-reset staged lane), with the corrected -fixed zh-Hans/zh-Hant caption tracks and custom thumbnail; inserted into playlist PLDplaecZ3Y5Q with membership re-checked, pinned comment posted. AI disclosure applied via videos.update but does not read back via API — Studio-side check pending. Evernote archive note pending.'
+  note: 'Uploaded and published Public via the YouTube Data API on 2026-11-18 (post-quota-reset staged lane), with the corrected -fixed zh-Hans/zh-Hant caption tracks and custom thumbnail; inserted into playlist PLDplaecZ3Y5Q with membership re-checked, pinned comment posted. AI disclosure applied via videos.update but does not read back via API — Studio-side check pending. Evernote archive note 7cb10b45-e282-4572-940b-807f89b74ea2 (Gospel notebook; created and get_note-verified 2026-11-19, ZIP resource byte-size matched).'
 - platform: YouTube
   series: Come, Follow Me 2026
   topic: Lesson 28 — 2 Kings 2–7
@@ -4128,6 +4132,7 @@ publications:
   url: https://youtu.be/nzHQeK3vwCs
   native_id: nzHQeK3vwCs
   playlist: 來跟隨我 2026（中文）
+  archive_note: 7cb10b45-e282-4572-940b-807f89b74ea2
   status: Live
   note: 'Published Public 2026-11-18 via the staged lane; playlist PLDplaecZ3Y5Q membership re-checked. Studio Related video field (to long EzZ30s7JPOs) still to be set.'
 - platform: YouTube
@@ -4140,6 +4145,7 @@ publications:
   url: https://youtu.be/lChUiM-OaI0
   native_id: lChUiM-OaI0
   playlist: 來跟隨我 2026（中文）
+  archive_note: 7cb10b45-e282-4572-940b-807f89b74ea2
   status: Live
   note: 'Published Public 2026-11-18 via the staged lane; playlist PLDplaecZ3Y5Q membership re-checked. Studio Related video field (to long EzZ30s7JPOs) still to be set.'
 - platform: YouTube
@@ -4152,8 +4158,9 @@ publications:
   url: https://youtu.be/GsH9ycZEHGc
   native_id: GsH9ycZEHGc
   playlist: 來跟隨我 2026（中文）
+  archive_note: c48c2969-ed1d-4174-9474-00ada2fa2f13
   status: Live
-  note: 'Uploaded and published Public via the YouTube Data API on 2026-11-18 (post-quota-reset staged lane), with the corrected -fixed zh-Hans/zh-Hant caption tracks and custom thumbnail; inserted into playlist PLDplaecZ3Y5Q with membership re-checked, pinned comment posted. AI disclosure applied via videos.update but does not read back via API — Studio-side check pending. Evernote archive note pending.'
+  note: 'Uploaded and published Public via the YouTube Data API on 2026-11-18 (post-quota-reset staged lane), with the corrected -fixed zh-Hans/zh-Hant caption tracks and custom thumbnail; inserted into playlist PLDplaecZ3Y5Q with membership re-checked, pinned comment posted. AI disclosure applied via videos.update but does not read back via API — Studio-side check pending. Evernote archive note c48c2969-ed1d-4174-9474-00ada2fa2f13 (Gospel notebook; created and get_note-verified 2026-11-19, ZIP resource byte-size matched).'
 - platform: YouTube
   series: Come, Follow Me 2026
   topic: Lesson 29 — 2 Kings 16–25
@@ -4164,6 +4171,7 @@ publications:
   url: https://youtu.be/PZcptDN28e8
   native_id: PZcptDN28e8
   playlist: 來跟隨我 2026（中文）
+  archive_note: c48c2969-ed1d-4174-9474-00ada2fa2f13
   status: Live
   note: 'Published Public 2026-11-18 via the staged lane; playlist PLDplaecZ3Y5Q membership re-checked. Studio Related video field (to long GsH9ycZEHGc) still to be set.'
 - platform: YouTube
@@ -4176,6 +4184,7 @@ publications:
   url: https://youtu.be/KO6sNeBR4uk
   native_id: KO6sNeBR4uk
   playlist: 來跟隨我 2026（中文）
+  archive_note: c48c2969-ed1d-4174-9474-00ada2fa2f13
   status: Live
   note: 'Published Public 2026-11-18 via the staged lane; playlist PLDplaecZ3Y5Q membership re-checked. Studio Related video field (to long GsH9ycZEHGc) still to be set.'
 
@@ -6029,6 +6038,179 @@ publications:
   native_id: 6YGL56IrX5Y
   playlist: Daily Motivational
   status: Live
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 25 — 1 Samuel 17–18; 24–26; 2 Samuel 5–7
+  language: zh
+  type: Short (hook)
+  title: '爭戰的勝敗全在乎耶和華｜來跟隨我 第25週 #Shorts'
+  published: '2026-11-16'
+  url: https://youtu.be/wNO63aXM8ug
+  native_id: wNO63aXM8ug
+  playlist: 來跟隨我 2026（中文）
+  archive_note: 44264b02-519a-4c0a-9bdc-7bfe1f9b23c8
+  status: Live
+  note: 'Uploaded via the YouTube Data API on 2026-11-16 (Video Uploads pool) and held Private: playlist insertion into PLDplaecZ3Y5Q, the flip to Public and the AI-content disclosure were blocked by the exhausted generic quota pool (403 quotaExceeded). All three steps resume after the quota reset at 2026-11-17 00:00 PST via finalize_bf25.py; this row flips to Live once the video is Public. The Studio Related video field must also be set to the long ZqDqZNXJP-o. COMPLETED 2026-11-19 (resume lane): finalize_bf25.py inserted the video into playlist PLDplaecZ3Y5Q and flipped it Public with AI disclosure applied (API read-back verified Public 2026-11-19). Studio Related video field still to be set.'
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 25 — 1 Samuel 17–18; 24–26; 2 Samuel 5–7
+  language: zh
+  type: Short (funnel)
+  title: '先在主面前得勝，再行動｜來跟隨我 第25週 #Shorts'
+  published: '2026-11-16'
+  url: https://youtu.be/_C1NbIVaTyo
+  native_id: _C1NbIVaTyo
+  playlist: 來跟隨我 2026（中文）
+  archive_note: 44264b02-519a-4c0a-9bdc-7bfe1f9b23c8
+  status: Live
+  note: 'Uploaded via the YouTube Data API on 2026-11-16 (Video Uploads pool) and held Private: playlist insertion into PLDplaecZ3Y5Q, the flip to Public and the AI-content disclosure were blocked by the exhausted generic quota pool (403 quotaExceeded). All three steps resume after the quota reset at 2026-11-17 00:00 PST via finalize_bf25.py; this row flips to Live once the video is Public. The Studio Related video field must also be set to the long ZqDqZNXJP-o. COMPLETED 2026-11-19 (resume lane): finalize_bf25.py inserted the video into playlist PLDplaecZ3Y5Q and flipped it Public with AI disclosure applied (API read-back verified Public 2026-11-19). Studio Related video field still to be set.'
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 27 — 1 Kings 12–13; 17–22
+  language: zh
+  type: Long
+  title: 來跟隨我 2026 第27週（6月29日–7月5日）｜若耶和華是神，就當順從耶和華 · 列王紀上 12–13；17–22
+  published: '2026-11-19'
+  url: https://youtu.be/3sAPCYKg3dI
+  native_id: 3sAPCYKg3dI
+  playlist: 來跟隨我 2026（中文）
+  archive_note: 9398f7a7-1015-4449-b20b-fd0011cef217
+  status: Live
+  note: 'Fresh insert on 2026-11-19 (resume lane) after the 2026-11-18 insert died leaving the zero-duration shell CjCmi_Dr9U8; published Public with the corrected -fixed zh-Hans/zh-Hant caption tracks and custom thumbnail; inserted into playlist PLDplaecZ3Y5Q with membership re-checked, pinned comment posted. AI disclosure applied via videos.update but does not read back via API (None channel-wide) — Studio-side check pending. Evernote archive note 9398f7a7-1015-4449-b20b-fd0011cef217 (Gospel notebook; created and get_note-verified 2026-11-19, ZIP resource byte-size matched).'
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 27 — 1 Kings 12–13; 17–22
+  language: zh
+  type: Short (hook)
+  title: '若耶和華是神，就當順從耶和華｜來跟隨我 第27週 #Shorts'
+  published: '2026-11-19'
+  url: https://youtu.be/-1JovvW9xUI
+  native_id: -1JovvW9xUI
+  playlist: 來跟隨我 2026（中文）
+  archive_note: 9398f7a7-1015-4449-b20b-fd0011cef217
+  status: Live
+  note: 'Published Public 2026-11-19 via the resume lane; playlist PLDplaecZ3Y5Q membership re-checked. Studio Related video field (to long 3sAPCYKg3dI) still to be set.'
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 27 — 1 Kings 12–13; 17–22
+  language: zh
+  type: Short (funnel)
+  title: '一顆心，一個主，一段安靜｜來跟隨我 第27週 #Shorts'
+  published: '2026-11-19'
+  url: https://youtu.be/ETYVtI3MKzc
+  native_id: ETYVtI3MKzc
+  playlist: 來跟隨我 2026（中文）
+  archive_note: 9398f7a7-1015-4449-b20b-fd0011cef217
+  status: Live
+  note: 'Published Public 2026-11-19 via the resume lane; playlist PLDplaecZ3Y5Q membership re-checked. Studio Related video field (to long 3sAPCYKg3dI) still to be set.'
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 23 — Ruth; 1 Samuel 1–7
+  language: zh
+  type: Long
+  title: 來跟隨我 2026 第23週（6月1日–7日）｜我的心因耶和華快樂 · 路得記；撒母耳記上 1–7
+  published: '2026-11-19'
+  url: https://youtu.be/ubrjpwSdHxI
+  native_id: ubrjpwSdHxI
+  playlist: 來跟隨我 2026（中文）
+  status: Live
+  note: 'Uploaded and published Public via the YouTube Data API on 2026-11-19 (packs lane; the set had been metadata-blocked — no upload-pack existed — until the pack was authored 2026-11-19 from the QC-passed masters), with zh-Hans/zh-Hant caption tracks and custom thumbnail; inserted into playlist PLDplaecZ3Y5Q with membership re-checked, pinned comment posted. AI disclosure applied via videos.update but does not read back via API — Studio-side check pending. Evernote archive note pending.'
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 23 — Ruth; 1 Samuel 1–7
+  language: zh
+  type: Short (hook)
+  title: '「你往哪裡去，我也往那裡去」｜來跟隨我 第23週 #Shorts'
+  published: '2026-11-19'
+  url: https://youtu.be/Tm2-YbZpSFQ
+  native_id: Tm2-YbZpSFQ
+  playlist: 來跟隨我 2026（中文）
+  status: Live
+  note: 'Published Public 2026-11-19 via the packs lane; playlist PLDplaecZ3Y5Q membership re-checked. Studio Related video field (to long ubrjpwSdHxI) still to be set.'
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 23 — Ruth; 1 Samuel 1–7
+  language: zh
+  type: Short (funnel)
+  title: '先感恩，再傾心吐意｜來跟隨我 第23週 #Shorts'
+  published: '2026-11-19'
+  url: https://youtu.be/kAF_NKYu_z8
+  native_id: kAF_NKYu_z8
+  playlist: 來跟隨我 2026（中文）
+  status: Live
+  note: 'Published Public 2026-11-19 via the packs lane; playlist PLDplaecZ3Y5Q membership re-checked. Studio Related video field (to long ubrjpwSdHxI) still to be set.'
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 23 — Ruth; 1 Samuel 1–7
+  language: en
+  type: Long
+  title: CFM 2026 Week 23 (June 1–7) | My Heart Rejoiceth in the Lord · Ruth; 1 Samuel 1–7
+  published: '2026-11-19'
+  url: https://youtu.be/_6ycBiZ8EWM
+  native_id: _6ycBiZ8EWM
+  playlist: Come, Follow Me 2026 (English)
+  status: Live
+  note: 'Uploaded and published Public via the YouTube Data API on 2026-11-19 (packs lane; upload-pack authored 2026-11-19 from the QC-passed masters), with en caption track and custom thumbnail; inserted into playlist PLErObnbcjQ1c with membership re-checked, pinned comment posted. AI disclosure applied via videos.update but does not read back via API — Studio-side check pending. Video Artifacts archive note pending.'
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 23 — Ruth; 1 Samuel 1–7
+  language: en
+  type: Short (hook)
+  title: Whither Thou Goest, I Will Go | CFM Week 23 #Shorts
+  published: '2026-11-19'
+  url: https://youtu.be/giIvJXZ5YzQ
+  native_id: giIvJXZ5YzQ
+  playlist: Come, Follow Me 2026 (English)
+  status: Live
+  note: 'Published Public 2026-11-19 via the packs lane; playlist PLErObnbcjQ1c membership re-checked. Studio Related video field (to long _6ycBiZ8EWM) still to be set.'
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 23 — Ruth; 1 Samuel 1–7
+  language: en
+  type: Short (funnel)
+  title: First Give Thanks, Then Pour Out Your Heart | CFM Week 23 #Shorts
+  published: '2026-11-19'
+  url: https://youtu.be/FnD_3wemZ90
+  native_id: FnD_3wemZ90
+  playlist: Come, Follow Me 2026 (English)
+  status: Live
+  note: 'Published Public 2026-11-19 via the packs lane; playlist PLErObnbcjQ1c membership re-checked. Studio Related video field (to long _6ycBiZ8EWM) still to be set.'
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 24 — 1 Samuel 8–10; 13; 15–16
+  language: zh
+  type: Long
+  title: 來跟隨我 2026 第24週（6月8日–14日）｜耶和華是看內心 · 撒母耳記上 8–10；13；15–16
+  published: '2026-11-19'
+  url: https://youtu.be/R6UD0txPBK4
+  native_id: R6UD0txPBK4
+  playlist: 來跟隨我 2026（中文）
+  status: Live
+  note: 'Uploaded and published Public via the YouTube Data API on 2026-11-19 (packs lane; upload-pack authored 2026-11-19), with the corrected -fixed zh-Hans/zh-Hant caption tracks and custom thumbnail; inserted into playlist PLDplaecZ3Y5Q with membership re-checked (finalize VERIFY read back the long Public with both caption tracks). AI disclosure applied via videos.update but does not read back via API — Studio-side check pending. Pinned comment still pending: the lane hit the generic quota pool (403 quotaExceeded) during the finalize verify of this set and stopped per protocol; the comment posts in the post-reset resume. Evernote archive note pending.'
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 24 — 1 Samuel 8–10; 13; 15–16
+  language: zh
+  type: Short (hook)
+  title: '「人是看外貌，耶和華是看內心」｜來跟隨我 第24週 #Shorts'
+  published: '2026-11-19'
+  url: https://youtu.be/FLVI7G0z4uo
+  native_id: FLVI7G0z4uo
+  playlist: 來跟隨我 2026（中文）
+  status: Live
+  note: 'Published Public 2026-11-19 via the packs lane (flip and disclosure applied by finalize_lane; playlist PLDplaecZ3Y5Q membership re-checked True). The final API read-back verify of this Short was cut by the 2026-11-19 quota stop and is queued for the post-reset verification pass. Studio Related video field (to long R6UD0txPBK4) still to be set.'
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 24 — 1 Samuel 8–10; 13; 15–16
+  language: zh
+  type: Short (funnel)
+  title: '先省察內心，再看外表成就｜來跟隨我 第24週 #Shorts'
+  published: '2026-11-19'
+  url: https://youtu.be/uhflw-P6FgQ
+  native_id: uhflw-P6FgQ
+  playlist: 來跟隨我 2026（中文）
+  status: Live
+  note: 'Published Public 2026-11-19 via the packs lane (flip and disclosure applied by finalize_lane; playlist PLDplaecZ3Y5Q membership re-checked True). The final API read-back verify of this Short was cut by the 2026-11-19 quota stop and is queued for the post-reset verification pass. Studio Related video field (to long R6UD0txPBK4) still to be set.'
 replaced_or_private:
 - platform: YouTube
   series: Come, Follow Me 2026
@@ -6297,32 +6479,6 @@ replaced_or_private:
   dedicated_page: https://daddymi777.com/music/mx005/
   status: Private — superseded by the story MTV gRbiXvJxEic on 2026-11-12; set Private per boss ruling once the formal story MV went live, kept for archive, not deleted
   note: Official audio release of Mi Xi's fifth single 《燈下擂茶》 (subtitle 謝謝你，媽媽), uploaded via the YouTube Data API on 2026-11-11 with trilingual title/description and custom thumbnail; description's first link is the song's dedicated page https://daddymi777.com/music/mx005/. Held Private on 2026-11-11 because the YouTube Data API daily quota was exhausted; flipped to Public on 2026-11-12 via videos.update (embeddable, license and madeForKids preserved) and verified Public by API read-back the same run; membership in the 音樂錄影帶 MV playlist (PLSxnHgZ_KCSI) re-verified by playlistItems listing (item 2 of 2). Set Private on 2026-11-12 after the formal story MTV gRbiXvJxEic went Public (boss ruling of 2026-11-12); verified Private by API read-back the same run.
-- platform: YouTube
-  series: Come, Follow Me 2026
-  topic: Lesson 25 — 1 Samuel 17–18; 24–26; 2 Samuel 5–7
-  language: zh
-  type: Short (hook)
-  title: '爭戰的勝敗全在乎耶和華｜來跟隨我 第25週 #Shorts'
-  published: '2026-11-16'
-  url: https://youtu.be/wNO63aXM8ug
-  native_id: wNO63aXM8ug
-  playlist: 來跟隨我 2026（中文）
-  archive_note: 44264b02-519a-4c0a-9bdc-7bfe1f9b23c8
-  status: Private — uploaded, publication pending finalize in the staged upload lane; API-verified Private 2026-11-19 (library sync audit); retained, not deleted
-  note: 'Uploaded via the YouTube Data API on 2026-11-16 (Video Uploads pool) and held Private: playlist insertion into PLDplaecZ3Y5Q, the flip to Public and the AI-content disclosure were blocked by the exhausted generic quota pool (403 quotaExceeded). All three steps resume after the quota reset at 2026-11-17 00:00 PST via finalize_bf25.py; this row flips to Live once the video is Public. The Studio Related video field must also be set to the long ZqDqZNXJP-o.'
-- platform: YouTube
-  series: Come, Follow Me 2026
-  topic: Lesson 25 — 1 Samuel 17–18; 24–26; 2 Samuel 5–7
-  language: zh
-  type: Short (funnel)
-  title: '先在主面前得勝，再行動｜來跟隨我 第25週 #Shorts'
-  published: '2026-11-16'
-  url: https://youtu.be/_C1NbIVaTyo
-  native_id: _C1NbIVaTyo
-  playlist: 來跟隨我 2026（中文）
-  archive_note: 44264b02-519a-4c0a-9bdc-7bfe1f9b23c8
-  status: Private — uploaded, publication pending finalize in the staged upload lane; API-verified Private 2026-11-19 (library sync audit); retained, not deleted
-  note: 'Uploaded via the YouTube Data API on 2026-11-16 (Video Uploads pool) and held Private: playlist insertion into PLDplaecZ3Y5Q, the flip to Public and the AI-content disclosure were blocked by the exhausted generic quota pool (403 quotaExceeded). All three steps resume after the quota reset at 2026-11-17 00:00 PST via finalize_bf25.py; this row flips to Live once the video is Public. The Studio Related video field must also be set to the long ZqDqZNXJP-o.'
 - platform: YouTube
   series: Daily Verse · Neville Readings
   topic: Isaiah 41:10
@@ -7341,7 +7497,7 @@ replaced_or_private:
   url: https://youtu.be/Y4sW6JFQRxo
   native_id: Y4sW6JFQRxo
   playlist: 來跟隨我 2026（中文）
-  status: Private — uploaded, publication pending (staged upload lane); API-verified Private 2026-11-19 (library sync audit); retained, not deleted
+  status: Private — zero-duration failed-insert shell (no file ever landed; the 2026-11-16 insert died); superseded by the real Lesson 25 ZH set (long ZqDqZNXJP-o, Public). Retained as record only, not a playable copy; Studio cleanup optional.
 - platform: YouTube
   series: Come, Follow Me 2026
   topic: Lesson 27 — 1 Kings 12–13; 17–22
@@ -7352,7 +7508,7 @@ replaced_or_private:
   url: https://youtu.be/CjCmi_Dr9U8
   native_id: CjCmi_Dr9U8
   playlist: 來跟隨我 2026（中文）
-  status: Private — uploaded, publication pending (staged upload lane); API-verified Private 2026-11-19 (library sync audit); retained, not deleted
+  status: Private — zero-duration failed-insert shell (no file ever landed; the 2026-11-18 insert died with HTTP 411 / connection drop); superseded by the real Lesson 27 ZH set (long 3sAPCYKg3dI, Public 2026-11-19). Retained as record only, not a playable copy; Studio cleanup optional.
 - platform: YouTube
   series: Music Videos
   topic: 燈下擂茶 — 米曦 Mi Xi 感恩單曲（獻給媽媽的私人版）
@@ -7365,6 +7521,9 @@ replaced_or_private:
   playlist: 音樂錄影帶 MV
   status: Unlisted — private gift version for family, not public by design; registered 2026-11-19 (library sync audit)
 unverified:
+- item: CFM packs lane quota stop (2026-11-19) — 24 pieces plus 1 pinned comment resume after the quota reset
+  reason: The 2026-11-19 packs lane published Lessons 23 ZH, 23 EN and 24 ZH (9 pieces) and then hit the exhausted generic quota pool (403 quotaExceeded on a captions list call during the Lesson 24 ZH finalize verify) and stopped per protocol. Not yet uploaded — Lesson 24 EN, Lesson 30 ZH, Lesson 30 EN, and the EN sets of Lessons 25–29 (8 sets, 24 pieces; all upload-packs authored and builder-verified 2026-11-19). Also pending — the pinned comment on the Lesson 24 ZH long R6UD0txPBK4, the post-reset read-back verify of the two Lesson 24 ZH Shorts, and the Evernote archive notes for Lessons 23 ZH, 23 EN and 24 ZH.
+  action: After the quota reset (2026-11-20 00:00 PST), re-run lane_packs_20261119.sh from the Lesson 24 EN set onward (idempotent via upload-state.json), post the Lesson 24 ZH pinned comment, run the final verification pass, then build the three archive notes and backfill rows.
 - item: CFM Lesson 3 (6 videos, published 2026-11-03) — Evernote archive notes missing
   reason: Checked 2026-11-03 — no archive notes found in Evernote by video ID or title; archive ZIPs not yet built. Finals retained on M1 mini (~/cfm-bf03-creation) and in the run dir on the VM.
   action: Build archive ZIPs and create the six archive notes (Chinese → Gospel, English → Video Artifacts, per CFM archiving standard), then backfill archive_note GUIDs here.
