@@ -8254,6 +8254,150 @@ replaced_or_private:
   playlist: 매일의 말씀 · 한국어
   archive_note: 3fc7fbb3-6ace-4ce1-9127-8904d35b9827
   status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Ephesians 6:12
+  language: zh
+  type: Long
+  title: '每日經文 2026-11-22 · Neville 解讀｜以弗所書 6:12 我們並不是與屬血氣的爭戰'
+  published: '2026-11-22'
+  url: https://youtu.be/wI0XuLaOOZs
+  native_id: wI0XuLaOOZs
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: 5636917e-2c90-4b44-bec7-4baf70bba142
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Ephesians 6:12
+  language: zh
+  type: Short (hook)
+  title: '每日經文 2026-11-22｜以弗所書 6:12 並不是與屬血氣的爭戰 #Shorts'
+  published: '2026-11-22'
+  url: https://www.youtube.com/shorts/7-LLwqwt-5I
+  native_id: 7-LLwqwt-5I
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: 5636917e-2c90-4b44-bec7-4baf70bba142
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Ephesians 6:12
+  language: zh
+  type: Short (funnel)
+  title: '每日經文 2026-11-22｜以弗所書 6:12 你真正的對手是誰？ #Shorts'
+  published: '2026-11-22'
+  url: https://www.youtube.com/shorts/o3OoZr4tuw8
+  native_id: o3OoZr4tuw8
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: 5636917e-2c90-4b44-bec7-4baf70bba142
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Ephesians 6:12
+  language: en
+  type: Long
+  title: 'Daily Verse 2026-11-22 · Ephesians 6:12 | We Wrestle Not Against Flesh and Blood'
+  published: '2026-11-22'
+  url: https://youtu.be/0i0ZbsDSSc8
+  native_id: 0i0ZbsDSSc8
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: a3f67ae0-d2b7-432e-b935-29b27782d778
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Ephesians 6:12
+  language: en
+  type: Short (hook)
+  title: 'Daily Verse 2026-11-22 | Ephesians 6:12 We Wrestle Not Against Flesh and Blood #Shorts'
+  published: '2026-11-22'
+  url: https://www.youtube.com/shorts/kV_fn0VdKlQ
+  native_id: kV_fn0VdKlQ
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: a3f67ae0-d2b7-432e-b935-29b27782d778
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Ephesians 6:12
+  language: en
+  type: Short (funnel)
+  title: 'Daily Verse 2026-11-22 | Ephesians 6:12 Who Is Your Real Opponent? #Shorts'
+  published: '2026-11-22'
+  url: https://www.youtube.com/shorts/Ib0B2viQqDc
+  native_id: Ib0B2viQqDc
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: a3f67ae0-d2b7-432e-b935-29b27782d778
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Ephesians 6:12
+  language: ja
+  type: Long
+  title: '毎日の聖句 2026-11-22 · ネヴィル解読｜エペソ人への手紙 6:12 わたしたちの戦いは血肉に対するものではない'
+  published: '2026-11-22'
+  url: https://youtu.be/UVAC2Lnz6RU
+  native_id: UVAC2Lnz6RU
+  playlist: 毎日の聖句 · 日本語
+  archive_note: efd9db1c-b007-4d34-a3a9-ab652cc75927
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Ephesians 6:12
+  language: ja
+  type: Short (hook)
+  title: '毎日の聖句 2026-11-22｜エペソ人への手紙 6:12 血肉に対するものではない #Shorts'
+  published: '2026-11-22'
+  url: https://www.youtube.com/shorts/A8AcfDj-ipk
+  native_id: A8AcfDj-ipk
+  playlist: 毎日の聖句 · 日本語
+  archive_note: efd9db1c-b007-4d34-a3a9-ab652cc75927
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Ephesians 6:12
+  language: ja
+  type: Short (funnel)
+  title: '毎日の聖句 2026-11-22｜エペソ人への手紙 6:12 本当の相手は誰ですか #Shorts'
+  published: '2026-11-22'
+  url: https://www.youtube.com/shorts/E8uRoXTGneM
+  native_id: E8uRoXTGneM
+  playlist: 毎日の聖句 · 日本語
+  archive_note: efd9db1c-b007-4d34-a3a9-ab652cc75927
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Ephesians 6:12
+  language: ko
+  type: Long
+  title: '매일의 말씀 2026-11-22 · 네빌 해설｜에베소서 6:12 우리의 씨름은 혈과 육을 상대하는 것이 아니요'
+  published: '2026-11-22'
+  url: https://youtu.be/Y4gBwvIseR8
+  native_id: Y4gBwvIseR8
+  playlist: 매일의 말씀 · 한국어
+  archive_note: 13f17747-9235-489a-aeb3-c5c0a532b326
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Ephesians 6:12
+  language: ko
+  type: Short (hook)
+  title: '매일의 말씀 2026-11-22｜에베소서 6:12 혈과 육을 상대하는 것이 아니요 #Shorts'
+  published: '2026-11-22'
+  url: https://www.youtube.com/shorts/AWB-8SNZE5E
+  native_id: AWB-8SNZE5E
+  playlist: 매일의 말씀 · 한국어
+  archive_note: 13f17747-9235-489a-aeb3-c5c0a532b326
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Ephesians 6:12
+  language: ko
+  type: Short (funnel)
+  title: '매일의 말씀 2026-11-22｜에베소서 6:12 당신의 진짜 상대는 누구입니까 #Shorts'
+  published: '2026-11-22'
+  url: https://www.youtube.com/shorts/olwC0Pbn1nc
+  native_id: olwC0Pbn1nc
+  playlist: 매일의 말씀 · 한국어
+  archive_note: 13f17747-9235-489a-aeb3-c5c0a532b326
+  status: Public
 unverified:
 - item: CFM packs lane quota stop (2026-11-19) — 24 pieces plus 1 pinned comment resume after the quota reset
   reason: The 2026-11-19 packs lane published Lessons 23 ZH, 23 EN and 24 ZH (9 pieces) and then hit the exhausted generic quota pool (403 quotaExceeded on a captions list call during the Lesson 24 ZH finalize verify) and stopped per protocol. Not yet uploaded — Lesson 24 EN, Lesson 30 ZH, Lesson 30 EN, and the EN sets of Lessons 25–29 (8 sets, 24 pieces; all upload-packs authored and builder-verified 2026-11-19). Also pending — the pinned comment on the Lesson 24 ZH long R6UD0txPBK4, the post-reset read-back verify of the two Lesson 24 ZH Shorts, and the Evernote archive notes for Lessons 23 ZH, 23 EN and 24 ZH.

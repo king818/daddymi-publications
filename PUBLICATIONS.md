@@ -2,7 +2,7 @@
 
 Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, filterable version: https://king818.github.io/daddymi-publications/
 
-**551 public videos** · 109 replaced/private versions · Come, Follow Me 2026: 231 · Daily Motivational: 5 · Daily Verse · Neville Readings: 263 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 30 · Mi Xi Intro Podcast: 5 · Music Videos: 4 · Neville Inner Reading Podcast: 7
+**575 public videos** · 130 replaced/private versions · Come, Follow Me 2026: 231 · Daily Motivational: 5 · Daily Verse · Neville Readings: 287 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 30 · Mi Xi Intro Podcast: 5 · Music Videos: 4 · Neville Inner Reading Podcast: 7
 
 
 ## 來跟隨我 2026 — 中文（117）
@@ -246,10 +246,16 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-10-31 | [Week 45 · Ezekiel](https://www.youtube.com/shorts/HYBj9c6Z5EU)<br><sub>2026 Week 45 | God Goes to the Exiles | Ezekiel</sub> | Short (hook) | Come, Follow Me 2026 (English) | Archived · 777370cb | Live | `HYBj9c6Z5EU` |
 | 2026-10-31 | [Week 45 · Ezekiel](https://www.youtube.com/shorts/oCqZeKxPCdE)<br><sub>2026 Week 45 | A Heart of Flesh, Not Stone | Ezekiel</sub> | Short (funnel) | Come, Follow Me 2026 (English) | Archived · f18bffbe | Live | `oCqZeKxPCdE` |
 
-## 每日經文 · Neville 解讀 — 中文（112）
+## 每日經文 · Neville 解讀 — 中文（118）
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
+| 2026-11-21 | [2026-11-19 · 以賽亞書 40:8](https://youtu.be/ZBaPz4t8Eac)<br><sub>每日經文 2026-11-19 · Neville 解讀｜以賽亞書 40:8 草枯花凋，祂的話永遠立定</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 8aca8b10 | 已發布 | `ZBaPz4t8Eac` |
+| 2026-11-21 | [2026-11-19 · 以賽亞書 40:8](https://www.youtube.com/shorts/tOOe9_J4tiI)<br><sub>每日經文 2026-11-19｜以賽亞書 40:8 草枯花凋，祂的話永遠立定</sub> | Short · 鉤子 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 8aca8b10 | 已發布 | `tOOe9_J4tiI` |
+| 2026-11-21 | [2026-11-19 · 以賽亞書 40:8](https://www.youtube.com/shorts/FSbJTRUJ314)<br><sub>每日經文 2026-11-19｜以賽亞書 40:8 今天你要站在哪一句祂的話上？</sub> | Short · 導入 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 8aca8b10 | 已發布 | `FSbJTRUJ314` |
+| 2026-11-21 | [2026-11-20 · 哥林多前書 15:58](https://youtu.be/E0lTTz949qo)<br><sub>每日經文 2026-11-20 · Neville 解讀｜哥林多前書 15:58 堅固，不可搖動——勞苦不是徒然</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · dceae96b | 已發布 | `E0lTTz949qo` |
+| 2026-11-21 | [2026-11-20 · 哥林多前書 15:58](https://www.youtube.com/shorts/cTxfU2_npOs)<br><sub>每日經文 2026-11-20｜哥林多前書 15:58 勞苦在主裏面不是徒然</sub> | Short · 鉤子 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · dceae96b | 已發布 | `cTxfU2_npOs` |
+| 2026-11-21 | [2026-11-20 · 哥林多前書 15:58](https://www.youtube.com/shorts/jD_XunpJ8a4)<br><sub>每日經文 2026-11-20｜哥林多前書 15:58 成果還沒顯現時，你願意繼續哪一份勞苦？</sub> | Short · 導入 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · dceae96b | 已發布 | `jD_XunpJ8a4` |
 | 2026-11-19 | [2026-11-19 · 以賽亞書 40:8](https://youtu.be/ZtIlFGHQFic)<br><sub>晨禱 · 站在永遠立定的話語上 | 2026年11月19日 · 以賽亞書 40:8</sub> | Prayer | 晨禱 · 每日禱告 | 待存档 | 已發布 | `ZtIlFGHQFic` |
 | 2026-11-19 | [2026-11-19 · 以賽亞書 40:8](https://youtu.be/9RlR3IgTAck)<br><sub>晚禱 · 在永遠立定的話語中安歇 | 2026年11月19日 · 以賽亞書 40:8</sub> | Prayer | 晚禱 · 每日禱告 | 待存档 | 已發布 | `9RlR3IgTAck` |
 | 2026-11-18 | [2026-11-18 · 詩篇 119:114](https://youtu.be/hmdu8IRtDwM)<br><sub>晨禱 · 在藏身之處中醒來 | 2026年11月17日 · 詩篇 119:114</sub> | Prayer | 晨禱 · 每日禱告 | 待存档 | 已發布 | `hmdu8IRtDwM` |
@@ -363,10 +369,28 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-10-31 | [2026-10-31 · 提摩太後書 3:16-17](https://www.youtube.com/shorts/pvP-BoX9vN0)<br><sub>每日經文 2026-10-31｜提摩太後書 3:16-17｜聖經是你自己意識的自傳</sub> | Short · 鉤子 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 1f8daa60 | 已發布 | `pvP-BoX9vN0` |
 | 2026-10-31 | [2026-10-31 · 提摩太後書 3:16-17](https://www.youtube.com/shorts/zMRz5A8ZLyg)<br><sub>每日經文 2026-10-31｜提摩太後書 3:16-17｜你不是等著被組裝的人</sub> | Short · 導入 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · d7f07ddb | 已發布 | `zMRz5A8ZLyg` |
 
-## Daily Verse · Neville Readings — English (151)
+## Daily Verse · Neville Readings — English (169)
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
+| 2026-11-21 | [2026-11-19 · Isaiah 40:8](https://youtu.be/jrxxsFb0jgU)<br><sub>Daily Verse 2026-11-19 · Isaiah 40:8 | The Word Stands Forever</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · 8bf7d19b | Live | `jrxxsFb0jgU` |
+| 2026-11-21 | [2026-11-19 · Isaiah 40:8](https://www.youtube.com/shorts/sZVEGU1Kj6E)<br><sub>Daily Verse 2026-11-19 | Isaiah 40:8 The Word Stands Forever</sub> | Short (hook) | Daily Verse · Neville Readings 2026 (English) | Archived · 8bf7d19b | Live | `sZVEGU1Kj6E` |
+| 2026-11-21 | [2026-11-19 · Isaiah 40:8](https://www.youtube.com/shorts/9rsQyZs81oY)<br><sub>Daily Verse 2026-11-19 | Isaiah 40:8 Which of His Words Will You Stand On Today?</sub> | Short (funnel) | Daily Verse · Neville Readings 2026 (English) | Archived · 8bf7d19b | Live | `9rsQyZs81oY` |
+| 2026-11-21 | [2026-11-19 · Isaiah 40:8](https://youtu.be/WC6obPLTh-g)<br><sub>毎日の聖句 2026-11-19 · ネヴィル解読｜イザヤ書 40:8 草は枯れても、み言葉はとこしえに</sub> | Long | 毎日の聖句 · 日本語 | Archived · ee8c92d6 | Live | `WC6obPLTh-g` |
+| 2026-11-21 | [2026-11-19 · Isaiah 40:8](https://www.youtube.com/shorts/N0zwpgNVi6M)<br><sub>毎日の聖句 2026-11-19｜イザヤ書 40:8 草は枯れても、み言葉はとこしえに</sub> | Short (hook) | 毎日の聖句 · 日本語 | Archived · ee8c92d6 | Live | `N0zwpgNVi6M` |
+| 2026-11-21 | [2026-11-19 · Isaiah 40:8](https://www.youtube.com/shorts/JOunGERnoCk)<br><sub>毎日の聖句 2026-11-19｜イザヤ書 40:8 今日あなたが立つみ言葉は？</sub> | Short (funnel) | 毎日の聖句 · 日本語 | Archived · ee8c92d6 | Live | `JOunGERnoCk` |
+| 2026-11-21 | [2026-11-19 · Isaiah 40:8](https://youtu.be/GdcWaoCsCYw)<br><sub>매일의 말씀 2026-11-19 · 네빌 해설｜이사야 40:8 풀은 마르나 말씀은 영원히 서리라</sub> | Long | 매일의 말씀 · 한국어 | Archived · b99a003a | Live | `GdcWaoCsCYw` |
+| 2026-11-21 | [2026-11-19 · Isaiah 40:8](https://www.youtube.com/shorts/1HOKsNxbfYI)<br><sub>매일의 말씀 2026-11-19｜이사야 40:8 풀은 마르나 말씀은 영원히 서리라</sub> | Short (hook) | 매일의 말씀 · 한국어 | Archived · b99a003a | Live | `1HOKsNxbfYI` |
+| 2026-11-21 | [2026-11-19 · Isaiah 40:8](https://www.youtube.com/shorts/CxlNL4Y0Veo)<br><sub>매일의 말씀 2026-11-19｜이사야 40:8 오늘 당신이 설 말씀은 무엇입니까?</sub> | Short (funnel) | 매일의 말씀 · 한국어 | Archived · b99a003a | Live | `CxlNL4Y0Veo` |
+| 2026-11-21 | [2026-11-20 · 1 Corinthians 15:58](https://youtu.be/-halkiIyc5c)<br><sub>Daily Verse 2026-11-20 · 1 Corinthians 15:58 | Stedfast, Unmoveable — Labour Not in Vain</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · 2c62bff6 | Live | `-halkiIyc5c` |
+| 2026-11-21 | [2026-11-20 · 1 Corinthians 15:58](https://www.youtube.com/shorts/qPwKN5em4VE)<br><sub>Daily Verse 2026-11-20 | 1 Corinthians 15:58 Your Labour Is Not in Vain</sub> | Short (hook) | Daily Verse · Neville Readings 2026 (English) | Archived · 2c62bff6 | Live | `qPwKN5em4VE` |
+| 2026-11-21 | [2026-11-20 · 1 Corinthians 15:58](https://www.youtube.com/shorts/JF15qfA5Jms)<br><sub>Daily Verse 2026-11-20 | 1 Corinthians 15:58 Which Labour Will You Keep in the Lord?</sub> | Short (funnel) | Daily Verse · Neville Readings 2026 (English) | Archived · 2c62bff6 | Live | `JF15qfA5Jms` |
+| 2026-11-21 | [2026-11-20 · 1 Corinthians 15:58](https://youtu.be/2Ni1eK9v86U)<br><sub>毎日の聖句 2026-11-20 · ネヴィル解読｜コリント人への第一の手紙 15:58 堅く立って、動かされず</sub> | Long | 毎日の聖句 · 日本語 | Archived · 580bfe28 | Live | `2Ni1eK9v86U` |
+| 2026-11-21 | [2026-11-20 · 1 Corinthians 15:58](https://www.youtube.com/shorts/AkK2ddp5JGw)<br><sub>毎日の聖句 2026-11-20｜コリント人への第一の手紙 15:58 主にある労苦はむだにならない</sub> | Short (hook) | 毎日の聖句 · 日本語 | Archived · 580bfe28 | Live | `AkK2ddp5JGw` |
+| 2026-11-21 | [2026-11-20 · 1 Corinthians 15:58](https://www.youtube.com/shorts/9hA4v6yzZkk)<br><sub>毎日の聖句 2026-11-20｜コリント人への第一の手紙 15:58 実りが見えない時、どの労苦を続けますか</sub> | Short (funnel) | 毎日の聖句 · 日本語 | Archived · 580bfe28 | Live | `9hA4v6yzZkk` |
+| 2026-11-21 | [2026-11-20 · 1 Corinthians 15:58](https://youtu.be/-M8Ynng30BA)<br><sub>매일의 말씀 2026-11-20 · 네빌 해설｜고린도전서 15:58 견실하며 흔들리지 말고</sub> | Long | 매일의 말씀 · 한국어 | Archived · cf86b301 | Live | `-M8Ynng30BA` |
+| 2026-11-21 | [2026-11-20 · 1 Corinthians 15:58](https://www.youtube.com/shorts/I7MEGuCJfCc)<br><sub>매일의 말씀 2026-11-20｜고린도전서 15:58 주 안에서의 수고는 헛되지 않다</sub> | Short (hook) | 매일의 말씀 · 한국어 | Archived · cf86b301 | Live | `I7MEGuCJfCc` |
+| 2026-11-21 | [2026-11-20 · 1 Corinthians 15:58](https://www.youtube.com/shorts/bOlCyjhKUA0)<br><sub>매일의 말씀 2026-11-20｜고린도전서 15:58 열매가 아직 보이지 않을 때, 어떤 수고를 이어가겠습니까?</sub> | Short (funnel) | 매일의 말씀 · 한국어 | Archived · cf86b301 | Live | `bOlCyjhKUA0` |
 | 2026-11-19 | [2026-11-19 · Isaiah 40:8](https://youtu.be/J2M-Ds0NoGo)<br><sub>Morning Prayer · Standing on the Word That Endures | November 19, 2026 · Isaiah 40:8</sub> | Prayer | Morning Prayer · Daily | Not archived yet | Live | `J2M-Ds0NoGo` |
 | 2026-11-19 | [2026-11-19 · Isaiah 40:8](https://youtu.be/a9k6Wa_I9Qw)<br><sub>朝の祈り · 永遠に立つ御言葉の上に立つ | 2026年11月19日 · イザヤ書 40:8</sub> | Prayer | 朝の祈り · 毎日の祈り | Not archived yet | Live | `a9k6Wa_I9Qw` |
 | 2026-11-19 | [2026-11-19 · Isaiah 40:8](https://youtu.be/LvdBvxS3Dsg)<br><sub>아침 기도 · 영원히 서 있는 말씀 위에 서기 | 2026년 11월 19일 · 이사야 40:8</sub> | Prayer | 아침 기도 · 매일 기도 | Not archived yet | Live | `LvdBvxS3Dsg` |
@@ -631,7 +655,7 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-11-19 | [Mount Up with Wings as Eagles | Isaiah 40:31 — Daily Motivational](https://www.youtube.com/shorts/mWTY6CMdKPc) | Short | Daily Motivational | Archived · a9f7d912 | Live | `mWTY6CMdKPc` |
 | 2026-11-19 | [翼を広げて上へ | イザヤ書 40:31 — Daily Motivational](https://www.youtube.com/shorts/6YGL56IrX5Y) | Short | Daily Motivational | Archived · a9f7d912 | Live | `6YGL56IrX5Y` |
 
-## Replaced / Private versions (109)
+## Replaced / Private versions (130)
 
 Same productions, kept for the record — not public.
 
@@ -673,10 +697,16 @@ Same productions, kept for the record — not public.
 | 2026-10-31 | [Week 45 · Ezekiel](https://youtu.be/JzzgF_aBsJI)<br><sub>Come, Follow Me 2026 Week 45 (Nov 2–8) | A New Spirit Will I Put within You · Ezekiel</sub> | Long | Come, Follow Me 2026 (English) | Archived · ad4308cb | Private | `JzzgF_aBsJI` |
 | 2026-10-31 | [Week 44 · Jeremiah](https://youtu.be/yxyH7p0gs0Y)<br><sub>Come, Follow Me 2026 Week 44 (Oct 26–Nov 1) | I Will Turn Their Mourning into Joy · Jeremiah</sub> | Long | Come, Follow Me 2026 (English) | Archived · 77aeaa26 | Private · replaced | `yxyH7p0gs0Y` |
 
-### 已取代 / Private · 每日經文 · Neville 解讀 — 中文（31）
+### 已取代 / Private · 每日經文 · Neville 解讀 — 中文（37）
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
+| 2026-11-22 | [2026-11-21 · 約翰福音 15:13](https://youtu.be/goOe8esIfbw)<br><sub>每日經文 2026-11-21 · Neville 解讀｜約翰福音 15:13 人為朋友捨命——沒有比這更大的愛</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 87687c50 | 已發布 | `goOe8esIfbw` |
+| 2026-11-22 | [2026-11-21 · 約翰福音 15:13](https://www.youtube.com/shorts/HAKI1qF_uYc)<br><sub>每日經文 2026-11-21｜約翰福音 15:13 人為朋友捨命</sub> | Short · 鉤子 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 87687c50 | 已發布 | `HAKI1qF_uYc` |
+| 2026-11-22 | [2026-11-21 · 約翰福音 15:13](https://www.youtube.com/shorts/cEYXpedfYNs)<br><sub>每日經文 2026-11-21｜約翰福音 15:13 你願意先為哪一位朋友放下舊看法？</sub> | Short · 導入 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 87687c50 | 已發布 | `cEYXpedfYNs` |
+| 2026-11-22 | [2026-11-22 · 以弗所書 6:12](https://youtu.be/wI0XuLaOOZs)<br><sub>每日經文 2026-11-22 · Neville 解讀｜以弗所書 6:12 我們並不是與屬血氣的爭戰</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 5636917e | 已發布 | `wI0XuLaOOZs` |
+| 2026-11-22 | [2026-11-22 · 以弗所書 6:12](https://www.youtube.com/shorts/7-LLwqwt-5I)<br><sub>每日經文 2026-11-22｜以弗所書 6:12 並不是與屬血氣的爭戰</sub> | Short · 鉤子 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 5636917e | 已發布 | `7-LLwqwt-5I` |
+| 2026-11-22 | [2026-11-22 · 以弗所書 6:12](https://www.youtube.com/shorts/o3OoZr4tuw8)<br><sub>每日經文 2026-11-22｜以弗所書 6:12 你真正的對手是誰？</sub> | Short · 導入 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 5636917e | 已發布 | `o3OoZr4tuw8` |
 | 2026-11-13 | [2026-11-14 · 詩篇 139:10](https://youtu.be/2wu6ckRFzcc)<br><sub>每日經文 2026-11-14 · Neville 解讀｜詩篇 139:10 即使在那裡，祂的手仍然扶持我</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 待存档 | Private · 重複上傳 | `2wu6ckRFzcc` |
 | 2026-11-13 | [2026-11-14 · 詩篇 139:10](https://youtu.be/Fbhq9Uq1dX0)<br><sub>每日經文 2026-11-14 · Neville 解讀｜詩篇 139:10 即使在那裡，祂的手仍然扶持我</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 待存档 | Private · 重複上傳 | `Fbhq9Uq1dX0` |
 | 2026-11-06 | [2026-11-03 · 詩篇 119:11](https://youtu.be/uDl-ul3x5PM)<br><sub>每日經文 2026-11-03 · Neville 解讀｜詩篇 119:11 把話藏在心裏——先立容器，再種下應許</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · d1658cf7 | Private | `uDl-ul3x5PM` |
@@ -709,10 +739,25 @@ Same productions, kept for the record — not public.
 | 2026-10-31 | [2026-10-31 · 提摩太後書 3:16-17](https://youtu.be/y6zIFPvCCuc)<br><sub>每日經文 2026-10-31｜提摩太後書 3:16-17 · 聖經都是神所默示的</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · a1f4dcfc | Private · 已被取代 | `y6zIFPvCCuc` |
 | 2026-10-31 | [2026-10-29 · 歌羅西書 1:13](https://youtu.be/CqrH_GpoY1E)<br><sub>每日經文 2026-10-29｜歌羅西書 1:13 — 脫離黑暗的權勢，遷入愛子的國</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 4a7ccd48 | Private · 已被取代 | `CqrH_GpoY1E` |
 
-### 已取代 / Private · Daily Verse · Neville Readings — English (29)
+### 已取代 / Private · Daily Verse · Neville Readings — English (44)
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
+| 2026-11-22 | [2026-11-21 · John 15:13](https://youtu.be/yh551gtZdcM)<br><sub>毎日の聖句 2026-11-21 · ネヴィル解読｜ヨハネによる福音書 15:13 友のために命を捨てる——これより大きな愛はない</sub> | Long | 毎日の聖句 · 日本語 | Archived · 8a674011 | Live | `yh551gtZdcM` |
+| 2026-11-22 | [2026-11-21 · John 15:13](https://www.youtube.com/shorts/NfXdBdbxOTo)<br><sub>毎日の聖句 2026-11-21｜ヨハネによる福音書 15:13 友のために命を捨てる</sub> | Short (hook) | 毎日の聖句 · 日本語 | Archived · 8a674011 | Live | `NfXdBdbxOTo` |
+| 2026-11-22 | [2026-11-21 · John 15:13](https://www.youtube.com/shorts/w7M8jyWVblo)<br><sub>毎日の聖句 2026-11-21｜ヨハネによる福音書 15:13 どの友のために古い見方を手放しますか</sub> | Short (funnel) | 毎日の聖句 · 日本語 | Archived · 8a674011 | Live | `w7M8jyWVblo` |
+| 2026-11-22 | [2026-11-21 · John 15:13](https://youtu.be/9pXD2d_hLvU)<br><sub>매일의 말씀 2026-11-21 · 네빌 해설｜요한복음 15:13 친구를 위하여 목숨을 버리면 이보다 더 큰 사랑이 없나니</sub> | Long | 매일의 말씀 · 한국어 | Archived · 3fc7fbb3 | Live | `9pXD2d_hLvU` |
+| 2026-11-22 | [2026-11-21 · John 15:13](https://www.youtube.com/shorts/yvDXe333VOM)<br><sub>매일의 말씀 2026-11-21｜요한복음 15:13 친구를 위하여 목숨을 버리면</sub> | Short (hook) | 매일의 말씀 · 한국어 | Archived · 3fc7fbb3 | Live | `yvDXe333VOM` |
+| 2026-11-22 | [2026-11-21 · John 15:13](https://www.youtube.com/shorts/qvF1EgoooIk)<br><sub>매일의 말씀 2026-11-21｜요한복음 15:13 어떤 친구를 위해 옛 관점을 내려놓겠습니까</sub> | Short (funnel) | 매일의 말씀 · 한국어 | Archived · 3fc7fbb3 | Live | `qvF1EgoooIk` |
+| 2026-11-22 | [2026-11-22 · Ephesians 6:12](https://youtu.be/0i0ZbsDSSc8)<br><sub>Daily Verse 2026-11-22 · Ephesians 6:12 | We Wrestle Not Against Flesh and Blood</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · a3f67ae0 | Live | `0i0ZbsDSSc8` |
+| 2026-11-22 | [2026-11-22 · Ephesians 6:12](https://www.youtube.com/shorts/kV_fn0VdKlQ)<br><sub>Daily Verse 2026-11-22 | Ephesians 6:12 We Wrestle Not Against Flesh and Blood</sub> | Short (hook) | Daily Verse · Neville Readings 2026 (English) | Archived · a3f67ae0 | Live | `kV_fn0VdKlQ` |
+| 2026-11-22 | [2026-11-22 · Ephesians 6:12](https://www.youtube.com/shorts/Ib0B2viQqDc)<br><sub>Daily Verse 2026-11-22 | Ephesians 6:12 Who Is Your Real Opponent?</sub> | Short (funnel) | Daily Verse · Neville Readings 2026 (English) | Archived · a3f67ae0 | Live | `Ib0B2viQqDc` |
+| 2026-11-22 | [2026-11-22 · Ephesians 6:12](https://youtu.be/UVAC2Lnz6RU)<br><sub>毎日の聖句 2026-11-22 · ネヴィル解読｜エペソ人への手紙 6:12 わたしたちの戦いは血肉に対するものではない</sub> | Long | 毎日の聖句 · 日本語 | Archived · efd9db1c | Live | `UVAC2Lnz6RU` |
+| 2026-11-22 | [2026-11-22 · Ephesians 6:12](https://www.youtube.com/shorts/A8AcfDj-ipk)<br><sub>毎日の聖句 2026-11-22｜エペソ人への手紙 6:12 血肉に対するものではない</sub> | Short (hook) | 毎日の聖句 · 日本語 | Archived · efd9db1c | Live | `A8AcfDj-ipk` |
+| 2026-11-22 | [2026-11-22 · Ephesians 6:12](https://www.youtube.com/shorts/E8uRoXTGneM)<br><sub>毎日の聖句 2026-11-22｜エペソ人への手紙 6:12 本当の相手は誰ですか</sub> | Short (funnel) | 毎日の聖句 · 日本語 | Archived · efd9db1c | Live | `E8uRoXTGneM` |
+| 2026-11-22 | [2026-11-22 · Ephesians 6:12](https://youtu.be/Y4gBwvIseR8)<br><sub>매일의 말씀 2026-11-22 · 네빌 해설｜에베소서 6:12 우리의 씨름은 혈과 육을 상대하는 것이 아니요</sub> | Long | 매일의 말씀 · 한국어 | Archived · 13f17747 | Live | `Y4gBwvIseR8` |
+| 2026-11-22 | [2026-11-22 · Ephesians 6:12](https://www.youtube.com/shorts/AWB-8SNZE5E)<br><sub>매일의 말씀 2026-11-22｜에베소서 6:12 혈과 육을 상대하는 것이 아니요</sub> | Short (hook) | 매일의 말씀 · 한국어 | Archived · 13f17747 | Live | `AWB-8SNZE5E` |
+| 2026-11-22 | [2026-11-22 · Ephesians 6:12](https://www.youtube.com/shorts/olwC0Pbn1nc)<br><sub>매일의 말씀 2026-11-22｜에베소서 6:12 당신의 진짜 상대는 누구입니까</sub> | Short (funnel) | 매일의 말씀 · 한국어 | Archived · 13f17747 | Live | `olwC0Pbn1nc` |
 | 2026-11-06 | [2026-11-03 · Psalm 119:11](https://youtu.be/ZxDDrz5VfU0)<br><sub>Daily Verse 2026-11-03 · Psalm 119:11 | Hiding the Word in the Heart</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · 9f4ddc4b | Private | `ZxDDrz5VfU0` |
 | 2026-11-06 | [2026-10-30 · Psalm 139:23](https://youtu.be/NuBxnp5J2qk)<br><sub>Daily Verse · 2026-10-30 | Psalm 139:23 — Search Me, O God: Praying from the End</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · 98beab2c | Private | `NuBxnp5J2qk` |
 | 2026-11-05 | [2026-11-05 · Psalm 24:1](https://youtu.be/x_dwA1zNGLQ)<br><sub>Daily Verse 2026-11-05 · Psalm 24:1 | The Earth Is the LORD's — From Chasing Lack to Fullness</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · 88356cff | Private · replaced | `x_dwA1zNGLQ` |
