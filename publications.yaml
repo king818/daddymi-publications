@@ -8146,6 +8146,114 @@ replaced_or_private:
   native_id: htNjC_xlI2w
   playlist: 音樂錄影帶 MV
   status: Unlisted — private gift version for family, not public by design; registered 2026-11-19 (library sync audit)
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: John 15:13
+  language: zh
+  type: Long
+  title: '每日經文 2026-11-21 · Neville 解讀｜約翰福音 15:13 人為朋友捨命——沒有比這更大的愛'
+  published: '2026-11-22'
+  url: https://youtu.be/goOe8esIfbw
+  native_id: goOe8esIfbw
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: 87687c50-a380-4edb-9ea7-070aa909e402
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: John 15:13
+  language: zh
+  type: Short (hook)
+  title: '每日經文 2026-11-21｜約翰福音 15:13 人為朋友捨命 #Shorts'
+  published: '2026-11-22'
+  url: https://www.youtube.com/shorts/HAKI1qF_uYc
+  native_id: HAKI1qF_uYc
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: 87687c50-a380-4edb-9ea7-070aa909e402
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: John 15:13
+  language: zh
+  type: Short (funnel)
+  title: '每日經文 2026-11-21｜約翰福音 15:13 你願意先為哪一位朋友放下舊看法？ #Shorts'
+  published: '2026-11-22'
+  url: https://www.youtube.com/shorts/cEYXpedfYNs
+  native_id: cEYXpedfYNs
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: 87687c50-a380-4edb-9ea7-070aa909e402
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: John 15:13
+  language: ja
+  type: Long
+  title: '毎日の聖句 2026-11-21 · ネヴィル解読｜ヨハネによる福音書 15:13 友のために命を捨てる——これより大きな愛はない'
+  published: '2026-11-22'
+  url: https://youtu.be/yh551gtZdcM
+  native_id: yh551gtZdcM
+  playlist: 毎日の聖句 · 日本語
+  archive_note: 8a674011-24d0-4da0-a6ab-65f5f61c3940
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: John 15:13
+  language: ja
+  type: Short (hook)
+  title: '毎日の聖句 2026-11-21｜ヨハネによる福音書 15:13 友のために命を捨てる #Shorts'
+  published: '2026-11-22'
+  url: https://www.youtube.com/shorts/NfXdBdbxOTo
+  native_id: NfXdBdbxOTo
+  playlist: 毎日の聖句 · 日本語
+  archive_note: 8a674011-24d0-4da0-a6ab-65f5f61c3940
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: John 15:13
+  language: ja
+  type: Short (funnel)
+  title: '毎日の聖句 2026-11-21｜ヨハネによる福音書 15:13 どの友のために古い見方を手放しますか #Shorts'
+  published: '2026-11-22'
+  url: https://www.youtube.com/shorts/w7M8jyWVblo
+  native_id: w7M8jyWVblo
+  playlist: 毎日の聖句 · 日本語
+  archive_note: 8a674011-24d0-4da0-a6ab-65f5f61c3940
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: John 15:13
+  language: ko
+  type: Long
+  title: '매일의 말씀 2026-11-21 · 네빌 해설｜요한복음 15:13 친구를 위하여 목숨을 버리면 이보다 더 큰 사랑이 없나니'
+  published: '2026-11-22'
+  url: https://youtu.be/9pXD2d_hLvU
+  native_id: 9pXD2d_hLvU
+  playlist: 매일의 말씀 · 한국어
+  archive_note: 3fc7fbb3-6ace-4ce1-9127-8904d35b9827
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: John 15:13
+  language: ko
+  type: Short (hook)
+  title: '매일의 말씀 2026-11-21｜요한복음 15:13 친구를 위하여 목숨을 버리면 #Shorts'
+  published: '2026-11-22'
+  url: https://www.youtube.com/shorts/yvDXe333VOM
+  native_id: yvDXe333VOM
+  playlist: 매일의 말씀 · 한국어
+  archive_note: 3fc7fbb3-6ace-4ce1-9127-8904d35b9827
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: John 15:13
+  language: ko
+  type: Short (funnel)
+  title: '매일의 말씀 2026-11-21｜요한복음 15:13 어떤 친구를 위해 옛 관점을 내려놓겠습니까 #Shorts'
+  published: '2026-11-22'
+  url: https://www.youtube.com/shorts/qvF1EgoooIk
+  native_id: qvF1EgoooIk
+  playlist: 매일의 말씀 · 한국어
+  archive_note: 3fc7fbb3-6ace-4ce1-9127-8904d35b9827
+  status: Public
 unverified:
 - item: CFM packs lane quota stop (2026-11-19) — 24 pieces plus 1 pinned comment resume after the quota reset
   reason: The 2026-11-19 packs lane published Lessons 23 ZH, 23 EN and 24 ZH (9 pieces) and then hit the exhausted generic quota pool (403 quotaExceeded on a captions list call during the Lesson 24 ZH finalize verify) and stopped per protocol. Not yet uploaded — Lesson 24 EN, Lesson 30 ZH, Lesson 30 EN, and the EN sets of Lessons 25–29 (8 sets, 24 pieces; all upload-packs authored and builder-verified 2026-11-19). Also pending — the pinned comment on the Lesson 24 ZH long R6UD0txPBK4, the post-reset read-back verify of the two Lesson 24 ZH Shorts, and the Evernote archive notes for Lessons 23 ZH, 23 EN and 24 ZH.
