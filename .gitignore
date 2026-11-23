@@ -1,0 +1,51 @@
+
+# --- git-gate: media & archive payloads (LOCAL FEEDBACK ONLY) -------------
+# This block only stops UNTRACKED files from being added by accident.
+# It is NOT the gate and NOT enforcement: tracked files ignore .gitignore,
+# and anyone can force-add. The real gate is the server-side required
+# object-scan check (see the repo ruleset + tools/object-scan.sh).
+# Video masters and page-video packages live in OSS / the masters registry,
+# never in git. (Q-A, video-storage architecture 2026-11-23)
+*.mp4
+*.m4v
+*.mov
+*.mkv
+*.webm
+*.avi
+*.wmv
+*.flv
+*.f4v
+*.mpg
+*.mpeg
+*.m2ts
+*.mts
+*.3gp
+*.3g2
+*.ogv
+*.vob
+*.asf
+*.rm
+*.rmvb
+*.divx
+*.m3u8
+*.mp3
+*.wav
+*.flac
+*.aac
+*.m4a
+*.ogg
+*.oga
+*.opus
+*.wma
+*.aif
+*.aiff
+*.mid
+*.midi
+*.amr
+*.au
+*.weba
+*.zip
+*.7z
+*.rar
+*.tgz
+# --- end git-gate block ----------------------------------------------------

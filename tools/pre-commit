@@ -1,0 +1,46 @@
+#!/usr/bin/env bash
+# pre-commit — LOCAL FEEDBACK ONLY. This hook is NOT the gate.
+# The gate is the server-side required object-scan check (GitHub Actions +
+# repository ruleset) defined by Q-A of the signed video-storage
+# architecture (2026-11-23). This hook only gives the committer fast local
+# feedback before pushing: it checks STAGED blobs for media/archive
+# extensions, media magic bytes, and the 5 MiB hard cap (warns over 2 MiB).
+# It can be bypassed with --no-verify; the server-side check cannot.
+set -uo pipefail
+
+HARD_LIMIT=$((5 * 1024 * 1024))
+WARN_LIMIT=$((2 * 1024 * 1024))
+MEDIA_EXTS=" mp4 m4v mov mkv webm avi wmv flv f4v mpg mpeg m2ts mts 3gp 3g2 ogv vob asf rm rmvb divx m3u8 weba mp3 wav flac aac m4a ogg oga opus wma aif aiff mid midi amr au zip 7z rar tgz "
+
+fail=0
+while IFS= read -r -d '' path; do
+  size="$(git cat-file -s ":$path" 2>/dev/null || echo 0)"
+  base_name="${path##*/}"
+  ext=""
+  case "$base_name" in *.*) ext="$(printf '%s' "${base_name##*.}" | tr '[:upper:]' '[:lower:]')" ;; esac
+  if [ "$size" -gt "$HARD_LIMIT" ]; then
+    echo "pre-commit (feedback): BLOCKED $path — $size bytes exceeds the 5 MiB hard cap." >&2
+    fail=1; continue
+  fi
+  if [ -n "$ext" ] && printf '%s' "$MEDIA_EXTS" | grep -q " $ext "; then
+    # .ts/.txt style false friends are left to the server check's magic test;
+    # extensions in this list are unambiguous media/archive types.
+    echo "pre-commit (feedback): BLOCKED $path — media/archive extension .$ext never belongs in git." >&2
+    fail=1; continue
+  fi
+  magic4="$(git show ":$path" 2>/dev/null | head -c 8 | od -An -v -tx1 | tr -d ' \n' || true)"
+  case "$magic4" in
+    *66747970*|1a45dfa3*|464c56*|000001ba*|4f676753*|664c6143*|504b0304*)
+      echo "pre-commit (feedback): BLOCKED $path — magic bytes look like a media/archive payload." >&2
+      fail=1; continue ;;
+  esac
+  if [ "$size" -gt "$WARN_LIMIT" ]; then
+    echo "pre-commit (feedback): warning — $path is $size bytes (non-text blobs over 2 MiB draw a warning from the server check)." >&2
+  fi
+done < <(git diff --cached --name-only --diff-filter=ACM -z)
+
+if [ "$fail" -gt 0 ]; then
+  echo "pre-commit (feedback): commit stopped locally. The server-side object-scan check would fail this change; see GATE.md." >&2
+  exit 1
+fi
+exit 0
