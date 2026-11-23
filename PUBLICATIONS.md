@@ -2,7 +2,7 @@
 
 Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, filterable version: https://king818.github.io/daddymi-publications/
 
-**575 public videos** · 130 replaced/private versions · Come, Follow Me 2026: 231 · Daily Motivational: 5 · Daily Verse · Neville Readings: 287 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 30 · Mi Xi Intro Podcast: 5 · Music Videos: 4 · Neville Inner Reading Podcast: 7
+**576 public videos** · 130 replaced/private versions · Come, Follow Me 2026: 231 · Daily Motivational: 5 · Daily Verse · Neville Readings: 287 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 30 · Lives of Light: 1 · Mi Xi Intro Podcast: 5 · Music Videos: 4 · Neville Inner Reading Podcast: 7
 
 
 ## 來跟隨我 2026 — 中文（117）
@@ -654,6 +654,12 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-11-20 | [내면에서 날개를 펴고 비상하라 | 이사야 40:31 — Daily Motivational](https://www.youtube.com/shorts/W3XELYuvvX8) | Short | Daily Motivational | Archived · a9f7d912 | Live | `W3XELYuvvX8` |
 | 2026-11-19 | [Mount Up with Wings as Eagles | Isaiah 40:31 — Daily Motivational](https://www.youtube.com/shorts/mWTY6CMdKPc) | Short | Daily Motivational | Archived · a9f7d912 | Live | `mWTY6CMdKPc` |
 | 2026-11-19 | [翼を広げて上へ | イザヤ書 40:31 — Daily Motivational](https://www.youtube.com/shorts/6YGL56IrX5Y) | Short | Daily Motivational | Archived · a9f7d912 | Live | `6YGL56IrX5Y` |
+
+## Lives of Light — English (1)
+
+| 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
+|---|---|---|---|---|---|---|
+| 2026-11-22 | [Arnold Schwarzenegger Arrived With Empty Pockets — and a Plan at 14 | Lives of Light Ep.1](https://youtu.be/MX1eAcTtqXQ) | Long | — | Not archived yet | Live | `MX1eAcTtqXQ` |
 
 ## Replaced / Private versions (130)
 

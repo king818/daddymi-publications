@@ -90,6 +90,7 @@ TEMPLATE = """<!DOCTYPE html>
     <a href="%%GW_LINK%%">%%NAV_GW%%</a>
     <a href="%%MIXI_LINK%%">%%NAV_MIXI%%</a>
     <a href="%%DM_LINK%%">%%NAV_MOTIVATIONAL%%</a>
+    <a href="%%LOL_LINK%%">%%NAV_LIVES%%</a>
     <a href="%%PUBS_LINK%%">%%NAV_VIDEOS%%</a>
     <a href="%%ARCHIVE_LINK%%">%%NAV_ARCHIVE%%</a>
     <a href="%%GALLERY_LINK%%">%%NAV_GALLERY%%</a>
@@ -268,6 +269,9 @@ PRIVACY_PATH = {"zh-hans": "/privacy/", "zh-hant": "/privacy/tc/",
 DM_PATH = {"zh-hans": "/daily-motivational/", "zh-hant": "/daily-motivational/tc/",
            "en": "/daily-motivational/en/", "ja": "/daily-motivational/ja/",
            "ko": "/daily-motivational/ko/"}
+LOL_PATH = {"zh-hans": "/lives-of-light/", "zh-hant": "/lives-of-light/tc/",
+            "en": "/lives-of-light/en/", "ja": "/lives-of-light/ja/",
+            "ko": "/lives-of-light/ko/"}
 MX005_PATH = {"zh-hans": "/music/mx005/", "zh-hant": "/music/mx005/tc/",
               "en": "/music/mx005/en/", "ja": "/music/mx005/ja/",
               "ko": "/music/mx005/ko/"}
@@ -419,8 +423,8 @@ def render(code, page, site, pages):
         "YT_MV_LABEL": page["yt_mv"],
         "NAV_GW": page["nav_gw"], "NAV_MIXI": page["nav_mixi"], "NAV_VIDEOS": page["nav_videos"],
         "NAV_ARCHIVE": page["nav_archive"], "NAV_GALLERY": page["nav_gallery"],
-        "NAV_MOTIVATIONAL": page["nav_motivational"],
-        "ARCHIVE_LINK": ARCHIVE_PATH[code], "GALLERY_LINK": GALLERY_PATH[code], "DM_LINK": DM_PATH[code],
+        "NAV_MOTIVATIONAL": page["nav_motivational"], "NAV_LIVES": page["nav_lives"],
+        "ARCHIVE_LINK": ARCHIVE_PATH[code], "GALLERY_LINK": GALLERY_PATH[code], "DM_LINK": DM_PATH[code], "LOL_LINK": LOL_PATH[code],
         "PREVIEW_SECTION": _preview_section(page, code, "/" + ORDER_PATH[code]),
         "LISTEN_IMG_ALT": page["listen_img_alt"],
         "COVER": prefix + site["cover_path"],

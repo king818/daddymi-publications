@@ -6837,6 +6837,17 @@ publications:
   playlist: 매일의 말씀 · 한국어
   archive_note: cf86b301-7221-484b-81e2-c770d1fa83e6
   status: Public
+- platform: YouTube
+  series: Lives of Light
+  topic: Arnold Schwarzenegger — a plan at 14 (Episode 1)
+  language: en
+  type: Long
+  title: Arnold Schwarzenegger Arrived With Empty Pockets — and a Plan at 14 | Lives of Light Ep.1
+  published: '2026-11-22'
+  url: https://youtu.be/MX1eAcTtqXQ
+  native_id: MX1eAcTtqXQ
+  playlist:
+  status: Public
 replaced_or_private:
 - platform: YouTube
   series: Come, Follow Me 2026
