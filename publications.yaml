@@ -6892,6 +6892,78 @@ publications:
   native_id: MX1eAcTtqXQ
   playlist:
   status: Public
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 32 — Esther 1–10
+  language: zh
+  type: Long
+  title: 來跟隨我 2026 第32週（8月3日–9日）｜你……是為現今的機會 · 以斯帖記
+  published: '2026-11-23'
+  url: https://youtu.be/V-t7HBUAJD8
+  native_id: V-t7HBUAJD8
+  playlist: 來跟隨我 2026（中文）
+  archive_note: ad1c3f0a-0119-4a8f-a544-ccdea9b453e8
+  status: Live
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 32 — Esther 1–10
+  language: zh
+  type: Short (hook)
+  title: '焉知你得了王后的位分，不是為現今的機會嗎？｜來跟隨我 第32週 #Shorts'
+  published: '2026-11-23'
+  url: https://youtu.be/izP1iy8e76I
+  native_id: izP1iy8e76I
+  playlist: 來跟隨我 2026（中文）
+  archive_note: ad1c3f0a-0119-4a8f-a544-ccdea9b453e8
+  status: Live
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 32 — Esther 1–10
+  language: zh
+  type: Short (funnel)
+  title: '找出一位你有機會祝福的人｜來跟隨我 第32週 #Shorts'
+  published: '2026-11-23'
+  url: https://youtu.be/XgIirQlHIjI
+  native_id: XgIirQlHIjI
+  playlist: 來跟隨我 2026（中文）
+  archive_note: ad1c3f0a-0119-4a8f-a544-ccdea9b453e8
+  status: Live
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 32 — Esther 1–10
+  language: en
+  type: Long
+  title: Come, Follow Me 2026 Week 32 (August 3–9) | Thou Art Come … for Such a Time as This — Esther
+  published: '2026-11-23'
+  url: https://youtu.be/Z4PD2F8Db0U
+  native_id: Z4PD2F8Db0U
+  playlist: Come Follow Me 2026 (English)
+  archive_note: 1df6ea0a-9196-4b10-9073-f1e2feafecda
+  status: Live
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 32 — Esther 1–10
+  language: en
+  type: Short (hook)
+  title: 'Who Knoweth Whether Thou Art Come … for Such a Time as This? | CFM Week 32 #Shorts'
+  published: '2026-11-23'
+  url: https://youtu.be/QhCAf7azuQQ
+  native_id: QhCAf7azuQQ
+  playlist: Come Follow Me 2026 (English)
+  archive_note: 1df6ea0a-9196-4b10-9073-f1e2feafecda
+  status: Live
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 32 — Esther 1–10
+  language: en
+  type: Short (funnel)
+  title: 'One Person You Are Positioned to Bless | CFM Week 32 #Shorts'
+  published: '2026-11-23'
+  url: https://youtu.be/yRL4J3uh3FQ
+  native_id: yRL4J3uh3FQ
+  playlist: Come Follow Me 2026 (English)
+  archive_note: 1df6ea0a-9196-4b10-9073-f1e2feafecda
+  status: Live
 replaced_or_private:
 - platform: YouTube
   series: Come, Follow Me 2026
