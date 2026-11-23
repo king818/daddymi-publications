@@ -6077,6 +6077,50 @@ publications:
   archive_note: a9f7d912-50bc-42fb-9ae9-42ad81fe75ce
   status: Live
 - platform: YouTube
+  series: Daily Motivational
+  topic: Joshua 1:9 — Be Strong and Courageous, You Are Not Alone
+  language: en
+  type: Short
+  title: Be Strong and Courageous, You Are Not Alone | Joshua 1:9 — Daily Motivational
+  published: '2026-11-23'
+  url: https://www.youtube.com/shorts/fI7-6jTnmfg
+  native_id: fI7-6jTnmfg
+  playlist: Daily Motivational
+  status: Live
+- platform: YouTube
+  series: Daily Motivational
+  topic: Joshua 1:9 — Be Strong and Courageous, You Are Not Alone
+  language: zh
+  type: Short
+  title: 剛強壯膽，不獨行 | 約書亞記 1:9 — Daily Motivational
+  published: '2026-11-23'
+  url: https://www.youtube.com/shorts/lFlSyFtXkns
+  native_id: lFlSyFtXkns
+  playlist: Daily Motivational
+  status: Live
+- platform: YouTube
+  series: Daily Motivational
+  topic: Joshua 1:9 — Be Strong and Courageous, You Are Not Alone
+  language: ja
+  type: Short
+  title: 強く雄々しく、ひとりではない | ヨシュア記 1:9 — Daily Motivational
+  published: '2026-11-23'
+  url: https://www.youtube.com/shorts/2udXK8MP09Y
+  native_id: 2udXK8MP09Y
+  playlist: Daily Motivational
+  status: Live
+- platform: YouTube
+  series: Daily Motivational
+  topic: Joshua 1:9 — Be Strong and Courageous, You Are Not Alone
+  language: ko
+  type: Short
+  title: 강하고 담대하라, 혼자가 아니다 | 여호수아 1:9 — Daily Motivational
+  published: '2026-11-23'
+  url: https://www.youtube.com/shorts/b9_W3D74Nc8
+  native_id: b9_W3D74Nc8
+  playlist: Daily Motivational
+  status: Live
+- platform: YouTube
   series: Come, Follow Me 2026
   topic: Lesson 25 — 1 Samuel 17–18; 24–26; 2 Samuel 5–7
   language: zh

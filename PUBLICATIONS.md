@@ -2,7 +2,7 @@
 
 Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, filterable version: https://king818.github.io/daddymi-publications/
 
-**576 public videos** · 130 replaced/private versions · Come, Follow Me 2026: 231 · Daily Motivational: 5 · Daily Verse · Neville Readings: 287 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 30 · Lives of Light: 1 · Mi Xi Intro Podcast: 5 · Music Videos: 4 · Neville Inner Reading Podcast: 7
+**580 public videos** · 130 replaced/private versions · Come, Follow Me 2026: 231 · Daily Motivational: 9 · Daily Verse · Neville Readings: 287 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 30 · Lives of Light: 1 · Mi Xi Intro Podcast: 5 · Music Videos: 4 · Neville Inner Reading Podcast: 7
 
 
 ## 來跟隨我 2026 — 中文（117）
@@ -640,16 +640,20 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-11-13 | [ミーシーを知る：五つの歌、一つの声](https://youtu.be/sYU1VqoLeNA) | Long | PLXi8P8Db85T4 | Not archived yet | Live | `sYU1VqoLeNA` |
 | 2026-11-13 | [ミーシーを知る：五つの歌、一つの声](https://youtu.be/kbMqv2f3VCQ) | Long | PLXi8P8Db85T4 | Not archived yet | Live | `kbMqv2f3VCQ` |
 
-## Daily Motivational — 中文（1）
+## Daily Motivational — 中文（2）
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
+| 2026-11-23 | [剛強壯膽，不獨行 | 約書亞記 1:9 — Daily Motivational](https://www.youtube.com/shorts/lFlSyFtXkns) | Short | Daily Motivational | 待存档 | 已發布 | `lFlSyFtXkns` |
 | 2026-11-20 | [從心展翅上騰 | 以賽亞書 40:31 — Daily Motivational](https://www.youtube.com/shorts/lxrp3fP48jY) | Short | Daily Motivational | 已存档 · a9f7d912 | 已發布 | `lxrp3fP48jY` |
 
-## Daily Motivational — English (4)
+## Daily Motivational — English (7)
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
+| 2026-11-23 | [Be Strong and Courageous, You Are Not Alone | Joshua 1:9 — Daily Motivational](https://www.youtube.com/shorts/fI7-6jTnmfg) | Short | Daily Motivational | Not archived yet | Live | `fI7-6jTnmfg` |
+| 2026-11-23 | [強く雄々しく、ひとりではない | ヨシュア記 1:9 — Daily Motivational](https://www.youtube.com/shorts/2udXK8MP09Y) | Short | Daily Motivational | Not archived yet | Live | `2udXK8MP09Y` |
+| 2026-11-23 | [강하고 담대하라, 혼자가 아니다 | 여호수아 1:9 — Daily Motivational](https://www.youtube.com/shorts/b9_W3D74Nc8) | Short | Daily Motivational | Not archived yet | Live | `b9_W3D74Nc8` |
 | 2026-11-20 | [Mount Up with Wings as Eagles | Isaiah 40:31 — Daily Motivational](https://www.youtube.com/shorts/bCIEyY9GNHI) | Short | Daily Motivational | Archived · a9f7d912 | Live | `bCIEyY9GNHI` |
 | 2026-11-20 | [내면에서 날개를 펴고 비상하라 | 이사야 40:31 — Daily Motivational](https://www.youtube.com/shorts/W3XELYuvvX8) | Short | Daily Motivational | Archived · a9f7d912 | Live | `W3XELYuvvX8` |
 | 2026-11-19 | [Mount Up with Wings as Eagles | Isaiah 40:31 — Daily Motivational](https://www.youtube.com/shorts/mWTY6CMdKPc) | Short | Daily Motivational | Archived · a9f7d912 | Live | `mWTY6CMdKPc` |
