@@ -84,6 +84,40 @@
   @media (prefers-reduced-motion: reduce){
     .hero-frame img,.hero-scroll{animation:none;}
   }
+  .videowrap{position:relative; width:100%; padding-top:56.25%; border-radius:12px; overflow:hidden; border:1px solid var(--line); margin-top:12px; background:#000;}
+  .videowrap iframe{position:absolute; inset:0; width:100%; height:100%; border:0;}
+
+  /* ===== 为她点一盏灯 ===== */
+  .lampsec{text-align:center;}
+  /* PORTRAIT SLOT: to add a portrait later, insert
+     <img class="lamp-portrait" src="..." alt="..."> as the first child of
+     .lamp-figure (before .lamp-glow) plus a .lamp-portrait rule here;
+     no other change needed. Ships with NO placeholder frame. */
+  .lamp-figure{position:relative; width:220px; height:220px; margin:10px auto 0;}
+  .lamp-glow{position:absolute; inset:0; border-radius:50%;
+    background:radial-gradient(closest-side, rgba(243,183,74,.62) 0%, rgba(243,183,74,.28) 45%, rgba(243,183,74,0) 72%);
+    opacity:0; transform:scale(.72);
+    transition:opacity 3s ease, transform 3s ease;}
+  .lampsec.lit .lamp-glow{opacity:.75; transform:scale(1);}
+  .lampsec.lit.playing .lamp-glow{opacity:1; transform:scale(1.14);
+    transition:opacity 4s ease, transform 4s ease;}
+  .lamp-btn{position:absolute; inset:0; width:100%; height:100%; background:none; border:0; cursor:pointer; padding:0; -webkit-tap-highlight-color:transparent;}
+  .lamp-btn:focus-visible{outline:2px solid var(--accent); outline-offset:4px; border-radius:50%;}
+  .lamp-svg{display:block; width:100%; height:100%;}
+  .lamp-svg .shade{fill:#B9AC93; transition:fill 2.4s ease;}
+  .lamp-svg .bulb{fill:#D8D2C2; transition:fill 2.4s ease;}
+  .lamp-svg .stem,.lamp-svg .base{fill:#8D8271;}
+  .lampsec.lit .lamp-svg .shade{fill:#E9B64F;}
+  .lampsec.lit .lamp-svg .bulb{fill:#FFD97A;}
+  .lamp-line{font-size:18.5px; color:var(--accent-dark); margin-top:6px;}
+  .lamp-hint{color:var(--muted); font-size:14.5px; margin-top:2px;}
+  .lampsec.lit .lamp-hint{display:none;}
+  .lamp-back{color:var(--accent-dark); font-size:16.5px; margin-top:10px; display:none;}
+  .lampsec.returning .lamp-back{display:block;}
+  @media (prefers-reduced-motion: reduce){
+    .lamp-glow,.lamp-svg .shade,.lamp-svg .bulb{transition:none;}
+  }
+
   .btn{display:inline-block; padding:11px 30px; border-radius:999px; text-decoration:none; font-size:16px; font-weight:700; background:var(--accent); color:#fff; box-shadow:0 2px 8px rgba(30,42,56,.22);}
   .listenbtn{text-align:center; margin-top:16px;}
   .ytlink{font-size:15px; margin-top:12px;}
@@ -121,6 +155,26 @@
   <section>
     <p class="dedication">献给薛叔叔——<br>薛阿姨留下的光，还在您身旁。<br>愿往后的每一个黄昏，都有温柔的光，陪您把日子慢慢过亮。</p>
     <p class="listenbtn"><a class="btn" href="#listen">听这首歌</a></p>
+  </section>
+  <section class="lampsec" id="lamp">
+    <h2>为她点一盏灯</h2>
+    <div class="lamp-figure">
+      <!-- PORTRAIT SLOT: a portrait photo can be inserted here later as
+           <img class="lamp-portrait" ...> beside the lamp; intentionally
+           shipped with no placeholder frame. -->
+      <div class="lamp-glow" aria-hidden="true"></div>
+      <button class="lamp-btn" id="lampBtn" type="button" aria-label="为她点亮这盏灯" aria-pressed="false">
+        <svg class="lamp-svg" viewBox="0 0 200 200" aria-hidden="true" focusable="false">
+          <path class="shade" d="M70 56 H130 L143 104 H57 Z"/>
+          <circle class="bulb" cx="100" cy="106" r="10"/>
+          <rect class="stem" x="96.5" y="106" width="7" height="48"/>
+          <ellipse class="base" cx="100" cy="160" rx="31" ry="6.5"/>
+        </svg>
+      </button>
+    </div>
+    <p class="lamp-line">有些光，不会随着黄昏离去。</p>
+    <p class="lamp-hint" id="lampHint">轻触灯盏，把灯点亮。</p>
+    <p class="lamp-back" id="lampBack">灯还亮着。什么时候回来，都好。</p>
   </section>
   <section id="listen">
     <h2>聆听 · 完整歌词</h2>
@@ -216,6 +270,8 @@
     <p>同一束光，也拍成了一段影像。想看的时候，再看。</p>
     <p class="mvlabel">本站直接播放（无需跳转）</p>
     <video id="mvvideo" class="mv" controls preload="metadata" playsinline poster="/music/mx012/poster.jpg" src="/music/mx012/mtv.mp4"></video>
+    <p class="mvlabel">在 YouTube 观看</p>
+    <div class="videowrap"><iframe src="https://www.youtube.com/embed/P5Hy-CuWLgE" title="YouTube" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
     <p class="ytlink">本站视频无法播放？<a href="https://www.youtube.com/watch?v=P5Hy-CuWLgE" target="_blank" rel="noreferrer noopener">在 YouTube 观看</a></p>
   </details>
   <footer>
@@ -382,6 +438,39 @@
     } else {
       begin(false);
     }
+  }
+})();
+</script>
+
+<script>
+/* ===== 为她点一盏灯 (Junshi design): one tap lights the lamp; while the
+   song plays the glow deepens gently, and the lamp stays lit after the
+   song ends. The lit state is remembered on this device only
+   (localStorage). No flicker, no counters, no ceremony. */
+(function(){
+  var sec = document.getElementById('lamp');
+  var btn = document.getElementById('lampBtn');
+  if(!sec || !btn) return;
+  var KEY = 'mx012-lamp-lit';
+  var lit = false;
+  try { lit = localStorage.getItem(KEY) === '1'; } catch(e){}
+  function render(){
+    sec.classList.toggle('lit', lit);
+    btn.setAttribute('aria-pressed', lit ? 'true' : 'false');
+  }
+  if(lit){ sec.classList.add('returning'); }
+  render();
+  btn.addEventListener('click', function(){
+    if(lit) return;
+    lit = true;
+    try { localStorage.setItem(KEY, '1'); } catch(e){}
+    render();
+  });
+  var audio = document.getElementById('songAudio');
+  if(audio){
+    audio.addEventListener('play', function(){ sec.classList.add('playing'); });
+    audio.addEventListener('pause', function(){ sec.classList.remove('playing'); });
+    audio.addEventListener('ended', function(){ sec.classList.remove('playing'); });
   }
 })();
 </script>
