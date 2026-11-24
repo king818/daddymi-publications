@@ -5622,6 +5622,18 @@ publications:
   note: Arrears backfill (recovery 2026-11-24). Text Junshi original (2026-11-13 set), TTS 2026-11-24, verbatim/F0 gate PASS (clusters 95.2/177.8 Hz in band; opening male voice confirmed by direct first-6s F0 median 111.1 Hz; transcript complete by inspection). Provenance — this VM, gemini-2.5-flash-preview-tts Charon/Kore + assemble_prayer.py route. QC — meanY 98.5, dark-frame share 19%; title card Japanese verified.
 - platform: YouTube
   series: Daily Verse · Neville Readings
+  topic: Matthew 6:11
+  language: ja
+  type: Prayer
+  title: 夜の祈り · 今日のパンに感謝して眠る | 2026年11月13日 · マタイによる福音書 6:11
+  published: '2026-11-24'
+  url: https://youtu.be/QE5yyo3tqxo
+  native_id: QE5yyo3tqxo
+  playlist: 夕の祈り · 毎日の祈り
+  status: Public
+  note: Arrears backfill (recovery 2026-11-24). Text Junshi original (2026-11-13 set), TTS 2026-11-24, verbatim/F0 gate PASS (clusters 101.9/172.0 Hz in band, verbatim 0.915; opening male voice confirmed by direct first-6s F0 median 108.1 Hz). Provenance — this VM, gemini-3.8-flash-tts Charon/Kore + assemble_prayer.py route. QC — meanY 59.7, dark-frame share 50% (lamp-lit evening set, in family with published evening siblings); title card Japanese verified.
+- platform: YouTube
+  series: Daily Verse · Neville Readings
   topic: John 10:10
   language: zh-Hant
   type: Prayer
