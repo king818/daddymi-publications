@@ -40,7 +40,7 @@
    /publications/ with the fragment preserved. The portal's own
    section anchors (#listen, #subscribe, #works, #about) stay. */
 (function () {
-  var own = { '#listen': 1, '#preview': 1, '#subscribe': 1, '#works': 1, '#about': 1, '': 1 };
+  var own = { '#listen': 1, '#preview': 1, '#subscribe': 1, '#community': 1, '#works': 1, '#about': 1, '': 1 };
   var h = window.location.hash || '';
   if (!own[h]) { window.location.replace('/publications/' + h); }
 })();
@@ -61,6 +61,7 @@
     <a href="/publications/">영상 라이브러리</a>
     <a href="/music/mx005/archive/ko/">미리듣기 아카이브</a>
     <a href="/album/gallery/ko/">갤러리</a>
+    <a href="#community">커뮤니티</a>
   </nav>
 
   <header>
@@ -164,6 +165,12 @@
     <p class="formnote">또는 직접 메일을 보내시려면: <a href="mailto:support@daddymi777.com">support@daddymi777.com</a></p>
   </section>
 
+  <section class="band" id="community">
+    <h2>커뮤니티에 함께하세요</h2>
+    <p>Daddy Mi 777은 Discord에 있는 저희 커뮤니티의 집입니다. 신곡 소식, 매일의 말씀, 기도 요청과 공지를 가장 먼저 이곳에서 나눕니다. #general 에서 인사를 나누고, #announcements 와 #music 에서 새 작품을 확인하고, #daily-verse 에서 말씀을 함께 읽고, #prayer-requests 에 기도 요청을 남겨 주세요.</p>
+    <p class="joinrow"><a class="joinbtn" href="https://discord.gg/eCv5UHa3J" target="_blank" rel="noopener">Daddy Mi 777 참여하기(Discord)↗</a></p>
+  </section>
+
   <section id="works">
     <h2>작품 안내</h2>
     <div class="cards">
@@ -202,6 +209,7 @@
     <div><a href="/order/ko/">맞춤 노래</a></div>
     <div><a href="https://www.youtube.com/@DaddyMi777" target="_blank" rel="noopener">Daddy Mi 유튜브 채널 ↗ (중국 본토 밖의 네트워크가 필요합니다)</a></div>
     <div><a href="https://www.youtube.com/playlist?list=PLSxnHgZ_KCSI" target="_blank" rel="noopener">뮤직비디오 재생목록 ↗ (중국 본토 밖의 네트워크가 필요합니다)</a></div>
+    <div><a href="https://discord.gg/eCv5UHa3J" target="_blank" rel="noopener">Discord 커뮤니티 · Daddy Mi 777 ↗ (중국 본토 밖의 네트워크가 필요합니다)</a></div>
     <div>개인정보 안내: 이 사이트는 방문 기록을 추적하지 않습니다. 구독 이메일은 업데이트 발송에만 사용되며, 언제든 구독을 해지할 수 있습니다.</div>
     <div><a href="/privacy/ko/">개인정보 처리방침 · Privacy Policy</a></div>
     <div>© 2026 米老爸 Daddy Mi</div>

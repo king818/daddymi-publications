@@ -163,6 +163,17 @@ h1.brand-en {
   padding: 0 26px; cursor: pointer; transition: background .3s ease, color .3s ease;
 }
 .subform button:hover, .subform button:focus-visible { background: var(--light); color: #FFFDF6; outline: none; }
+/* Community (Discord) join button — the subscribe pill as a standalone
+   link (community section added 2026-11-23). */
+.joinrow { margin-top: 26px !important; }
+.joinbtn {
+  display: inline-block;
+  font-family: var(--serif-zh); font-size: 15px; line-height: 1; letter-spacing: .12em;
+  color: var(--ink); background: var(--light-soft);
+  border-radius: 999px; padding: 16px 30px; text-decoration: none;
+  transition: background .3s ease, color .3s ease;
+}
+.joinbtn:hover, .joinbtn:focus-visible { background: var(--light); color: #FFFDF6; outline: none; }
 .formnote { font-size: 12.5px !important; color: var(--muted) !important; margin-top: 16px !important; letter-spacing: .06em; }
 .formnote a { color: var(--gold-text); }
 

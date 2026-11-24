@@ -40,7 +40,7 @@
    /publications/ with the fragment preserved. The portal's own
    section anchors (#listen, #subscribe, #works, #about) stay. */
 (function () {
-  var own = { '#listen': 1, '#preview': 1, '#subscribe': 1, '#works': 1, '#about': 1, '': 1 };
+  var own = { '#listen': 1, '#preview': 1, '#subscribe': 1, '#community': 1, '#works': 1, '#about': 1, '': 1 };
   var h = window.location.hash || '';
   if (!own[h]) { window.location.replace('/publications/' + h); }
 })();
@@ -61,6 +61,7 @@
     <a href="/publications/">動画ライブラリ</a>
     <a href="/music/mx005/archive/ja/">試聴アーカイブ</a>
     <a href="/album/gallery/ja/">ギャラリー</a>
+    <a href="#community">コミュニティ</a>
   </nav>
 
   <header>
@@ -164,6 +165,12 @@
     <p class="formnote">直接メールでもどうぞ： <a href="mailto:support@daddymi777.com">support@daddymi777.com</a></p>
   </section>
 
+  <section class="band" id="community">
+    <h2>コミュニティに参加する</h2>
+    <p>「Daddy Mi 777」は、Discordにある私たちのコミュニティの家です。新曲のリリース、毎日の聖句、祈りのリクエスト、お知らせを、いち早くここでお届けします。#general でご挨拶、#announcements と #music で新作をチェック、#daily-verse で聖句を共に読み、#prayer-requests には祈りのリクエストをお寄せください。</p>
+    <p class="joinrow"><a class="joinbtn" href="https://discord.gg/eCv5UHa3J" target="_blank" rel="noopener">Daddy Mi 777 に参加する（Discord）↗</a></p>
+  </section>
+
   <section id="works">
     <h2>作品のご案内</h2>
     <div class="cards">
@@ -202,6 +209,7 @@
     <div><a href="/order/ja/">カスタムソング</a></div>
     <div><a href="https://www.youtube.com/@DaddyMi777" target="_blank" rel="noopener">Daddy MiのYouTubeチャンネル ↗（視聴には中国本土の外のネットワークが必要です）</a></div>
     <div><a href="https://www.youtube.com/playlist?list=PLSxnHgZ_KCSI" target="_blank" rel="noopener">ミュージックビデオのプレイリスト ↗（視聴には中国本土の外のネットワークが必要です）</a></div>
+    <div><a href="https://discord.gg/eCv5UHa3J" target="_blank" rel="noopener">Discord コミュニティ · Daddy Mi 777 ↗（利用には中国本土の外のネットワークが必要です）</a></div>
     <div>プライバシー：当サイトはあなたの閲覧を追跡しません。登録いただいたメールアドレスは更新のお知らせにのみ使用し、いつでも配信を停止できます。</div>
     <div><a href="/privacy/ja/">プライバシーポリシー · Privacy Policy</a></div>
     <div>© 2026 米老爸 Daddy Mi</div>

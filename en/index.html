@@ -39,7 +39,7 @@
    /publications/ with the fragment preserved. The portal's own
    section anchors (#listen, #subscribe, #works, #about) stay. */
 (function () {
-  var own = { '#listen': 1, '#preview': 1, '#subscribe': 1, '#works': 1, '#about': 1, '': 1 };
+  var own = { '#listen': 1, '#preview': 1, '#subscribe': 1, '#community': 1, '#works': 1, '#about': 1, '': 1 };
   var h = window.location.hash || '';
   if (!own[h]) { window.location.replace('/publications/' + h); }
 })();
@@ -60,6 +60,7 @@
     <a href="/publications/">Video Library</a>
     <a href="/music/mx005/archive/en/">Preview Archive</a>
     <a href="/album/gallery/en/">Gallery</a>
+    <a href="#community">Community</a>
   </nav>
 
   <header>
@@ -163,6 +164,12 @@
     <p class="formnote">Or write to us directly: <a href="mailto:support@daddymi777.com">support@daddymi777.com</a></p>
   </section>
 
+  <section class="band" id="community">
+    <h2>Join our community</h2>
+    <p>Daddy Mi 777 is our community home on Discord — new songs, the daily verse, prayer requests and announcements are shared there first. Come say hello in #general, follow new releases in #announcements and #music, read along in #daily-verse, and leave a prayer request in #prayer-requests.</p>
+    <p class="joinrow"><a class="joinbtn" href="https://discord.gg/eCv5UHa3J" target="_blank" rel="noopener">Join Daddy Mi 777 on Discord ↗</a></p>
+  </section>
+
   <section id="works">
     <h2>Explore our work</h2>
     <div class="cards">
@@ -201,6 +208,7 @@
     <div><a href="/order/en/">Custom songs</a></div>
     <div><a href="https://www.youtube.com/@DaddyMi777" target="_blank" rel="noopener">Daddy Mi on YouTube ↗ (requires network access outside mainland China)</a></div>
     <div><a href="https://www.youtube.com/playlist?list=PLSxnHgZ_KCSI" target="_blank" rel="noopener">Music Videos playlist ↗ (requires network access outside mainland China)</a></div>
+    <div><a href="https://discord.gg/eCv5UHa3J" target="_blank" rel="noopener">Discord community · Daddy Mi 777 ↗ (requires network access outside mainland China)</a></div>
     <div>Privacy: this site does not track your browsing; subscription emails are used only to send updates, and you may unsubscribe anytime.</div>
     <div><a href="/privacy/en/">Privacy Policy</a></div>
     <div>© 2026 米老爸 Daddy Mi</div>

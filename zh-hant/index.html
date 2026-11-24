@@ -39,7 +39,7 @@
    /publications/ with the fragment preserved. The portal's own
    section anchors (#listen, #subscribe, #works, #about) stay. */
 (function () {
-  var own = { '#listen': 1, '#preview': 1, '#subscribe': 1, '#works': 1, '#about': 1, '': 1 };
+  var own = { '#listen': 1, '#preview': 1, '#subscribe': 1, '#community': 1, '#works': 1, '#about': 1, '': 1 };
   var h = window.location.hash || '';
   if (!own[h]) { window.location.replace('/publications/' + h); }
 })();
@@ -60,6 +60,7 @@
     <a href="/publications/">影片庫</a>
     <a href="/music/mx005/archive/tc/">試聽存檔</a>
     <a href="/album/gallery/tc/">畫冊</a>
+    <a href="#community">社區</a>
   </nav>
 
   <header>
@@ -163,6 +164,12 @@
     <p class="formnote">或直接來信： <a href="mailto:support@daddymi777.com">support@daddymi777.com</a></p>
   </section>
 
+  <section class="band" id="community">
+    <h2>加入我們的社區</h2>
+    <p>Daddy Mi 777 是我們在 Discord 上的社區之家——新歌發布、每日經文、禱告請求與最新公告，都在那裡第一時間分享。歡迎到 #general 打個招呼，在 #announcements 與 #music 跟進新作，在 #daily-verse 一起讀經，在 #prayer-requests 留下你的禱告請求。</p>
+    <p class="joinrow"><a class="joinbtn" href="https://discord.gg/eCv5UHa3J" target="_blank" rel="noopener">加入 Daddy Mi 777（Discord）↗</a></p>
+  </section>
+
   <section id="works">
     <h2>探索作品</h2>
     <div class="cards">
@@ -201,6 +208,7 @@
     <div><a href="/order/tc/">訂製歌曲</a></div>
     <div><a href="https://www.youtube.com/@DaddyMi777" target="_blank" rel="noopener">米老爸 YouTube 頻道 ↗（需境外網絡）</a></div>
     <div><a href="https://www.youtube.com/playlist?list=PLSxnHgZ_KCSI" target="_blank" rel="noopener">音樂錄影帶 MV 清單 ↗（需境外網絡）</a></div>
+    <div><a href="https://discord.gg/eCv5UHa3J" target="_blank" rel="noopener">Discord 社區 · Daddy Mi 777 ↗（需境外網絡）</a></div>
     <div>隱私：本站不追蹤你的瀏覽；訂閱電郵只用於發送更新，可隨時退訂。</div>
     <div><a href="/privacy/tc/">隱私政策 · Privacy Policy</a></div>
     <div>© 2026 米老爸 Daddy Mi</div>

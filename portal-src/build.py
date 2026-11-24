@@ -73,7 +73,7 @@ TEMPLATE = """<!DOCTYPE html>
    /publications/ with the fragment preserved. The portal's own
    section anchors (#listen, #subscribe, #works, #about) stay. */
 (function () {
-  var own = { '#listen': 1, '#preview': 1, '#subscribe': 1, '#works': 1, '#about': 1, '': 1 };
+  var own = { '#listen': 1, '#preview': 1, '#subscribe': 1, '#community': 1, '#works': 1, '#about': 1, '': 1 };
   var h = window.location.hash || '';
   if (!own[h]) { window.location.replace('%%PUBS_RESCUE%%' + h); }
 })();
@@ -94,6 +94,7 @@ TEMPLATE = """<!DOCTYPE html>
     <a href="%%PUBS_LINK%%">%%NAV_VIDEOS%%</a>
     <a href="%%ARCHIVE_LINK%%">%%NAV_ARCHIVE%%</a>
     <a href="%%GALLERY_LINK%%">%%NAV_GALLERY%%</a>
+    <a href="#community">%%NAV_COMMUNITY%%</a>
   </nav>
 
   <header>
@@ -147,6 +148,12 @@ TEMPLATE = """<!DOCTYPE html>
     <p class="formnote">%%FORM_PENDING%% <a href="mailto:%%SUPPORT_EMAIL%%">%%SUPPORT_EMAIL%%</a></p>
   </section>
 
+  <section class="band" id="community">
+    <h2>%%COMMUNITY_H%%</h2>
+    <p>%%COMMUNITY_COPY%%</p>
+    <p class="joinrow"><a class="joinbtn" href="%%DISCORD_INVITE%%" target="_blank" rel="noopener">%%COMMUNITY_BUTTON%%</a></p>
+  </section>
+
   <section id="works">
     <h2>%%WORKS_H%%</h2>
     <div class="cards">
@@ -185,6 +192,7 @@ TEMPLATE = """<!DOCTYPE html>
     <div><a href="%%ORDER_LINK%%">%%ORDER_FOOTER%%</a></div>
     <div><a href="%%YT_CHANNEL%%" target="_blank" rel="noopener">%%YT_CHANNEL_LABEL%%</a></div>
     <div><a href="%%YT_MV%%" target="_blank" rel="noopener">%%YT_MV_LABEL%%</a></div>
+    <div><a href="%%DISCORD_INVITE%%" target="_blank" rel="noopener">%%COMMUNITY_FOOTER%%</a></div>
     <div>%%FOOTER_PRIVACY%%</div>
     <div><a href="%%PRIVACY_LINK%%">%%PRIVACY_LABEL%%</a></div>
     <div>© 2026 米老爸 Daddy Mi</div>
@@ -417,11 +425,15 @@ def render(code, page, site, pages):
         "FOOTER_SUPPORT": page["footer_support"],
         "FOOTER_PRIVACY": page["footer_privacy"], "PRIVACY_LABEL": page["privacy_label"],
         "PRIVACY_LINK": PRIVACY_PATH[code],
+        "DISCORD_INVITE": site["discord_invite"],
+        "COMMUNITY_H": page["community_h"], "COMMUNITY_COPY": page["community_copy"],
+        "COMMUNITY_BUTTON": page["community_button"], "COMMUNITY_FOOTER": page["community_footer"],
         "YT_CHANNEL": site["youtube_channel"],
         "YT_MV": site["youtube_mv_playlist"],
         "YT_CHANNEL_LABEL": page["yt_channel"],
         "YT_MV_LABEL": page["yt_mv"],
         "NAV_GW": page["nav_gw"], "NAV_MIXI": page["nav_mixi"], "NAV_VIDEOS": page["nav_videos"],
+        "NAV_COMMUNITY": page["nav_community"],
         "NAV_ARCHIVE": page["nav_archive"], "NAV_GALLERY": page["nav_gallery"],
         "NAV_MOTIVATIONAL": page["nav_motivational"], "NAV_LIVES": page["nav_lives"],
         "ARCHIVE_LINK": ARCHIVE_PATH[code], "GALLERY_LINK": GALLERY_PATH[code], "DM_LINK": DM_PATH[code], "LOL_LINK": LOL_PATH[code],
