@@ -2,7 +2,7 @@
 
 Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, filterable version: https://king818.github.io/daddymi-publications/
 
-**592 public videos** · 130 replaced/private versions · Come, Follow Me 2026: 243 · Daily Motivational: 9 · Daily Verse · Neville Readings: 287 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 30 · Lives of Light: 1 · Mi Xi Intro Podcast: 5 · Music Videos: 4 · Neville Inner Reading Podcast: 7
+**608 public videos** · 130 replaced/private versions · Come, Follow Me 2026: 243 · Daily Motivational: 13 · Daily Verse · Neville Readings: 299 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 30 · Lives of Light: 1 · Mi Xi Intro Podcast: 5 · Music Videos: 4 · Neville Inner Reading Podcast: 7
 
 
 ## 來跟隨我 2026 — 中文（123）
@@ -258,10 +258,13 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-10-31 | [Week 45 · Ezekiel](https://www.youtube.com/shorts/HYBj9c6Z5EU)<br><sub>2026 Week 45 | God Goes to the Exiles | Ezekiel</sub> | Short (hook) | Come, Follow Me 2026 (English) | Archived · 777370cb | Live | `HYBj9c6Z5EU` |
 | 2026-10-31 | [Week 45 · Ezekiel](https://www.youtube.com/shorts/oCqZeKxPCdE)<br><sub>2026 Week 45 | A Heart of Flesh, Not Stone | Ezekiel</sub> | Short (funnel) | Come, Follow Me 2026 (English) | Archived · f18bffbe | Live | `oCqZeKxPCdE` |
 
-## 每日經文 · Neville 解讀 — 中文（118）
+## 每日經文 · Neville 解讀 — 中文（121）
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
+| 2026-11-23 | [2026-11-23 · 羅馬書 15:4](https://youtu.be/pE8drfsfXus)<br><sub>每日經文 2026-11-23 · Neville 解讀｜羅馬書 15:4 從前所寫的聖經都是為教訓我們寫的</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · d068187a | 已發布 | `pE8drfsfXus` |
+| 2026-11-23 | [2026-11-23 · 羅馬書 15:4](https://www.youtube.com/shorts/EvZ2teYQ5gM)<br><sub>每日經文 2026-11-23｜羅馬書 15:4 從前所寫的都是為教訓我們寫的</sub> | Short (short-hook) | 每日經文 · Neville 解讀 2026（中文） | 已存档 · d068187a | 已發布 | `EvZ2teYQ5gM` |
+| 2026-11-23 | [2026-11-23 · 羅馬書 15:4](https://www.youtube.com/shorts/cdaiRie-b5I)<br><sub>每日經文 2026-11-23｜羅馬書 15:4 盼望從哪裡來？</sub> | Short (short-funnel) | 每日經文 · Neville 解讀 2026（中文） | 已存档 · d068187a | 已發布 | `cdaiRie-b5I` |
 | 2026-11-21 | [2026-11-19 · 以賽亞書 40:8](https://youtu.be/ZBaPz4t8Eac)<br><sub>每日經文 2026-11-19 · Neville 解讀｜以賽亞書 40:8 草枯花凋，祂的話永遠立定</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 8aca8b10 | 已發布 | `ZBaPz4t8Eac` |
 | 2026-11-21 | [2026-11-19 · 以賽亞書 40:8](https://www.youtube.com/shorts/tOOe9_J4tiI)<br><sub>每日經文 2026-11-19｜以賽亞書 40:8 草枯花凋，祂的話永遠立定</sub> | Short · 鉤子 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 8aca8b10 | 已發布 | `tOOe9_J4tiI` |
 | 2026-11-21 | [2026-11-19 · 以賽亞書 40:8](https://www.youtube.com/shorts/FSbJTRUJ314)<br><sub>每日經文 2026-11-19｜以賽亞書 40:8 今天你要站在哪一句祂的話上？</sub> | Short · 導入 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 8aca8b10 | 已發布 | `FSbJTRUJ314` |
@@ -381,10 +384,19 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-10-31 | [2026-10-31 · 提摩太後書 3:16-17](https://www.youtube.com/shorts/pvP-BoX9vN0)<br><sub>每日經文 2026-10-31｜提摩太後書 3:16-17｜聖經是你自己意識的自傳</sub> | Short · 鉤子 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 1f8daa60 | 已發布 | `pvP-BoX9vN0` |
 | 2026-10-31 | [2026-10-31 · 提摩太後書 3:16-17](https://www.youtube.com/shorts/zMRz5A8ZLyg)<br><sub>每日經文 2026-10-31｜提摩太後書 3:16-17｜你不是等著被組裝的人</sub> | Short · 導入 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · d7f07ddb | 已發布 | `zMRz5A8ZLyg` |
 
-## Daily Verse · Neville Readings — English (169)
+## Daily Verse · Neville Readings — English (178)
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
+| 2026-11-23 | [2026-11-23 · Romans 15:4](https://youtu.be/bARcH6TwKrY)<br><sub>Daily Verse 2026-11-23 · Romans 15:4 | Written Aforetime for Our Learning, That We Might Have Hope</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · 7008fa2e | Live | `bARcH6TwKrY` |
+| 2026-11-23 | [2026-11-23 · Romans 15:4](https://www.youtube.com/shorts/TC4d0UhqOJw)<br><sub>Daily Verse 2026-11-23 | Romans 15:4 Written Aforetime for Our Learning</sub> | Short (short-hook) | Daily Verse · Neville Readings 2026 (English) | Archived · 7008fa2e | Live | `TC4d0UhqOJw` |
+| 2026-11-23 | [2026-11-23 · Romans 15:4](https://www.youtube.com/shorts/KK7sWkpIbl0)<br><sub>Daily Verse 2026-11-23 | Romans 15:4 Where Does Hope Come From?</sub> | Short (short-funnel) | Daily Verse · Neville Readings 2026 (English) | Archived · 7008fa2e | Live | `KK7sWkpIbl0` |
+| 2026-11-23 | [2026-11-23 · Romans 15:4](https://youtu.be/WIwImcQ2TBE)<br><sub>毎日の聖句 2026-11-23 · ネヴィル解読｜ローマ人への手紙 15:4 これまでに書かれた事がらは、すべてわたしたちの教のために書かれた</sub> | Long | 毎日の聖句 · 日本語 | Archived · 4f8e4cc1 | Live | `WIwImcQ2TBE` |
+| 2026-11-23 | [2026-11-23 · Romans 15:4](https://www.youtube.com/shorts/O-4R14zjtBw)<br><sub>毎日の聖句 2026-11-23｜ローマ人への手紙 15:4 わたしたちの教のために書かれた</sub> | Short (short-hook) | 毎日の聖句 · 日本語 | Archived · 4f8e4cc1 | Live | `O-4R14zjtBw` |
+| 2026-11-23 | [2026-11-23 · Romans 15:4](https://www.youtube.com/shorts/2qFnUQ5YQOQ)<br><sub>毎日の聖句 2026-11-23｜ローマ人への手紙 15:4 望みはどこから来るのですか</sub> | Short (short-funnel) | 毎日の聖句 · 日本語 | Archived · 4f8e4cc1 | Live | `2qFnUQ5YQOQ` |
+| 2026-11-23 | [2026-11-23 · Romans 15:4](https://youtu.be/TPt5X_JqkGs)<br><sub>매일의 말씀 2026-11-23 · 네빌 해설｜로마서 15:4 전에 기록된 바는 우리의 교훈을 위하여 기록된 것이니</sub> | Long | 매일의 말씀 · 한국어 | Archived · 73910708 | Live | `TPt5X_JqkGs` |
+| 2026-11-23 | [2026-11-23 · Romans 15:4](https://www.youtube.com/shorts/35HkJ4vaFgM)<br><sub>매일의 말씀 2026-11-23｜로마서 15:4 우리의 교훈을 위하여 기록된 것이니</sub> | Short (short-hook) | 매일의 말씀 · 한국어 | Archived · 73910708 | Live | `35HkJ4vaFgM` |
+| 2026-11-23 | [2026-11-23 · Romans 15:4](https://www.youtube.com/shorts/qhofmxxkVbM)<br><sub>매일의 말씀 2026-11-23｜로마서 15:4 소망은 어디에서 옵니까</sub> | Short (short-funnel) | 매일의 말씀 · 한국어 | Archived · 73910708 | Live | `qhofmxxkVbM` |
 | 2026-11-21 | [2026-11-19 · Isaiah 40:8](https://youtu.be/jrxxsFb0jgU)<br><sub>Daily Verse 2026-11-19 · Isaiah 40:8 | The Word Stands Forever</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · 8bf7d19b | Live | `jrxxsFb0jgU` |
 | 2026-11-21 | [2026-11-19 · Isaiah 40:8](https://www.youtube.com/shorts/sZVEGU1Kj6E)<br><sub>Daily Verse 2026-11-19 | Isaiah 40:8 The Word Stands Forever</sub> | Short (hook) | Daily Verse · Neville Readings 2026 (English) | Archived · 8bf7d19b | Live | `sZVEGU1Kj6E` |
 | 2026-11-21 | [2026-11-19 · Isaiah 40:8](https://www.youtube.com/shorts/9rsQyZs81oY)<br><sub>Daily Verse 2026-11-19 | Isaiah 40:8 Which of His Words Will You Stand On Today?</sub> | Short (funnel) | Daily Verse · Neville Readings 2026 (English) | Archived · 8bf7d19b | Live | `9rsQyZs81oY` |
@@ -652,17 +664,21 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-11-13 | [ミーシーを知る：五つの歌、一つの声](https://youtu.be/sYU1VqoLeNA) | Long | PLXi8P8Db85T4 | Not archived yet | Live | `sYU1VqoLeNA` |
 | 2026-11-13 | [ミーシーを知る：五つの歌、一つの声](https://youtu.be/kbMqv2f3VCQ) | Long | PLXi8P8Db85T4 | Not archived yet | Live | `kbMqv2f3VCQ` |
 
-## Daily Motivational — 中文（2）
+## Daily Motivational — 中文（3）
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
+| 2026-11-24 | [已在心中的力量 | 腓立比書 4:13 — Daily Motivational](https://www.youtube.com/shorts/JKm4i0UWFo0) | Short | Daily Motivational | 已存档 · 255c51d8 | 已發布 | `JKm4i0UWFo0` |
 | 2026-11-23 | [剛強壯膽，不獨行 | 約書亞記 1:9 — Daily Motivational](https://www.youtube.com/shorts/lFlSyFtXkns) | Short | Daily Motivational | 待存档 | 已發布 | `lFlSyFtXkns` |
 | 2026-11-20 | [從心展翅上騰 | 以賽亞書 40:31 — Daily Motivational](https://www.youtube.com/shorts/lxrp3fP48jY) | Short | Daily Motivational | 已存档 · a9f7d912 | 已發布 | `lxrp3fP48jY` |
 
-## Daily Motivational — English (7)
+## Daily Motivational — English (10)
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
+| 2026-11-24 | [Strength Already Within | Philippians 4:13 — Daily Motivational](https://www.youtube.com/shorts/NCNmBEPJM28) | Short | Daily Motivational | Archived · 255c51d8 | Live | `NCNmBEPJM28` |
+| 2026-11-24 | [すでに内にある力 | ピリピ人への手紙 4:13 — Daily Motivational](https://www.youtube.com/shorts/NVPJViVb8XU) | Short | Daily Motivational | Archived · 255c51d8 | Live | `NVPJViVb8XU` |
+| 2026-11-24 | [이미 내 안에 있는 힘 | 빌립보서 4:13 — Daily Motivational](https://www.youtube.com/shorts/Iestc_ak6eU) | Short | Daily Motivational | Archived · 255c51d8 | Live | `Iestc_ak6eU` |
 | 2026-11-23 | [Be Strong and Courageous, You Are Not Alone | Joshua 1:9 — Daily Motivational](https://www.youtube.com/shorts/fI7-6jTnmfg) | Short | Daily Motivational | Not archived yet | Live | `fI7-6jTnmfg` |
 | 2026-11-23 | [強く雄々しく、ひとりではない | ヨシュア記 1:9 — Daily Motivational](https://www.youtube.com/shorts/2udXK8MP09Y) | Short | Daily Motivational | Not archived yet | Live | `2udXK8MP09Y` |
 | 2026-11-23 | [강하고 담대하라, 혼자가 아니다 | 여호수아 1:9 — Daily Motivational](https://www.youtube.com/shorts/b9_W3D74Nc8) | Short | Daily Motivational | Not archived yet | Live | `b9_W3D74Nc8` |

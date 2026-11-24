@@ -6121,6 +6121,54 @@ publications:
   playlist: Daily Motivational
   status: Live
 - platform: YouTube
+  series: Daily Motivational
+  topic: Philippians 4:13 — Strength Already Within
+  language: en
+  type: Short
+  title: Strength Already Within | Philippians 4:13 — Daily Motivational
+  published: '2026-11-24'
+  url: https://www.youtube.com/shorts/NCNmBEPJM28
+  native_id: NCNmBEPJM28
+  playlist: Daily Motivational
+  archive_note: 255c51d8-5e53-4213-8dbb-6c91cc4dde29
+  status: Live
+- platform: YouTube
+  series: Daily Motivational
+  topic: Philippians 4:13 — Strength Already Within
+  language: zh
+  type: Short
+  title: 已在心中的力量 | 腓立比書 4:13 — Daily Motivational
+  published: '2026-11-24'
+  url: https://www.youtube.com/shorts/JKm4i0UWFo0
+  native_id: JKm4i0UWFo0
+  playlist: Daily Motivational
+  archive_note: 255c51d8-5e53-4213-8dbb-6c91cc4dde29
+  status: Live
+- platform: YouTube
+  series: Daily Motivational
+  topic: Philippians 4:13 — Strength Already Within
+  language: ja
+  type: Short
+  title: すでに内にある力 | ピリピ人への手紙 4:13 — Daily Motivational
+  published: '2026-11-24'
+  url: https://www.youtube.com/shorts/NVPJViVb8XU
+  native_id: NVPJViVb8XU
+  playlist: Daily Motivational
+  archive_note: 255c51d8-5e53-4213-8dbb-6c91cc4dde29
+  status: Live
+- platform: YouTube
+  series: Daily Motivational
+  topic: Philippians 4:13 — Strength Already Within
+  language: ko
+  type: Short
+  title: 이미 내 안에 있는 힘 | 빌립보서 4:13 — Daily Motivational
+  published: '2026-11-24'
+  url: https://www.youtube.com/shorts/Iestc_ak6eU
+  native_id: Iestc_ak6eU
+  playlist: Daily Motivational
+  archive_note: 255c51d8-5e53-4213-8dbb-6c91cc4dde29
+  status: Live
+- platform: YouTube
   series: Come, Follow Me 2026
   topic: Lesson 25 — 1 Samuel 17–18; 24–26; 2 Samuel 5–7
   language: zh
