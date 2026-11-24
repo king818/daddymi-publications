@@ -5574,6 +5574,30 @@ publications:
   status: Public
 - platform: YouTube
   series: Daily Verse · Neville Readings
+  topic: Matthew 6:11
+  language: zh-Hant
+  type: Prayer
+  title: 晨禱 · 今日的糧食 | 2026年11月13日 · 馬太福音 6:11
+  published: '2026-11-24'
+  url: https://youtu.be/rc9VAtGDTeM
+  native_id: rc9VAtGDTeM
+  playlist: 晨禱 · 每日禱告
+  status: Public
+  note: Arrears backfill (recovery 2026-11-24). Produced 2026-11-17, Gemini TTS Charon/Kore verbatim gate PASS, staged since. Provenance — this VM, gemini-3.8-flash-tts + assemble_prayer.py route. QC — meanY 97.9, dark-frame share 3%; title card language verified.
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Matthew 6:11
+  language: en
+  type: Prayer
+  title: Evening Prayer · Resting in Today's Bread | November 13, 2026 · Matthew 6:11
+  published: '2026-11-24'
+  url: https://youtu.be/uPVvVCul5Wk
+  native_id: uPVvVCul5Wk
+  playlist: Evening Prayer · Daily
+  status: Public
+  note: Arrears backfill (recovery 2026-11-24). Produced 2026-11-17, Gemini TTS Charon/Kore verbatim gate PASS (0.993), staged since. Provenance — this VM, gemini-3.8-flash-tts + assemble_prayer.py route. QC — meanY 68.4, dark-frame share 28% (lamp-lit evening imagery by design; published 2026-11-19 evening-en measures 61.2/39% by the same method); title card language verified.
+- platform: YouTube
+  series: Daily Verse · Neville Readings
   topic: John 10:10
   language: zh-Hant
   type: Prayer
