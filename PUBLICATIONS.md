@@ -2,13 +2,19 @@
 
 Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, filterable version: https://king818.github.io/daddymi-publications/
 
-**580 public videos** · 130 replaced/private versions · Come, Follow Me 2026: 231 · Daily Motivational: 9 · Daily Verse · Neville Readings: 287 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 30 · Lives of Light: 1 · Mi Xi Intro Podcast: 5 · Music Videos: 4 · Neville Inner Reading Podcast: 7
+**592 public videos** · 130 replaced/private versions · Come, Follow Me 2026: 243 · Daily Motivational: 9 · Daily Verse · Neville Readings: 287 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 30 · Lives of Light: 1 · Mi Xi Intro Podcast: 5 · Music Videos: 4 · Neville Inner Reading Podcast: 7
 
 
-## 來跟隨我 2026 — 中文（117）
+## 來跟隨我 2026 — 中文（123）
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
+| 2026-11-23 | [第 32 週 · 你……是為現今的機會](https://youtu.be/V-t7HBUAJD8)<br><sub>來跟隨我 2026 第32週（8月3日–9日）｜你……是為現今的機會 · 以斯帖記</sub> | 長集 | 來跟隨我 2026（中文） | 已存档 · ad1c3f0a | 已發布 | `V-t7HBUAJD8` |
+| 2026-11-23 | [第 32 週 · 來跟隨我 第32週](https://youtu.be/izP1iy8e76I)<br><sub>焉知你得了王后的位分，不是為現今的機會嗎？｜來跟隨我 第32週</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 已存档 · ad1c3f0a | 已發布 | `izP1iy8e76I` |
+| 2026-11-23 | [第 32 週 · 來跟隨我 第32週](https://youtu.be/XgIirQlHIjI)<br><sub>找出一位你有機會祝福的人｜來跟隨我 第32週</sub> | Short · 導入 | 來跟隨我 2026（中文） | 已存档 · ad1c3f0a | 已發布 | `XgIirQlHIjI` |
+| 2026-11-23 | [第 33 週 · 我雖無指望〔我仍必信賴祂，詹姆士王欽定本〕](https://youtu.be/axa_7-IMhtc)<br><sub>來跟隨我 2026 第33週（8月10日–16日）｜我雖無指望〔我仍必信賴祂，詹姆士王欽定本〕 · 約伯記</sub> | 長集 | 來跟隨我 2026（中文） | 已存档 · 39c0ccba | 已發布 | `axa_7-IMhtc` |
+| 2026-11-23 | [第 33 週 · 我赤身出於母胎，也必赤身歸回](https://youtu.be/D8bStep1GLI)<br><sub>2026 第33週｜我赤身出於母胎，也必赤身歸回</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 已存档 · 39c0ccba | 已發布 | `D8bStep1GLI` |
+| 2026-11-23 | [第 33 週 · 他試煉我之後，我必如精金](https://youtu.be/P7QgASH0HhA)<br><sub>2026 第33週｜他試煉我之後，我必如精金</sub> | Short · 導入 | 來跟隨我 2026（中文） | 已存档 · 39c0ccba | 已發布 | `P7QgASH0HhA` |
 | 2026-11-20 | [第 30 週 · 我們的眼目單仰望你](https://youtu.be/YfZ0HwBnFbs)<br><sub>來跟隨我 2026 第30週（7月20日–26日）｜我們的眼目單仰望你 · 歷代志下 14–20；26；30</sub> | 長集 | 來跟隨我 2026（中文） | 待存档 | 已發布 | `YfZ0HwBnFbs` |
 | 2026-11-20 | [第 30 週 · 來跟隨我 第30週](https://youtu.be/im63ux_3y-8)<br><sub>我們不知道怎樣行，我們的眼目單仰望你｜來跟隨我 第30週</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 待存档 | 已發布 | `im63ux_3y-8` |
 | 2026-11-20 | [第 30 週 · 來跟隨我 第30週](https://youtu.be/e12sZDOxQKc)<br><sub>七天，把眼目轉向神｜來跟隨我 第30週</sub> | Short · 導入 | 來跟隨我 2026（中文） | 待存档 | 已發布 | `e12sZDOxQKc` |
@@ -127,10 +133,16 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-10-31 | [第 45 週 · 神到流亡之地找你｜以西結書](https://www.youtube.com/shorts/Tk8jNm_BPrc)<br><sub>2026 第45週｜神到流亡之地找你｜以西結書</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 已存档 · dbaae7fa | 已發布 | `Tk8jNm_BPrc` |
 | 2026-10-31 | [第 45 週 · 除掉石心，賜給你們肉心｜以西結書](https://www.youtube.com/shorts/Rspv2DcNX_s)<br><sub>2026 第45週｜除掉石心，賜給你們肉心｜以西結書</sub> | Short · 導入 | 來跟隨我 2026（中文） | 已存档 · f9a717b1 | 已發布 | `Rspv2DcNX_s` |
 
-## Come, Follow Me 2026 — English (114)
+## Come, Follow Me 2026 — English (120)
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
+| 2026-11-23 | [Week 32 · Esther 1–10](https://youtu.be/Z4PD2F8Db0U)<br><sub>Come, Follow Me 2026 Week 32 (August 3–9) | Thou Art Come … for Such a Time as This — Esther</sub> | Long | Come Follow Me 2026 (English) | Archived · 1df6ea0a | Live | `Z4PD2F8Db0U` |
+| 2026-11-23 | [Week 32 · Esther 1–10](https://youtu.be/QhCAf7azuQQ)<br><sub>Who Knoweth Whether Thou Art Come … for Such a Time as This? | CFM Week 32</sub> | Short (hook) | Come Follow Me 2026 (English) | Archived · 1df6ea0a | Live | `QhCAf7azuQQ` |
+| 2026-11-23 | [Week 32 · Esther 1–10](https://youtu.be/yRL4J3uh3FQ)<br><sub>One Person You Are Positioned to Bless | CFM Week 32</sub> | Short (funnel) | Come Follow Me 2026 (English) | Archived · 1df6ea0a | Live | `yRL4J3uh3FQ` |
+| 2026-11-23 | [Week 33 · Job 1–3; 12–14; 19; 21–24; 38–40; 42](https://youtu.be/0YIxB0gDYaw)<br><sub>Come, Follow Me 2026 Week 33 (August 10–16) | Yet Will I Trust in Him — Job</sub> | Long | Come Follow Me 2026 (English) | Archived · ea6f1608 | Live | `0YIxB0gDYaw` |
+| 2026-11-23 | [Week 33 · Job 1–3; 12–14; 19; 21–24; 38–40; 42](https://youtu.be/ecWNRbAaLH4)<br><sub>2026 Week 33 | I Know That My Redeemer Liveth</sub> | Short (hook) | Come Follow Me 2026 (English) | Archived · ea6f1608 | Live | `ecWNRbAaLH4` |
+| 2026-11-23 | [Week 33 · Job 1–3; 12–14; 19; 21–24; 38–40; 42](https://youtu.be/ChmXXmW--yo)<br><sub>2026 Week 33 | Trusting Without Knowing — A Seven-Day Practice</sub> | Short (funnel) | Come Follow Me 2026 (English) | Archived · ea6f1608 | Live | `ChmXXmW--yo` |
 | 2026-11-20 | [Week 24 · 1 Samuel 8–10; 13; 15–16](https://youtu.be/CaqhUwEm9FU)<br><sub>CFM 2026 Week 24 (June 8–14) | The Lord Looketh on the Heart · 1 Samuel 8–10; 13; 15–16</sub> | Long | Come, Follow Me 2026 (English) | Not archived yet | Live | `CaqhUwEm9FU` |
 | 2026-11-20 | [Week 24 · 1 Samuel 8–10; 13; 15–16](https://youtu.be/MEKY1kSLt_U)<br><sub>Man Looketh on the Outward Appearance, but the LORD Looketh on the Heart | CFM Week 24</sub> | Short (hook) | Come, Follow Me 2026 (English) | Not archived yet | Live | `MEKY1kSLt_U` |
 | 2026-11-20 | [Week 24 · 1 Samuel 8–10; 13; 15–16](https://youtu.be/rKrX3mPXw0I)<br><sub>First Examine the Heart, Then Look at Outward Achievement | CFM Week 24</sub> | Short (funnel) | Come, Follow Me 2026 (English) | Not archived yet | Live | `rKrX3mPXw0I` |
