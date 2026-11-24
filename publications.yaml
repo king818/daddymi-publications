@@ -5598,6 +5598,18 @@ publications:
   note: Arrears backfill (recovery 2026-11-24). Produced 2026-11-17, Gemini TTS Charon/Kore verbatim gate PASS (0.993), staged since. Provenance — this VM, gemini-3.8-flash-tts + assemble_prayer.py route. QC — meanY 68.4, dark-frame share 28% (lamp-lit evening imagery by design; published 2026-11-19 evening-en measures 61.2/39% by the same method); title card language verified.
 - platform: YouTube
   series: Daily Verse · Neville Readings
+  topic: Matthew 6:11
+  language: zh-Hant
+  type: Prayer
+  title: 晚禱 · 在今日的糧中安歇 | 2026年11月13日 · 馬太福音 6:11
+  published: '2026-11-24'
+  url: https://youtu.be/AlQoAXsL6bE
+  native_id: AlQoAXsL6bE
+  playlist: 晚禱 · 每日禱告
+  status: Public
+  note: Arrears backfill (recovery 2026-11-24). Text Junshi original (2026-11-13 set), TTS 2026-11-24, verbatim/F0 gate PASS (F0 95.2/173.9 Hz in band, transcript complete by inspection). Provenance — this VM, gemini-2.5-flash-preview-tts Charon/Kore + assemble_prayer.py route. QC — meanY 56.1, dark-frame share 53% (identical sampling of published evening-en sibling measures 57.1/52% — same lamp-lit evening set by design); title card Traditional Chinese verified.
+- platform: YouTube
+  series: Daily Verse · Neville Readings
   topic: John 10:10
   language: zh-Hant
   type: Prayer
