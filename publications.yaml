@@ -5634,6 +5634,18 @@ publications:
   note: Arrears backfill (recovery 2026-11-24). Text Junshi original (2026-11-13 set), TTS 2026-11-24, verbatim/F0 gate PASS (clusters 101.9/172.0 Hz in band, verbatim 0.915; opening male voice confirmed by direct first-6s F0 median 108.1 Hz). Provenance — this VM, gemini-3.8-flash-tts Charon/Kore + assemble_prayer.py route. QC — meanY 59.7, dark-frame share 50% (lamp-lit evening set, in family with published evening siblings); title card Japanese verified.
 - platform: YouTube
   series: Daily Verse · Neville Readings
+  topic: Matthew 6:11
+  language: ko
+  type: Prayer
+  title: 저녁 기도 · 오늘의 양식 안에서 잠들다 | 2026년 11월 13일 · 마태복음 6:11
+  published: '2026-11-24'
+  url: https://youtu.be/aot7OuREB24
+  native_id: aot7OuREB24
+  playlist: 저녁 기도 · 매일 기도
+  status: Public
+  note: Arrears backfill (recovery 2026-11-24). Text Junshi original (2026-11-13 set), TTS 2026-11-24, verbatim/F0 gate PASS (clusters 107.4/166.7 Hz in band, verbatim 0.979; opening male date line confirmed, first-6s F0 median 133.3 Hz). Provenance — this VM, gemini-3.8-flash-tts Charon/Kore + assemble_prayer.py route. QC — meanY 55.2, dark-frame share 54% (lamp-lit evening set, in family with published evening siblings); title card Korean verified. Drive master in Masters/Daily Prayer/2026-11-13 tree.
+- platform: YouTube
+  series: Daily Verse · Neville Readings
   topic: John 10:10
   language: zh-Hant
   type: Prayer
