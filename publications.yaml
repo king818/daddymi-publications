@@ -9533,6 +9533,103 @@ replaced_or_private:
   toolset: L31 Shorts graph with L36 gate fixes ported (foreground darkening removed; end-card darkening removed — first build FAILED brightness, rebuilt PASS)
   qc: measured brightness mean luma 82.7, min 64.7, dark 0/14 PASS
   locations: YouTube (above); Evernote archive note 627bc609-4346-400e-8eee-baab299011dc (zip contains en-funnel.mp4); VM run folder final/shorts/en-funnel.mp4 (MD5 1b4c67b7170d4c5079931dc91f0cecb4)
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 41 — Isaiah 50–57
+  language: zh
+  type: Long
+  title: 來跟隨我 2026 第41週（10月5日–11日）｜他誠然擔當我們的憂患 · 以賽亞書
+  published: '2026-11-25'
+  url: https://youtu.be/71Y27F9t5DM
+  native_id: 71Y27F9t5DM
+  playlist: 來跟隨我 2026（中文）
+  archive_note: a4ab0c1c-208d-461b-8a75-2c0395099250
+  status: Live
+  machine: VM (upload) + M1 mini (Remotion render, BGM, mux, Shorts) + greentea8 (gates)
+  toolset: NotebookLM Audio Overview (v2 nameless sources) + frozen Gemini TTS intro/outro splice; faster-whisper-small gates; Remotion dv-remotion-template schema-1; BGM001 mix −8 dB
+  qc: gates PASS (6/6 quotations verbatim, t2s + retx-verified); master gate PASS; BGM verify 10/10 PASS (chain verify crashed on missing bgm/tmp dir — re-run manually, all windows −8.01 dB); measured brightness mean luma 117.9, min 95.4, dark 0/14 PASS
+  locations: YouTube (above); Google Drive master — 米老爸频道母带 Masters/Come Follow Me 2026/Lesson 41 — Isaiah 50–57/zh/cfm-bf41-zh-bgm.mp4 (file 1CZI03zqWF7lpuGL0uSAbO5kQtS1B7o5P, MD5 8cf343aa7998ac273c67a02daa004c27); Evernote archive note a4ab0c1c-208d-461b-8a75-2c0395099250 (Gospel notebook, zip byte-verified); VM run folder podcast-runs/2026-11-01-cfm-backfill-41-isaiah-servant
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 41 — Isaiah 50–57
+  language: zh
+  type: Short (hook)
+  title: '2026 第41週｜祂誠然擔當我們的憂患'
+  published: '2026-11-25'
+  url: https://youtu.be/XKVkhVuBadw
+  native_id: XKVkhVuBadw
+  playlist: 來跟隨我 2026（中文）
+  archive_note: a4ab0c1c-208d-461b-8a75-2c0395099250
+  status: Live
+  machine: M1 mini (Shorts build)
+  toolset: L31 Shorts graph (legacy foreground darkening eq=-0.45 — first build FAILED brightness, removed per the L42 fix (eq=0.0), rebuilt PASS)
+  qc: measured brightness mean luma 139.6, min 53.8, dark 0/14 PASS
+  locations: YouTube (above); Evernote archive note a4ab0c1c-208d-461b-8a75-2c0395099250 (zip contains zh-hook.mp4); VM run folder final/shorts/zh-hook.mp4 (MD5 1ba296251155e636f034407066ca77bc)
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 41 — Isaiah 50–57
+  language: zh
+  type: Short (funnel)
+  title: '2026 第41週｜先領受平安，再從平安裡活——七天操練'
+  published: '2026-11-25'
+  url: https://youtu.be/swnTzcahtE4
+  native_id: swnTzcahtE4
+  playlist: 來跟隨我 2026（中文）
+  archive_note: a4ab0c1c-208d-461b-8a75-2c0395099250
+  status: Live
+  machine: M1 mini (Shorts build)
+  toolset: L31 Shorts graph (legacy foreground darkening eq=-0.45 — first build FAILED brightness, removed per the L42 fix (eq=0.0), rebuilt PASS)
+  qc: measured brightness mean luma 114.4, min 53.8, dark 0/14 PASS
+  locations: YouTube (above); Evernote archive note a4ab0c1c-208d-461b-8a75-2c0395099250 (zip contains zh-funnel.mp4); VM run folder final/shorts/zh-funnel.mp4 (MD5 8ca08bf862158ca182ee86477abbeb85)
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 41 — Isaiah 50–57
+  language: en
+  type: Long
+  title: Come, Follow Me 2026 Week 41 (October 5–11) | He Hath Borne Our Griefs — Isaiah
+  published: '2026-11-25'
+  url: https://youtu.be/VYBxPgOHUw0
+  native_id: VYBxPgOHUw0
+  playlist: Come Follow Me 2026 (English)
+  archive_note: 42cdd257-d326-4e0d-b15d-4c10d1a41ee1
+  status: Live
+  machine: VM (upload) + M1 mini (Remotion render, BGM, mux, Shorts) + greentea8 (gates)
+  toolset: NotebookLM Audio Overview (v2 nameless sources) + frozen Gemini TTS intro/outro splice; faster-whisper-small gates; Remotion dv-remotion-template schema-1; BGM001 mix −8 dB
+  qc: gates PASS (6/6 quotations verbatim, retx-verified; body spoke the fixed closing twice — splice-repaired at body 1110.70 s, master carries it once; no front-block identity defect); master gate PASS; BGM verify 10/10 PASS (chain verify crashed on missing bgm/tmp dir — re-run manually, all windows −8.01 dB); measured brightness mean luma 120.6, min 96.2, dark 0/14 PASS
+  locations: YouTube (above); Google Drive master — 米老爸频道母带 Masters/Come Follow Me 2026/Lesson 41 — Isaiah 50–57/en/cfm-bf41-en-bgm.mp4 (file 1IlZmN6ikKDIeL2ErS7Y4mYDz2HR1YvIZ, MD5 079a91e9743cd09a8c6b8361f7a2d101); Evernote archive note 42cdd257-d326-4e0d-b15d-4c10d1a41ee1 (Video Artifacts notebook, zip byte-verified); VM run folder podcast-runs/2026-11-01-cfm-backfill-41-isaiah-servant
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 41 — Isaiah 50–57
+  language: en
+  type: Short (hook)
+  title: '2026 Week 41 | He Hath Borne Our Griefs'
+  published: '2026-11-25'
+  url: https://youtu.be/KM1MQOFbG1Y
+  native_id: KM1MQOFbG1Y
+  playlist: Come Follow Me 2026 (English)
+  archive_note: 42cdd257-d326-4e0d-b15d-4c10d1a41ee1
+  status: Live
+  machine: M1 mini (Shorts build)
+  toolset: L31 Shorts graph (legacy foreground darkening eq=-0.45 — first build FAILED brightness, removed per the L42 fix (eq=0.0), rebuilt PASS)
+  qc: measured brightness mean luma 139.7, min 53.7, dark 0/14 PASS
+  locations: YouTube (above); Evernote archive note 42cdd257-d326-4e0d-b15d-4c10d1a41ee1 (zip contains en-hook.mp4); VM run folder final/shorts/en-hook.mp4 (MD5 b3096ad59c5eee1fd1fc02b409190520)
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 41 — Isaiah 50–57
+  language: en
+  type: Short (funnel)
+  title: '2026 Week 41 | Receive Peace First — A Seven-Day Practice'
+  published: '2026-11-25'
+  url: https://youtu.be/ryd99RPMI1I
+  native_id: ryd99RPMI1I
+  playlist: Come Follow Me 2026 (English)
+  archive_note: 42cdd257-d326-4e0d-b15d-4c10d1a41ee1
+  status: Live
+  machine: M1 mini (Shorts build)
+  toolset: L31 Shorts graph (legacy foreground darkening eq=-0.45 — first build FAILED brightness, removed per the L42 fix (eq=0.0), rebuilt PASS)
+  qc: measured brightness mean luma 114.9, min 53.7, dark 0/14 PASS
+  locations: YouTube (above); Evernote archive note 42cdd257-d326-4e0d-b15d-4c10d1a41ee1 (zip contains en-funnel.mp4); VM run folder final/shorts/en-funnel.mp4 (MD5 de86c7e0647a1ce4ee56ace15b097323)
+
 unverified:
 - item: CFM packs lane quota stop (2026-11-19) — 24 pieces plus 1 pinned comment resume after the quota reset
   reason: The 2026-11-19 packs lane published Lessons 23 ZH, 23 EN and 24 ZH (9 pieces) and then hit the exhausted generic quota pool (403 quotaExceeded on a captions list call during the Lesson 24 ZH finalize verify) and stopped per protocol. Not yet uploaded — Lesson 24 EN, Lesson 30 ZH, Lesson 30 EN, and the EN sets of Lessons 25–29 (8 sets, 24 pieces; all upload-packs authored and builder-verified 2026-11-19). Also pending — the pinned comment on the Lesson 24 ZH long R6UD0txPBK4, the post-reset read-back verify of the two Lesson 24 ZH Shorts, and the Evernote archive notes for Lessons 23 ZH, 23 EN and 24 ZH.
