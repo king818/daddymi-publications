@@ -7372,6 +7372,78 @@ publications:
   playlist: Come Follow Me 2026 (English)
   archive_note: f6ec4b58-2bb6-4c19-a209-c5907df8487c
   status: Live
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 34 — Psalms 1–2; 8; 19–33; 40; 46
+  language: zh
+  type: Long
+  title: 來跟隨我 2026 第34週（8月17日–23日）｜耶和華是我的牧者 · 詩篇
+  published: '2026-11-25'
+  url: https://youtu.be/AydnTNtskhg
+  native_id: AydnTNtskhg
+  playlist: 來跟隨我 2026（中文）
+  archive_note: f813997c-94e9-4869-bd9a-ccf460babc22
+  status: Live
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 34 — Psalms 1–2; 8; 19–33; 40; 46
+  language: zh
+  type: Short (hook)
+  title: '2026 第34週｜耶和華是我的牧者，我必不致缺乏'
+  published: '2026-11-25'
+  url: https://youtu.be/I04Xkb8fI68
+  native_id: I04Xkb8fI68
+  playlist: 來跟隨我 2026（中文）
+  archive_note: f813997c-94e9-4869-bd9a-ccf460babc22
+  status: Live
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 34 — Psalms 1–2; 8; 19–33; 40; 46
+  language: zh
+  type: Short (funnel)
+  title: '2026 第34週｜還沒走出幽谷，也可以有平安'
+  published: '2026-11-25'
+  url: https://youtu.be/zE58WMXneBA
+  native_id: zE58WMXneBA
+  playlist: 來跟隨我 2026（中文）
+  archive_note: f813997c-94e9-4869-bd9a-ccf460babc22
+  status: Live
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 34 — Psalms 1–2; 8; 19–33; 40; 46
+  language: en
+  type: Long
+  title: Come, Follow Me 2026 Week 34 (August 17–23) | The LORD Is My Shepherd — Psalms
+  published: '2026-11-25'
+  url: https://youtu.be/Pk4nW_IFQUw
+  native_id: Pk4nW_IFQUw
+  playlist: Come Follow Me 2026 (English)
+  archive_note: bd4908d2-2c77-4af1-8c14-2585ecbda344
+  status: Live
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 34 — Psalms 1–2; 8; 19–33; 40; 46
+  language: en
+  type: Short (hook)
+  title: '2026 Week 34 | The LORD Is My Shepherd; I Shall Not Want'
+  published: '2026-11-25'
+  url: https://youtu.be/3ORFNs7GidA
+  native_id: 3ORFNs7GidA
+  playlist: Come Follow Me 2026 (English)
+  archive_note: bd4908d2-2c77-4af1-8c14-2585ecbda344
+  status: Live
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 34 — Psalms 1–2; 8; 19–33; 40; 46
+  language: en
+  type: Short (funnel)
+  title: '2026 Week 34 | Peace Before You Leave the Valley — A Seven-Day Practice'
+  published: '2026-11-25'
+  url: https://youtu.be/KKk9gIuC2Ao
+  native_id: KKk9gIuC2Ao
+  playlist: Come Follow Me 2026 (English)
+  archive_note: bd4908d2-2c77-4af1-8c14-2585ecbda344
+  status: Live
 replaced_or_private:
 - platform: YouTube
   series: Come, Follow Me 2026
