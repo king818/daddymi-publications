@@ -9437,6 +9437,102 @@ replaced_or_private:
   playlist: 매일의 말씀 · 한국어
   archive_note: 13f17747-9235-489a-aeb3-c5c0a532b326
   status: Public
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 42 — Isaiah 58–66
+  language: zh
+  type: Long
+  title: 來跟隨我 2026 第42週（10月12日–18日）｜必有一位救贖主來到錫安 · 以賽亞書
+  published: '2026-11-25'
+  url: https://youtu.be/p8WJAjwBTTo
+  native_id: p8WJAjwBTTo
+  playlist: 來跟隨我 2026（中文）
+  archive_note: ef600796-a4f3-4d3f-aebe-a1c3285d7cd1
+  status: Live
+  machine: VM (upload) + M1 mini (Remotion render, BGM, mux, Shorts) + greentea8 (gates)
+  toolset: NotebookLM Audio Overview (v2 nameless sources) + frozen Gemini TTS intro/outro splice; faster-whisper-small gates; Remotion dv-remotion-template schema-1; BGM001 mix −8 dB
+  qc: gates G2/G3/G4 PASS (6/6 quotations, t2s + retx-verified); master gate PASS; BGM verify 10/10 PASS; measured brightness mean luma 77.8, min 46.0, dark 0/14 PASS
+  locations: YouTube (above); Google Drive master — 米老爸频道母带 Masters/Come Follow Me 2026/Lesson 42 — Isaiah 58–66/zh/cfm-bf42-zh-bgm.mp4 (file 1mzDVc9dn-gu1MvSrdlLnqzo25HLY2_xb, MD5 7f6b880c60b4854a7de57c11832fbbdc); Evernote archive note ef600796-a4f3-4d3f-aebe-a1c3285d7cd1 (Gospel notebook, zip byte-verified); VM run folder podcast-runs/2026-11-01-cfm-backfill-42-isaiah-zion
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 42 — Isaiah 58–66
+  language: zh
+  type: Short (hook)
+  title: '2026 第42週｜鬆開凶惡的繩，折斷一切的軛'
+  published: '2026-11-25'
+  url: https://youtu.be/C8ZGQD-7NM4
+  native_id: C8ZGQD-7NM4
+  playlist: 來跟隨我 2026（中文）
+  archive_note: ef600796-a4f3-4d3f-aebe-a1c3285d7cd1
+  status: Live
+  machine: M1 mini (Shorts build)
+  toolset: L31 Shorts graph with L36 gate fixes ported (foreground darkening removed; end-card darkening removed — first build FAILED brightness, rebuilt PASS)
+  qc: measured brightness mean luma 94.7, min 53.8, dark 0/14 PASS
+  locations: YouTube (above); Evernote archive note ef600796-a4f3-4d3f-aebe-a1c3285d7cd1 (zip contains zh-hook.mp4); VM run folder final/shorts/zh-hook.mp4 (MD5 1e9ade4f7174692d470bc6e9d1089228)
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 42 — Isaiah 58–66
+  language: zh
+  type: Short (funnel)
+  title: '2026 第42週｜每天鬆開一個軛——七天操練'
+  published: '2026-11-25'
+  url: https://youtu.be/Q3i5ILW11Gc
+  native_id: Q3i5ILW11Gc
+  playlist: 來跟隨我 2026（中文）
+  archive_note: ef600796-a4f3-4d3f-aebe-a1c3285d7cd1
+  status: Live
+  machine: M1 mini (Shorts build)
+  toolset: L31 Shorts graph with L36 gate fixes ported (foreground darkening removed; end-card darkening removed — first build FAILED brightness, rebuilt PASS)
+  qc: measured brightness mean luma 83.5, min 64.3, dark 0/14 PASS
+  locations: YouTube (above); Evernote archive note ef600796-a4f3-4d3f-aebe-a1c3285d7cd1 (zip contains zh-funnel.mp4); VM run folder final/shorts/zh-funnel.mp4 (MD5 ce77660e2f8d35cfb100fbdddac51600)
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 42 — Isaiah 58–66
+  language: en
+  type: Long
+  title: Come, Follow Me 2026 Week 42 (Oct 12–18) | The Redeemer Shall Come to Zion — Isaiah
+  published: '2026-11-25'
+  url: https://youtu.be/d0Zu4T3BARI
+  native_id: d0Zu4T3BARI
+  playlist: Come Follow Me 2026 (English)
+  archive_note: 627bc609-4346-400e-8eee-baab299011dc
+  status: Live
+  machine: VM (upload) + M1 mini (Remotion render, BGM, mux, Shorts) + greentea8 (gates)
+  toolset: NotebookLM Audio Overview (v2 nameless sources) + frozen Gemini TTS intro/outro splice; faster-whisper-small gates; Remotion dv-remotion-template schema-1; BGM001 mix −8 dB
+  qc: gates G2/G3/G4 PASS (6/6 quotations; Isa 60:19 + 61:1 tight-slice retx-verified; front-block identity defect splice-repaired); master gate PASS; BGM verify 10/10 PASS; measured brightness mean luma 76.8, min 47.7, dark 0/14 PASS
+  locations: YouTube (above); Google Drive master — 米老爸频道母带 Masters/Come Follow Me 2026/Lesson 42 — Isaiah 58–66/en/cfm-bf42-en-bgm.mp4 (file 10E2MOjlu22PL0Wyy6Vyi7Va-Pg1nK-Xb, MD5 7691eb4ced969537de53b2ac899866c4); Evernote archive note 627bc609-4346-400e-8eee-baab299011dc (Video Artifacts notebook, zip byte-verified); VM run folder podcast-runs/2026-11-01-cfm-backfill-42-isaiah-zion
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 42 — Isaiah 58–66
+  language: en
+  type: Short (hook)
+  title: '2026 Week 42 | Loose the Bands, Break Every Yoke'
+  published: '2026-11-25'
+  url: https://youtu.be/ukQsZTwIGBE
+  native_id: ukQsZTwIGBE
+  playlist: Come Follow Me 2026 (English)
+  archive_note: 627bc609-4346-400e-8eee-baab299011dc
+  status: Live
+  machine: M1 mini (Shorts build)
+  toolset: L31 Shorts graph with L36 gate fixes ported (foreground darkening removed; end-card darkening removed — first build FAILED brightness, rebuilt PASS)
+  qc: measured brightness mean luma 94.7, min 58.8, dark 0/14 PASS
+  locations: YouTube (above); Evernote archive note 627bc609-4346-400e-8eee-baab299011dc (zip contains en-hook.mp4); VM run folder final/shorts/en-hook.mp4 (MD5 4a383cba1aba9125c860f314cbad2296)
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 42 — Isaiah 58–66
+  language: en
+  type: Short (funnel)
+  title: '2026 Week 42 | Lighten One Burden Each Day — A Seven-Day Practice'
+  published: '2026-11-25'
+  url: https://youtu.be/-6RvqiJBvyU
+  native_id: -6RvqiJBvyU
+  playlist: Come Follow Me 2026 (English)
+  archive_note: 627bc609-4346-400e-8eee-baab299011dc
+  status: Live
+  machine: M1 mini (Shorts build)
+  toolset: L31 Shorts graph with L36 gate fixes ported (foreground darkening removed; end-card darkening removed — first build FAILED brightness, rebuilt PASS)
+  qc: measured brightness mean luma 82.7, min 64.7, dark 0/14 PASS
+  locations: YouTube (above); Evernote archive note 627bc609-4346-400e-8eee-baab299011dc (zip contains en-funnel.mp4); VM run folder final/shorts/en-funnel.mp4 (MD5 1b4c67b7170d4c5079931dc91f0cecb4)
 unverified:
 - item: CFM packs lane quota stop (2026-11-19) — 24 pieces plus 1 pinned comment resume after the quota reset
   reason: The 2026-11-19 packs lane published Lessons 23 ZH, 23 EN and 24 ZH (9 pieces) and then hit the exhausted generic quota pool (403 quotaExceeded on a captions list call during the Lesson 24 ZH finalize verify) and stopped per protocol. Not yet uploaded — Lesson 24 EN, Lesson 30 ZH, Lesson 30 EN, and the EN sets of Lessons 25–29 (8 sets, 24 pieces; all upload-packs authored and builder-verified 2026-11-19). Also pending — the pinned comment on the Lesson 24 ZH long R6UD0txPBK4, the post-reset read-back verify of the two Lesson 24 ZH Shorts, and the Evernote archive notes for Lessons 23 ZH, 23 EN and 24 ZH.
