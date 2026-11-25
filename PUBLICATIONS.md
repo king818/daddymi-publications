@@ -2,13 +2,22 @@
 
 Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, filterable version: https://king818.github.io/daddymi-publications/
 
-**608 public videos** · 130 replaced/private versions · Come, Follow Me 2026: 243 · Daily Motivational: 13 · Daily Verse · Neville Readings: 299 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 30 · Lives of Light: 1 · Mi Xi Intro Podcast: 5 · Music Videos: 4 · Neville Inner Reading Podcast: 7
+**644 public videos** · 130 replaced/private versions · Come, Follow Me 2026: 261 · Daily Motivational: 13 · Daily Verse · Neville Readings: 317 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 30 · Lives of Light: 1 · Mi Xi Intro Podcast: 5 · Music Videos: 4 · Neville Inner Reading Podcast: 7
 
 
-## 來跟隨我 2026 — 中文（123）
+## 來跟隨我 2026 — 中文（132）
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
+| 2026-11-25 | [第 34 週 · 耶和華是我的牧者](https://youtu.be/AydnTNtskhg)<br><sub>來跟隨我 2026 第34週（8月17日–23日）｜耶和華是我的牧者 · 詩篇</sub> | 長集 | 來跟隨我 2026（中文） | 已存档 · f813997c | 已發布 | `AydnTNtskhg` |
+| 2026-11-25 | [第 34 週 · 耶和華是我的牧者，我必不致缺乏](https://youtu.be/I04Xkb8fI68)<br><sub>2026 第34週｜耶和華是我的牧者，我必不致缺乏</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 已存档 · f813997c | 已發布 | `I04Xkb8fI68` |
+| 2026-11-25 | [第 34 週 · 還沒走出幽谷，也可以有平安](https://youtu.be/zE58WMXneBA)<br><sub>2026 第34週｜還沒走出幽谷，也可以有平安</sub> | Short · 導入 | 來跟隨我 2026（中文） | 已存档 · f813997c | 已發布 | `zE58WMXneBA` |
+| 2026-11-24 | [第 35 週 · 我要述說他為我所行的事](https://youtu.be/wxoA85C06_c)<br><sub>來跟隨我 2026 第35週（8月24日–30日）｜我要述說他為我所行的事 · 詩篇</sub> | 長集 | 來跟隨我 2026（中文） | 已存档 · 020d5b50 | 已發布 | `wxoA85C06_c` |
+| 2026-11-24 | [第 35 週 · 求你為我造清潔的心](https://youtu.be/PC3oXkYvtAc)<br><sub>2026 第35週｜求你為我造清潔的心</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 已存档 · 020d5b50 | 已發布 | `PC3oXkYvtAc` |
+| 2026-11-24 | [第 35 週 · 每天述說一件神為我所行的事](https://youtu.be/VQC_18qJuCU)<br><sub>2026 第35週｜每天述說一件神為我所行的事</sub> | Short · 導入 | 來跟隨我 2026（中文） | 已存档 · 020d5b50 | 已發布 | `VQC_18qJuCU` |
+| 2026-11-24 | [第 36 週 · 凡有氣息的都要讚美耶和華](https://youtu.be/O58rAiJlTeI)<br><sub>來跟隨我 2026 第36週（8月31日–9月6日）｜凡有氣息的都要讚美耶和華 · 詩篇</sub> | 長集 | 來跟隨我 2026（中文） | 已存档 · 894c118f | 已發布 | `O58rAiJlTeI` |
+| 2026-11-24 | [第 36 週 · 凡有氣息的，都要讚美耶和華](https://youtu.be/eobf8uJqhSk)<br><sub>2026 第36週｜凡有氣息的，都要讚美耶和華</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 已存档 · 894c118f | 已發布 | `eobf8uJqhSk` |
+| 2026-11-24 | [第 36 週 · 每天一句讚美，回應祂的認識](https://youtu.be/sKX-vptO7Ac)<br><sub>2026 第36週｜每天一句讚美，回應祂的認識</sub> | Short · 導入 | 來跟隨我 2026（中文） | 已存档 · 894c118f | 已發布 | `sKX-vptO7Ac` |
 | 2026-11-23 | [第 32 週 · 你……是為現今的機會](https://youtu.be/V-t7HBUAJD8)<br><sub>來跟隨我 2026 第32週（8月3日–9日）｜你……是為現今的機會 · 以斯帖記</sub> | 長集 | 來跟隨我 2026（中文） | 已存档 · ad1c3f0a | 已發布 | `V-t7HBUAJD8` |
 | 2026-11-23 | [第 32 週 · 來跟隨我 第32週](https://youtu.be/izP1iy8e76I)<br><sub>焉知你得了王后的位分，不是為現今的機會嗎？｜來跟隨我 第32週</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 已存档 · ad1c3f0a | 已發布 | `izP1iy8e76I` |
 | 2026-11-23 | [第 32 週 · 來跟隨我 第32週](https://youtu.be/XgIirQlHIjI)<br><sub>找出一位你有機會祝福的人｜來跟隨我 第32週</sub> | Short · 導入 | 來跟隨我 2026（中文） | 已存档 · ad1c3f0a | 已發布 | `XgIirQlHIjI` |
@@ -133,10 +142,19 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-10-31 | [第 45 週 · 神到流亡之地找你｜以西結書](https://www.youtube.com/shorts/Tk8jNm_BPrc)<br><sub>2026 第45週｜神到流亡之地找你｜以西結書</sub> | Short · 鉤子 | 來跟隨我 2026（中文） | 已存档 · dbaae7fa | 已發布 | `Tk8jNm_BPrc` |
 | 2026-10-31 | [第 45 週 · 除掉石心，賜給你們肉心｜以西結書](https://www.youtube.com/shorts/Rspv2DcNX_s)<br><sub>2026 第45週｜除掉石心，賜給你們肉心｜以西結書</sub> | Short · 導入 | 來跟隨我 2026（中文） | 已存档 · f9a717b1 | 已發布 | `Rspv2DcNX_s` |
 
-## Come, Follow Me 2026 — English (120)
+## Come, Follow Me 2026 — English (129)
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
+| 2026-11-25 | [Week 34 · Psalms 1–2; 8; 19–33; 40; 46](https://youtu.be/Pk4nW_IFQUw)<br><sub>Come, Follow Me 2026 Week 34 (August 17–23) | The LORD Is My Shepherd — Psalms</sub> | Long | Come Follow Me 2026 (English) | Archived · bd4908d2 | Live | `Pk4nW_IFQUw` |
+| 2026-11-25 | [Week 34 · Psalms 1–2; 8; 19–33; 40; 46](https://youtu.be/3ORFNs7GidA)<br><sub>2026 Week 34 | The LORD Is My Shepherd; I Shall Not Want</sub> | Short (hook) | Come Follow Me 2026 (English) | Archived · bd4908d2 | Live | `3ORFNs7GidA` |
+| 2026-11-25 | [Week 34 · Psalms 1–2; 8; 19–33; 40; 46](https://youtu.be/KKk9gIuC2Ao)<br><sub>2026 Week 34 | Peace Before You Leave the Valley — A Seven-Day Practice</sub> | Short (funnel) | Come Follow Me 2026 (English) | Archived · bd4908d2 | Live | `KKk9gIuC2Ao` |
+| 2026-11-24 | [Week 35 · Psalms 49–51; 61–66; 69–72; 77–78; 85–86](https://youtu.be/SFo9JmSnoh0)<br><sub>Come, Follow Me 2026 Week 35 (August 24–30) | I Will Declare What He Hath Done for My Soul — Psalms</sub> | Long | Come Follow Me 2026 (English) | Archived · f6ec4b58 | Live | `SFo9JmSnoh0` |
+| 2026-11-24 | [Week 35 · Psalms 49–51; 61–66; 69–72; 77–78; 85–86](https://youtu.be/igb4InHYfTM)<br><sub>2026 Week 35 | Create in Me a Clean Heart, O God</sub> | Short (hook) | Come Follow Me 2026 (English) | Archived · f6ec4b58 | Live | `igb4InHYfTM` |
+| 2026-11-24 | [Week 35 · Psalms 49–51; 61–66; 69–72; 77–78; 85–86](https://youtu.be/alpipPhMod0)<br><sub>2026 Week 35 | Tell One Thing God Has Done — A Seven-Day Practice</sub> | Short (funnel) | Come Follow Me 2026 (English) | Archived · f6ec4b58 | Live | `alpipPhMod0` |
+| 2026-11-24 | [Week 36 · Psalms 102–103; 110; 116–119; 127–128; 135–139; 146–150](https://youtu.be/5W1B5_9lyGY)<br><sub>Come, Follow Me 2026 Week 36 (Aug 31–Sep 6) | Let Every Thing That Hath Breath Praise the Lord</sub> | Long | Come, Follow Me 2026 (English) | Archived · 857d049c | Live | `5W1B5_9lyGY` |
+| 2026-11-24 | [Week 36 · Psalms 102–103; 110; 116–119; 127–128; 135–139; 146–150](https://youtu.be/k6f_94U-lME)<br><sub>2026 Week 36 | Let Every Thing That Hath Breath Praise the LORD</sub> | Short (hook) | Come, Follow Me 2026 (English) | Archived · 857d049c | Live | `k6f_94U-lME` |
+| 2026-11-24 | [Week 36 · Psalms 102–103; 110; 116–119; 127–128; 135–139; 146–150](https://youtu.be/b-hDirt_DOg)<br><sub>2026 Week 36 | One Sentence of Praise a Day — A Seven-Day Practice</sub> | Short (funnel) | Come, Follow Me 2026 (English) | Archived · 857d049c | Live | `b-hDirt_DOg` |
 | 2026-11-23 | [Week 32 · Esther 1–10](https://youtu.be/Z4PD2F8Db0U)<br><sub>Come, Follow Me 2026 Week 32 (August 3–9) | Thou Art Come … for Such a Time as This — Esther</sub> | Long | Come Follow Me 2026 (English) | Archived · 1df6ea0a | Live | `Z4PD2F8Db0U` |
 | 2026-11-23 | [Week 32 · Esther 1–10](https://youtu.be/QhCAf7azuQQ)<br><sub>Who Knoweth Whether Thou Art Come … for Such a Time as This? | CFM Week 32</sub> | Short (hook) | Come Follow Me 2026 (English) | Archived · 1df6ea0a | Live | `QhCAf7azuQQ` |
 | 2026-11-23 | [Week 32 · Esther 1–10](https://youtu.be/yRL4J3uh3FQ)<br><sub>One Person You Are Positioned to Bless | CFM Week 32</sub> | Short (funnel) | Come Follow Me 2026 (English) | Archived · 1df6ea0a | Live | `yRL4J3uh3FQ` |
@@ -258,10 +276,15 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-10-31 | [Week 45 · Ezekiel](https://www.youtube.com/shorts/HYBj9c6Z5EU)<br><sub>2026 Week 45 | God Goes to the Exiles | Ezekiel</sub> | Short (hook) | Come, Follow Me 2026 (English) | Archived · 777370cb | Live | `HYBj9c6Z5EU` |
 | 2026-10-31 | [Week 45 · Ezekiel](https://www.youtube.com/shorts/oCqZeKxPCdE)<br><sub>2026 Week 45 | A Heart of Flesh, Not Stone | Ezekiel</sub> | Short (funnel) | Come, Follow Me 2026 (English) | Archived · f18bffbe | Live | `oCqZeKxPCdE` |
 
-## 每日經文 · Neville 解讀 — 中文（121）
+## 每日經文 · Neville 解讀 — 中文（126）
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
+| 2026-11-25 | [2026-11-24 · Joshua 1:8](https://youtu.be/fNXJNTglAuI)<br><sub>每日經文 2026-11-24 · Neville 解讀｜約書亞記 1:8 這律法書不可離開你的口，總要晝夜思想</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · e3ba628c | 已發布 | `fNXJNTglAuI` |
+| 2026-11-25 | [2026-11-24 · Joshua 1:8](https://www.youtube.com/shorts/-qmWgT98ozU)<br><sub>每日經文 2026-11-24｜約書亞記 1:8 這律法書不可離開你的口</sub> | Short (short-hook) | 每日經文 · Neville 解讀 2026（中文） | 已存档 · e3ba628c | 已發布 | `-qmWgT98ozU` |
+| 2026-11-25 | [2026-11-24 · Joshua 1:8](https://www.youtube.com/shorts/_je2xMLPy1w)<br><sub>每日經文 2026-11-24｜約書亞記 1:8 道路如何亨通？</sub> | Short (short-funnel) | 每日經文 · Neville 解讀 2026（中文） | 已存档 · e3ba628c | 已發布 | `_je2xMLPy1w` |
+| 2026-11-24 | [2026-11-24 · 馬太福音 6:11](https://youtu.be/rc9VAtGDTeM)<br><sub>晨禱 · 今日的糧食 | 2026年11月13日 · 馬太福音 6:11</sub> | Prayer | 晨禱 · 每日禱告 | 待存档 | 已發布 | `rc9VAtGDTeM` |
+| 2026-11-24 | [2026-11-24 · 馬太福音 6:11](https://youtu.be/AlQoAXsL6bE)<br><sub>晚禱 · 在今日的糧中安歇 | 2026年11月13日 · 馬太福音 6:11</sub> | Prayer | 晚禱 · 每日禱告 | 待存档 | 已發布 | `AlQoAXsL6bE` |
 | 2026-11-23 | [2026-11-23 · 羅馬書 15:4](https://youtu.be/pE8drfsfXus)<br><sub>每日經文 2026-11-23 · Neville 解讀｜羅馬書 15:4 從前所寫的聖經都是為教訓我們寫的</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · d068187a | 已發布 | `pE8drfsfXus` |
 | 2026-11-23 | [2026-11-23 · 羅馬書 15:4](https://www.youtube.com/shorts/EvZ2teYQ5gM)<br><sub>每日經文 2026-11-23｜羅馬書 15:4 從前所寫的都是為教訓我們寫的</sub> | Short (short-hook) | 每日經文 · Neville 解讀 2026（中文） | 已存档 · d068187a | 已發布 | `EvZ2teYQ5gM` |
 | 2026-11-23 | [2026-11-23 · 羅馬書 15:4](https://www.youtube.com/shorts/cdaiRie-b5I)<br><sub>每日經文 2026-11-23｜羅馬書 15:4 盼望從哪裡來？</sub> | Short (short-funnel) | 每日經文 · Neville 解讀 2026（中文） | 已存档 · d068187a | 已發布 | `cdaiRie-b5I` |
@@ -384,10 +407,23 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-10-31 | [2026-10-31 · 提摩太後書 3:16-17](https://www.youtube.com/shorts/pvP-BoX9vN0)<br><sub>每日經文 2026-10-31｜提摩太後書 3:16-17｜聖經是你自己意識的自傳</sub> | Short · 鉤子 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 1f8daa60 | 已發布 | `pvP-BoX9vN0` |
 | 2026-10-31 | [2026-10-31 · 提摩太後書 3:16-17](https://www.youtube.com/shorts/zMRz5A8ZLyg)<br><sub>每日經文 2026-10-31｜提摩太後書 3:16-17｜你不是等著被組裝的人</sub> | Short · 導入 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · d7f07ddb | 已發布 | `zMRz5A8ZLyg` |
 
-## Daily Verse · Neville Readings — English (178)
+## Daily Verse · Neville Readings — English (191)
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
+| 2026-11-25 | [2026-11-24 · Joshua 1:8](https://youtu.be/6APLDs-BV_o)<br><sub>Daily Verse 2026-11-24 · Joshua 1:8 | This Book of the Law Shall Not Depart Out of Thy Mouth</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · 4eef20da | Live | `6APLDs-BV_o` |
+| 2026-11-25 | [2026-11-24 · Joshua 1:8](https://www.youtube.com/shorts/IIHGV_sfJNc)<br><sub>Daily Verse 2026-11-24 | Joshua 1:8 Meditate Day and Night</sub> | Short (short-hook) | Daily Verse · Neville Readings 2026 (English) | Archived · 4eef20da | Live | `IIHGV_sfJNc` |
+| 2026-11-25 | [2026-11-24 · Joshua 1:8](https://www.youtube.com/shorts/IJD5pSZIXxI)<br><sub>Daily Verse 2026-11-24 | Joshua 1:8 How Is a Way Made Prosperous?</sub> | Short (short-funnel) | Daily Verse · Neville Readings 2026 (English) | Archived · 4eef20da | Live | `IJD5pSZIXxI` |
+| 2026-11-25 | [2026-11-24 · Joshua 1:8](https://youtu.be/FUEJJKS_8vI)<br><sub>毎日の聖句 2026-11-24 · ネヴィル解読｜ヨシュア記 1:8 この律法の書をあなたの口から離すことなく</sub> | Long | 毎日の聖句 · 日本語 | Archived · 71d901d1 | Live | `FUEJJKS_8vI` |
+| 2026-11-25 | [2026-11-24 · Joshua 1:8](https://www.youtube.com/shorts/e_SBuRRg14c)<br><sub>毎日の聖句 2026-11-24｜ヨシュア記 1:8 律法の書を口から離すことなく</sub> | Short (short-hook) | 毎日の聖句 · 日本語 | Archived · 71d901d1 | Live | `e_SBuRRg14c` |
+| 2026-11-25 | [2026-11-24 · Joshua 1:8](https://www.youtube.com/shorts/hW5um42Hj1o)<br><sub>毎日の聖句 2026-11-24｜ヨシュア記 1:8 道が栄える秘訣は何ですか</sub> | Short (short-funnel) | 毎日の聖句 · 日本語 | Archived · 71d901d1 | Live | `hW5um42Hj1o` |
+| 2026-11-25 | [2026-11-24 · Joshua 1:8](https://youtu.be/ntSObFzE60g)<br><sub>매일의 말씀 2026-11-24 · 네빌 해설｜여호수아 1:8 이 율법책을 네 입에서 떠나지 말게 하며</sub> | Long | 매일의 말씀 · 한국어 | Archived · e155352b | Live | `ntSObFzE60g` |
+| 2026-11-25 | [2026-11-24 · Joshua 1:8](https://www.youtube.com/shorts/EL1-OhENiBI)<br><sub>매일의 말씀 2026-11-24｜여호수아 1:8 이 율법책을 네 입에서 떠나지 말게 하며</sub> | Short (short-hook) | 매일의 말씀 · 한국어 | Archived · e155352b | Live | `EL1-OhENiBI` |
+| 2026-11-25 | [2026-11-24 · Joshua 1:8](https://www.youtube.com/shorts/cr4BuWt9EjQ)<br><sub>매일의 말씀 2026-11-24｜여호수아 1:8 형통의 비결은 무엇입니까</sub> | Short (short-funnel) | 매일의 말씀 · 한국어 | Archived · e155352b | Live | `cr4BuWt9EjQ` |
+| 2026-11-24 | [2026-11-24 · Matthew 6:11](https://youtu.be/uPVvVCul5Wk)<br><sub>Evening Prayer · Resting in Today's Bread | November 13, 2026 · Matthew 6:11</sub> | Prayer | Evening Prayer · Daily | Not archived yet | Live | `uPVvVCul5Wk` |
+| 2026-11-24 | [2026-11-24 · Matthew 6:11](https://youtu.be/w1ARLbFiwus)<br><sub>朝の祈り · 今日のパンを受ける | 2026年11月13日 · マタイによる福音書 6:11</sub> | Prayer | 朝の祈り · 毎日の祈り | Not archived yet | Live | `w1ARLbFiwus` |
+| 2026-11-24 | [2026-11-24 · Matthew 6:11](https://youtu.be/QE5yyo3tqxo)<br><sub>夜の祈り · 今日のパンに感謝して眠る | 2026年11月13日 · マタイによる福音書 6:11</sub> | Prayer | 夕の祈り · 毎日の祈り | Not archived yet | Live | `QE5yyo3tqxo` |
+| 2026-11-24 | [2026-11-24 · Matthew 6:11](https://youtu.be/aot7OuREB24)<br><sub>저녁 기도 · 오늘의 양식 안에서 잠들다 | 2026년 11월 13일 · 마태복음 6:11</sub> | Prayer | 저녁 기도 · 매일 기도 | Not archived yet | Live | `aot7OuREB24` |
 | 2026-11-23 | [2026-11-23 · Romans 15:4](https://youtu.be/bARcH6TwKrY)<br><sub>Daily Verse 2026-11-23 · Romans 15:4 | Written Aforetime for Our Learning, That We Might Have Hope</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · 7008fa2e | Live | `bARcH6TwKrY` |
 | 2026-11-23 | [2026-11-23 · Romans 15:4](https://www.youtube.com/shorts/TC4d0UhqOJw)<br><sub>Daily Verse 2026-11-23 | Romans 15:4 Written Aforetime for Our Learning</sub> | Short (short-hook) | Daily Verse · Neville Readings 2026 (English) | Archived · 7008fa2e | Live | `TC4d0UhqOJw` |
 | 2026-11-23 | [2026-11-23 · Romans 15:4](https://www.youtube.com/shorts/KK7sWkpIbl0)<br><sub>Daily Verse 2026-11-23 | Romans 15:4 Where Does Hope Come From?</sub> | Short (short-funnel) | Daily Verse · Neville Readings 2026 (English) | Archived · 7008fa2e | Live | `KK7sWkpIbl0` |

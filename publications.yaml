@@ -7540,6 +7540,150 @@ publications:
   toolset: L31–L35 Shorts graph with gate fixes (foreground darkening removed; end-card darkening removed)
   qc: measured brightness mean luma 84.4, min 48.1, dark 0/14 PASS
   locations: YouTube (above); Evernote archive note 857d049c-2cdd-42a3-b742-6a50fb1d0f6d (zip contains en-funnel.mp4); VM run folder final/shorts/en-funnel.mp4 (MD5 7fed4ff823df2ac9533c71d65a2c7691)
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Joshua 1:8
+  language: zh
+  type: Long
+  title: 每日經文 2026-11-24 · Neville 解讀｜約書亞記 1:8 這律法書不可離開你的口，總要晝夜思想
+  published: '2026-11-25'
+  url: https://youtu.be/fNXJNTglAuI
+  native_id: fNXJNTglAuI
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: e3ba628c-6c6a-4091-90f6-ac80a8dedceb
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Joshua 1:8
+  language: zh
+  type: Short (short-hook)
+  title: '每日經文 2026-11-24｜約書亞記 1:8 這律法書不可離開你的口 #Shorts'
+  published: '2026-11-25'
+  url: https://www.youtube.com/shorts/-qmWgT98ozU
+  native_id: -qmWgT98ozU
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: e3ba628c-6c6a-4091-90f6-ac80a8dedceb
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Joshua 1:8
+  language: zh
+  type: Short (short-funnel)
+  title: '每日經文 2026-11-24｜約書亞記 1:8 道路如何亨通？ #Shorts'
+  published: '2026-11-25'
+  url: https://www.youtube.com/shorts/_je2xMLPy1w
+  native_id: _je2xMLPy1w
+  playlist: 每日經文 · Neville 解讀 2026（中文）
+  archive_note: e3ba628c-6c6a-4091-90f6-ac80a8dedceb
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Joshua 1:8
+  language: en
+  type: Long
+  title: Daily Verse 2026-11-24 · Joshua 1:8 | This Book of the Law Shall Not Depart Out of Thy Mouth
+  published: '2026-11-25'
+  url: https://youtu.be/6APLDs-BV_o
+  native_id: 6APLDs-BV_o
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: 4eef20da-20a9-454c-bc6b-2a25608bec43
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Joshua 1:8
+  language: en
+  type: Short (short-hook)
+  title: 'Daily Verse 2026-11-24 | Joshua 1:8 Meditate Day and Night #Shorts'
+  published: '2026-11-25'
+  url: https://www.youtube.com/shorts/IIHGV_sfJNc
+  native_id: IIHGV_sfJNc
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: 4eef20da-20a9-454c-bc6b-2a25608bec43
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Joshua 1:8
+  language: en
+  type: Short (short-funnel)
+  title: 'Daily Verse 2026-11-24 | Joshua 1:8 How Is a Way Made Prosperous? #Shorts'
+  published: '2026-11-25'
+  url: https://www.youtube.com/shorts/IJD5pSZIXxI
+  native_id: IJD5pSZIXxI
+  playlist: Daily Verse · Neville Readings 2026 (English)
+  archive_note: 4eef20da-20a9-454c-bc6b-2a25608bec43
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Joshua 1:8
+  language: ja
+  type: Long
+  title: 毎日の聖句 2026-11-24 · ネヴィル解読｜ヨシュア記 1:8 この律法の書をあなたの口から離すことなく
+  published: '2026-11-25'
+  url: https://youtu.be/FUEJJKS_8vI
+  native_id: FUEJJKS_8vI
+  playlist: 毎日の聖句 · 日本語
+  archive_note: 71d901d1-31ae-4d9c-b54f-1ec0cd6a4826
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Joshua 1:8
+  language: ja
+  type: Short (short-hook)
+  title: '毎日の聖句 2026-11-24｜ヨシュア記 1:8 律法の書を口から離すことなく #Shorts'
+  published: '2026-11-25'
+  url: https://www.youtube.com/shorts/e_SBuRRg14c
+  native_id: e_SBuRRg14c
+  playlist: 毎日の聖句 · 日本語
+  archive_note: 71d901d1-31ae-4d9c-b54f-1ec0cd6a4826
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Joshua 1:8
+  language: ja
+  type: Short (short-funnel)
+  title: '毎日の聖句 2026-11-24｜ヨシュア記 1:8 道が栄える秘訣は何ですか #Shorts'
+  published: '2026-11-25'
+  url: https://www.youtube.com/shorts/hW5um42Hj1o
+  native_id: hW5um42Hj1o
+  playlist: 毎日の聖句 · 日本語
+  archive_note: 71d901d1-31ae-4d9c-b54f-1ec0cd6a4826
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Joshua 1:8
+  language: ko
+  type: Long
+  title: 매일의 말씀 2026-11-24 · 네빌 해설｜여호수아 1:8 이 율법책을 네 입에서 떠나지 말게 하며
+  published: '2026-11-25'
+  url: https://youtu.be/ntSObFzE60g
+  native_id: ntSObFzE60g
+  playlist: 매일의 말씀 · 한국어
+  archive_note: e155352b-faf9-4a3d-b583-17ad795837e9
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Joshua 1:8
+  language: ko
+  type: Short (short-hook)
+  title: '매일의 말씀 2026-11-24｜여호수아 1:8 이 율법책을 네 입에서 떠나지 말게 하며 #Shorts'
+  published: '2026-11-25'
+  url: https://www.youtube.com/shorts/EL1-OhENiBI
+  native_id: EL1-OhENiBI
+  playlist: 매일의 말씀 · 한국어
+  archive_note: e155352b-faf9-4a3d-b583-17ad795837e9
+  status: Public
+- platform: YouTube
+  series: Daily Verse · Neville Readings
+  topic: Joshua 1:8
+  language: ko
+  type: Short (short-funnel)
+  title: '매일의 말씀 2026-11-24｜여호수아 1:8 형통의 비결은 무엇입니까 #Shorts'
+  published: '2026-11-25'
+  url: https://www.youtube.com/shorts/cr4BuWt9EjQ
+  native_id: cr4BuWt9EjQ
+  playlist: 매일의 말씀 · 한국어
+  archive_note: e155352b-faf9-4a3d-b583-17ad795837e9
+  status: Public
 replaced_or_private:
 - platform: YouTube
   series: Come, Follow Me 2026
