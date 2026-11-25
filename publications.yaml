@@ -7300,6 +7300,78 @@ publications:
   playlist: 매일의 말씀 · 한국어
   archive_note: 73910708-f68f-4370-a24d-fb795bf6aacb
   status: Public
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 35 — Psalms 49–51; 61–66; 69–72; 77–78; 85–86
+  language: zh
+  type: Long
+  title: 來跟隨我 2026 第35週（8月24日–30日）｜我要述說他為我所行的事 · 詩篇
+  published: '2026-11-24'
+  url: https://youtu.be/wxoA85C06_c
+  native_id: wxoA85C06_c
+  playlist: 來跟隨我 2026（中文）
+  archive_note: 020d5b50-6b26-4ade-9a64-12fae4ff3700
+  status: Live
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 35 — Psalms 49–51; 61–66; 69–72; 77–78; 85–86
+  language: zh
+  type: Short (hook)
+  title: '2026 第35週｜求你為我造清潔的心'
+  published: '2026-11-24'
+  url: https://youtu.be/PC3oXkYvtAc
+  native_id: PC3oXkYvtAc
+  playlist: 來跟隨我 2026（中文）
+  archive_note: 020d5b50-6b26-4ade-9a64-12fae4ff3700
+  status: Live
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 35 — Psalms 49–51; 61–66; 69–72; 77–78; 85–86
+  language: zh
+  type: Short (funnel)
+  title: '2026 第35週｜每天述說一件神為我所行的事'
+  published: '2026-11-24'
+  url: https://youtu.be/VQC_18qJuCU
+  native_id: VQC_18qJuCU
+  playlist: 來跟隨我 2026（中文）
+  archive_note: 020d5b50-6b26-4ade-9a64-12fae4ff3700
+  status: Live
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 35 — Psalms 49–51; 61–66; 69–72; 77–78; 85–86
+  language: en
+  type: Long
+  title: Come, Follow Me 2026 Week 35 (August 24–30) | I Will Declare What He Hath Done for My Soul — Psalms
+  published: '2026-11-24'
+  url: https://youtu.be/SFo9JmSnoh0
+  native_id: SFo9JmSnoh0
+  playlist: Come Follow Me 2026 (English)
+  archive_note: f6ec4b58-2bb6-4c19-a209-c5907df8487c
+  status: Live
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 35 — Psalms 49–51; 61–66; 69–72; 77–78; 85–86
+  language: en
+  type: Short (hook)
+  title: '2026 Week 35 | Create in Me a Clean Heart, O God'
+  published: '2026-11-24'
+  url: https://youtu.be/igb4InHYfTM
+  native_id: igb4InHYfTM
+  playlist: Come Follow Me 2026 (English)
+  archive_note: f6ec4b58-2bb6-4c19-a209-c5907df8487c
+  status: Live
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 35 — Psalms 49–51; 61–66; 69–72; 77–78; 85–86
+  language: en
+  type: Short (funnel)
+  title: '2026 Week 35 | Tell One Thing God Has Done — A Seven-Day Practice'
+  published: '2026-11-24'
+  url: https://youtu.be/alpipPhMod0
+  native_id: alpipPhMod0
+  playlist: Come Follow Me 2026 (English)
+  archive_note: f6ec4b58-2bb6-4c19-a209-c5907df8487c
+  status: Live
 replaced_or_private:
 - platform: YouTube
   series: Come, Follow Me 2026
