@@ -7444,6 +7444,102 @@ publications:
   playlist: Come Follow Me 2026 (English)
   archive_note: bd4908d2-2c77-4af1-8c14-2585ecbda344
   status: Live
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 36 — Psalms 102–103; 110; 116–119; 127–128; 135–139; 146–150
+  language: zh
+  type: Long
+  title: 來跟隨我 2026 第36週（8月31日–9月6日）｜凡有氣息的都要讚美耶和華 · 詩篇
+  published: '2026-11-24'
+  url: https://youtu.be/O58rAiJlTeI
+  native_id: O58rAiJlTeI
+  playlist: 來跟隨我 2026（中文）
+  archive_note: 894c118f-8cdc-45df-99b2-676b84e1aedc
+  status: Live
+  machine: VM (mux/upload) + M1 mini (Remotion render, BGM) + greentea8 (gates)
+  toolset: NotebookLM Audio Overview (v2 nameless sources) + frozen Gemini TTS intro/outro splice; faster-whisper-small gates; Remotion dv-remotion-template schema-1; BGM001 mix −8 dB
+  qc: gates G2/G3/G4 PASS (11/11 quotations, retx-verified); BGM verify 7/7 PASS; measured brightness mean luma 78.0, min 65.3, dark 0/14 PASS; full decode exit 0
+  locations: YouTube (above); Google Drive master — 米老爸频道母带 Masters/Come Follow Me 2026/Lesson 36 — Psalms (Praise)/zh/cfm-bf36-zh-bgm.mp4 (file 1yUBbre4_iglNRDQ9jFfBZXpkwm9C7ZtV, MD5 f14d6b0e3517249ef493f489c0298caf); Evernote archive note 894c118f-8cdc-45df-99b2-676b84e1aedc (Gospel notebook, zip byte-verified); VM run folder podcast-runs/2026-11-01-cfm-backfill-36-psalms-praise
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 36 — Psalms 102–103; 110; 116–119; 127–128; 135–139; 146–150
+  language: zh
+  type: Short (hook)
+  title: '2026 第36週｜凡有氣息的，都要讚美耶和華'
+  published: '2026-11-24'
+  url: https://youtu.be/eobf8uJqhSk
+  native_id: eobf8uJqhSk
+  playlist: 來跟隨我 2026（中文）
+  archive_note: 894c118f-8cdc-45df-99b2-676b84e1aedc
+  status: Live
+  machine: VM (Shorts build)
+  toolset: L31–L35 Shorts graph with gate fixes (foreground darkening removed; end-card darkening removed)
+  qc: measured brightness mean luma 101.7, min 48.1, dark 0/14 PASS
+  locations: YouTube (above); Evernote archive note 894c118f-8cdc-45df-99b2-676b84e1aedc (zip contains zh-hook.mp4); VM run folder final/shorts/zh-hook.mp4 (MD5 c1c4b21cf7447f7c7fed82dc40c2bc2a)
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 36 — Psalms 102–103; 110; 116–119; 127–128; 135–139; 146–150
+  language: zh
+  type: Short (funnel)
+  title: '2026 第36週｜每天一句讚美，回應祂的認識'
+  published: '2026-11-24'
+  url: https://youtu.be/sKX-vptO7Ac
+  native_id: sKX-vptO7Ac
+  playlist: 來跟隨我 2026（中文）
+  archive_note: 894c118f-8cdc-45df-99b2-676b84e1aedc
+  status: Live
+  machine: VM (Shorts build)
+  toolset: L31–L35 Shorts graph with gate fixes (foreground darkening removed; end-card darkening removed)
+  qc: measured brightness mean luma 84.2, min 48.1, dark 0/14 PASS
+  locations: YouTube (above); Evernote archive note 894c118f-8cdc-45df-99b2-676b84e1aedc (zip contains zh-funnel.mp4); VM run folder final/shorts/zh-funnel.mp4 (MD5 4898299a021d4293a433c3c13d4b5194)
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 36 — Psalms 102–103; 110; 116–119; 127–128; 135–139; 146–150
+  language: en
+  type: Long
+  title: Come, Follow Me 2026 Week 36 (Aug 31–Sep 6) | Let Every Thing That Hath Breath Praise the Lord
+  published: '2026-11-24'
+  url: https://youtu.be/5W1B5_9lyGY
+  native_id: 5W1B5_9lyGY
+  playlist: Come, Follow Me 2026 (English)
+  archive_note: 857d049c-2cdd-42a3-b742-6a50fb1d0f6d
+  status: Live
+  machine: VM (mux/upload) + M1 mini (Remotion render, BGM) + greentea8 (gates)
+  toolset: NotebookLM Audio Overview (v2 nameless sources) + frozen Gemini TTS intro/outro splice; faster-whisper-small gates; Remotion dv-remotion-template schema-1; BGM001 mix −8 dB
+  qc: gates G2/G3/G4 PASS (11/11 quotations, retx-verified); BGM verify 7/7 PASS; measured brightness mean luma 78.8, min 53.6, dark 0/14 PASS; full decode exit 0
+  locations: YouTube (above); Google Drive master — 米老爸频道母带 Masters/Come Follow Me 2026/Lesson 36 — Psalms (Praise)/en/cfm-bf36-en-bgm.mp4 (file 1N1AgSLUShR5FC5fjdvUxmmjehSEcQc4r, MD5 782ad12cf4c5cf4a2a1d0ccb6890b9fc); Evernote archive note 857d049c-2cdd-42a3-b742-6a50fb1d0f6d (Video Artifacts notebook, zip byte-verified); VM run folder podcast-runs/2026-11-01-cfm-backfill-36-psalms-praise
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 36 — Psalms 102–103; 110; 116–119; 127–128; 135–139; 146–150
+  language: en
+  type: Short (hook)
+  title: '2026 Week 36 | Let Every Thing That Hath Breath Praise the LORD'
+  published: '2026-11-24'
+  url: https://youtu.be/k6f_94U-lME
+  native_id: k6f_94U-lME
+  playlist: Come, Follow Me 2026 (English)
+  archive_note: 857d049c-2cdd-42a3-b742-6a50fb1d0f6d
+  status: Live
+  machine: VM (Shorts build)
+  toolset: L31–L35 Shorts graph with gate fixes (foreground darkening removed; end-card darkening removed)
+  qc: measured brightness mean luma 101.6, min 48.1, dark 0/14 PASS
+  locations: YouTube (above); Evernote archive note 857d049c-2cdd-42a3-b742-6a50fb1d0f6d (zip contains en-hook.mp4); VM run folder final/shorts/en-hook.mp4 (MD5 3897aedcfbf420ade8c3c7630618cd4b)
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 36 — Psalms 102–103; 110; 116–119; 127–128; 135–139; 146–150
+  language: en
+  type: Short (funnel)
+  title: '2026 Week 36 | One Sentence of Praise a Day — A Seven-Day Practice'
+  published: '2026-11-24'
+  url: https://youtu.be/b-hDirt_DOg
+  native_id: b-hDirt_DOg
+  playlist: Come, Follow Me 2026 (English)
+  archive_note: 857d049c-2cdd-42a3-b742-6a50fb1d0f6d
+  status: Live
+  machine: VM (Shorts build)
+  toolset: L31–L35 Shorts graph with gate fixes (foreground darkening removed; end-card darkening removed)
+  qc: measured brightness mean luma 84.4, min 48.1, dark 0/14 PASS
+  locations: YouTube (above); Evernote archive note 857d049c-2cdd-42a3-b742-6a50fb1d0f6d (zip contains en-funnel.mp4); VM run folder final/shorts/en-funnel.mp4 (MD5 7fed4ff823df2ac9533c71d65a2c7691)
 replaced_or_private:
 - platform: YouTube
   series: Come, Follow Me 2026
