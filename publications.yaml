@@ -7541,6 +7541,102 @@ publications:
   qc: measured brightness mean luma 84.4, min 48.1, dark 0/14 PASS
   locations: YouTube (above); Evernote archive note 857d049c-2cdd-42a3-b742-6a50fb1d0f6d (zip contains en-funnel.mp4); VM run folder final/shorts/en-funnel.mp4 (MD5 7fed4ff823df2ac9533c71d65a2c7691)
 - platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 37 — Proverbs 1–4; 15–16; 22; 31; Ecclesiastes 1–3; 11–12
+  language: zh
+  type: Long
+  title: 來跟隨我 2026 第37週（9月7日–13日）｜他必指引你的路 · 箴言
+  published: '2026-11-24'
+  url: https://youtu.be/3CnjZHcIRA8
+  native_id: 3CnjZHcIRA8
+  playlist: 來跟隨我 2026（中文）
+  archive_note: e629b6a5-a53b-4755-9947-67985c895ca2
+  status: Live
+  machine: VM (upload) + M1 mini (Remotion render, BGM, mux) + greentea8 (gates)
+  toolset: NotebookLM Audio Overview (v2 nameless sources) + frozen Gemini TTS intro/outro splice; faster-whisper-small gates; Remotion dv-remotion-template schema-1; BGM001 mix −8 dB; brightness lift eq +0.03 (see qc)
+  qc: gates G2/G3/G4 PASS (6/6 quotations verbatim, structure Opening + Parts 1–8, closing exactly once, 0 host names); BGM verify PASS (all placements −8.0 dB); measured brightness mean luma 69.5, min 43.7, dark 0/14 PASS (pre-lift master measured 64.8 with one 39.0 frame in the Proverbs 31 section — FAIL — a gentle +0.03 lift was applied and the gate re-measured PASS; BUILD-QC-REPORT.md); ZH body 14:45 is 15 s under the 15-min soft floor — NotebookLM duration officially uncontrollable, recorded not regenerated
+  locations: YouTube (above); Google Drive master — 米老爸频道母带 Masters/Come Follow Me 2026/Lesson 37 — Proverbs/zh/cfm-bf37-zh-bgm.mp4 (file 1zxfQxYnQ5Gt6rW0f8EWEgyEGnJVfeY9Q, MD5 4a154f61bb55b47a26dbeff5f91d1844); Evernote archive note e629b6a5-a53b-4755-9947-67985c895ca2 (Gospel notebook, zip byte-verified); VM run folder podcast-runs/2026-11-01-cfm-backfill-37-proverbs
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 37 — Proverbs 1–4; 15–16; 22; 31; Ecclesiastes 1–3; 11–12
+  language: zh
+  type: Short (hook)
+  title: '2026 第37週｜你要專心仰賴耶和華，他必指引你的路'
+  published: '2026-11-24'
+  url: https://youtu.be/JvsrtKkfY5o
+  native_id: JvsrtKkfY5o
+  playlist: 來跟隨我 2026（中文）
+  archive_note: e629b6a5-a53b-4755-9947-67985c895ca2
+  status: Live
+  machine: M1 mini (Shorts build)
+  toolset: L31–L35 Shorts graph with gate fixes (foreground darkening removed; end-card darkening removed)
+  qc: measured brightness mean luma 66.9, min 46.1, dark 0/14 PASS
+  locations: YouTube (above); Evernote archive note e629b6a5-a53b-4755-9947-67985c895ca2 (zip contains zh-hook.mp4); VM run folder final/shorts/zh-hook.mp4 (MD5 7b641a24ed681d940439194c8799f6ce)
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 37 — Proverbs 1–4; 15–16; 22; 31; Ecclesiastes 1–3; 11–12
+  language: zh
+  type: Short (funnel)
+  title: '2026 第37週｜先信賴，再走眼前的路——七天操練'
+  published: '2026-11-24'
+  url: https://youtu.be/9tSoO2RtP84
+  native_id: 9tSoO2RtP84
+  playlist: 來跟隨我 2026（中文）
+  archive_note: e629b6a5-a53b-4755-9947-67985c895ca2
+  status: Live
+  machine: M1 mini (Shorts build)
+  toolset: L31–L35 Shorts graph with gate fixes (foreground darkening removed; end-card darkening removed)
+  qc: measured brightness mean luma 78.9, min 46.1, dark 0/14 PASS
+  locations: YouTube (above); Evernote archive note e629b6a5-a53b-4755-9947-67985c895ca2 (zip contains zh-funnel.mp4); VM run folder final/shorts/zh-funnel.mp4 (MD5 a07f9abdd19ea8b86bc1d0033299efa7)
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 37 — Proverbs 1–4; 15–16; 22; 31; Ecclesiastes 1–3; 11–12
+  language: en
+  type: Long
+  title: Come, Follow Me 2026 Week 37 (September 7–13) | He Shall Direct Thy Paths — Proverbs
+  published: '2026-11-25'
+  url: https://youtu.be/dsdB0h_dcrg
+  native_id: dsdB0h_dcrg
+  playlist: Come Follow Me 2026 (English)
+  archive_note: 96d70c14-4a8b-4469-babe-d9dbc21a01bd
+  status: Live
+  machine: VM (upload) + M1 mini (Remotion render, BGM, mux) + greentea8 (gates)
+  toolset: NotebookLM Audio Overview (v2 nameless sources) + frozen Gemini TTS intro/outro splice; faster-whisper-small gates; Remotion dv-remotion-template schema-1; BGM001 mix −8 dB
+  qc: gates G2/G3/G4 PASS after front-block splice repair (the body's 50.60–66.50 s AI-disclosure housekeeping block was excised; master transcript verified 0 names / 0 disclosure remnants in body zones; 6/6 quotations verbatim, closing exactly once); BGM verify PASS; measured brightness mean luma 66.4, min 43.9, dark 0/14 PASS
+  locations: YouTube (above); Google Drive master — 米老爸频道母带 Masters/Come Follow Me 2026/Lesson 37 — Proverbs/en/cfm-bf37-en-bgm.mp4 (file 1K1xMYmY3y2Rl5q4Vpmny3166DQ2S0vLD, MD5 625e950073d7983241e6fb39676e6ffc); Evernote archive note 96d70c14-4a8b-4469-babe-d9dbc21a01bd (Video Artifacts notebook, zip byte-verified); VM run folder podcast-runs/2026-11-01-cfm-backfill-37-proverbs
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 37 — Proverbs 1–4; 15–16; 22; 31; Ecclesiastes 1–3; 11–12
+  language: en
+  type: Short (hook)
+  title: '2026 Week 37 | Trust in the LORD — He Shall Direct Thy Paths'
+  published: '2026-11-25'
+  url: https://youtu.be/kdGTPT-wPr4
+  native_id: kdGTPT-wPr4
+  playlist: Come Follow Me 2026 (English)
+  archive_note: 96d70c14-4a8b-4469-babe-d9dbc21a01bd
+  status: Live
+  machine: M1 mini (Shorts build)
+  toolset: L31–L35 Shorts graph with gate fixes (foreground darkening removed; end-card darkening removed)
+  qc: measured brightness mean luma 65.9, min 46.0, dark 0/14 PASS
+  locations: YouTube (above); Evernote archive note 96d70c14-4a8b-4469-babe-d9dbc21a01bd (zip contains en-hook.mp4); VM run folder final/shorts/en-hook.mp4 (MD5 15d6746d952e99b4b4b9862f9bf1c7f2)
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 37 — Proverbs 1–4; 15–16; 22; 31; Ecclesiastes 1–3; 11–12
+  language: en
+  type: Short (funnel)
+  title: '2026 Week 37 | Trust First, Then Walk — A Seven-Day Practice'
+  published: '2026-11-25'
+  url: https://youtu.be/poe9ppYWoj8
+  native_id: poe9ppYWoj8
+  playlist: Come Follow Me 2026 (English)
+  archive_note: 96d70c14-4a8b-4469-babe-d9dbc21a01bd
+  status: Live
+  machine: M1 mini (Shorts build)
+  toolset: L31–L35 Shorts graph with gate fixes (foreground darkening removed; end-card darkening removed)
+  qc: measured brightness mean luma 80.5, min 46.0, dark 0/14 PASS
+  locations: YouTube (above); Evernote archive note 96d70c14-4a8b-4469-babe-d9dbc21a01bd (zip contains en-funnel.mp4); VM run folder final/shorts/en-funnel.mp4 (MD5 929d6fb58f69006df84660329849bc84)
+- platform: YouTube
   series: Daily Verse · Neville Readings
   topic: Joshua 1:8
   language: zh
