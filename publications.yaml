@@ -9775,6 +9775,102 @@ replaced_or_private:
   status: Public
 - platform: YouTube
   series: Come, Follow Me 2026
+  topic: Lesson 43 — Jeremiah 1–3; 7; 16–18; 20
+  language: zh
+  type: Long
+  title: 來跟隨我 2026 第43週（10月19日–10月25日）｜我未將你造在腹中，我已曉得你 · 耶利米書 1–3；7；16–18；20
+  published: '2026-11-26'
+  url: https://youtu.be/LCDNFjjBmcg
+  native_id: LCDNFjjBmcg
+  playlist: 來跟隨我 2026（中文）
+  archive_note: e4e2cd02-8fcb-4252-afb2-5ee1c2d43e04
+  status: Live
+  machine: VM (upload) + M1 mini (Remotion render, BGM, mux, Shorts) + greentea8 (gates)
+  toolset: NotebookLM Audio Overview (v2 nameless sources) + frozen Gemini TTS intro/outro splice; faster-whisper-small gates; Remotion dv-remotion-template schema-1; BGM001 mix −8 dB
+  qc: gates PASS both languages (EN front AI self-mention block splice-repaired; ZH fixed closing deduplicated); BGM verify PASS; measured brightness mean luma 71.9, min 44.6 PASS; full decode exit 0; AI disclosure set via API (update returned True ×6)
+  locations: YouTube (above); Google Drive master — 米老爸频道母带 Masters/Come Follow Me 2026/Lesson 43 — Jeremiah 1–3; 7; 16–18; 20/zh/cfm-bf43-zh-bgm.mp4 (file 15jI4QxiVagxiAVlZ-DEJ9aCWmN-Ol5Np, MD5 73e32a877e8b4b76d83f888110fb2097); Evernote archive note e4e2cd02-8fcb-4252-afb2-5ee1c2d43e04 (Gospel notebook, zip byte-verified); VM run folder podcast-runs/2026-11-01-cfm-backfill-43-jeremiah-call
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 43 — Jeremiah 1–3; 7; 16–18; 20
+  language: zh
+  type: Short (hook)
+  title: '2026 第43週｜離棄活水泉源，鑿破裂的池子'
+  published: '2026-11-26'
+  url: https://youtu.be/dQBlDbiKEW4
+  native_id: dQBlDbiKEW4
+  playlist: 來跟隨我 2026（中文）
+  archive_note: e4e2cd02-8fcb-4252-afb2-5ee1c2d43e04
+  status: Live
+  machine: M1 mini (Shorts build)
+  toolset: L31–L43 Shorts graph with gate fixes (foreground darkening removed; end-card darkening removed)
+  qc: measured brightness mean luma 80.2, min 40.7 PASS
+  locations: YouTube (above); Evernote archive note e4e2cd02-8fcb-4252-afb2-5ee1c2d43e04 (zip contains zh-hook.mp4); VM run folder final/shorts/zh-hook.mp4 (MD5 c9ea0894ccec0b32f4fbfa8866d064a2)
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 43 — Jeremiah 1–3; 7; 16–18; 20
+  language: zh
+  type: Short (funnel)
+  title: '2026 第43週｜每天回到活水——七天操練'
+  published: '2026-11-26'
+  url: https://youtu.be/e6gl4WpFTEg
+  native_id: e6gl4WpFTEg
+  playlist: 來跟隨我 2026（中文）
+  archive_note: e4e2cd02-8fcb-4252-afb2-5ee1c2d43e04
+  status: Live
+  machine: M1 mini (Shorts build)
+  toolset: L31–L43 Shorts graph with gate fixes (foreground darkening removed; end-card darkening removed)
+  qc: measured brightness mean luma 87.4, min 40.7 PASS
+  locations: YouTube (above); Evernote archive note e4e2cd02-8fcb-4252-afb2-5ee1c2d43e04 (zip contains zh-funnel.mp4); VM run folder final/shorts/zh-funnel.mp4 (MD5 0b6a6a6fa710ea848e6a8ab8d6d81999)
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 43 — Jeremiah 1–3; 7; 16–18; 20
+  language: en
+  type: Long
+  title: Come, Follow Me Week 43 | Before I Formed Thee in the Belly I Knew Thee — Jeremiah 1–3; 7; 16–18; 20
+  published: '2026-11-26'
+  url: https://youtu.be/z2gv7Gtm0lE
+  native_id: z2gv7Gtm0lE
+  playlist: Come Follow Me 2026 (English)
+  archive_note: 30ce5b2c-62b4-442a-b283-30fc953d6915
+  status: Live
+  machine: VM (upload) + M1 mini (Remotion render, BGM, mux, Shorts) + greentea8 (gates)
+  toolset: NotebookLM Audio Overview (v2 nameless sources) + frozen Gemini TTS intro/outro splice; faster-whisper-small gates; Remotion dv-remotion-template schema-1; BGM001 mix −8 dB
+  qc: gates PASS both languages (EN front AI self-mention block splice-repaired; ZH fixed closing deduplicated); BGM verify PASS; measured brightness mean luma 75.6, min 60.2 PASS; full decode exit 0; AI disclosure set via API (update returned True ×6)
+  locations: YouTube (above); Google Drive master — 米老爸频道母带 Masters/Come Follow Me 2026/Lesson 43 — Jeremiah 1–3; 7; 16–18; 20/en/cfm-bf43-en-bgm.mp4 (file 11lToSKQYgur5_6YAdPf0g3Y0iEqEKBFY, MD5 a9a515ba307fc95dd73afb62da4bdcd6); Evernote archive note 30ce5b2c-62b4-442a-b283-30fc953d6915 (Video Artifacts notebook, zip byte-verified); VM run folder podcast-runs/2026-11-01-cfm-backfill-43-jeremiah-call
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 43 — Jeremiah 1–3; 7; 16–18; 20
+  language: en
+  type: Short (hook)
+  title: '2026 Week 43 | Broken Cisterns That Can Hold No Water'
+  published: '2026-11-26'
+  url: https://youtu.be/IgG0DA426Is
+  native_id: IgG0DA426Is
+  playlist: Come Follow Me 2026 (English)
+  archive_note: 30ce5b2c-62b4-442a-b283-30fc953d6915
+  status: Live
+  machine: M1 mini (Shorts build)
+  toolset: L31–L43 Shorts graph with gate fixes (foreground darkening removed; end-card darkening removed)
+  qc: measured brightness mean luma 78.9, min 40.6 PASS
+  locations: YouTube (above); Evernote archive note 30ce5b2c-62b4-442a-b283-30fc953d6915 (zip contains en-hook.mp4); VM run folder final/shorts/en-hook.mp4 (MD5 287323cd478c4fe11f13c1a7aefdd481)
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 43 — Jeremiah 1–3; 7; 16–18; 20
+  language: en
+  type: Short (funnel)
+  title: '2026 Week 43 | Return to the Living Water — A Seven-Day Practice'
+  published: '2026-11-26'
+  url: https://youtu.be/vjMVGJx7VbA
+  native_id: vjMVGJx7VbA
+  playlist: Come Follow Me 2026 (English)
+  archive_note: 30ce5b2c-62b4-442a-b283-30fc953d6915
+  status: Live
+  machine: M1 mini (Shorts build)
+  toolset: L31–L43 Shorts graph with gate fixes (foreground darkening removed; end-card darkening removed)
+  qc: measured brightness mean luma 87.9, min 40.6 PASS
+  locations: YouTube (above); Evernote archive note 30ce5b2c-62b4-442a-b283-30fc953d6915 (zip contains en-funnel.mp4); VM run folder final/shorts/en-funnel.mp4 (MD5 e7048a39e18e92309afb5b6e0197cf1a)
+- platform: YouTube
+  series: Come, Follow Me 2026
   topic: Lesson 42 — Isaiah 58–66
   language: zh
   type: Long
