@@ -7876,6 +7876,102 @@ publications:
   toolset: L31–L35 Shorts graph with gate fixes (foreground darkening removed; end-card darkening removed)
   qc: measured brightness mean luma 94.4, min 79.1, dark 0/14 PASS
   locations: YouTube (above); Evernote archive note 1c2d4523-4a3e-49e9-8f88-4cf6aa243cb8 (zip contains en-funnel.mp4); VM run folder final/shorts/en-funnel.mp4 (MD5 b6898ed82474f6541adce84b5bcacf5c)
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 39 — Isaiah 13–14; 22; 24–30; 35
+  language: zh
+  type: Long
+  title: 來跟隨我 2026 第39週（9月21日–27日）｜奇妙又奇妙的事 · 以賽亞書
+  published: '2026-11-26'
+  url: https://youtu.be/sbG-t6HJwcI
+  native_id: sbG-t6HJwcI
+  playlist: 來跟隨我 2026（中文）
+  archive_note: f73dab3a-d5ec-45fd-acd3-ad90ad18e9ac
+  status: Live
+  machine: VM (upload) + M1 mini (Remotion render, BGM, mux, Shorts) + greentea8 (gates)
+  toolset: NotebookLM Audio Overview (v2 nameless sources) + frozen Gemini TTS intro/outro splice; faster-whisper-small gates; Remotion dv-remotion-template schema-1; BGM001 mix −8 dB
+  qc: gates PASS both languages (7/7 quotations verified per language, structure in order, fixed closing as actual last line, 0 host names); EN front-block AI-disclosure excised and join re-verified; BGM verify 10/10 PASS; measured brightness mean luma 68.4, min 54.6, dark 0/14 PASS; full decode exit 0; duration 12:38 (below the 15-min soft line, recorded, not regenerated)
+  locations: YouTube (above); Google Drive master — 米老爸频道母带 Masters/Come Follow Me 2026/Lesson 39 — Isaiah 13–14; 22; 24–30; 35/zh/cfm-bf39-zh-bgm.mp4 (file 1zWvoHgd0TXJjS_-UzPCLCiI1ShSp6vHm, MD5 4f39a4eb9c76c4177894f13005648288); Evernote archive note f73dab3a-d5ec-45fd-acd3-ad90ad18e9ac (Gospel notebook, zip byte-verified); VM run folder podcast-runs/2026-11-01-cfm-backfill-39-isaiah-wonder
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 39 — Isaiah 13–14; 22; 24–30; 35
+  language: zh
+  type: Short (hook)
+  title: '2026 第39週｜祂要行奇妙又奇妙的事'
+  published: '2026-11-26'
+  url: https://youtu.be/Mx0RJevjwHg
+  native_id: Mx0RJevjwHg
+  playlist: 來跟隨我 2026（中文）
+  archive_note: f73dab3a-d5ec-45fd-acd3-ad90ad18e9ac
+  status: Live
+  machine: M1 mini (Shorts build)
+  toolset: L31–L39 Shorts graph with gate fixes (foreground darkening removed; end-card darkening removed; funnel fg lift eq=brightness=0.035)
+  qc: measured brightness mean luma 83.7, min 44.5, dark 0/14 PASS
+  locations: YouTube (above); Evernote archive note f73dab3a-d5ec-45fd-acd3-ad90ad18e9ac (zip contains zh-hook.mp4); VM run folder final/shorts/zh-hook.mp4 (MD5 20902e25cd3f5b3712e2fe60266b4b41)
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 39 — Isaiah 13–14; 22; 24–30; 35
+  language: zh
+  type: Short (funnel)
+  title: '2026 第39週｜放下倚靠，單單回轉——七天操練'
+  published: '2026-11-26'
+  url: https://youtu.be/RHkusVVsMPs
+  native_id: RHkusVVsMPs
+  playlist: 來跟隨我 2026（中文）
+  archive_note: f73dab3a-d5ec-45fd-acd3-ad90ad18e9ac
+  status: Live
+  machine: M1 mini (Shorts build)
+  toolset: L31–L39 Shorts graph with gate fixes (foreground darkening removed; end-card darkening removed; funnel fg lift eq=brightness=0.035)
+  qc: measured brightness mean luma 65.5, min 44.5, dark 0/14 PASS
+  locations: YouTube (above); Evernote archive note f73dab3a-d5ec-45fd-acd3-ad90ad18e9ac (zip contains zh-funnel.mp4); VM run folder final/shorts/zh-funnel.mp4 (MD5 04065634f27aab6efc34502496c13777)
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 39 — Isaiah 13–14; 22; 24–30; 35
+  language: en
+  type: Long
+  title: Come, Follow Me 2026 Week 39 (September 21–27) | A Marvellous Work and a Wonder — Isaiah
+  published: '2026-11-26'
+  url: https://youtu.be/XMogOEGzl24
+  native_id: XMogOEGzl24
+  playlist: Come Follow Me 2026 (English)
+  archive_note: d694d763-480c-4c03-9aa8-fcc5e5166d71
+  status: Live
+  machine: VM (upload) + M1 mini (Remotion render, BGM, mux, Shorts) + greentea8 (gates)
+  toolset: NotebookLM Audio Overview (v2 nameless sources) + frozen Gemini TTS intro/outro splice; faster-whisper-small gates; Remotion dv-remotion-template schema-1; BGM001 mix −8 dB
+  qc: gates PASS both languages (7/7 quotations verified per language, structure in order, fixed closing as actual last line, 0 host names); EN front-block AI-disclosure excised and join re-verified; BGM verify 10/10 PASS; measured brightness mean luma 69.9, min 56.0, dark 0/14 PASS; full decode exit 0
+  locations: YouTube (above); Google Drive master — 米老爸频道母带 Masters/Come Follow Me 2026/Lesson 39 — Isaiah 13–14; 22; 24–30; 35/en/cfm-bf39-en-bgm.mp4 (file 1jHErg2hYoHhy2f4RFLIUKZCX6QfwaJzd, MD5 76883c75fdf5f95496903e1e404d8cdd); Evernote archive note d694d763-480c-4c03-9aa8-fcc5e5166d71 (Video Artifacts notebook, zip byte-verified); VM run folder podcast-runs/2026-11-01-cfm-backfill-39-isaiah-wonder
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 39 — Isaiah 13–14; 22; 24–30; 35
+  language: en
+  type: Short (hook)
+  title: '2026 Week 39 | A Marvellous Work and a Wonder'
+  published: '2026-11-26'
+  url: https://youtu.be/T-HcGge09Gc
+  native_id: T-HcGge09Gc
+  playlist: Come Follow Me 2026 (English)
+  archive_note: d694d763-480c-4c03-9aa8-fcc5e5166d71
+  status: Live
+  machine: M1 mini (Shorts build)
+  toolset: L31–L39 Shorts graph with gate fixes (foreground darkening removed; end-card darkening removed; funnel fg lift eq=brightness=0.035)
+  qc: measured brightness mean luma 84.2, min 44.6, dark 0/14 PASS
+  locations: YouTube (above); Evernote archive note d694d763-480c-4c03-9aa8-fcc5e5166d71 (zip contains en-hook.mp4); VM run folder final/shorts/en-hook.mp4 (MD5 db309fa61105a69a956e6e43acd9ea5e)
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 39 — Isaiah 13–14; 22; 24–30; 35
+  language: en
+  type: Short (funnel)
+  title: '2026 Week 39 | Lay Aside, Turn Back — A Seven-Day Practice'
+  published: '2026-11-26'
+  url: https://youtu.be/CE3RQoa9Gy0
+  native_id: CE3RQoa9Gy0
+  playlist: Come Follow Me 2026 (English)
+  archive_note: d694d763-480c-4c03-9aa8-fcc5e5166d71
+  status: Live
+  machine: M1 mini (Shorts build)
+  toolset: L31–L39 Shorts graph with gate fixes (foreground darkening removed; end-card darkening removed; funnel fg lift eq=brightness=0.035)
+  qc: measured brightness mean luma 66.7, min 44.6, dark 0/14 PASS
+  locations: YouTube (above); Evernote archive note d694d763-480c-4c03-9aa8-fcc5e5166d71 (zip contains en-funnel.mp4); VM run folder final/shorts/en-funnel.mp4 (MD5 6ab327f9de523b62a870be319d87529e)
 replaced_or_private:
 - platform: YouTube
   series: Come, Follow Me 2026
