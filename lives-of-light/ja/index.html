@@ -134,7 +134,7 @@
         <p class="epintro">彼はポケット空っぽでアメリカにやって来ました。しかし計画は、14歳のときにすでに形になっていたのです。ボディビル王者、ハリウッドスター、カリフォルニア州知事。このエピソードはアーノルドの過去の話だけではありません。今、あなたの心の中で形になりつつある計画の話です。</p>
         <p class="epmeta">2026年11月22日 · 約8分 · 英語音声</p>
         <p class="mvlabel">ここでそのまま再生（中国本土からは広州ミラー経由）</p>
-        <div class="videowrap"><video class="mvvideo" data-media="/lives-of-light/ep001-en.mp4" controls preload="none" playsinline poster="/lives-of-light/poster-ep001.jpg" src="https://daddymi-media.oss-cn-guangzhou.aliyuncs.com/lives-of-light/ep001-en.mp4"></video></div>
+        <div class="videowrap"><video class="mvvideo" data-media="/lives-of-light/ep001-en.mp4" controls preload="none" playsinline poster="/lives-of-light/poster-ep001.jpg" src="https://daddymi-media-1542185912.cos.ap-guangzhou.myqcloud.com/lives-of-light/ep001-en.mp4"></video></div>
         <p class="mvlabel">YouTube で見る</p>
         <div class="videowrap"><iframe src="https://www.youtube.com/embed/MX1eAcTtqXQ" title="YouTube — Arnold Schwarzenegger Arrived With Empty Pockets — and a Plan at 14 | Lives of Light Ep.1" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
       </div>
@@ -163,7 +163,7 @@
    Portability law: the media host lives in this ONE config variable --
    switching providers = sync the file tree + change CN_MEDIA_BASE. */
 (function(){
-  var CN_MEDIA_BASE = 'https://daddymi-media.oss-cn-guangzhou.aliyuncs.com';
+  var CN_MEDIA_BASE = 'https://daddymi-media-1542185912.cos.ap-guangzhou.myqcloud.com';
   document.querySelectorAll('.mvvideo').forEach(function(video){
     var path = video.getAttribute('data-media');
     if(path) video.src = CN_MEDIA_BASE + path;
