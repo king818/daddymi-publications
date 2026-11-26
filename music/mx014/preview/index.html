@@ -86,6 +86,11 @@
            color:var(--muted);font-size:14.5px;line-height:1.85}
   .fo-msg{margin-top:14px;text-align:center;color:var(--muted);font-size:14px;line-height:1.8;
           border:1px dashed var(--hairline);border-radius:10px;padding:16px 12px}
+  .lyrbox{max-height:46vh;overflow-y:auto;padding:6px 2px;scroll-behavior:smooth}
+  .lyrbox .line{cursor:pointer}
+  .lyrbox .line.past{opacity:.48}
+  .lyrbox .line.next{color:var(--ink)}
+  .lyrbox .line.on{color:var(--gold-deep);font-weight:700;background:rgba(233,212,138,.28);font-size:18px}
 </style>
 </head>
 <body>
@@ -118,26 +123,37 @@
   <h2 class="takes-h">各版试听 · Takes</h2>
   <section class="player">
     <img class="cover" src="/music/mx014/preview/poster.jpg" alt="《留在心里的平安》">
-    <audio class="fo-audio" controls preload="metadata" src="https://drive.google.com/uc?export=download&id=1EVO3JvfL-QNBx0cpbuu8ZENYuq1mjScJ" data-sources='["https://daddymi-media.oss-cn-guangzhou.aliyuncs.com/mx014/track9-take1.mp3", "https://drive.google.com/uc?export=download&amp;id=1EVO3JvfL-QNBx0cpbuu8ZENYuq1mjScJ"]'></audio>
-    <p class="fo-msg" hidden>音频暂时无法载入，请稍后再试。</p>
     <div class="meta">
       <span class="t">留在心里的平安 — 全曲试听 · Take 1</span>
       <span class="chip">4:40</span><span class="chip">普通话</span><span class="chip">Take 1</span><span class="chip">试听版</span><span class="chip">待审听</span>
     </div>
+    <audio class="fo-audio" data-take="take1" controls preload="metadata" src="https://drive.google.com/uc?export=download&id=1EVO3JvfL-QNBx0cpbuu8ZENYuq1mjScJ" data-sources='["https://daddymi-media.oss-cn-guangzhou.aliyuncs.com/mx014/track9-take1.mp3", "https://drive.google.com/uc?export=download&amp;id=1EVO3JvfL-QNBx0cpbuu8ZENYuq1mjScJ"]'></audio>
+    <p class="fo-msg" hidden>音频暂时无法载入，请稍后再试。</p>
     <p class="qc"><span class="ql">审听备注 · 制作 QC</span><br>结构完整性检查<b>未通过</b>：桥段整段缺失；其余段落顺序完整，标志句「世界可以喧嚣，我的心不必跟着流浪」三次完整出现。Take 2 正在补桥段。</p>
   </section>
 
-  <section class="player" data-take2-oss="https://daddymi-media.oss-cn-guangzhou.aliyuncs.com/mx014/track9-take2.mp3">
+  <section class="player">
     <div class="meta" style="margin-top:0">
-      <span class="t">Take 2 · 修复版</span>
+      <span class="t">留在心里的平安 — 全曲试听 · Take 2</span>
+      <span class="chip">5:20</span><span class="chip">普通话</span><span class="chip">Take 2</span><span class="chip">试听版</span><span class="chip">待审听</span>
+    </div>
+    <audio class="fo-audio" data-take="take2" controls preload="metadata" src="https://drive.google.com/uc?export=download&id=1bY_dNAmjzkZZdBezO-j_Tj-0EO2AS0AE" data-sources='["https://daddymi-media.oss-cn-guangzhou.aliyuncs.com/mx014/track9-take2.mp3", "https://drive.google.com/uc?export=download&amp;id=1bY_dNAmjzkZZdBezO-j_Tj-0EO2AS0AE"]'></audio>
+    <p class="fo-msg" hidden>音频暂时无法载入，请稍后再试。</p>
+    <p class="qc"><span class="ql">审听备注 · 制作 QC</span><br>结构完整性检查<b>未通过</b>（新缺陷）：桥段已修复（8/8 完整），但结尾被截断——最终副歌唱到第七句后中断，结尾四句与尾声整段缺失，结尾停在满音量、无退潮。Take 3 正在修复结尾。</p>
+  </section>
+
+  <section class="player" data-take3-oss="https://daddymi-media.oss-cn-guangzhou.aliyuncs.com/mx014/track9-take3.mp3">
+    <div class="meta" style="margin-top:0">
+      <span class="t">Take 3 · 修复版</span>
       <span class="chip">制作中</span>
     </div>
-    <div class="pending" style="margin-top:14px">针对 Take 1 缺失的桥段修复中，完成后在此上线试听。</div>
+    <div class="pending" style="margin-top:14px">针对 Take 2 被截断的结尾（最终副歌结尾四句与尾声）修复中，完成后在此上线试听。</div>
   </section>
 
   <section class="lyrics">
     <h2>歌词 · Lyrics</h2>
-    <p class="lyrhint">完整歌词（原文），随 Take 1 对照聆听。</p>
+    <p class="lyrhint">完整歌词（原文）。播放时歌词同步高亮，点按任意一句可跳转到该句（跟随当前播放的 Take）。</p>
+    <div class="lyrbox">
 <div class="sec">主歌二</div>
 <div class="line">又是一个，喧嚣的夜晚</div>
 <div class="line">太多声音，让心无处安放</div>
@@ -211,6 +227,7 @@
 <div class="line">我会好好珍藏</div>
 <div class="line">今夜</div>
 <div class="line">我在祢里面安详</div>
+    </div>
   </section>
 
   <nav class="back">
@@ -294,6 +311,60 @@
   }
   var list = document.querySelectorAll('audio.fo-audio');
   for (var i = 0; i < list.length; i++) wire(list[i]);
+})();
+</script>
+<script>var TAKE_CUES = {"take1": [15.94, 18.0, 21.0, 27.0, 31.02, 34.02, 46.77, 45.85, 49.86, 60.18, null, 60.82, 66.14, 71.09, 76.0, 79.0, 82.0, 84.62, 88.0, 92.0, 103.0, 107.0, 110.18, 114.18, 122.98, 129.36, 129.5, 134.34, 144.56, null, null, null, 157.76, 158.52, 164.88, null, 171.48, 174.14, 177.72, 179.38, null, null, null, null, null, null, 210.0, 212.84, 219.52, 220.84, 226.56, 229.47, 233.16, 235.47, 254.12, null, null, null, null, null, 257.76, 258.89, null, 266.95], "take2": [14.57, 20.47, 26.6, 33.9, 40.7, 47.66, 53.63, 74.48, null, 71.77, 74.82, 79.85, 89.4, 90.64, 97.74, 104.0, 111.0, 113.4, 119.06, 121.42, 122.46, 141.1, null, 148.96, 155.51, 162.96, 169.81, 175.56, 183.64, 186.08, null, null, 197.31, 205.64, 212.0, null, 225.0, 227.4, 233.95, 234.61, 240.75, 245.25, 252.64, 259.0, 268.4, 274.0, 281.0, 287.0, 290.99, 299.4, 307.0, 314.0, null, null, null, null, null, null, null, null, null, null, null, null]};</script>
+<script>
+(function(){
+  var box = document.querySelector('.lyrbox');
+  if (!box || typeof TAKE_CUES === 'undefined') return;
+  var lines = box.querySelectorAll('.line');
+  var players = Array.prototype.slice.call(document.querySelectorAll('audio.fo-audio[data-take]'));
+  if (!players.length || !lines.length) return;
+  var active = players[0];
+  var cur = -2, holdUntil = 0;
+  ['wheel', 'touchstart', 'pointerdown'].forEach(function (ev) {
+    box.addEventListener(ev, function () { holdUntil = Date.now() + 4000; }, { passive: true });
+  });
+  function cues(){ return TAKE_CUES[active.getAttribute('data-take')] || []; }
+  function idxAt(t){
+    var cs = cues(), ans = -1;
+    for (var i = 0; i < cs.length; i++){ if (cs[i] != null && cs[i] <= t) ans = i; }
+    return ans;
+  }
+  function sync(){
+    var i = idxAt(active.currentTime);
+    if (i === cur) return;
+    cur = i;
+    for (var j = 0; j < lines.length; j++) {
+      lines[j].classList.toggle('past', j < i);
+      lines[j].classList.toggle('on', j === i);
+      lines[j].classList.toggle('next', j === i + 1);
+    }
+    if (i >= 0 && lines[i] && Date.now() > holdUntil) {
+      var boxRect = box.getBoundingClientRect();
+      var lineRect = lines[i].getBoundingClientRect();
+      var target = box.scrollTop + (lineRect.top - boxRect.top) - (box.clientHeight - lineRect.height) / 2;
+      box.scrollTo({ top: Math.max(0, target), behavior: 'smooth' });
+    }
+  }
+  players.forEach(function (p) {
+    p.addEventListener('play', function () {
+      players.forEach(function (q) { if (q !== p && !q.paused) q.pause(); });
+      if (active !== p) { active = p; cur = -2; }
+      sync();
+    });
+    p.addEventListener('timeupdate', function () { if (p === active) sync(); });
+    p.addEventListener('seeked', function () { if (p === active) sync(); });
+    p.addEventListener('ended', function () { p.currentTime = 0; if (p === active) sync(); });
+  });
+  lines.forEach(function (el, n) {
+    el.addEventListener('click', function () {
+      var cs = cues();
+      if (cs[n] != null) { active.currentTime = cs[n]; if (active.paused) active.play(); }
+    });
+  });
+  (function tick() { if (active && !active.paused && !active.ended) sync(); requestAnimationFrame(tick); })();
 })();
 </script>
 </body>

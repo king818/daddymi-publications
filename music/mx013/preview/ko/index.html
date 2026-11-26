@@ -86,6 +86,11 @@
            color:var(--muted);font-size:14.5px;line-height:1.85}
   .fo-msg{margin-top:14px;text-align:center;color:var(--muted);font-size:14px;line-height:1.8;
           border:1px dashed var(--hairline);border-radius:10px;padding:16px 12px}
+  .lyrbox{max-height:46vh;overflow-y:auto;padding:6px 2px;scroll-behavior:smooth}
+  .lyrbox .line{cursor:pointer}
+  .lyrbox .line.past{opacity:.48}
+  .lyrbox .line.next{color:var(--ink)}
+  .lyrbox .line.on{color:var(--gold-deep);font-weight:700;background:rgba(233,212,138,.28);font-size:18px}
 </style>
 </head>
 <body>
@@ -118,26 +123,29 @@
   <h2 class="takes-h">버전별 듣기 · Takes</h2>
   <section class="player">
     <img class="cover" src="/music/mx013/preview/poster.jpg" alt="《未见，仍相信》">
-    <audio class="fo-audio" controls preload="metadata" src="https://drive.google.com/uc?export=download&id=1HE2C1YJhBB3_cV0nders_w0IK1S_dG30" data-sources='["https://daddymi-media.oss-cn-guangzhou.aliyuncs.com/mx013/track8-take1.mp3", "https://drive.google.com/uc?export=download&amp;id=1HE2C1YJhBB3_cV0nders_w0IK1S_dG30"]'></audio>
-    <p class="fo-msg" hidden>오디오를 불러오지 못했습니다. 잠시 후 다시 시도해 주세요.</p>
     <div class="meta">
       <span class="t">未见，仍相信 — 전곡 듣기 · Take 1</span>
       <span class="chip">4:58</span><span class="chip">중국어</span><span class="chip">Take 1</span><span class="chip">미리듣기</span><span class="chip">검토 대기</span>
     </div>
+    <audio class="fo-audio" data-take="take1" controls preload="metadata" src="https://drive.google.com/uc?export=download&id=1HE2C1YJhBB3_cV0nders_w0IK1S_dG30" data-sources='["https://daddymi-media.oss-cn-guangzhou.aliyuncs.com/mx013/track8-take1.mp3", "https://drive.google.com/uc?export=download&amp;id=1HE2C1YJhBB3_cV0nders_w0IK1S_dG30"]'></audio>
+    <p class="fo-msg" hidden>오디오를 불러오지 못했습니다. 잠시 후 다시 시도해 주세요.</p>
     <p class="qc"><span class="ql">제작 QC 메모</span><br>구조 검사 <b>미통과</b>: 2절 후반, 프리코러스 2, 두 번째 후렴의 대부분이 누락되거나 압축되었습니다. 브리지는 마지막 두 줄만 남았고 아웃트로가 불완전합니다. Take 2에서 수정 중입니다.</p>
   </section>
 
-  <section class="player" data-take2-oss="https://daddymi-media.oss-cn-guangzhou.aliyuncs.com/mx013/track8-take2.mp3">
+  <section class="player">
     <div class="meta" style="margin-top:0">
-      <span class="t">Take 2 · 수정 버전</span>
-      <span class="chip">제작 중</span>
+      <span class="t">未见，仍相信 — 전곡 듣기 · Take 2</span>
+      <span class="chip">5:19</span><span class="chip">중국어</span><span class="chip">Take 2</span><span class="chip">미리듣기</span><span class="chip">검토 대기</span>
     </div>
-    <div class="pending" style="margin-top:14px">Take 1에서 누락된 구간(2절 후반, 두 번째 후렴, 브리지)을 수정 중입니다. 완성되면 여기에 추가됩니다.</div>
+    <audio class="fo-audio" data-take="take2" controls preload="metadata" src="https://drive.google.com/uc?export=download&id=1Gg6MH8wQMz8UEXGWFTTWthUDGSKekLfz" data-sources='["https://daddymi-media.oss-cn-guangzhou.aliyuncs.com/mx013/track8-take2.mp3", "https://drive.google.com/uc?export=download&amp;id=1Gg6MH8wQMz8UEXGWFTTWthUDGSKekLfz"]'></audio>
+    <p class="fo-msg" hidden>오디오를 불러오지 못했습니다. 잠시 후 다시 시도해 주세요.</p>
+    <p class="qc"><span class="ql">제작 QC 메모</span><br>구조 검사 <b>통과</b>: 9개 구간이 순서대로 완비되었습니다. Take 1에서 누락된 2절 후반, 프리코러스 2, 두 번째 후렴이 복원되었고 브리지는 8/8 완전합니다. 마지막 후렴은 올바른 변형 가사입니다. 아웃트로 마지막 줄의 명료도는 귀로 확인할 사항입니다. 길이 5:19로 목표(약 4:10)보다 깁니다.</p>
   </section>
 
   <section class="lyrics">
     <h2>歌词 · Lyrics</h2>
-    <p class="lyrhint">가사 전문(원문)입니다. Take 1을 들으며 함께 보세요.</p>
+    <p class="lyrhint">가사 전문(원문). 재생에 맞춰 가사가 하이라이트되며, 줄을 누르면 해당 줄로 이동합니다(재생 중인 Take 기준).</p>
+    <div class="lyrbox">
 <div class="sec">2절</div>
 <div class="line">有些夜，长得望不见天明</div>
 <div class="line">有些泪，落下却无人听</div>
@@ -208,6 +216,7 @@
 <div class="line">因为祢在我心里</div>
 <div class="line">黑夜之中</div>
 <div class="line">我已看见黎明</div>
+    </div>
   </section>
 
   <nav class="back">
@@ -291,6 +300,60 @@
   }
   var list = document.querySelectorAll('audio.fo-audio');
   for (var i = 0; i < list.length; i++) wire(list[i]);
+})();
+</script>
+<script>var TAKE_CUES = {"take1": [14.99, 19.0, 26.97, 37.9, null, 49.4, 50.59, 59.99, 67.13, 70.05, 73.93, 77.24, 83.24, 89.51, 89.53, 93.51, 96.13, 102.75, 103.08, 106.4, 114.44, 121.1, 126.84, 132.78, 139.0, 146.0, 153.0, 184.43, null, 169.0, 172.56, 175.55, 181.29, 184.7, 191.56, 192.77, 195.43, null, 202.07, 205.39, 215.22, 222.27, 226.16, null, 233.0, 235.92, 241.59, 245.44, 250.7, 253.75, null, null, 261.0, 263.67, 269.0, null, 284.0, null, null, null, null], "take2": [28.5, 31.25, 38.0, 51.3, 51.25, 58.0, 64.0, 75.38, 78.0, 80.67, 84.0, 95.26, 95.0, 101.42, 102.67, 105.31, 110.7, 111.73, 115.67, 126.1, 128.6, 130.0, 140.96, 144.92, 147.0, 151.16, 154.16, 157.76, 160.0, 164.32, 167.56, 174.5, 177.4, 181.11, 184.11, 187.31, 191.11, 193.0, 198.7, 205.3, 207.67, 214.94, 218.33, 225.36, 233.04, 236.0, 239.0, 243.0, 252.66, 255.71, 259.02, 259.36, 263.0, 268.87, 269.55, 271.32, 279.0, null, 291.0, 300.5, null]};</script>
+<script>
+(function(){
+  var box = document.querySelector('.lyrbox');
+  if (!box || typeof TAKE_CUES === 'undefined') return;
+  var lines = box.querySelectorAll('.line');
+  var players = Array.prototype.slice.call(document.querySelectorAll('audio.fo-audio[data-take]'));
+  if (!players.length || !lines.length) return;
+  var active = players[0];
+  var cur = -2, holdUntil = 0;
+  ['wheel', 'touchstart', 'pointerdown'].forEach(function (ev) {
+    box.addEventListener(ev, function () { holdUntil = Date.now() + 4000; }, { passive: true });
+  });
+  function cues(){ return TAKE_CUES[active.getAttribute('data-take')] || []; }
+  function idxAt(t){
+    var cs = cues(), ans = -1;
+    for (var i = 0; i < cs.length; i++){ if (cs[i] != null && cs[i] <= t) ans = i; }
+    return ans;
+  }
+  function sync(){
+    var i = idxAt(active.currentTime);
+    if (i === cur) return;
+    cur = i;
+    for (var j = 0; j < lines.length; j++) {
+      lines[j].classList.toggle('past', j < i);
+      lines[j].classList.toggle('on', j === i);
+      lines[j].classList.toggle('next', j === i + 1);
+    }
+    if (i >= 0 && lines[i] && Date.now() > holdUntil) {
+      var boxRect = box.getBoundingClientRect();
+      var lineRect = lines[i].getBoundingClientRect();
+      var target = box.scrollTop + (lineRect.top - boxRect.top) - (box.clientHeight - lineRect.height) / 2;
+      box.scrollTo({ top: Math.max(0, target), behavior: 'smooth' });
+    }
+  }
+  players.forEach(function (p) {
+    p.addEventListener('play', function () {
+      players.forEach(function (q) { if (q !== p && !q.paused) q.pause(); });
+      if (active !== p) { active = p; cur = -2; }
+      sync();
+    });
+    p.addEventListener('timeupdate', function () { if (p === active) sync(); });
+    p.addEventListener('seeked', function () { if (p === active) sync(); });
+    p.addEventListener('ended', function () { p.currentTime = 0; if (p === active) sync(); });
+  });
+  lines.forEach(function (el, n) {
+    el.addEventListener('click', function () {
+      var cs = cues();
+      if (cs[n] != null) { active.currentTime = cs[n]; if (active.paused) active.play(); }
+    });
+  });
+  (function tick() { if (active && !active.paused && !active.ended) sync(); requestAnimationFrame(tick); })();
 })();
 </script>
 </body>

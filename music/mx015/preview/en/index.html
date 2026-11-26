@@ -86,6 +86,11 @@
            color:var(--muted);font-size:14.5px;line-height:1.85}
   .fo-msg{margin-top:14px;text-align:center;color:var(--muted);font-size:14px;line-height:1.8;
           border:1px dashed var(--hairline);border-radius:10px;padding:16px 12px}
+  .lyrbox{max-height:46vh;overflow-y:auto;padding:6px 2px;scroll-behavior:smooth}
+  .lyrbox .line{cursor:pointer}
+  .lyrbox .line.past{opacity:.48}
+  .lyrbox .line.next{color:var(--ink)}
+  .lyrbox .line.on{color:var(--gold-deep);font-weight:700;background:rgba(233,212,138,.28);font-size:18px}
 </style>
 </head>
 <body>
@@ -118,26 +123,29 @@
   <h2 class="takes-h">Takes · 各版试听</h2>
   <section class="player">
     <img class="cover" src="/music/mx015/preview/poster.jpg" alt="《心流》">
-    <audio class="fo-audio" controls preload="metadata" src="https://drive.google.com/uc?export=download&id=1LYNq0HAp_JVLpgVBqdhydo63AC9oQ2hT" data-sources='["https://daddymi-media.oss-cn-guangzhou.aliyuncs.com/mx015/track10-take1.mp3", "https://drive.google.com/uc?export=download&amp;id=1LYNq0HAp_JVLpgVBqdhydo63AC9oQ2hT"]'></audio>
-    <p class="fo-msg" hidden>The audio could not be loaded just now. Please try again later.</p>
     <div class="meta">
       <span class="t">In the Flow of Grace — Full Song · Take 1</span>
       <span class="chip">4:46</span><span class="chip">Mandarin</span><span class="chip">Take 1</span><span class="chip">Preview</span><span class="chip">Pending Review</span>
     </div>
+    <audio class="fo-audio" data-take="take1" controls preload="metadata" src="https://drive.google.com/uc?export=download&id=1LYNq0HAp_JVLpgVBqdhydo63AC9oQ2hT" data-sources='["https://daddymi-media.oss-cn-guangzhou.aliyuncs.com/mx015/track10-take1.mp3", "https://drive.google.com/uc?export=download&amp;id=1LYNq0HAp_JVLpgVBqdhydo63AC9oQ2hT"]'></audio>
+    <p class="fo-msg" hidden>The audio could not be loaded just now. Please try again later.</p>
     <p class="qc"><span class="ql">Production QC Note</span><br>Structural check <b>FAILED</b>: the Final Chorus — the song's designated strongest closing — is not clearly recognizable, and the end of the Bridge is garbled. Take 2 repair is in progress.</p>
   </section>
 
-  <section class="player" data-take2-oss="https://daddymi-media.oss-cn-guangzhou.aliyuncs.com/mx015/track10-take2.mp3">
+  <section class="player">
     <div class="meta" style="margin-top:0">
-      <span class="t">Take 2 · Repaired Version</span>
-      <span class="chip">In Production</span>
+      <span class="t">In the Flow of Grace — Full Song · Take 2</span>
+      <span class="chip">4:31</span><span class="chip">Mandarin</span><span class="chip">Take 2</span><span class="chip">Preview</span><span class="chip">Pending Review</span>
     </div>
-    <div class="pending" style="margin-top:14px">Restoring the Final Chorus missing from Take 1. It will be added here when ready.</div>
+    <audio class="fo-audio" data-take="take2" controls preload="metadata" src="https://drive.google.com/uc?export=download&id=1HKR6VgjZ9jJ4f07VAmrKXqeMl06ekRtQ" data-sources='["https://daddymi-media.oss-cn-guangzhou.aliyuncs.com/mx015/track10-take2.mp3", "https://drive.google.com/uc?export=download&amp;id=1HKR6VgjZ9jJ4f07VAmrKXqeMl06ekRtQ"]'></audio>
+    <p class="fo-msg" hidden>The audio could not be loaded just now. Please try again later.</p>
+    <p class="qc"><span class="ql">Production QC Note</span><br>Structural check <b>PASSED</b>: all ten sections present, in order. The Final Chorus is complete — the best-recovered of the three choruses — and the Bridge and Outro (5/5) are complete. The ending fade is shorter than specified (same pattern as Take 1). Duration 4:31, close to the ~4:30 target.</p>
   </section>
 
   <section class="lyrics">
     <h2>Lyrics · 歌词</h2>
-    <p class="lyrhint">Full lyrics (original Chinese), to follow along with Take 1.</p>
+    <p class="lyrhint">Full lyrics (original Chinese). Lines highlight in sync as the song plays — tap any line to jump to it (follows the take you are playing).</p>
+    <div class="lyrbox">
 <div class="sec">Intro</div>
 <div class="line">风有风的方向</div>
 <div class="line">水有水的远方</div>
@@ -212,6 +220,7 @@
 <div class="line">我的心，安息在祢身旁</div>
 <div class="line">不必追赶光</div>
 <div class="line">我已在光里</div>
+    </div>
   </section>
 
   <nav class="back">
@@ -295,6 +304,60 @@ Produced by Daddy Mi · Lyrics by Junshi · Sung by Mi Xi<br>
   }
   var list = document.querySelectorAll('audio.fo-audio');
   for (var i = 0; i < list.length; i++) wire(list[i]);
+})();
+</script>
+<script>var TAKE_CUES = {"take1": [null, 20.4, 25.39, 30.0, 33.0, 36.0, 39.0, 43.0, 46.0, 49.0, 56.28, 60.0, 64.62, 66.68, 69.4, 74.46, 77.51, 80.79, null, 89.4, 92.76, 97.42, 102.92, 115.34, 120.3, 128.34, 128.77, 133.26, 136.0, 139.0, 142.86, 146.0, 152.56, 153.26, 155.0, 160.0, 164.0, 167.23, null, 175.0, 179.0, 182.0, null, 190.0, 192.57, 198.02, 200.0, 204.0, 224.81, null, 223.12, 231.0, 234.0, 237.33, 241.5, 246.0, 250.31, 252.95, null, 264.28, 269.39, 272.25, 279.67, 282.18], "take2": [13.0, 24.42, 25.4, 35.36, 38.73, 41.73, 42.76, 48.73, 51.73, 54.73, 55.92, 59.4, 62.32, null, null, 74.4, 78.0, 80.29, 84.89, 88.78, 90.0, 93.76, 97.73, 105.75, 108.75, 111.75, null, 116.75, 121.0, 124.67, 127.29, 130.29, null, 138.0, 140.29, 150.0, 153.5, 156.5, 160.0, null, 166.2, 169.6, 172.7, 180.0, 182.57, 187.0, 193.86, 198.34, 201.34, 202.46, null, 209.04, 212.15, 215.72, 219.08, 222.36, 225.68, 230.35, 232.68, 239.15, 246.48, 252.36, 257.8, 263.44]};</script>
+<script>
+(function(){
+  var box = document.querySelector('.lyrbox');
+  if (!box || typeof TAKE_CUES === 'undefined') return;
+  var lines = box.querySelectorAll('.line');
+  var players = Array.prototype.slice.call(document.querySelectorAll('audio.fo-audio[data-take]'));
+  if (!players.length || !lines.length) return;
+  var active = players[0];
+  var cur = -2, holdUntil = 0;
+  ['wheel', 'touchstart', 'pointerdown'].forEach(function (ev) {
+    box.addEventListener(ev, function () { holdUntil = Date.now() + 4000; }, { passive: true });
+  });
+  function cues(){ return TAKE_CUES[active.getAttribute('data-take')] || []; }
+  function idxAt(t){
+    var cs = cues(), ans = -1;
+    for (var i = 0; i < cs.length; i++){ if (cs[i] != null && cs[i] <= t) ans = i; }
+    return ans;
+  }
+  function sync(){
+    var i = idxAt(active.currentTime);
+    if (i === cur) return;
+    cur = i;
+    for (var j = 0; j < lines.length; j++) {
+      lines[j].classList.toggle('past', j < i);
+      lines[j].classList.toggle('on', j === i);
+      lines[j].classList.toggle('next', j === i + 1);
+    }
+    if (i >= 0 && lines[i] && Date.now() > holdUntil) {
+      var boxRect = box.getBoundingClientRect();
+      var lineRect = lines[i].getBoundingClientRect();
+      var target = box.scrollTop + (lineRect.top - boxRect.top) - (box.clientHeight - lineRect.height) / 2;
+      box.scrollTo({ top: Math.max(0, target), behavior: 'smooth' });
+    }
+  }
+  players.forEach(function (p) {
+    p.addEventListener('play', function () {
+      players.forEach(function (q) { if (q !== p && !q.paused) q.pause(); });
+      if (active !== p) { active = p; cur = -2; }
+      sync();
+    });
+    p.addEventListener('timeupdate', function () { if (p === active) sync(); });
+    p.addEventListener('seeked', function () { if (p === active) sync(); });
+    p.addEventListener('ended', function () { p.currentTime = 0; if (p === active) sync(); });
+  });
+  lines.forEach(function (el, n) {
+    el.addEventListener('click', function () {
+      var cs = cues();
+      if (cs[n] != null) { active.currentTime = cs[n]; if (active.paused) active.play(); }
+    });
+  });
+  (function tick() { if (active && !active.paused && !active.ended) sync(); requestAnimationFrame(tick); })();
 })();
 </script>
 </body>
