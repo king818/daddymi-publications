@@ -84,6 +84,8 @@
   .qc .ql{color:var(--gold-deep);letter-spacing:.1em;font-size:12.5px}
   .pending{border:1px dashed var(--gold-soft);border-radius:10px;padding:24px 14px;text-align:center;
            color:var(--muted);font-size:14.5px;line-height:1.85}
+  .fo-msg{margin-top:14px;text-align:center;color:var(--muted);font-size:14px;line-height:1.8;
+          border:1px dashed var(--hairline);border-radius:10px;padding:16px 12px}
 </style>
 </head>
 <body>
@@ -116,7 +118,8 @@
   <h2 class="takes-h">各バージョン試聴 · Takes</h2>
   <section class="player">
     <img class="cover" src="/music/mx013/preview/poster.jpg" alt="《未见，仍相信》">
-    <audio controls preload="metadata" src="https://drive.google.com/uc?export=download&id=1HE2C1YJhBB3_cV0nders_w0IK1S_dG30"></audio>
+    <audio class="fo-audio" controls preload="metadata" src="https://drive.google.com/uc?export=download&id=1HE2C1YJhBB3_cV0nders_w0IK1S_dG30" data-sources='["https://daddymi-media.oss-cn-guangzhou.aliyuncs.com/mx013/track8-take1.mp3", "https://drive.google.com/uc?export=download&amp;id=1HE2C1YJhBB3_cV0nders_w0IK1S_dG30"]'></audio>
+    <p class="fo-msg" hidden>音声を読み込めませんでした。しばらくしてから、もう一度お試しください。</p>
     <div class="meta">
       <span class="t">未见，仍相信 — 全曲試聴 · Take 1</span>
       <span class="chip">4:58</span><span class="chip">中国語</span><span class="chip">Take 1</span><span class="chip">試聴版</span><span class="chip">レビュー待ち</span>
@@ -124,7 +127,7 @@
     <p class="qc"><span class="ql">制作QCメモ</span><br>構造チェック<b>未合格</b>：ヴァース2の後半、プリコーラス2、コーラス2の大半が欠落または圧縮されています。ブリッジは最後の2行のみ、アウトロは不完全です。Take 2で修復中です。</p>
   </section>
 
-  <section class="player">
+  <section class="player" data-take2-oss="https://daddymi-media.oss-cn-guangzhou.aliyuncs.com/mx013/track8-take2.mp3">
     <div class="meta" style="margin-top:0">
       <span class="t">Take 2 · 修復版</span>
       <span class="chip">制作中</span>
@@ -226,5 +229,69 @@
     © 2026 米老爸 Daddy Mi
   </footer>
 </div>
+<script>
+(function(){
+  var TIMEOUT = 12000, STALL_MS = 7000;
+  function wire(audio){
+    var sources = [];
+    try { sources = JSON.parse(audio.getAttribute('data-sources') || '[]'); } catch (e) {}
+    if (!sources.length) return;
+    var section = audio.closest ? (audio.closest('section') || audio.parentNode) : audio.parentNode;
+    var msg = section ? section.querySelector('.fo-msg') : null;
+    var idx = -1, gen = 0, timer = null, dead = false, ready = false;
+    function clearT(){ if (timer){ clearTimeout(timer); timer = null; } }
+    function arm(){
+      clearT();
+      var g = gen;
+      timer = setTimeout(function(){ if (g === gen) fail(); }, TIMEOUT);
+    }
+    function load(i, keepPos){
+      idx = i; gen++; ready = false;
+      var g = gen;
+      var t = keepPos ? (audio.currentTime || 0) : 0;
+      var resume = keepPos && !audio.paused && !audio.ended;
+      clearT();
+      audio.src = sources[i];
+      audio.load();
+      audio.addEventListener('loadstart', function h(){
+        audio.removeEventListener('loadstart', h);
+        if (g === gen && !ready) arm();
+      });
+      function onReady(){
+        if (g !== gen || ready) return;
+        ready = true; clearT();
+        if (keepPos && t > 0.05){ try { audio.currentTime = t; } catch (e) {} }
+        if (resume){ var p = audio.play(); if (p && p.catch) p.catch(function(){}); }
+      }
+      audio.addEventListener('loadedmetadata', function h(){
+        audio.removeEventListener('loadedmetadata', h); onReady();
+      });
+      audio.addEventListener('canplay', function h(){
+        audio.removeEventListener('canplay', h); onReady();
+      });
+    }
+    function fail(){
+      clearT();
+      if (dead) return;
+      if (idx + 1 < sources.length){ load(idx + 1, true); }
+      else { dead = true; audio.style.display = 'none'; if (msg) msg.hidden = false; }
+    }
+    audio.addEventListener('error', function(){ if (!dead) fail(); });
+    audio.addEventListener('play', function(){ if (!dead && !ready && idx >= 0) arm(); });
+    audio.addEventListener('pause', function(){ if (!ready) clearT(); });
+    audio.addEventListener('stalled', function(){
+      if (dead || !ready || idx + 1 >= sources.length) return;
+      var t0 = audio.currentTime, g = gen;
+      setTimeout(function(){
+        if (!dead && g === gen && !audio.paused && audio.readyState < 3 &&
+            Math.abs(audio.currentTime - t0) < 0.05) load(idx + 1, true);
+      }, STALL_MS);
+    });
+    load(0, false);
+  }
+  var list = document.querySelectorAll('audio.fo-audio');
+  for (var i = 0; i < list.length; i++) wire(list[i]);
+})();
+</script>
 </body>
 </html>
