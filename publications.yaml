@@ -7972,6 +7972,102 @@ publications:
   toolset: L31–L39 Shorts graph with gate fixes (foreground darkening removed; end-card darkening removed; funnel fg lift eq=brightness=0.035)
   qc: measured brightness mean luma 66.7, min 44.6, dark 0/14 PASS
   locations: YouTube (above); Evernote archive note d694d763-480c-4c03-9aa8-fcc5e5166d71 (zip contains en-funnel.mp4); VM run folder final/shorts/en-funnel.mp4 (MD5 6ab327f9de523b62a870be319d87529e)
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 40 — Isaiah 40–49
+  language: zh
+  type: Long
+  title: 來跟隨我 2026 第40週（9月28日–10月4日）｜你們要安慰……我的百姓 · 以賽亞書
+  published: '2026-11-26'
+  url: https://youtu.be/zIzVQD5APcI
+  native_id: zIzVQD5APcI
+  playlist: 來跟隨我 2026（中文）
+  archive_note: b3945d7d-945f-485a-97ce-47906a23f2dc
+  status: Live
+  machine: VM (upload) + M1 mini (Remotion render, BGM, mux, Shorts) + greentea8 (gates)
+  toolset: NotebookLM Audio Overview (v2 nameless sources) + frozen Gemini TTS intro/outro splice; faster-whisper-small gates; Remotion dv-remotion-template schema-1; BGM001 mix −8 dB
+  qc: gates PASS both languages, zero repairs (EN body clean, no AI self-mention block); BGM verify PASS; measured brightness mean luma 121.8, min 104.1, dark 0/14 PASS; full decode exit 0
+  locations: YouTube (above); Google Drive master — 米老爸频道母带 Masters/Come Follow Me 2026/Lesson 40 — Isaiah 40–49/zh/cfm-bf40-zh-bgm.mp4 (file 1LEf4ms94h1yQuQxcHrEgilQrZcB6N7Ky, MD5 1476ac31a42100940658808ee61e7274); Evernote archive note b3945d7d-945f-485a-97ce-47906a23f2dc (Gospel notebook, zip byte-verified); VM run folder podcast-runs/2026-11-01-cfm-backfill-40-isaiah-comfort
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 40 — Isaiah 40–49
+  language: zh
+  type: Short (hook)
+  title: '2026 第40週｜那等候耶和華的必重新得力'
+  published: '2026-11-26'
+  url: https://youtu.be/SffBt939XnI
+  native_id: SffBt939XnI
+  playlist: 來跟隨我 2026（中文）
+  archive_note: b3945d7d-945f-485a-97ce-47906a23f2dc
+  status: Live
+  machine: M1 mini (Shorts build)
+  toolset: L31–L40 Shorts graph with gate fixes (foreground darkening removed; end-card gentle lift)
+  qc: measured brightness mean luma 129.9, min 54.9, dark 0/14 PASS
+  locations: YouTube (above); Evernote archive note b3945d7d-945f-485a-97ce-47906a23f2dc (zip contains zh-hook.mp4); VM run folder final/shorts/zh-hook.mp4 (MD5 35b22308505b7fce59739ff035b82a63)
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 40 — Isaiah 40–49
+  language: zh
+  type: Short (funnel)
+  title: '2026 第40週｜在等候中記念祂的同在——七天操練'
+  published: '2026-11-26'
+  url: https://youtu.be/EF93o4RuxJU
+  native_id: EF93o4RuxJU
+  playlist: 來跟隨我 2026（中文）
+  archive_note: b3945d7d-945f-485a-97ce-47906a23f2dc
+  status: Live
+  machine: M1 mini (Shorts build)
+  toolset: L31–L40 Shorts graph with gate fixes (foreground darkening removed; end-card gentle lift)
+  qc: measured brightness mean luma 120.1, min 54.9, dark 0/14 PASS
+  locations: YouTube (above); Evernote archive note b3945d7d-945f-485a-97ce-47906a23f2dc (zip contains zh-funnel.mp4); VM run folder final/shorts/zh-funnel.mp4 (MD5 f48e55b188a0894fc6ace5c2dc479f59)
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 40 — Isaiah 40–49
+  language: en
+  type: Long
+  title: Come, Follow Me 2026 Week 40 (September 28–October 4) | Comfort Ye My People — Isaiah
+  published: '2026-11-26'
+  url: https://youtu.be/Fpvd9yEp8EM
+  native_id: Fpvd9yEp8EM
+  playlist: Come Follow Me 2026 (English)
+  archive_note: b52159c0-45d2-4d4d-b58c-42bf220f49fd
+  status: Live
+  machine: VM (upload) + M1 mini (Remotion render, BGM, mux, Shorts) + greentea8 (gates)
+  toolset: NotebookLM Audio Overview (v2 nameless sources) + frozen Gemini TTS intro/outro splice; faster-whisper-small gates; Remotion dv-remotion-template schema-1; BGM001 mix −8 dB
+  qc: gates PASS both languages, zero repairs (EN body clean, no AI self-mention block); BGM verify PASS; measured brightness mean luma 122.6, min 103.4, dark 0/14 PASS; full decode exit 0
+  locations: YouTube (above); Google Drive master — 米老爸频道母带 Masters/Come Follow Me 2026/Lesson 40 — Isaiah 40–49/en/cfm-bf40-en-bgm.mp4 (file 1XXgtfnRdPcX0giCWz0Kmv7mBI0SDT2gc, MD5 767308f49fddc1e543b8fa043bf51175); Evernote archive note b52159c0-45d2-4d4d-b58c-42bf220f49fd (Video Artifacts notebook, zip byte-verified); VM run folder podcast-runs/2026-11-01-cfm-backfill-40-isaiah-comfort
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 40 — Isaiah 40–49
+  language: en
+  type: Short (hook)
+  title: '2026 Week 40 | They That Wait Upon the Lord'
+  published: '2026-11-26'
+  url: https://youtu.be/5QlGsdo-Xv4
+  native_id: 5QlGsdo-Xv4
+  playlist: Come Follow Me 2026 (English)
+  archive_note: b52159c0-45d2-4d4d-b58c-42bf220f49fd
+  status: Live
+  machine: M1 mini (Shorts build)
+  toolset: L31–L40 Shorts graph with gate fixes (foreground darkening removed; end-card gentle lift)
+  qc: measured brightness mean luma 127.9, min 55.0, dark 0/14 PASS
+  locations: YouTube (above); Evernote archive note b52159c0-45d2-4d4d-b58c-42bf220f49fd (zip contains en-hook.mp4); VM run folder final/shorts/en-hook.mp4 (MD5 5c1334b3f7abbb91e61ca832a015caf8)
+- platform: YouTube
+  series: Come, Follow Me 2026
+  topic: Lesson 40 — Isaiah 40–49
+  language: en
+  type: Short (funnel)
+  title: '2026 Week 40 | Remembering His Presence — A Seven-Day Practice'
+  published: '2026-11-26'
+  url: https://youtu.be/7m62b00NmxI
+  native_id: 7m62b00NmxI
+  playlist: Come Follow Me 2026 (English)
+  archive_note: b52159c0-45d2-4d4d-b58c-42bf220f49fd
+  status: Live
+  machine: M1 mini (Shorts build)
+  toolset: L31–L40 Shorts graph with gate fixes (foreground darkening removed; end-card gentle lift)
+  qc: measured brightness mean luma 120.5, min 55.0, dark 0/14 PASS
+  locations: YouTube (above); Evernote archive note b52159c0-45d2-4d4d-b58c-42bf220f49fd (zip contains en-funnel.mp4); VM run folder final/shorts/en-funnel.mp4 (MD5 9929f87183579c0dc0ffd5ad65293c47)
 replaced_or_private:
 - platform: YouTube
   series: Come, Follow Me 2026
