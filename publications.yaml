@@ -8212,6 +8212,138 @@ publications:
   playlist: 매일의 말씀 · 한국어
   archive_note: 787ba176-85c3-45db-ad62-4928b6e9ef50
   status: Public
+- platform: YouTube
+  series: Lives of Light
+  topic: Arnold Schwarzenegger — Ep.1 Short S1 · See the end first
+  language: en
+  type: Short
+  title: 'Your Story Is Still Being Written — See the End First | Lives of Light Ep.1 #Shorts'
+  published: '2026-11-26'
+  url: https://www.youtube.com/shorts/w32K5rysAi0
+  native_id: w32K5rysAi0
+  playlist: Daily Motivational
+  status: Live
+- platform: YouTube
+  series: Lives of Light
+  topic: Arnold Schwarzenegger — Ep.1 Short S2 · It can be done
+  language: en
+  type: Short
+  title: '"It Can''t Be Done" — He Heard "It Can Be Done" | Lives of Light Ep.1 #Shorts'
+  published: '2026-11-26'
+  url: https://www.youtube.com/shorts/GIOrYLqUJUc
+  native_id: GIOrYLqUJUc
+  playlist: Daily Motivational
+  status: Live
+- platform: YouTube
+  series: Lives of Light
+  topic: Arnold Schwarzenegger — Ep.1 Short S3 · Fail and get up
+  language: en
+  type: Short
+  title: 'Fail and Get Up. That Is a Winner. | Lives of Light Ep.1 #Shorts'
+  published: '2026-11-26'
+  url: https://www.youtube.com/shorts/Br0O2DC3txY
+  native_id: Br0O2DC3txY
+  playlist: Daily Motivational
+  status: Live
+- platform: YouTube
+  series: Lives of Light
+  topic: Arnold Schwarzenegger — Ep.1 Short S1 · See the end first
+  language: zh
+  type: Short
+  title: '你的故事還在寫——先看見終點 | 光的故事 Ep.1 #Shorts'
+  published: '2026-11-26'
+  url: https://www.youtube.com/shorts/QBbRkFPwKSw
+  native_id: QBbRkFPwKSw
+  playlist: Daily Motivational
+  status: Live
+- platform: YouTube
+  series: Lives of Light
+  topic: Arnold Schwarzenegger — Ep.1 Short S2 · It can be done
+  language: zh
+  type: Short
+  title: '「做不到」——他聽見的是「做得到」 | 光的故事 Ep.1 #Shorts'
+  published: '2026-11-26'
+  url: https://www.youtube.com/shorts/r4C1wNWuYd8
+  native_id: r4C1wNWuYd8
+  playlist: Daily Motivational
+  status: Live
+- platform: YouTube
+  series: Lives of Light
+  topic: Arnold Schwarzenegger — Ep.1 Short S3 · Fail and get up
+  language: zh
+  type: Short
+  title: '跌倒了，就站起來。這就是贏家。 | 光的故事 Ep.1 #Shorts'
+  published: '2026-11-26'
+  url: https://www.youtube.com/shorts/kwYzuOgPUDc
+  native_id: kwYzuOgPUDc
+  playlist: Daily Motivational
+  status: Live
+- platform: YouTube
+  series: Lives of Light
+  topic: Arnold Schwarzenegger — Ep.1 Short S1 · See the end first
+  language: ja
+  type: Short
+  title: 'あなたの物語はまだ書かれている——まず結末を見よう | Lives of Light Ep.1 #Shorts'
+  published: '2026-11-26'
+  url: https://www.youtube.com/shorts/PY4WHL-LC9w
+  native_id: PY4WHL-LC9w
+  playlist: Daily Motivational
+  status: Live
+- platform: YouTube
+  series: Lives of Light
+  topic: Arnold Schwarzenegger — Ep.1 Short S2 · It can be done
+  language: ja
+  type: Short
+  title: '「できない」——彼には「できる」と聞こえた | Lives of Light Ep.1 #Shorts'
+  published: '2026-11-26'
+  url: https://www.youtube.com/shorts/Feci1Bk_fwQ
+  native_id: Feci1Bk_fwQ
+  playlist: Daily Motivational
+  status: Live
+- platform: YouTube
+  series: Lives of Light
+  topic: Arnold Schwarzenegger — Ep.1 Short S3 · Fail and get up
+  language: ja
+  type: Short
+  title: '倒れたら、立ち上がる。それが勝者。 | Lives of Light Ep.1 #Shorts'
+  published: '2026-11-26'
+  url: https://www.youtube.com/shorts/5SP6dQ75XRA
+  native_id: 5SP6dQ75XRA
+  playlist: Daily Motivational
+  status: Live
+- platform: YouTube
+  series: Lives of Light
+  topic: Arnold Schwarzenegger — Ep.1 Short S1 · See the end first
+  language: ko
+  type: Short
+  title: '당신의 이야기는 아직 쓰이고 있습니다 — 먼저 끝을 보세요 | Lives of Light Ep.1 #Shorts'
+  published: '2026-11-26'
+  url: https://www.youtube.com/shorts/pu8ylaPx_eU
+  native_id: pu8ylaPx_eU
+  playlist: Daily Motivational
+  status: Live
+- platform: YouTube
+  series: Lives of Light
+  topic: Arnold Schwarzenegger — Ep.1 Short S2 · It can be done
+  language: ko
+  type: Short
+  title: '"할 수 없다" — 그는 "할 수 있다"고 들었습니다 | Lives of Light Ep.1 #Shorts'
+  published: '2026-11-26'
+  url: https://www.youtube.com/shorts/R90dnisrmo4
+  native_id: R90dnisrmo4
+  playlist: Daily Motivational
+  status: Live
+- platform: YouTube
+  series: Lives of Light
+  topic: Arnold Schwarzenegger — Ep.1 Short S3 · Fail and get up
+  language: ko
+  type: Short
+  title: '넘어지면 일어나세요. 그것이 승자입니다. | Lives of Light Ep.1 #Shorts'
+  published: '2026-11-26'
+  url: https://www.youtube.com/shorts/3aCK6Du2sQs
+  native_id: 3aCK6Du2sQs
+  playlist: Daily Motivational
+  status: Live
 replaced_or_private:
 - platform: YouTube
   series: Come, Follow Me 2026
@@ -10091,3 +10223,6 @@ unverified:
   reason: New content line registered at publish time; archive note not yet created, archive_note left empty deliberately.
   action: Create the archive note for mWTY6CMdKPc, then backfill the archive_note GUID here.
   resolved: '2026-11-20 — DONE: Video Artifacts archive note created and get_note-verified — a9f7d912-50bc-42fb-9ae9-42ad81fe75ce (notebook e3612165-36fe-69bc-5933-a6c8d7501a44), covering all five pilot-001 videos (v1 EN mWTY6CMdKPc + v2 EN/ZH/JA/KO bCIEyY9GNHI / lxrp3fP48jY / 6YGL56IrX5Y / W3XELYuvvX8): YouTube links, Isaiah 40:31 texts in four languages, script points, locked Charon voice and mastering spec, PILOT.md key conclusions, master-file MD5s. archive_note GUID backfilled on all five rows in this update.'
+- item: Lives of Light Ep.1 Arnold Shorts S1-S3 (12 videos, published 2026-11-26) — Evernote archive notes not yet created
+  reason: Registered 2026-11-26 at publish time; the Video Artifacts archive notes for the Arnold episode (longs + Shorts) have not been built yet, so archive_note is absent on the twelve Shorts rows (and on the Ep.1 long rows), deliberately.
+  action: Build the Video Artifacts archive note(s) for Lives of Light Ep.1 (4 longs + 12 Shorts), verify landed, then backfill archive_note GUIDs on all Ep.1 rows.
