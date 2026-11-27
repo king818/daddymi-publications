@@ -2,7 +2,7 @@
 
 Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, filterable version: https://king818.github.io/daddymi-publications/
 
-**692 public videos** · 148 replaced/private versions · Come, Follow Me 2026: 285 · Daily Motivational: 13 · Daily Verse · Neville Readings: 329 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 30 · Lives of Light: 13 · Mi Xi Intro Podcast: 5 · Music Videos: 4 · Neville Inner Reading Podcast: 7
+**704 public videos** · 148 replaced/private versions · Come, Follow Me 2026: 285 · Daily Motivational: 13 · Daily Verse · Neville Readings: 341 · Finance Basics: 6 · General Conference Talks (Elders Quorum): 30 · Lives of Light: 13 · Mi Xi Intro Podcast: 5 · Music Videos: 4 · Neville Inner Reading Podcast: 7
 
 
 ## 來跟隨我 2026 — 中文（144）
@@ -300,10 +300,13 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-10-31 | [Week 45 · Ezekiel](https://www.youtube.com/shorts/HYBj9c6Z5EU)<br><sub>2026 Week 45 | God Goes to the Exiles | Ezekiel</sub> | Short (hook) | Come, Follow Me 2026 (English) | Archived · 777370cb | Live | `HYBj9c6Z5EU` |
 | 2026-10-31 | [Week 45 · Ezekiel](https://www.youtube.com/shorts/oCqZeKxPCdE)<br><sub>2026 Week 45 | A Heart of Flesh, Not Stone | Ezekiel</sub> | Short (funnel) | Come, Follow Me 2026 (English) | Archived · f18bffbe | Live | `oCqZeKxPCdE` |
 
-## 每日經文 · Neville 解讀 — 中文（129）
+## 每日經文 · Neville 解讀 — 中文（132）
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
+| 2026-11-27 | [2026-11-27 · 詩篇 100:4](https://youtu.be/2xJYe2Z3iqs)<br><sub>每日經文 2026-11-27 · Neville 解讀｜詩篇 100:4 當稱謝進入他的門，當讚美進入他的院</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 389a9d63 | 已發布 | `2xJYe2Z3iqs` |
+| 2026-11-27 | [2026-11-27 · 詩篇 100:4](https://www.youtube.com/shorts/75WJFMFWcZw)<br><sub>每日經文 2026-11-27｜詩篇 100:4 感謝是進入的路，不是進入之後的回禮</sub> | Short (short-hook) | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 389a9d63 | 已發布 | `75WJFMFWcZw` |
+| 2026-11-27 | [2026-11-27 · 詩篇 100:4](https://www.youtube.com/shorts/cwEhPWWj5xY)<br><sub>每日經文 2026-11-27｜詩篇 100:4 今天，你願意先為什麼事獻上感謝？</sub> | Short (short-funnel) | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 389a9d63 | 已發布 | `cwEhPWWj5xY` |
 | 2026-11-26 | [2026-11-25 · 哥林多前書 15:57](https://youtu.be/rjvoZpUdotM)<br><sub>每日經文 2026-11-25 · Neville 解讀｜哥林多前書 15:57 感謝上帝，使我們藉着我們的主耶穌基督得勝</sub> | 長集 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 974f6285 | 已發布 | `rjvoZpUdotM` |
 | 2026-11-26 | [2026-11-25 · 哥林多前書 15:57](https://www.youtube.com/shorts/XtceYXlgSSk)<br><sub>每日經文 2026-11-25｜哥林多前書 15:57 得勝是賜下的，不是掙來的</sub> | Short (short-hook) | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 974f6285 | 已發布 | `XtceYXlgSSk` |
 | 2026-11-26 | [2026-11-25 · 哥林多前書 15:57](https://www.youtube.com/shorts/H0C_dSnOpY4)<br><sub>每日經文 2026-11-25｜哥林多前書 15:57 你願意今天先為什麼事獻上感謝？</sub> | Short (short-funnel) | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 974f6285 | 已發布 | `H0C_dSnOpY4` |
@@ -434,10 +437,19 @@ Generated from `publications.yaml` by `generate.py` — do not hand-edit. Live, 
 | 2026-10-31 | [2026-10-31 · 提摩太後書 3:16-17](https://www.youtube.com/shorts/pvP-BoX9vN0)<br><sub>每日經文 2026-10-31｜提摩太後書 3:16-17｜聖經是你自己意識的自傳</sub> | Short · 鉤子 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · 1f8daa60 | 已發布 | `pvP-BoX9vN0` |
 | 2026-10-31 | [2026-10-31 · 提摩太後書 3:16-17](https://www.youtube.com/shorts/zMRz5A8ZLyg)<br><sub>每日經文 2026-10-31｜提摩太後書 3:16-17｜你不是等著被組裝的人</sub> | Short · 導入 | 每日經文 · Neville 解讀 2026（中文） | 已存档 · d7f07ddb | 已發布 | `zMRz5A8ZLyg` |
 
-## Daily Verse · Neville Readings — English (200)
+## Daily Verse · Neville Readings — English (209)
 
 | 發布 | 標題 | 類型 | 播放清單 | 存檔 | 狀態 | ID |
 |---|---|---|---|---|---|---|
+| 2026-11-27 | [2026-11-27 · Psalm 100:4](https://youtu.be/RzHZ1VVKv6M)<br><sub>Daily Verse 2026-11-27 · Psalm 100:4 | Enter Into His Gates with Thanksgiving</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · 469923a7 | Live | `RzHZ1VVKv6M` |
+| 2026-11-27 | [2026-11-27 · Psalm 100:4](https://www.youtube.com/shorts/ttcES30-lqQ)<br><sub>Daily Verse 2026-11-27 | Psalm 100:4 Thanksgiving Is the Way In</sub> | Short (short-hook) | Daily Verse · Neville Readings 2026 (English) | Archived · 469923a7 | Live | `ttcES30-lqQ` |
+| 2026-11-27 | [2026-11-27 · Psalm 100:4](https://www.youtube.com/shorts/2wlgOmV8xx8)<br><sub>Daily Verse 2026-11-27 | Psalm 100:4 What Will You Thank God for Before You See It?</sub> | Short (short-funnel) | Daily Verse · Neville Readings 2026 (English) | Archived · 469923a7 | Live | `2wlgOmV8xx8` |
+| 2026-11-27 | [2026-11-27 · Psalm 100:4](https://youtu.be/vQdcMeqQNz0)<br><sub>毎日の聖句 2026-11-27 · ネヴィル解読｜詩篇 100:4 感謝しつつ、その門に入り</sub> | Long | 毎日の聖句 · 日本語 | Archived · fcb8c581 | Live | `vQdcMeqQNz0` |
+| 2026-11-27 | [2026-11-27 · Psalm 100:4](https://www.youtube.com/shorts/esqU39KoYzw)<br><sub>毎日の聖句 2026-11-27｜詩篇 100:4 感謝こそ、入るための道</sub> | Short (short-hook) | 毎日の聖句 · 日本語 | Archived · fcb8c581 | Live | `esqU39KoYzw` |
+| 2026-11-27 | [2026-11-27 · Psalm 100:4](https://www.youtube.com/shorts/yW4I97VnVs4)<br><sub>毎日の聖句 2026-11-27｜詩篇 100:4 今日、まだ見ぬ恵みに先に感謝しませんか</sub> | Short (short-funnel) | 毎日の聖句 · 日本語 | Archived · fcb8c581 | Live | `yW4I97VnVs4` |
+| 2026-11-27 | [2026-11-27 · Psalm 100:4](https://youtu.be/BhXcdfVkqas)<br><sub>매일의 말씀 2026-11-27 · 네빌 해설｜시편 100:4 감사함으로 그의 문에 들어가며</sub> | Long | 매일의 말씀 · 한국어 | Archived · aba1e9c7 | Live | `BhXcdfVkqas` |
+| 2026-11-27 | [2026-11-27 · Psalm 100:4](https://www.youtube.com/shorts/9D1nzoESeVM)<br><sub>매일의 말씀 2026-11-27｜시편 100:4 감사는 들어가는 길입니다</sub> | Short (short-hook) | 매일의 말씀 · 한국어 | Archived · aba1e9c7 | Live | `9D1nzoESeVM` |
+| 2026-11-27 | [2026-11-27 · Psalm 100:4](https://www.youtube.com/shorts/RZTyDgJWEPs)<br><sub>매일의 말씀 2026-11-27｜시편 100:4 오늘, 아직 보지 못한 은혜에 먼저 감사하겠습니까</sub> | Short (short-funnel) | 매일의 말씀 · 한국어 | Archived · aba1e9c7 | Live | `RZTyDgJWEPs` |
 | 2026-11-26 | [2026-11-25 · 1 Corinthians 15:57](https://youtu.be/pMoFIaTSD9g)<br><sub>Daily Verse 2026-11-25 · 1 Corinthians 15:57 | But Thanks Be to God, Which Giveth Us the Victory</sub> | Long | Daily Verse · Neville Readings 2026 (English) | Archived · 4a128f64 | Live | `pMoFIaTSD9g` |
 | 2026-11-26 | [2026-11-25 · 1 Corinthians 15:57](https://www.youtube.com/shorts/LoB9v8RYUa0)<br><sub>Daily Verse 2026-11-25 | 1 Corinthians 15:57 The Victory Is Given, Not Earned</sub> | Short (short-hook) | Daily Verse · Neville Readings 2026 (English) | Archived · 4a128f64 | Live | `LoB9v8RYUa0` |
 | 2026-11-26 | [2026-11-25 · 1 Corinthians 15:57](https://www.youtube.com/shorts/3ubMTFN0KyM)<br><sub>Daily Verse 2026-11-25 | 1 Corinthians 15:57 What Will You Thank God for Today?</sub> | Short (short-funnel) | Daily Verse · Neville Readings 2026 (English) | Archived · 4a128f64 | Live | `3ubMTFN0KyM` |
