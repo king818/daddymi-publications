@@ -64,6 +64,9 @@
         padding:2.5px 8px;border-radius:8px;cursor:pointer;transition:color .3s,background .3s}
   .line:hover{background:rgba(233,212,138,.18)}
   .line.on{color:var(--ink);font-weight:700;background:rgba(233,212,138,.30)}
+  .lyrbox{max-height:46vh; overflow-y:auto; padding:6px 2px; scroll-behavior:smooth}
+  .line .tr{display:block; font-size:13px; line-height:1.55; color:var(--muted); font-weight:400; margin-top:2px; letter-spacing:.02em}
+  .line.on .tr{color:var(--ink-soft)}
   nav.back{margin-top:26px;background:var(--card);border:1px solid var(--hairline);border-radius:16px;
            padding:18px 22px;backdrop-filter:blur(3px)}
   nav.back .lbl{font-size:13px;color:var(--muted);letter-spacing:.22em;margin-bottom:10px}
@@ -115,70 +118,72 @@
   <section class="lyrics">
     <h2>歌詞 · Lyrics</h2>
     <p class="lyrhint">再生に合わせて歌詞が光ります。行をタップするとその行へ移動します。</p>
+<div class="lyrbox" id="lyrbox">
 <div class="sec">ヴァース 1</div>
-<div class="line" data-t="13.00">There&#x27;s a cup beside the window</div>
-<div class="line" data-t="16.54">And a page I haven&#x27;t read</div>
-<div class="line" data-t="20.12">All the things I couldn&#x27;t settle</div>
-<div class="line" data-t="22.72">Still are running through my head</div>
-<div class="line" data-t="26.35">I don&#x27;t need another answer</div>
-<div class="line" data-t="29.02">Wrapped in promises of ease</div>
-<div class="line" data-t="32.59">I just need a little silence</div>
-<div class="line" data-t="35.33">And the grace to bend my knees</div>
+<div class="line" data-t="13.00">There&#x27;s a cup beside the window<span class="tr">窓辺には一杯のカップ</span></div>
+<div class="line" data-t="16.54">And a page I haven&#x27;t read<span class="tr">まだ読んでいないページがある</span></div>
+<div class="line" data-t="20.12">All the things I couldn&#x27;t settle<span class="tr">落ち着かせることのできなかったすべてのことが</span></div>
+<div class="line" data-t="22.72">Still are running through my head<span class="tr">今も頭の中を巡っている</span></div>
+<div class="line" data-t="26.35">I don&#x27;t need another answer<span class="tr">別の答えはもういらない</span></div>
+<div class="line" data-t="29.02">Wrapped in promises of ease<span class="tr">安易な約束に包まれた</span></div>
+<div class="line" data-t="32.59">I just need a little silence<span class="tr">必要なのは少しの静けさと</span></div>
+<div class="line" data-t="35.33">And the grace to bend my knees<span class="tr">膝をかがめる恵みだけ</span></div>
 <div class="sec">プレコーラス</div>
-<div class="line" data-t="41.82">One word to carry</div>
-<div class="line" data-t="45.12">One truth to keep</div>
-<div class="line" data-t="48.70">A seed of heaven</div>
-<div class="line" data-t="51.08">Planted deep</div>
+<div class="line" data-t="41.82">One word to carry<span class="tr">携えていく一つの言葉</span></div>
+<div class="line" data-t="45.12">One truth to keep<span class="tr">守り続ける一つの真理</span></div>
+<div class="line" data-t="48.70">A seed of heaven<span class="tr">天の種が</span></div>
+<div class="line" data-t="51.08">Planted deep<span class="tr">深く植えられている</span></div>
 <div class="sec">ヴァース 2</div>
-<div class="line" data-t="57.06">I have hurried past the hurting</div>
-<div class="line" data-t="60.48">I have answered fear with fear</div>
-<div class="line" data-t="63.72">I have filled the room with talking</div>
-<div class="line" data-t="66.46">When I needed just to hear</div>
-<div class="line" data-t="70.12">So I open up the Scriptures</div>
-<div class="line" data-t="72.94">Let the hurried moments slow</div>
-<div class="line" data-t="75.50">And I ask You, Lord, to show me</div>
-<div class="line" data-t="79.56">What my heart still needs to know</div>
+<div class="line" data-t="57.06">I have hurried past the hurting<span class="tr">痛みを急いで通り過ぎてきた</span></div>
+<div class="line" data-t="60.48">I have answered fear with fear<span class="tr">恐れに恐れで応えてきた</span></div>
+<div class="line" data-t="63.72">I have filled the room with talking<span class="tr">部屋を言葉で満たしてきた</span></div>
+<div class="line" data-t="66.46">When I needed just to hear<span class="tr">ただ聞くことが必要だった時に</span></div>
+<div class="line" data-t="70.12">So I open up the Scriptures<span class="tr">だから聖書を開き</span></div>
+<div class="line" data-t="72.94">Let the hurried moments slow<span class="tr">慌ただしい時間の流れを緩める</span></div>
+<div class="line" data-t="75.50">And I ask You, Lord, to show me<span class="tr">主よ、どうか示してください</span></div>
+<div class="line" data-t="79.56">What my heart still needs to know<span class="tr">私の心がまだ知るべきことを</span></div>
 <div class="sec">コーラス 1</div>
-<div class="line" data-t="82.98">Make me a little more like light</div>
-<div class="line" data-t="86.66">A little more gentle, a little more kind</div>
-<div class="line" data-t="89.64">Teach me to love when the road gets hard</div>
-<div class="line" data-t="92.88">To see with mercy, to speak with heart</div>
-<div class="line" data-t="95.88">I don&#x27;t have to change the world tonight</div>
-<div class="line" data-t="98.74">Just let Your word reshape my life</div>
-<div class="line" data-t="102.34">One faithful step, one day at a time</div>
-<div class="line" data-t="107.16">Make me a little more like light</div>
+<div class="line" data-t="82.98">Make me a little more like light<span class="tr">私をもう少し、光のようにしてください</span></div>
+<div class="line" data-t="86.66">A little more gentle, a little more kind<span class="tr">もう少し穏やかに、もう少し優しく</span></div>
+<div class="line" data-t="89.64">Teach me to love when the road gets hard<span class="tr">道が険しくなる時、愛することを教えてください</span></div>
+<div class="line" data-t="92.88">To see with mercy, to speak with heart<span class="tr">憐れみをもって見て、心をもって語れるように</span></div>
+<div class="line" data-t="95.88">I don&#x27;t have to change the world tonight<span class="tr">今夜、世界を変えなくてもいい</span></div>
+<div class="line" data-t="98.74">Just let Your word reshape my life<span class="tr">ただ、あなたの言葉が私の人生を造り変えてくださいますように</span></div>
+<div class="line" data-t="102.34">One faithful step, one day at a time<span class="tr">忠実な一歩を、一日ずつ</span></div>
+<div class="line" data-t="107.16">Make me a little more like light<span class="tr">私をもう少し、光のようにしてください</span></div>
 <div class="sec">ブリッジ A</div>
-<div class="line" data-t="116.44">When the day is full of questions</div>
-<div class="line" data-t="119.24">And the good is hard to see</div>
-<div class="line" data-t="122.11">Let the words I read this morning</div>
-<div class="line" data-t="126.40">Find their living place in me</div>
-<div class="line" data-t="129.06">Not a feeling I must hold on to</div>
-<div class="line" data-t="132.00">Not a moment I must chase</div>
-<div class="line" data-t="134.38">But a quiet, growing courage</div>
-<div class="line" data-t="137.78">To walk forward in Your grace</div>
+<div class="line" data-t="116.44">When the day is full of questions<span class="tr">一日が問いで満ちる時</span></div>
+<div class="line" data-t="119.24">And the good is hard to see<span class="tr">善いものが見えにくい時</span></div>
+<div class="line" data-t="122.11">Let the words I read this morning<span class="tr">今朝読んだ言葉が</span></div>
+<div class="line" data-t="126.40">Find their living place in me<span class="tr">私の中で、生きる場所を見つけますように</span></div>
+<div class="line" data-t="129.06">Not a feeling I must hold on to<span class="tr">つかみ続けなければならない感情ではなく</span></div>
+<div class="line" data-t="132.00">Not a moment I must chase<span class="tr">追いかけなければならない瞬間でもなく</span></div>
+<div class="line" data-t="134.38">But a quiet, growing courage<span class="tr">静かに育っていく勇気として</span></div>
+<div class="line" data-t="137.78">To walk forward in Your grace<span class="tr">あなたの恵みの中で、前へ歩むために</span></div>
 <div class="sec">ブリッジ B</div>
-<div class="line" data-t="141.38">In the work I leave unfinished</div>
-<div class="line" data-t="147.12">In the words I choose to say</div>
-<div class="line" data-t="150.08">In the hands I offer freely</div>
-<div class="line" data-t="153.54">In the love I give away</div>
-<div class="line" data-t="155.98">Let the truth become my practice</div>
-<div class="line" data-t="159.78">Let compassion be my song</div>
-<div class="line" data-t="162.96">And when I forget the way, Lord</div>
-<div class="line" data-t="165.86">Turn my wandering heart toward home</div>
+<div class="line" data-t="141.38">In the work I leave unfinished<span class="tr">終えられなかった仕事の中でも</span></div>
+<div class="line" data-t="147.12">In the words I choose to say<span class="tr">私が選ぶ言葉の中でも</span></div>
+<div class="line" data-t="150.08">In the hands I offer freely<span class="tr">喜んで差し出す手の中でも</span></div>
+<div class="line" data-t="153.54">In the love I give away<span class="tr">与える愛の中でも</span></div>
+<div class="line" data-t="155.98">Let the truth become my practice<span class="tr">真理が私の実践となりますように</span></div>
+<div class="line" data-t="159.78">Let compassion be my song<span class="tr">憐れみが私の歌となりますように</span></div>
+<div class="line" data-t="162.96">And when I forget the way, Lord<span class="tr">主よ、私が道を忘れる時</span></div>
+<div class="line" data-t="165.86">Turn my wandering heart toward home<span class="tr">さまよう心を、故郷へ向けてください</span></div>
 <div class="sec">コーラス 2</div>
-<div class="line" data-t="169.70">Make me a little more like light</div>
-<div class="line" data-t="173.10">A little more patient, a little more kind</div>
-<div class="line" data-t="175.86">When I cannot see the road ahead</div>
-<div class="line" data-t="178.98">Let Your promise guide the steps I tread</div>
-<div class="line" data-t="181.98">I don&#x27;t have to change the world tonight</div>
-<div class="line" data-t="184.98">Just let Your word reshape my life</div>
-<div class="line" data-t="188.54">One faithful step, one day at a time</div>
-<div class="line" data-t="193.69">Make me a little more like light</div>
+<div class="line" data-t="169.70">Make me a little more like light<span class="tr">私をもう少し、光のようにしてください</span></div>
+<div class="line" data-t="173.10">A little more patient, a little more kind<span class="tr">もう少し忍耐強く、もう少し優しく</span></div>
+<div class="line" data-t="175.86">When I cannot see the road ahead<span class="tr">前の道が見えない時</span></div>
+<div class="line" data-t="178.98">Let Your promise guide the steps I tread<span class="tr">あなたの約束が、私の歩む一歩一歩を導きますように</span></div>
+<div class="line" data-t="181.98">I don&#x27;t have to change the world tonight<span class="tr">今夜、世界を変えなくてもいい</span></div>
+<div class="line" data-t="184.98">Just let Your word reshape my life<span class="tr">ただ、あなたの言葉が私の人生を造り変えてくださいますように</span></div>
+<div class="line" data-t="188.54">One faithful step, one day at a time<span class="tr">忠実な一歩を、一日ずつ</span></div>
+<div class="line" data-t="193.69">Make me a little more like light<span class="tr">私をもう少し、光のようにしてください</span></div>
 <div class="sec">アウトロ</div>
-<div class="line" data-t="197.44">One word to carry</div>
-<div class="line" data-t="203.14">One day to live</div>
-<div class="line" data-t="206.50">A little more like light</div>
-<div class="line" data-t="213.34">In the love I give</div>
+<div class="line" data-t="197.44">One word to carry<span class="tr">携えていく一つの言葉</span></div>
+<div class="line" data-t="203.14">One day to live<span class="tr">生きるべき一日</span></div>
+<div class="line" data-t="206.50">A little more like light<span class="tr">もう少し、光のように</span></div>
+<div class="line" data-t="213.34">In the love I give<span class="tr">私が与える愛の中で</span></div>
+</div>
   </section>
 
   <nav class="back">
@@ -207,7 +212,7 @@
     if(cur>=0&&lines[cur])lines[cur].classList.remove('on');
     cur=i;
     if(cur>=0&&lines[cur]){lines[cur].classList.add('on');
-      lines[cur].scrollIntoView({block:'center',behavior:'smooth'});}
+      (function(){var box=document.getElementById('lyrbox'); if(!box) return; var br=box.getBoundingClientRect(), lr=lines[cur].getBoundingClientRect(); box.scrollTo({top:Math.max(0, box.scrollTop+(lr.top-br.top)-(box.clientHeight-lr.height)/2), behavior:'smooth'});})();}
   }
   v.addEventListener('timeupdate',function(){
     var t=v.currentTime,i=-1;

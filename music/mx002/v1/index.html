@@ -64,6 +64,9 @@
         padding:2.5px 8px;border-radius:8px;cursor:pointer;transition:color .3s,background .3s}
   .line:hover{background:rgba(233,212,138,.18)}
   .line.on{color:var(--ink);font-weight:700;background:rgba(233,212,138,.30)}
+  .lyrbox{max-height:46vh; overflow-y:auto; padding:6px 2px; scroll-behavior:smooth}
+  .line .tr{display:block; font-size:13px; line-height:1.55; color:var(--muted); font-weight:400; margin-top:2px; letter-spacing:.02em}
+  .line.on .tr{color:var(--ink-soft)}
   nav.back{margin-top:26px;background:var(--card);border:1px solid var(--hairline);border-radius:16px;
            padding:18px 22px;backdrop-filter:blur(3px)}
   nav.back .lbl{font-size:13px;color:var(--muted);letter-spacing:.22em;margin-bottom:10px}
@@ -115,6 +118,7 @@
   <section class="lyrics">
     <h2>歌词 · Lyrics</h2>
     <p class="lyrhint">播放时歌词会跟着唱亮起；点任一句歌词，可跳到那一句。</p>
+<div class="lyrbox" id="lyrbox">
 <div class="sec">主歌一</div>
 <div class="line" data-t="13.00">There&#x27;s a cup beside the window</div>
 <div class="line" data-t="16.54">And a page I haven&#x27;t read</div>
@@ -179,6 +183,7 @@
 <div class="line" data-t="203.14">One day to live</div>
 <div class="line" data-t="206.50">A little more like light</div>
 <div class="line" data-t="213.34">In the love I give</div>
+</div>
   </section>
 
   <nav class="back">
@@ -207,7 +212,7 @@
     if(cur>=0&&lines[cur])lines[cur].classList.remove('on');
     cur=i;
     if(cur>=0&&lines[cur]){lines[cur].classList.add('on');
-      lines[cur].scrollIntoView({block:'center',behavior:'smooth'});}
+      (function(){var box=document.getElementById('lyrbox'); if(!box) return; var br=box.getBoundingClientRect(), lr=lines[cur].getBoundingClientRect(); box.scrollTo({top:Math.max(0, box.scrollTop+(lr.top-br.top)-(box.clientHeight-lr.height)/2), behavior:'smooth'});})();}
   }
   v.addEventListener('timeupdate',function(){
     var t=v.currentTime,i=-1;

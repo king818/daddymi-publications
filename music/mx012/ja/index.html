@@ -59,6 +59,8 @@
   .lyrics p.on{color:var(--accent-dark); font-weight:700; background:var(--line); font-size:21px; opacity:1;}
   .lyrics p.seg{font-size:13px; letter-spacing:.3em; color:var(--accent); text-align:center; padding:0 10px 2px; cursor:default; margin-top:14px;}
   .lyrics p.seg:first-child{margin-top:0;}
+  .lyrics p .tr{display:block; font-size:13px; line-height:1.55; color:var(--muted); font-weight:400; margin-top:2px; letter-spacing:.02em;}
+  .lyrics p.on .tr{color:var(--ink);}
   .credit{background:rgba(127,110,80,.07); border:1px solid var(--line); border-radius:10px; padding:12px 16px; font-size:15px; margin-top:14px; white-space:pre-line; text-align:center;}
   footer{text-align:center; color:var(--muted); font-size:13.5px; margin-top:36px;}
   footer a{color:var(--accent-dark);}
@@ -136,70 +138,70 @@
     <h2>聴く · 歌詞全文</h2>
     <p class="playerline"><strong>米曦 Mi Xi 歌唱 🎶 ／ AI バーチャル歌手 · 音楽と歌唱は AI 生成の支援を受けています</strong></p>
     <audio class="song" id="songAudio" controls preload="metadata" src="/music/mx012/song.mp3"></audio>
-    <p class="muted">歌詞は原詞を忠実に翻訳したものです。歌声に合わせて一行ずつ光ります。任意の行をタップすると、その行へ移動します。</p>
+    <p class="muted">中国語の原詞を上に、忠実な日本語訳を各行の下に添えています。歌声に合わせて一行ずつ光ります。任意の行をタップすると、その行へ移動します。</p>
     <div class="lyrics">
         <p class="seg">バース1</p>
-        <p>あなたはうつむき、手元の仕事に追われ</p>
-        <p>黄昏の光が、肩に落ちる</p>
-        <p>かつて彼女が引き受けた仕事を、今はあなたが</p>
-        <p>二人の手で、日々をゆっくりと生きてきた</p>
-        <p>あの年月、どれほどの道を歩いただろう</p>
-        <p>苦労もあれば、張り合いもあった</p>
-        <p>今もあなたは、こうして忙しくしている</p>
-        <p>彼女の名前は、心の中に残っている</p>
+        <p>你低着头，忙着手里的活<span class="tr">あなたはうつむき、手元の仕事に追われ</span></p>
+        <p>黄昏的光，落在肩头<span class="tr">黄昏の光が、肩に落ちる</span></p>
+        <p>从前她接下的活，你来做<span class="tr">かつて彼女が引き受けた仕事を、今はあなたが</span></p>
+        <p>两双手，把日子慢慢过<span class="tr">二人の手で、日々をゆっくりと生きてきた</span></p>
+        <p>那些年，走过多少路<span class="tr">あの年月、どれほどの道を歩いただろう</span></p>
+        <p>有辛苦，也有奔头<span class="tr">苦労もあれば、張り合いもあった</span></p>
+        <p>如今你还是这样忙着<span class="tr">今もあなたは、こうして忙しくしている</span></p>
+        <p>她的名字，留在心头<span class="tr">彼女の名前は、心の中に残っている</span></p>
         <p class="seg">コーラス</p>
-        <p>彼女はすべての光を持って行かなかった</p>
-        <p>いくらかは、あなたのそばに残っている</p>
-        <p>家の中の、平凡な日常に残り</p>
-        <p>あなたの、忙しい手のひらに残っている</p>
-        <p>いつも強くなくていい</p>
-        <p>彼女が恋しいときは、静かに想えばいい</p>
-        <p>共に歩いたあの時間は</p>
-        <p>今も心の中で、そっと光っている</p>
+        <p>她没有带走所有的光<span class="tr">彼女はすべての光を持って行かなかった</span></p>
+        <p>还有一些，留在你身旁<span class="tr">いくらかは、あなたのそばに残っている</span></p>
+        <p>留在家里，平凡的日常<span class="tr">家の中の、平凡な日常に残り</span></p>
+        <p>留在你，忙碌的手掌<span class="tr">あなたの、忙しい手のひらに残っている</span></p>
+        <p>你不必总是那么坚强<span class="tr">いつも強くなくていい</span></p>
+        <p>偶尔想她，就静静想<span class="tr">彼女が恋しいときは、静かに想えばいい</span></p>
+        <p>一起走过的那些时光<span class="tr">共に歩いたあの時間は</span></p>
+        <p>还在心里，轻轻发亮<span class="tr">今も心の中で、そっと光っている</span></p>
         <p class="seg">バース2</p>
-        <p>昔の家には、どれほどの年月が詰まっていただろう</p>
-        <p>やがて、もっと小さな屋根の下へ移った</p>
-        <p>家は小さくなり、日々は軽くなった</p>
-        <p>二人で、ようやく一息つけた</p>
-        <p>子どもたちは大きくなり、その子どもたちも</p>
-        <p>成長の年月を歩んできた</p>
-        <p>苦労の道のりに、少しずつ答えが見えてきた</p>
-        <p>言葉にしなくていい慰めもある</p>
+        <p>从前的家，装过多少年<span class="tr">昔の家には、どれほどの年月が詰まっていただろう</span></p>
+        <p>后来换了，更小的屋檐<span class="tr">やがて、もっと小さな屋根の下へ移った</span></p>
+        <p>房子小了，日子轻了<span class="tr">家は小さくなり、日々は軽くなった</span></p>
+        <p>两个人，终于能歇一歇<span class="tr">二人で、ようやく一息つけた</span></p>
+        <p>孩子大了，孩子的孩子<span class="tr">子どもたちは大きくなり、その子どもたちも</span></p>
+        <p>也走过了，成长的岁月<span class="tr">成長の年月を歩んできた</span></p>
+        <p>一路辛苦，慢慢有了答案<span class="tr">苦労の道のりに、少しずつ答えが見えてきた</span></p>
+        <p>有些欣慰，不必说出来<span class="tr">言葉にしなくていい慰めもある</span></p>
         <p class="seg">コーラス</p>
-        <p>彼女はすべての光を持って行かなかった</p>
-        <p>いくらかは、あなたのそばに残っている</p>
-        <p>家の中の、平凡な日常に残り</p>
-        <p>あなたの、忙しい手のひらに残っている</p>
-        <p>いつも強くなくていい</p>
-        <p>彼女が恋しいときは、静かに想えばいい</p>
-        <p>共に歩いたあの時間は</p>
-        <p>今も心の中で、そっと光っている</p>
+        <p>她没有带走所有的光<span class="tr">彼女はすべての光を持って行かなかった</span></p>
+        <p>还有一些，留在你身旁<span class="tr">いくらかは、あなたのそばに残っている</span></p>
+        <p>留在家里，平凡的日常<span class="tr">家の中の、平凡な日常に残り</span></p>
+        <p>留在你，忙碌的手掌<span class="tr">あなたの、忙しい手のひらに残っている</span></p>
+        <p>你不必总是那么坚强<span class="tr">いつも強くなくていい</span></p>
+        <p>偶尔想她，就静静想<span class="tr">彼女が恋しいときは、静かに想えばいい</span></p>
+        <p>一起走过的那些时光<span class="tr">共に歩いたあの時間は</span></p>
+        <p>还在心里，轻轻发亮<span class="tr">今も心の中で、そっと光っている</span></p>
         <p class="seg">ブリッジ</p>
-        <p>この一生、忙しくしているうちに</p>
-        <p>こんなにも年月が過ぎていた</p>
-        <p>ようやく、日々が軽くなったのに</p>
-        <p>そばに、一人いなくなっていた</p>
-        <p>いつかあなたが、手を止めて</p>
-        <p>黄昏をゆっくり過ぎさせるとき</p>
-        <p>大きくなった子どもたちのことを想い</p>
-        <p>彼女が共に歩いた道のことも想って</p>
+        <p>这一生，忙着忙着<span class="tr">この一生、忙しくしているうちに</span></p>
+        <p>就走过了，那么多年<span class="tr">こんなにも年月が過ぎていた</span></p>
+        <p>好不容易，日子轻了<span class="tr">ようやく、日々が軽くなったのに</span></p>
+        <p>却少了一个人，在身边<span class="tr">そばに、一人いなくなっていた</span></p>
+        <p>若有一天，你停下双手<span class="tr">いつかあなたが、手を止めて</span></p>
+        <p>让黄昏，慢慢地经过<span class="tr">黄昏をゆっくり過ぎさせるとき</span></p>
+        <p>想想那些，已经长大的孩子<span class="tr">大きくなった子どもたちのことを想い</span></p>
+        <p>也想想，她陪你走过的路<span class="tr">彼女が共に歩いた道のことも想って</span></p>
         <p class="seg">ラストコーラス</p>
-        <p>彼女はすべての光を持って行かなかった</p>
-        <p>いくらかは、あなたのそばに残っている</p>
-        <p>家の中の、平凡な日常に残り</p>
-        <p>あなたの、温かな手のひらに残っている</p>
-        <p>忘れなくていい、無理もしなくていい</p>
-        <p>恋しいときは、静かに想えばいい</p>
-        <p>この一生、彼女がそばにいてくれたこと</p>
-        <p>それだけで、宝物がこんなにもある</p>
+        <p>她没有带走所有的光<span class="tr">彼女はすべての光を持って行かなかった</span></p>
+        <p>还有一些，留在你身旁<span class="tr">いくらかは、あなたのそばに残っている</span></p>
+        <p>留在家里，平凡的日常<span class="tr">家の中の、平凡な日常に残り</span></p>
+        <p>留在你，温暖的手掌<span class="tr">あなたの、温かな手のひらに残っている</span></p>
+        <p>不必忘记，也不必勉强<span class="tr">忘れなくていい、無理もしなくていい</span></p>
+        <p>想她的时候，就静静想<span class="tr">恋しいときは、静かに想えばいい</span></p>
+        <p>这一生，有过她的陪伴<span class="tr">この一生、彼女がそばにいてくれたこと</span></p>
+        <p>已有那么多，值得珍藏<span class="tr">それだけで、宝物がこんなにもある</span></p>
         <p class="seg">静かなコーダ</p>
-        <p>黄昏の光が、ゆっくりと伸びていく</p>
-        <p>あなたは手元の忙しさを下ろす</p>
-        <p>風がそっと過ぎ、日々がそっと過ぎる</p>
-        <p>一つの愛が、今もそばにある</p>
-        <p>今もそばに……</p>
-        <p>そっと……</p>
-        <p>光のように……</p>
+        <p>黄昏的光，慢慢变长<span class="tr">黄昏の光が、ゆっくりと伸びていく</span></p>
+        <p>你放下手里的忙<span class="tr">あなたは手元の忙しさを下ろす</span></p>
+        <p>风轻轻过，日子轻轻过<span class="tr">風がそっと過ぎ、日々がそっと過ぎる</span></p>
+        <p>有一份爱，还在身旁<span class="tr">一つの愛が、今もそばにある</span></p>
+        <p>还在身旁……<span class="tr">今もそばに……</span></p>
+        <p>轻轻的……<span class="tr">そっと……</span></p>
+        <p>像光……<span class="tr">光のように……</span></p>
     </div>
   </section>
   <section id="mv">
