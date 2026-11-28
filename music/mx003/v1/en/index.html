@@ -76,6 +76,8 @@
   .langbar a.active{background:var(--gold-deep);color:#fff;border-color:var(--gold-deep);font-weight:700}
   .langbar .langsep{color:var(--muted);font-size:14px}
   footer .rule{width:56px;height:1px;background:var(--gold);margin:0 auto 14px;opacity:.7}
+
+  .lyrbox{position:relative;max-height:44vh;overflow-y:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;padding:6px 2px;border-top:1px solid var(--hairline);border-bottom:1px solid var(--hairline)}
 </style>
 </head>
 <body>
@@ -115,6 +117,7 @@
   <section class="lyrics">
     <h2>Lyrics</h2>
     <p class="lyrhint">The lyrics light up as the song plays; tap any line to jump to it.</p>
+<div class="lyrbox" id="lyrbox">
 <div class="sec">Verse 1</div>
 <div class="line" data-t="14.04">海风轻轻吹过窗台</div>
 <div class="line" data-t="21.38">晨光落在你肩上</div>
@@ -138,6 +141,7 @@
 <div class="sec">Outro · Chorus Reprise</div>
 <div class="line" data-t="137.50">愿你心里有光，脚下有路</div>
 <div class="line" data-t="143.94">平安健康，日子不慌不忙</div>
+</div>
   </section>
 
   <nav class="back">
@@ -166,7 +170,9 @@ A Daddy Mi production · "May There Be Light in Your Heart" photo-film preview (
     if(cur>=0&&lines[cur])lines[cur].classList.remove('on');
     cur=i;
     if(cur>=0&&lines[cur]){lines[cur].classList.add('on');
-      lines[cur].scrollIntoView({block:'center',behavior:'smooth'});}
+      var box=document.getElementById('lyrbox');
+      if(box){var br=box.getBoundingClientRect(),er=lines[cur].getBoundingClientRect();
+        box.scrollTo({top:box.scrollTop+(er.top-br.top)-box.clientHeight/2+er.height/2,behavior:'smooth'});}}
   }
   v.addEventListener('timeupdate',function(){
     var t=v.currentTime,i=-1;
