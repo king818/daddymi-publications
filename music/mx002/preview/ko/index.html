@@ -50,6 +50,9 @@
   .sample1{margin:26px auto 4px;max-width:620px;border:1px solid rgba(216,110,95,.55);background:rgba(216,110,95,.08);border-radius:12px;padding:14px 18px;text-align:center}
   .sample1 b{display:block;color:#e2a093;font-size:15px;letter-spacing:.14em;margin-bottom:6px}
   .sample1 p{margin:0;color:var(--muted);font-size:13.5px;line-height:1.85}
+  .status{margin:26px auto 4px;max-width:620px;border:1px solid rgba(201,162,39,.55);background:rgba(201,162,39,.08);border-radius:12px;padding:14px 18px;text-align:center}
+  .status b{display:block;color:var(--gold-deep);font-size:15px;letter-spacing:.14em;margin-bottom:6px}
+  .status p{margin:0;color:var(--muted);font-size:13.5px;line-height:1.85}
   .player{background:var(--card);border:1px solid var(--hairline);border-radius:16px;
           padding:18px;margin-top:22px;backdrop-filter:blur(3px)}
   .player video{width:100%;display:block;border-radius:10px;background:#10161d}
@@ -57,6 +60,7 @@
   .meta .t{font-size:19px;letter-spacing:.03em}
   .chip{font-size:12px;padding:3px 11px;border-radius:999px;border:1px solid var(--gold-soft);
         color:var(--gold-deep);background:rgba(233,212,138,.18);letter-spacing:.08em}
+  .credits{margin-top:14px;text-align:center;color:var(--ink-soft);font-size:15px;letter-spacing:.06em}
   nav.back{margin-top:26px;background:var(--card);border:1px solid var(--hairline);border-radius:16px;
            padding:18px 22px;backdrop-filter:blur(3px)}
   nav.back .lbl{font-size:13px;color:var(--muted);letter-spacing:.22em;margin-bottom:10px}
@@ -99,6 +103,22 @@
       <span class="chip">3:54</span>
       <span class="chip">내부 검토판</span>
     </div>
+  </section>
+
+  <div class="status">
+    <b>버전 안내 · R10 재검토 대기</b>
+    <p>이 영상은 2026-11-24에 조립이 완료된 R10 미리보기 버전입니다(InfiniteTalk 노래 세그먼트 14개, 480p, 자막 가사 및 엔딩 크레딧 카드 포함). 2026-11-25 검토 당시 입 모양이 노래·가사와 완전히 맞지 않는다는 지적이 있었습니다. 이 페이지에서는 R10 원본을 어떤 수정도 없이 그대로 재검토용으로 제시합니다.</p>
+  </div>
+
+  <section class="player">
+    <video id="r10video" controls preload="metadata" playsinline poster="/music/mx002/preview-r10/poster.jpg" src="https://daddymi-media-1542185912.cos.ap-guangzhou.myqcloud.com/mx002/preview-r10/mx002-r10-full-480p.mp4"></video>
+    <div class="meta">
+      <span class="t">A Little More Like Light — MTV R10 전편</span>
+      <span class="chip">1:34</span>
+      <span class="chip">480p</span>
+      <span class="chip">R10 검토판</span>
+    </div>
+    <p class="credits">监制 米老爸 Daddy Mi · 制作 Amani 团队</p>
   </section>
 
   <nav class="back">
